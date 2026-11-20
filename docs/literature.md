@@ -78,6 +78,16 @@ The paper studies how invariant and spurious features can be learned at differen
 
 **Project consequence:** a future nuisance-feature experiment could test whether optimization geometry changes sensitivity to spurious correlations. This is optional, requires its own controlled protocol, and is not evaluated by the initial CPU pilot. The present method is not FeAT and the core two-moons experiment supports no OOD claim.
 
+## Evaluation design reading
+
+### 7. Cawley and Talbot (2010): selection itself can overfit
+
+**Gavin C. Cawley and Nicola L. C. Talbot. On Over-fitting in Model Selection and Subsequent Selection Bias in Performance Evaluation. Journal of Machine Learning Research 11(70):2079-2107, 2010.** [Publisher page and paper](https://jmlr.org/papers/v11/cawley10a.html)
+
+The authors show that optimizing a finite-sample selection criterion can introduce overfitting and bias in subsequent performance comparisons. A good validation score after searching configurations is not automatically an independent estimate of generalization.
+
+**Project consequence:** stage 4 declares its finite grids, candidate budget, terminal validation objective, and tie rules before execution. Its three-seed validation scores are development evidence. The subsequent formal study uses fresh, declared data and initialization seeds with frozen hyperparameters. These controls do not imply that selection bias disappears or that a small grid finds globally optimal settings. See the [tuning protocol](tuning_protocol.md).
+
 ## Questions the experiments can answer
 
 1. Does the implemented update agree with its local linear and spectral predictions?

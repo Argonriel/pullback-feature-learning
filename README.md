@@ -6,14 +6,15 @@ The research question is whether the pullback update produces more useful featur
 
 ## Current status
 
-Stages 1-3 are implemented and verified:
+Stages 1-4 are implemented and verified:
 
 - A fixed experimental specification, explicit NumPy implementation, and reproducibility records.
-- Mathematical derivations and 10 passing independent numerical tests.
+- Mathematical derivations and 26 passing numerical, selection-policy, and execution tests.
 - A 200-step paired CPU pilot, with learning curves, feature clouds, checkpoint spectra, timings, and raw records.
-- A review of six primary research papers, with precise distinctions from Fisher and Wasserstein natural gradients.
+- A review of seven primary research papers, with precise distinctions from Fisher and Wasserstein natural gradients and an explicit treatment of selection bias.
+- A predeclared validation-only tuning batch: 12 configurations per method, three paired development seeds, and 2,000 updates per run (72 runs, all completed).
 
-The pilot uses one paired seed and illustrative hyperparameters. **It is not a tuned comparison or a claim of optimizer superiority.** Test data are specified but neither generated nor evaluated. Equal-budget tuning, at least three formal paired seeds, and held-out linear probes remain subsequent stages.
+The pilot uses one paired seed and illustrative hyperparameters. **Neither the pilot nor the selected development scores establish optimizer superiority.** Stage 4 selected GD learning rate **0.125** and pullback learning rate **8** with damping **0.1**, using mean terminal validation loss. Test and formal data remain ungenerated and unevaluated. At least three fresh formal paired seeds and held-out linear probes remain subsequent stages. The selected damping is at the upper boundary of the declared search grid; no post-hoc expansion was performed.
 
 ## Read the project
 
@@ -21,12 +22,16 @@ The pilot uses one paired seed and illustrative hyperparameters. **It is not a t
 | --- | --- |
 | [Experimental protocol](docs/protocol.md) | Data, initialization, timing boundaries, pilot exit criteria, and subsequent stages |
 | [Mathematics](docs/mathematics.md) | Update derivation, SVD factors, local descent, nullspaces, and damping |
-| [Literature review](docs/literature.md) | Six primary papers and their specific consequences for this experiment |
+| [Literature review](docs/literature.md) | Seven primary papers and their specific consequences for this experiment |
 | [References](docs/references.bib) | Verified BibTeX metadata |
 | [Original proposal](docs/proposal.tex) | The source project scope |
 | [Numerical verification](reports/verification.json) | Measured errors and acceptance tolerances |
 | [Pilot results](reports/pilot/README.md) | Recorded results, curves, and raw artifacts |
 | [Pilot interpretation](docs/pilot_findings.md) | What the measurements establish and the next experimental budget |
+| [Predeclared tuning protocol](docs/tuning_protocol.md) | Candidate grids, equal trial budgets, selection rules, and formal endpoints |
+| [Tuning results](reports/tuning-v1/README.md) | All 72 runs, candidate rankings, raw records, and measured costs |
+| [Tuning interpretation](docs/tuning_findings.md) | Selected settings, limitations, and what is now frozen |
+| [Frozen formal configuration](configs/formal.json) | Fresh seeds and separate iteration/time endpoints; not yet executed |
 
 ## Installation
 
@@ -59,6 +64,14 @@ python -m pullback_feature_learning.pilot --config configs/pilot.json --output r
 ```
 
 Each command refuses to overwrite its existing output. Choose a fresh path for subsequent runs. The pilot is not a hyperparameter sweep and does not run the later formal experiments.
+
+To reproduce the fixed stage-4 tuning batch, use its preregistration commit:
+
+```sh
+python -m pullback_feature_learning.tuning --config configs/tuning.json --output runs/tuning --preregistration-commit 26e278dbd708b7eab6b687f1e398e0741c225164
+```
+
+The command verifies that the JSON settings match that Git commit before running. It records a fixed shuffled schedule and refuses to overwrite earlier output. It generates only the development train/validation splits. `configs/formal.json` is a frozen specification for the next stage; the formal experiment runner is not implemented or invoked by the tuning command.
 
 Generated outputs include the resolved configuration, train/validation arrays, software and source fingerprints, per-step CSV records, initial/middle/final checkpoints, singular values and gradient alignment, separate training/diagnostic timings, and SVG/PNG figures. The checked-in pilot omits redundant PNG copies; fresh runs produce both formats.
 
