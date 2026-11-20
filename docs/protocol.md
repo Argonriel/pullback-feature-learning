@@ -2,7 +2,7 @@
 
 ## Scope and status
 
-This document specifies the original repository setup, mathematical and numerical correctness checks, and short paired CPU pilot. That pilot does not select final hyperparameters or establish a performance ranking. Stage 4 has since been completed under a separate [predeclared tuning protocol](tuning_protocol.md); its [results and interpretation](tuning_findings.md) freeze settings for the pending formal study. The research question is whether a damped representation pullback produces more useful feature learning than ordinary parameter gradient descent, and whether any improvement survives a comparison by computational cost.
+This document specifies the original repository setup, mathematical and numerical correctness checks, and short paired CPU pilot. That pilot does not select final hyperparameters or establish a performance ranking. Stage 4 has since been completed under a separate [predeclared tuning protocol](tuning_protocol.md), followed by the [frozen formal study](formal_protocol.md) and its [results](formal_findings.md). The research question is whether a damped representation pullback produces more useful feature learning than ordinary parameter gradient descent, and whether any improvement survives a comparison by computational cost.
 
 The core project uses one synthetic data distribution, one 80-parameter network, and two update methods. The [mathematical specification](mathematics.md) defines the model, objective, and updates. The [literature review](literature.md) documents their relationship to prior work.
 

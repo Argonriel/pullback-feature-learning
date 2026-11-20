@@ -6,15 +6,16 @@ The research question is whether the pullback update produces more useful featur
 
 ## Current status
 
-Stages 1-4 are implemented and verified:
+Stages 1-5 are implemented and verified:
 
 - A fixed experimental specification, explicit NumPy implementation, and reproducibility records.
-- Mathematical derivations and 26 passing numerical, selection-policy, and execution tests.
+- Mathematical derivations and 38 passing numerical, selection-policy, endpoint, and execution tests.
 - A 200-step paired CPU pilot, with learning curves, feature clouds, checkpoint spectra, timings, and raw records.
 - A review of seven primary research papers, with precise distinctions from Fisher and Wasserstein natural gradients and an explicit treatment of selection bias.
 - A predeclared validation-only tuning batch: 12 configurations per method, three paired development seeds, and 2,000 updates per run (72 runs, all completed).
+- A frozen formal study on three fresh paired seeds, with separate 2,000-update and two-second endpoints. All six trajectories completed before offline test evaluation.
 
-The pilot uses one paired seed and illustrative hyperparameters. **Neither the pilot nor the selected development scores establish optimizer superiority.** Stage 4 selected GD learning rate **0.125** and pullback learning rate **8** with damping **0.1**, using mean terminal validation loss. Test and formal data remain ungenerated and unevaluated. At least three fresh formal paired seeds and held-out linear probes remain subsequent stages. The selected damping is at the upper boundary of the declared search grid; no post-hoc expansion was performed.
+The pilot uses one paired seed and illustrative hyperparameters. **Neither the pilot nor the selected development scores establish optimizer superiority.** Stage 4 selected GD learning rate **0.125** and pullback learning rate **8** with damping **0.1**, using mean terminal validation loss. Stage 5 evaluated those frozen settings: at 2,000 updates, mean test accuracy was **98.87% for GD** and **98.22% for pullback**; at the two-second endpoint it was **98.82%** and **98.22%**, respectively. These are three-seed findings for one small setting, not a broad superiority claim. Held-out linear probes and the full feature-quality interpretation remain stage 6. The selected damping is at the upper boundary of the declared search grid; no post-hoc expansion or test-driven retuning was performed.
 
 ## Read the project
 
@@ -31,7 +32,10 @@ The pilot uses one paired seed and illustrative hyperparameters. **Neither the p
 | [Predeclared tuning protocol](docs/tuning_protocol.md) | Candidate grids, equal trial budgets, selection rules, and formal endpoints |
 | [Tuning results](reports/tuning-v1/README.md) | All 72 runs, candidate rankings, raw records, and measured costs |
 | [Tuning interpretation](docs/tuning_findings.md) | Selected settings, limitations, and what is now frozen |
-| [Frozen formal configuration](configs/formal.json) | Fresh seeds and separate iteration/time endpoints; not yet executed |
+| [Frozen formal configuration](configs/formal.json) | The unchanged settings used in stage 5 |
+| [Formal protocol](docs/formal_protocol.md) | Exact endpoint rules, training-only execution, and offline evaluation |
+| [Formal results](reports/formal-v1/README.md) | Six trajectories, per-seed endpoints, raw checkpoints, curves, and paired summaries |
+| [Formal interpretation](docs/formal_findings.md) | What the fresh test results establish and what remains unresolved |
 
 ## Installation
 
@@ -71,7 +75,15 @@ To reproduce the fixed stage-4 tuning batch, use its preregistration commit:
 python -m pullback_feature_learning.tuning --config configs/tuning.json --output runs/tuning --preregistration-commit 26e278dbd708b7eab6b687f1e398e0741c225164
 ```
 
-The command verifies that the JSON settings match that Git commit before running. It records a fixed shuffled schedule and refuses to overwrite earlier output. It generates only the development train/validation splits. `configs/formal.json` is a frozen specification for the next stage; the formal experiment runner is not implemented or invoked by the tuning command.
+The command verifies that the JSON settings match that Git commit before running. It records a fixed shuffled schedule and refuses to overwrite earlier output. It generates only the development train/validation splits and does not invoke formal evaluation.
+
+To reproduce the formal study using the frozen stage-4 configuration:
+
+```sh
+python -m pullback_feature_learning.formal --config configs/formal.json --output runs/formal --frozen-config-commit 8e24690f4f2af0e2c20a28701a2c0ea591cef4e7
+```
+
+The command trains all six trajectories on training data before generating validation/test arrays and evaluating saved checkpoints. It preserves the exact iteration endpoint and the two-second timing bracket. Time-endpoint update counts depend on the machine and timing variation; deterministic iteration states and saved metric calculations can be audited separately. The configuration's historical `formal_pending` stage label is retained unchanged to preserve the lock; completed run status is stored in the results.
 
 Generated outputs include the resolved configuration, train/validation arrays, software and source fingerprints, per-step CSV records, initial/middle/final checkpoints, singular values and gradient alignment, separate training/diagnostic timings, and SVG/PNG figures. The checked-in pilot omits redundant PNG copies; fresh runs produce both formats.
 

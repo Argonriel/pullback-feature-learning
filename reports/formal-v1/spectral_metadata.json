@@ -1,0 +1,278 @@
+[
+  {
+    "seed_id": "formal1",
+    "method": "gd",
+    "labels": [
+      "initial"
+    ],
+    "step": 0,
+    "rank_tolerance": 1.6895009944880792e-12,
+    "numerical_rank": 80,
+    "unreachable_gradient_fraction": 0.05863732746293293
+  },
+  {
+    "seed_id": "formal1",
+    "method": "gd",
+    "labels": [
+      "regular",
+      "iteration_middle"
+    ],
+    "step": 1000,
+    "rank_tolerance": 8.953890583139578e-12,
+    "numerical_rank": 80,
+    "unreachable_gradient_fraction": 0.35772025562511156
+  },
+  {
+    "seed_id": "formal1",
+    "method": "gd",
+    "labels": [
+      "regular",
+      "iteration"
+    ],
+    "step": 2000,
+    "rank_tolerance": 1.3419792018630731e-11,
+    "numerical_rank": 80,
+    "unreachable_gradient_fraction": 0.3083561920754744
+  },
+  {
+    "seed_id": "formal1",
+    "method": "gd",
+    "labels": [
+      "time"
+    ],
+    "step": 28083,
+    "rank_tolerance": 1.895278281410925e-11,
+    "numerical_rank": 80,
+    "unreachable_gradient_fraction": 0.006449910248970792
+  },
+  {
+    "seed_id": "formal1",
+    "method": "pullback",
+    "labels": [
+      "initial"
+    ],
+    "step": 0,
+    "rank_tolerance": 1.6895009944880792e-12,
+    "numerical_rank": 80,
+    "unreachable_gradient_fraction": 0.05863732746293293
+  },
+  {
+    "seed_id": "formal1",
+    "method": "pullback",
+    "labels": [
+      "regular",
+      "iteration_middle"
+    ],
+    "step": 1000,
+    "rank_tolerance": 4.047496828782442e-12,
+    "numerical_rank": 80,
+    "unreachable_gradient_fraction": 0.00011705820597351924
+  },
+  {
+    "seed_id": "formal1",
+    "method": "pullback",
+    "labels": [
+      "regular",
+      "iteration"
+    ],
+    "step": 2000,
+    "rank_tolerance": 4.3420836997652105e-12,
+    "numerical_rank": 80,
+    "unreachable_gradient_fraction": 3.1271804103560896e-05
+  },
+  {
+    "seed_id": "formal1",
+    "method": "pullback",
+    "labels": [
+      "time"
+    ],
+    "step": 3276,
+    "rank_tolerance": 4.902634563899649e-12,
+    "numerical_rank": 80,
+    "unreachable_gradient_fraction": 1.8392759640772915e-05
+  },
+  {
+    "seed_id": "formal2",
+    "method": "pullback",
+    "labels": [
+      "initial"
+    ],
+    "step": 0,
+    "rank_tolerance": 1.529228252589421e-12,
+    "numerical_rank": 80,
+    "unreachable_gradient_fraction": 0.04704928721948387
+  },
+  {
+    "seed_id": "formal2",
+    "method": "pullback",
+    "labels": [
+      "regular",
+      "iteration_middle"
+    ],
+    "step": 1000,
+    "rank_tolerance": 1.4127242726118785e-11,
+    "numerical_rank": 80,
+    "unreachable_gradient_fraction": 0.0002486380832779078
+  },
+  {
+    "seed_id": "formal2",
+    "method": "pullback",
+    "labels": [
+      "regular",
+      "iteration"
+    ],
+    "step": 2000,
+    "rank_tolerance": 1.3561984028824142e-11,
+    "numerical_rank": 80,
+    "unreachable_gradient_fraction": 1.1124057796019216e-05
+  },
+  {
+    "seed_id": "formal2",
+    "method": "pullback",
+    "labels": [
+      "time"
+    ],
+    "step": 3302,
+    "rank_tolerance": 1.2266591326328762e-11,
+    "numerical_rank": 80,
+    "unreachable_gradient_fraction": 8.397815043803547e-06
+  },
+  {
+    "seed_id": "formal2",
+    "method": "gd",
+    "labels": [
+      "initial"
+    ],
+    "step": 0,
+    "rank_tolerance": 1.529228252589421e-12,
+    "numerical_rank": 80,
+    "unreachable_gradient_fraction": 0.04704928721948387
+  },
+  {
+    "seed_id": "formal2",
+    "method": "gd",
+    "labels": [
+      "regular",
+      "iteration_middle"
+    ],
+    "step": 1000,
+    "rank_tolerance": 7.355881177945951e-12,
+    "numerical_rank": 80,
+    "unreachable_gradient_fraction": 0.33001422190455876
+  },
+  {
+    "seed_id": "formal2",
+    "method": "gd",
+    "labels": [
+      "regular",
+      "iteration"
+    ],
+    "step": 2000,
+    "rank_tolerance": 9.676405807089342e-12,
+    "numerical_rank": 80,
+    "unreachable_gradient_fraction": 0.7737943303748558
+  },
+  {
+    "seed_id": "formal2",
+    "method": "gd",
+    "labels": [
+      "time"
+    ],
+    "step": 26694,
+    "rank_tolerance": 1.2634290648226757e-11,
+    "numerical_rank": 80,
+    "unreachable_gradient_fraction": 0.8921884054610867
+  },
+  {
+    "seed_id": "formal3",
+    "method": "gd",
+    "labels": [
+      "initial"
+    ],
+    "step": 0,
+    "rank_tolerance": 1.7899844588553804e-12,
+    "numerical_rank": 80,
+    "unreachable_gradient_fraction": 0.029820661951401428
+  },
+  {
+    "seed_id": "formal3",
+    "method": "gd",
+    "labels": [
+      "regular",
+      "iteration_middle"
+    ],
+    "step": 1000,
+    "rank_tolerance": 7.41853081309308e-12,
+    "numerical_rank": 80,
+    "unreachable_gradient_fraction": 0.5234088886682581
+  },
+  {
+    "seed_id": "formal3",
+    "method": "gd",
+    "labels": [
+      "regular",
+      "iteration"
+    ],
+    "step": 2000,
+    "rank_tolerance": 8.932383454378669e-12,
+    "numerical_rank": 80,
+    "unreachable_gradient_fraction": 0.7494847755016858
+  },
+  {
+    "seed_id": "formal3",
+    "method": "gd",
+    "labels": [
+      "time"
+    ],
+    "step": 26810,
+    "rank_tolerance": 1.2647496422393935e-11,
+    "numerical_rank": 80,
+    "unreachable_gradient_fraction": 0.021660935202661546
+  },
+  {
+    "seed_id": "formal3",
+    "method": "pullback",
+    "labels": [
+      "initial"
+    ],
+    "step": 0,
+    "rank_tolerance": 1.7899844588553804e-12,
+    "numerical_rank": 80,
+    "unreachable_gradient_fraction": 0.029820661951401428
+  },
+  {
+    "seed_id": "formal3",
+    "method": "pullback",
+    "labels": [
+      "regular",
+      "iteration_middle"
+    ],
+    "step": 1000,
+    "rank_tolerance": 3.3397804010715446e-12,
+    "numerical_rank": 80,
+    "unreachable_gradient_fraction": 1.2886288553670688e-05
+  },
+  {
+    "seed_id": "formal3",
+    "method": "pullback",
+    "labels": [
+      "regular",
+      "iteration"
+    ],
+    "step": 2000,
+    "rank_tolerance": 4.293926511196523e-12,
+    "numerical_rank": 80,
+    "unreachable_gradient_fraction": 9.504398602588893e-07
+  },
+  {
+    "seed_id": "formal3",
+    "method": "pullback",
+    "labels": [
+      "time"
+    ],
+    "step": 3263,
+    "rank_tolerance": 4.93143582612407e-12,
+    "numerical_rank": 80,
+    "unreachable_gradient_fraction": 3.2262112459324754e-07
+  }
+]
