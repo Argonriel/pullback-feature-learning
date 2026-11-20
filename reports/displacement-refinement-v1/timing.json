@@ -1,6 +1,0 @@
-{
-  "total_wall_seconds": 7.526374400003988,
-  "replay_wall_seconds": 4.132815199991455,
-  "offline_evaluation_seconds": 0.014644000002590474,
-  "role": "Diagnostic replay cost; not a replacement for original training timings."
-}

@@ -9,4 +9,7 @@ dist/
 .DS_Store
 .idea/
 .vscode/
-runs/
+# Research materials are stored in an external local archive.
+/docs/
+/reports/
+/runs/

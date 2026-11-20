@@ -1,7 +1,0 @@
-{
-  "total_wall_seconds": 19.141155600002094,
-  "offline_evaluation_and_spectra_seconds": 0.384175300001516,
-  "core_training_seconds": 12.001309201783442,
-  "online_diagnostics_seconds": 4.365609699161723,
-  "warmup_seconds": 0.013696000001800712
-}

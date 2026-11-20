@@ -1,4 +1,0 @@
-{
-  "total_wall_seconds": 66.35478879999937,
-  "includes": "setup, all trials, diagnostics, serialization, and plotting"
-}
