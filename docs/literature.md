@@ -2,7 +2,7 @@
 
 This project studies a damped pullback of the **Euclidean metric on finite, sample-indexed representations**. It compares that update with parameter gradient descent in a small residual network. The papers below inform the geometry, diagnostics, and interpretation. The project is a controlled numerical investigation, not a new natural-gradient method or a reproduction of any cited paper's experiments.
 
-Primary sources and bibliographic metadata were checked on November 19, 2026. BibTeX entries are in [references.bib](references.bib).
+The review contains eleven primary research papers. The original seven entries were checked on November 19, 2026; the four focused optimization-and-generalization entries below were checked on November 20, 2026. BibTeX entries are in [references.bib](references.bib).
 
 ## How the implementation relates to existing methods
 
@@ -88,6 +88,42 @@ The authors show that optimizing a finite-sample selection criterion can introdu
 
 **Project consequence:** stage 4 declares its finite grids, candidate budget, terminal validation objective, and tie rules before execution. Its three-seed validation scores are development evidence. The subsequent formal study uses fresh, declared data and initialization seeds with frozen hyperparameters. These controls do not imply that selection bias disappears or that a small grid finds globally optimal settings. See the [tuning protocol](tuning_protocol.md).
 
+## Optimization, feature quality, and generalization
+
+### 8. Arbel et al. (2023): useful features can be hidden by the output layer
+
+**Michael Arbel, Romain Menegaux, and Pierre Wolinski. Rethinking Gauss-Newton for learning over-parameterized models. Advances in Neural Information Processing Systems 36, 2023.** [Conference record](https://proceedings.neurips.cc/paper_files/paper/2023/hash/6a14c7f9fb3f42645cfa6bd5aa446819-Abstract-Conference.html) · [Final author manuscript, v3](https://arxiv.org/html/2302.02904v3)
+
+This is the closest experimental motivation for stage 6. Section 5.2 defines Test-LRfit: freeze the hidden weights, refit the linear output layer on training data, and evaluate the resulting predictor. Section 5.3 and Figures 1-2 show settings with small initialization and small Gauss-Newton steps where useful features emerge before the original output layer uses them effectively. Faster objective reduction does not necessarily produce better features.
+
+The study uses wide, single-hidden-layer regression networks, squared loss, an output Jacobian, and damping tied to the smallest tangent-kernel eigenvalue with a numerical floor. Our small residual classifier uses logistic loss, the full two-coordinate representation Jacobian, and fixed damping. Its convergence guarantees therefore do not transfer to our implementation.
+
+**Project consequence:** compare frozen-feature probes with the original fixed readout, without assuming a hidden advantage exists. Some paper figures select settings using test scores; our evaluation continues to select probe regularization using validation data only.
+
+### 9. Amari et al. (2021): preconditioning has no universal generalization advantage
+
+**Shun-ichi Amari, Jimmy Ba, Roger Grosse, Xuechen Li, Atsushi Nitanda, Taiji Suzuki, Denny Wu, and Ji Xu. When Does Preconditioning Help or Hurt Generalization? ICLR, 2021.** [Conference record](https://openreview.net/forum?id=S724o4_WB3) · [Author manuscript](https://arxiv.org/abs/2006.10732)
+
+The authors analyze the bias and variance of overparameterized ridgeless regression with a general preconditioner, including the inverse population Fisher. Their comparison depends on noise, model misspecification, and the orientation of the target signal relative to the input features. They also investigate interpolation between preconditioners, early stopping, and neural-network experiments. The work does not establish a universal ranking of GD and natural gradient.
+
+**Project consequence:** describe optimization cost and generalization separately, and examine the task gradient's alignment with the metric's directions. The regression and population-Fisher analysis is context for interpreting our observations, not a theorem about our empirical representation Gram matrix. In particular, input-coordinate noise in two moons should not automatically be identified with the paper's label-noise model.
+
+### 10. Kerekes et al. (2021): changing geometry changes implicit bias
+
+**Anna Kerekes, Anna Meszaros, and Ferenc Huszar. Depth Without the Magic: Inductive Bias of Natural Gradient Descent. arXiv:2111.11542, 2021.** [Author manuscript](https://arxiv.org/abs/2111.11542)
+
+The paper studies natural-gradient flow in deep linear classification with logistic loss and in matrix factorization, with some extensions to sufficiently overparameterized nonlinear networks. It gives learning problems where natural gradient generalizes poorly while GD with a suitable architecture performs well. The relationship between parameterization and the optimizer's implicit preference among solutions is central.
+
+**Project consequence:** improved local conditioning need not preserve a favorable implicit bias. This supports investigating the learned representation rather than expecting pullback to win automatically. The paper's natural-gradient flow and invariance analysis do not identify our damped Euclidean representation metric with a Fisher metric. This entry is cited as an arXiv preprint, without an unverified conference-acceptance claim.
+
+### 11. Yoshida and Nitanda (2025; revised 2026): preconditioning can steer feature directions
+
+**Kotaro Yoshida and Atsushi Nitanda. How Does Preconditioning Guide Feature Learning in Deep Neural Networks? arXiv:2509.25637, 2025; v2 revised September 26, 2026.** [Version record](https://arxiv.org/abs/2509.25637) · [v2 manuscript](https://arxiv.org/html/2509.25637v2)
+
+The authors study first-layer neuron-wise preconditioning and the resulting input-similarity Gram matrix. For covariance-power preconditioning, their single-ReLU-neuron analysis characterizes how the chosen power shifts feature sensitivity toward different input eigenspaces. Experiments connect this spectral preference to task-relevant information, noise robustness, distribution shift, and transfer. Alignment between the induced preference and the task is consequential for generalization.
+
+**Project consequence:** inspect spectral factors together with gradient alignment, rather than interpreting a singular-value plot alone as evidence of useful learning. Their covariance-based first-layer geometry and assumptions differ from our evolving full-network representation Jacobian. We cite the checked v2 preprint and do not present its conclusions as a proof for the current network or as evidence of OOD performance in this project.
+
 ## Questions the experiments can answer
 
 1. Does the implemented update agree with its local linear and spectral predictions?
@@ -95,4 +131,4 @@ The authors show that optimizing a finite-sample selection criterion can introdu
 3. Do frozen learned features improve held-out linear-probe performance relative to initial features and the GD comparison?
 4. Are observed differences associated with the Jacobian spectrum and the task gradient's projections, and where does the local explanation cease to be adequate?
 
-A short pilot answers implementation and feasibility questions only. Comparative performance conclusions require the later paired-seed study and its predeclared tuning and evaluation rules.
+A short pilot answers implementation and feasibility questions only. The completed formal comparison supplies the frozen paired-seed evidence; the subsequent 100,000-update experiment is an exploratory development diagnostic. Stage 6 adds the representation analyses already requested by the proposal. Because formal fixed-readout test results have already been inspected, the forthcoming probe evaluation is a planned analysis of the same archived experiment, not a newly independent study. Its checkpoint set and probe-selection rules must be fixed before probe test evaluation; neither test performance nor a favorable literature example justifies network retuning or selecting a winning checkpoint.
