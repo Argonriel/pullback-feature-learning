@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "scope": "Installed-package tests, archived pilot artifact integrity, and numerical repeatability.",
+  "canonical_pilot": "reports/pilot",
+  "repeat_comparison": "runs/pilot-001 (local prior run; timing values intentionally excluded)",
+  "unit_test_command": "python -m unittest discover -s tests -v",
+  "unit_test_environment": "Installed package; PYTHONPATH unset.",
+  "checks": {
+    "installed_package_unit_tests_passed": true,
+    "configuration_matches_repository": true,
+    "configuration_matches_previous_run": true,
+    "verification_report_passed": true,
+    "verification_configuration_matches_pilot": true,
+    "all_json_numbers_finite": true,
+    "all_csv_numbers_finite": true,
+    "test_not_generated_or_evaluated": true,
+    "data_contains_only_training_and_validation": true,
+    "split_seeds_distinct": true,
+    "cpu_float64_single_blas_thread": true,
+    "recorded_source_hashes_match_current_files": true,
+    "source_hash_list_complete": true,
+    "training_data_hash_matches": true,
+    "validation_data_hash_matches": true,
+    "initial_parameter_hash_matches": true,
+    "data_match_previous_run": true,
+    "gd_expected_steps_and_checkpoints": true,
+    "gd_checkpoint_parameter_shapes": true,
+    "gd_initialization_matches_config": true,
+    "gd_summary_initialization_hash_matches": true,
+    "gd_timers_nonnegative_and_monotone": true,
+    "gd_repeat_is_numerically_identical": true,
+    "pullback_expected_steps_and_checkpoints": true,
+    "pullback_checkpoint_parameter_shapes": true,
+    "pullback_initialization_matches_config": true,
+    "pullback_summary_initialization_hash_matches": true,
+    "pullback_timers_nonnegative_and_monotone": true,
+    "pullback_repeat_is_numerically_identical": true,
+    "methods_start_at_identical_parameters": true,
+    "methods_start_at_identical_metrics": true
+  },
+  "repeatability": {
+    "gd": {
+      "history_rows": 201,
+      "numerical_history_fields": [
+        "step",
+        "train_loss",
+        "validation_loss",
+        "train_accuracy",
+        "validation_accuracy",
+        "cumulative_feature_displacement"
+      ],
+      "numerical_history_identical": true,
+      "maximum_absolute_history_difference": 0.0,
+      "checkpoints_identical": true,
+      "spectra_identical": true
+    },
+    "pullback": {
+      "history_rows": 201,
+      "numerical_history_fields": [
+        "step",
+        "train_loss",
+        "validation_loss",
+        "train_accuracy",
+        "validation_accuracy",
+        "cumulative_feature_displacement"
+      ],
+      "numerical_history_identical": true,
+      "maximum_absolute_history_difference": 0.0,
+      "checkpoints_identical": true,
+      "spectra_identical": true
+    }
+  },
+  "limitations": [
+    "Repeatability was checked on the same machine, environment, seeds, and configuration.",
+    "This audit does not establish cross-platform bitwise equivalence or optimizer superiority.",
+    "Timing values vary between executions and were not required to match."
+  ]
+}

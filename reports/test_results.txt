@@ -1,0 +1,24 @@
+Command: python -m unittest discover -s tests -v
+Environment: installed package; PYTHONPATH unset
+Exit code: 0
+
+STDOUT
+
+STDERR
+test_chain_rule_matches_independent_reverse_mode (test_numerics.NumericalCorrectnessTests.test_chain_rule_matches_independent_reverse_mode) ... ok
+test_first_order_feature_remainder_is_quadratic (test_numerics.NumericalCorrectnessTests.test_first_order_feature_remainder_is_quadratic) ... ok
+test_full_jacobian_against_central_differences (test_numerics.NumericalCorrectnessTests.test_full_jacobian_against_central_differences)
+Check every parameter and both coordinates independently of backprop. ... ok
+test_parameter_gradient_against_loss_directional_differences (test_numerics.NumericalCorrectnessTests.test_parameter_gradient_against_loss_directional_differences) ... ok
+test_pullback_metric_includes_unread_representation_coordinate (test_numerics.NumericalCorrectnessTests.test_pullback_metric_includes_unread_representation_coordinate)
+A zero second-coordinate loss gradient does not remove its metric cost. ... ok
+test_pullback_satisfies_damped_normal_equation (test_numerics.NumericalCorrectnessTests.test_pullback_satisfies_damped_normal_equation) ... ok
+test_shapes_and_reproducible_initialization (test_numerics.NumericalCorrectnessTests.test_shapes_and_reproducible_initialization) ... ok
+test_small_updates_descend_for_both_methods (test_numerics.NumericalCorrectnessTests.test_small_updates_descend_for_both_methods) ... ok
+test_stable_logistic_loss_and_representation_gradient (test_numerics.NumericalCorrectnessTests.test_stable_logistic_loss_and_representation_gradient) ... ok
+test_svd_predicts_both_representation_velocities (test_numerics.NumericalCorrectnessTests.test_svd_predicts_both_representation_velocities) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.029s
+
+OK

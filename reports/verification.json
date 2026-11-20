@@ -1,0 +1,112 @@
+{
+  "passed": true,
+  "tolerances": {
+    "jacobian_relative_error_max": 1e-07,
+    "chain_rule_relative_error_max": 1e-11,
+    "spectral_relative_error_max": 1e-09,
+    "normal_equation_relative_residual_max": 1e-09,
+    "error_halving_ratio_interval": [
+      3.5,
+      4.5
+    ]
+  },
+  "jacobian_shape": [
+    512,
+    80
+  ],
+  "jacobian_finite_difference_relative_error": 2.2704498704342976e-10,
+  "chain_rule_relative_error": 5.526644542120153e-16,
+  "methods": {
+    "gd": {
+      "passed": true,
+      "spectral_relative_error": 2.2942045686435896e-15,
+      "gradient_dot_direction": -0.05235189160337684,
+      "small_step_loss_change": -5.235169151074359e-06,
+      "normal_equation_relative_residual": null,
+      "linearization": [
+        {
+          "parameter_step_norm": 0.01,
+          "eta": 0.043705270326350465,
+          "absolute_error": 8.064916699599194e-05,
+          "relative_error": 0.0007395658668368567
+        },
+        {
+          "parameter_step_norm": 0.005,
+          "eta": 0.021852635163175232,
+          "absolute_error": 2.017924478652311e-05,
+          "relative_error": 0.0003700938575943324
+        },
+        {
+          "parameter_step_norm": 0.0025,
+          "eta": 0.010926317581587616,
+          "absolute_error": 5.04692401938038e-06,
+          "relative_error": 0.00018512442849847672
+        }
+      ],
+      "error_halving_ratios": [
+        3.996639510010514,
+        3.9983254570574163
+      ]
+    },
+    "pullback": {
+      "passed": true,
+      "spectral_relative_error": 4.347605679629195e-14,
+      "gradient_dot_direction": -0.0005732158309848932,
+      "small_step_loss_change": -5.7321377977537225e-08,
+      "normal_equation_relative_residual": 1.3579538802406673e-15,
+      "linearization": [
+        {
+          "parameter_step_norm": 0.01,
+          "eta": 0.1715349064418525,
+          "absolute_error": 5.935749629407336e-05,
+          "relative_error": 0.01490170457194077
+        },
+        {
+          "parameter_step_norm": 0.005,
+          "eta": 0.08576745322092626,
+          "absolute_error": 1.4846802005961354e-05,
+          "relative_error": 0.007454581852133276
+        },
+        {
+          "parameter_step_norm": 0.0025,
+          "eta": 0.04288372661046313,
+          "absolute_error": 3.71262677277956e-06,
+          "relative_error": 0.00372822108801532
+        }
+      ],
+      "error_halving_ratios": [
+        3.9979987791471774,
+        3.9990020313423233
+      ]
+    }
+  },
+  "config": {
+    "stage": "pilot",
+    "steps": 200,
+    "threads": 1,
+    "dtype": "float64",
+    "noise": 0.15,
+    "train_size": 256,
+    "validation_size": 256,
+    "test_size": 2000,
+    "train_seed": 1701,
+    "validation_seed": 1702,
+    "test_seed": 1703,
+    "initialization_seed": 23,
+    "checkpoints": [
+      0,
+      100,
+      200
+    ],
+    "warmup_steps": 5,
+    "methods": {
+      "gd": {
+        "learning_rate": 0.5
+      },
+      "pullback": {
+        "learning_rate": 32.0,
+        "damping": 0.01
+      }
+    }
+  }
+}
