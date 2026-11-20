@@ -1,0 +1,37 @@
+{
+  "stage": "tuning",
+  "steps": 2000,
+  "threads": 1,
+  "dtype": "float64",
+  "noise": 0.15,
+  "train_size": 256,
+  "validation_size": 256,
+  "development_seeds": [
+    {"id": "dev1", "train_seed": 1701, "validation_seed": 1702, "initialization_seed": 23},
+    {"id": "dev2", "train_seed": 1801, "validation_seed": 1802, "initialization_seed": 24},
+    {"id": "dev3", "train_seed": 1901, "validation_seed": 1902, "initialization_seed": 25}
+  ],
+  "gd_learning_rates": [0.015625, 0.03125, 0.0625, 0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32],
+  "pullback_learning_rates": [2, 8, 32, 128],
+  "pullback_dampings": [0.001, 0.01, 0.1],
+  "selection": "mean_terminal_validation_loss",
+  "tie_breakers": ["mean_validation_accuracy_descending", "candidate_id_ascending"],
+  "failure_policy": "all_seeds_must_complete_no_replacements",
+  "schedule_seed": 20261119,
+  "log_every": 100,
+  "warmup_steps": 5,
+  "formal": {
+    "stage": "formal_pending",
+    "iteration_endpoint": 2000,
+    "time_endpoint_seconds": 2.0,
+    "termination_rule": "continue_until_both_budgets_reached",
+    "time_endpoint_rule": "last_completed_update_at_or_before_budget",
+    "time_comparison_role": "cost_diagnostic_for_iteration_tuned_settings",
+    "test_size": 2000,
+    "seeds": [
+      {"id": "formal1", "train_seed": 2701, "validation_seed": 2702, "test_seed": 2703, "initialization_seed": 123},
+      {"id": "formal2", "train_seed": 2801, "validation_seed": 2802, "test_seed": 2803, "initialization_seed": 124},
+      {"id": "formal3", "train_seed": 2901, "validation_seed": 2902, "test_seed": 2903, "initialization_seed": 125}
+    ]
+  }
+}
