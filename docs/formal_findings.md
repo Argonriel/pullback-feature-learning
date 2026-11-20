@@ -23,7 +23,7 @@ The entries below are mean plus/minus sample standard deviation across three see
 
 For the fixed 2,000-update endpoint, GD has higher test accuracy and lower test loss in each of the three pairs. The mean paired accuracy difference, pullback minus GD, is **-0.65 pp**. The measured pullback core time is about **8.4 times** GD's at this update count. That ratio describes this explicit implementation and hardware, not all implementations of either method.
 
-At the two-second endpoint, GD again has higher test accuracy and lower test loss in each pair. The mean paired accuracy difference is **-0.60 pp**. Each retained time state falls at or before the budget, and its immediately following update crosses the budget. No parameter interpolation or performance extrapolation was used. The two-second comparison uses the same iteration-tuned settings, so it is a cost diagnostic rather than independently time-tuned optimization.
+At the two-second endpoint, GD again has higher test accuracy in each pair and lower mean test loss. GD has lower test loss in two of the three pairs; in the first pair, pullback has slightly lower test loss (0.07894 versus 0.08154). The mean paired accuracy difference is **-0.60 pp**. Each retained time state falls at or before the budget, and its immediately following update crosses the budget. No parameter interpolation or performance extrapolation was used. The two-second comparison uses the same iteration-tuned settings, so it is a cost diagnostic rather than independently time-tuned optimization.
 
 ## Reading the learning curves
 
