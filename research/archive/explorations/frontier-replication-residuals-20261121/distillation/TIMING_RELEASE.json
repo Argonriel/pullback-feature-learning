@@ -1,0 +1,14 @@
+{
+  "utc": "2026-11-22T00:23:14.795983+00:00",
+  "exclusive_numerical_window": true,
+  "models_and_quality_committed": true,
+  "score_commit_sha256": "4975f8b69471d3d5bce287b1e9f501c585794718e890b9718efe456e1ea93a80",
+  "source_freeze_sha256": "7c015fa2f70b2016b456a34697379991f7fdb4c433bc66785fa7e2ee2583aee8",
+  "root_audit_sha256": "66fc5e8c8f636052ded5faeb86f4477c28e66747a5e315b5de44d80467c300df",
+  "paused": [
+    "allocation: after development selection, before confirmation",
+    "structured: after evidence, before certificate",
+    "root: all numeric audits complete and paused"
+  ],
+  "timing_recipe": "Frozen six-pair, three-mode, three-warmup/seven-measured benchmark; no selective reruns."
+}

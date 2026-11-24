@@ -1,0 +1,165 @@
+{
+  "utc": "2026-11-22T00:22:45.020465+00:00",
+  "parameters": [
+    {
+      "estimate": [
+        0.0015869476001594545,
+        0.0003838896616133305
+      ],
+      "radius": [
+        0.01972633184381009,
+        0.01972633184381009
+      ],
+      "n": 262144,
+      "delta": 5.799118533982835e-06,
+      "law": "uniform",
+      "law_index": 0,
+      "coverage": true
+    },
+    {
+      "estimate": [
+        0.009119485050689623,
+        0.0003259894332842381
+      ],
+      "radius": [
+        0.01972633184381009,
+        0.01972633184381009
+      ],
+      "n": 262144,
+      "delta": 5.799118533982835e-06,
+      "law": "small_first",
+      "law_index": 1,
+      "coverage": true
+    },
+    {
+      "estimate": [
+        0.0015167688883066814,
+        0.0986339445202571
+      ],
+      "radius": [
+        0.01972633184381009,
+        0.01972633184381009
+      ],
+      "n": 262144,
+      "delta": 5.799118533982835e-06,
+      "law": "covered_third",
+      "law_index": 2,
+      "coverage": true
+    },
+    {
+      "estimate": [
+        0.0354182647189429,
+        0.034804726586057814
+      ],
+      "radius": [
+        0.01972633184381009,
+        0.01972633184381009
+      ],
+      "n": 262144,
+      "delta": 5.799118533982835e-06,
+      "law": "covered_mixed",
+      "law_index": 3,
+      "coverage": true
+    },
+    {
+      "estimate": [
+        0.01392955738136944,
+        0.03880831861120724
+      ],
+      "radius": [
+        0.01972633184381009,
+        0.01972633184381009
+      ],
+      "n": 262144,
+      "delta": 5.799118533982835e-06,
+      "law": "covered_residual",
+      "law_index": 4,
+      "coverage": true
+    },
+    {
+      "estimate": [
+        0.0002442551678095379,
+        0.6008001906379316
+      ],
+      "radius": [
+        0.01972633184381009,
+        0.01972633184381009
+      ],
+      "n": 262144,
+      "delta": 5.799118533982835e-06,
+      "law": "strong_third",
+      "law_index": 5,
+      "coverage": true
+    },
+    {
+      "estimate": [
+        0.002148734591534074,
+        -0.000550616384613277
+      ],
+      "radius": [
+        0.01972633184381009,
+        0.01972633184381009
+      ],
+      "n": 262144,
+      "delta": 5.799118533982835e-06,
+      "law": "violated_residual",
+      "law_index": 6,
+      "coverage": true
+    }
+  ],
+  "labels": [
+    {
+      "law": "covered_third",
+      "law_index": 2,
+      "defect": 0.0,
+      "audit_index": 0,
+      "epsilon_upper": 0.04410222175889483,
+      "cell_interval_coverage": true,
+      "minimum_count": 15836,
+      "n": 131072
+    },
+    {
+      "law": "covered_third",
+      "law_index": 2,
+      "defect": 0.1,
+      "audit_index": 1,
+      "epsilon_upper": 0.14152495465060203,
+      "cell_interval_coverage": true,
+      "minimum_count": 15907,
+      "n": 131072
+    },
+    {
+      "law": "covered_residual",
+      "law_index": 4,
+      "defect": 0.0,
+      "audit_index": 0,
+      "epsilon_upper": 0.04625292143577461,
+      "cell_interval_coverage": true,
+      "minimum_count": 16110,
+      "n": 131072
+    },
+    {
+      "law": "covered_residual",
+      "law_index": 4,
+      "defect": 0.1,
+      "audit_index": 1,
+      "epsilon_upper": 0.14333450354936542,
+      "cell_interval_coverage": true,
+      "minimum_count": 16161,
+      "n": 131072
+    }
+  ],
+  "raw_files": {
+    "parameter_0.npz": "4394ac234b58da7227a0298abf059d10d5e4e51f24b4cf2bc9183cffedc0ed43",
+    "parameter_1.npz": "cca0fb65937baa122dc1150a7d6ae09b06606a731d0dccbf65671d9804d40b9d",
+    "parameter_2.npz": "61daba33fb2c36c5d1402f09de8bdf6edc904d0db409bfb57d1f96b5b30f60b9",
+    "labels_2_0.npz": "8c22fbaa6d02814fcdd8b9ce38e387777b10dff5eaa2ac4160c7cec253461ff4",
+    "labels_2_1.npz": "0123650623d99e828abf460553d544d3b9d49106ce9aa688ea367c1517947688",
+    "parameter_3.npz": "9691ded8667f1d9987821020e737271db0561cb2b852d72607c797e8813a7728",
+    "parameter_4.npz": "ef88caa49286958dd79ddb489d70ea0694853338f87fa095b7d43ebf7cef3622",
+    "labels_4_0.npz": "edc7ebd2c3da847f1a4fea004e80fc9518ff43a2b8c8e291093360bcb1f6d2ae",
+    "labels_4_1.npz": "b0fcbd71d91b7d74299d7095c1145f6fbf714c37acae21218ce51115cdfb3834",
+    "parameter_5.npz": "0801435d0d0d8f960061207953ca0345cb6fade0a65e859479b6e735d91635c6",
+    "parameter_6.npz": "905e46ff64dc29250b199710f9f3ef4debe8f2e4a623f984dc1491fe6acff6d2"
+  }
+}

@@ -1,0 +1,6 @@
+cohort,pair,method,individual_flip_mask_changes,score_max_error,first_calls,second_calls,deploy_max_error
+transfer,3,symmetric_jensen,0,0.0,256,64,0.0
+transfer,3,grid_nearest,0,0.0,256,64,0.0
+transfer,3,folded_16x8,0,0.0,256,64,0.0
+transfer,3,folded_32x16,0,0.0,256,64,0.0
+transfer,3,folded_64x32,0,0.0,256,64,0.0

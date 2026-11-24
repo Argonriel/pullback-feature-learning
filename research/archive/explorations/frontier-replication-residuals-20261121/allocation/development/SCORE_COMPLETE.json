@@ -1,0 +1,20 @@
+{
+  "utc": "2026-11-22T00:22:35.287440+00:00",
+  "manifest": {
+    "development/predictions/1.npz": "7267b12b5d62c5be5c569ba2b35c4d3d845ffaacf50c525d929f65131ca58ef7",
+    "development/predictions/2.npz": "82a9d0baf83fdfca7482f8ef5b781c53a86ea054e4415d8a5cd83f302b0d66cd",
+    "development/predictions/3.npz": "dfd8e7b3528a2dc4b663570d269e7a6c02024bce72506d2be92689d48e84b109",
+    "development/predictions/4.npz": "2c83cfe8eca18efd4eccb62fd087853522e4b28216730cade0edc5e840a5b2f5",
+    "development/predictions/5.npz": "8a2a0010d10d61e23f555cc398566d7a61b8a7ece63b7036c6c3cdb0b0dfad1a",
+    "development/predictions/6.npz": "c7d7ddb81fb939f9e970be0b0e583a87173baf8ff03a32d336357e9834747f05",
+    "development/predictions/7.npz": "89ce014876676d46f3cd5ffc8481f87391eedd4f8b6efc9d51449648c1d812b2",
+    "development/predictions/8.npz": "83a494304c8a4379ed3a53d39986698b709e071aa479abcbfcc98e0e82cf738a",
+    "development/per_model.csv": "64145e543405553601fa8baf59335f58bec34cebe721e3ed242265b704219a69",
+    "development/reliability_bins.csv": "3b3ac3721f8cd4c7fe54761c5d37ba3e7c444ea4c26e655c2e82e54168545c74",
+    "development/deployment_ledger.csv": "f23b43ef5ca1a4e1ba8d2b0eba65fcc50c3f0a2d425883357d1ffb1134470621"
+  },
+  "rows": 160,
+  "actual_evaluation_label_union": 524288,
+  "actual_inference_forwards": 16777216,
+  "fit_commit_sha256": "0c25f4cc807d5b1e17ca350f3deccee84a66c68baa23fdb0d39237e61e522510"
+}

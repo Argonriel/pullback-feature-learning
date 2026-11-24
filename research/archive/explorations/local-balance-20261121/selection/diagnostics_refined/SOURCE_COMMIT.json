@@ -1,0 +1,10 @@
+{
+  "timestamp_utc": "2026-11-21T09:47:49.530583+00:00",
+  "source_sha256": "98341fbae88313ce1aca17d0d7c1e4278dd323b8dd70ed328df3d193e508dfd0",
+  "spec_sha256": "3ed916d6ca93af6c9c178d2cf7567eaf64d736a5ee2bc8360212324972c1b16c",
+  "policy_source_sha256": "9f6e3e96a85fa62657ec1430aececc846cffa3ce338786356d514d942d00ae31",
+  "new_policy_files_accessed": true,
+  "new_test_outcomes_accessed": true,
+  "main_score_may_have_started": true,
+  "note": "Uniform numerical refinement authorized after observing non-negligible preset radial/angular sensitivity. Source/spec committed before refined evaluation; immutable methods unchanged. All sixteen models receive the same fixed refined grid. No further refinement planned."
+}

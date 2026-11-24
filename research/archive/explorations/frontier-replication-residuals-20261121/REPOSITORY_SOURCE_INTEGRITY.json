@@ -1,0 +1,192 @@
+{
+  "status": "PASS",
+  "utc": "2026-11-22T00:38:52.981757+00:00",
+  "source_copies": 37,
+  "files": [
+    {
+      "archive_path": "allocation/source/model.py",
+      "repository_path": "pullback-feature-learning/experiments/allocation_frontier/model.py",
+      "sha256": "fca6b349140849e8486a426d77ce3858123f005a9e84ecf2f112111acb05ac20"
+    },
+    {
+      "archive_path": "allocation/source/postprocess.py",
+      "repository_path": "pullback-feature-learning/experiments/allocation_frontier/postprocess.py",
+      "sha256": "04de9a69f8b33338b631601747b23e48ae938c26e549762e526afe4eab80b3af"
+    },
+    {
+      "archive_path": "allocation/source/preflight.py",
+      "repository_path": "pullback-feature-learning/experiments/allocation_frontier/preflight.py",
+      "sha256": "6b2ad2fd8730cfd88dabfac9b827524c9882d955d25125c8e0cf4c563ddfc96e"
+    },
+    {
+      "archive_path": "allocation/source/reproduce.py",
+      "repository_path": "pullback-feature-learning/experiments/allocation_frontier/reproduce.py",
+      "sha256": "49e4f9ad6ed53fb46de12e18c6a6441a2e43bf50d049d0f1cb094b67c73032a8"
+    },
+    {
+      "archive_path": "allocation/source/runner.py",
+      "repository_path": "pullback-feature-learning/experiments/allocation_frontier/runner.py",
+      "sha256": "944604aae14aaaf8fa28714fd7c25f2f787261f8ddcc5196d47a1866654244f1"
+    },
+    {
+      "archive_path": "allocation/source/timing.py",
+      "repository_path": "pullback-feature-learning/experiments/allocation_frontier/timing.py",
+      "sha256": "85c8dede7b0b09876f92e9c3c11ea98b97614bffbe9a460e8d820e2b1b5a3cc8"
+    },
+    {
+      "archive_path": "allocation/source/reference/core4d.py",
+      "repository_path": "pullback-feature-learning/experiments/allocation_frontier/reference/core4d.py",
+      "sha256": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77"
+    },
+    {
+      "archive_path": "allocation/source/reference/task.py",
+      "repository_path": "pullback-feature-learning/experiments/allocation_frontier/reference/task.py",
+      "sha256": "8da7d92d23437155d10be130a712e219211760ee740c2fca2a4b3506437214f4"
+    },
+    {
+      "archive_path": "distillation/inference.py",
+      "repository_path": "pullback-feature-learning/experiments/distillation_replication/inference.py",
+      "sha256": "1c0a431621d9b82ba8b0032083bc9c68010046b3bf6dae1af3df8f8d74443e9f"
+    },
+    {
+      "archive_path": "distillation/model.py",
+      "repository_path": "pullback-feature-learning/experiments/distillation_replication/model.py",
+      "sha256": "a035171d142946a624c113bee91baf39300713af75d12cf6edea6ec28fe2b1d4"
+    },
+    {
+      "archive_path": "distillation/prepare_zappos.py",
+      "repository_path": "pullback-feature-learning/experiments/distillation_replication/prepare_zappos.py",
+      "sha256": "47d79dd7a1cf56a64546299601497bf4344a78e844d0c6d03e3cae4095852a8c"
+    },
+    {
+      "archive_path": "distillation/report.py",
+      "repository_path": "pullback-feature-learning/experiments/distillation_replication/report.py",
+      "sha256": "d5baae6023dc048a524377145f6a8c2f6f4cf8acb8fab6af8e43268578827826"
+    },
+    {
+      "archive_path": "distillation/study.py",
+      "repository_path": "pullback-feature-learning/experiments/distillation_replication/study.py",
+      "sha256": "7b777bf4b5a80dfd0c12c10ed82370aea2fa4712eab7da314171b859bca3b4c6"
+    },
+    {
+      "archive_path": "structured/analyze.py",
+      "repository_path": "pullback-feature-learning/experiments/residual_bounds/analyze.py",
+      "sha256": "b678539c781b7025400fb219d47b44cfb3740e536547befbbf136258d94962f1"
+    },
+    {
+      "archive_path": "structured/assets.py",
+      "repository_path": "pullback-feature-learning/experiments/residual_bounds/assets.py",
+      "sha256": "2ed8ec1ce959e7499914c59c1de77e78c83f28f1c082619c8ae952442ef22d4c"
+    },
+    {
+      "archive_path": "structured/build_report.py",
+      "repository_path": "pullback-feature-learning/experiments/residual_bounds/build_report.py",
+      "sha256": "42965f84d52f858d045e673ad9447cb8a1003312eaa91257a08d1c19c1fb2211"
+    },
+    {
+      "archive_path": "structured/common.py",
+      "repository_path": "pullback-feature-learning/experiments/residual_bounds/common.py",
+      "sha256": "13e3a4e95e4faaae90dedacf56339b57b6c6d62050b5bdb52106edff67844554"
+    },
+    {
+      "archive_path": "structured/finalize.py",
+      "repository_path": "pullback-feature-learning/experiments/residual_bounds/finalize.py",
+      "sha256": "404f512369a15083b213ee9d3858052de0afb472ad1208125ac2266cc90b0014"
+    },
+    {
+      "archive_path": "structured/math_utils.py",
+      "repository_path": "pullback-feature-learning/experiments/residual_bounds/math_utils.py",
+      "sha256": "2b7777bb6bf0ab815c1ff4de75a0fb80da1a5976a4fdee1ac9b1fe78d0287099"
+    },
+    {
+      "archive_path": "structured/plot_overview.py",
+      "repository_path": "pullback-feature-learning/experiments/residual_bounds/plot_overview.py",
+      "sha256": "5a96b81f26779888f90d4471d8578e78c97cc814d5ff1638a7baeff3f4028a89"
+    },
+    {
+      "archive_path": "structured/reproduce.py",
+      "repository_path": "pullback-feature-learning/experiments/residual_bounds/reproduce.py",
+      "sha256": "e1320d2be57d3851b1eafc699babc6a8fed10df83f63e7be9d532d2c7da3b01d"
+    },
+    {
+      "archive_path": "structured/run.py",
+      "repository_path": "pullback-feature-learning/experiments/residual_bounds/run.py",
+      "sha256": "3a9bab88e799b153a283e84040eb7fcffe9eb2ba29a575ee2a530fd1bee3f845"
+    },
+    {
+      "archive_path": "structured/stress_recovery.py",
+      "repository_path": "pullback-feature-learning/experiments/residual_bounds/stress_recovery.py",
+      "sha256": "5004a4ff40275bd8c2fb42237d54d0bb8b76153a5c02f736ad883a9b7e12c543"
+    },
+    {
+      "archive_path": "structured/reference/baseline.py",
+      "repository_path": "pullback-feature-learning/experiments/residual_bounds/reference/baseline.py",
+      "sha256": "652b9f68f021bbd05b2031e26325e495e3a3cf1ff423c89680bc6335592d6ac3"
+    },
+    {
+      "archive_path": "structured/reference/core4d.py",
+      "repository_path": "pullback-feature-learning/experiments/residual_bounds/reference/core4d.py",
+      "sha256": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77"
+    },
+    {
+      "archive_path": "structured/reference/task.py",
+      "repository_path": "pullback-feature-learning/experiments/residual_bounds/reference/task.py",
+      "sha256": "8da7d92d23437155d10be130a712e219211760ee740c2fca2a4b3506437214f4"
+    },
+    {
+      "archive_path": "root_audit/allocation_results.py",
+      "repository_path": "pullback-feature-learning/experiments/independent_validation_frontier_20261121/allocation_results.py",
+      "sha256": "40a25a81b7e61c67812643fc5bc21d7be9432eac4196ca0f804a02517ee058b7"
+    },
+    {
+      "archive_path": "root_audit/allocation_timing.py",
+      "repository_path": "pullback-feature-learning/experiments/independent_validation_frontier_20261121/allocation_timing.py",
+      "sha256": "3df611a26b2f7e86e4a4b527cb7bde76675d224fb433dd5616e118e00d3af976"
+    },
+    {
+      "archive_path": "root_audit/common.py",
+      "repository_path": "pullback-feature-learning/experiments/independent_validation_frontier_20261121/common.py",
+      "sha256": "a41186ea643746b2e0bca7fec8729154cc382e897127e009e3b32fc29ad68820"
+    },
+    {
+      "archive_path": "root_audit/distillation_results.py",
+      "repository_path": "pullback-feature-learning/experiments/independent_validation_frontier_20261121/distillation_results.py",
+      "sha256": "b3596e1699c3481a27cefb93f1c1fcf9366389a85515c539d6221aa0bec91ba8"
+    },
+    {
+      "archive_path": "root_audit/external_selection.py",
+      "repository_path": "pullback-feature-learning/experiments/independent_validation_frontier_20261121/external_selection.py",
+      "sha256": "566fff2d63ade483a6d3fdf73934155d980153e716e41ef548a2466575f369c6"
+    },
+    {
+      "archive_path": "root_audit/history.py",
+      "repository_path": "pullback-feature-learning/experiments/independent_validation_frontier_20261121/history.py",
+      "sha256": "3f6782c16b568e7d36ca43bc9c4c3ad465f87602d9616d5c92e57eedafb8ddbf"
+    },
+    {
+      "archive_path": "root_audit/image_timing.py",
+      "repository_path": "pullback-feature-learning/experiments/independent_validation_frontier_20261121/image_timing.py",
+      "sha256": "d9ac6cb6ca58e83f1afe353924083a1637fa03b3eb563a7dee414abdfeeaaac2"
+    },
+    {
+      "archive_path": "root_audit/preflight.py",
+      "repository_path": "pullback-feature-learning/experiments/independent_validation_frontier_20261121/preflight.py",
+      "sha256": "63321bd958413fb120cd1652338899eb8c84f3e7c75e4384d7f3ea5f5b18bac2"
+    },
+    {
+      "archive_path": "root_audit/structured_results.py",
+      "repository_path": "pullback-feature-learning/experiments/independent_validation_frontier_20261121/structured_results.py",
+      "sha256": "6868fa666a626b62256bff51d19c6755112ea5afddc6ccc743cd060cfa10f775"
+    },
+    {
+      "archive_path": "root_audit/reference/core4d.py",
+      "repository_path": "pullback-feature-learning/experiments/independent_validation_frontier_20261121/reference/core4d.py",
+      "sha256": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77"
+    },
+    {
+      "archive_path": "root_audit/reference/task.py",
+      "repository_path": "pullback-feature-learning/experiments/independent_validation_frontier_20261121/reference/task.py",
+      "sha256": "8da7d92d23437155d10be130a712e219211760ee740c2fca2a4b3506437214f4"
+    }
+  ]
+}

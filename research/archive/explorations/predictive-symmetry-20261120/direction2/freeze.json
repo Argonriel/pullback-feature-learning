@@ -1,0 +1,5 @@
+{
+  "protocol_sha256": "bd9f808149802cb4593c9796618f7adf3795a9d7ff7c44ee0e07159a52038418",
+  "exploration_sha256": "0a6315d9a05fb8ecd37539f2a19717c5d43565af0a1d966f283a75cd278c966f",
+  "frozen_before_fresh_training": true
+}

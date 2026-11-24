@@ -1,0 +1,86 @@
+{
+  "timestamp": "2026-11-21T08:27:47.096871+00:00",
+  "config": {
+    "pairs": 16,
+    "calibration_repeats": 20,
+    "train_seed_base": 721000,
+    "init_seed_base": 722000,
+    "calibration_seed_formula": "72300000 + 100*pair + repeat (repeat1..20)",
+    "test_seed_base": 724000,
+    "budgets": [
+      0,
+      128,
+      512,
+      2048,
+      8192,
+      65536
+    ],
+    "radii": [
+      0,
+      1,
+      4,
+      16,
+      64,
+      512
+    ],
+    "n_angles": 128,
+    "n_candidates": 64,
+    "primary": "none",
+    "secondary": "shrink16",
+    "shrinkage_prior_radius_count": 16,
+    "historical_cal_seed_base": 603000,
+    "historical_models": 16,
+    "historical_radii_per_model": 512,
+    "historical_new_model_setup_forward_cost": 0,
+    "training": {
+      "gd_steps": 500,
+      "gd_rate": 0.5,
+      "pb_steps": 500,
+      "pb_rate": 8.0,
+      "damping": 0.1,
+      "hybrid_pb_steps": 100,
+      "hybrid_gd_steps": 400,
+      "hybrid_gd_rate": 2.0
+    },
+    "iid_n": 32768,
+    "bootstrap_repeats": 20000,
+    "bootstrap_seed": 729001,
+    "quadrature_levels": [
+      [
+        192,
+        512
+      ],
+      [
+        384,
+        1024
+      ],
+      [
+        768,
+        2048
+      ],
+      [
+        1536,
+        4096
+      ]
+    ],
+    "quadrature_atol": 2e-07,
+    "quadrature_rtol": 2e-06,
+    "recovery": "Ratio of cohort mean incremental gain to mean none/65536 minus default gain; only positive denominators.",
+    "threshold": "First tested budget with recovery>=.9; undefined when denominator<=0; explicit probabilities at all budgets.",
+    "full_reference": "Finite512-radius no-shrinkage calibration, NOT a population oracle.",
+    "uncertainty": "Resample16model-pair clusters after averaging20calibration draws. Report within-model calibration SD separately.",
+    "policy_rule": "Argmax64scores; exact ties choose smallest positive index. Complete uniform orbit cancels signed label term.",
+    "leakage": "All20complete pools generated for research reuse; every budget choice uses only its permitted prefix.",
+    "no_new_outcome_tuning": true
+  },
+  "code_hashes": {
+    "idea2a\\study.py": "311d26c15c974e7ef3923de539dfa7a7a67232431da7823c029221427c070c37",
+    "legacy\\rotation_selectors.py": "f79a394c7ab67de90428830fd9c68c4530d2ef30b41938570c6b0dd190ab9bf6",
+    "legacy\\budgeted-rotation-final\\generator.py": "885eb5c8d8878b57df1025c1a5a69b6978d4c2803f3f0e552c557170c7e355d2",
+    "legacy\\rings-mechanism-20261120\\polar.py": "db6eba08d2f5c0ac7d6d7d1d0ec3533fcba861748935318fd1e1dd35b9c4063e",
+    "source\\pullback_feature_learning\\core.py": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5"
+  },
+  "historical_commit_hash": "eb634d2d0ef81b5d96582ab0f2578b35cde9969d089586f4e5ec07d60c53b12d",
+  "historical_curves_hash": "6992943cf47e43bc38dffd1519bf56f202ac6287377703cb4c352b82a1ca1ea0",
+  "fresh_training_not_started": true
+}

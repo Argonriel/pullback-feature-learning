@@ -1,0 +1,101 @@
+{
+  "utc": "2026-11-21T22:44:44.228424+00:00",
+  "rows": [
+    {
+      "pair": 1,
+      "arm": "noaug",
+      "raw": {
+        "beta": 0.9820462791556333,
+        "temperature": 1.0182819498688018,
+        "derivative": 3.925748615074554e-17,
+        "status": "interior"
+      },
+      "full": {
+        "beta": 0.9898574363038923,
+        "temperature": 1.0102464893671756,
+        "derivative": -1.8118839761882556e-17,
+        "status": "interior"
+      }
+    },
+    {
+      "pair": 1,
+      "arm": "aug",
+      "raw": {
+        "beta": 1.0890173953426032,
+        "temperature": 0.9182589775670218,
+        "derivative": -1.3855583347321953e-17,
+        "status": "interior"
+      },
+      "full": {
+        "beta": 1.1157380862180237,
+        "temperature": 0.8962676925277895,
+        "derivative": 2.5135449277513543e-17,
+        "status": "interior"
+      }
+    },
+    {
+      "pair": 2,
+      "arm": "noaug",
+      "raw": {
+        "beta": 0.9207114593416033,
+        "temperature": 1.0861166002159848,
+        "derivative": 1.8474111129762604e-17,
+        "status": "interior"
+      },
+      "full": {
+        "beta": 0.7961462564602717,
+        "temperature": 1.256050621208819,
+        "derivative": 5.684341886080802e-17,
+        "status": "interior"
+      }
+    },
+    {
+      "pair": 2,
+      "arm": "aug",
+      "raw": {
+        "beta": 0.9716659238316896,
+        "temperature": 1.0291603065141743,
+        "derivative": 6.3948846218409015e-18,
+        "status": "interior"
+      },
+      "full": {
+        "beta": 0.9802890419026162,
+        "temperature": 1.020107292089206,
+        "derivative": 3.694822225952521e-17,
+        "status": "interior"
+      }
+    },
+    {
+      "pair": 3,
+      "arm": "noaug",
+      "raw": {
+        "beta": 0.9926196271074945,
+        "temperature": 1.0074352477937718,
+        "derivative": -3.943512183468556e-17,
+        "status": "interior"
+      },
+      "full": {
+        "beta": 0.6061450503125556,
+        "temperature": 1.649770132552192,
+        "derivative": 1.5489831639570184e-16,
+        "status": "interior"
+      }
+    },
+    {
+      "pair": 3,
+      "arm": "aug",
+      "raw": {
+        "beta": 1.0240396307393964,
+        "temperature": 0.9765247066443719,
+        "derivative": 7.140954494389007e-17,
+        "status": "interior"
+      },
+      "full": {
+        "beta": 1.0308019618335091,
+        "temperature": 0.9701184485730692,
+        "derivative": 5.2580162446247416e-17,
+        "status": "interior"
+      }
+    }
+  ]
+}

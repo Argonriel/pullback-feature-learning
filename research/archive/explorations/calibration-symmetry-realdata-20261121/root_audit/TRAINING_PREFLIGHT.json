@@ -1,0 +1,97 @@
+{
+  "timestamp_utc": "2026-11-21T22:17:18.814752+00:00",
+  "status": "PASS",
+  "development_streams": [
+    2141001,
+    2141002,
+    2141003
+  ],
+  "no_fresh_streams": true,
+  "model_sha256": "fca6b349140849e8486a426d77ce3858123f005a9e84ecf2f112111acb05ac20",
+  "gradient_checks": [
+    {
+      "lam": 0.0,
+      "directional_checks": 12,
+      "max_gradient_error": 5.74168533898356e-12,
+      "pb_normal_equation_max_error": 2.0816681711721685e-17
+    },
+    {
+      "lam": 0.001,
+      "directional_checks": 12,
+      "max_gradient_error": 1.112283876114617e-11,
+      "pb_normal_equation_max_error": 3.469446951953614e-17
+    },
+    {
+      "lam": 0.01,
+      "directional_checks": 12,
+      "max_gradient_error": 1.0195094768405966e-11,
+      "pb_normal_equation_max_error": 3.122502256758253e-17
+    }
+  ],
+  "temperature_checks": [
+    {
+      "logit_scale": 0.1,
+      "beta": 0.049787068367863944,
+      "temperature": 20.085536923187668,
+      "status": "lower_bound",
+      "iterations": 0,
+      "n_labels": 2048,
+      "raw_nll": 0.6948744402609961,
+      "calibrated_nll": 0.6931749405593934,
+      "derivative": 0.0006189397234937599,
+      "lower_derivative": 0.0006189397234937599,
+      "upper_derivative": 0.030537517477173693,
+      "beta_min": 0.049787068367863944,
+      "beta_max": 20.085536923187668,
+      "grid_min": 0.6931749405593934
+    },
+    {
+      "logit_scale": 1.0,
+      "beta": 0.2931271712170398,
+      "temperature": 3.4114885899116163,
+      "status": "interior",
+      "iterations": 80,
+      "n_labels": 2048,
+      "raw_nll": 0.735463543635283,
+      "calibrated_nll": 0.6825230295514783,
+      "derivative": 1.3877787807814457e-17,
+      "lower_derivative": -0.06053181891923248,
+      "upper_derivative": 0.33194707082104513,
+      "beta_min": 0.049787068367863944,
+      "beta_max": 20.085536923187668,
+      "grid_min": 0.6825231132145148
+    },
+    {
+      "logit_scale": 5.0,
+      "beta": 0.3336394293631827,
+      "temperature": 2.9972476631694858,
+      "status": "interior",
+      "iterations": 80,
+      "n_labels": 2048,
+      "raw_nll": 0.7227955324460633,
+      "calibrated_nll": 0.5097033542331089,
+      "derivative": -1.6479873021779667e-17,
+      "lower_derivative": -1.0606851793658936,
+      "upper_derivative": 0.5880593308079393,
+      "beta_min": 0.049787068367863944,
+      "beta_max": 20.085536923187668,
+      "grid_min": 0.5097033644144668
+    },
+    {
+      "logit_scale": 20.0,
+      "beta": 0.3361498577564276,
+      "temperature": 2.9748636714420233,
+      "status": "interior",
+      "iterations": 80,
+      "n_labels": 2048,
+      "raw_nll": 0.2879763735672609,
+      "calibrated_nll": 0.17419347080868255,
+      "derivative": 5.551115123125783e-17,
+      "lower_derivative": -3.694122146168337,
+      "upper_derivative": 0.2587952802771398,
+      "beta_min": 0.049787068367863944,
+      "beta_max": 20.085536923187668,
+      "grid_min": 0.17419374453281233
+    }
+  ]
+}

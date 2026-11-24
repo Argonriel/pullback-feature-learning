@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-21T10:48:34.803765+00:00",
+  "cohort": "task2d",
+  "pair": 4,
+  "state": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\symmetry-frontier-2d-20261121\\task2d\\pilot_results\\4_pb4_500.npz",
+  "state_sha256": "ca988add79f06810a991cdab5d33d8b3f244b87cc69198d29b49e0c831ad5347",
+  "streams": {
+    "inputs": 1191204,
+    "ties": 1192204,
+    "histogram": 1193204,
+    "cdf": 1194204,
+    "action": 1195204
+  },
+  "policies": {
+    "folded_16x16x16.npz": "77df55ea61b042a78fb1a83157fb1fdce240b40116ff7f7008038b3495279674",
+    "folded_4x4x8.npz": "75e86d4529d17a857552ee447753ab655820d5bb9687a84a5f55f9aba0891f04",
+    "folded_8x8x16.npz": "290e100d66d0f4dc32aa388a5483245da18460370edbe9c17ca19c153c794311",
+    "grid.npz": "58332eb3f577e3663ab109c46516afbefdea2e3b96ba468a5591b7e0bcb1a63b"
+  },
+  "calibration_forward_examples_each_policy": 65536,
+  "unique_shared_calibration_forward_examples": 131072,
+  "extra_rank_coordinate_examples": 0
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "portable_input_hashes_verified": 7,
+  "executable_source_hashes_verified": 2,
+  "empirical_snapshot_matches": true,
+  "historical_files_unchanged": true,
+  "training_loss_reconstruction_max_error": 0.0,
+  "new_neural_training": false,
+  "new_holdout_or_population_evaluation": false
+}

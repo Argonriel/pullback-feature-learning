@@ -1,0 +1,263 @@
+{
+  "utc": "2026-11-21T22:41:58.800711+00:00",
+  "status": "PASS",
+  "fresh_streams_accessed": false,
+  "development_source": "5a69e55007a4d6ad30f013070da9400df737f701fa17228d934566674448e883",
+  "checks": [
+    {
+      "state": 0,
+      "test": "duplicate_pb",
+      "k": 2,
+      "error": 6.904199434387692e-16
+    },
+    {
+      "state": 0,
+      "test": "duplicate_gd_mean_gradient",
+      "k": 2,
+      "error": 4.163336342344337e-17
+    },
+    {
+      "state": 0,
+      "test": "duplicate_pb",
+      "k": 3,
+      "error": 5.63134608388971e-16
+    },
+    {
+      "state": 0,
+      "test": "duplicate_gd_mean_gradient",
+      "k": 3,
+      "error": 4.163336342344337e-17
+    },
+    {
+      "state": 0,
+      "test": "duplicate_pb",
+      "k": 9,
+      "error": 9.159339953157541e-16
+    },
+    {
+      "state": 0,
+      "test": "duplicate_gd_mean_gradient",
+      "k": 9,
+      "error": 5.0306980803327406e-17
+    },
+    {
+      "state": 0,
+      "test": "normalized_metric_equivalence",
+      "k": 1,
+      "error": 3.233090878351774e-16
+    },
+    {
+      "state": 0,
+      "test": "independent_loss_directional",
+      "k": 0,
+      "error": 2.8240881855268185e-12
+    },
+    {
+      "state": 0,
+      "test": "independent_loss_directional",
+      "k": 1,
+      "error": 2.529219889080281e-12
+    },
+    {
+      "state": 0,
+      "test": "independent_loss_directional",
+      "k": 2,
+      "error": 2.2979490489280496e-12
+    },
+    {
+      "state": 0,
+      "test": "independent_loss_directional",
+      "k": 3,
+      "error": 2.8390675227418782e-12
+    },
+    {
+      "state": 0,
+      "test": "independent_loss_directional",
+      "k": 4,
+      "error": 6.610462069227274e-12
+    },
+    {
+      "state": 0,
+      "test": "independent_loss_directional",
+      "k": 5,
+      "error": 2.0347144108479043e-12
+    },
+    {
+      "state": 0,
+      "test": "independent_loss_directional",
+      "k": 6,
+      "error": 3.995718686478078e-12
+    },
+    {
+      "state": 0,
+      "test": "independent_loss_directional",
+      "k": 7,
+      "error": 4.30224432468318e-14
+    },
+    {
+      "state": 1,
+      "test": "duplicate_pb",
+      "k": 2,
+      "error": 9.398731792842341e-15
+    },
+    {
+      "state": 1,
+      "test": "duplicate_gd_mean_gradient",
+      "k": 2,
+      "error": 6.938893903907228e-17
+    },
+    {
+      "state": 1,
+      "test": "duplicate_pb",
+      "k": 3,
+      "error": 1.4290651995096937e-14
+    },
+    {
+      "state": 1,
+      "test": "duplicate_gd_mean_gradient",
+      "k": 3,
+      "error": 5.898059818321144e-17
+    },
+    {
+      "state": 1,
+      "test": "duplicate_pb",
+      "k": 9,
+      "error": 7.998159426425566e-15
+    },
+    {
+      "state": 1,
+      "test": "duplicate_gd_mean_gradient",
+      "k": 9,
+      "error": 2.3592239273284576e-16
+    },
+    {
+      "state": 1,
+      "test": "normalized_metric_equivalence",
+      "k": 1,
+      "error": 2.49366499671666e-16
+    },
+    {
+      "state": 1,
+      "test": "independent_loss_directional",
+      "k": 0,
+      "error": 1.182059658488832e-12
+    },
+    {
+      "state": 1,
+      "test": "independent_loss_directional",
+      "k": 1,
+      "error": 3.5128054978739165e-12
+    },
+    {
+      "state": 1,
+      "test": "independent_loss_directional",
+      "k": 2,
+      "error": 9.76044939315912e-12
+    },
+    {
+      "state": 1,
+      "test": "independent_loss_directional",
+      "k": 3,
+      "error": 2.1275151779187595e-12
+    },
+    {
+      "state": 1,
+      "test": "independent_loss_directional",
+      "k": 4,
+      "error": 4.416911281168723e-12
+    },
+    {
+      "state": 1,
+      "test": "independent_loss_directional",
+      "k": 5,
+      "error": 2.228888948407892e-12
+    },
+    {
+      "state": 1,
+      "test": "independent_loss_directional",
+      "k": 6,
+      "error": 3.5193983144443663e-12
+    },
+    {
+      "state": 1,
+      "test": "independent_loss_directional",
+      "k": 7,
+      "error": 2.0640728709553358e-12
+    }
+  ],
+  "failures": [],
+  "pipeline_fit_tests": {
+    "raw": {
+      "beta": 1.0118543812488396,
+      "temperature": 0.9882844987692707,
+      "status": "interior",
+      "iterations": 80,
+      "n_labels": 256,
+      "raw_nll": 0.6265242397685232,
+      "calibrated_nll": 0.6265167083831843,
+      "derivative": -1.5612511283791264e-17,
+      "lower_derivative": -0.13343061828281993,
+      "upper_derivative": 0.17200705314953713,
+      "beta_min": 0.049787068367863944,
+      "beta_max": 20.085536923187668
+    },
+    "full": {
+      "beta": 1.7791919808105767,
+      "temperature": 0.5620528929904535,
+      "status": "interior",
+      "iterations": 80,
+      "n_labels": 256,
+      "raw_nll": 0.6112275307327251,
+      "calibrated_nll": 0.5951120095584097,
+      "derivative": 1.3877787807814457e-17,
+      "lower_derivative": -0.1186017107171039,
+      "upper_derivative": 0.10270923409118549,
+      "beta_min": 0.049787068367863944,
+      "beta_max": 20.085536923187668
+    },
+    "interp": {
+      "beta": 1.3617888333794292,
+      "temperature": 0.7343282420067946,
+      "status": "interior",
+      "iterations": 80,
+      "n_labels": 256,
+      "raw_nll": 0.6214392906385392,
+      "calibrated_nll": 0.6168631868866303,
+      "derivative": 3.0357660829594124e-18,
+      "lower_derivative": -0.11662022914106615,
+      "upper_derivative": 0.13198968131961974,
+      "beta_min": 0.049787068367863944,
+      "beta_max": 20.085536923187668
+    }
+  },
+  "pipeline_counts": {
+    "raw": [
+      256
+    ],
+    "full": [
+      256,
+      256
+    ],
+    "interp": [
+      256,
+      64
+    ]
+  },
+  "pipeline_selected": {
+    "raw": 0,
+    "full": 256,
+    "interp": 64
+  },
+  "normalized_extra_training": {
+    "n": 2304,
+    "rate": 36,
+    "damping": 0.9,
+    "normalized_rate": 0.015625,
+    "normalized_damping": 0.000390625
+  },
+  "code_hashes": {
+    "model.py": "fca6b349140849e8486a426d77ce3858123f005a9e84ecf2f112111acb05ac20",
+    "study.py": "4d3e9386bf7602ff1f9e79125113ee93560f0502158c8d999676e6b6197b0aac",
+    "preflight.py": "6e90b64535c56389c532ffe5a6c9787d4b9ff127ca5df84cc142dedeae9b18bc"
+  }
+}

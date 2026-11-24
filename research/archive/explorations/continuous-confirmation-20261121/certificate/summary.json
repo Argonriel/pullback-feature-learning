@@ -1,0 +1,214 @@
+{
+  "old": {
+    "primary_epsilon": 0.1,
+    "coverage": {
+      "mean": 0.027318954467773438,
+      "ci_low": 0.020599365234375,
+      "ci_high": 0.034679412841796875,
+      "minimum": 0.0096435546875,
+      "maximum": 0.0570068359375
+    },
+    "gain": {
+      "mean": 0.006743723894852555,
+      "ci_low": 0.004821865661896319,
+      "ci_high": 0.008853097682609248,
+      "minimum": 0.0021438762989704997,
+      "maximum": 0.01365758918987462
+    },
+    "oracle_gain": {
+      "mean": 0.007453297865967496,
+      "ci_low": 0.005504295547693617,
+      "ci_high": 0.00959634671290615,
+      "minimum": 0.0028031867270106635,
+      "maximum": 0.014542955871687135
+    },
+    "oracle_gain_fraction": 0.904797314708845,
+    "oracle_gain_fraction_ci": [
+      0.8710300272158986,
+      0.9258250752779115
+    ],
+    "gain_difference_vs_original": {
+      "mean": 0.004770579744655121,
+      "ci_low": 0.003681273719931601,
+      "ci_high": 0.005957163765691563,
+      "minimum": 0.001944202621471215,
+      "maximum": 0.00842814746076614
+    },
+    "gain_difference_vs_equal_cost_uniform": {
+      "mean": 0.002063184285933817,
+      "ci_low": 0.001664312167179095,
+      "ci_high": 0.002483961342862733,
+      "minimum": 0.0008606697831275109,
+      "maximum": 0.0036093500225820186
+    },
+    "criteria": {
+      "coverage_at_least_2_percent": true,
+      "gain_at_least_half_oracle": true,
+      "paired_improvement_ci_positive": true
+    },
+    "all_criteria_pass": true,
+    "models_meeting_coverage_target": 9,
+    "models_with_positive_certified_gain": 16,
+    "fresh_cohort": false,
+    "chronology": {
+      "freeze": "2026-11-21T08:56:41.475729+00:00",
+      "selector_commit": "2026-11-21T08:57:51.032174+00:00",
+      "score_start": "2026-11-21T08:59:09.518511+00:00",
+      "score_complete": "2026-11-21T08:59:37.231146+00:00"
+    }
+  },
+  "fresh": {
+    "primary_epsilon": 0.1,
+    "coverage": {
+      "mean": 0.027570724487304688,
+      "ci_low": 0.020183515548706055,
+      "ci_high": 0.03531093597412109,
+      "minimum": 0.003814697265625,
+      "maximum": 0.05865478515625
+    },
+    "gain": {
+      "mean": 0.0075433079168953565,
+      "ci_low": 0.004981001459363396,
+      "ci_high": 0.010356107311820824,
+      "minimum": 0.0004387277494805225,
+      "maximum": 0.0201777844964501
+    },
+    "oracle_gain": {
+      "mean": 0.008418913952496391,
+      "ci_low": 0.005718230735702782,
+      "ci_high": 0.011316902683102427,
+      "minimum": 0.0006736340365414795,
+      "maximum": 0.021008445281638557
+    },
+    "oracle_gain_fraction": 0.8959953694096852,
+    "oracle_gain_fraction_ci": [
+      0.8559094085414588,
+      0.9224581374060625
+    ],
+    "gain_difference_vs_original": {
+      "mean": 0.005548094906220118,
+      "ci_low": 0.003882453406637648,
+      "ci_high": 0.007281359143744081,
+      "minimum": 0.00037352976295705636,
+      "maximum": 0.012698240326066989
+    },
+    "gain_difference_vs_equal_cost_uniform": {
+      "mean": 0.0024050938439436785,
+      "ci_low": 0.0017048337508166252,
+      "ci_high": 0.003229970709106554,
+      "minimum": 0.0003114284292897385,
+      "maximum": 0.006974479546842539
+    },
+    "criteria": {
+      "coverage_at_least_2_percent": true,
+      "gain_at_least_half_oracle": true,
+      "paired_improvement_ci_positive": true
+    },
+    "all_criteria_pass": true,
+    "models_meeting_coverage_target": 10,
+    "models_with_positive_certified_gain": 16,
+    "fresh_cohort": true,
+    "chronology": {
+      "freeze": "2026-11-21T08:56:41.475729+00:00",
+      "selector_commit": "2026-11-21T08:58:07.515953+00:00",
+      "score_start": "2026-11-21T08:59:09.519514+00:00",
+      "score_complete": "2026-11-21T08:59:37.273304+00:00"
+    }
+  },
+  "numerical_checks": [
+    {
+      "cohort": "old",
+      "cubic_solves": 35651584,
+      "fallback_cells": 0,
+      "max_stationary_residual": 5.412337245047638e-16
+    },
+    {
+      "cohort": "fresh",
+      "cubic_solves": 35651584,
+      "fallback_cells": 0,
+      "max_stationary_residual": 4.996003610813204e-16
+    }
+  ],
+  "execution_checks": [
+    {
+      "cohort": "old",
+      "deployment_checks": 320,
+      "max_extra_calls": 64,
+      "max_batch_selected": 64,
+      "max_output_error": 2.4424906541753444e-15,
+      "max_logit_enclosure_violation": -0.009050409346426758,
+      "outside_grid": 0,
+      "harmful_selected": 0,
+      "source_hashes_match": true,
+      "calibration_hashes_match": true,
+      "result_hashes_match": true,
+      "chronology_pass": true
+    },
+    {
+      "cohort": "fresh",
+      "deployment_checks": 320,
+      "max_extra_calls": 56,
+      "max_batch_selected": 64,
+      "max_output_error": 2.7755575615628914e-15,
+      "max_logit_enclosure_violation": -0.010657551639925433,
+      "outside_grid": 0,
+      "harmful_selected": 0,
+      "source_hashes_match": true,
+      "calibration_hashes_match": true,
+      "result_hashes_match": true,
+      "chronology_pass": true
+    }
+  ],
+  "bootstrap": {
+    "seed": 8653000,
+    "resamples": 10000,
+    "unit": "complete model pair",
+    "interval": "pointwise percentile 95%; not simultaneous"
+  },
+  "physical_study_interval_propagations": 5242880,
+  "latency": [
+    {
+      "method": "raw",
+      "n": 32,
+      "median_ms_per_256": 0.0303125,
+      "mean_ms_per_256": 0.032586328124999994
+    },
+    {
+      "method": "base_independent",
+      "n": 32,
+      "median_ms_per_256": 1.819025,
+      "mean_ms_per_256": 1.844947265625
+    },
+    {
+      "method": "base_joint",
+      "n": 32,
+      "median_ms_per_256": 1.8684875,
+      "mean_ms_per_256": 1.8847714843749999
+    },
+    {
+      "method": "uniform_independent",
+      "n": 32,
+      "median_ms_per_256": 3.2897,
+      "mean_ms_per_256": 3.2994484375
+    },
+    {
+      "method": "uniform_joint",
+      "n": 32,
+      "median_ms_per_256": 3.23906875,
+      "mean_ms_per_256": 3.267058203125
+    },
+    {
+      "method": "adaptive_joint",
+      "n": 32,
+      "median_ms_per_256": 5.0008625,
+      "mean_ms_per_256": 5.010974609375
+    },
+    {
+      "method": "pointwise_oracle",
+      "n": 32,
+      "median_ms_per_256": 0.0981625,
+      "mean_ms_per_256": 0.10310390625
+    }
+  ],
+  "disclosure": "All setup times include four epsilon objectives and shared fixed-grid objective variants. Adaptive partition timing includes priority roots; equal interval counts do not imply equal time. Baseline timings are a post-score, outcome-neutral supplement. Historical models do not add fresh training replications."
+}

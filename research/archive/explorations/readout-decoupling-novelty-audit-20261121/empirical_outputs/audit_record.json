@@ -1,0 +1,44 @@
+{
+  "scope": "Archived training inputs and stored model states only; no training, validation, holdout, or population scoring.",
+  "source_sha256": "edbfa90df881008f35fc6c93e8f8c270eb45095e82f7852b2c02f1f08d7f34dc",
+  "historical_files_sha256": {
+    "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\src\\pullback_feature_learning\\core.py": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5",
+    "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\rings-mechanism-20261120\\generator.py": "885eb5c8d8878b57df1025c1a5a69b6978d4c2803f3f0e552c557170c7e355d2",
+    "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\rings-mechanism-20261120\\stage2\\training_record.json": "c6476e76f2cb87aa2629a2ea351d06382df9261b0097aa390d967c21260dbb91",
+    "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\rings-mechanism-20261120\\stage2\\training_rows.csv": "048527e0473d7fb5518083f6a08c1afa9e581bd009cb502efdedc1fce8f84fd6",
+    "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\rings-mechanism-20261120\\stage2\\states.npz": "fc971a063b36de9665dffe189a8890a6f0ad689112bcb3d807458b995ea35f13",
+    "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\rings-mechanism-20261120\\stage2_run.py": "7f591671c87042f34b433026cf28ece8e4c7c4ac5ff2fb0fc7db217183980862",
+    "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\rings-mechanism-20261120\\stage2_plan.md": "62113eaa158d9cac99f4dc4122a259157ef7b4cdc184f05cfd3d3bb8aceeace2"
+  },
+  "historical_files_unchanged": true,
+  "max_training_loss_reconstruction_error": 0.0,
+  "reconstructed_training_sets": 16,
+  "checked_archived_state_hashes": 288,
+  "logical_rows_checked": 384,
+  "endpoint_pair_rows": 480,
+  "fixed_states": 144,
+  "diagnostic_rows": 576,
+  "numpy": "2.5.5",
+  "python": "3.12.14",
+  "damping": 0.1,
+  "candidate_weights": [
+    0.0,
+    0.1111111111111111,
+    1.0,
+    9.0
+  ],
+  "exact_readout_null_head_indices": [
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71
+  ],
+  "source_archive": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\rings-mechanism-20261120",
+  "repository": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning",
+  "prescribed_rank_tolerance": "max(shape)*machine_epsilon*largest_singular_value; B also reported at relative1e-10",
+  "note": "A/B nullspaces are local linear objects. Endpoint parameter differences need not be linearized accurately. All summaries are descriptive retrospective diagnostics."
+}

@@ -1,0 +1,7 @@
+{
+  "maximum_mass_difference": 5.84601811404184e-16,
+  "total_quadrature_mass": 0.9999999999999996,
+  "total_cdf_mass": 1.0,
+  "poisson_remainder_bound": 1.1328401527630543e-57,
+  "scope": "Independent numerical check; not directed-rounding verification"
+}

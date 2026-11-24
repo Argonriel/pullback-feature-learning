@@ -1,0 +1,1066 @@
+{
+  "timestamp_utc": "2026-11-21T10:53:01.037976+00:00",
+  "status": "PASS",
+  "source_hashes": {
+    "validation\\adapters.py": "bb63cbd3443fe50fafb5dfb62ed7495aaab1782cb20fba036fcdf6452395cfb4",
+    "method\\baseline.py": "652b9f68f021bbd05b2031e26325e495e3a3cf1ff423c89680bc6335592d6ac3",
+    "task2d\\task.py": "8da7d92d23437155d10be130a712e219211760ee740c2fca2a4b3506437214f4",
+    "task2d\\core4d.py": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77",
+    "reference\\waveform_task.py": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77",
+    "legacy\\generator.py": "885eb5c8d8878b57df1025c1a5a69b6978d4c2803f3f0e552c557170c7e355d2",
+    "source\\pullback_feature_learning\\core.py": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5"
+  },
+  "development_seeds": [
+    1201001,
+    1201010
+  ],
+  "fresh_models_read": 0,
+  "fits": 0,
+  "task_seed_cases": 30,
+  "iid_geometry_inputs": 15360,
+  "training_labels_checked": 7680,
+  "interpolation_points": 3870,
+  "batch_quota_checks": 60,
+  "records": [
+    {
+      "cohort": "rings",
+      "seed": 1201001,
+      "training_shape": [
+        256,
+        2
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 80,
+      "quotient_shape": [
+        512
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 4.440892098500626e-16,
+        "reconstruction": 3.3306690738754696e-16,
+        "partner_vs_pi": 2.220446049250313e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 1.7763568394002505e-15,
+        "jensen_identity": 1.1102230246251565e-16,
+        "masked_jensen_identity": 1.1102230246251565e-16,
+        "helper_nll": 2.220446049250313e-16,
+        "interpolation": 1.3877787807814457e-15
+      },
+      "min_jensen": 3.2173221786724326e-07,
+      "quota_counts": [
+        64,
+        64
+      ]
+    },
+    {
+      "cohort": "rings",
+      "seed": 1201002,
+      "training_shape": [
+        256,
+        2
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 80,
+      "quotient_shape": [
+        512
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 4.440892098500626e-16,
+        "reconstruction": 3.3306690738754696e-16,
+        "partner_vs_pi": 2.220446049250313e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 1.5543122344752192e-15,
+        "jensen_identity": 1.1102230246251565e-16,
+        "masked_jensen_identity": 1.1102230246251565e-16,
+        "helper_nll": 4.440892098500626e-16,
+        "interpolation": 1.0547118733938987e-15
+      },
+      "min_jensen": 4.249348422802335e-06,
+      "quota_counts": [
+        64,
+        64
+      ]
+    },
+    {
+      "cohort": "rings",
+      "seed": 1201003,
+      "training_shape": [
+        256,
+        2
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 80,
+      "quotient_shape": [
+        512
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 4.440892098500626e-16,
+        "reconstruction": 2.7755575615628914e-16,
+        "partner_vs_pi": 2.220446049250313e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 3.219646771412954e-15,
+        "jensen_identity": 1.1102230246251565e-16,
+        "masked_jensen_identity": 1.1102230246251565e-16,
+        "helper_nll": 4.440892098500626e-16,
+        "interpolation": 2.581268532253489e-15
+      },
+      "min_jensen": 1.3026764000834135e-08,
+      "quota_counts": [
+        64,
+        64
+      ]
+    },
+    {
+      "cohort": "rings",
+      "seed": 1201004,
+      "training_shape": [
+        256,
+        2
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 80,
+      "quotient_shape": [
+        512
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 4.440892098500626e-16,
+        "reconstruction": 3.3306690738754696e-16,
+        "partner_vs_pi": 2.220446049250313e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 2.6645352591003757e-15,
+        "jensen_identity": 1.1102230246251565e-16,
+        "masked_jensen_identity": 1.1102230246251565e-16,
+        "helper_nll": 4.440892098500626e-16,
+        "interpolation": 1.0547118733938987e-15
+      },
+      "min_jensen": 6.740534264082498e-07,
+      "quota_counts": [
+        64,
+        64
+      ]
+    },
+    {
+      "cohort": "rings",
+      "seed": 1201005,
+      "training_shape": [
+        256,
+        2
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 80,
+      "quotient_shape": [
+        512
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 4.440892098500626e-16,
+        "reconstruction": 3.3306690738754696e-16,
+        "partner_vs_pi": 2.220446049250313e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 3.219646771412954e-15,
+        "jensen_identity": 1.1102230246251565e-16,
+        "masked_jensen_identity": 1.1102230246251565e-16,
+        "helper_nll": 4.440892098500626e-16,
+        "interpolation": 1.3322676295501878e-15
+      },
+      "min_jensen": 3.287276117980298e-09,
+      "quota_counts": [
+        64,
+        64
+      ]
+    },
+    {
+      "cohort": "rings",
+      "seed": 1201006,
+      "training_shape": [
+        256,
+        2
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 80,
+      "quotient_shape": [
+        512
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 2.220446049250313e-16,
+        "reconstruction": 3.3306690738754696e-16,
+        "partner_vs_pi": 2.220446049250313e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 2.1649348980190553e-15,
+        "jensen_identity": 1.1102230246251565e-16,
+        "masked_jensen_identity": 1.1102230246251565e-16,
+        "helper_nll": 4.440892098500626e-16,
+        "interpolation": 1.2212453270876722e-15
+      },
+      "min_jensen": 1.7176516852179802e-06,
+      "quota_counts": [
+        64,
+        64
+      ]
+    },
+    {
+      "cohort": "rings",
+      "seed": 1201007,
+      "training_shape": [
+        256,
+        2
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 80,
+      "quotient_shape": [
+        512
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 4.440892098500626e-16,
+        "reconstruction": 3.3306690738754696e-16,
+        "partner_vs_pi": 2.220446049250313e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 1.7208456881689926e-15,
+        "jensen_identity": 1.1102230246251565e-16,
+        "masked_jensen_identity": 1.1102230246251565e-16,
+        "helper_nll": 4.440892098500626e-16,
+        "interpolation": 4.996003610813204e-16
+      },
+      "min_jensen": 5.689444885215167e-07,
+      "quota_counts": [
+        64,
+        64
+      ]
+    },
+    {
+      "cohort": "rings",
+      "seed": 1201008,
+      "training_shape": [
+        256,
+        2
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 80,
+      "quotient_shape": [
+        512
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 2.220446049250313e-16,
+        "reconstruction": 3.3306690738754696e-16,
+        "partner_vs_pi": 2.220446049250313e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 1.3322676295501878e-15,
+        "jensen_identity": 1.1102230246251565e-16,
+        "masked_jensen_identity": 1.1102230246251565e-16,
+        "helper_nll": 4.440892098500626e-16,
+        "interpolation": 1.4432899320127035e-15
+      },
+      "min_jensen": 2.020564615623499e-08,
+      "quota_counts": [
+        64,
+        64
+      ]
+    },
+    {
+      "cohort": "rings",
+      "seed": 1201009,
+      "training_shape": [
+        256,
+        2
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 80,
+      "quotient_shape": [
+        512
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 4.440892098500626e-16,
+        "reconstruction": 3.3306690738754696e-16,
+        "partner_vs_pi": 2.220446049250313e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 3.497202527569243e-15,
+        "jensen_identity": 1.1102230246251565e-16,
+        "masked_jensen_identity": 1.1102230246251565e-16,
+        "helper_nll": 2.220446049250313e-16,
+        "interpolation": 2.1094237467877974e-15
+      },
+      "min_jensen": 5.3307031344651534e-08,
+      "quota_counts": [
+        64,
+        64
+      ]
+    },
+    {
+      "cohort": "rings",
+      "seed": 1201010,
+      "training_shape": [
+        256,
+        2
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 80,
+      "quotient_shape": [
+        512
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 4.440892098500626e-16,
+        "reconstruction": 3.3306690738754696e-16,
+        "partner_vs_pi": 2.220446049250313e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 9.159339953157541e-16,
+        "jensen_identity": 1.1102230246251565e-16,
+        "masked_jensen_identity": 1.1102230246251565e-16,
+        "helper_nll": 4.440892098500626e-16,
+        "interpolation": 1.1102230246251565e-15
+      },
+      "min_jensen": 4.915549666195673e-07,
+      "quota_counts": [
+        64,
+        64
+      ]
+    },
+    {
+      "cohort": "waveform",
+      "seed": 1201001,
+      "training_shape": [
+        256,
+        4
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 144,
+      "quotient_shape": [
+        512
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 4.440892098500626e-16,
+        "reconstruction": 6.661338147750939e-16,
+        "partner_vs_pi": 3.3306690738754696e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 7.771561172376096e-16,
+        "jensen_identity": 1.1102230246251565e-16,
+        "masked_jensen_identity": 1.1102230246251565e-16,
+        "helper_nll": 4.440892098500626e-16,
+        "interpolation": 2.275957200481571e-15
+      },
+      "min_jensen": 3.3617787412731914e-06,
+      "quota_counts": [
+        64,
+        64
+      ]
+    },
+    {
+      "cohort": "waveform",
+      "seed": 1201002,
+      "training_shape": [
+        256,
+        4
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 144,
+      "quotient_shape": [
+        512
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 2.220446049250313e-16,
+        "reconstruction": 6.661338147750939e-16,
+        "partner_vs_pi": 3.3306690738754696e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 6.661338147750939e-16,
+        "jensen_identity": 1.1102230246251565e-16,
+        "masked_jensen_identity": 1.1102230246251565e-16,
+        "helper_nll": 4.440892098500626e-16,
+        "interpolation": 1.6653345369377348e-15
+      },
+      "min_jensen": 2.4495320883888283e-06,
+      "quota_counts": [
+        64,
+        64
+      ]
+    },
+    {
+      "cohort": "waveform",
+      "seed": 1201003,
+      "training_shape": [
+        256,
+        4
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 144,
+      "quotient_shape": [
+        512
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 4.440892098500626e-16,
+        "reconstruction": 6.453171330633722e-16,
+        "partner_vs_pi": 3.365363543395006e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 4.996003610813204e-16,
+        "jensen_identity": 2.220446049250313e-16,
+        "masked_jensen_identity": 1.1102230246251565e-16,
+        "helper_nll": 4.440892098500626e-16,
+        "interpolation": 9.992007221626409e-16
+      },
+      "min_jensen": 2.925861442015787e-09,
+      "quota_counts": [
+        64,
+        64
+      ]
+    },
+    {
+      "cohort": "waveform",
+      "seed": 1201004,
+      "training_shape": [
+        256,
+        4
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 144,
+      "quotient_shape": [
+        512
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 4.440892098500626e-16,
+        "reconstruction": 6.106226635438361e-16,
+        "partner_vs_pi": 3.3306690738754696e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 6.661338147750939e-16,
+        "jensen_identity": 1.1102230246251565e-16,
+        "masked_jensen_identity": 1.1102230246251565e-16,
+        "helper_nll": 2.220446049250313e-16,
+        "interpolation": 1.4432899320127035e-15
+      },
+      "min_jensen": 3.095753031701065e-08,
+      "quota_counts": [
+        64,
+        64
+      ]
+    },
+    {
+      "cohort": "waveform",
+      "seed": 1201005,
+      "training_shape": [
+        256,
+        4
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 144,
+      "quotient_shape": [
+        512
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 4.440892098500626e-16,
+        "reconstruction": 6.661338147750939e-16,
+        "partner_vs_pi": 3.3306690738754696e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 6.661338147750939e-16,
+        "jensen_identity": 1.1102230246251565e-16,
+        "masked_jensen_identity": 1.1102230246251565e-16,
+        "helper_nll": 2.220446049250313e-16,
+        "interpolation": 1.2212453270876722e-15
+      },
+      "min_jensen": 1.2176992563173172e-06,
+      "quota_counts": [
+        64,
+        64
+      ]
+    },
+    {
+      "cohort": "waveform",
+      "seed": 1201006,
+      "training_shape": [
+        256,
+        4
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 144,
+      "quotient_shape": [
+        512
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 2.220446049250313e-16,
+        "reconstruction": 5.551115123125783e-16,
+        "partner_vs_pi": 3.3306690738754696e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 6.106226635438361e-16,
+        "jensen_identity": 2.220446049250313e-16,
+        "masked_jensen_identity": 1.6653345369377348e-16,
+        "helper_nll": 2.220446049250313e-16,
+        "interpolation": 2.4424906541753444e-15
+      },
+      "min_jensen": 1.5400891640870995e-06,
+      "quota_counts": [
+        64,
+        64
+      ]
+    },
+    {
+      "cohort": "waveform",
+      "seed": 1201007,
+      "training_shape": [
+        256,
+        4
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 144,
+      "quotient_shape": [
+        512
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 2.220446049250313e-16,
+        "reconstruction": 6.106226635438361e-16,
+        "partner_vs_pi": 3.365363543395006e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 7.216449660063518e-16,
+        "jensen_identity": 2.220446049250313e-16,
+        "masked_jensen_identity": 1.3877787807814457e-16,
+        "helper_nll": 2.220446049250313e-16,
+        "interpolation": 1.5543122344752192e-15
+      },
+      "min_jensen": 3.983702545617973e-08,
+      "quota_counts": [
+        64,
+        64
+      ]
+    },
+    {
+      "cohort": "waveform",
+      "seed": 1201008,
+      "training_shape": [
+        256,
+        4
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 144,
+      "quotient_shape": [
+        512
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 2.220446049250313e-16,
+        "reconstruction": 6.661338147750939e-16,
+        "partner_vs_pi": 3.3306690738754696e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 4.996003610813204e-16,
+        "jensen_identity": 2.220446049250313e-16,
+        "masked_jensen_identity": 1.1102230246251565e-16,
+        "helper_nll": 2.220446049250313e-16,
+        "interpolation": 1.3322676295501878e-15
+      },
+      "min_jensen": 3.2896757540257227e-09,
+      "quota_counts": [
+        64,
+        64
+      ]
+    },
+    {
+      "cohort": "waveform",
+      "seed": 1201009,
+      "training_shape": [
+        256,
+        4
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 144,
+      "quotient_shape": [
+        512
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 2.220446049250313e-16,
+        "reconstruction": 6.106226635438361e-16,
+        "partner_vs_pi": 3.3306690738754696e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 6.661338147750939e-16,
+        "jensen_identity": 2.220446049250313e-16,
+        "masked_jensen_identity": 1.6653345369377348e-16,
+        "helper_nll": 2.220446049250313e-16,
+        "interpolation": 1.7763568394002505e-15
+      },
+      "min_jensen": 5.247261663066105e-06,
+      "quota_counts": [
+        64,
+        64
+      ]
+    },
+    {
+      "cohort": "waveform",
+      "seed": 1201010,
+      "training_shape": [
+        256,
+        4
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 144,
+      "quotient_shape": [
+        512
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 2.220446049250313e-16,
+        "reconstruction": 6.661338147750939e-16,
+        "partner_vs_pi": 3.3306690738754696e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 4.996003610813204e-16,
+        "jensen_identity": 1.1102230246251565e-16,
+        "masked_jensen_identity": 1.1102230246251565e-16,
+        "helper_nll": 2.220446049250313e-16,
+        "interpolation": 1.6653345369377348e-15
+      },
+      "min_jensen": 1.8436417004163985e-07,
+      "quota_counts": [
+        64,
+        64
+      ]
+    },
+    {
+      "cohort": "two_invariants",
+      "seed": 1201001,
+      "training_shape": [
+        256,
+        4
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 144,
+      "quotient_shape": [
+        512,
+        2
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 4.440892098500626e-16,
+        "reconstruction": 6.938893903907228e-16,
+        "partner_vs_pi": 3.3306690738754696e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 6.661338147750939e-16,
+        "jensen_identity": 2.220446049250313e-16,
+        "masked_jensen_identity": 2.220446049250313e-16,
+        "helper_nll": 2.220446049250313e-16,
+        "interpolation": 1.1102230246251565e-15
+      },
+      "min_jensen": 1.7661898505938467e-06,
+      "quota_counts": [
+        64,
+        64
+      ]
+    },
+    {
+      "cohort": "two_invariants",
+      "seed": 1201002,
+      "training_shape": [
+        256,
+        4
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 144,
+      "quotient_shape": [
+        512,
+        2
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 2.220446049250313e-16,
+        "reconstruction": 6.661338147750939e-16,
+        "partner_vs_pi": 3.400058012914542e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 6.661338147750939e-16,
+        "jensen_identity": 2.220446049250313e-16,
+        "masked_jensen_identity": 1.1102230246251565e-16,
+        "helper_nll": 2.220446049250313e-16,
+        "interpolation": 8.326672684688674e-16
+      },
+      "min_jensen": 6.490463484443154e-07,
+      "quota_counts": [
+        64,
+        64
+      ]
+    },
+    {
+      "cohort": "two_invariants",
+      "seed": 1201003,
+      "training_shape": [
+        256,
+        4
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 144,
+      "quotient_shape": [
+        512,
+        2
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 4.440892098500626e-16,
+        "reconstruction": 6.661338147750939e-16,
+        "partner_vs_pi": 3.469446951953614e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 6.661338147750939e-16,
+        "jensen_identity": 2.220446049250313e-16,
+        "masked_jensen_identity": 1.6653345369377348e-16,
+        "helper_nll": 2.220446049250313e-16,
+        "interpolation": 1.1657341758564144e-15
+      },
+      "min_jensen": 2.837220755003145e-07,
+      "quota_counts": [
+        64,
+        64
+      ]
+    },
+    {
+      "cohort": "two_invariants",
+      "seed": 1201004,
+      "training_shape": [
+        256,
+        4
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 144,
+      "quotient_shape": [
+        512,
+        2
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 2.220446049250313e-16,
+        "reconstruction": 6.661338147750939e-16,
+        "partner_vs_pi": 3.3306690738754696e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 7.216449660063518e-16,
+        "jensen_identity": 1.1102230246251565e-16,
+        "masked_jensen_identity": 1.1102230246251565e-16,
+        "helper_nll": 2.220446049250313e-16,
+        "interpolation": 1.609823385706477e-15
+      },
+      "min_jensen": 2.3336391352657415e-07,
+      "quota_counts": [
+        64,
+        64
+      ]
+    },
+    {
+      "cohort": "two_invariants",
+      "seed": 1201005,
+      "training_shape": [
+        256,
+        4
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 144,
+      "quotient_shape": [
+        512,
+        2
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 4.440892098500626e-16,
+        "reconstruction": 5.551115123125783e-16,
+        "partner_vs_pi": 3.469446951953614e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 4.440892098500626e-16,
+        "jensen_identity": 1.1102230246251565e-16,
+        "masked_jensen_identity": 1.1102230246251565e-16,
+        "helper_nll": 2.220446049250313e-16,
+        "interpolation": 1.2212453270876722e-15
+      },
+      "min_jensen": 3.6908371151556096e-06,
+      "quota_counts": [
+        64,
+        64
+      ]
+    },
+    {
+      "cohort": "two_invariants",
+      "seed": 1201006,
+      "training_shape": [
+        256,
+        4
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 144,
+      "quotient_shape": [
+        512,
+        2
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 4.440892098500626e-16,
+        "reconstruction": 6.661338147750939e-16,
+        "partner_vs_pi": 3.3306690738754696e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 6.661338147750939e-16,
+        "jensen_identity": 1.1102230246251565e-16,
+        "masked_jensen_identity": 1.1102230246251565e-16,
+        "helper_nll": 2.220446049250313e-16,
+        "interpolation": 8.881784197001252e-16
+      },
+      "min_jensen": 2.359061501699955e-09,
+      "quota_counts": [
+        64,
+        64
+      ]
+    },
+    {
+      "cohort": "two_invariants",
+      "seed": 1201007,
+      "training_shape": [
+        256,
+        4
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 144,
+      "quotient_shape": [
+        512,
+        2
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 4.440892098500626e-16,
+        "reconstruction": 6.106226635438361e-16,
+        "partner_vs_pi": 3.469446951953614e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 6.661338147750939e-16,
+        "jensen_identity": 1.1102230246251565e-16,
+        "masked_jensen_identity": 1.1102230246251565e-16,
+        "helper_nll": 2.220446049250313e-16,
+        "interpolation": 2.3314683517128287e-15
+      },
+      "min_jensen": 2.4247755916473324e-06,
+      "quota_counts": [
+        64,
+        64
+      ]
+    },
+    {
+      "cohort": "two_invariants",
+      "seed": 1201008,
+      "training_shape": [
+        256,
+        4
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 144,
+      "quotient_shape": [
+        512,
+        2
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 4.440892098500626e-16,
+        "reconstruction": 6.661338147750939e-16,
+        "partner_vs_pi": 3.3306690738754696e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 7.216449660063518e-16,
+        "jensen_identity": 1.1102230246251565e-16,
+        "masked_jensen_identity": 1.1102230246251565e-16,
+        "helper_nll": 2.220446049250313e-16,
+        "interpolation": 6.661338147750939e-16
+      },
+      "min_jensen": 2.5221013785214907e-06,
+      "quota_counts": [
+        64,
+        64
+      ]
+    },
+    {
+      "cohort": "two_invariants",
+      "seed": 1201009,
+      "training_shape": [
+        256,
+        4
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 144,
+      "quotient_shape": [
+        512,
+        2
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 2.220446049250313e-16,
+        "reconstruction": 6.938893903907228e-16,
+        "partner_vs_pi": 3.469446951953614e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 5.551115123125783e-16,
+        "jensen_identity": 1.1102230246251565e-16,
+        "masked_jensen_identity": 1.1102230246251565e-16,
+        "helper_nll": 2.220446049250313e-16,
+        "interpolation": 8.881784197001252e-16
+      },
+      "min_jensen": 1.0882075573981354e-08,
+      "quota_counts": [
+        64,
+        64
+      ]
+    },
+    {
+      "cohort": "two_invariants",
+      "seed": 1201010,
+      "training_shape": [
+        256,
+        4
+      ],
+      "class_counts": [
+        128,
+        128
+      ],
+      "parameters": 144,
+      "quotient_shape": [
+        512,
+        2
+      ],
+      "errors": {
+        "partner_involution": 0.0,
+        "quotient_invariance": 0.0,
+        "group_quotient_invariance": 2.220446049250313e-16,
+        "reconstruction": 7.771561172376096e-16,
+        "partner_vs_pi": 3.3306690738754696e-16,
+        "posterior_partner": 0.0,
+        "posterior_group": 5.551115123125783e-16,
+        "jensen_identity": 1.1102230246251565e-16,
+        "masked_jensen_identity": 1.1102230246251565e-16,
+        "helper_nll": 4.440892098500626e-16,
+        "interpolation": 1.887379141862766e-15
+      },
+      "min_jensen": 3.240667244552853e-07,
+      "quota_counts": [
+        64,
+        64
+      ]
+    }
+  ],
+  "failures": [],
+  "warnings": [
+    "Current ring_posterior uses unscaled i0 and is nonfinite at extreme tail radii 15 or 40; ordinary sampled inputs and calibration [0,3] pass. This is a numerical API robustness limitation, not observed experiment failure."
+  ],
+  "ring_extreme_stress": {
+    "0.0": 3.2758476875261365e-12,
+    "3.0": 1.0,
+    "15.0": 1.0,
+    "40.0": null
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "timestamp_utc": "2026-11-21T10:17:43.928787+00:00",
+  "freeze_sha256": "205d6af0c80a593552e60667b030f975e241ef36771ad48c4b44e0d582024eb1",
+  "policy_commit_sha256": "443df6a7c80a07ec839237ea45ef4a4cbfe1494e477176aef07d4bb6f0f6e29f",
+  "task": "rings",
+  "kind": "known"
+}

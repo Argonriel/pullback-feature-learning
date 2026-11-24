@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "file_count": 32,
+  "total_bytes": 3483601,
+  "manifest_sha256": "b03f4388c8e890343dd1b8d4a79de50a34c1739978da374fa0de5edcb6a9abaf",
+  "source_provenance": [
+    {
+      "record": "curvature_results.json",
+      "field": "source_sha256",
+      "resolved": "historical_source\\curvature_v1.py"
+    },
+    {
+      "record": "curvature_results_v2.json",
+      "field": "source_sha256",
+      "resolved": "source_snapshot\\experiments\\geometry_condition_screen_20261121\\curvature.py"
+    },
+    {
+      "record": "curvature_search_full.json",
+      "field": "source_sha256",
+      "resolved": "source_snapshot\\experiments\\geometry_condition_screen_20261121\\curvature_search_full.py"
+    },
+    {
+      "record": "curvature_search_full.json",
+      "field": "curvature_source_sha256",
+      "resolved": "source_snapshot\\experiments\\geometry_condition_screen_20261121\\curvature.py"
+    },
+    {
+      "record": "noise_results.json",
+      "field": "source_sha256",
+      "resolved": "historical_source\\noise_initial_snapshot.py"
+    },
+    {
+      "record": "noise_results.json",
+      "field": "core_sha256",
+      "resolved": "source_snapshot\\src\\pullback_feature_learning\\core.py"
+    },
+    {
+      "record": "noise_results_verified.json",
+      "field": "source_sha256",
+      "resolved": "source_snapshot\\experiments\\geometry_condition_screen_20261121\\noise.py"
+    },
+    {
+      "record": "noise_results_verified.json",
+      "field": "core_sha256",
+      "resolved": "source_snapshot\\src\\pullback_feature_learning\\core.py"
+    },
+    {
+      "record": "parity_results.json",
+      "field": "source_sha256",
+      "resolved": "source_snapshot\\experiments\\geometry_condition_screen_20261121\\parity.py"
+    },
+    {
+      "record": "parity_results.json",
+      "field": "core_sha256",
+      "resolved": "source_snapshot\\src\\pullback_feature_learning\\core.py"
+    },
+    {
+      "record": "commuting\\results.json",
+      "field": "source_sha256",
+      "resolved": "source_snapshot\\experiments\\geometry_condition_screen_20261121\\commuting.py"
+    }
+  ],
+  "previous_archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\learned-geometry-gate-20261121",
+  "previous_unchanged_files": 105,
+  "previous_manifest_sha256": "7164aede3c183ea07325b4cda8aa2a1fa8b820aee34d3782043fa4e4a5c9baf6",
+  "broken_report_links": [],
+  "checked_utc": "2026-11-22T02:07:39.640588+00:00"
+}

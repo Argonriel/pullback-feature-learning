@@ -1,0 +1,34 @@
+{
+  "prior_sources": [
+    {
+      "sha256": "6806d27f630aba153e44ca779ab575a7f99223b1c4499d285c792608a3d60bc2",
+      "path": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\three-candidate-exploration-20261121\\global_convergence\\THEOREM.md"
+    },
+    {
+      "sha256": "72d5bbc095c051a7b470edda50af484d4514d5cae9ab57cff6580bbe210003a3",
+      "path": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\three-candidate-exploration-20261121\\global_convergence\\REVIEW.md"
+    },
+    {
+      "sha256": "1d2819fb23dae1d86cd653883dfa3133ac7b940c5c6c0dee8fc619bb1133b52f",
+      "path": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\endpoint-classification-audit-20261121\\ALGEBRA_REDUCTION.md"
+    },
+    {
+      "sha256": "c3ac8e0ecae1c492044464b8bfc01f9c6d71bfae2368acd7c49b45710df88455",
+      "path": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\endpoint-classification-audit-20261121\\FINITEDAMPING_AUDIT.md"
+    }
+  ],
+  "time_zone": "America/Los_Angeles",
+  "scope": "Independent mathematical proof and exact rational controls only; parent owns new boundary trajectory validation",
+  "unchanged_prior_policy": "All prior files read only",
+  "primary_web_source": {
+    "sha256": null,
+    "retrieval": "web tool opened original 25-page PDF; no local byte snapshot yet",
+    "locations": [
+      "Theorem 4.7",
+      "Corollary 4.8",
+      "Proposition 4.11"
+    ],
+    "url": "https://isr.umd.edu/Labs/ISL/HELMKE/AlBra_SICON04.pdf"
+  },
+  "review_date": "2026-11-21"
+}

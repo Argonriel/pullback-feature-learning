@@ -1,0 +1,8 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\.venv\\Scripts\\python.exe",
+  "numpy": "2.5.5",
+  "Pillow": "13.0.0",
+  "matplotlib": "3.11.2",
+  "scope": "External population preprocessing and output-only figures; training runtime is in ENVIRONMENT.json"
+}

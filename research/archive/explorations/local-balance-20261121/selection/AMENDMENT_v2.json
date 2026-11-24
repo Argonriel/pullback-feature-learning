@@ -1,0 +1,18 @@
+{
+  "timestamp_utc": "2026-11-21T09:35:02.461648+00:00",
+  "reason": "Independent old-only audit found floating sawtooth wrap nodes differ from FFT convention by material values; shift every action phase by quarter grid before new states are accessed.",
+  "changes": [
+    "phase=(s+.25)/512",
+    "even score grid=(j+.25)/512",
+    "odd score grid=(j+.75)/512",
+    "canonical half-plane for even frequencies"
+  ],
+  "unchanged": [
+    "64 old models",
+    "three tau values",
+    "label-free selection criterion",
+    "old test seeds",
+    "new models unaccessed"
+  ],
+  "v1_choice_sha256": "ccdb6a131b8a6ce8f6596949b46775689fa01fe3d623c6eba28f617972d777b3"
+}

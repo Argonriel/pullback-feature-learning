@@ -1,0 +1,11 @@
+{
+  "jacobian_fd_max_error": 1.3714848701162907e-11,
+  "independent_gradient_fd_error": 3.0899870336054125e-13,
+  "partner_involution": true,
+  "halfturn_matches_transform": true,
+  "quotient_invariant": true,
+  "training_class_counts": [
+    128,
+    128
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "utc": "2026-11-21T22:34:47.168327+00:00",
+  "status": "PASS",
+  "report": "research_report.pdf",
+  "pdf_sha256": "771b4d3a058e3f25ff052964414c1321f00427e062ffc2e01ba4dd6c7458343c",
+  "markdown_sha256": "c5738b7ae2521204e8672451b4090042bf4689f9ad4d64ba34ea66e3cf869fee",
+  "pages": 6,
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "rendering": "pdftoppm PNG, 1400-pixel long side; all final pages inspected directly",
+  "visual_findings": "Readable text, figures and tables; no clipped content, overlapping elements or unintended overflow pages.",
+  "independent_report_reviews": {
+    "loss_matched": "Training/calibration claims, primary intervals, costs and real-image replay accurate.",
+    "fourier_views": "Required coordinatewise mask invariance added after review; corrected final theorem wording confirmed accurate.",
+    "independent_audit": "Real-image metrics, timing, targets and cost counts accurate; optional 15,000 diagnostic forwards disclosure added."
+  },
+  "final_clarifications": [
+    "Artificial paired-law loss improvement is distinguished from accuracy; paired ridge error increases from 20.36% to 22.84%.",
+    "All five frozen scientific source sets and three internal release hash commitments pass verification.",
+    "No experiments or fitted parameters changed during report review."
+  ]
+}

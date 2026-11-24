@@ -1,0 +1,35 @@
+{
+  "pair": 10,
+  "procedure": "fixed_768",
+  "fits": {
+    "raw": {
+      "beta": 0.8474355398967048,
+      "temperature": 1.1800307550493947,
+      "status": "interior",
+      "iterations": 80,
+      "n_labels": 3584,
+      "raw_nll": 0.6057749777357883,
+      "calibrated_nll": 0.6036237719280643,
+      "derivative": -3.469446951953614e-18,
+      "lower_derivative": -0.21534829419679588,
+      "upper_derivative": 0.22200447489234243,
+      "beta_min": 0.049787068367863944,
+      "beta_max": 20.085536923187668
+    },
+    "full": {
+      "beta": 1.1536560708148897,
+      "temperature": 0.8668094636676648,
+      "status": "interior",
+      "iterations": 80,
+      "n_labels": 3584,
+      "raw_nll": 0.5742577965235641,
+      "calibrated_nll": 0.5726654094596764,
+      "derivative": -5.451988067355679e-18,
+      "lower_derivative": -0.2245393892009892,
+      "upper_derivative": 0.16762962827462546,
+      "beta_min": 0.049787068367863944,
+      "beta_max": 20.085536923187668
+    }
+  },
+  "model_sha256": "be16364b71ff4221f80846f7536ca5ea10f52a32068dbf06c5269e9ee5575a0b"
+}

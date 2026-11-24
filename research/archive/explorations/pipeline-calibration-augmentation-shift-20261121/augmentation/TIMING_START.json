@@ -1,0 +1,6 @@
+{
+  "utc": "2026-11-21T22:46:51.491406+00:00",
+  "validation_indices_sha256": "0de190e9a8b72f1a1daa3003720811e12d6f7dbc1c4e6bce24ddc292a767e3a6",
+  "source_freeze": "d18fae8007c705cf04094d124ad11d8c268702659256cf832daa6efe305a6186",
+  "timing_scope": "normalized tensors to final calibrated logits"
+}

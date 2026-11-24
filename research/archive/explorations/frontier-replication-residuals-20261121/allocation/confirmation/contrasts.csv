@@ -1,0 +1,11 @@
+alpha,arm,contrast,inference_status,lower,mean_difference,metric,primary,selected_procedure,ties,upper,wins
+,raw_T,selected_minus_baseline,identical procedure; no improvement test,,0.0,expected_nll,True,train_2304,16,,0
+,raw_T,selected_minus_baseline,identical procedure; no improvement test,,0.0,expected_error,False,train_2304,16,,0
+,raw_T,selected_minus_baseline,identical procedure; no improvement test,,0.0,sampled_nll,False,train_2304,16,,0
+,raw_T,selected_minus_baseline,identical procedure; no improvement test,,0.0,sampled_error,False,train_2304,16,,0
+,raw_T,selected_minus_baseline,identical procedure; no improvement test,,0.0,expected_brier,False,train_2304,16,,0
+,full_T,selected_minus_baseline,identical procedure; no improvement test,,0.0,expected_nll,True,train_2304,16,,0
+,full_T,selected_minus_baseline,identical procedure; no improvement test,,0.0,expected_error,False,train_2304,16,,0
+,full_T,selected_minus_baseline,identical procedure; no improvement test,,0.0,sampled_nll,False,train_2304,16,,0
+,full_T,selected_minus_baseline,identical procedure; no improvement test,,0.0,sampled_error,False,train_2304,16,,0
+,full_T,selected_minus_baseline,identical procedure; no improvement test,,0.0,expected_brier,False,train_2304,16,,0

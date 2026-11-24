@@ -1,0 +1,17 @@
+{
+  "timestamp_utc": "2026-11-21T10:45:14.554134+00:00",
+  "rule": "Maximize mean lower bound at 512 batches across old 16 models and both old even policies; smallest clip breaks exact ties.",
+  "selected_clips": {
+    "rings": 0.25,
+    "transfer": 0.5
+  },
+  "development_only": true,
+  "fresh_outcomes_accessed": false,
+  "old_root": "tmp\\rank-certificate-transfer-20261121",
+  "seconds": 17.47681520000333,
+  "delta_per_claim": 0.00017361111111111112,
+  "source_hashes": {
+    "development.py": "f0c68e3e298aa0978d9f2fc93ee4c10c0533491cc5792acd9a7923896b82292b",
+    "bounds.py": "8bd8b3e1fdd5fd59027490ae06d51f8ddf6ab85756d61550c45dde9febb58518"
+  }
+}

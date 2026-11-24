@@ -1,0 +1,85 @@
+{
+  "created_utc": "2026-11-22T03:44:01.079505+00:00",
+  "python": "3.12.14",
+  "numpy": "2.5.5",
+  "source_snapshots": [
+    "experiments\\three_candidate_exploration_20261121\\discrete\\critical_quartic_certificate.py",
+    "experiments\\three_candidate_exploration_20261121\\discrete\\factor_step_cancellation.py",
+    "experiments\\three_candidate_exploration_20261121\\global_convergence\\global_target_check.py",
+    "experiments\\three_candidate_exploration_20261121\\nonisotropic\\coherent_blend.py",
+    "experiments\\three_candidate_exploration_20261121\\nonisotropic\\refine_bures_control.py",
+    "experiments\\three_candidate_exploration_20261121\\README.md",
+    "experiments\\three_candidate_exploration_20261121\\robustness\\near_diagonal_probe.py",
+    "experiments\\three_candidate_exploration_20261121\\universality\\spectral_delay_check.py",
+    "experiments\\endpoint_classification_audit_20261121\\verify_finite_damping.py"
+  ],
+  "embedded_hash_resolution": [
+    {
+      "record": "global_convergence/validation/results.json",
+      "field": "/source_sha256",
+      "sha256": "9c1fbdd92a6f937bda90f3e4107961de0a11fd973b11a0b6bc72c9c50531522c",
+      "resolved_files": [
+        "source_snapshot/experiments/three_candidate_exploration_20261121/global_convergence/global_target_check.py"
+      ]
+    },
+    {
+      "record": "global_convergence/validation/results.json",
+      "field": "/dependency_sha256",
+      "sha256": "f46d0411bd8ec1fec86cbefc56b3f82f1f90910d279d36c072715e3e4984112b",
+      "resolved_files": [
+        "source_snapshot/experiments/endpoint_classification_audit_20261121/verify_finite_damping.py"
+      ]
+    },
+    {
+      "record": "nonisotropic/bures_refined/results.json",
+      "field": "/source_sha256",
+      "sha256": "e914d0a278f48c8a70f5acf85be453f020921c8e725fafb881cd87605856c2a0",
+      "resolved_files": [
+        "source_snapshot/experiments/three_candidate_exploration_20261121/nonisotropic/refine_bures_control.py"
+      ]
+    },
+    {
+      "record": "nonisotropic/validation_v1/results.json",
+      "field": "/source_sha256",
+      "sha256": "385fc456f7c01be440197c1bcef81cb6ebf6aabdd76a10a64cf6495674438cf3",
+      "resolved_files": [
+        "source_snapshot/experiments/three_candidate_exploration_20261121/nonisotropic/coherent_blend.py"
+      ]
+    },
+    {
+      "record": "universality/validation/results.json",
+      "field": "/source_sha256",
+      "sha256": "175959995e840954aba143a8e5ec51c3d534117167b3ccda5d626e7fa0e2de4a",
+      "resolved_files": [
+        "source_snapshot/experiments/three_candidate_exploration_20261121/universality/spectral_delay_check.py"
+      ]
+    }
+  ],
+  "previous_archives": [
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\learned-geometry-gate-20261121",
+      "unchanged_files": 105,
+      "manifest_sha256": "7164aede3c183ea07325b4cda8aa2a1fa8b820aee34d3782043fa4e4a5c9baf6"
+    },
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\geometry-condition-screen-20261121",
+      "unchanged_files": 32,
+      "manifest_sha256": "b03f4388c8e890343dd1b8d4a79de50a34c1739978da374fa0de5edcb6a9abaf"
+    },
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\new-direction-screen-20261121",
+      "unchanged_files": 43,
+      "manifest_sha256": "1119aeed6ad606bed615dbec134b83bba97c6d47fe038137fee5b07d7da07e1a"
+    },
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\endpoint-selection-deepening-20261121",
+      "unchanged_files": 25,
+      "manifest_sha256": "c2c26f0f77cb43c771f03bb9712c3f21494449634019f003b9b2085df624c2a1"
+    },
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\endpoint-classification-audit-20261121",
+      "unchanged_files": 13,
+      "manifest_sha256": "e87f7057cf21af0bd3d5ad09568c5951cd2525c8c1bd3d1de17ecf803989880e"
+    }
+  ]
+}

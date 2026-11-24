@@ -1,0 +1,15 @@
+{
+  "unique_states": 48,
+  "schedule_states": 72,
+  "initial_hashes": 8,
+  "split_hashes": 16,
+  "archived_trained_checkpoint_hashes": 48,
+  "max_metric_error": 0.0,
+  "original_driver_sha256": "497a34b7dffa17bd99dbdcab2f359e6a7981d1dcf1c5c7d9e143b5f8606fb075",
+  "core_sha256": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5",
+  "archived_checkpoints_sha256": "adb1388e6a305630d18d5326258cc39f2b4e52ae07c092861ce71af97fda45a7",
+  "plan_sha256": "b9b483c94bc4af909cbc745318405a5568c20516711d0615116f7d65990202dd",
+  "state_bank_sha256": "71122d9627106dcff1012f28556d555332a6418ea04cc7bcf4354328ab423f7a",
+  "numpy_version": "2.5.5",
+  "python_version": "3.12.14"
+}

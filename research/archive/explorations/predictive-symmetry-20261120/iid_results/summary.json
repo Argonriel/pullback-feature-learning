@@ -1,0 +1,82 @@
+{
+  "completed_utc": "2026-11-21T07:42:11.516982+00:00",
+  "config": {
+    "n": 32768,
+    "seed_pairs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "stage": "trained",
+    "experiment": "single",
+    "requested_drop": 0.02,
+    "tasks": [
+      "rings",
+      "radial",
+      "angular"
+    ],
+    "x_seed_base": 27755100,
+    "label_seed_base": 27756100,
+    "bootstrap_seed": 27757100,
+    "bootstrap_repeats": 10000,
+    "outcome": "paired change in single-view logistic risk",
+    "role": "Independent iid check of primary deterministic population quadrature",
+    "selection": "All frozen trained-stage .02-drop branches, including failures"
+  },
+  "successful_branches": 51,
+  "total_branches": 96,
+  "tasks": {
+    "rings": {
+      "n": 12,
+      "expected_mean": 0.0009008438993818443,
+      "expected_ci95": [
+        -0.00039155782042030277,
+        0.002464898326137829
+      ],
+      "labeled_mean": 0.0009068639881649839,
+      "labeled_ci95": [
+        -0.000386611434862218,
+        0.002464573242883028
+      ],
+      "pb_better_count": 6,
+      "clock_correct_sign_count": 12,
+      "clock_mae": 0.00033926223095581036,
+      "pooled_mae": 0.0018091089055868295,
+      "zero_mae": 0.0018091089055868295
+    },
+    "radial": {
+      "n": 0
+    },
+    "angular": {
+      "n": 9,
+      "expected_mean": -0.003754685227057089,
+      "expected_ci95": [
+        -0.007945238726764068,
+        0.0002281857744896524
+      ],
+      "labeled_mean": -0.0037055810389883034,
+      "labeled_ci95": [
+        -0.0077774014590283914,
+        0.00020116632605317428
+      ],
+      "pb_better_count": 6,
+      "clock_correct_sign_count": 9,
+      "clock_mae": 0.0018587751113143967,
+      "pooled_mae": 0.006765783601184998,
+      "zero_mae": 0.005788045856044855
+    }
+  }
+}

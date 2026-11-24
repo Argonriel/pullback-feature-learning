@@ -1,0 +1,16 @@
+{
+  "timestamp_utc": "2026-11-21T10:55:27.480282+00:00",
+  "original_freeze_sha256": "07102c9b33b4e2613bbc8815c52964bfb4ac8f167f7025c2dcd6249c4dee4ed0",
+  "final_family_events": 864,
+  "delta_per_bound": 5.787037037037037e-05,
+  "primary_batches_unchanged": 512,
+  "fresh_states_absent": true,
+  "fresh_outcomes_accessed": false,
+  "source_hashes": {
+    "certification/final_compare.py": "1cf857da7d76548d328ef7bd94e82b5e8bcc8c97bef5200a9efc8b89281bc207",
+    "certification/ADDENDUM.md": "217070923e7797d74b1969faa129802660e2911fd598da0696839a382ebd6066",
+    "certification/addendum_checks.json": "ecc228a4b9a91aa23009563d812b4a5cca10e4cc3027ba5781b22c5a6b1db3f4",
+    "certification/FREEZE.json": "07102c9b33b4e2613bbc8815c52964bfb4ac8f167f7025c2dcd6249c4dee4ed0",
+    "certification/development_old32/addendum_864_summary.csv": "5b9500fa6699a4c41098b82b3c679bdaca546a9827a27ba47a6b0c86370f6203"
+  }
+}

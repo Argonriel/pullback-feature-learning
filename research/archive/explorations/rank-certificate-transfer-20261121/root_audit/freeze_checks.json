@@ -1,0 +1,235 @@
+{
+  "all_passed": true,
+  "checked_source_entries": 44,
+  "sources": [
+    {
+      "freeze": "transfer/FREEZE.json",
+      "path": "transfer\\task.py",
+      "sha256": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77"
+    },
+    {
+      "freeze": "transfer/FREEZE.json",
+      "path": "transfer\\task_pilot_v1.py",
+      "sha256": "9361b868a7ec73a360527580954806f25eec7df1f332c65eeb94d34ddb506711"
+    },
+    {
+      "freeze": "transfer/FREEZE.json",
+      "path": "transfer\\rank_policy.py",
+      "sha256": "32feb6f0c13b7db4b5cc3b2f348c0af28c1d78676fa9e776b2a9a93c837379a8"
+    },
+    {
+      "freeze": "transfer/FREEZE.json",
+      "path": "transfer\\pilot.py",
+      "sha256": "6984b1e264a1bc02e45edb2f93b15c5fa402495ee5a6419c18889e311a77b9c6"
+    },
+    {
+      "freeze": "transfer/FREEZE.json",
+      "path": "transfer\\checks.py",
+      "sha256": "4a26c96334ce467f1dc172654e9c5f21eb3c42f4984ebd708f25a47203d2538e"
+    },
+    {
+      "freeze": "transfer/FREEZE.json",
+      "path": "transfer\\THEORY.md",
+      "sha256": "f200f71877047ab10f84145b841dd8b77a92a159c1454c4a155b346ba6d7a32c"
+    },
+    {
+      "freeze": "transfer/FREEZE.json",
+      "path": "transfer\\PROTOCOL.md",
+      "sha256": "24c58366d9441dc63de620ada4e7665b50221f2f9877b85c2ef530e48eb2f374"
+    },
+    {
+      "freeze": "transfer/FREEZE.json",
+      "path": "transfer\\TRAINING_CHOICE.json",
+      "sha256": "b9b2cb02fa128f55b424b3a968b9e5c30b991898dbacea9a2f7efb3a7692c691"
+    },
+    {
+      "freeze": "transfer/FREEZE.json",
+      "path": "transfer\\ADAPTER_PROVENANCE.json",
+      "sha256": "e8be4b1e8ff985c3281cb99a1662ee4d89d9880584dd44f57beb45e5ac809526"
+    },
+    {
+      "freeze": "transfer/FREEZE.json",
+      "path": "transfer\\pilot\\PROTOCOL.json",
+      "sha256": "63ec9a3a9f0df9f08bf4ca587c2da342791d11e1f36b9efef2fa3524d0c6f52a"
+    },
+    {
+      "freeze": "transfer/FREEZE.json",
+      "path": "transfer\\pilot\\checks.json",
+      "sha256": "dc2c6b137a4f8dd49beeba35eee57699f1a7f386a772191b59e45bd0b273957a"
+    },
+    {
+      "freeze": "transfer/FREEZE.json",
+      "path": "transfer\\pilot\\results.csv",
+      "sha256": "e8323b03b823ae0a2e5e381a54c9a648073490b2828ed93f4c659c70de800556"
+    },
+    {
+      "freeze": "transfer/FREEZE.json",
+      "path": "transfer\\pilot_policy\\checks.csv",
+      "sha256": "973ab3bfdcaf0f59e934fcf679b7bff38dbade07aba1e2f5164fcdd5278135a5"
+    },
+    {
+      "freeze": "transfer/FREEZE.json",
+      "path": "transfer\\pilot_policy\\SUMMARY.json",
+      "sha256": "299c4a0cb9d6be901079cc599a6fb9bffdea96ace0aa1afb23d388d1c43953c5"
+    },
+    {
+      "freeze": "validation/freeze.json",
+      "path": "validation\\study.py",
+      "sha256": "d64e48ff3d82552dceeb5f4a59a4afc0c0577968b8235edb2a7f5300fcd8a387"
+    },
+    {
+      "freeze": "validation/freeze.json",
+      "path": "validation\\adapters.py",
+      "sha256": "a614d61c180a7b3adcc8fb6d3cfa0421fca1a337e1989b2e7aed8a780c261097"
+    },
+    {
+      "freeze": "validation/freeze.json",
+      "path": "validation\\PROTOCOL.md",
+      "sha256": "f863eaaecfd4405d41f27fd266c0591b3d8283158ad5c738a1d67ac2711be03c"
+    },
+    {
+      "freeze": "validation/freeze.json",
+      "path": "reference\\rank_policy.py",
+      "sha256": "9f6e3e96a85fa62657ec1430aececc846cffa3ce338786356d514d942d00ae31"
+    },
+    {
+      "freeze": "validation/freeze.json",
+      "path": "source\\pullback_feature_learning\\core.py",
+      "sha256": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5"
+    },
+    {
+      "freeze": "validation/freeze.json",
+      "path": "legacy\\budgeted-rotation-final\\generator.py",
+      "sha256": "885eb5c8d8878b57df1025c1a5a69b6978d4c2803f3f0e552c557170c7e355d2"
+    },
+    {
+      "freeze": "validation/freeze.json",
+      "path": "transfer\\task.py",
+      "sha256": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77"
+    },
+    {
+      "freeze": "validation/freeze.json",
+      "path": "transfer\\rank_policy.py",
+      "sha256": "32feb6f0c13b7db4b5cc3b2f348c0af28c1d78676fa9e776b2a9a93c837379a8"
+    },
+    {
+      "freeze": "validation/freeze.json",
+      "path": "transfer\\FREEZE.json",
+      "sha256": "cec904fc33f2584daf5edb29fb2a94dec1336953e42e5a41b95719829ca359d6"
+    },
+    {
+      "freeze": "validation/freeze.json",
+      "path": "transfer\\TRAINING_CHOICE.json",
+      "sha256": "b9b2cb02fa128f55b424b3a968b9e5c30b991898dbacea9a2f7efb3a7692c691"
+    },
+    {
+      "freeze": "certificate/freeze.json",
+      "path": "certificate\\known_cdf.py",
+      "sha256": "9eb325a3f4fe4b2488b0bc19ff708ac8b78595e76f46d01b4431892d45ce5ef7"
+    },
+    {
+      "freeze": "certificate/freeze.json",
+      "path": "certificate\\local_rank.py",
+      "sha256": "8e7b36d7fe1cfa4a5ae8b208e60241a732a57aa7d54a6d2195412d0a6f9161ca"
+    },
+    {
+      "freeze": "certificate/freeze.json",
+      "path": "certificate\\experiment.py",
+      "sha256": "e3c8c2d3b345f17cabe8e3274a58354d31432f7ae8527686c0438029c310ca19"
+    },
+    {
+      "freeze": "certificate/freeze.json",
+      "path": "certificate\\checks.py",
+      "sha256": "960997df2179f6d5590ebd5f0a16ea959a5b91d004ff04117773c4f1114ade77"
+    },
+    {
+      "freeze": "certificate/freeze.json",
+      "path": "certificate\\THEORY.md",
+      "sha256": "966982403a6273b1d23b30d2cd9d84d9ecc58e74f4003ef1cc6d938d11b153ef"
+    },
+    {
+      "freeze": "certificate/freeze.json",
+      "path": "certificate\\PROTOCOL.md",
+      "sha256": "e7bb0a99c52306e59970860088864a587e5de2fe2aa7f85234fb79f46493ada1"
+    },
+    {
+      "freeze": "certificate/freeze.json",
+      "path": "reference\\local_jets.py",
+      "sha256": "f92586ac2c97b31871c92c0c5e7eea5f6afd6a114c9d125fec6b6d9f16c9e691"
+    },
+    {
+      "freeze": "certificate/freeze.json",
+      "path": "reference\\rank_policy.py",
+      "sha256": "9f6e3e96a85fa62657ec1430aececc846cffa3ce338786356d514d942d00ae31"
+    },
+    {
+      "freeze": "certificate/freeze.json",
+      "path": "source\\pullback_feature_learning\\core.py",
+      "sha256": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5"
+    },
+    {
+      "freeze": "certificate/freeze.json",
+      "path": "transfer\\task.py",
+      "sha256": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77"
+    },
+    {
+      "freeze": "root_audit/certificate_freeze.json",
+      "path": "root_audit\\certificate.py",
+      "sha256": "03b951115dbf95d997cbea4c75d095dd0380d200100321da53dc0c1d0362860b"
+    },
+    {
+      "freeze": "root_audit/certificate_freeze.json",
+      "path": "root_audit\\CERTIFICATE.md",
+      "sha256": "9e0e0f3ab9b85b32c37b2fc7e0da804c0cd414b9e030ae12672c4c222a028834"
+    },
+    {
+      "freeze": "root_audit/certificate_freeze.json",
+      "path": "certificate\\known_cdf.py",
+      "sha256": "9eb325a3f4fe4b2488b0bc19ff708ac8b78595e76f46d01b4431892d45ce5ef7"
+    },
+    {
+      "freeze": "root_audit/certificate_freeze.json",
+      "path": "certificate\\local_rank.py",
+      "sha256": "8e7b36d7fe1cfa4a5ae8b208e60241a732a57aa7d54a6d2195412d0a6f9161ca"
+    },
+    {
+      "freeze": "root_audit/certificate_freeze.json",
+      "path": "validation\\adapters.py",
+      "sha256": "a614d61c180a7b3adcc8fb6d3cfa0421fca1a337e1989b2e7aed8a780c261097"
+    },
+    {
+      "freeze": "root_audit/certificate_freeze.json",
+      "path": "transfer\\task.py",
+      "sha256": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77"
+    },
+    {
+      "freeze": "root_audit/certificate_freeze.json",
+      "path": "transfer\\rank_policy.py",
+      "sha256": "32feb6f0c13b7db4b5cc3b2f348c0af28c1d78676fa9e776b2a9a93c837379a8"
+    },
+    {
+      "freeze": "root_audit/certificate_freeze.json",
+      "path": "reference\\rank_policy.py",
+      "sha256": "9f6e3e96a85fa62657ec1430aececc846cffa3ce338786356d514d942d00ae31"
+    },
+    {
+      "freeze": "root_audit/certificate_freeze.json",
+      "path": "reference\\local_jets.py",
+      "sha256": "f92586ac2c97b31871c92c0c5e7eea5f6afd6a114c9d125fec6b6d9f16c9e691"
+    },
+    {
+      "freeze": "root_audit/certificate_freeze.json",
+      "path": "source\\pullback_feature_learning\\core.py",
+      "sha256": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5"
+    }
+  ],
+  "chronological_records": {
+    "validation/ROOT_APPROVAL.json": "2026-11-21 10:15:56.872195+00:00",
+    "validation/training_start.json": "2026-11-21 10:16:16.457297+00:00",
+    "validation/training_commit.json": "2026-11-21 10:16:40.205740+00:00",
+    "validation/calibration_start.json": "2026-11-21 10:17:00.728152+00:00",
+    "validation/policy_commit.json": "2026-11-21 10:17:30.961775+00:00",
+    "validation/score_start.json": "2026-11-21 10:18:29.606074+00:00",
+    "validation/score_complete.json": "2026-11-21 10:19:01.030964+00:00"
+  }
+}

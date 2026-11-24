@@ -1,0 +1,44 @@
+{
+  "utc": "2026-11-22T00:26:32.081820+00:00",
+  "serving_success": true,
+  "criterion": "Student/plain ratio of pooled per-pair medians <=1.10 in every mode",
+  "conditions": [
+    {
+      "mode": "cpu",
+      "plain_median_ms": 28.980949999095174,
+      "student_median_ms": 28.533900000184076,
+      "best_full_median_ms": 57.79001250266447,
+      "student_over_plain": 0.9845743497392233,
+      "full_over_student_ratio_of_medians": 2.025310683162542,
+      "median_pair_full_over_student": 2.0229215749212024,
+      "minimum_pair_full_over_student": 1.9592055401949717,
+      "maximum_pair_full_over_student": 2.045493128997765,
+      "within_ten_percent": true
+    },
+    {
+      "mode": "cuda_resident",
+      "plain_median_ms": 0.41369999962626025,
+      "student_median_ms": 0.3821124955720734,
+      "best_full_median_ms": 0.7086999976309016,
+      "student_over_plain": 0.9236463522293371,
+      "full_over_student_ratio_of_medians": 1.854689406505493,
+      "median_pair_full_over_student": 1.7288783287859066,
+      "minimum_pair_full_over_student": 1.4186972615522366,
+      "maximum_pair_full_over_student": 2.448442649918194,
+      "within_ten_percent": true
+    },
+    {
+      "mode": "cuda_transfer",
+      "plain_median_ms": 0.6740749995515216,
+      "student_median_ms": 0.6447375017160084,
+      "best_full_median_ms": 0.8853500003169756,
+      "student_over_plain": 0.9564773981307241,
+      "full_over_student_ratio_of_medians": 1.3731945139852457,
+      "median_pair_full_over_student": 1.3613818167558855,
+      "minimum_pair_full_over_student": 0.92067490911447,
+      "maximum_pair_full_over_student": 1.6907313856541422,
+      "within_ten_percent": true
+    }
+  ],
+  "separate_from_primary_quality": true
+}

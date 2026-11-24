@@ -1,0 +1,49 @@
+{
+  "timestamp_utc": "2026-11-21T10:58:32.987736+00:00",
+  "purpose": "post-confirmation descriptive task-quality diagnosis; no fitting or retuning",
+  "status": "specified after parent released aggregate NLL/error outcomes; before this script read saved per-input predictions",
+  "policies": [
+    "raw",
+    "folded",
+    "symmetric_jensen",
+    "full"
+  ],
+  "models": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "probability_bin_edges": [
+    0.0,
+    0.1,
+    0.2,
+    0.30000000000000004,
+    0.4,
+    0.5,
+    0.6000000000000001,
+    0.7000000000000001,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "quotient_bins_per_axis": 4,
+  "metrics": "conditional logloss, conditional classification error, expected Brier loss, squared posterior error, fixed-bin oracle-posterior ECE, top-label confidence and accuracy; all16 retained",
+  "no_temperature_fit": true,
+  "no_new_model_calls": true,
+  "no_new_inferential_claim": true,
+  "script_sha256": "684da060fa539733a921f33e8ee4516ecbeeb1bc11c18769e9578f1824d01c7d",
+  "score_complete_sha256": "33c58b66d5c655708cc4991c5fbdfabc91bb00d9cbdcf4175e6e62d3b726ed3f"
+}

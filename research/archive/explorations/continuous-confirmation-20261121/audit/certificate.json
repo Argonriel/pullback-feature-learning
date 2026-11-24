@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "independently_reconstructed_rows": 384,
+  "max_gain_error": 3.469446951953614e-18,
+  "max_logit_enclosure_violation": -0.010657551639925433,
+  "checked_adaptive_partitions": 16,
+  "checked_split_nodes": 196608,
+  "charged_propagations_per_adaptive_model": 65536
+}

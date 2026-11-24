@@ -1,0 +1,267 @@
+{
+  "utc": "2026-11-21T23:01:09.799197+00:00",
+  "status": "PASS",
+  "fresh_streams_accessed": false,
+  "checks": [
+    {
+      "test": "PB_duplication_normalization",
+      "state": 0,
+      "k": 2,
+      "error": 6.904199434387692e-16
+    },
+    {
+      "test": "mean_gradient_duplication",
+      "state": 0,
+      "k": 2,
+      "error": 4.163336342344337e-17
+    },
+    {
+      "test": "PB_duplication_normalization",
+      "state": 0,
+      "k": 3,
+      "error": 5.63134608388971e-16
+    },
+    {
+      "test": "mean_gradient_duplication",
+      "state": 0,
+      "k": 3,
+      "error": 4.163336342344337e-17
+    },
+    {
+      "test": "PB_duplication_normalization",
+      "state": 0,
+      "k": 9,
+      "error": 9.159339953157541e-16
+    },
+    {
+      "test": "mean_gradient_duplication",
+      "state": 0,
+      "k": 9,
+      "error": 5.0306980803327406e-17
+    },
+    {
+      "test": "normalized_metric_equivalence",
+      "state": 0,
+      "error": 3.233090878351774e-16
+    },
+    {
+      "test": "mean_loss_gradient_finite_difference",
+      "state": 0,
+      "index": 0,
+      "error": 2.8240881855268185e-12
+    },
+    {
+      "test": "mean_loss_gradient_finite_difference",
+      "state": 0,
+      "index": 1,
+      "error": 2.529219889080281e-12
+    },
+    {
+      "test": "mean_loss_gradient_finite_difference",
+      "state": 0,
+      "index": 2,
+      "error": 2.2979490489280496e-12
+    },
+    {
+      "test": "mean_loss_gradient_finite_difference",
+      "state": 0,
+      "index": 3,
+      "error": 2.8390675227418782e-12
+    },
+    {
+      "test": "mean_loss_gradient_finite_difference",
+      "state": 0,
+      "index": 4,
+      "error": 6.610462069227274e-12
+    },
+    {
+      "test": "mean_loss_gradient_finite_difference",
+      "state": 0,
+      "index": 5,
+      "error": 2.0347144108479043e-12
+    },
+    {
+      "test": "mean_loss_gradient_finite_difference",
+      "state": 0,
+      "index": 6,
+      "error": 3.995718686478078e-12
+    },
+    {
+      "test": "mean_loss_gradient_finite_difference",
+      "state": 0,
+      "index": 7,
+      "error": 4.30224432468318e-14
+    },
+    {
+      "test": "PB_duplication_normalization",
+      "state": 1,
+      "k": 2,
+      "error": 9.398731792842341e-15
+    },
+    {
+      "test": "mean_gradient_duplication",
+      "state": 1,
+      "k": 2,
+      "error": 6.938893903907228e-17
+    },
+    {
+      "test": "PB_duplication_normalization",
+      "state": 1,
+      "k": 3,
+      "error": 1.4290651995096937e-14
+    },
+    {
+      "test": "mean_gradient_duplication",
+      "state": 1,
+      "k": 3,
+      "error": 5.898059818321144e-17
+    },
+    {
+      "test": "PB_duplication_normalization",
+      "state": 1,
+      "k": 9,
+      "error": 7.998159426425566e-15
+    },
+    {
+      "test": "mean_gradient_duplication",
+      "state": 1,
+      "k": 9,
+      "error": 2.3592239273284576e-16
+    },
+    {
+      "test": "normalized_metric_equivalence",
+      "state": 1,
+      "error": 2.49366499671666e-16
+    },
+    {
+      "test": "mean_loss_gradient_finite_difference",
+      "state": 1,
+      "index": 0,
+      "error": 1.182059658488832e-12
+    },
+    {
+      "test": "mean_loss_gradient_finite_difference",
+      "state": 1,
+      "index": 1,
+      "error": 3.5128054978739165e-12
+    },
+    {
+      "test": "mean_loss_gradient_finite_difference",
+      "state": 1,
+      "index": 2,
+      "error": 9.76044939315912e-12
+    },
+    {
+      "test": "mean_loss_gradient_finite_difference",
+      "state": 1,
+      "index": 3,
+      "error": 2.1275151779187595e-12
+    },
+    {
+      "test": "mean_loss_gradient_finite_difference",
+      "state": 1,
+      "index": 4,
+      "error": 4.416911281168723e-12
+    },
+    {
+      "test": "mean_loss_gradient_finite_difference",
+      "state": 1,
+      "index": 5,
+      "error": 2.228888948407892e-12
+    },
+    {
+      "test": "mean_loss_gradient_finite_difference",
+      "state": 1,
+      "index": 6,
+      "error": 3.5193983144443663e-12
+    },
+    {
+      "test": "mean_loss_gradient_finite_difference",
+      "state": 1,
+      "index": 7,
+      "error": 2.0640728709553358e-12
+    }
+  ],
+  "failures": [],
+  "maximum_error": 9.76044939315912e-12,
+  "scalar_flop_ledger": [
+    {
+      "n": 256,
+      "cost_per_update": 47836664,
+      "matched_updates": 4332,
+      "slack": 31983552,
+      "relative_slack": 0.00015431577932017233
+    },
+    {
+      "n": 768,
+      "cost_per_update": 139507704,
+      "matched_updates": 1485,
+      "slack": 91471560,
+      "relative_slack": 0.0004413363802441925
+    },
+    {
+      "n": 1280,
+      "cost_per_update": 231178744,
+      "matched_updates": 896,
+      "slack": 124257376,
+      "relative_slack": 0.0005995229614809412
+    },
+    {
+      "n": 2304,
+      "cost_per_update": 414520824,
+      "matched_updates": 500,
+      "slack": 0,
+      "relative_slack": 0.0
+    }
+  ],
+  "lu_flops": 1980264,
+  "triangular_flops": 41328,
+  "calibration_tests": {
+    "raw": {
+      "beta": 1.0118543812488396,
+      "temperature": 0.9882844987692707,
+      "status": "interior",
+      "iterations": 80,
+      "n_labels": 256,
+      "raw_nll": 0.6265242397685232,
+      "calibrated_nll": 0.6265167083831843,
+      "derivative": -1.5612511283791264e-17,
+      "lower_derivative": -0.13343061828281993,
+      "upper_derivative": 0.17200705314953713,
+      "beta_min": 0.049787068367863944,
+      "beta_max": 20.085536923187668
+    },
+    "full": {
+      "beta": 1.7791919808105767,
+      "temperature": 0.5620528929904535,
+      "status": "interior",
+      "iterations": 80,
+      "n_labels": 256,
+      "raw_nll": 0.6112275307327251,
+      "calibrated_nll": 0.5951120095584097,
+      "derivative": 1.3877787807814457e-17,
+      "lower_derivative": -0.1186017107171039,
+      "upper_derivative": 0.10270923409118549,
+      "beta_min": 0.049787068367863944,
+      "beta_max": 20.085536923187668
+    }
+  },
+  "procedures": 9,
+  "baseline_training_work": {
+    "updates_executed": 500,
+    "training_example_updates": 1152000,
+    "standalone_representation_forward_examples": 1152000,
+    "jacobian_forward_examples": 1152000,
+    "jacobian_rows": 4608000,
+    "jacobian_scalar_entries": 663552000,
+    "loss_derivative_examples": 1152000,
+    "gradient_jacobian_transpose_vector_products": 500,
+    "separate_reverse_mode_backward_calls": 0,
+    "gram_matrices": 500,
+    "lu_solves_144": 500,
+    "nominal_arithmetic_flops": 207260412000,
+    "tanh_scalar_evaluations": 36864000,
+    "exp_scalar_evaluations": 1152000,
+    "logaddexp_scalar_evaluations": 1152000
+  }
+}

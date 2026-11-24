@@ -1,0 +1,65 @@
+{
+  "audit_date": "2026-11-21",
+  "timezone": "America/Los_Angeles",
+  "hash_scope": "Retrieved primary-source bytes; HTML hashes identify a retrieval representation, not a canonical document version.",
+  "sources": [
+    {
+      "file": "sources/intrinsic_2508.07370v1.html",
+      "url": "https://arxiv.org/html/2508.07370v1",
+      "sha256": "8e22d0fb76dfc6af9c2b7a7b70af8068980381bd449a27f67847b6fce5fe727b",
+      "bytes": 1230371
+    },
+    {
+      "file": "sources/keep_momentum_2405.12888v1.html",
+      "url": "https://arxiv.org/html/2405.12888v1",
+      "sha256": "6a9e1f8e03ae64f862a0b72c375c344d95f97d27d31e98a6786da409caa82407",
+      "bytes": 1283770
+    },
+    {
+      "file": "sources/sld_2307.03431v3.html",
+      "url": "https://arxiv.org/html/2307.03431v3",
+      "sha256": "11252e72f5b849f25b655626bf45000710f77c334da310847459e342e1131358",
+      "bytes": 1965044
+    },
+    {
+      "file": "sources/split_covariance_2610.09356v1.html",
+      "url": "https://arxiv.org/html/2610.09356v1",
+      "sha256": "7e160bac73319ad282cd7348c9bad8345bc11f122f4b59edab4fa4ef6856c253",
+      "bytes": 4167661
+    },
+    {
+      "file": "sources/isospectral_2604.23895v1.html",
+      "url": "https://arxiv.org/html/2604.23895v1",
+      "sha256": "e29cf5e0d2e0772e657f52238db98f6bd1e06f528de388a2764b27941b115146",
+      "bytes": 496421
+    },
+    {
+      "file": "sources/commuting_neurips2022.pdf",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/dfa1106ea7065899b13f2be9da04efb4-Paper-Conference.pdf",
+      "sha256": "24e2f130fe6f8dbeb0fef6c61d659306fa7a99e2cdfdca85ddc673121503b424",
+      "bytes": 634373
+    },
+    {
+      "file": "sources/ballantine_1968_II.pdf",
+      "url": "https://msp.org/pjm/1968/24-1/pjm-v24-n1-p02-s.pdf",
+      "sha256": "bdc90ed143a648416b6518b4e8c57d2772fae53bad056fb8637a7bbdc7ec1a6b",
+      "bytes": 1178042
+    },
+    {
+      "file": "sources/physical_brownian_1302.2531.html",
+      "url": "https://arxiv.org/html/1302.2531",
+      "sha256": "c0151271c38ab2b5dc1e7e8d9fe76e621910b4098e8b760ffded70e6cf1e9637",
+      "bytes": 383485
+    }
+  ],
+  "unsnapshotted": [
+    {
+      "url": "https://www.mdpi.com/2227-7390/10/15/2613",
+      "status": "Read with web research tool; direct snapshot request denied by remote server"
+    },
+    {
+      "url": "https://www.mdpi.com/2075-1680/13/12/820",
+      "status": "Read with web research tool; direct snapshot request denied by remote server"
+    }
+  ]
+}

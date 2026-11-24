@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "utc": "2026-11-21T23:23:05.855461+00:00",
+  "pages": 9,
+  "pdf_sha256": "9f441d789e05ea4b9599209e85270d36805ed9f3b47d757a88b2ce9b56e59f4d",
+  "source_sha256": "c0f6adc5f891179560a28ec6ce7b42a7bbdad1cd20200f1872831434839b47a2",
+  "render_command": "pdftoppm -scale-to 1500 -png research_report.pdf pdf_preview/page",
+  "pages_visually_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "final_modified_pages_reinspected": [
+    3,
+    5,
+    7,
+    8
+  ],
+  "independent_review": "Structured-branch researcher inspected all nine pages against source tables; root applied comparator, normalized-density and model-dependence clarifications, then re-rendered and reviewed changed pages.",
+  "checks": [
+    "No clipped text, overlaps, missing glyphs or unreadable plots",
+    "Nine planned pages remain nine pages",
+    "Tables use source results and correct contrast directions",
+    "Negative quality, serving and shift results retained",
+    "Known/estimated-family guarantees explicitly conditional",
+    "No claim of equal elapsed time from nominal arithmetic equality",
+    "Five live external source links"
+  ],
+  "page_render_sha256": {
+    "1": "10803fe0a36b04d1a0e50dd2006889234f5b88ebd5f8466d05f8ea4a4e0f062e",
+    "2": "7240415d1474faa678409f19e43f4a3dc05dfcadf33ece3647dcea8e693c9899",
+    "3": "8609c17e1e5f2b4834b6047bbd4a6c3d9267f36a2eea5e06e343110f94594171",
+    "4": "ac5a32e839bcc05f7672e3f06576840491ff031493c1299afee893504aa9b2e1",
+    "5": "9fed95a95fb06f68103c09f5d320f8a91c9b2bffa323ec2c48bc1ed7b7f7b1bc",
+    "6": "e8a8577b47cda6acf7ecfed8ffe5d31a3254ad3003e46f937d7eec0778db0b82",
+    "7": "df9a43b8872b4328ca67975d3b2732ed7f5cbe93c8eb75a784b1eba11d902cc9",
+    "8": "d1d77753d2c698b1bfaf60d39f896a760574b8fb76ae46fdbeaf933a684e2a91",
+    "9": "56e0a5c9f941775be361735924da3a7b35091edacdc8ce74a513eb39a77f2bfb"
+  },
+  "character_counts": [
+    2552,
+    2149,
+    2826,
+    1619,
+    1921,
+    2970,
+    1673,
+    2765,
+    3140
+  ],
+  "limitations": "Visual/semantic human-style review and extraction checks, not a formal verification of scientific claims."
+}

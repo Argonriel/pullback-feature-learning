@@ -1,0 +1,68 @@
+{
+  "study": "learned_geometry_gate_20261121",
+  "tasks": [
+    "rings"
+  ],
+  "seeds": [
+    {
+      "id": "d1",
+      "cohort": "discovery",
+      "train_seed": 221101,
+      "init_seed": 222101,
+      "test_seed": 223101
+    },
+    {
+      "id": "d2",
+      "cohort": "discovery",
+      "train_seed": 221102,
+      "init_seed": 222102,
+      "test_seed": 223102
+    },
+    {
+      "id": "d3",
+      "cohort": "discovery",
+      "train_seed": 221103,
+      "init_seed": 222103,
+      "test_seed": 223103
+    },
+    {
+      "id": "d4",
+      "cohort": "discovery",
+      "train_seed": 221104,
+      "init_seed": 222104,
+      "test_seed": 223104
+    }
+  ],
+  "task_seed_offsets": {
+    "moons": 0,
+    "rings": 10000
+  },
+  "arms": [
+    "tangent_gd",
+    "tangent_pb"
+  ],
+  "dampings": [
+    0.1
+  ],
+  "step_sizes": [
+    0.01,
+    0.005
+  ],
+  "loss_fractions": [
+    0.75,
+    0.5,
+    0.25
+  ],
+  "max_steps": 60000,
+  "n_train": 256,
+  "n_test_moons": 20000,
+  "param_step_cap": 0.1,
+  "remainder_rtol": 0.05,
+  "armijo": 0.0001,
+  "target_atol": 1E-10,
+  "primary_fraction": 0.25,
+  "effect_floor_nats": 0.01,
+  "refinement_tolerance_nats": 0.003,
+  "minimum_sign_agreement": 3,
+  "evaluation_role": "screening; no tuning from evaluation outcomes"
+}

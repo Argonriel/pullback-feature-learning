@@ -1,0 +1,15 @@
+{
+  "timestamp_utc": "2026-11-21T10:57:56.485615+00:00",
+  "family_events": 864,
+  "alpha": 0.05,
+  "delta": 5.787037037037037e-05,
+  "maximum_of_two_simultaneous_bounds": true,
+  "original_432_event_outputs": "Preserved diagnostic; superseded for primary reporting.",
+  "addendum_freeze_sha256": "e7c5da216f5ad41854c0cc9ff5d3732b552823aeb43b8f0d04b56fdff45a8cc1",
+  "original_completion_sha256": "8635423eef504676db47b0575cea440d7099d051b8efcf8f18f8468ea4dbe5c2",
+  "outputs": {
+    "final_per_model_bounds.csv": "a5fe5ec957b681eb6fe7e27a770554148d29970e38e67d5cc5967b66841b46a1",
+    "final_summary.csv": "2ff8b563c3758042836534304854fd02cf00c473f1585736bbce6cc3ac447871",
+    "final_thresholds.csv": "732e5223db846d39504c18391d7a43f7ac16fa305db8c4a4f6e3974297146b47"
+  }
+}

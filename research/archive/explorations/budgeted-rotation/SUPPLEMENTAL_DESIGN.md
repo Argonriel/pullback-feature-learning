@@ -1,0 +1,9 @@
+# Supplemental confidence baseline
+
+This comparison was specified after the main experiment and before scoring the supplemental draw. It uses the 48 archived checkpoints and their saved calibration tables. Every checkpoint and gate is frozen.
+
+For each of the original data and initialization pairs i = 1,...,16, generate 32,768 fresh iid inputs with seed 131000 + i and tie variables with seed 132000 + i. Make 128 consecutive batches of 256. Each policy buys one extra antipodal view for exactly 64 inputs per batch. All policies share inputs and tie variables. As in the main analysis, random allocation is evaluated in expectation over a uniform exact-quota subset. Report risk in nats using the generator's known posterior.
+
+The additional baseline ranks inputs by increasing absolute first-view logit. On each batch evaluate the policy once with the original orientation and once with all orientations swapped. Recompute the selection in each orientation. Report the arithmetic mean of the two actual posterior risks. The same averaging convention applies to the frozen folded gate, radius gate, and random selection. Each orientation represents a separate deployment at 1.25 model forward passes per input. The extra work to measure both possible orientations is an evaluation cost.
+
+The primary contrast is the paired difference between the saved folded gate's risk and the confidence gate's risk at step 500 of full pullback, with one observation per original training pair. Positive folded-minus-confidence risk favors confidence. Report the mean paired risk difference, a percentile bootstrap interval over 20,000 resamples of 16 seed pairs with bootstrap seed 291031, and the number of pairs favoring each gate. Other checkpoints and gate comparisons are descriptive. No new calibration, checkpoint selection, or policy adjustment is part of this supplement.

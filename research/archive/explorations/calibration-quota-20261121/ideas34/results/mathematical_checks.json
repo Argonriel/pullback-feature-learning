@@ -1,0 +1,24 @@
+{
+  "max_sharp_epsilon_identity_error": 1.8041124150158794e-15,
+  "four_point_gains": [
+    0.09497137326043062,
+    -0.15502862673956938
+  ],
+  "continuous_bin_mean_b": 0.0,
+  "continuous_bin_C": 0.04838795414161812,
+  "opposite_half_interval_gains": [
+    -0.20161204585838188,
+    0.2983879541416181
+  ],
+  "smooth_opposite_gains": [
+    -0.16695695678055286,
+    0.2637328650637891
+  ],
+  "smooth_posterior_lipschitz_bound": 5.0,
+  "smoothness_ambiguity_bound": 1.25,
+  "known_prevalence_exhaustive_bounds": [
+    -0.325,
+    0.7749999999999999
+  ],
+  "equal_logits_gain": 0.0
+}

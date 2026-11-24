@@ -1,0 +1,32 @@
+{
+  "timestamp_utc": "2026-11-21T10:55:48.459653+00:00",
+  "status": "PASS",
+  "independent_seed": 1209001,
+  "exhaustive_single_record_replacements": 110592,
+  "exhaustive_max_change": 1.0,
+  "random_full_size_replacements": 4096,
+  "random_absolute_max": 1.0,
+  "random_relative_max": 1.75,
+  "sharp_relative_actual_quota": {
+    "before": -1.0,
+    "after": 1.0,
+    "difference": 2.0
+  },
+  "delta": 5.787037037037037e-05,
+  "penalties": {
+    "128": {
+      "absolute_c1": 0.01220183016845461,
+      "relative_J1": 0.02440366033690922
+    },
+    "512": {
+      "absolute_c1": 0.006100915084227305,
+      "relative_J1": 0.01220183016845461
+    },
+    "2048": {
+      "absolute_c1": 0.0030504575421136525,
+      "relative_J1": 0.006100915084227305
+    }
+  },
+  "failures": [],
+  "fresh_models_read": 0
+}

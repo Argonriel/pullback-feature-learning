@@ -1,0 +1,388 @@
+{
+  "timestamp_utc": "2026-11-21T11:03:04.412096+00:00",
+  "scientific_freezes": 5,
+  "verified_hash_references": 95,
+  "mismatches": 0,
+  "checks": [
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/baseline.py"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/pilot.py"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/summarize.py"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/freeze.py"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/DEVELOPMENT_PROTOCOL.md"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/THEORY.md"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/LITERATURE.md"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/HISTOGRAM_CHOICE.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development_summary.csv"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development_checks.csv"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development_per_model.csv"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/rings_1/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/rings_10/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/rings_11/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/rings_12/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/rings_13/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/rings_14/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/rings_15/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/rings_16/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/rings_2/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/rings_3/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/rings_4/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/rings_5/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/rings_6/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/rings_7/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/rings_8/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/rings_9/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/task2d_1/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/task2d_2/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/task2d_3/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/task2d_4/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/transfer_1/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/transfer_10/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/transfer_11/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/transfer_12/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/transfer_13/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/transfer_14/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/transfer_15/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/transfer_16/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/transfer_2/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/transfer_3/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/transfer_4/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/transfer_5/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/transfer_6/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/transfer_7/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/transfer_8/policy_commit.json"
+    },
+    {
+      "freeze": "method/METHOD_FREEZE.json",
+      "path": "method/development/transfer_9/policy_commit.json"
+    },
+    {
+      "freeze": "task2d/TASK_FREEZE.json",
+      "path": "task2d/task.py"
+    },
+    {
+      "freeze": "task2d/TASK_FREEZE.json",
+      "path": "task2d/core4d.py"
+    },
+    {
+      "freeze": "task2d/TASK_FREEZE.json",
+      "path": "task2d/pilot.py"
+    },
+    {
+      "freeze": "task2d/TASK_FREEZE.json",
+      "path": "task2d/TASK_LAW_FREEZE.json"
+    },
+    {
+      "freeze": "task2d/TASK_FREEZE.json",
+      "path": "task2d/TRAINING_CHOICE.json"
+    },
+    {
+      "freeze": "task2d/TASK_FREEZE.json",
+      "path": "task2d/THEORY.md"
+    },
+    {
+      "freeze": "task2d/TASK_FREEZE.json",
+      "path": "task2d/LITERATURE.md"
+    },
+    {
+      "freeze": "task2d/TASK_FREEZE.json",
+      "path": "task2d/check_task.py"
+    },
+    {
+      "freeze": "task2d/TASK_FREEZE.json",
+      "path": "task2d/TASK_CHECKS.json"
+    },
+    {
+      "freeze": "task2d/TASK_FREEZE.json",
+      "path": "task2d/freeze_task.py"
+    },
+    {
+      "freeze": "certification/FREEZE.json",
+      "path": "certification/run.py"
+    },
+    {
+      "freeze": "certification/FREEZE.json",
+      "path": "certification/bounds.py"
+    },
+    {
+      "freeze": "certification/FREEZE.json",
+      "path": "certification/PROTOCOL.md"
+    },
+    {
+      "freeze": "certification/FREEZE.json",
+      "path": "certification/LITERATURE_AND_PROOF.md"
+    },
+    {
+      "freeze": "certification/FREEZE.json",
+      "path": "certification/check_bounds.py"
+    },
+    {
+      "freeze": "certification/FREEZE.json",
+      "path": "certification/bounds_checks.json"
+    },
+    {
+      "freeze": "certification/FREEZE.json",
+      "path": "certification/development_old32/choice.json"
+    },
+    {
+      "freeze": "certification/FREEZE.json",
+      "path": "validation/adapters.py"
+    },
+    {
+      "freeze": "certification/FREEZE.json",
+      "path": "method/baseline.py"
+    },
+    {
+      "freeze": "certification/FREEZE.json",
+      "path": "source/pullback_feature_learning/core.py"
+    },
+    {
+      "freeze": "certification/FREEZE.json",
+      "path": "source/pullback_feature_learning/__init__.py"
+    },
+    {
+      "freeze": "certification/FREEZE.json",
+      "path": "legacy/generator.py"
+    },
+    {
+      "freeze": "certification/FREEZE.json",
+      "path": "reference/legacy_rank_policy.py"
+    },
+    {
+      "freeze": "certification/FREEZE.json",
+      "path": "reference/waveform_task.py"
+    },
+    {
+      "freeze": "certification/FREEZE.json",
+      "path": "task2d/task.py"
+    },
+    {
+      "freeze": "certification/ADDENDUM_FREEZE.json",
+      "path": "certification/final_compare.py"
+    },
+    {
+      "freeze": "certification/ADDENDUM_FREEZE.json",
+      "path": "certification/ADDENDUM.md"
+    },
+    {
+      "freeze": "certification/ADDENDUM_FREEZE.json",
+      "path": "certification/addendum_checks.json"
+    },
+    {
+      "freeze": "certification/ADDENDUM_FREEZE.json",
+      "path": "certification/FREEZE.json"
+    },
+    {
+      "freeze": "certification/ADDENDUM_FREEZE.json",
+      "path": "certification/development_old32/addendum_864_summary.csv"
+    },
+    {
+      "freeze": "validation/FREEZE.json",
+      "path": "STUDY_SCOPE.md"
+    },
+    {
+      "freeze": "validation/FREEZE.json",
+      "path": "validation/study.py"
+    },
+    {
+      "freeze": "validation/FREEZE.json",
+      "path": "validation/adapters.py"
+    },
+    {
+      "freeze": "validation/FREEZE.json",
+      "path": "validation/PROTOCOL.md"
+    },
+    {
+      "freeze": "validation/FREEZE.json",
+      "path": "method/METHOD_FREEZE.json"
+    },
+    {
+      "freeze": "validation/FREEZE.json",
+      "path": "method/HISTOGRAM_CHOICE.json"
+    },
+    {
+      "freeze": "validation/FREEZE.json",
+      "path": "method/baseline.py"
+    },
+    {
+      "freeze": "validation/FREEZE.json",
+      "path": "task2d/TASK_FREEZE.json"
+    },
+    {
+      "freeze": "validation/FREEZE.json",
+      "path": "task2d/TRAINING_CHOICE.json"
+    },
+    {
+      "freeze": "validation/FREEZE.json",
+      "path": "task2d/task.py"
+    },
+    {
+      "freeze": "validation/FREEZE.json",
+      "path": "task2d/core4d.py"
+    },
+    {
+      "freeze": "validation/FREEZE.json",
+      "path": "certification/FREEZE.json"
+    },
+    {
+      "freeze": "validation/FREEZE.json",
+      "path": "certification/ADDENDUM_FREEZE.json"
+    },
+    {
+      "freeze": "validation/FREEZE.json",
+      "path": "source/pullback_feature_learning/core.py"
+    },
+    {
+      "freeze": "validation/FREEZE.json",
+      "path": "source/pullback_feature_learning/__init__.py"
+    },
+    {
+      "freeze": "validation/FREEZE.json",
+      "path": "legacy/generator.py"
+    },
+    {
+      "freeze": "validation/FREEZE.json",
+      "path": "reference/legacy_rank_policy.py"
+    },
+    {
+      "freeze": "validation/FREEZE.json",
+      "path": "reference/waveform_task.py"
+    }
+  ]
+}

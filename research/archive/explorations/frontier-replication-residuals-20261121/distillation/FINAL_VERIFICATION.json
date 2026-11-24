@@ -1,0 +1,17 @@
+{
+  "utc": "2026-11-22T00:26:34.457263+00:00",
+  "source_freeze_sha256": "7c015fa2f70b2016b456a34697379991f7fdb4c433bc66785fa7e2ee2583aee8",
+  "frozen_entries": 3025,
+  "all_frozen_sources_and_data_match": true,
+  "all_model_artifacts_match": true,
+  "model_artifacts": 114,
+  "all_prediction_artifacts_match": true,
+  "prediction_artifacts": 54,
+  "exact_repository_copies": true,
+  "cpu_cuda_checks": 60,
+  "max_cpu_cuda_logit_difference": 7.62939453125e-06,
+  "cpu_cuda_argmax_changes": 0,
+  "primary_quality_success": false,
+  "secondary_serving_success": true,
+  "old_sources_and_outcomes_preserved": true
+}

@@ -1,0 +1,91 @@
+{
+  "utc": "2026-11-21T10:50:55.540406+00:00",
+  "status": "Frozen before any new confirmation models were accessed",
+  "grid": {
+    "one_invariant": [
+      128,
+      512
+    ],
+    "two_invariants": [
+      16,
+      16,
+      256
+    ]
+  },
+  "calibration_forward_examples_each": 65536,
+  "quota": [
+    64,
+    256
+  ],
+  "histogram_choice": {
+    "rings": [
+      64,
+      32
+    ],
+    "waveform": [
+      64,
+      32
+    ],
+    "two_invariants": [
+      16,
+      16,
+      16
+    ]
+  },
+  "primary": "symmetric_jensen versus frozen best histogram",
+  "secondary": "grid_nearest on the identical calibration grid",
+  "historical": "old128-cell histogram; one-invariant rank family only contextual",
+  "excluded_settings": [],
+  "failures": [],
+  "source_hashes": {
+    "baseline.py": "652b9f68f021bbd05b2031e26325e495e3a3cf1ff423c89680bc6335592d6ac3",
+    "pilot.py": "d77114545705328ff02e4ce508ea376c35b1db5bc69d4e325f86afb29e764591",
+    "summarize.py": "bf809bfb12dedf1335c97ca90be96314eba55aa711a655f30a2c9d968c86e02e",
+    "freeze.py": "5e74db2729fd8f5576aadf1c02787eecb4b1ab3c29f3fc1f05daf40cca420805",
+    "DEVELOPMENT_PROTOCOL.md": "bf08a2d022dcf2da8f1ab9a39c0c4b6b3a118a75093e16c594464f26e2c5d907",
+    "THEORY.md": "64367a6126a5bac85696756b2015a656b0ec59514c053aa8c3bc80a8a5051904",
+    "LITERATURE.md": "53e9aa48443158a231b9ba1adf4c1e9696157409a2807c30753489d6565536e7",
+    "HISTOGRAM_CHOICE.json": "4ecd4fbb2a417fb1e4003cdb905b035f89c68dba841c76747c8967604dc7c2d6",
+    "development_summary.csv": "4a8a1b3162b5dd8a15e066a2f4b839e64ae2aaedf2a00d8b86eb768185fe37a6",
+    "development_checks.csv": "e12381ffa83ab1b6cddb936b850dbe35bfd4f7ebbe660e994b5973b007abe60f",
+    "development_per_model.csv": "d66e0392074e040f93152d9d0ed6248faaab449f75066ec5c880f32d814b2014"
+  },
+  "development_policy_commit_hashes": {
+    "development\\rings_1\\policy_commit.json": "49b5b83f4c9491d45b530e8a5995feb8189c7cd80231a3865e96ecbd157e02a5",
+    "development\\rings_10\\policy_commit.json": "38f09a0ba877f2510231e5c6f08a33d0714f89fbae2404e7df934a84e4097a01",
+    "development\\rings_11\\policy_commit.json": "7f3c0d38f306be178596b3fcdbac9e9db310deb15b6896870c5452374123c51c",
+    "development\\rings_12\\policy_commit.json": "ebbb3a6dde48020d1bd7b097ae7a910f71d5ff6195f4306a5bd3921f591c1dce",
+    "development\\rings_13\\policy_commit.json": "72c59079b7952000bfb8f86aa443fe5ab76ecf2f7bd911ecd368b4c515cca835",
+    "development\\rings_14\\policy_commit.json": "e0ed972d8899d71803f60bd79f49ea7c64266e494d045c7bc235589c07b7c110",
+    "development\\rings_15\\policy_commit.json": "13a050263290700187700c2182559e47b6e273fce429c8a6aaa1fa8f1acc625d",
+    "development\\rings_16\\policy_commit.json": "8ab8a926894d995ea6cd6b328172b7506ca79f06a7e1c1631ee3d265fdcb7608",
+    "development\\rings_2\\policy_commit.json": "f007e606617af0808fbe2bc01a577966fe39256d54dd45f11d7b78de59d7e7ef",
+    "development\\rings_3\\policy_commit.json": "1b4df4fd33da1f230b65acca05074688eed32103fbca0cb15c5b1ab9b459693a",
+    "development\\rings_4\\policy_commit.json": "6451d862a93a7d8d86217d2eab25c0ce01017978da7f4089ecb2d9ad2fbb3a6d",
+    "development\\rings_5\\policy_commit.json": "6bacd53b554bc5d57465e5d4dd88eef495f81cbe57b61ebd506a6e11c5ad9aa9",
+    "development\\rings_6\\policy_commit.json": "3b3433e34de218aad0ecbd8647618b2888f5f0e7e4dcd4e3f9db165148298f58",
+    "development\\rings_7\\policy_commit.json": "561fc24c0f1df02e2c0a7c29f6e533ddd7331845cd4796ce38b679cb5eae0a06",
+    "development\\rings_8\\policy_commit.json": "0fcaa6cf5980a37664378fdff76571bf75bf1826bad6993766fd16a028c65ef9",
+    "development\\rings_9\\policy_commit.json": "a3f400af31d8bc8051d67677f2e1735232800bf15f64b44f0257b3d114ff4f3c",
+    "development\\task2d_1\\policy_commit.json": "ef1c333ccafa24a32a3ebd98e11457c090c1654ac1d12df60a7cd71b076dc3e4",
+    "development\\task2d_2\\policy_commit.json": "319c3aa673c64eebcd668885c7aa5504a39799e292db24b38249ef2bf85c90c2",
+    "development\\task2d_3\\policy_commit.json": "a2aecfa20f28ea4187d49842730c6489f54528f9d5892e91027bb0cba8cdb995",
+    "development\\task2d_4\\policy_commit.json": "8245efb4996ba9e507536a85aa580171d1a9f63e9a8fedf864fce1852ac9bf0d",
+    "development\\transfer_1\\policy_commit.json": "cb5a376a2b7e50d7ead1b52a77305095dae9b5e6b58dae8e72e17cfad96665fd",
+    "development\\transfer_10\\policy_commit.json": "196f4637527eb7b963db3b715f601ef1926a68c370d205290dbb8d6c9125e394",
+    "development\\transfer_11\\policy_commit.json": "423132bd4be86dfeb006f818e5f3ce9e819e661cc37f935b81c8acde02737bd3",
+    "development\\transfer_12\\policy_commit.json": "ec3b4803df59036e59b54f06032e7c90578788c33fb8eb6a304de2e5f97a78b3",
+    "development\\transfer_13\\policy_commit.json": "a4391fdb52744e02370ff3494febb439ae71b2f052e4f933b1255cce82681fc1",
+    "development\\transfer_14\\policy_commit.json": "0ec4864463ad72fc285ae46cfc726de479b94b3eb333b7655a4f3b30a5c0e4b9",
+    "development\\transfer_15\\policy_commit.json": "660f6b481993c888bda1305247ab5d58db0abc9f195c7127cd5a7c6015ba185a",
+    "development\\transfer_16\\policy_commit.json": "d406b9a96f3c01c17a63993d79b36a83ceb99932c70d24f8833a9946e189609a",
+    "development\\transfer_2\\policy_commit.json": "dd8ae10117987f09fe8dc481978bc87fee85e9ecd47e0c3f1970451b2f422a89",
+    "development\\transfer_3\\policy_commit.json": "dfff8b24dc84505421d32b54c871533e6a8a1fa7f17bc494c0b694fefc8cca3f",
+    "development\\transfer_4\\policy_commit.json": "26c9c0da22c55c988612c0a481f18ebacce75cee927f942244ca9ea79b30367a",
+    "development\\transfer_5\\policy_commit.json": "d156b5ea19a870e2b143fcd7c1cd85563bcd4c9669d5762f3f153874bce04548",
+    "development\\transfer_6\\policy_commit.json": "735e8c33cf070eba0662e2e89c4fd1224d25fdb1e584c467b80adac428edcc09",
+    "development\\transfer_7\\policy_commit.json": "3cf0f140b473b1533e485da257a387b3615b6ed38f663b89a2a80edc53503090",
+    "development\\transfer_8\\policy_commit.json": "a4b3f9483c8ef8f7f510bc20bcbdb62be8dd6a3ba0c164585196a163e7bea024",
+    "development\\transfer_9\\policy_commit.json": "e82ecd08609eceaf56eb295c79030da469bce2960eac182addd1cc67eaad3946"
+  }
+}

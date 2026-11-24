@@ -1,0 +1,67 @@
+{
+  "status": "passed",
+  "file_count": 25,
+  "total_bytes": 164732,
+  "manifest_sha256": "c2c26f0f77cb43c771f03bb9712c3f21494449634019f003b9b2085df624c2a1",
+  "source_and_data_provenance": [
+    {
+      "record": "factor_replay_results.json",
+      "field": "control_data_sha256",
+      "resolved": "metric_control_results.json"
+    },
+    {
+      "record": "factor_replay_results.json",
+      "field": "source_sha256",
+      "resolved": "source_snapshot/experiments/endpoint_selection_deepening_20261121/factor_replay.py"
+    },
+    {
+      "record": "metric_control_results.json",
+      "field": "source_sha256",
+      "resolved": "source_snapshot/experiments/endpoint_selection_deepening_20261121/metric_control.py"
+    },
+    {
+      "record": "static_weight_quartic_mixed_results.json",
+      "field": "source_sha256",
+      "resolved": "source_snapshot/experiments/endpoint_selection_deepening_20261121/static_weight_quartic_mixed.py"
+    },
+    {
+      "record": "static_weight_quartic_mixed_results.json",
+      "field": "dependency_sha256",
+      "resolved": "source_snapshot/experiments/endpoint_selection_deepening_20261121/static_weight_response.py"
+    },
+    {
+      "record": "static_weight_response_results.json",
+      "field": "source_sha256",
+      "resolved": "source_snapshot/experiments/endpoint_selection_deepening_20261121/static_weight_response.py"
+    },
+    {
+      "record": "general_geometry_certificates/general_geometry_results.json",
+      "field": "source_sha256",
+      "resolved": "source_snapshot/experiments/endpoint_selection_deepening_20261121/general_geometry_check.py"
+    },
+    {
+      "record": "general_geometry_checks/general_geometry_results.json",
+      "field": "source_sha256",
+      "resolved": "general_geometry_checks/source_v1.py"
+    }
+  ],
+  "previous_archives": [
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\learned-geometry-gate-20261121",
+      "unchanged_files": 105,
+      "manifest_sha256": "7164aede3c183ea07325b4cda8aa2a1fa8b820aee34d3782043fa4e4a5c9baf6"
+    },
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\geometry-condition-screen-20261121",
+      "unchanged_files": 32,
+      "manifest_sha256": "b03f4388c8e890343dd1b8d4a79de50a34c1739978da374fa0de5edcb6a9abaf"
+    },
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\new-direction-screen-20261121",
+      "unchanged_files": 43,
+      "manifest_sha256": "1119aeed6ad606bed615dbec134b83bba97c6d47fe038137fee5b07d7da07e1a"
+    }
+  ],
+  "broken_report_links": [],
+  "checked_utc": "2026-11-22T02:57:16.548748+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "timestamp_utc": "2026-11-21T10:19:01.030964+00:00",
+  "n_primary_models": 32,
+  "n_context_models": 16,
+  "n_model_policy_rows": 320,
+  "n_batch_audits": 81920,
+  "all_call_quota_checks_pass": true,
+  "policy_commit_sha256": "443df6a7c80a07ec839237ea45ef4a4cbfe1494e477176aef07d4bb6f0f6e29f",
+  "outcomes_sha256": "737be3ca4b7339421b11c89dde1aeb8ee4ca491dc7b17acf913d9909c60d95cc",
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\.venv\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-4e39871015dc1470c682dc512497ee22.dll",
+      "version": "0.3.34.237.2",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    }
+  ]
+}

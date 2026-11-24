@@ -1,0 +1,19 @@
+{
+  "timestamp_utc": "2026-11-21T10:22:26.509589+00:00",
+  "n_outcome_rows": 320,
+  "n_contrasts": 136,
+  "n_summary_rows": 160,
+  "maximum_outcome_error": 8.881784197001252e-16,
+  "maximum_bootstrap_error": 3.3203691532368573e-16,
+  "maximum_summary_error": 4.440892098500626e-16,
+  "all_contrast_wins_match": true,
+  "bootstrap_method": "Multiplicity-weight averages from independently reconstructed saved-prediction risks.",
+  "primary_family_size": 4,
+  "primary_interval": 0.9875,
+  "total_calibration_forwards": 4489216,
+  "total_coordinate_only_draws": 4194304,
+  "source_hash": "f4a191c076dff986a43fc0944888be526176113551944388e55bb7da7109fae9",
+  "outcome_hash": "737be3ca4b7339421b11c89dde1aeb8ee4ca491dc7b17acf913d9909c60d95cc",
+  "contrast_hash": "b5d1393f45b39f0b9dd426fec2fdbef13717d006fb869257548598654f87b98c",
+  "summary_hash": "0deb5a8160418993800da3608b5ed8540c1879726a00860d1a18917586417ac2"
+}

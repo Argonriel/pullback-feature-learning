@@ -1,0 +1,20 @@
+{
+  "purpose": "Reuse root-owned portable copies of old development tables",
+  "files": [
+    {
+      "seed": 1,
+      "path": "development/rings_1_rank.npz",
+      "sha256": "b926e8bdd8fb9caf5a9baafdf9e76f4f7dbb860dbc635b6a795630a2de244ce1"
+    },
+    {
+      "seed": 8,
+      "path": "development/rings_8_rank.npz",
+      "sha256": "3630021ecc90d1b8b0bc331a00c661465ff7d4669701363c4816caaa7b963399"
+    },
+    {
+      "seed": 16,
+      "path": "development/rings_16_rank.npz",
+      "sha256": "1a7e331aaae7d8589471b5947ff11e512e249bcadacb7737286b857a89ac7b30"
+    }
+  ]
+}

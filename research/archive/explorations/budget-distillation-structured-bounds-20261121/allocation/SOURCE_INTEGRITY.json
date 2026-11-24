@@ -1,0 +1,62 @@
+{
+  "utc": "2026-11-21T23:19:40.011315+00:00",
+  "status": "PASS",
+  "checks": [
+    {
+      "path": "source/accounting.py",
+      "snapshot_hash_ok": true,
+      "repository_bytes_match": true
+    },
+    {
+      "path": "source/model.py",
+      "snapshot_hash_ok": true,
+      "repository_bytes_match": true
+    },
+    {
+      "path": "source/preflight.py",
+      "snapshot_hash_ok": true,
+      "repository_bytes_match": true
+    },
+    {
+      "path": "source/README.md",
+      "snapshot_hash_ok": true,
+      "repository_bytes_match": true
+    },
+    {
+      "path": "source/reference/core4d.py",
+      "snapshot_hash_ok": true,
+      "repository_bytes_match": true
+    },
+    {
+      "path": "source/reference/DEVELOPMENT_STATE.npz",
+      "snapshot_hash_ok": true,
+      "repository_bytes_match": true
+    },
+    {
+      "path": "source/reference/task.py",
+      "snapshot_hash_ok": true,
+      "repository_bytes_match": true
+    },
+    {
+      "path": "source/report.py",
+      "snapshot_hash_ok": true,
+      "repository_bytes_match": true
+    },
+    {
+      "path": "source/reproduce.py",
+      "snapshot_hash_ok": true,
+      "repository_bytes_match": true
+    },
+    {
+      "path": "source/runner.py",
+      "snapshot_hash_ok": true,
+      "repository_bytes_match": true
+    },
+    {
+      "path": "source/timing.py",
+      "snapshot_hash_ok": true,
+      "repository_bytes_match": true
+    }
+  ],
+  "primary_freeze_sha256": "653a6f664bbde1081780e7fb9d0eb95fb58a522bacccaccb994754f36420d4cb"
+}

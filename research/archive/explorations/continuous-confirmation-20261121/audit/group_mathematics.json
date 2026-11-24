@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "range_min": 0.012698663046062486,
+  "range_max": 0.48504978762948536,
+  "max_sum_error": 2.220446049250313e-16,
+  "exact_64_batches": 320,
+  "max_enumerated_marginal_error": 1.1102230246251565e-16,
+  "continuous_analytic_example": {
+    "model": "h(r,phi)=1+2*r*cos(phi)",
+    "law": "R uniform [.5,1.5], angle uniform",
+    "u": "-cos(3phi)",
+    "mean_gain": 0.0511685116118823,
+    "uniform_quarter_gain": 0.049657311030917764,
+    "increment_over_uniform": 0.0015112005809645376,
+    "max_abs_conditional_b": 5.551115123125783e-17,
+    "hidden_world_gains": {
+      "constant_half": 0.0511685116118823,
+      "increasing": 0.05116851161188231,
+      "decreasing": 0.0511685116118823,
+      "step": 0.05116851161188231,
+      "oscillating": 0.0511685116118823
+    },
+    "scope": "Exact analytic existence example, separate from trained neural-network experiments."
+  }
+}

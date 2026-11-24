@@ -1,0 +1,15 @@
+{
+  "config": {
+    "b": 0.6,
+    "k": 0.2,
+    "quadrature_points": 1048576
+  },
+  "analytic_true_gain_upper": -0.006874999999999999,
+  "quadrature_true_gain": -0.006875779518487015,
+  "incorrect_family_a0_lower": 0.0006242204815129851,
+  "first_harmonic_moment": -8.326672684688674e-17,
+  "actual_tv": 0.3819718634205488,
+  "posterior_tv": 0,
+  "quota_fraction": 0.25,
+  "statement": "The first-harmonic parameter is zero; a narrow parameter CI cannot validate the one-harmonic family."
+}

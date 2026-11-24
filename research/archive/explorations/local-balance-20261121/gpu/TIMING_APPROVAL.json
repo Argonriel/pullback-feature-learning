@@ -1,0 +1,13 @@
+{
+  "timestamp_utc": "2026-11-21T09:45:13.761125+00:00",
+  "main_cpu_jobs_finished": true,
+  "complete_record_hashes": {
+    "validation/analysis_complete.json": "b31139fcd0b78fbbff3324f40eb03be0299d4efb163cf245b17a6f12e122e1cb",
+    "bounds/fresh/commit.json": "2b3784ab4e4e4335b9eab815ffbda4202e1443feb1f33f7c863a358d6e04b6a4",
+    "root_audit/certificates/summary.json": "b5e6764619cbea31898a40238f61887212d3237b4dc2c0c1a0e3fae12f8d8b92",
+    "root_audit/cpu_serving_complete.json": "1a20e2e66d6e52a201a271a81ea7eace6ae6cbe92360ece75744ff0eb9d40d8d",
+    "selection/diagnostics/COMPLETE.json": "42b7e386817070b9f4f5a6f642a5f589458b8b5ab6997b440a3624ab62421156"
+  },
+  "no_heavy_parallel_jobs": true,
+  "pending_refinement": "Further fixed-grid rank diagnostic is queued until AFTER GPU/CPU hardware timing; no refitting."
+}

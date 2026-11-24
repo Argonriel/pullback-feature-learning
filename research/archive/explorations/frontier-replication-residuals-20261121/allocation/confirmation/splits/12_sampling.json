@@ -1,0 +1,18 @@
+{
+  "phase": "confirmation",
+  "pair": 12,
+  "seed_id": 62,
+  "metadata": [
+    {
+      "proposals": 9216,
+      "proposal_batches": 1,
+      "class_counts": [
+        1152,
+        1152
+      ]
+    }
+  ],
+  "accepted_training_union": 2304,
+  "calibration_label_union": 2048,
+  "unique_fitting_label_union": 4352
+}

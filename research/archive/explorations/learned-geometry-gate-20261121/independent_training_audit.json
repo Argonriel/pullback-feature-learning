@@ -1,0 +1,715 @@
+{
+  "status": "passed with stated scope limitations",
+  "evaluation_files_read": [],
+  "archives": [
+    {
+      "folder": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\learned-geometry-gate-20261121\\discovery",
+      "hashes_checked": 12,
+      "seed_pairs_exactly_regenerated": [
+        "moons__d1",
+        "moons__d2",
+        "moons__d3",
+        "moons__d4",
+        "rings__d1",
+        "rings__d2",
+        "rings__d3",
+        "rings__d4"
+      ],
+      "state_count": 250,
+      "summary_status_counts": {
+        "complete": 52,
+        "max_steps": 12
+      },
+      "independent_forward_loss_max_error": 2.220446049250313e-16,
+      "independent_target_max_error": 9.873110662361739e-11,
+      "complex_step_initial_jacobian_max_error": 2.220446049250313e-16
+    },
+    {
+      "folder": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\learned-geometry-gate-20261121\\coverage_extension",
+      "hashes_checked": 12,
+      "seed_pairs_exactly_regenerated": [
+        "rings__d1",
+        "rings__d2",
+        "rings__d3",
+        "rings__d4"
+      ],
+      "state_count": 64,
+      "summary_status_counts": {
+        "complete": 16
+      },
+      "independent_forward_loss_max_error": 2.220446049250313e-16,
+      "independent_target_max_error": 9.795153577130122e-11,
+      "complex_step_initial_jacobian_max_error": 2.220446049250313e-16
+    }
+  ],
+  "coverage_config_changed_fields": [
+    "arms",
+    "tasks",
+    "max_steps"
+  ],
+  "exact_shared_target_and_initial_states": [
+    {
+      "arm": "tangent_gd",
+      "seed": "d1",
+      "step_size": 0.01,
+      "fraction": 1.0,
+      "step": 0
+    },
+    {
+      "arm": "tangent_gd",
+      "seed": "d1",
+      "step_size": 0.01,
+      "fraction": 0.75,
+      "step": 4067
+    },
+    {
+      "arm": "tangent_gd",
+      "seed": "d1",
+      "step_size": 0.005,
+      "fraction": 1.0,
+      "step": 0
+    },
+    {
+      "arm": "tangent_gd",
+      "seed": "d1",
+      "step_size": 0.005,
+      "fraction": 0.75,
+      "step": 4211
+    },
+    {
+      "arm": "tangent_pb",
+      "seed": "d1",
+      "step_size": 0.01,
+      "fraction": 1.0,
+      "step": 0
+    },
+    {
+      "arm": "tangent_pb",
+      "seed": "d1",
+      "step_size": 0.01,
+      "fraction": 0.75,
+      "step": 868
+    },
+    {
+      "arm": "tangent_pb",
+      "seed": "d1",
+      "step_size": 0.01,
+      "fraction": 0.5,
+      "step": 3230
+    },
+    {
+      "arm": "tangent_pb",
+      "seed": "d1",
+      "step_size": 0.005,
+      "fraction": 1.0,
+      "step": 0
+    },
+    {
+      "arm": "tangent_pb",
+      "seed": "d1",
+      "step_size": 0.005,
+      "fraction": 0.75,
+      "step": 868
+    },
+    {
+      "arm": "tangent_pb",
+      "seed": "d1",
+      "step_size": 0.005,
+      "fraction": 0.5,
+      "step": 3230
+    },
+    {
+      "arm": "tangent_gd",
+      "seed": "d2",
+      "step_size": 0.01,
+      "fraction": 1.0,
+      "step": 0
+    },
+    {
+      "arm": "tangent_gd",
+      "seed": "d2",
+      "step_size": 0.01,
+      "fraction": 0.75,
+      "step": 3072
+    },
+    {
+      "arm": "tangent_gd",
+      "seed": "d2",
+      "step_size": 0.005,
+      "fraction": 1.0,
+      "step": 0
+    },
+    {
+      "arm": "tangent_gd",
+      "seed": "d2",
+      "step_size": 0.005,
+      "fraction": 0.75,
+      "step": 3153
+    },
+    {
+      "arm": "tangent_pb",
+      "seed": "d2",
+      "step_size": 0.01,
+      "fraction": 1.0,
+      "step": 0
+    },
+    {
+      "arm": "tangent_pb",
+      "seed": "d2",
+      "step_size": 0.01,
+      "fraction": 0.75,
+      "step": 850
+    },
+    {
+      "arm": "tangent_pb",
+      "seed": "d2",
+      "step_size": 0.01,
+      "fraction": 0.5,
+      "step": 3178
+    },
+    {
+      "arm": "tangent_pb",
+      "seed": "d2",
+      "step_size": 0.005,
+      "fraction": 1.0,
+      "step": 0
+    },
+    {
+      "arm": "tangent_pb",
+      "seed": "d2",
+      "step_size": 0.005,
+      "fraction": 0.75,
+      "step": 850
+    },
+    {
+      "arm": "tangent_pb",
+      "seed": "d2",
+      "step_size": 0.005,
+      "fraction": 0.5,
+      "step": 3178
+    },
+    {
+      "arm": "tangent_gd",
+      "seed": "d3",
+      "step_size": 0.01,
+      "fraction": 1.0,
+      "step": 0
+    },
+    {
+      "arm": "tangent_gd",
+      "seed": "d3",
+      "step_size": 0.01,
+      "fraction": 0.75,
+      "step": 1021
+    },
+    {
+      "arm": "tangent_gd",
+      "seed": "d3",
+      "step_size": 0.01,
+      "fraction": 0.5,
+      "step": 3751
+    },
+    {
+      "arm": "tangent_gd",
+      "seed": "d3",
+      "step_size": 0.005,
+      "fraction": 1.0,
+      "step": 0
+    },
+    {
+      "arm": "tangent_gd",
+      "seed": "d3",
+      "step_size": 0.005,
+      "fraction": 0.75,
+      "step": 1100
+    },
+    {
+      "arm": "tangent_gd",
+      "seed": "d3",
+      "step_size": 0.005,
+      "fraction": 0.5,
+      "step": 4062
+    },
+    {
+      "arm": "tangent_pb",
+      "seed": "d3",
+      "step_size": 0.01,
+      "fraction": 1.0,
+      "step": 0
+    },
+    {
+      "arm": "tangent_pb",
+      "seed": "d3",
+      "step_size": 0.01,
+      "fraction": 0.75,
+      "step": 403
+    },
+    {
+      "arm": "tangent_pb",
+      "seed": "d3",
+      "step_size": 0.01,
+      "fraction": 0.5,
+      "step": 1548
+    },
+    {
+      "arm": "tangent_pb",
+      "seed": "d3",
+      "step_size": 0.01,
+      "fraction": 0.25,
+      "step": 4184
+    },
+    {
+      "arm": "tangent_pb",
+      "seed": "d3",
+      "step_size": 0.005,
+      "fraction": 1.0,
+      "step": 0
+    },
+    {
+      "arm": "tangent_pb",
+      "seed": "d3",
+      "step_size": 0.005,
+      "fraction": 0.75,
+      "step": 403
+    },
+    {
+      "arm": "tangent_pb",
+      "seed": "d3",
+      "step_size": 0.005,
+      "fraction": 0.5,
+      "step": 1548
+    },
+    {
+      "arm": "tangent_pb",
+      "seed": "d3",
+      "step_size": 0.005,
+      "fraction": 0.25,
+      "step": 4184
+    },
+    {
+      "arm": "tangent_gd",
+      "seed": "d4",
+      "step_size": 0.01,
+      "fraction": 1.0,
+      "step": 0
+    },
+    {
+      "arm": "tangent_gd",
+      "seed": "d4",
+      "step_size": 0.01,
+      "fraction": 0.75,
+      "step": 3120
+    },
+    {
+      "arm": "tangent_gd",
+      "seed": "d4",
+      "step_size": 0.005,
+      "fraction": 1.0,
+      "step": 0
+    },
+    {
+      "arm": "tangent_gd",
+      "seed": "d4",
+      "step_size": 0.005,
+      "fraction": 0.75,
+      "step": 3066
+    },
+    {
+      "arm": "tangent_pb",
+      "seed": "d4",
+      "step_size": 0.01,
+      "fraction": 1.0,
+      "step": 0
+    },
+    {
+      "arm": "tangent_pb",
+      "seed": "d4",
+      "step_size": 0.01,
+      "fraction": 0.75,
+      "step": 790
+    },
+    {
+      "arm": "tangent_pb",
+      "seed": "d4",
+      "step_size": 0.01,
+      "fraction": 0.5,
+      "step": 2616
+    },
+    {
+      "arm": "tangent_pb",
+      "seed": "d4",
+      "step_size": 0.01,
+      "fraction": 0.25,
+      "step": 5917
+    },
+    {
+      "arm": "tangent_pb",
+      "seed": "d4",
+      "step_size": 0.005,
+      "fraction": 1.0,
+      "step": 0
+    },
+    {
+      "arm": "tangent_pb",
+      "seed": "d4",
+      "step_size": 0.005,
+      "fraction": 0.75,
+      "step": 790
+    },
+    {
+      "arm": "tangent_pb",
+      "seed": "d4",
+      "step_size": 0.005,
+      "fraction": 0.5,
+      "step": 2616
+    },
+    {
+      "arm": "tangent_pb",
+      "seed": "d4",
+      "step_size": 0.005,
+      "fraction": 0.25,
+      "step": 5917
+    }
+  ],
+  "exact_shared_state_count": 46,
+  "representative_independent_replays": [
+    {
+      "task": "moons",
+      "seed": "d1",
+      "arm": "nonlinear_pb",
+      "step_size": 0.005,
+      "steps_replayed": 359,
+      "matched_states": [
+        {
+          "step": 87,
+          "fraction": 0.75,
+          "state_max_absolute_error": 0.0,
+          "state_exactly_equal": true
+        },
+        {
+          "step": 190,
+          "fraction": 0.5,
+          "state_max_absolute_error": 0.0,
+          "state_exactly_equal": true
+        },
+        {
+          "step": 359,
+          "fraction": 0.25,
+          "state_max_absolute_error": 0.0,
+          "state_exactly_equal": true
+        }
+      ],
+      "max_parameter_error": 0.0,
+      "max_train_loss_error": 0.0,
+      "max_parameter_step": 0.07613729680048978,
+      "max_taylor_ratio": 0.04957677566820646,
+      "max_predicted_logit_rms": 0.005000000000000001,
+      "parameter_cap_active_before_backtracking_steps": 0,
+      "parameter_cap_active_fraction": 0.0,
+      "backtracks": 13,
+      "complex_step_nonlinear_jacobian_error": 2.220446049250313e-16,
+      "independence_limit": "Native Jacobian reused; checked separately by complex-step differentiation. No runner imported."
+    },
+    {
+      "task": "moons",
+      "seed": "d1",
+      "arm": "tangent_pb",
+      "step_size": 0.005,
+      "steps_replayed": 2272,
+      "matched_states": [
+        {
+          "step": 101,
+          "fraction": 0.75,
+          "state_max_absolute_error": 0.0,
+          "state_exactly_equal": true
+        },
+        {
+          "step": 308,
+          "fraction": 0.5,
+          "state_max_absolute_error": 0.0,
+          "state_exactly_equal": true
+        },
+        {
+          "step": 2272,
+          "fraction": 0.25,
+          "state_max_absolute_error": 0.0,
+          "state_exactly_equal": true
+        }
+      ],
+      "max_parameter_error": 0.0,
+      "max_train_loss_error": 0.0,
+      "max_parameter_step": 0.10000000000000002,
+      "max_taylor_ratio": 4.395629298545919e-11,
+      "max_predicted_logit_rms": 0.005000000000000001,
+      "parameter_cap_active_before_backtracking_steps": 2020,
+      "parameter_cap_active_fraction": 0.8890845070422535,
+      "backtracks": 0,
+      "complex_step_nonlinear_jacobian_error": 0.0,
+      "independence_limit": "Native Jacobian reused; checked separately by complex-step differentiation. No runner imported."
+    },
+    {
+      "task": "rings",
+      "seed": "d1",
+      "arm": "nonlinear_pb",
+      "step_size": 0.005,
+      "steps_replayed": 381,
+      "matched_states": [
+        {
+          "step": 115,
+          "fraction": 0.75,
+          "state_max_absolute_error": 0.0,
+          "state_exactly_equal": true
+        },
+        {
+          "step": 220,
+          "fraction": 0.5,
+          "state_max_absolute_error": 0.0,
+          "state_exactly_equal": true
+        },
+        {
+          "step": 381,
+          "fraction": 0.25,
+          "state_max_absolute_error": 0.0,
+          "state_exactly_equal": true
+        }
+      ],
+      "max_parameter_error": 0.0,
+      "max_train_loss_error": 0.0,
+      "max_parameter_step": 0.07404638119328123,
+      "max_taylor_ratio": 0.04925222121160997,
+      "max_predicted_logit_rms": 0.005000000000000001,
+      "parameter_cap_active_before_backtracking_steps": 34,
+      "parameter_cap_active_fraction": 0.08923884514435695,
+      "backtracks": 77,
+      "complex_step_nonlinear_jacobian_error": 2.220446049250313e-16,
+      "independence_limit": "Native Jacobian reused; checked separately by complex-step differentiation. No runner imported."
+    },
+    {
+      "task": "rings",
+      "seed": "d1",
+      "arm": "tangent_pb",
+      "step_size": 0.005,
+      "steps_replayed": 7556,
+      "matched_states": [
+        {
+          "step": 868,
+          "fraction": 0.75,
+          "state_max_absolute_error": 0.0,
+          "state_exactly_equal": true
+        },
+        {
+          "step": 3230,
+          "fraction": 0.5,
+          "state_max_absolute_error": 0.0,
+          "state_exactly_equal": true
+        },
+        {
+          "step": 7556,
+          "fraction": 0.25,
+          "state_max_absolute_error": 0.0,
+          "state_exactly_equal": true
+        }
+      ],
+      "max_parameter_error": 0.0,
+      "max_train_loss_error": 0.0,
+      "max_parameter_step": 0.10000000000000002,
+      "max_taylor_ratio": 3.1884833883438583e-11,
+      "max_predicted_logit_rms": 0.0044508520946105025,
+      "parameter_cap_active_before_backtracking_steps": 7556,
+      "parameter_cap_active_fraction": 1.0,
+      "backtracks": 0,
+      "complex_step_nonlinear_jacobian_error": 0.0,
+      "independence_limit": "Native Jacobian reused; checked separately by complex-step differentiation. No runner imported."
+    }
+  ],
+  "identical_nominal_refinement_targets": [
+    {
+      "archive": "discovery",
+      "task": "rings",
+      "seed": "d1",
+      "arm": "tangent_pb",
+      "fraction": 0.75,
+      "identical_state_despite_nominal_step_halving": true
+    },
+    {
+      "archive": "discovery",
+      "task": "rings",
+      "seed": "d1",
+      "arm": "tangent_pb",
+      "fraction": 0.5,
+      "identical_state_despite_nominal_step_halving": true
+    },
+    {
+      "archive": "discovery",
+      "task": "rings",
+      "seed": "d2",
+      "arm": "tangent_pb",
+      "fraction": 0.75,
+      "identical_state_despite_nominal_step_halving": true
+    },
+    {
+      "archive": "discovery",
+      "task": "rings",
+      "seed": "d2",
+      "arm": "tangent_pb",
+      "fraction": 0.5,
+      "identical_state_despite_nominal_step_halving": true
+    },
+    {
+      "archive": "discovery",
+      "task": "rings",
+      "seed": "d3",
+      "arm": "tangent_pb",
+      "fraction": 0.75,
+      "identical_state_despite_nominal_step_halving": true
+    },
+    {
+      "archive": "discovery",
+      "task": "rings",
+      "seed": "d3",
+      "arm": "tangent_pb",
+      "fraction": 0.5,
+      "identical_state_despite_nominal_step_halving": true
+    },
+    {
+      "archive": "discovery",
+      "task": "rings",
+      "seed": "d3",
+      "arm": "tangent_pb",
+      "fraction": 0.25,
+      "identical_state_despite_nominal_step_halving": true
+    },
+    {
+      "archive": "discovery",
+      "task": "rings",
+      "seed": "d4",
+      "arm": "tangent_pb",
+      "fraction": 0.75,
+      "identical_state_despite_nominal_step_halving": true
+    },
+    {
+      "archive": "discovery",
+      "task": "rings",
+      "seed": "d4",
+      "arm": "tangent_pb",
+      "fraction": 0.5,
+      "identical_state_despite_nominal_step_halving": true
+    },
+    {
+      "archive": "discovery",
+      "task": "rings",
+      "seed": "d4",
+      "arm": "tangent_pb",
+      "fraction": 0.25,
+      "identical_state_despite_nominal_step_halving": true
+    },
+    {
+      "archive": "coverage_extension",
+      "task": "rings",
+      "seed": "d1",
+      "arm": "tangent_pb",
+      "fraction": 0.75,
+      "identical_state_despite_nominal_step_halving": true
+    },
+    {
+      "archive": "coverage_extension",
+      "task": "rings",
+      "seed": "d1",
+      "arm": "tangent_pb",
+      "fraction": 0.5,
+      "identical_state_despite_nominal_step_halving": true
+    },
+    {
+      "archive": "coverage_extension",
+      "task": "rings",
+      "seed": "d1",
+      "arm": "tangent_pb",
+      "fraction": 0.25,
+      "identical_state_despite_nominal_step_halving": true
+    },
+    {
+      "archive": "coverage_extension",
+      "task": "rings",
+      "seed": "d2",
+      "arm": "tangent_pb",
+      "fraction": 0.75,
+      "identical_state_despite_nominal_step_halving": true
+    },
+    {
+      "archive": "coverage_extension",
+      "task": "rings",
+      "seed": "d2",
+      "arm": "tangent_pb",
+      "fraction": 0.5,
+      "identical_state_despite_nominal_step_halving": true
+    },
+    {
+      "archive": "coverage_extension",
+      "task": "rings",
+      "seed": "d2",
+      "arm": "tangent_pb",
+      "fraction": 0.25,
+      "identical_state_despite_nominal_step_halving": true
+    },
+    {
+      "archive": "coverage_extension",
+      "task": "rings",
+      "seed": "d3",
+      "arm": "tangent_pb",
+      "fraction": 0.75,
+      "identical_state_despite_nominal_step_halving": true
+    },
+    {
+      "archive": "coverage_extension",
+      "task": "rings",
+      "seed": "d3",
+      "arm": "tangent_pb",
+      "fraction": 0.5,
+      "identical_state_despite_nominal_step_halving": true
+    },
+    {
+      "archive": "coverage_extension",
+      "task": "rings",
+      "seed": "d3",
+      "arm": "tangent_pb",
+      "fraction": 0.25,
+      "identical_state_despite_nominal_step_halving": true
+    },
+    {
+      "archive": "coverage_extension",
+      "task": "rings",
+      "seed": "d4",
+      "arm": "tangent_pb",
+      "fraction": 0.75,
+      "identical_state_despite_nominal_step_halving": true
+    },
+    {
+      "archive": "coverage_extension",
+      "task": "rings",
+      "seed": "d4",
+      "arm": "tangent_pb",
+      "fraction": 0.5,
+      "identical_state_despite_nominal_step_halving": true
+    },
+    {
+      "archive": "coverage_extension",
+      "task": "rings",
+      "seed": "d4",
+      "arm": "tangent_pb",
+      "fraction": 0.25,
+      "identical_state_despite_nominal_step_halving": true
+    }
+  ],
+  "caveats": [
+    "No held-out or population result is audited or inferred here.",
+    "The original 6000-step gate retains its censored outcomes. The 60000-step extension is supplemental, as declared.",
+    "Halving the logit-RMS target need not halve actual steps when the shared parameter cap dominates. Identical states are not independent flow-convergence evidence.",
+    "All saved states receive independent forward/loss checks; only four representative full trajectories receive step-by-step acceptance replay.",
+    "The native Jacobian is reused for replay but checked against independent complex-step derivatives at all initial datasets and representative nonlinear states.",
+    "The 1e-12 Taylor acceptance allowance means a recorded ratio can slightly exceed the nominal 0.05 threshold at extremely small steps; audit evaluates the actual additive condition.",
+    "Matched scalar training loss does not establish identical predictive paths or isolate metric adaptation; the planned fixed-metric intervention remains necessary.",
+    "The shared controller includes full Jacobian work and diagnostic searches, so these timings cannot fairly rank production GD versus PB costs."
+  ],
+  "audit_source_sha256": "d210bda62493052184323b2079a5f01e424a53d2516ec97ff9bb3b7481335c8d",
+  "elapsed_seconds": 3.081185299990466
+}

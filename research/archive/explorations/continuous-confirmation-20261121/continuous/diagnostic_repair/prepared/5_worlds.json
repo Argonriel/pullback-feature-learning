@@ -1,0 +1,98 @@
+[
+  {
+    "name": "balanced_unrestricted_min",
+    "field": "balanced",
+    "threshold": 0.0,
+    "high": true,
+    "atom_probability": 0.0,
+    "target_prevalence": -1.0
+  },
+  {
+    "name": "balanced_unrestricted_max",
+    "field": "balanced",
+    "threshold": 0.0,
+    "high": false,
+    "atom_probability": 0.0,
+    "target_prevalence": -1.0
+  },
+  {
+    "name": "balanced_prevalence_half_min",
+    "field": "balanced",
+    "threshold": 0.0,
+    "high": true,
+    "atom_probability": 0.40197655998338916,
+    "target_prevalence": 0.5
+  },
+  {
+    "name": "balanced_prevalence_half_max",
+    "field": "balanced",
+    "threshold": 0.0,
+    "high": false,
+    "atom_probability": 0.5980234400166109,
+    "target_prevalence": 0.5
+  },
+  {
+    "name": "unbalanced_unrestricted_min",
+    "field": "unbalanced",
+    "threshold": 0.0,
+    "high": true,
+    "atom_probability": 0.0,
+    "target_prevalence": -1.0
+  },
+  {
+    "name": "unbalanced_unrestricted_max",
+    "field": "unbalanced",
+    "threshold": 0.0,
+    "high": false,
+    "atom_probability": 0.0,
+    "target_prevalence": -1.0
+  },
+  {
+    "name": "unbalanced_prevalence_half_min",
+    "field": "unbalanced",
+    "threshold": 0.008548017703985701,
+    "high": true,
+    "atom_probability": 0.0,
+    "target_prevalence": 0.5
+  },
+  {
+    "name": "unbalanced_prevalence_half_max",
+    "field": "unbalanced",
+    "threshold": 0.008548017703985701,
+    "high": false,
+    "atom_probability": 1.0,
+    "target_prevalence": 0.5
+  },
+  {
+    "name": "even_unrestricted_min",
+    "field": "even",
+    "threshold": 0.0,
+    "high": true,
+    "atom_probability": 0.0,
+    "target_prevalence": -1.0
+  },
+  {
+    "name": "even_unrestricted_max",
+    "field": "even",
+    "threshold": 0.0,
+    "high": false,
+    "atom_probability": 0.0,
+    "target_prevalence": -1.0
+  },
+  {
+    "name": "even_prevalence_half_min",
+    "field": "even",
+    "threshold": 0.0,
+    "high": true,
+    "atom_probability": 0.5,
+    "target_prevalence": 0.5
+  },
+  {
+    "name": "even_prevalence_half_max",
+    "field": "even",
+    "threshold": 0.0,
+    "high": false,
+    "atom_probability": 0.5,
+    "target_prevalence": 0.5
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "cohort": "rings",
+  "seed": 8,
+  "radial_probes": 37,
+  "angular_nodes": 16384,
+  "orbit_enclosure_failures": 0,
+  "max_orbit_subsample_difference": 3.1145455394732124e-05,
+  "min_orbit_margin": 0.0,
+  "max_partner_roll_error": 2.7977620220553945e-14,
+  "jet_probes": 800,
+  "jet_violations": 0,
+  "cdf_violation": 0.0,
+  "cdf_fast_vs_split_max": 3.8608730545952596e-08,
+  "q_interval_violation": 0.0,
+  "W_interval_violation": 0.0,
+  "outside_W_nonnegative": true,
+  "model_forward_examples": 607316,
+  "analytic_jet_propagations": 320,
+  "independent_exact_CDF_queries": 2321,
+  "seconds": 45.45183420000831
+}

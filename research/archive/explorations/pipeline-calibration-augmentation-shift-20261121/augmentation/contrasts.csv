@@ -1,0 +1,21 @@
+dataset,contrast,metric,mean,lower,upper,nominal_interval,primary,estimand
+holdout,augmentation_raw,ce,0.0009092222571931641,-0.003505788386808099,0.00514826830625895,0.9875,True,image resampling conditional on these six fitted models
+holdout,augmentation_raw,error,0.0002666666666666665,-0.002633333333333333,0.003233333333333333,0.9875,True,image resampling conditional on these six fitted models
+holdout,augmented_full_vs_raw,ce,-0.006484300594115204,-0.008070264075893454,-0.004850958158575281,0.9875,True,image resampling conditional on these six fitted models
+holdout,augmented_full_vs_raw,error,-0.0027999999999999995,-0.004700000000000001,-0.0009333333333333333,0.9875,True,image resampling conditional on these six fitted models
+holdout,noaug_full_vs_raw,ce,0.2597518803895623,0.24664921573244736,0.27294643815890657,0.95,False,image resampling conditional on these six fitted models
+holdout,noaug_full_vs_raw,error,0.0887,0.08346666666666666,0.09386666666666665,0.95,False,image resampling conditional on these six fitted models
+holdout,aug_full_own_vs_raw_temperature,ce,1.2927791222328644e-05,-0.0001268509978625498,0.0001548700285442618,0.95,False,image resampling conditional on these six fitted models
+holdout,aug_full_own_vs_raw_temperature,error,0.0,0.0,0.0,0.95,False,image resampling conditional on these six fitted models
+holdout,noaug_full_own_vs_raw_temperature,ce,-0.038544655854445886,-0.04263648386538995,-0.034432010520186976,0.95,False,image resampling conditional on these six fitted models
+holdout,noaug_full_own_vs_raw_temperature,error,0.0,0.0,0.0,0.95,False,image resampling conditional on these six fitted models
+official_test,augmentation_raw,ce,0.006608251160153227,0.0027873325839174947,0.010455397940680377,0.95,False,image resampling conditional on these six fitted models
+official_test,augmentation_raw,error,0.0014666666666666665,-0.001,0.0038333333333333327,0.95,False,image resampling conditional on these six fitted models
+official_test,augmented_full_vs_raw,ce,-0.007597683978777228,-0.00896917645918702,-0.006158394941115637,0.95,False,image resampling conditional on these six fitted models
+official_test,augmented_full_vs_raw,error,-0.0023,-0.0038333333333333327,-0.0008,0.95,False,image resampling conditional on these six fitted models
+official_test,noaug_full_vs_raw,ce,0.25975519436305766,0.24643152204509916,0.2732721162010432,0.95,False,image resampling conditional on these six fitted models
+official_test,noaug_full_vs_raw,error,0.08936666666666666,0.08413333333333335,0.0948,0.95,False,image resampling conditional on these six fitted models
+official_test,aug_full_own_vs_raw_temperature,ce,0.0002600182599700111,0.00010844101468537313,0.00041425970137678406,0.95,False,image resampling conditional on these six fitted models
+official_test,aug_full_own_vs_raw_temperature,error,0.0,0.0,0.0,0.95,False,image resampling conditional on these six fitted models
+official_test,noaug_full_own_vs_raw_temperature,ce,-0.042443528062008344,-0.04672216275826078,-0.03829104816852151,0.95,False,image resampling conditional on these six fitted models
+official_test,noaug_full_own_vs_raw_temperature,error,0.0,0.0,0.0,0.95,False,image resampling conditional on these six fitted models

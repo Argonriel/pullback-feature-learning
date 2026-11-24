@@ -1,0 +1,6 @@
+{
+  "timestamp_utc": "2026-11-21T09:36:37.228055+00:00",
+  "code_sha256": "53c09f77757c486acd06138fa1a806d00e2bf3e7ef8ac30c35ed46f69fde4d8b",
+  "design": "On the SAME frozen antithetic observations: local empirical Bernstein (primary), global empirical Bernstein (bound attribution), local Hoeffding (concentration attribution). Controls are descriptive. No new forward calls.",
+  "fresh_models_opened": false
+}

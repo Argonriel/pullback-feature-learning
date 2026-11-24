@@ -1,0 +1,457 @@
+{
+  "aggregate_complete": true,
+  "budgets": {
+    "0.25": {
+      "methods": {
+        "gd": {
+          "train_loss": {
+            "mean": 0.365684510906462,
+            "sample_sd": 0.014754875503676143
+          },
+          "train_accuracy": {
+            "mean": 0.8385416666666666,
+            "sample_sd": 0.025113673856752484
+          },
+          "test_loss": {
+            "mean": 0.36548837485596125,
+            "sample_sd": 0.010425179523363495
+          },
+          "test_accuracy": {
+            "mean": 0.8325,
+            "sample_sd": 0.02089856454400633
+          },
+          "step": {
+            "mean": 87.0,
+            "sample_sd": 7.211102550927978
+          },
+          "cumulative_feature_displacement": {
+            "mean": 0.9493004037426584,
+            "sample_sd": 0.0047497978356770484
+          },
+          "target_minus_displacement": {
+            "mean": 0.0032163763872459596,
+            "sample_sd": 0.0020858181063592583
+          },
+          "maximum_unused_budget": 0.005409324784109493
+        },
+        "pullback": {
+          "train_loss": {
+            "mean": 0.2621363159477216,
+            "sample_sd": 0.0018405402423150715
+          },
+          "train_accuracy": {
+            "mean": 0.9830729166666666,
+            "sample_sd": 0.002255274489021976
+          },
+          "test_loss": {
+            "mean": 0.26480225557288123,
+            "sample_sd": 0.009858753847868636
+          },
+          "test_accuracy": {
+            "mean": 0.9803333333333334,
+            "sample_sd": 0.005795112883571267
+          },
+          "step": {
+            "mean": 102.0,
+            "sample_sd": 1.7320508075688772
+          },
+          "cumulative_feature_displacement": {
+            "mean": 0.946221452382912,
+            "sample_sd": 0.0036222440024750438
+          },
+          "target_minus_displacement": {
+            "mean": 0.006295327746992411,
+            "sample_sd": 0.0007688443406027215
+          },
+          "maximum_unused_budget": 0.006996851477312882
+        }
+      },
+      "paired_differences": {
+        "train_loss": {
+          "definition": "pullback minus GD",
+          "seed_order": [
+            "formal1",
+            "formal2",
+            "formal3"
+          ],
+          "values": [
+            -0.10808533740124815,
+            -0.1142054286504035,
+            -0.08835381882456966
+          ],
+          "mean": -0.10354819495874044,
+          "sample_sd": 0.013509836372232301
+        },
+        "test_loss": {
+          "definition": "pullback minus GD",
+          "seed_order": [
+            "formal1",
+            "formal2",
+            "formal3"
+          ],
+          "values": [
+            -0.10284775132471774,
+            -0.11710714801706357,
+            -0.08210345850745904
+          ],
+          "mean": -0.10068611928308012,
+          "sample_sd": 0.017601677750537743
+        },
+        "test_accuracy": {
+          "definition": "pullback minus GD",
+          "seed_order": [
+            "formal1",
+            "formal2",
+            "formal3"
+          ],
+          "values": [
+            0.14,
+            0.1775,
+            0.126
+          ],
+          "mean": 0.14783333333333334,
+          "sample_sd": 0.02662861868992331
+        }
+      }
+    },
+    "0.5": {
+      "methods": {
+        "gd": {
+          "train_loss": {
+            "mean": 0.2764832931434145,
+            "sample_sd": 0.02313942080427328
+          },
+          "train_accuracy": {
+            "mean": 0.8802083333333334,
+            "sample_sd": 0.012556836928376244
+          },
+          "test_loss": {
+            "mean": 0.27447718507393565,
+            "sample_sd": 0.005292242889901332
+          },
+          "test_accuracy": {
+            "mean": 0.8808333333333334,
+            "sample_sd": 0.004804511768466554
+          },
+          "step": {
+            "mean": 226.0,
+            "sample_sd": 52.716221412388805
+          },
+          "cumulative_feature_displacement": {
+            "mean": 1.9037446565787757,
+            "sample_sd": 0.009440604754196887
+          },
+          "target_minus_displacement": {
+            "mean": 0.0012889036810330712,
+            "sample_sd": 0.0012383732901600926
+          },
+          "maximum_unused_budget": 0.0026087855162457707
+        },
+        "pullback": {
+          "train_loss": {
+            "mean": 0.10805481166079371,
+            "sample_sd": 0.0005324472190903641
+          },
+          "train_accuracy": {
+            "mean": 0.9973958333333334,
+            "sample_sd": 0.002255274489021976
+          },
+          "test_loss": {
+            "mean": 0.12303529486639604,
+            "sample_sd": 0.006546658014380399
+          },
+          "test_accuracy": {
+            "mean": 0.9876666666666667,
+            "sample_sd": 0.004645786621588757
+          },
+          "step": {
+            "mean": 305.3333333333333,
+            "sample_sd": 2.309401076758503
+          },
+          "cumulative_feature_displacement": {
+            "mean": 1.9031124379439177,
+            "sample_sd": 0.009764317591296201
+          },
+          "target_minus_displacement": {
+            "mean": 0.0019211223158910329,
+            "sample_sd": 0.0014108528671883576
+          },
+          "maximum_unused_budget": 0.0032090250038436796
+        }
+      },
+      "paired_differences": {
+        "train_loss": {
+          "definition": "pullback minus GD",
+          "seed_order": [
+            "formal1",
+            "formal2",
+            "formal3"
+          ],
+          "values": [
+            -0.1859706653453836,
+            -0.17659590094736152,
+            -0.14271887815511738
+          ],
+          "mean": -0.16842848148262082,
+          "sample_sd": 0.022753226789244373
+        },
+        "test_loss": {
+          "definition": "pullback minus GD",
+          "seed_order": [
+            "formal1",
+            "formal2",
+            "formal3"
+          ],
+          "values": [
+            -0.15142811239015186,
+            -0.16192559202327236,
+            -0.14097196620919467
+          ],
+          "mean": -0.15144189020753965,
+          "sample_sd": 0.010476819701621518
+        },
+        "test_accuracy": {
+          "definition": "pullback minus GD",
+          "seed_order": [
+            "formal1",
+            "formal2",
+            "formal3"
+          ],
+          "values": [
+            0.10450000000000004,
+            0.11650000000000005,
+            0.09950000000000003
+          ],
+          "mean": 0.10683333333333338,
+          "sample_sd": 0.008736894948054113
+        }
+      }
+    },
+    "0.75": {
+      "methods": {
+        "gd": {
+          "train_loss": {
+            "mean": 0.18885916101866854,
+            "sample_sd": 0.012083379700119466
+          },
+          "train_accuracy": {
+            "mean": 0.921875,
+            "sample_sd": 0.00390625
+          },
+          "test_loss": {
+            "mean": 0.19280005253370172,
+            "sample_sd": 0.01669910183855006
+          },
+          "test_accuracy": {
+            "mean": 0.9258333333333333,
+            "sample_sd": 0.008251262529657745
+          },
+          "step": {
+            "mean": 499.3333333333333,
+            "sample_sd": 131.00127225845304
+          },
+          "cumulative_feature_displacement": {
+            "mean": 2.855188643184185,
+            "sample_sd": 0.012482019802506326
+          },
+          "target_minus_displacement": {
+            "mean": 0.002361697205528331,
+            "sample_sd": 0.0015790757362400731
+          },
+          "maximum_unused_budget": 0.003804431862713731
+        },
+        "pullback": {
+          "train_loss": {
+            "mean": 0.04255805054787637,
+            "sample_sd": 0.0009894664720402654
+          },
+          "train_accuracy": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "test_loss": {
+            "mean": 0.08334986972855525,
+            "sample_sd": 0.00783421545496735
+          },
+          "test_accuracy": {
+            "mean": 0.9831666666666666,
+            "sample_sd": 0.0037859388972001857
+          },
+          "step": {
+            "mean": 788.0,
+            "sample_sd": 10.44030650891055
+          },
+          "cumulative_feature_displacement": {
+            "mean": 2.85670196721416,
+            "sample_sd": 0.013290049042298463
+          },
+          "target_minus_displacement": {
+            "mean": 0.0008483731755532334,
+            "sample_sd": 0.0005766734982195211
+          },
+          "maximum_unused_budget": 0.0012755522969256639
+        }
+      },
+      "paired_differences": {
+        "train_loss": {
+          "definition": "pullback minus GD",
+          "seed_order": [
+            "formal1",
+            "formal2",
+            "formal3"
+          ],
+          "values": [
+            -0.14573097914488864,
+            -0.15777248928511536,
+            -0.13539986298237255
+          ],
+          "mean": -0.14630111047079217,
+          "sample_sd": 0.011197204526895418
+        },
+        "test_loss": {
+          "definition": "pullback minus GD",
+          "seed_order": [
+            "formal1",
+            "formal2",
+            "formal3"
+          ],
+          "values": [
+            -0.08943133270920668,
+            -0.12239335376261191,
+            -0.11652586194362084
+          ],
+          "mean": -0.10945018280514647,
+          "sample_sd": 0.017583305560510045
+        },
+        "test_accuracy": {
+          "definition": "pullback minus GD",
+          "seed_order": [
+            "formal1",
+            "formal2",
+            "formal3"
+          ],
+          "values": [
+            0.04749999999999999,
+            0.0615,
+            0.06300000000000006
+          ],
+          "mean": 0.05733333333333335,
+          "sample_sd": 0.008548879068821466
+        }
+      }
+    },
+    "1.0": {
+      "methods": {
+        "gd": {
+          "train_loss": {
+            "mean": 0.09236602530193676,
+            "sample_sd": 0.005167197794422381
+          },
+          "train_accuracy": {
+            "mean": 0.9765625,
+            "sample_sd": 0.00390625
+          },
+          "test_loss": {
+            "mean": 0.10222998255449615,
+            "sample_sd": 0.017586849695902303
+          },
+          "test_accuracy": {
+            "mean": 0.9696666666666666,
+            "sample_sd": 0.010004165798972621
+          },
+          "step": {
+            "mean": 725.6666666666666,
+            "sample_sd": 122.32879192297017
+          },
+          "cumulative_feature_displacement": {
+            "mean": 3.8079430672721624,
+            "sample_sd": 0.01749591902511425
+          },
+          "target_minus_displacement": {
+            "mean": 0.0021240532474557186,
+            "sample_sd": 0.0019092418248827655
+          },
+          "maximum_unused_budget": 0.0041652579465085715
+        },
+        "pullback": {
+          "train_loss": {
+            "mean": 0.01638151266510898,
+            "sample_sd": 8.834470577264083e-05
+          },
+          "train_accuracy": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "test_loss": {
+            "mean": 0.07985432869961277,
+            "sample_sd": 0.008172342656208207
+          },
+          "test_accuracy": {
+            "mean": 0.9821666666666666,
+            "sample_sd": 0.0032532035493238872
+          },
+          "step": {
+            "mean": 2000.0,
+            "sample_sd": 0.0
+          },
+          "cumulative_feature_displacement": {
+            "mean": 3.810067120519618,
+            "sample_sd": 0.01697570827919123
+          },
+          "target_minus_displacement": {
+            "mean": 0.0,
+            "sample_sd": 0.0
+          },
+          "maximum_unused_budget": 0.0
+        }
+      },
+      "paired_differences": {
+        "train_loss": {
+          "definition": "pullback minus GD",
+          "seed_order": [
+            "formal1",
+            "formal2",
+            "formal3"
+          ],
+          "values": [
+            -0.07709155766279518,
+            -0.08044790892541064,
+            -0.0704140713222775
+          ],
+          "mean": -0.07598451263682778,
+          "sample_sd": 0.005107703571924617
+        },
+        "test_loss": {
+          "definition": "pullback minus GD",
+          "seed_order": [
+            "formal1",
+            "formal2",
+            "formal3"
+          ],
+          "values": [
+            -0.008355041586333767,
+            -0.02730701778839538,
+            -0.031464902189921
+          ],
+          "mean": -0.02237565385488338,
+          "sample_sd": 0.012318895119403586
+        },
+        "test_accuracy": {
+          "definition": "pullback minus GD",
+          "seed_order": [
+            "formal1",
+            "formal2",
+            "formal3"
+          ],
+          "values": [
+            0.0024999999999999467,
+            0.01550000000000007,
+            0.019499999999999962
+          ],
+          "mean": 0.012499999999999992,
+          "sample_sd": 0.008888194417315616
+        }
+      }
+    }
+  }
+}

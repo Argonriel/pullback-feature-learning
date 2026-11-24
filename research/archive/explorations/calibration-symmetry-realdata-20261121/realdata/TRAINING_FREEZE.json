@@ -1,0 +1,37 @@
+{
+  "utc": "2026-11-21T22:16:43.626379+00:00",
+  "config": {
+    "seeds": [
+      1,
+      2,
+      3
+    ],
+    "init_base": 2132000,
+    "order_base": 2133000,
+    "split_seed": 2131000,
+    "epochs": 12,
+    "validation_epochs": [
+      3,
+      6,
+      9,
+      12
+    ],
+    "batch": 256,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "augmentation": false,
+    "dtype": "float32",
+    "tf32": false,
+    "temperature_min": 0.25,
+    "temperature_max": 4.0,
+    "temperature_iterations": 80
+  },
+  "source_hashes": {
+    "data.py": "2434b9fa05dbf959fade93d1bbe0dbbf7691c59d2d96bff332becbb794ca55e9",
+    "model.py": "a035171d142946a624c113bee91baf39300713af75d12cf6edea6ec28fe2b1d4",
+    "train.py": "67016e62f86ffa85f52870f1ed2bc3a3c394304bfaaec931b275a6cb2d049c1c",
+    "TRAINING_PROTOCOL.md": "c5dc29fcda9965bfa21427a7a74d0c9a6e0996794f7ce3ff979aa98db9a909a5"
+  },
+  "test_accessed": false
+}

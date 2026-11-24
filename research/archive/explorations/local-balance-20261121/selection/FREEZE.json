@@ -1,0 +1,44 @@
+{
+  "timestamp_utc": "2026-11-21T09:38:35.525441+00:00",
+  "policies": [
+    "rank_balanced",
+    "rank_even",
+    "rank_unbalanced"
+  ],
+  "tau": 1.0,
+  "source_sha256": "9f6e3e96a85fa62657ec1430aececc846cffa3ce338786356d514d942d00ae31",
+  "file_sha256": {
+    "policy.py": "9f6e3e96a85fa62657ec1430aececc846cffa3ce338786356d514d942d00ae31",
+    "develop.py": "bbc79b7fc15a76c55a5779516cb3a25beece987d09a4e30ffcbbe261544f1036",
+    "checks.py": "eeb88a832b0e8c682c758a685bb6431065076cf9887c57664d28cb0571b6853c",
+    "THEORY.md": "8adf68120bc9e76612e7f02c92c678d3fb1439b6a093382725f2962d175a2a79",
+    "PROTOCOL.md": "7c0eea1ccea7aa0e68ddd3d51fbfe3765f669cdba4c6b8ff20395cc5fd5a6519",
+    "FROZEN_CHOICE.json": "e2178a83ee0ddf2fa0ec41bd72c3f05948297e14327ebe45e66de908dd902dbf",
+    "FROZEN_CHOICE_v1.json": "ccdb6a131b8a6ce8f6596949b46775689fa01fe3d623c6eba28f617972d777b3",
+    "FROZEN_CHOICE_v2.json": "e2178a83ee0ddf2fa0ec41bd72c3f05948297e14327ebe45e66de908dd902dbf",
+    "AMENDMENT_v2.json": "5552aab9318ccf74bf57cae5699213f30d5c7ea0bb4f52d8de8c9ad0c906310f",
+    "development_v2/scores.csv": "2b58f3c2a6a0cd97604307c146d567ad0669761da63e5d2515e06c4855998ca1",
+    "development_v2/checks.csv": "862075d95c0f6b894d1c8b9d03dc16ab91fbf24bc3ce89b4fa2281daca5f56da",
+    "development_v2/model_manifest.csv": "c578dd7466b6ce8138a2efca4daf29b44e75315cb3cd2d4545a15792f876c13b",
+    "development/models.npz": "046035c01d35867da755b6f8ae94876bb879c3d6e763966cd21fb1631ebca87d",
+    "numerical_checks/summary.json": "4653158ebcdf2faf802de44b0cc798c8dd720767592546b26b6408c33b847259",
+    "numerical_checks/direct_fft.csv": "a5440f220d422b15b98d9a449d732a9915106c807bfdbef0b15d7f63e7346074"
+  },
+  "old_models": 64,
+  "old_tau_candidates": [
+    0.25,
+    1.0,
+    4.0
+  ],
+  "new_model_states_accessed": false,
+  "new_outcomes_accessed": false,
+  "calibration_forward_examples": 66048,
+  "calibration_coordinate_draws": 131072,
+  "quota": [
+    256,
+    64
+  ],
+  "selection_criterion": "old held-out input-only centered logistic gain",
+  "independent_checks": "root_audit/rank_independent/review_v2.json and selection/numerical_checks/summary.json",
+  "scope": "Algorithm frozen; postfreeze reports and independent validation may be added without changing policy, tau, or protocol."
+}

@@ -1,0 +1,74 @@
+{
+  "name": "Independent label-free two-view rotation choice",
+  "pairs": 16,
+  "train_seed_base": 611000,
+  "init_seed_base": 612000,
+  "cal_seed_base": 613000,
+  "test_seed_base": 614000,
+  "calibration_radii": 512,
+  "calibration_angles": 128,
+  "radial_bins": 8,
+  "truncations": [
+    4,
+    8,
+    16,
+    64
+  ],
+  "main_policies": [
+    "pi",
+    "random_alpha",
+    "fourier_K8_global",
+    "exact_global",
+    "exact_radial"
+  ],
+  "secondary_policies": [
+    "fourier_K4_global",
+    "fourier_K16_global",
+    "fourier_K64_global",
+    "energy_K8_global",
+    "fourier_K8_radial"
+  ],
+  "training": {
+    "gd": {
+      "steps": 500,
+      "rate": 0.5
+    },
+    "pb": {
+      "steps": 500,
+      "rate": 8,
+      "damping": 0.1
+    },
+    "hybrid": {
+      "pullback_steps": 100,
+      "pullback_rate": 8,
+      "gd_steps": 400,
+      "gd_rate": 2
+    }
+  },
+  "evaluation": {
+    "radial_gauss_nodes_per_interval": [
+      32,
+      64
+    ],
+    "angles": [
+      512,
+      1024
+    ],
+    "atol": 2e-07,
+    "rtol": 2e-06,
+    "r_max": 3,
+    "random_alpha": "uniform on 128 rotations",
+    "independent_iid_inputs": 32768,
+    "iid_draws": "fresh inputs and Bernoulli labels; posterior expected risk also reported"
+  },
+  "selections": "All calibration policies/states are saved and hashed before fresh risk evaluation.",
+  "hypothesis": "Exact unlabeled Jensen-selected global alpha improves fixed pi; radial choice may improve further.",
+  "failure_preservation": "All K=4,8,16,64 weighted/unweighted global/radial proxies retained.",
+  "scripts": {
+    "rotation_selectors.py": "f79a394c7ab67de90428830fd9c68c4530d2ef30b41938570c6b0dd190ab9bf6",
+    "experiment.py": "906b9cd90de17af1dfd31e2a456f32652e7c2abfdcbc4c826f012032e12a44ee",
+    "generator.py": "885eb5c8d8878b57df1025c1a5a69b6978d4c2803f3f0e552c557170c7e355d2",
+    "polar.py": "db6eba08d2f5c0ac7d6d7d1d0ec3533fcba861748935318fd1e1dd35b9c4063e",
+    "core.py": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5"
+  }
+}

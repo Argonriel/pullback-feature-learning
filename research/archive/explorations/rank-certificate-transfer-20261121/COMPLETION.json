@@ -1,0 +1,20 @@
+{
+  "completed_utc": "2026-11-21T10:34:46.184734+00:00",
+  "primary_models": 32,
+  "context_models": 16,
+  "independent_primary_test_inputs": 2097152,
+  "completed_local_enclosures": 64,
+  "known_positive": 32,
+  "empirical_positive": 32,
+  "separate_family_confidence": 0.95,
+  "risk_rows": 320,
+  "passing_batch_ledgers": 81920,
+  "report_pages": 6,
+  "all_report_pages_visually_checked": true,
+  "previous_studies_preserved": true,
+  "mathematical_scope": "Full SO(2)-orbit-invariant posteriors; real-arithmetic enclosures implemented in padded float64",
+  "report_sha256": "a498bafae520a18796e359809f8f196c2fbd703b42f7401cd1365dfce6f8cb56",
+  "manuscript_sha256": "98835c9c3055b9531c402e04a08aaaad7043a20f4b0c4e5eac5e33fec634d57b",
+  "known_summary_sha256": "59701b808a1ec0548dff67bdfa237c829b9d0d99ac11d4b9516481e53171c52e",
+  "empirical_summary_sha256": "90cbd122bb71666748be33f63a8a5a80beb2672d436d670c106b28b8a885f61a"
+}

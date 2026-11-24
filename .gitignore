@@ -13,3 +13,7 @@ dist/
 /docs/
 /reports/
 /runs/
+
+# Local coding-agent instructions are not shared with collaborators.
+AGENTS.md
+.research-downloads/

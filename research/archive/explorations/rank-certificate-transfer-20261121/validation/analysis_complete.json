@@ -1,0 +1,7 @@
+{
+  "timestamp_utc": "2026-11-21T10:20:04.752132+00:00",
+  "primary_family_size": 4,
+  "bootstrap_unit": "paired trained-model seed within cohort",
+  "bootstrap_repeats": 20000,
+  "secondary_gd_context_not_an_additional_selector_cohort": true
+}

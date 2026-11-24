@@ -1,0 +1,26 @@
+[
+  {
+    "path": "model.py",
+    "source": "pullback-feature-learning\\experiments\\budget_allocation\\model.py",
+    "byte_identical": true,
+    "sha256": "fca6b349140849e8486a426d77ce3858123f005a9e84ecf2f112111acb05ac20"
+  },
+  {
+    "path": "reference/core4d.py",
+    "source": "pullback-feature-learning\\experiments\\budget_allocation\\reference\\core4d.py",
+    "byte_identical": true,
+    "sha256": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77"
+  },
+  {
+    "path": "reference/task.py",
+    "source": "pullback-feature-learning\\experiments\\budget_allocation\\reference\\task.py",
+    "byte_identical": true,
+    "sha256": "8da7d92d23437155d10be130a712e219211760ee740c2fca2a4b3506437214f4"
+  },
+  {
+    "path": "reference/DEVELOPMENT_STATE.npz",
+    "source": "pullback-feature-learning\\experiments\\budget_allocation\\reference\\DEVELOPMENT_STATE.npz",
+    "byte_identical": true,
+    "sha256": "5a69e55007a4d6ad30f013070da9400df737f701fa17228d934566674448e883"
+  }
+]

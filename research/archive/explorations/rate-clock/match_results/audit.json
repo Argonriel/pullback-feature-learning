@@ -1,0 +1,9 @@
+{
+  "scored_rows": 3018,
+  "maximum_training_loss_reconstruction_error": 1.997707554934891e-14,
+  "maximum_gap_identity_error": 5.811323644522304e-17,
+  "reference_models_checked": 32,
+  "reference_gap_max_difference": 8.998878031629687e-18,
+  "independently_rerouted_sample": 6,
+  "rerouting_max_loss_difference": 2.7755575615628914e-17
+}

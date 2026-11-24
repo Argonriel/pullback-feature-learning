@@ -1,0 +1,66 @@
+[
+  {
+    "task": "moons",
+    "id": "d1",
+    "cohort": "discovery",
+    "train_seed": 221101,
+    "init_seed": 222101,
+    "test_seed": 223101
+  },
+  {
+    "task": "moons",
+    "id": "d2",
+    "cohort": "discovery",
+    "train_seed": 221102,
+    "init_seed": 222102,
+    "test_seed": 223102
+  },
+  {
+    "task": "moons",
+    "id": "d3",
+    "cohort": "discovery",
+    "train_seed": 221103,
+    "init_seed": 222103,
+    "test_seed": 223103
+  },
+  {
+    "task": "moons",
+    "id": "d4",
+    "cohort": "discovery",
+    "train_seed": 221104,
+    "init_seed": 222104,
+    "test_seed": 223104
+  },
+  {
+    "task": "rings",
+    "id": "d1",
+    "cohort": "discovery",
+    "train_seed": 231101,
+    "init_seed": 232101,
+    "test_seed": 233101
+  },
+  {
+    "task": "rings",
+    "id": "d2",
+    "cohort": "discovery",
+    "train_seed": 231102,
+    "init_seed": 232102,
+    "test_seed": 233102
+  },
+  {
+    "task": "rings",
+    "id": "d3",
+    "cohort": "discovery",
+    "train_seed": 231103,
+    "init_seed": 232103,
+    "test_seed": 233103
+  },
+  {
+    "task": "rings",
+    "id": "d4",
+    "cohort": "discovery",
+    "train_seed": 231104,
+    "init_seed": 232104,
+    "test_seed": 233104
+  }
+]

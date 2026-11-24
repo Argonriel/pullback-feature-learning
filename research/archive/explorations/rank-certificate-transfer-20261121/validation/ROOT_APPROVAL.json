@@ -1,0 +1,17 @@
+{
+  "timestamp_utc": "2026-11-21T10:15:56.872195+00:00",
+  "fresh_training_authorized": true,
+  "validation_freeze_sha256": "2b7b94bf0cfa3227e0f9e2fc28a24f156b5a30661807af8dcb5d60551fb405a1",
+  "freezes": {
+    "transfer/FREEZE.json": "cec904fc33f2584daf5edb29fb2a94dec1336953e42e5a41b95719829ca359d6",
+    "validation/freeze.json": "2b7b94bf0cfa3227e0f9e2fc28a24f156b5a30661807af8dcb5d60551fb405a1",
+    "certificate/freeze.json": "205d6af0c80a593552e60667b030f975e241ef36771ad48c4b44e0d582024eb1",
+    "root_audit/certificate_freeze.json": "ea5bf3384dcd77881da5a5b661efa3bee2fc3a48ae3904b821552cecf18c267a"
+  },
+  "scientific_settings_locked": true,
+  "no_fresh_states_existed_at_release": true,
+  "source": "Latest user authorization to complete the recommended work",
+  "control_list_clarification": "The controlling fresh policy list is the nine names in validation/freeze.json. Broader generic examples in the transfer protocol do not add random/radius policies. This clarification precedes fresh data.",
+  "known_confidence_family": "32 EB events, family0.05",
+  "empirical_confidence_family": "32 independent DKW events plus32 EB events, separate family0.05"
+}

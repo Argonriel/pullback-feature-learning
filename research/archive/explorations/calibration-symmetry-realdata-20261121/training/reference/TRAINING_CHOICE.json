@@ -1,0 +1,48 @@
+{
+  "timestamp_utc": "2026-11-21T10:46:54.604807+00:00",
+  "choice": "pb4_500",
+  "config": {
+    "steps": 500,
+    "method": "pb",
+    "rate": 4.0,
+    "damping": 0.1
+  },
+  "criterion": "minimum four-seed mean known-posterior expected log loss; exact tie prefers listed order; a failed recipe is ineligible; retain every failure",
+  "summaries": [
+    {
+      "name": "pb8_500",
+      "eligible": true,
+      "mean_expected_loss": 0.8503751766152818,
+      "config": {
+        "steps": 500,
+        "method": "pb",
+        "rate": 8.0,
+        "damping": 0.1
+      }
+    },
+    {
+      "name": "pb4_500",
+      "eligible": true,
+      "mean_expected_loss": 0.692926477331612,
+      "config": {
+        "steps": 500,
+        "method": "pb",
+        "rate": 4.0,
+        "damping": 0.1
+      }
+    },
+    {
+      "name": "pb8_1000",
+      "eligible": true,
+      "mean_expected_loss": 1.0866432559883774,
+      "config": {
+        "steps": 1000,
+        "method": "pb",
+        "rate": 8.0,
+        "damping": 0.1
+      }
+    }
+  ],
+  "task_law_freeze_sha256": "ec8b9f0e4ab47d0c7f87594258f01c8480334f85dc444fcbf0ab6ea72b27a7a1",
+  "pilot_rows_sha256": "4bc308bc723a583077519ac6817f351e96a958bd74685de06599cd554ef7e070"
+}

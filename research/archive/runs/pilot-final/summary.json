@@ -1,0 +1,115 @@
+{
+  "gd": {
+    "method": "gd",
+    "steps": 200,
+    "options": {
+      "learning_rate": 0.5
+    },
+    "initial_parameter_sha256": "63f5ae6e0ce9b338732712424503bf8582dcf2c8b8aeeef50e1456eca2a4fa66",
+    "training_seconds": 0.014736599991010735,
+    "diagnostics_seconds": 0.02747649995944812,
+    "loop_wall_seconds": 0.04229499999928521,
+    "warmup_seconds": 0.0005413999970187433,
+    "mean_step_seconds": 7.368299995505367e-05,
+    "median_step_seconds": 6.294999911915511e-05,
+    "p90_step_seconds": 0.00011180000001331791,
+    "loss_increase_count": 0,
+    "initial": {
+      "step": 0,
+      "training_seconds": 0.0,
+      "train_loss": 0.5707819066755914,
+      "validation_loss": 0.5763648654256334,
+      "train_accuracy": 0.69140625,
+      "validation_accuracy": 0.6953125,
+      "cumulative_feature_displacement": 0.0,
+      "diagnostics_seconds": 0.002314400000614114
+    },
+    "final": {
+      "step": 200,
+      "training_seconds": 0.014736599991010735,
+      "train_loss": 0.19063682638400511,
+      "validation_loss": 0.26857747275047733,
+      "train_accuracy": 0.90625,
+      "validation_accuracy": 0.875,
+      "cumulative_feature_displacement": 3.1021403319807765,
+      "diagnostics_seconds": 0.02747649995944812
+    },
+    "spectral_checkpoints": [
+      {
+        "step": 0,
+        "rank_tolerance": 1.5422451140532822e-12,
+        "numerical_rank": 80,
+        "unreachable_gradient_fraction": 0.04179365956987113
+      },
+      {
+        "step": 100,
+        "rank_tolerance": 3.005131286876786e-12,
+        "numerical_rank": 80,
+        "unreachable_gradient_fraction": 0.10788870149382424
+      },
+      {
+        "step": 200,
+        "rank_tolerance": 3.6301217372711098e-12,
+        "numerical_rank": 80,
+        "unreachable_gradient_fraction": 0.11053450372209661
+      }
+    ]
+  },
+  "pullback": {
+    "method": "pullback",
+    "steps": 200,
+    "options": {
+      "learning_rate": 32.0,
+      "damping": 0.01
+    },
+    "initial_parameter_sha256": "63f5ae6e0ce9b338732712424503bf8582dcf2c8b8aeeef50e1456eca2a4fa66",
+    "training_seconds": 0.12737709996508784,
+    "diagnostics_seconds": 0.033230500026547816,
+    "loop_wall_seconds": 0.1607653000028222,
+    "warmup_seconds": 0.003220900001906557,
+    "mean_step_seconds": 0.0006368854998254392,
+    "median_step_seconds": 0.0005851000005350215,
+    "p90_step_seconds": 0.0008505799967679195,
+    "loss_increase_count": 0,
+    "initial": {
+      "step": 0,
+      "training_seconds": 0.0,
+      "train_loss": 0.5707819066755914,
+      "validation_loss": 0.5763648654256334,
+      "train_accuracy": 0.69140625,
+      "validation_accuracy": 0.6953125,
+      "cumulative_feature_displacement": 0.0,
+      "diagnostics_seconds": 0.0020694000013463665
+    },
+    "final": {
+      "step": 200,
+      "training_seconds": 0.12737709996508784,
+      "train_loss": 0.04068405288298046,
+      "validation_loss": 0.0901307963556641,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.984375,
+      "cumulative_feature_displacement": 3.0750583259241746,
+      "diagnostics_seconds": 0.033230500026547816
+    },
+    "spectral_checkpoints": [
+      {
+        "step": 0,
+        "rank_tolerance": 1.5422451140532822e-12,
+        "numerical_rank": 80,
+        "unreachable_gradient_fraction": 0.04179365956987113
+      },
+      {
+        "step": 100,
+        "rank_tolerance": 9.403573889272116e-12,
+        "numerical_rank": 80,
+        "unreachable_gradient_fraction": 0.015957976442539268
+      },
+      {
+        "step": 200,
+        "rank_tolerance": 8.435022400061482e-12,
+        "numerical_rank": 80,
+        "unreachable_gradient_fraction": 0.0009819285509731213
+      }
+    ]
+  }
+}

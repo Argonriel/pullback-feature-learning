@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "utc": "2026-11-22T00:12:22.281087+00:00",
+  "source_archive_sha256": "462af32659411c0eb6cbda6c4ce82b0efce3d614ab6ba74370c5e7e8113c52d5",
+  "selected_images": 1500,
+  "unique_products": 1500,
+  "eligible_counts": {
+    "5": 2607,
+    "7": 6008,
+    "9": 3365
+  },
+  "conflicting_product_ids": [
+    "7278502",
+    "7280086",
+    "7292328",
+    "7366299",
+    "7743503",
+    "7958152",
+    "8069905"
+  ],
+  "examined_selection_prefix": 1500,
+  "exclusions": [],
+  "exact_pixel_overlap": 0,
+  "brands": 435,
+  "independently_rebuilt_selection_order": true,
+  "independently_rebuilt_pixels": true,
+  "limitations": [
+    "Metadata taxonomy may be imperfect.",
+    "Product grouping does not remove near-design or brand dependence.",
+    "Replaying skipped candidates requires original source ZIP; selected originals suffice for pixel replay."
+  ]
+}

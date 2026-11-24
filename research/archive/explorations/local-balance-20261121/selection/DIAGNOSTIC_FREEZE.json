@@ -1,0 +1,79 @@
+{
+  "timestamp_utc": "2026-11-21T09:41:46.830295+00:00",
+  "new_policy_files_accessed": false,
+  "new_test_outcomes_accessed": false,
+  "scope": "Evaluation-only conditional moments of immutable global rank policies; no tuning.",
+  "models": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "policies": [
+    "rank_balanced",
+    "rank_even",
+    "rank_unbalanced"
+  ],
+  "main": {
+    "radial_gauss_per_anchor_interval": 4,
+    "angular_nodes": 4096,
+    "angular_cell_offset": 0.173,
+    "population_cdf_gauss_per_interval": 32
+  },
+  "refinements": [
+    {
+      "name": "radial",
+      "radial_gauss_per_anchor_interval": 2,
+      "angular_nodes": 4096,
+      "angular_cell_offset": 0.173
+    },
+    {
+      "name": "angular",
+      "radial_gauss_per_anchor_interval": 4,
+      "angular_nodes": 2048,
+      "angular_cell_offset": 0.173
+    },
+    {
+      "name": "phase",
+      "radial_gauss_per_anchor_interval": 2,
+      "angular_nodes": 4096,
+      "angular_cell_offset": 0.619
+    }
+  ],
+  "cdf_refinement": {
+    "coarse": 32,
+    "fine": 64,
+    "score_grid_points": 10001
+  },
+  "rank_probability_evaluation": {
+    "exact_stable_polynomial_or_linear_interpolation_grid": 262145,
+    "interpolation_error": "Analytic second-derivative supremum bound divided by 8*(262144)^2; report bound."
+  },
+  "outputs": [
+    "conditional C,b,centered gain,inclusion rates",
+    "numerical unrestricted posterior interval and E|b|",
+    "formal DKW+BV+radial bound at alpha=.05/16",
+    "radial/angular/phase/CDF sensitivity",
+    "exacteven structuralzero and numerical antisymmetry",
+    "actual evaluation forward counts and data hashes"
+  ],
+  "restrictions": [
+    "No use of sampled labels or posterior in diagnostics",
+    "No policy change",
+    "Numerical refinements do not claim exact neural balance",
+    "Extremizing radial posteriors are model-specific; no fixed-prevalence claim"
+  ],
+  "source_policy_sha256": "9f6e3e96a85fa62657ec1430aececc846cffa3ce338786356d514d942d00ae31"
+}

@@ -1,0 +1,168 @@
+{
+  "timestamp_utc": "2026-11-21T10:13:43.205503+00:00",
+  "fresh_states_accessed": false,
+  "checks": [
+    {
+      "cohort": "rings",
+      "policy": "raw",
+      "calls": [
+        256
+      ],
+      "selected": 0
+    },
+    {
+      "cohort": "rings",
+      "policy": "full",
+      "calls": [
+        256,
+        256
+      ],
+      "selected": 256
+    },
+    {
+      "cohort": "rings",
+      "policy": "confidence",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    },
+    {
+      "cohort": "rings",
+      "policy": "folded",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    },
+    {
+      "cohort": "rings",
+      "policy": "rank_balanced",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    },
+    {
+      "cohort": "rings",
+      "policy": "rank_even",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    },
+    {
+      "cohort": "rings",
+      "policy": "rank_unbalanced",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    },
+    {
+      "cohort": "rings",
+      "policy": "confidence_radial",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    },
+    {
+      "cohort": "rings",
+      "policy": "full_radial",
+      "calls": [
+        256,
+        256
+      ],
+      "selected": 256
+    },
+    {
+      "cohort": "transfer",
+      "policy": "raw",
+      "calls": [
+        256
+      ],
+      "selected": 0
+    },
+    {
+      "cohort": "transfer",
+      "policy": "full",
+      "calls": [
+        256,
+        256
+      ],
+      "selected": 256
+    },
+    {
+      "cohort": "transfer",
+      "policy": "confidence",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    },
+    {
+      "cohort": "transfer",
+      "policy": "folded",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    },
+    {
+      "cohort": "transfer",
+      "policy": "rank_balanced",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    },
+    {
+      "cohort": "transfer",
+      "policy": "rank_even",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    },
+    {
+      "cohort": "transfer",
+      "policy": "rank_unbalanced",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    },
+    {
+      "cohort": "transfer",
+      "policy": "confidence_radial",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    },
+    {
+      "cohort": "transfer",
+      "policy": "full_radial",
+      "calls": [
+        256,
+        256
+      ],
+      "selected": 256
+    }
+  ],
+  "all_forward_counts_pass": true,
+  "all_exact_symmetry_controls_pass": true
+}

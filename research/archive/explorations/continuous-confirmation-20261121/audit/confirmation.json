@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "rows": 1536,
+  "independent_full_test_replays": 192,
+  "checks": [
+    "All source/state/calibration hashes and chronology",
+    "All deployment call counts and confidence mask identities",
+    "Independent inputs, posterior, calibration curves, conjugated transformations, masks and test risks for four representative seed/geometry groups"
+  ],
+  "max_errors": {
+    "test_inputs": 0,
+    "posterior": 0,
+    "independent_phase": 0,
+    "calibration_radii": 0,
+    "calibration_global": 6.245004513516506e-17,
+    "calibration_radial": 0,
+    "expected_risk": 5.551115123125783e-17,
+    "sampled_risk": 5.551115123125783e-17
+  },
+  "independent_primary_bootstrap": [
+    {
+      "geometry": "original",
+      "mean_difference": -0.0025647084693362267,
+      "interval_975": [
+        -0.0038150227172327376,
+        -0.0013885592981181458
+      ],
+      "wins": 16
+    },
+    {
+      "geometry": "ellipse",
+      "mean_difference": -0.001089209770608817,
+      "interval_975": [
+        -0.0020514970528274484,
+        -0.00035426471495830986
+      ],
+      "wins": 13
+    }
+  ]
+}

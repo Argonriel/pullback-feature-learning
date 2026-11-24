@@ -1,0 +1,710 @@
+{
+  "outcome_rows": 320,
+  "batch_ledgers": 81920,
+  "scored_forwards": 29360128,
+  "maximum_metric_errors": {
+    "expected_risk": 5.551115123125783e-17,
+    "sampled_label_risk": 1.1102230246251565e-16,
+    "expected_error": 5.551115123125783e-17,
+    "sampled_error": 0,
+    "second_forwards": 0,
+    "half_risk": 2.220446049250313e-16,
+    "increasing_risk": 2.220446049250313e-16,
+    "decreasing_risk": 8.881784197001252e-16,
+    "threshold_risk": 1.1102230246251565e-16
+  },
+  "input_checks": [
+    {
+      "cohort": "rings",
+      "pair": 1,
+      "test_sha256": "f01231914007ea69cbf9068f07306cd5aacca99ffabc942504101a9c8d8c6a08",
+      "posterior_max_error": 1.7763568394002505e-15
+    },
+    {
+      "cohort": "rings",
+      "pair": 2,
+      "test_sha256": "92d510c849da26fcb15d9e682859241d17138f212c3115c1037d88aa33f25e66",
+      "posterior_max_error": 1.609823385706477e-15
+    },
+    {
+      "cohort": "rings",
+      "pair": 3,
+      "test_sha256": "49a715f032815f5108ecea65f7b25681eb20f3074541e9fd8383bde64fa39a81",
+      "posterior_max_error": 1.6653345369377348e-15
+    },
+    {
+      "cohort": "rings",
+      "pair": 4,
+      "test_sha256": "bb2820510d17413bc8bb1d7424a7135f24fcd03e64279d9ecd361e79595842ce",
+      "posterior_max_error": 1.7763568394002505e-15
+    },
+    {
+      "cohort": "rings",
+      "pair": 5,
+      "test_sha256": "aaae88e954e4b4d004e7bb816f83940a079574942c80c3eae474308370089ed9",
+      "posterior_max_error": 1.6653345369377348e-15
+    },
+    {
+      "cohort": "rings",
+      "pair": 6,
+      "test_sha256": "6536092bfc6f48a5048111e3be0aa74ad0f4cd3b285fb2c9307fc114a8c19aee",
+      "posterior_max_error": 1.7763568394002505e-15
+    },
+    {
+      "cohort": "rings",
+      "pair": 7,
+      "test_sha256": "b107acc0d61daf7cbb3fd6ee71b0d64eff1f279fc8539740dbd936c4894a2d36",
+      "posterior_max_error": 1.7763568394002505e-15
+    },
+    {
+      "cohort": "rings",
+      "pair": 8,
+      "test_sha256": "9a63ebb026c7f59bef975c838bd54a9e5786d08830f9228cbf7378d75811fa95",
+      "posterior_max_error": 1.7208456881689926e-15
+    },
+    {
+      "cohort": "rings",
+      "pair": 9,
+      "test_sha256": "1f22e920070ac07eb657b0ea1e75ca7e23d2eb528baa14209b7e28d3da58ce2f",
+      "posterior_max_error": 1.7763568394002505e-15
+    },
+    {
+      "cohort": "rings",
+      "pair": 10,
+      "test_sha256": "fd7ab420a245cd9acba4399ff5f088e4ed947f54dc8bb781bca2b29b37f9abd7",
+      "posterior_max_error": 1.6653345369377348e-15
+    },
+    {
+      "cohort": "rings",
+      "pair": 11,
+      "test_sha256": "218331563797bc5855854ab4996e997d2f42b11a9b031f135d0614761016b4be",
+      "posterior_max_error": 1.7208456881689926e-15
+    },
+    {
+      "cohort": "rings",
+      "pair": 12,
+      "test_sha256": "d64cd9410cf6753af6cffd7697f142dfd62d5c94e36a9c9ec9b53d440a7c91b1",
+      "posterior_max_error": 1.609823385706477e-15
+    },
+    {
+      "cohort": "rings",
+      "pair": 13,
+      "test_sha256": "6865bafccf8e8ed4cce07ddd045a057b789ec12dd618c061ea384649aabe6446",
+      "posterior_max_error": 1.6653345369377348e-15
+    },
+    {
+      "cohort": "rings",
+      "pair": 14,
+      "test_sha256": "8e56bfa6dee20f0ab41c6f6a0fb1e954aad7a99d0dd1c77a8eccca0252d96c4f",
+      "posterior_max_error": 1.6653345369377348e-15
+    },
+    {
+      "cohort": "rings",
+      "pair": 15,
+      "test_sha256": "065bfb4764b3a6614ce59f328754f55fdedfc06c8e996ead5a5cd4746e7b403d",
+      "posterior_max_error": 1.6653345369377348e-15
+    },
+    {
+      "cohort": "rings",
+      "pair": 16,
+      "test_sha256": "4cd9ced08c26d8d747ee0fd62edc8b8b6a250b25176369888ada51549162fbdd",
+      "posterior_max_error": 1.6653345369377348e-15
+    },
+    {
+      "cohort": "transfer",
+      "pair": 1,
+      "test_sha256": "9bc47b1f843758265d8173c51dc0c8664ff1c63746fd114b1adbd47630aa7e7f",
+      "posterior_max_error": 2.220446049250313e-16
+    },
+    {
+      "cohort": "transfer",
+      "pair": 2,
+      "test_sha256": "88e2ec53288154b025dcb3347de656226783c56e0d47d1bc86ec42e3a0d64e19",
+      "posterior_max_error": 2.220446049250313e-16
+    },
+    {
+      "cohort": "transfer",
+      "pair": 3,
+      "test_sha256": "b0f930365dcfee03ac0577054d713e8ee909a9a8d2f6f209021c112979787788",
+      "posterior_max_error": 2.220446049250313e-16
+    },
+    {
+      "cohort": "transfer",
+      "pair": 4,
+      "test_sha256": "b804e34641663a0bef72ec23e52b025de5d72d349d87cdf21fb81e4b785f7f7b",
+      "posterior_max_error": 2.220446049250313e-16
+    },
+    {
+      "cohort": "transfer",
+      "pair": 5,
+      "test_sha256": "d61575eef37e00cb0ad18bd1c9320862ee0145f51aa36a1edad4605251675d0e",
+      "posterior_max_error": 2.220446049250313e-16
+    },
+    {
+      "cohort": "transfer",
+      "pair": 6,
+      "test_sha256": "3aa625baf4ce4f241aa735e2645308cb302c85435b82e854b3a8a97dad8fdde9",
+      "posterior_max_error": 2.220446049250313e-16
+    },
+    {
+      "cohort": "transfer",
+      "pair": 7,
+      "test_sha256": "c8e0660fe1cc95691dcc074b7b1f34862389e9f469d731d3dc0ee8d12ca97fa4",
+      "posterior_max_error": 2.220446049250313e-16
+    },
+    {
+      "cohort": "transfer",
+      "pair": 8,
+      "test_sha256": "6afb474977ce83a9bba505f95371fcb2a110aa6057b6fa1dafb2092c35addce8",
+      "posterior_max_error": 2.220446049250313e-16
+    },
+    {
+      "cohort": "transfer",
+      "pair": 9,
+      "test_sha256": "1df0437e5a98dddc3b310577b0fd8ddcb359899fd81d6fb511aaafca0011f6e6",
+      "posterior_max_error": 2.220446049250313e-16
+    },
+    {
+      "cohort": "transfer",
+      "pair": 10,
+      "test_sha256": "ab6c21f35e5c69721bfa3b9a2d75a9154370730b9505d0be63d8b15454dc0302",
+      "posterior_max_error": 2.220446049250313e-16
+    },
+    {
+      "cohort": "transfer",
+      "pair": 11,
+      "test_sha256": "e0cc17467ed48b1720c35ff7ca0017b8de1788107af21e7ad34cd125c0ae698e",
+      "posterior_max_error": 2.220446049250313e-16
+    },
+    {
+      "cohort": "transfer",
+      "pair": 12,
+      "test_sha256": "4d4b90a0e60d08216b323c2041b0b5b4700935ad37e5bf23aff2b9539e1b003d",
+      "posterior_max_error": 2.220446049250313e-16
+    },
+    {
+      "cohort": "transfer",
+      "pair": 13,
+      "test_sha256": "a4e0a43cd4b88baa5325f323a3905d39ec22fd4de25dae7f8fd8b5e1a5fe90a3",
+      "posterior_max_error": 2.220446049250313e-16
+    },
+    {
+      "cohort": "transfer",
+      "pair": 14,
+      "test_sha256": "4775b58dae8592bc777166843697eb9d969fc39c809ca19951a8d51c7e13659c",
+      "posterior_max_error": 2.220446049250313e-16
+    },
+    {
+      "cohort": "transfer",
+      "pair": 15,
+      "test_sha256": "fa7dde75a0d107a6abb7a96802438ea2bc43bf71835b81c4cc26be4627d69313",
+      "posterior_max_error": 2.220446049250313e-16
+    },
+    {
+      "cohort": "transfer",
+      "pair": 16,
+      "test_sha256": "57cc22348b845853144de9d511ecd1cac016fc0e94b4611d0c057328030e94bc",
+      "posterior_max_error": 2.220446049250313e-16
+    }
+  ],
+  "training_replays": [
+    {
+      "cohort": "rings",
+      "pair": 1,
+      "method": "pb",
+      "max_error": 0.0,
+      "seconds": 0.38520240000798367
+    },
+    {
+      "cohort": "rings",
+      "pair": 8,
+      "method": "pb",
+      "max_error": 0.0,
+      "seconds": 0.3784919999889098
+    },
+    {
+      "cohort": "rings",
+      "pair": 16,
+      "method": "pb",
+      "max_error": 0.0,
+      "seconds": 0.3854245000111405
+    },
+    {
+      "cohort": "transfer",
+      "pair": 1,
+      "method": "pb",
+      "max_error": 0.0,
+      "seconds": 1.5775949000089895
+    },
+    {
+      "cohort": "transfer",
+      "pair": 1,
+      "method": "gd",
+      "max_error": 0.0,
+      "seconds": 0.05147850001230836
+    },
+    {
+      "cohort": "transfer",
+      "pair": 8,
+      "method": "pb",
+      "max_error": 0.0,
+      "seconds": 1.525120899983449
+    },
+    {
+      "cohort": "transfer",
+      "pair": 8,
+      "method": "gd",
+      "max_error": 0.0,
+      "seconds": 0.05086970000411384
+    },
+    {
+      "cohort": "transfer",
+      "pair": 16,
+      "method": "pb",
+      "max_error": 0.0,
+      "seconds": 1.567985800007591
+    },
+    {
+      "cohort": "transfer",
+      "pair": 16,
+      "method": "gd",
+      "max_error": 0.0,
+      "seconds": 0.051037800003541633
+    }
+  ],
+  "deployment_replays": [
+    {
+      "cohort": "rings",
+      "pair": 1,
+      "policy": "raw",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 65536
+    },
+    {
+      "cohort": "rings",
+      "pair": 1,
+      "policy": "full",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 131072
+    },
+    {
+      "cohort": "rings",
+      "pair": 1,
+      "policy": "confidence",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "rings",
+      "pair": 1,
+      "policy": "folded",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "rings",
+      "pair": 1,
+      "policy": "rank_balanced",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "rings",
+      "pair": 1,
+      "policy": "rank_even",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "rings",
+      "pair": 1,
+      "policy": "rank_unbalanced",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "rings",
+      "pair": 1,
+      "policy": "confidence_radial",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "rings",
+      "pair": 1,
+      "policy": "full_radial",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 131072
+    },
+    {
+      "cohort": "rings",
+      "pair": 8,
+      "policy": "raw",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 65536
+    },
+    {
+      "cohort": "rings",
+      "pair": 8,
+      "policy": "full",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 131072
+    },
+    {
+      "cohort": "rings",
+      "pair": 8,
+      "policy": "confidence",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "rings",
+      "pair": 8,
+      "policy": "folded",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "rings",
+      "pair": 8,
+      "policy": "rank_balanced",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "rings",
+      "pair": 8,
+      "policy": "rank_even",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "rings",
+      "pair": 8,
+      "policy": "rank_unbalanced",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "rings",
+      "pair": 8,
+      "policy": "confidence_radial",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "rings",
+      "pair": 8,
+      "policy": "full_radial",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 131072
+    },
+    {
+      "cohort": "rings",
+      "pair": 16,
+      "policy": "raw",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 65536
+    },
+    {
+      "cohort": "rings",
+      "pair": 16,
+      "policy": "full",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 131072
+    },
+    {
+      "cohort": "rings",
+      "pair": 16,
+      "policy": "confidence",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "rings",
+      "pair": 16,
+      "policy": "folded",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "rings",
+      "pair": 16,
+      "policy": "rank_balanced",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "rings",
+      "pair": 16,
+      "policy": "rank_even",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "rings",
+      "pair": 16,
+      "policy": "rank_unbalanced",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "rings",
+      "pair": 16,
+      "policy": "confidence_radial",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "rings",
+      "pair": 16,
+      "policy": "full_radial",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 131072
+    },
+    {
+      "cohort": "transfer",
+      "pair": 1,
+      "policy": "raw",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 65536
+    },
+    {
+      "cohort": "transfer",
+      "pair": 1,
+      "policy": "full",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 131072
+    },
+    {
+      "cohort": "transfer",
+      "pair": 1,
+      "policy": "confidence",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "transfer",
+      "pair": 1,
+      "policy": "folded",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "transfer",
+      "pair": 1,
+      "policy": "rank_balanced",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "transfer",
+      "pair": 1,
+      "policy": "rank_even",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "transfer",
+      "pair": 1,
+      "policy": "rank_unbalanced",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "transfer",
+      "pair": 1,
+      "policy": "confidence_radial",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "transfer",
+      "pair": 1,
+      "policy": "full_radial",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 131072
+    },
+    {
+      "cohort": "transfer",
+      "pair": 8,
+      "policy": "raw",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 65536
+    },
+    {
+      "cohort": "transfer",
+      "pair": 8,
+      "policy": "full",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 131072
+    },
+    {
+      "cohort": "transfer",
+      "pair": 8,
+      "policy": "confidence",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "transfer",
+      "pair": 8,
+      "policy": "folded",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "transfer",
+      "pair": 8,
+      "policy": "rank_balanced",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "transfer",
+      "pair": 8,
+      "policy": "rank_even",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "transfer",
+      "pair": 8,
+      "policy": "rank_unbalanced",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "transfer",
+      "pair": 8,
+      "policy": "confidence_radial",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "transfer",
+      "pair": 8,
+      "policy": "full_radial",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 131072
+    },
+    {
+      "cohort": "transfer",
+      "pair": 16,
+      "policy": "raw",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 65536
+    },
+    {
+      "cohort": "transfer",
+      "pair": 16,
+      "policy": "full",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 131072
+    },
+    {
+      "cohort": "transfer",
+      "pair": 16,
+      "policy": "confidence",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "transfer",
+      "pair": 16,
+      "policy": "folded",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "transfer",
+      "pair": 16,
+      "policy": "rank_balanced",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "transfer",
+      "pair": 16,
+      "policy": "rank_even",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "transfer",
+      "pair": 16,
+      "policy": "rank_unbalanced",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "transfer",
+      "pair": 16,
+      "policy": "confidence_radial",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 81920
+    },
+    {
+      "cohort": "transfer",
+      "pair": 16,
+      "policy": "full_radial",
+      "max_output_error": 0.0,
+      "mask_changes": 0,
+      "replay_forward_examples": 131072
+    }
+  ],
+  "all_passed": true
+}

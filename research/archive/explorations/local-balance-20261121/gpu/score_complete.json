@@ -1,0 +1,8 @@
+{
+  "timestamp_utc": "2026-11-21T09:38:31.364864+00:00",
+  "n_models": 9,
+  "n_results": 63,
+  "all_call_quotas_pass": true,
+  "max_fusion_logit_error": 3.814697265625e-06,
+  "per_model_sha256": "18f61956253b679a1ee2af7cea516acd4f90ecf86c58c4d8a11ac9867a61fda9"
+}

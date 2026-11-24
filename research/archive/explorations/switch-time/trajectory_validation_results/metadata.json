@@ -1,0 +1,63 @@
+{
+  "pairs": [
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "switch_steps": [
+    100,
+    350
+  ],
+  "offsets_by_switch": {
+    "100": [
+      0,
+      1,
+      2,
+      5,
+      10,
+      25,
+      50,
+      75,
+      100,
+      125,
+      150,
+      200,
+      250,
+      300,
+      350,
+      400
+    ],
+    "350": [
+      0,
+      1,
+      2,
+      5,
+      10,
+      25,
+      50,
+      75,
+      100,
+      125,
+      150
+    ]
+  },
+  "calibration_inputs_per_checkpoint": 8192,
+  "test_inputs_per_pair": 32768,
+  "matching": "Same initialized training trajectory to the fork, training samples, test samples, calibration samples, ties, and evaluation budget in each pair.",
+  "interval": "Pointwise paired 95% percentile bootstrap, 20000 replicates, seed 291031; each resample draws the full set of training pairs.",
+  "interpretation": "Positive folded-minus-confidence loss favors confidence. GD elapsed is also used for the matched pullback branch and denotes updates since the fork.",
+  "prior_endpoint_max_difference": null
+}

@@ -1,0 +1,13 @@
+dataset,pair,arm,original_calls,reflected_calls,total_actual_forward_examples
+holdout,1,noaug,10000,10000,20000
+holdout,1,aug,10000,10000,20000
+holdout,2,noaug,10000,10000,20000
+holdout,2,aug,10000,10000,20000
+holdout,3,noaug,10000,10000,20000
+holdout,3,aug,10000,10000,20000
+official_test,1,noaug,10000,10000,20000
+official_test,1,aug,10000,10000,20000
+official_test,2,noaug,10000,10000,20000
+official_test,2,aug,10000,10000,20000
+official_test,3,noaug,10000,10000,20000
+official_test,3,aug,10000,10000,20000

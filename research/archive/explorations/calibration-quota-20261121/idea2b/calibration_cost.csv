@@ -1,0 +1,5 @@
+budget,calibration_design,n_models,median_seconds,independent_inputs_or_radii,forward_examples_per_policy
+8192,orbit,48,0.012237600007210858,64,8192
+8192,legacy_iid_antipodes,48,0.0017268499941565096,4096,8192
+65536,orbit,48,0.09073535000061383,512,65536
+65536,legacy_iid_antipodes,48,0.018250649998662993,32768,65536

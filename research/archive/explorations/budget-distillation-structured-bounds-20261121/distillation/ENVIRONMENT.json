@@ -1,0 +1,16 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "python_executable": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\.venv-gpu\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "processor": "AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD",
+  "numpy": "2.2.6",
+  "torch": "2.7.1+cu128",
+  "cuda": "12.8",
+  "cudnn": 90701,
+  "torch_threads": 1,
+  "tf32_matmul": false,
+  "tf32_cudnn": false,
+  "deterministic_algorithms": true,
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "gpu_total_memory": 17094475776
+}

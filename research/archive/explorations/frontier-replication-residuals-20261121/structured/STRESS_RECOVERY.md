@@ -1,0 +1,7 @@
+# Truth-stage numerical recovery
+
+The original frozen truth stage stopped on its first model/law before saving raw pairs or truth tables. Its strict probability assertion rejected the orbit-worst construction at epsilon=.1 or .2: theoretical zero evaluates to -1.3877787807814457e-17 or -2.7755575615628914e-17. This is ordinary floating-point cancellation in .5-.5*(1-epsilon)-epsilon/2. The original source, start record, empty raw directory and failure record are preserved.
+
+The new stress_recovery.py retains the complete frozen stage, seeds, sample counts, models, laws, posteriors, selectors and estimands. Its only numerical adjustment clips posterior values to [0,1] after asserting that any excursion is at most 1e-12. It records the largest excursion and number of corrected endpoints. Its raw directory and start record have new names. It requires the original source freeze and a separate root release of this recovery source. No fresh certificate or evidence run is performed. No reported outcome is used to select a hypothesis or setting.
+
+The failed attempt already evaluated both views of 65,536 inputs plus two 320-forward deployment checks: 131,712 example evaluations (131,072 truth + 640 replay), all for model 1 under the uniform law. This failed-attempt work is charged separately as implementation overhead. Its inputs are regenerated with the same frozen seeds in the successful recovery; they are not new independent experimental evidence.

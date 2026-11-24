@@ -1,0 +1,9 @@
+{
+  "class_probability": 0.5,
+  "bayes_loss": 0.3895508092703493,
+  "bayes_accuracy": 0.8361132405072342,
+  "proof": "2*pi*u and (2*phi modulo2*pi) are both uniform phases, so their cosine posterior logits have the same arcsine distribution.",
+  "radial_symmetry": "all rotations",
+  "angular_symmetry": "rotation by pi; reflections also hold but are not used",
+  "angular_view_identity": "two_view_value equals pi-symmetry nuisance exactly; not an independent third endpoint"
+}

@@ -1,0 +1,10 @@
+{
+  "timestamp_utc": "2026-11-21T08:31:16.431707+00:00",
+  "csv_sha256": {
+    "idea3_batches.csv": "e9fd1ec2588434d9e6924ddfe5a21ac8209f85dd81e386c87a8902069631ca9f",
+    "idea3_by_model.csv": "e9adff4ddd3b5d952af5ee3c2f36bee20ece7761cf64c500b320ffd40632ee2c",
+    "idea4_hidden_worlds.csv": "c5968ba2af07a16710a81b03cbb7eeba92c20b6a92ed88cb53665d1b16a63b21",
+    "idea4_intervals.csv": "0938dc187b4a081ba1275437b89ff4ececcf10491a6403205d9ce6de0eaadcc1",
+    "idea4_randomized_batches.csv": "683b478549e48d51241038d5c723fda5dbb3e8419b5399076faeb0e2fcb32871"
+  }
+}

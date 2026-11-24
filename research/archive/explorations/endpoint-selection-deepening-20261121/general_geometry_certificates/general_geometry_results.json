@@ -1,0 +1,95 @@
+{
+  "source_sha256": "34ded3473bf136759f5a5a1a4fd033bffcbf6517795b30b683420c9b6707e7b9",
+  "star_lie_triple_residual": 3.1401849173675503e-16,
+  "star_extra_condition_failure_norm": 1.4142135623730951,
+  "star_polarization_certificate": {
+    "quadratic_evaluation_count": 6,
+    "cubic_evaluation_count": 8,
+    "condition_1_max_residual": 1.1102230246251565e-16,
+    "condition_2_max_residual": 0.7071067811865472
+  },
+  "star_checks": [
+    {
+      "a": 0.2,
+      "exact_curvature_coefficient": 0.01068130802979288,
+      "full_matrix_curvature_error": 4.7316947918797145e-17,
+      "finite_difference_error": 1.296733228894767e-12,
+      "primitive_defect_norm": 0.0007388454745006755,
+      "primitive_defect_formula_error": 4.3889703833353663e-17
+    },
+    {
+      "a": 0.4,
+      "exact_curvature_coefficient": 0.05270337301587303,
+      "full_matrix_curvature_error": 7.144028522217822e-17,
+      "finite_difference_error": 1.1940180251339236e-11,
+      "primitive_defect_norm": 0.0067941652189472635,
+      "primitive_defect_formula_error": 7.85429459156923e-17
+    }
+  ],
+  "controls": [
+    {
+      "name": "commuting_non_jordan",
+      "polarization_certificate": {
+        "quadratic_evaluation_count": 6,
+        "cubic_evaluation_count": 8,
+        "condition_1_max_residual": 0.0,
+        "condition_2_max_residual": 0.0
+      },
+      "projected_A_norm": 0.0,
+      "projected_CA_norm": 0.0,
+      "projected_R_norm": 0.0,
+      "omega_norm": 0.015860015192509857,
+      "jordan_closure_residual": 0.7698003589195013
+    },
+    {
+      "name": "traceless_non_jordan",
+      "polarization_certificate": {
+        "quadratic_evaluation_count": 75,
+        "cubic_evaluation_count": 175,
+        "condition_1_max_residual": 1.5353617666258574e-15,
+        "condition_2_max_residual": 1.1614389110656813e-15
+      },
+      "projected_A_norm": 7.709279757381675e-18,
+      "projected_CA_norm": 6.963414533935156e-19,
+      "projected_R_norm": 7.367269939887762e-17,
+      "omega_norm": 0.01727694953577897,
+      "jordan_closure_residual": 1.154700538379252
+    },
+    {
+      "name": "nonunital_jordan",
+      "polarization_certificate": {
+        "quadratic_evaluation_count": 18,
+        "cubic_evaluation_count": 30,
+        "condition_1_max_residual": 6.280369834735101e-16,
+        "condition_2_max_residual": 1.5700924586837752e-16
+      },
+      "projected_A_norm": 2.4532694666933987e-18,
+      "projected_CA_norm": 1.5332934166833742e-19,
+      "projected_R_norm": 1.962675466714922e-17,
+      "omega_norm": 5.003707553108401e-17,
+      "jordan_closure_residual": 1.5700924586837752e-16
+    }
+  ],
+  "generic_leading_coefficient_norm": 0.041247895569215286,
+  "generic_polarization_certificate": {
+    "quadratic_evaluation_count": 6,
+    "cubic_evaluation_count": 8,
+    "condition_1_max_residual": 1.2071067811865468,
+    "condition_2_max_residual": 0.49999999999999983
+  },
+  "generic_leading_checks": [
+    {
+      "epsilon": 0.01,
+      "curvature_over_epsilon_error": 0.001054359259896072
+    },
+    {
+      "epsilon": 0.005,
+      "curvature_over_epsilon_error": 0.0005316689734409883
+    },
+    {
+      "epsilon": 0.0025,
+      "curvature_over_epsilon_error": 0.00026696884449885894
+    }
+  ],
+  "scope": "Numerical checks of independently derived identities; no proof by sampling and no finite-damping endpoint claim."
+}

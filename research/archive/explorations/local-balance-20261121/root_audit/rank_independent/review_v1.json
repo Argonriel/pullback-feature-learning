@@ -1,0 +1,59 @@
+{
+  "rank_probability_error": 7.815970093361102e-14,
+  "cdf_formula_error": 2.220446049250313e-16,
+  "fft_modular_max_C_error": 4.163336342344337e-17,
+  "fft_modular_max_b_error": 5.551115123125783e-17,
+  "fft_float_wrap_max_C_error": 0.0012776741545764735,
+  "fft_float_wrap_max_b_error": 0.0014109157077791781,
+  "hull_checks": [
+    {
+      "row": 10,
+      "value_error": 0.0,
+      "moment_residual": 0.0
+    },
+    {
+      "row": 32,
+      "value_error": 0.0,
+      "moment_residual": 0.0
+    },
+    {
+      "row": 53,
+      "value_error": 0.0,
+      "moment_residual": 0.0
+    },
+    {
+      "row": 64,
+      "value_error": 6.938893903907228e-18,
+      "moment_residual": 3.469446951953614e-18
+    },
+    {
+      "row": 90,
+      "value_error": 0.0,
+      "moment_residual": 0.0
+    },
+    {
+      "row": 127,
+      "value_error": 0.0,
+      "moment_residual": 0.0
+    }
+  ],
+  "quota_checks": [
+    {
+      "policy": "rank_balanced",
+      "min_count": 64,
+      "max_count": 64
+    },
+    {
+      "policy": "rank_even",
+      "min_count": 64,
+      "max_count": 64
+    },
+    {
+      "policy": "rank_unbalanced",
+      "min_count": 64,
+      "max_count": 64
+    }
+  ],
+  "even_partial_flip_mask_identical": true,
+  "notes": "Floating-coordinate sawtooth wrap differences at grid discontinuities are quadrature semantics, not FFT convolution errors; report and avoid promoting grid residuals to exact continuous balance."
+}

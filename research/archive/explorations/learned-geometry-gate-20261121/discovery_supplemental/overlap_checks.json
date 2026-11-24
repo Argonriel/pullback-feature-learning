@@ -1,0 +1,232 @@
+[
+  {
+    "run": "('rings', 'd1', 'tangent_gd', None, 0.01)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd1', 'tangent_gd', None, 0.01)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd1', 'tangent_gd', None, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd1', 'tangent_gd', None, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd1', 'tangent_pb', 0.1, 0.01)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd1', 'tangent_pb', 0.1, 0.01)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd1', 'tangent_pb', 0.1, 0.01)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd1', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd1', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd1', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd2', 'tangent_gd', None, 0.01)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd2', 'tangent_gd', None, 0.01)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd2', 'tangent_gd', None, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd2', 'tangent_gd', None, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd2', 'tangent_pb', 0.1, 0.01)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd2', 'tangent_pb', 0.1, 0.01)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd2', 'tangent_pb', 0.1, 0.01)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd2', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd2', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd2', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_gd', None, 0.01)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_gd', None, 0.01)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_gd', None, 0.01)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_gd', None, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_gd', None, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_gd', None, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_pb', 0.1, 0.01)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_pb', 0.1, 0.01)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_pb', 0.1, 0.01)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_pb', 0.1, 0.01)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_gd', None, 0.01)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_gd', None, 0.01)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_gd', None, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_gd', None, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_pb', 0.1, 0.01)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_pb', 0.1, 0.01)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_pb', 0.1, 0.01)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_pb', 0.1, 0.01)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.0
+  }
+]

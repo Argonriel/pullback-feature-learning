@@ -1,0 +1,39 @@
+{
+  "assembled_utc": "2026-11-22T01:54:34.612335+00:00",
+  "finished_utc": "2026-11-22T01:54:34.612335+00:00",
+  "components": [
+    {
+      "path": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\learned-geometry-gate-20261121\\discovery",
+      "provenance_sha256": "68476202809e8eb122878ee4963bdcb2773c6e41e0c6976fdbf753387a9776de",
+      "original_max_steps": 6000
+    },
+    {
+      "path": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\learned-geometry-gate-20261121\\coverage_extension",
+      "provenance_sha256": "3497adb5d47d9faa5c8e20f29c6618a98fb28a2422134c7569cc93f5825f765f",
+      "original_max_steps": 60000
+    },
+    {
+      "path": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\learned-geometry-gate-20261121\\refinement",
+      "provenance_sha256": "067e0165e1c67eeb840cf79d5b17994e454d0e15d6a2bc613f56553e0ba222be",
+      "original_max_steps": 120000
+    }
+  ],
+  "role": "Explicit supplemental composite; original component runs remain frozen.",
+  "run_count": 64,
+  "state_count": 256,
+  "completed_runs": 64,
+  "source_sha256": {
+    "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\experiments\\learned_geometry_gate_20261121\\assemble.py": "4c1da6bd3f96e8a75b2484ae5f18a7418375362a357a4acf834741e90e09a2bf"
+  },
+  "output_sha256": {
+    "actual_seeds.json": "6fc764d572e7791d8b01a41bca19b060ce38bd01568517b159c7943b41a7aa1f",
+    "config.json": "ac927a66b5144e70285e8487dbfa805afdfa355760b3f5ffb32119e859a80705",
+    "data.npz": "4eec4a9a44094d978b8f03a9e968931f64d653421e48a29b84134f1741f0e180",
+    "overlap_checks.json": "73736521bca1ee01dafa9b294cebd159cda278bddbdd7705247e8aed18e573d3",
+    "snapshots.csv": "1f90955a2f72de0c3baa33276551a95b0dd10f6d4f98a5b99d51873bda12aceb",
+    "snapshots.json": "7ab2628412ce9a65b8fdf9b521e88fa1b53885564349669ca7a95390d6f528dc",
+    "states.npz": "64e910d02ebb77d0003566d3202a2715e7fdf9504ff9c9b7131d01eb70561dc1",
+    "summaries.csv": "fe1cc383b692f0807f48bebf504fad1e2f3965791ad7690bdc45878b1d0b789d",
+    "trajectory.csv": "3f8f60ba7ad90ce7d49184fde68dcff5129cbdd1dfa8e0844c98bccdd260adfe"
+  }
+}

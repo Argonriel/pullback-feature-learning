@@ -1,0 +1,178 @@
+[
+  {
+    "model": "1_pb",
+    "calls": [
+      256,
+      64
+    ],
+    "max_deploy_error": 2.220446049250313e-15,
+    "max_expected_balance": 1.3877787807814457e-17,
+    "balanced_minus_antipodal_gain": 0.0035990773396902993,
+    "marginal_asymmetry": 1.0
+  },
+  {
+    "model": "2_pb",
+    "calls": [
+      256,
+      64
+    ],
+    "max_deploy_error": 9.992007221626409e-15,
+    "max_expected_balance": 1.3877787807814457e-17,
+    "balanced_minus_antipodal_gain": 0.00012590293074787873,
+    "marginal_asymmetry": 1.0
+  },
+  {
+    "model": "3_pb",
+    "calls": [
+      256,
+      64
+    ],
+    "max_deploy_error": 4.6629367034256575e-15,
+    "max_expected_balance": 2.7755575615628914e-17,
+    "balanced_minus_antipodal_gain": 0.0019482606365253423,
+    "marginal_asymmetry": 1.0
+  },
+  {
+    "model": "4_pb",
+    "calls": [
+      256,
+      64
+    ],
+    "max_deploy_error": 3.9968028886505635e-15,
+    "max_expected_balance": 1.3877787807814457e-17,
+    "balanced_minus_antipodal_gain": 0.0017498188109593693,
+    "marginal_asymmetry": 1.0
+  },
+  {
+    "model": "5_pb",
+    "calls": [
+      256,
+      64
+    ],
+    "max_deploy_error": 5.995204332975845e-15,
+    "max_expected_balance": 2.7755575615628914e-17,
+    "balanced_minus_antipodal_gain": 0.0014549274791023845,
+    "marginal_asymmetry": 1.0
+  },
+  {
+    "model": "6_pb",
+    "calls": [
+      256,
+      64
+    ],
+    "max_deploy_error": 3.552713678800501e-15,
+    "max_expected_balance": 2.7755575615628914e-17,
+    "balanced_minus_antipodal_gain": 0.001905472062640105,
+    "marginal_asymmetry": 1.0
+  },
+  {
+    "model": "7_pb",
+    "calls": [
+      256,
+      64
+    ],
+    "max_deploy_error": 3.3306690738754696e-15,
+    "max_expected_balance": 1.734723475976807e-17,
+    "balanced_minus_antipodal_gain": 0.0035523935557690463,
+    "marginal_asymmetry": 1.0
+  },
+  {
+    "model": "8_pb",
+    "calls": [
+      256,
+      64
+    ],
+    "max_deploy_error": 5.773159728050814e-15,
+    "max_expected_balance": 6.938893903907228e-18,
+    "balanced_minus_antipodal_gain": 0.0015637841507288256,
+    "marginal_asymmetry": 1.0
+  },
+  {
+    "model": "9_pb",
+    "calls": [
+      256,
+      64
+    ],
+    "max_deploy_error": 3.1086244689504383e-15,
+    "max_expected_balance": 1.3877787807814457e-17,
+    "balanced_minus_antipodal_gain": 0.0039976023566740265,
+    "marginal_asymmetry": 1.0
+  },
+  {
+    "model": "10_pb",
+    "calls": [
+      256,
+      64
+    ],
+    "max_deploy_error": 6.217248937900877e-15,
+    "max_expected_balance": 1.3877787807814457e-17,
+    "balanced_minus_antipodal_gain": 0.0024744370955114264,
+    "marginal_asymmetry": 1.0
+  },
+  {
+    "model": "11_pb",
+    "calls": [
+      256,
+      64
+    ],
+    "max_deploy_error": 3.774758283725532e-15,
+    "max_expected_balance": 1.3877787807814457e-17,
+    "balanced_minus_antipodal_gain": 0.0014543151590937532,
+    "marginal_asymmetry": 1.0
+  },
+  {
+    "model": "12_pb",
+    "calls": [
+      256,
+      64
+    ],
+    "max_deploy_error": 2.220446049250313e-15,
+    "max_expected_balance": 2.7755575615628914e-17,
+    "balanced_minus_antipodal_gain": 0.0012653554160208125,
+    "marginal_asymmetry": 1.0
+  },
+  {
+    "model": "13_pb",
+    "calls": [
+      256,
+      64
+    ],
+    "max_deploy_error": 1.1102230246251565e-14,
+    "max_expected_balance": 6.938893903907228e-18,
+    "balanced_minus_antipodal_gain": 0.0012771947939849045,
+    "marginal_asymmetry": 1.0
+  },
+  {
+    "model": "14_pb",
+    "calls": [
+      256,
+      64
+    ],
+    "max_deploy_error": 3.774758283725532e-15,
+    "max_expected_balance": 1.3877787807814457e-17,
+    "balanced_minus_antipodal_gain": 0.002081140625750766,
+    "marginal_asymmetry": 1.0
+  },
+  {
+    "model": "15_pb",
+    "calls": [
+      256,
+      64
+    ],
+    "max_deploy_error": 1.176836406102666e-14,
+    "max_expected_balance": 2.7755575615628914e-17,
+    "balanced_minus_antipodal_gain": 0.0017748264192864183,
+    "marginal_asymmetry": 1.0
+  },
+  {
+    "model": "16_pb",
+    "calls": [
+      256,
+      64
+    ],
+    "max_deploy_error": 4.218847493575595e-15,
+    "max_expected_balance": 1.3877787807814457e-17,
+    "balanced_minus_antipodal_gain": 0.002689584339030963,
+    "marginal_asymmetry": 1.0
+  }
+]

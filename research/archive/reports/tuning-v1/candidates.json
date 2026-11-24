@@ -1,0 +1,146 @@
+[
+  {
+    "id": "gd_00",
+    "method": "gd",
+    "learning_rate": 0.015625,
+    "damping": null
+  },
+  {
+    "id": "gd_01",
+    "method": "gd",
+    "learning_rate": 0.03125,
+    "damping": null
+  },
+  {
+    "id": "gd_02",
+    "method": "gd",
+    "learning_rate": 0.0625,
+    "damping": null
+  },
+  {
+    "id": "gd_03",
+    "method": "gd",
+    "learning_rate": 0.125,
+    "damping": null
+  },
+  {
+    "id": "gd_04",
+    "method": "gd",
+    "learning_rate": 0.25,
+    "damping": null
+  },
+  {
+    "id": "gd_05",
+    "method": "gd",
+    "learning_rate": 0.5,
+    "damping": null
+  },
+  {
+    "id": "gd_06",
+    "method": "gd",
+    "learning_rate": 1.0,
+    "damping": null
+  },
+  {
+    "id": "gd_07",
+    "method": "gd",
+    "learning_rate": 2.0,
+    "damping": null
+  },
+  {
+    "id": "gd_08",
+    "method": "gd",
+    "learning_rate": 4.0,
+    "damping": null
+  },
+  {
+    "id": "gd_09",
+    "method": "gd",
+    "learning_rate": 8.0,
+    "damping": null
+  },
+  {
+    "id": "gd_10",
+    "method": "gd",
+    "learning_rate": 16.0,
+    "damping": null
+  },
+  {
+    "id": "gd_11",
+    "method": "gd",
+    "learning_rate": 32.0,
+    "damping": null
+  },
+  {
+    "id": "pullback_00",
+    "method": "pullback",
+    "learning_rate": 2.0,
+    "damping": 0.001
+  },
+  {
+    "id": "pullback_01",
+    "method": "pullback",
+    "learning_rate": 2.0,
+    "damping": 0.01
+  },
+  {
+    "id": "pullback_02",
+    "method": "pullback",
+    "learning_rate": 2.0,
+    "damping": 0.1
+  },
+  {
+    "id": "pullback_03",
+    "method": "pullback",
+    "learning_rate": 8.0,
+    "damping": 0.001
+  },
+  {
+    "id": "pullback_04",
+    "method": "pullback",
+    "learning_rate": 8.0,
+    "damping": 0.01
+  },
+  {
+    "id": "pullback_05",
+    "method": "pullback",
+    "learning_rate": 8.0,
+    "damping": 0.1
+  },
+  {
+    "id": "pullback_06",
+    "method": "pullback",
+    "learning_rate": 32.0,
+    "damping": 0.001
+  },
+  {
+    "id": "pullback_07",
+    "method": "pullback",
+    "learning_rate": 32.0,
+    "damping": 0.01
+  },
+  {
+    "id": "pullback_08",
+    "method": "pullback",
+    "learning_rate": 32.0,
+    "damping": 0.1
+  },
+  {
+    "id": "pullback_09",
+    "method": "pullback",
+    "learning_rate": 128.0,
+    "damping": 0.001
+  },
+  {
+    "id": "pullback_10",
+    "method": "pullback",
+    "learning_rate": 128.0,
+    "damping": 0.01
+  },
+  {
+    "id": "pullback_11",
+    "method": "pullback",
+    "learning_rate": 128.0,
+    "damping": 0.1
+  }
+]

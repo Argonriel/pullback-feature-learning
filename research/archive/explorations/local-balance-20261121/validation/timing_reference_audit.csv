@@ -1,0 +1,17 @@
+seed,policy,calls,selected,max_output_error
+1,full_fused,[512],256,0.0
+2,full_fused,[512],256,0.0
+3,full_fused,[512],256,0.0
+4,full_fused,[512],256,0.0
+5,full_fused,[512],256,0.0
+6,full_fused,[512],256,0.0
+7,full_fused,[512],256,0.0
+8,full_fused,[512],256,0.0
+9,full_fused,[512],256,0.0
+10,full_fused,[512],256,0.0
+11,full_fused,[512],256,0.0
+12,full_fused,[512],256,0.0
+13,full_fused,[512],256,0.0
+14,full_fused,[512],256,0.0
+15,full_fused,[512],256,0.0
+16,full_fused,[512],256,0.0

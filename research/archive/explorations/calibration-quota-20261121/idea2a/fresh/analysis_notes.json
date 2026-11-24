@@ -1,0 +1,8 @@
+{
+  "bootstrap": "20,000 draws; 16 paired model clusters; 20 calibration repeats averaged within each cluster.",
+  "calibration_mc": "Within-model replicate SD is reported separately; MonteCarloSE= sqrt(sum(seed_variance)/(16^2*20)).",
+  "threshold_minus_one": "No threshold attained or nonpositive denominator; inspect denominator_positive.",
+  "full_calibration": "Finite 512-radius no-shrinkage reference, not oracle. Ratios can exceed 1 and are not clipped.",
+  "historical": "Old 16 defaults, separate by training method. 143.4375 degrees / 62.7022 percent is explicitly retrospective.",
+  "baseline_random": "Uniform 128-element rotation group including identity; always 2 forward calls at deployment."
+}

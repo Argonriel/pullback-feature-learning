@@ -1,0 +1,13 @@
+seed,task,stage,method,experiment,horizon,requested_drop,metric,status,pre_key,end_key,alpha,actual_drop,train_slope
+1,rings,trained,gd,single,1,0.005,fit,ok,rings_1_trained,rings_1_trained_gd_single_1_0.005_end,0.6022214675125237,0.0050000000000000044,0.010341936964453577
+1,rings,trained,pullback,single,1,0.005,fit,ok,rings_1_trained,rings_1_trained_pullback_single_1_0.005_end,250.4649446428674,0.0050000000000000044,2.1780138560923797e-05
+2,rings,trained,gd,single,1,0.005,fit,ok,rings_2_trained,rings_2_trained_gd_single_1_0.005_end,0.6233203032254189,0.0050000000000000044,0.01001688500446071
+2,rings,trained,pullback,single,1,0.005,fit,ok,rings_2_trained,rings_2_trained_pullback_single_1_0.005_end,252.52852529084646,0.0049999999999999906,2.051218689424106e-05
+3,rings,trained,gd,single,1,0.005,fit,ok,rings_3_trained,rings_3_trained_gd_single_1_0.005_end,1.1166464772324303,0.004999999999999977,0.005285004847346642
+3,rings,trained,pullback,single,1,0.005,fit,ok,rings_3_trained,rings_3_trained_pullback_single_1_0.005_end,284.5642907531528,0.0050000000000000044,1.82608285481638e-05
+4,rings,trained,gd,single,1,0.005,fit,norm_cap,rings_4_trained,rings_4_trained_gd_single_1_0.005_end,0.0,0.0,0.002733863439193153
+4,rings,trained,pullback,single,1,0.005,fit,ok,rings_4_trained,rings_4_trained_pullback_single_1_0.005_end,251.8255482938045,0.0050000000000000044,2.0524295280916894e-05
+5,rings,trained,gd,single,1,0.005,fit,ok,rings_5_trained,rings_5_trained_gd_single_1_0.005_end,0.6512162847926648,0.0050000000000000044,0.010474192005245717
+5,rings,trained,pullback,single,1,0.005,fit,ok,rings_5_trained,rings_5_trained_pullback_single_1_0.005_end,280.07894286563055,0.005000000000000018,1.851567897055753e-05
+6,rings,trained,gd,single,1,0.005,fit,ok,rings_6_trained,rings_6_trained_gd_single_1_0.005_end,0.41546296146190287,0.0049999999999999906,0.017915605122413168
+6,rings,trained,pullback,single,1,0.005,fit,ok,rings_6_trained,rings_6_trained_pullback_single_1_0.005_end,251.89525962196927,0.0049999999999999906,2.0731231950509793e-05

@@ -1,0 +1,161 @@
+seed,policy,calls,selected,max_output_error
+1,group_balanced,"[256, 64]",64,0.0
+1,group_unbalanced,"[256, 64]",64,0.0
+1,group_even,"[256, 64]",64,0.0
+1,group_uniform,"[256, 64]",64,0.0
+1,group_confidence,"[256, 64]",64,0.0
+1,confidence,"[256, 64]",64,0.0
+1,radius,"[256, 64]",64,0.0
+1,folded,"[256, 64]",64,0.0
+1,raw,[256],0,0.0
+1,full,"[256, 256]",256,0.0
+2,group_balanced,"[256, 64]",64,0.0
+2,group_unbalanced,"[256, 64]",64,0.0
+2,group_even,"[256, 64]",64,0.0
+2,group_uniform,"[256, 64]",64,0.0
+2,group_confidence,"[256, 64]",64,0.0
+2,confidence,"[256, 64]",64,0.0
+2,radius,"[256, 64]",64,0.0
+2,folded,"[256, 64]",64,0.0
+2,raw,[256],0,0.0
+2,full,"[256, 256]",256,0.0
+3,group_balanced,"[256, 64]",64,0.0
+3,group_unbalanced,"[256, 64]",64,0.0
+3,group_even,"[256, 64]",64,0.0
+3,group_uniform,"[256, 64]",64,0.0
+3,group_confidence,"[256, 64]",64,0.0
+3,confidence,"[256, 64]",64,0.0
+3,radius,"[256, 64]",64,0.0
+3,folded,"[256, 64]",64,0.0
+3,raw,[256],0,0.0
+3,full,"[256, 256]",256,0.0
+4,group_balanced,"[256, 64]",64,0.0
+4,group_unbalanced,"[256, 64]",64,0.0
+4,group_even,"[256, 64]",64,0.0
+4,group_uniform,"[256, 64]",64,0.0
+4,group_confidence,"[256, 64]",64,0.0
+4,confidence,"[256, 64]",64,0.0
+4,radius,"[256, 64]",64,0.0
+4,folded,"[256, 64]",64,0.0
+4,raw,[256],0,0.0
+4,full,"[256, 256]",256,0.0
+5,group_balanced,"[256, 64]",64,0.0
+5,group_unbalanced,"[256, 64]",64,0.0
+5,group_even,"[256, 64]",64,0.0
+5,group_uniform,"[256, 64]",64,0.0
+5,group_confidence,"[256, 64]",64,0.0
+5,confidence,"[256, 64]",64,0.0
+5,radius,"[256, 64]",64,0.0
+5,folded,"[256, 64]",64,0.0
+5,raw,[256],0,0.0
+5,full,"[256, 256]",256,0.0
+6,group_balanced,"[256, 64]",64,0.0
+6,group_unbalanced,"[256, 64]",64,0.0
+6,group_even,"[256, 64]",64,0.0
+6,group_uniform,"[256, 64]",64,0.0
+6,group_confidence,"[256, 64]",64,0.0
+6,confidence,"[256, 64]",64,0.0
+6,radius,"[256, 64]",64,0.0
+6,folded,"[256, 64]",64,0.0
+6,raw,[256],0,0.0
+6,full,"[256, 256]",256,0.0
+7,group_balanced,"[256, 64]",64,0.0
+7,group_unbalanced,"[256, 64]",64,0.0
+7,group_even,"[256, 64]",64,0.0
+7,group_uniform,"[256, 64]",64,0.0
+7,group_confidence,"[256, 64]",64,0.0
+7,confidence,"[256, 64]",64,0.0
+7,radius,"[256, 64]",64,0.0
+7,folded,"[256, 64]",64,0.0
+7,raw,[256],0,0.0
+7,full,"[256, 256]",256,0.0
+8,group_balanced,"[256, 64]",64,0.0
+8,group_unbalanced,"[256, 64]",64,0.0
+8,group_even,"[256, 64]",64,0.0
+8,group_uniform,"[256, 64]",64,0.0
+8,group_confidence,"[256, 64]",64,0.0
+8,confidence,"[256, 64]",64,0.0
+8,radius,"[256, 64]",64,0.0
+8,folded,"[256, 64]",64,0.0
+8,raw,[256],0,0.0
+8,full,"[256, 256]",256,0.0
+9,group_balanced,"[256, 64]",64,0.0
+9,group_unbalanced,"[256, 64]",64,0.0
+9,group_even,"[256, 64]",64,0.0
+9,group_uniform,"[256, 64]",64,0.0
+9,group_confidence,"[256, 64]",64,0.0
+9,confidence,"[256, 64]",64,0.0
+9,radius,"[256, 64]",64,0.0
+9,folded,"[256, 64]",64,0.0
+9,raw,[256],0,0.0
+9,full,"[256, 256]",256,0.0
+10,group_balanced,"[256, 64]",64,0.0
+10,group_unbalanced,"[256, 64]",64,0.0
+10,group_even,"[256, 64]",64,0.0
+10,group_uniform,"[256, 64]",64,0.0
+10,group_confidence,"[256, 64]",64,0.0
+10,confidence,"[256, 64]",64,0.0
+10,radius,"[256, 64]",64,0.0
+10,folded,"[256, 64]",64,0.0
+10,raw,[256],0,0.0
+10,full,"[256, 256]",256,0.0
+11,group_balanced,"[256, 64]",64,0.0
+11,group_unbalanced,"[256, 64]",64,0.0
+11,group_even,"[256, 64]",64,0.0
+11,group_uniform,"[256, 64]",64,0.0
+11,group_confidence,"[256, 64]",64,0.0
+11,confidence,"[256, 64]",64,0.0
+11,radius,"[256, 64]",64,0.0
+11,folded,"[256, 64]",64,0.0
+11,raw,[256],0,0.0
+11,full,"[256, 256]",256,0.0
+12,group_balanced,"[256, 64]",64,0.0
+12,group_unbalanced,"[256, 64]",64,0.0
+12,group_even,"[256, 64]",64,0.0
+12,group_uniform,"[256, 64]",64,0.0
+12,group_confidence,"[256, 64]",64,0.0
+12,confidence,"[256, 64]",64,0.0
+12,radius,"[256, 64]",64,0.0
+12,folded,"[256, 64]",64,0.0
+12,raw,[256],0,0.0
+12,full,"[256, 256]",256,0.0
+13,group_balanced,"[256, 64]",64,0.0
+13,group_unbalanced,"[256, 64]",64,0.0
+13,group_even,"[256, 64]",64,0.0
+13,group_uniform,"[256, 64]",64,0.0
+13,group_confidence,"[256, 64]",64,0.0
+13,confidence,"[256, 64]",64,0.0
+13,radius,"[256, 64]",64,0.0
+13,folded,"[256, 64]",64,0.0
+13,raw,[256],0,0.0
+13,full,"[256, 256]",256,0.0
+14,group_balanced,"[256, 64]",64,0.0
+14,group_unbalanced,"[256, 64]",64,0.0
+14,group_even,"[256, 64]",64,0.0
+14,group_uniform,"[256, 64]",64,0.0
+14,group_confidence,"[256, 64]",64,0.0
+14,confidence,"[256, 64]",64,0.0
+14,radius,"[256, 64]",64,0.0
+14,folded,"[256, 64]",64,0.0
+14,raw,[256],0,0.0
+14,full,"[256, 256]",256,0.0
+15,group_balanced,"[256, 64]",64,0.0
+15,group_unbalanced,"[256, 64]",64,0.0
+15,group_even,"[256, 64]",64,0.0
+15,group_uniform,"[256, 64]",64,0.0
+15,group_confidence,"[256, 64]",64,0.0
+15,confidence,"[256, 64]",64,0.0
+15,radius,"[256, 64]",64,0.0
+15,folded,"[256, 64]",64,0.0
+15,raw,[256],0,0.0
+15,full,"[256, 256]",256,0.0
+16,group_balanced,"[256, 64]",64,0.0
+16,group_unbalanced,"[256, 64]",64,0.0
+16,group_even,"[256, 64]",64,0.0
+16,group_uniform,"[256, 64]",64,0.0
+16,group_confidence,"[256, 64]",64,0.0
+16,confidence,"[256, 64]",64,0.0
+16,radius,"[256, 64]",64,0.0
+16,folded,"[256, 64]",64,0.0
+16,raw,[256],0,0.0
+16,full,"[256, 256]",256,0.0

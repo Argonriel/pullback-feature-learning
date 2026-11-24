@@ -1,0 +1,202 @@
+{
+  "timestamp_utc": "2026-11-21T22:18:07.743976+00:00",
+  "choices": {
+    "pb": {
+      "optimizer": "pb",
+      "rate": 2.0,
+      "lam": 0.0,
+      "damping": 0.1
+    },
+    "gd": {
+      "optimizer": "gd",
+      "rate": 0.3,
+      "lam": 0.0,
+      "damping": 0.1
+    }
+  },
+  "summaries": [
+    {
+      "recipe": "pb_rate2_lam0",
+      "optimizer": "pb",
+      "rate": 2.0,
+      "lam": 0.0,
+      "damping": 0.1,
+      "eligible": true,
+      "mean_selected_validation_nll": 0.6541728940254582,
+      "mean_selected_step": 500.0
+    },
+    {
+      "recipe": "pb_rate2_lam0.001",
+      "optimizer": "pb",
+      "rate": 2.0,
+      "lam": 0.001,
+      "damping": 0.1,
+      "eligible": true,
+      "mean_selected_validation_nll": 0.6819902204806587,
+      "mean_selected_step": 1000.0
+    },
+    {
+      "recipe": "pb_rate2_lam0.01",
+      "optimizer": "pb",
+      "rate": 2.0,
+      "lam": 0.01,
+      "damping": 0.1,
+      "eligible": true,
+      "mean_selected_validation_nll": 0.7025552266609397,
+      "mean_selected_step": 1000.0
+    },
+    {
+      "recipe": "pb_rate4_lam0",
+      "optimizer": "pb",
+      "rate": 4.0,
+      "lam": 0.0,
+      "damping": 0.1,
+      "eligible": true,
+      "mean_selected_validation_nll": 0.6543735648985746,
+      "mean_selected_step": 250.0
+    },
+    {
+      "recipe": "pb_rate4_lam0.001",
+      "optimizer": "pb",
+      "rate": 4.0,
+      "lam": 0.001,
+      "damping": 0.1,
+      "eligible": true,
+      "mean_selected_validation_nll": 0.6754110123051317,
+      "mean_selected_step": 625.0
+    },
+    {
+      "recipe": "pb_rate4_lam0.01",
+      "optimizer": "pb",
+      "rate": 4.0,
+      "lam": 0.01,
+      "damping": 0.1,
+      "eligible": true,
+      "mean_selected_validation_nll": 0.6995903124823781,
+      "mean_selected_step": 1000.0
+    },
+    {
+      "recipe": "pb_rate8_lam0",
+      "optimizer": "pb",
+      "rate": 8.0,
+      "lam": 0.0,
+      "damping": 0.1,
+      "eligible": true,
+      "mean_selected_validation_nll": 0.6598208500862157,
+      "mean_selected_step": 100.0
+    },
+    {
+      "recipe": "pb_rate8_lam0.001",
+      "optimizer": "pb",
+      "rate": 8.0,
+      "lam": 0.001,
+      "damping": 0.1,
+      "eligible": true,
+      "mean_selected_validation_nll": 0.6764919443195571,
+      "mean_selected_step": 437.5
+    },
+    {
+      "recipe": "pb_rate8_lam0.01",
+      "optimizer": "pb",
+      "rate": 8.0,
+      "lam": 0.01,
+      "damping": 0.1,
+      "eligible": true,
+      "mean_selected_validation_nll": 0.6992276907063149,
+      "mean_selected_step": 1000.0
+    },
+    {
+      "recipe": "gd_rate0.1_lam0",
+      "optimizer": "gd",
+      "rate": 0.1,
+      "lam": 0.0,
+      "damping": 0.1,
+      "eligible": true,
+      "mean_selected_validation_nll": 0.6973772812333252,
+      "mean_selected_step": 1000.0
+    },
+    {
+      "recipe": "gd_rate0.1_lam0.001",
+      "optimizer": "gd",
+      "rate": 0.1,
+      "lam": 0.001,
+      "damping": 0.1,
+      "eligible": true,
+      "mean_selected_validation_nll": 0.6976963696232058,
+      "mean_selected_step": 1000.0
+    },
+    {
+      "recipe": "gd_rate0.1_lam0.01",
+      "optimizer": "gd",
+      "rate": 0.1,
+      "lam": 0.01,
+      "damping": 0.1,
+      "eligible": true,
+      "mean_selected_validation_nll": 0.703212246515309,
+      "mean_selected_step": 1000.0
+    },
+    {
+      "recipe": "gd_rate0.3_lam0",
+      "optimizer": "gd",
+      "rate": 0.3,
+      "lam": 0.0,
+      "damping": 0.1,
+      "eligible": true,
+      "mean_selected_validation_nll": 0.6956599878747094,
+      "mean_selected_step": 687.5
+    },
+    {
+      "recipe": "gd_rate0.3_lam0.001",
+      "optimizer": "gd",
+      "rate": 0.3,
+      "lam": 0.001,
+      "damping": 0.1,
+      "eligible": true,
+      "mean_selected_validation_nll": 0.6961831716491658,
+      "mean_selected_step": 750.0
+    },
+    {
+      "recipe": "gd_rate0.3_lam0.01",
+      "optimizer": "gd",
+      "rate": 0.3,
+      "lam": 0.01,
+      "damping": 0.1,
+      "eligible": true,
+      "mean_selected_validation_nll": 0.7011887119436142,
+      "mean_selected_step": 875.0
+    },
+    {
+      "recipe": "gd_rate1_lam0",
+      "optimizer": "gd",
+      "rate": 1.0,
+      "lam": 0.0,
+      "damping": 0.1,
+      "eligible": true,
+      "mean_selected_validation_nll": 0.695813956656129,
+      "mean_selected_step": 175.0
+    },
+    {
+      "recipe": "gd_rate1_lam0.001",
+      "optimizer": "gd",
+      "rate": 1.0,
+      "lam": 0.001,
+      "damping": 0.1,
+      "eligible": true,
+      "mean_selected_validation_nll": 0.6963320351307521,
+      "mean_selected_step": 175.0
+    },
+    {
+      "recipe": "gd_rate1_lam0.01",
+      "optimizer": "gd",
+      "rate": 1.0,
+      "lam": 0.01,
+      "damping": 0.1,
+      "eligible": true,
+      "mean_selected_validation_nll": 0.6994194942140437,
+      "mean_selected_step": 1000.0
+    }
+  ],
+  "rule": "Within each trajectory choose minimum sampled-validation NLL, ties earlier checkpoint. Within optimizer choose minimum four-seed mean of those selected NLLs; exact ties lower mean selected step, then lower lambda, then lower rate. Failed trajectory makes recipe ineligible.",
+  "pilot_freeze_sha256": "f4d0ee14ecbbbf8b74f4c132f4f4bdb3743202aa8fffa59fadb6fe1ce495db3a",
+  "trajectory_sha256": "cbb18fbb98759edf968a5e4cd04256247da4118f78eb508413861e3680434a56"
+}

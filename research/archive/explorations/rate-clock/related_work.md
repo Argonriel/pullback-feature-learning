@@ -1,0 +1,25 @@
+# Does the learning rate only change training speed?
+
+## A published experiment using the same clock
+
+Elkabetz and Cohen compared gradient descent runs on MNIST networks from the same initial weights. They divided a reference step size of 0.001 by 2, 5, 10, or 20 and took that many more updates. At equal values of the step size times the update count, they compared training losses and Euclidean distances between parameter vectors. The trajectories stayed close in the reported networks. Their Theorem 3 gives a sufficient, curvature-dependent condition for this agreement over a finite time interval. Section 6 and Figure 1 are direct precedents for our matched-time experiment. [Elkabetz and Cohen, NeurIPS 2021](https://proceedings.neurips.cc/paper_files/paper/2021/file/274ad4786c3abca69fa097b85867d9a4-Paper.pdf)
+
+For full-batch GD with step size \(\eta\), the update \(\theta_{k+1}=\theta_k-\eta\nabla L(\theta_k)\) is one forward Euler step for \(\dot\theta=-\nabla L(\theta)\). Starting at the shared switch state, the corresponding continuous time is \(t=k\eta\). Matching this time is a test of the hypothesis that different runs follow the same path at proportionally different speeds. The number of gradient evaluations still equals \(k\). Matching training loss asks a second question: when the networks have fitted the labels to a similar degree, do they make the same prediction-time decisions? One scalar loss can agree across different predictors.
+
+## How finite steps can change the path
+
+Barrett and Dherin derive the leading correction to the continuous dynamics for a smooth training loss. One GD step agrees to local error \(O(\eta^3)\) with time \(\eta\) along gradient flow of the modified loss \(L+\eta\|\nabla L\|^2/4\). The original flow generally gives local error \(O(\eta^2)\). This expansion explains how a finite step can change direction at the same nominal time. Its accuracy depends on step size and local smoothness. [Barrett and Dherin, ICLR 2021, Theorem 3.1](https://arxiv.org/pdf/2009.11162)
+
+Cohen et al. plotted full-batch GD against \(t=k\eta\) and compared it with a separately integrated gradient flow. In many of their experiments the paths initially agreed, then diverged near the point where the leading Hessian eigenvalue reached \(2/\eta\). Near this stability boundary they observed training loss fluctuations across updates alongside longer-term progress. Their comparison includes smooth tanh networks. An attribution to this mechanism in another model requires measurements of its curvature and trajectory. [Cohen et al., ICLR 2021, Section 3.4 and Appendix J](https://arxiv.org/pdf/2103.00065)
+
+Nacson et al. found that step size can favor different interpolating predictors in diagonal linear networks trained on underdetermined squared-loss regression. Their clearest effects involved noncentered data and a sparse target. This gives a concrete example in which similar training fit allows different generalization behavior. The rings study uses a centered input law, a nonlinear residual classifier, and logistic loss. Its empirical comparisons address a different population and observable. [Nacson et al., ICML 2022, Sections 4 and 5](https://proceedings.mlr.press/v162/nacson22a.html)
+
+## What the rings study adds
+
+Son and Kang provide a particularly close precedent for our confidence comparator. They use the base classifier's uncertainty on the original image to decide which images receive test-time augmentation. Their evaluation spans eight image datasets and measures accuracy and computation. We use a fixed per-batch quota and score log loss on rotated rings, where the benefit can be decomposed exactly. [Son and Kang, Information Sciences, 2023](https://doi.org/10.1016/j.ins.2023.119148)
+
+Prior work also addresses the decision to spend an additional prediction. Mocerino et al. average class probabilities across image views and stop when the margin between the top two classes passes a confidence threshold. Shanmugam et al. show that averaging augmented predictions can correct some images and spoil others even when accuracy improves overall. Both observations motivate per-input evaluation of a second view. [Mocerino et al., VLSI-SoC 2021, Section III](https://doi.org/10.1109/VLSI-SoC53125.2021.9606980) · [Shanmugam et al., ICCV 2021, Figures 1 and 2](https://openaccess.thecvf.com/content/ICCV2021/papers/Shanmugam_Better_Aggregation_in_Test-Time_Augmentation_ICCV_2021_paper.pdf)
+
+Our course project connects these two questions. All three rates start at the same pullback-trained weights within a seed. At matched GD time and at common training-loss targets, we compare the held-out benefit of allocating a half-turn to exactly one quarter of inputs, using either first-view confidence or a region's benefit estimated without labels. The exact orientation and symmetric gain terms show how the relative performance of the policies changes. Published work supplies the time control and confidence-based augmentation precedents. Our contribution is the paired test of a budgeted prediction decision under a known rotation-symmetric law.
+
+[BibTeX entries](references.bib)

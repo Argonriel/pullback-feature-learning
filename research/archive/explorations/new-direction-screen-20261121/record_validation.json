@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "endpoint_cross_implementation": [
+    {
+      "damping": 0.0,
+      "independent_gap_difference": 1.6542883729542268e-10,
+      "max_independent_endpoint_difference": 1.6913437317356284e-10
+    },
+    {
+      "damping": 0.003,
+      "independent_gap_difference": 2.680283217593171e-10,
+      "max_independent_endpoint_difference": 2.721839420516403e-10
+    },
+    {
+      "damping": 0.3,
+      "independent_gap_difference": 1.820830153320685e-10,
+      "max_independent_endpoint_difference": 1.860847032020274e-10
+    }
+  ],
+  "poisoning_replay_exactly_matches": true,
+  "poisoning_source_sha256": "1ae287040f77a3607d2116504390d5a6cca672cc83f9feb08a70c712b7458ff4",
+  "source_sha256": "bfbb047379a940c5c348f3273601a7e309b0608bb4393dd45bfdd5a93d9d2a6e",
+  "scope": "Numerical/provenance validation, not originality or generalization validation."
+}

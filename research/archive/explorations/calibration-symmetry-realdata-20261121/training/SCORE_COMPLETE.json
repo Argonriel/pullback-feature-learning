@@ -1,0 +1,25 @@
+{
+  "timestamp_utc": "2026-11-21T22:22:02.161730+00:00",
+  "rows": 384,
+  "ledger_rows": 98304,
+  "actual_forwards": 34603008,
+  "manifest": {
+    "predictions/1.npz": "d231d5100f84493ec48cc91102129fae02556bd1a03efd278df588bd2b44b133",
+    "predictions/2.npz": "21984b72c4cd3cde11eac15afc59d35621fdbb3e906979bc1a89bececbdc013b",
+    "predictions/3.npz": "e6389d98a70ea3aa42cae1cd196cc720b3ce29017e4547db7eaf76d0792d3ca3",
+    "predictions/4.npz": "054d4ac21622199b181bd384b33f19954fd4c77b08e4ef020e04f5583f22404f",
+    "predictions/5.npz": "7c28b084b14fee98fd5b8021d2b98620c2311b13c4e21979229cacc9a6a91012",
+    "predictions/6.npz": "5ee8674902668411125b881fcda4b3ae0d04d5bafce3366fe64dd0229165c4c0",
+    "predictions/7.npz": "f00d27f83ba92e70660eb6d9acd4519cfc0b01bd8ed6a0f122efc4ee99702cfd",
+    "predictions/8.npz": "242d4c44fe398b95aff3da3a401538c89a2748d51e84900876ae23c5bc20f405",
+    "predictions/9.npz": "94464c5ad977b4593168325e2c36375fae0d5342213100bdeed9a65b5d95029d",
+    "predictions/10.npz": "2bc98f7b004f3b159fd28641a39bdc1674535327c8b6b88876ffad353bf81d5d",
+    "predictions/11.npz": "8b5647dd35a63e105435258d6cdbaf4959a47215d0a10e9c02f5f0984f6c7949",
+    "predictions/12.npz": "7b2255d0c9716c9691ec5e7c434b053ea2a4e07c016b2e74bdb4d90806a98d7e",
+    "predictions/13.npz": "179b68e3bf96ebc344409e132ee670507a3b1d63d4c7a064099ad7fc6aa512f8",
+    "predictions/14.npz": "08cde5ac81744c639fa8c635a8d3348b80bfa5daaf23264f2b2441adb33de668",
+    "predictions/15.npz": "22f9e5476686601a9d96b312fcc4003e7315a0e9fd7d83745d2d505fa1021a5a",
+    "predictions/16.npz": "ab33bf86134ddc3dbd5deb09064c5afaf4a095e3c610fedfe59f75f30b61a399"
+  },
+  "policy_commit_sha256": "db8635340e098dd3e8501004ea565ea8b25ce7aa652e4497d53d472c5a527a17"
+}

@@ -1,0 +1,109 @@
+{
+  "timestamp_utc": "2026-11-21T09:38:59.808482+00:00",
+  "config": {
+    "n_models": 16,
+    "test_n": 65536,
+    "batch": 256,
+    "quota": 64,
+    "new_cal_seed_base": 923000,
+    "angle_radius_seed_base": 923100,
+    "angle_phase_seed_base": 924000,
+    "gate_seed_base": 925000,
+    "test_seed_base": 926000,
+    "tie_seed_base": 927000,
+    "group_seed_base": 928000,
+    "action_seed_base": 928100,
+    "label_seed_base": 928200,
+    "bootstrap_seed": 928999,
+    "bootstrap_repeats": 20000,
+    "continuous_forwards": 66048,
+    "gate_inputs": 33024,
+    "angle_radii": 64,
+    "angle_nodes": 128,
+    "timing_warmup": 2,
+    "timing_repeats": 7,
+    "timing_batches": 16,
+    "hidden_worlds": {
+      "half": 0.5,
+      "increasing_midpoint": 0.85,
+      "increasing_scale": 0.15
+    },
+    "no_retuning": true
+  },
+  "training": {
+    "n_models": 16,
+    "train_seed_base": 921000,
+    "init_seed_base": 922000,
+    "steps": 500,
+    "prefix_steps": 100,
+    "rate": 8.0,
+    "damping": 0.1,
+    "n_train": 256,
+    "n_parameters": 80
+  },
+  "policies": [
+    "group_balanced",
+    "group_unbalanced",
+    "group_even",
+    "group_uniform",
+    "group_confidence",
+    "confidence",
+    "radius",
+    "folded",
+    "confidence_radial",
+    "raw",
+    "full",
+    "full_radial",
+    "rank_balanced",
+    "rank_even",
+    "rank_unbalanced"
+  ],
+  "timing_policies": [
+    "group_balanced",
+    "group_unbalanced",
+    "group_even",
+    "group_uniform",
+    "group_confidence",
+    "confidence",
+    "radius",
+    "folded",
+    "confidence_radial",
+    "raw",
+    "full",
+    "full_radial",
+    "rank_balanced",
+    "rank_even",
+    "rank_unbalanced",
+    "full_fused"
+  ],
+  "new_policies": [
+    "rank_balanced",
+    "rank_even",
+    "rank_unbalanced"
+  ],
+  "primary_contrasts": [
+    [
+      "rank_balanced",
+      "confidence"
+    ],
+    [
+      "rank_balanced",
+      "rank_even"
+    ]
+  ],
+  "source_hashes": {
+    "validation\\study.py": "af586f5ca00b8a24fe609eb86c124a4fa3d0a6e088f8b23f16a0f3fb92689957",
+    "validation\\train.py": "86992f80231322dc204f437df151df0637c43d6498308fbf2522fa6120831024",
+    "validation\\PROTOCOL.md": "a18261ae3cec1598e7a5ab8e74d537aed923e7146bade8464ee463964948b22e",
+    "selection\\policy.py": "9f6e3e96a85fa62657ec1430aececc846cffa3ce338786356d514d942d00ae31",
+    "selection\\FREEZE.json": "6ee67aec07e526932d854aa311ad306b72083d5059da4fdf49138a94aae67cc9",
+    "selection\\FROZEN_CHOICE.json": "e2178a83ee0ddf2fa0ec41bd72c3f05948297e14327ebe45e66de908dd902dbf",
+    "reference\\continuous_policy.py": "245e2b508f28ebee8907f41105513fc7899cac83175f6401478d9e9b43fed48c",
+    "reference\\experiment.py": "d865d8eafb95fb39a5b97f957471c27d142055616c46430e95c0c6f1e2d8ff56",
+    "source\\pullback_feature_learning\\core.py": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5",
+    "legacy\\budgeted-rotation-final\\gate.py": "2727f2fb030cb6e6a02cf8ac77be8f96b04db9a6419bc5a7bdf2024b548684c3",
+    "legacy\\budgeted-rotation-final\\generator.py": "885eb5c8d8878b57df1025c1a5a69b6978d4c2803f3f0e552c557170c7e355d2"
+  },
+  "fresh_training_started": false,
+  "fresh_test_outcomes_accessed": false
+}

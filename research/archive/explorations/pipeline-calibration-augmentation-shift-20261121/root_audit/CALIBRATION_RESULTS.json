@@ -1,0 +1,43 @@
+{
+  "utc": "2026-11-21T22:49:10.681604+00:00",
+  "status": "PASS",
+  "metric_rows": 384,
+  "max_metric_error": 1.1102230246251565e-16,
+  "max_pipeline_output_error": 0.0,
+  "max_temperature_error": 4.440892098500626e-16,
+  "source_artifact_hash_checks": 192,
+  "seed_replays": 16,
+  "checkpoint_choices": 16,
+  "temperature_fits": 144,
+  "calibration_pipeline_replays": 144,
+  "mask_or_class_discrepancies": 0,
+  "ledger_rows": 98304,
+  "actual_deployment_forwards": 36962304,
+  "additional_audit_forward_examples": 396288,
+  "primary_bootstraps": [
+    {
+      "contrast": "selected_full_final_vs_rawT",
+      "mean": -0.01309821427695708,
+      "lower": -0.016366118978832958,
+      "upper": -0.010031187541688361
+    },
+    {
+      "contrast": "selected_interp_final_vs_rawT",
+      "mean": -0.006156999644477315,
+      "lower": -0.008040296818659514,
+      "upper": -0.004516322575187285
+    },
+    {
+      "contrast": "extra_training_vs_legacy_rawT",
+      "mean": -0.09419535870245678,
+      "lower": -0.10274564960923396,
+      "upper": -0.08466773443965962
+    },
+    {
+      "contrast": "selected_vs_legacy_rawT",
+      "mean": 0.0050941286305052555,
+      "lower": 0.001643509450056505,
+      "upper": 0.007989153334745468
+    }
+  ]
+}

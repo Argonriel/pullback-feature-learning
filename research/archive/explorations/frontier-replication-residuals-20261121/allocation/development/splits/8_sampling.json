@@ -1,0 +1,42 @@
+{
+  "phase": "development",
+  "pair": 8,
+  "seed_id": 8,
+  "metadata": [
+    {
+      "proposals": 9216,
+      "proposal_batches": 1,
+      "class_counts": [
+        1152,
+        1152
+      ]
+    },
+    {
+      "proposals": 3072,
+      "proposal_batches": 1,
+      "class_counts": [
+        384,
+        384
+      ]
+    },
+    {
+      "proposals": 2048,
+      "proposal_batches": 1,
+      "class_counts": [
+        256,
+        256
+      ]
+    },
+    {
+      "proposals": 1024,
+      "proposal_batches": 1,
+      "class_counts": [
+        128,
+        128
+      ]
+    }
+  ],
+  "accepted_training_union": 3840,
+  "calibration_label_union": 2048,
+  "unique_fitting_label_union": 5888
+}

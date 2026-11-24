@@ -1,0 +1,18 @@
+{
+  "conditions": {
+    "cpu": {
+      "student_over_plain": 1.0108090513232504,
+      "within_ten_percent": true
+    },
+    "cuda_resident": {
+      "student_over_plain": 1.040578020928326,
+      "within_ten_percent": true
+    },
+    "cuda_transfer": {
+      "student_over_plain": 1.1964704943306388,
+      "within_ten_percent": false
+    }
+  },
+  "serving_success": false,
+  "overall_success": false
+}

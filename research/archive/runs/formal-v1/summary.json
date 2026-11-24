@@ -1,0 +1,179 @@
+{
+  "methods": {
+    "iteration": {
+      "gd": {
+        "train_loss": {
+          "mean": 0.014085435031538229,
+          "sample_sd": 0.002195712399391891
+        },
+        "validation_loss": {
+          "mean": 0.04061713350702799,
+          "sample_sd": 0.020578569987582954
+        },
+        "test_loss": {
+          "mean": 0.034790810083485196,
+          "sample_sd": 0.0026486105258999664
+        },
+        "test_accuracy": {
+          "mean": 0.9886666666666667,
+          "sample_sd": 0.0020207259421636597
+        },
+        "step": {
+          "mean": 2000.0,
+          "sample_sd": 0.0
+        },
+        "training_seconds": {
+          "mean": 0.14588803334966846,
+          "sample_sd": 0.006484639332878358
+        }
+      },
+      "pullback": {
+        "train_loss": {
+          "mean": 0.01638151266510898,
+          "sample_sd": 8.834470577264083e-05
+        },
+        "validation_loss": {
+          "mean": 0.08166566997417023,
+          "sample_sd": 0.04059033217216792
+        },
+        "test_loss": {
+          "mean": 0.07985432869961277,
+          "sample_sd": 0.008172342656208207
+        },
+        "test_accuracy": {
+          "mean": 0.9821666666666666,
+          "sample_sd": 0.0032532035493238872
+        },
+        "step": {
+          "mean": 2000.0,
+          "sample_sd": 0.0
+        },
+        "training_seconds": {
+          "mean": 1.2220238999701298,
+          "sample_sd": 0.010618397068801445
+        }
+      }
+    },
+    "time": {
+      "gd": {
+        "train_loss": {
+          "mean": 0.002204248890957237,
+          "sample_sd": 0.002806506779562926
+        },
+        "validation_loss": {
+          "mean": 0.06999053591267407,
+          "sample_sd": 0.043453389565053596
+        },
+        "test_loss": {
+          "mean": 0.06222319661965614,
+          "sample_sd": 0.019908201121376763
+        },
+        "test_accuracy": {
+          "mean": 0.9881666666666667,
+          "sample_sd": 0.0025166114784235852
+        },
+        "step": {
+          "mean": 27195.666666666668,
+          "sample_sd": 770.6389124183474
+        },
+        "training_seconds": {
+          "mean": 1.9999511005832271,
+          "sample_sd": 7.149986413569176e-05
+        }
+      },
+      "pullback": {
+        "train_loss": {
+          "mean": 0.00993679240858128,
+          "sample_sd": 3.7190363839952105e-05
+        },
+        "validation_loss": {
+          "mean": 0.08343584183316265,
+          "sample_sd": 0.04608778740487413
+        },
+        "test_loss": {
+          "mean": 0.08263504238743409,
+          "sample_sd": 0.009223935736782082
+        },
+        "test_accuracy": {
+          "mean": 0.9821666666666666,
+          "sample_sd": 0.00301385688667086
+        },
+        "step": {
+          "mean": 3280.3333333333335,
+          "sample_sd": 19.857828011475306
+        },
+        "training_seconds": {
+          "mean": 1.999629200011744,
+          "sample_sd": 0.0002228281378862199
+        }
+      }
+    }
+  },
+  "paired_differences": {
+    "iteration": {
+      "test_loss": {
+        "definition": "pullback minus GD",
+        "seed_order": [
+          "formal1",
+          "formal2",
+          "formal3"
+        ],
+        "values": [
+          0.04130840496868003,
+          0.04163665834629155,
+          0.05224549253341112
+        ],
+        "mean": 0.04506351861612757,
+        "sample_sd": 0.006221936963790638
+      },
+      "test_accuracy": {
+        "definition": "pullback minus GD",
+        "seed_order": [
+          "formal1",
+          "formal2",
+          "formal3"
+        ],
+        "values": [
+          -0.00550000000000006,
+          -0.005499999999999949,
+          -0.008500000000000063
+        ],
+        "mean": -0.006500000000000024,
+        "sample_sd": 0.001732050807568911
+      }
+    },
+    "time": {
+      "test_loss": {
+        "definition": "pullback minus GD",
+        "seed_order": [
+          "formal1",
+          "formal2",
+          "formal3"
+        ],
+        "values": [
+          -0.002604191572932832,
+          0.03405772180986806,
+          0.029782007066398636
+        ],
+        "mean": 0.020411845767777954,
+        "sample_sd": 0.020046793142386277
+      },
+      "test_accuracy": {
+        "definition": "pullback minus GD",
+        "seed_order": [
+          "formal1",
+          "formal2",
+          "formal3"
+        ],
+        "values": [
+          -0.0030000000000000027,
+          -0.00550000000000006,
+          -0.009500000000000064
+        ],
+        "mean": -0.006000000000000043,
+        "sample_sd": 0.0032787192621510286
+      }
+    }
+  },
+  "aggregate_complete": true
+}

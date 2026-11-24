@@ -1,0 +1,60 @@
+{
+  "date_local": "2026-11-21",
+  "timezone": "America/Los_Angeles",
+  "checked_utc": "2026-11-22T04:06:47.671256+00:00",
+  "package": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\astra6-global-convergence-deepening-20261121",
+  "manifest_sha256": "98253c37ce40817ccf407acaad293a707d5c846df7f4f253d3d3e2c3b2e00304",
+  "content_files_checked": 38,
+  "content_mismatches": [],
+  "unexpected_content_files": [],
+  "broken_local_markdown_links": [],
+  "source_result_checks": [
+    {
+      "record": "validation_boundary_v1/results.json",
+      "source": "source_snapshot/verify_boundary.py",
+      "passed": true
+    },
+    {
+      "record": "independent_spectral/results.json",
+      "source": "source_snapshot/check_quantitative.py",
+      "passed": true
+    },
+    {
+      "record": "independent_boundary/exact_checks.json",
+      "source": "source_snapshot/exact_controls_check.py",
+      "passed": true
+    },
+    {
+      "record": "independent_literature/lyapunov_counterexample_results.json",
+      "source": "source_snapshot/lyapunov_counterexample.cjs",
+      "passed": true
+    }
+  ],
+  "literature_manifest_mismatches": [],
+  "historical_input_mismatches": [],
+  "prior_archives": [
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\three-candidate-exploration-20261121",
+      "checked_files": 39,
+      "manifest_sha256": "65482ffc1bc0e590d481e8a43b70d2fe8d9dc9374e87c3b49ee60d2c4ba99214",
+      "mismatches": [],
+      "passed": true
+    },
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\endpoint-classification-audit-20261121",
+      "checked_files": 13,
+      "manifest_sha256": "e87f7057cf21af0bd3d5ad09568c5951cd2525c8c1bd3d1de17ecf803989880e",
+      "mismatches": [],
+      "passed": true
+    }
+  ],
+  "numerical_record_checks": {
+    "boundary_record_passed": true,
+    "quantitative_record_passed": true,
+    "rational_record_passed": true,
+    "independent_obstruction_record_passed": true
+  },
+  "authoritative_theorem_matches_reviewed_copy": true,
+  "limits": "Hash/link/numerical-record consistency only; no proof, originality, or continuous-time certificate.",
+  "passed": true
+}

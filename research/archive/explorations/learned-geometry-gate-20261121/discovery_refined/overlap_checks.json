@@ -1,0 +1,1046 @@
+[
+  {
+    "run": "('rings', 'd1', 'tangent_gd', None, 0.01)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd1', 'tangent_gd', None, 0.01)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd1', 'tangent_gd', None, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd1', 'tangent_gd', None, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd1', 'tangent_pb', 0.1, 0.01)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd1', 'tangent_pb', 0.1, 0.01)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd1', 'tangent_pb', 0.1, 0.01)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd1', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd1', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd1', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd2', 'tangent_gd', None, 0.01)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd2', 'tangent_gd', None, 0.01)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd2', 'tangent_gd', None, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd2', 'tangent_gd', None, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd2', 'tangent_pb', 0.1, 0.01)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd2', 'tangent_pb', 0.1, 0.01)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd2', 'tangent_pb', 0.1, 0.01)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd2', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd2', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd2', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_gd', None, 0.01)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_gd', None, 0.01)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_gd', None, 0.01)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_gd', None, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_gd', None, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_gd', None, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_pb', 0.1, 0.01)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_pb', 0.1, 0.01)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_pb', 0.1, 0.01)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_pb', 0.1, 0.01)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_gd', None, 0.01)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_gd', None, 0.01)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_gd', None, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_gd', None, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_pb', 0.1, 0.01)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_pb', 0.1, 0.01)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_pb', 0.1, 0.01)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_pb', 0.1, 0.01)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.0,
+    "same_controller": true
+  },
+  {
+    "run": "('moons', 'd1', 'nonlinear_gd', None, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd1', 'nonlinear_gd', None, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd1', 'nonlinear_gd', None, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd1', 'nonlinear_gd', None, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd1', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd1', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.002627608902049383,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd1', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.003232257786960402,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd1', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.03604716822254783,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd1', 'tangent_gd', None, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd1', 'tangent_gd', None, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd1', 'tangent_gd', None, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0003455355081330991,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd1', 'tangent_gd', None, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.0015010911316153397,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd1', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd1', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 4.276111242340619e-05,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd1', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.004904677088676479,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd1', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.0036272870717439787,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd2', 'nonlinear_gd', None, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd2', 'nonlinear_gd', None, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd2', 'nonlinear_gd', None, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd2', 'nonlinear_gd', None, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd2', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd2', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0015515241386081513,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd2', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.006476460357171643,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd2', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.05005661780072357,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd2', 'tangent_gd', None, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd2', 'tangent_gd', None, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd2', 'tangent_gd', None, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd2', 'tangent_gd', None, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.0021089527468873825,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd2', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd2', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd2', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.002287823046238202,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd2', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.0033002277470570718,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd3', 'nonlinear_gd', None, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd3', 'nonlinear_gd', None, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd3', 'nonlinear_gd', None, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd3', 'nonlinear_gd', None, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd3', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd3', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.001063208002715088,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd3', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0032888316144155105,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd3', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.0036713902516179314,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd3', 'tangent_gd', None, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd3', 'tangent_gd', None, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd3', 'tangent_gd', None, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0014860859559653328,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd3', 'tangent_gd', None, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.0027433001665713164,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd3', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd3', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0020846030889147826,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd3', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.008598949383490151,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd3', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.00438489164170619,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd4', 'nonlinear_gd', None, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd4', 'nonlinear_gd', None, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd4', 'nonlinear_gd', None, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd4', 'nonlinear_gd', None, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd4', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd4', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.003927041282056898,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd4', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.008482972302195793,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd4', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.04258440145648168,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd4', 'tangent_gd', None, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd4', 'tangent_gd', None, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd4', 'tangent_gd', None, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd4', 'tangent_gd', None, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.0027111858111030784,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd4', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd4', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0002662658700596232,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd4', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.004828195233296029,
+    "same_controller": false
+  },
+  {
+    "run": "('moons', 'd4', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.007141961957131571,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd1', 'nonlinear_gd', None, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd1', 'nonlinear_gd', None, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd1', 'nonlinear_gd', None, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd1', 'nonlinear_gd', None, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd1', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd1', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0008413701849986632,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd1', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.001476900122428626,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd1', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.004406080928160666,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd1', 'tangent_gd', None, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd1', 'tangent_gd', None, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.000772685539125767,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd1', 'tangent_gd', None, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0010130053947534634,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd1', 'tangent_gd', None, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.0011460759914574403,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd1', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd1', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0032737794390236274,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd1', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0022589758869386856,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd1', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.000987476465482473,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd2', 'nonlinear_gd', None, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd2', 'nonlinear_gd', None, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd2', 'nonlinear_gd', None, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd2', 'nonlinear_gd', None, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd2', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd2', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0027030607015051666,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd2', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0029966955419116204,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd2', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.008211232768131294,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd2', 'tangent_gd', None, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd2', 'tangent_gd', None, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0012990958742697956,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd2', 'tangent_gd', None, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0013636273115178454,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd2', 'tangent_gd', None, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.0004380090132372061,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd2', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd2', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0024390296842931036,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd2', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.00544015382803309,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd2', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.002454919757553853,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd3', 'nonlinear_gd', None, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd3', 'nonlinear_gd', None, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd3', 'nonlinear_gd', None, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd3', 'nonlinear_gd', None, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd3', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd3', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.002988833263848134,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd3', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.008819965707972166,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd3', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.01810010720993399,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_gd', None, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_gd', None, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.001036431353928613,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_gd', None, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0011669982557718228,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_gd', None, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.0017873178020266778,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0035345579244072667,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.002907177270635941,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd3', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.0020573593289938685,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd4', 'nonlinear_gd', None, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd4', 'nonlinear_gd', None, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd4', 'nonlinear_gd', None, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd4', 'nonlinear_gd', None, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd4', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd4', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.07304939839761179,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd4', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.3024350220551424,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd4', 'nonlinear_pb', 0.1, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.2202260404961871,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_gd', None, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_gd', None, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.0005201677444084396,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_gd', None, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0007596071563398255,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_gd', None, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.0002029861293382229,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 1.0,
+    "max_parameter_error": 0.0,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.75,
+    "max_parameter_error": 0.003722208147953765,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.5,
+    "max_parameter_error": 0.0014454110465749181,
+    "same_controller": false
+  },
+  {
+    "run": "('rings', 'd4', 'tangent_pb', 0.1, 0.005)",
+    "fraction": 0.25,
+    "max_parameter_error": 0.0023546885396399375,
+    "same_controller": false
+  }
+]

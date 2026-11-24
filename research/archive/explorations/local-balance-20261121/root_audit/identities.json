@@ -1,0 +1,9 @@
+{
+  "rank_polynomial_max_error": 7.216449660063518e-14,
+  "rank_uniform_mean": 0.24999999999999142,
+  "centered_gain_identity_max_error": 1.7763568394002505e-15,
+  "antithetic_range_violations": 0,
+  "random_pairs": 100000,
+  "all_four_extreme_q_pairs_checked": true,
+  "rank_cdf_lipschitz": 14.759059713171533
+}

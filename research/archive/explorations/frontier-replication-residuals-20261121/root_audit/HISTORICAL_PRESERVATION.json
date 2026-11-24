@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "utc": "2026-11-22T00:09:51.685405+00:00",
+  "archives": [
+    {
+      "archive": "budget-distillation-structured-bounds-20261121",
+      "manifest_sha256": "dc707fdad26a65bd8eeaaf92953c18710a5db018a005fdf3ed952bf2741ea882",
+      "files": 2215,
+      "bytes": 671345677,
+      "mismatches": []
+    },
+    {
+      "archive": "pipeline-calibration-augmentation-shift-20261121",
+      "manifest_sha256": "ff8a903acce1735e9458c458226e53f0b4aa7ab436150d41072a7cf419cf23c5",
+      "files": 466,
+      "bytes": 473513296,
+      "mismatches": []
+    },
+    {
+      "archive": "calibration-symmetry-realdata-20261121",
+      "manifest_sha256": "7dca62a138dc069e2fcc8c7e888c870ad653196c7efa507f10ff68021e946f37",
+      "files": 646,
+      "bytes": 660412187,
+      "mismatches": []
+    }
+  ]
+}

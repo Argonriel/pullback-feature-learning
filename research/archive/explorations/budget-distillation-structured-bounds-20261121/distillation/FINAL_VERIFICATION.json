@@ -1,0 +1,14 @@
+{
+  "source_freeze_sha256": "67e16f354cc53c0e0fc897622897b46040b04bcc34a3506c29e9a7927ab04cab",
+  "all_frozen_sources_and_data_match": true,
+  "frozen_entries": 1517,
+  "all_model_artifact_hashes_match": true,
+  "model_artifacts": 57,
+  "all_prediction_hashes_match": true,
+  "prediction_files": 18,
+  "original_full_figures_unchanged": true,
+  "repository_source_copies_match": true,
+  "quality_success": false,
+  "serving_success": false,
+  "final_outcome": "Preservation and serving criteria both fail; all outcomes retained."
+}

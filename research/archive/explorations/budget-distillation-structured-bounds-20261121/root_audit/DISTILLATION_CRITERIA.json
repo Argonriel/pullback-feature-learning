@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "utc": "2026-11-21T23:09:31.960865+00:00",
+  "calibration_provenance_records": 9,
+  "temperature_commit_hash_matches": true,
+  "independently_reconstructed_preservation_success": false,
+  "conditions": {
+    "holdout": {
+      "ce": {
+        "teacher_improves": true,
+        "half_point_gain_retained": false,
+        "noninferior_to_teacher": false,
+        "noninferior_to_compute_control": false
+      },
+      "error": {
+        "teacher_improves": true,
+        "half_point_gain_retained": false,
+        "noninferior_to_teacher": false,
+        "noninferior_to_compute_control": false
+      }
+    },
+    "external": {
+      "ce": {
+        "teacher_improves": true,
+        "half_point_gain_retained": true,
+        "noninferior_to_teacher": false,
+        "noninferior_to_compute_control": true
+      },
+      "error": {
+        "teacher_improves": true,
+        "half_point_gain_retained": true,
+        "noninferior_to_teacher": true,
+        "noninferior_to_compute_control": true
+      }
+    }
+  },
+  "additional_model_forwards": 0
+}

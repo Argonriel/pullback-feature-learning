@@ -1,2 +1,5 @@
 * text=auto eol=lf
 *.png binary
+
+# Preserve archived research bytes so the published SHA-256 inventory stays valid.
+research/archive/** -text !eol

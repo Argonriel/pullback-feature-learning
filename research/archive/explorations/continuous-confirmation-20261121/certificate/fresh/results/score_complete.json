@@ -1,0 +1,9 @@
+{
+  "timestamp_utc": "2026-11-21T08:59:37.273304+00:00",
+  "csv_sha256": {
+    "by_batch.csv": "0f64389db64e73dceee8d81d91c378dab179ae911ce25f7d445d9e243d684738",
+    "by_model.csv": "262bab08a5d1f3c080ad8aaaa46e27fa92eb9686ae0c47abf2bdead99c038d3b",
+    "enclosure_checks.csv": "92552ee182fb34f606560ef90b50f750e2167dded2d2232ef2ad84cbd42a8176",
+    "latency.csv": "2dda99509b4a185fa6d81de8adb7d36226e07a3e5250220a580e29c7dc774995"
+  }
+}

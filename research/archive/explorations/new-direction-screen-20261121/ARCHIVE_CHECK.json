@@ -1,0 +1,92 @@
+{
+  "status": "passed",
+  "file_count": 43,
+  "total_bytes": 827007,
+  "manifest_sha256": "1119aeed6ad606bed615dbec134b83bba97c6d47fe038137fee5b07d7da07e1a",
+  "source_provenance": [
+    {
+      "record": "endpoint_response_quadrature_attempts.json",
+      "field": "replay_source_sha256",
+      "resolved": "source_snapshot\\experiments\\new_direction_screen_20261121\\endpoint_response_review.py"
+    },
+    {
+      "record": "endpoint_response_review_results.json",
+      "field": "source_sha256",
+      "resolved": "source_snapshot\\experiments\\new_direction_screen_20261121\\endpoint_response_review.py"
+    },
+    {
+      "record": "record_validation.json",
+      "field": "poisoning_source_sha256",
+      "resolved": "source_snapshot\\experiments\\new_direction_screen_20261121\\poisoning.py"
+    },
+    {
+      "record": "record_validation.json",
+      "field": "source_sha256",
+      "resolved": "source_snapshot\\experiments\\new_direction_screen_20261121\\validate_records.py"
+    },
+    {
+      "record": "stochastic_label_conditioning_results.json",
+      "field": "source_sha256",
+      "resolved": "source_snapshot\\experiments\\new_direction_screen_20261121\\stochastic_label_conditioning.py"
+    },
+    {
+      "record": "stochastic_pb_results.json",
+      "field": "source_sha256",
+      "resolved": "source_snapshot\\experiments\\new_direction_screen_20261121\\stochastic_pb.py"
+    },
+    {
+      "record": "topology_results.json",
+      "field": "source_sha256",
+      "resolved": "source_snapshot\\experiments\\new_direction_screen_20261121\\topology.py"
+    },
+    {
+      "record": "topology_results.json",
+      "field": "core_sha256",
+      "resolved": "source_snapshot\\src\\pullback_feature_learning\\core.py"
+    },
+    {
+      "record": "depth_checks\\depth_results.json",
+      "field": "source_sha256",
+      "resolved": "source_snapshot\\experiments\\new_direction_screen_20261121\\depth_screen.py"
+    },
+    {
+      "record": "depth_commuting\\depth_commuting_results.json",
+      "field": "source_sha256",
+      "resolved": "source_snapshot\\experiments\\new_direction_screen_20261121\\depth_commuting_control.py"
+    },
+    {
+      "record": "depth_endpoint\\depth_endpoint_results.json",
+      "field": "source_sha256",
+      "resolved": "source_snapshot\\experiments\\new_direction_screen_20261121\\depth_endpoint_probe.py"
+    },
+    {
+      "record": "depth_endpoint_refined\\depth_endpoint_refined_results.json",
+      "field": "source_sha256",
+      "resolved": "source_snapshot\\experiments\\new_direction_screen_20261121\\depth_endpoint_probe.py"
+    },
+    {
+      "record": "endpoint_parameter_refined\\endpoint_parameter_results.json",
+      "field": "source_sha256",
+      "resolved": "source_snapshot\\experiments\\new_direction_screen_20261121\\endpoint_parameter_audit.py"
+    },
+    {
+      "record": "endpoint_parameter_validation\\endpoint_parameter_results.json",
+      "field": "source_sha256",
+      "resolved": "endpoint_parameter_validation\\source_v1.py"
+    }
+  ],
+  "previous_archives": [
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\learned-geometry-gate-20261121",
+      "unchanged_files": 105,
+      "manifest_sha256": "7164aede3c183ea07325b4cda8aa2a1fa8b820aee34d3782043fa4e4a5c9baf6"
+    },
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\geometry-condition-screen-20261121",
+      "unchanged_files": 32,
+      "manifest_sha256": "b03f4388c8e890343dd1b8d4a79de50a34c1739978da374fa0de5edcb6a9abaf"
+    }
+  ],
+  "broken_report_links": [],
+  "checked_utc": "2026-11-22T02:33:57.565762+00:00"
+}

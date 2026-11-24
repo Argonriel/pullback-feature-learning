@@ -1,0 +1,118 @@
+{
+  "review_date": "2026-11-21",
+  "type": "targeted_literature_review",
+  "source_count": 18,
+  "access_note": "Primary papers were reviewed. The Son and Kang entry is based on its primary abstract only. Preprint status and qualifications are stated in the report.",
+  "sources": [
+    {
+      "description": "Chen, Dobriban and Lee, **A Group-Theoretic Framework for Data Augmentation**, JMLR 2020. [Paper](https://jmlr.org/papers/v21/20-163.html)",
+      "primary_urls": [
+        "https://jmlr.org/papers/v21/20-163.html"
+      ]
+    },
+    {
+      "description": "Lyle et al., **On the Benefits of Invariance in Neural Networks**, 2020. [Paper](https://arxiv.org/abs/2005.00178)",
+      "primary_urls": [
+        "https://arxiv.org/abs/2005.00178"
+      ]
+    },
+    {
+      "description": "Elesedy and Zaidi, **Provably Strict Generalisation Benefit for Equivariant Models**, ICML 2021. [Paper](https://proceedings.mlr.press/v139/elesedy21a.html)",
+      "primary_urls": [
+        "https://proceedings.mlr.press/v139/elesedy21a.html"
+      ]
+    },
+    {
+      "description": "Kim, Kim and Kim, **Learning Loss for Test-Time Augmentation**, NeurIPS 2020. [Paper](https://proceedings.neurips.cc/paper_files/paper/2020/file/2ba596643cbbbc20318224181fa46b28-Paper.pdf)",
+      "primary_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2020/file/2ba596643cbbbc20318224181fa46b28-Paper.pdf"
+      ]
+    },
+    {
+      "description": "Mocerino et al., **Adaptive Test-Time Augmentation for Low-Power CPU**, 2021 author preprint; published as AdapTTA. [Paper](https://arxiv.org/abs/2105.06183)",
+      "primary_urls": [
+        "https://arxiv.org/abs/2105.06183"
+      ]
+    },
+    {
+      "description": "Son and Kang, **Efficient improvement of classification accuracy via selective test-time augmentation**, Information Sciences 2023. [Publisher](https://doi.org/10.1016/j.ins.2023.119148), [institutional record](https://pure.skku.edu/en/publications/efficient-improvement-of-classification-accuracy-via-selective-te/)",
+      "primary_urls": [
+        "https://doi.org/10.1016/j.ins.2023.119148",
+        "https://pure.skku.edu/en/publications/efficient-improvement-of-classification-accuracy-via-selective-te/"
+      ]
+    },
+    {
+      "description": "Ozturk, Prabhushankar and AlRegib, **Intelligent Multi-View Test Time Augmentation**, ICIP 2024. [Paper](https://arxiv.org/html/2406.08593v1)",
+      "primary_urls": [
+        "https://arxiv.org/html/2406.08593v1"
+      ]
+    },
+    {
+      "description": "Chen et al., **When Do Histology Foundation Models Need Geometric Test-Time Augmentation?**, 16 November 2026 preprint. [Paper](https://arxiv.org/html/2611.21565v1)",
+      "primary_urls": [
+        "https://arxiv.org/html/2611.21565v1"
+      ]
+    },
+    {
+      "description": "Shanmugam et al., **Better Aggregation in Test-Time Augmentation**, ICCV 2021. [Paper](https://arxiv.org/html/2011.11156v2)",
+      "primary_urls": [
+        "https://arxiv.org/html/2011.11156v2"
+      ]
+    },
+    {
+      "description": "Conde et al., **Approaching Test Time Augmentation in the Context of Uncertainty Calibration for Deep Neural Networks**, 2023 preprint, revised 2024. [Paper](https://arxiv.org/html/2304.05104v2)",
+      "primary_urls": [
+        "https://arxiv.org/html/2304.05104v2"
+      ]
+    },
+    {
+      "description": "Shanmugam et al., **Test-time Augmentation Improves Efficiency in Conformal Prediction**, CVPR 2025. [Paper](https://arxiv.org/html/2505.22764v1)",
+      "primary_urls": [
+        "https://arxiv.org/html/2505.22764v1"
+      ]
+    },
+    {
+      "description": "Lawrence et al., **To Augment or Not to Augment? Diagnosing Distributional Symmetry Breaking**, ICLR 2026. [Paper](https://arxiv.org/html/2510.01349v2), [proceedings](https://proceedings.iclr.cc/paper_files/paper/2026/hash/106509d2c9263224610fe4145fbed3e8-Abstract-Conference.html)",
+      "primary_urls": [
+        "https://arxiv.org/html/2510.01349v2",
+        "https://proceedings.iclr.cc/paper_files/paper/2026/hash/106509d2c9263224610fe4145fbed3e8-Abstract-Conference.html"
+      ]
+    },
+    {
+      "description": "Beck and Ochs, **Symmetries in PAC-Bayesian Learning**, ICML 2026. [Paper](https://proceedings.mlr.press/v306/beck26a.html)",
+      "primary_urls": [
+        "https://proceedings.mlr.press/v306/beck26a.html"
+      ]
+    },
+    {
+      "description": "Angelopoulos et al., **Learn then Test**, 2021 preprint, revised 2022. [Paper](https://arxiv.org/html/2110.01052)",
+      "primary_urls": [
+        "https://arxiv.org/html/2110.01052"
+      ]
+    },
+    {
+      "description": "Laufer-Goldshtein et al., **Efficiently Controlling Multiple Risks with Pareto Testing**, ICLR 2023. [Paper](https://arxiv.org/html/2210.07913)",
+      "primary_urls": [
+        "https://arxiv.org/html/2210.07913"
+      ]
+    },
+    {
+      "description": "Einbinder, Ringel and Romano, **Semi-Supervised Risk Control via Prediction-Powered Inference**, 2024 preprint, revised July 2025. [Paper](https://arxiv.org/html/2412.11174v2)",
+      "primary_urls": [
+        "https://arxiv.org/html/2412.11174v2"
+      ]
+    },
+    {
+      "description": "Jhawar and Wang, **When Is Test-Time Adaptation Identifiable from Unlabeled Evidence?**, September 2026 preprint. [Paper](https://arxiv.org/html/2609.11235v1)",
+      "primary_urls": [
+        "https://arxiv.org/html/2609.11235v1"
+      ]
+    },
+    {
+      "description": "Tahmasebi and Weber, **Test-Time Symmetrization: Scaling Laws for Model-Agnostic Learning under Structure**, 18 November 2026 preprint. [Paper](https://arxiv.org/html/2611.24032v1)",
+      "primary_urls": [
+        "https://arxiv.org/html/2611.24032v1"
+      ]
+    }
+  ]
+}

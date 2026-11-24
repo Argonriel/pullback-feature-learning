@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "independent": true,
+  "checks": {
+    "frozen_hashes_and_chronology": "pass; superseded phase calibration has no test outcomes",
+    "2a": "11520 choices and risks; all summaries; 18 raw orbit/prefix reconstructions; 24 independent IID risks passed",
+    "2b": "All 2016 call records/fixed-mask groups/contrasts; 252 independently reconstructed deployment risks/masks passed",
+    "ideas34": "All finite tables/128 sharp intervals and mixture quota/LP duals; 80000 random interval-box points across 16 models/6 epsilon bounds passed"
+  },
+  "max_errors": {
+    "historical_prior": 0,
+    "all_choice_scores": 0,
+    "raw_calibration_logits": 0,
+    "nested_prefix_scores": 1.249000902703301e-16,
+    "all_population_risks": 0,
+    "2a_summary_means": 2.7755575615628914e-17,
+    "2a_iid_sampled": 0,
+    "2a_iid_expected": 2.7755575615628914e-17,
+    "2b_all_contrasts": 0,
+    "2b_independent_phase": 0,
+    "2b_independent_expected": 5.551115123125783e-17,
+    "2b_independent_sampled": 5.551115123125783e-17,
+    "4_logits": 0,
+    "4_means": 0,
+    "4_conditional_balance": 0,
+    "4_C": 0,
+    "4_exact_balance": 2.7755575615628914e-17,
+    "4_all_identification_intervals": 1.3877787807814457e-17
+  }
+}

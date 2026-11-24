@@ -1,0 +1,8 @@
+{
+  "timestamp_utc": "2026-11-21T10:23:09.696945+00:00",
+  "reason": "Wait for each fixed model bound provenance before reading it, so unchanged audits can overlap producer work.",
+  "audit_source_sha256": "5520c4f4718bb0105aec924182ea76f58f00786d3d48ca08662fcfdf15f708f8",
+  "protocol_sha256": "a63497c2c0337738ffe532b3e661cfb79e5ff71e2ab3e0fe1c16e4866c9fe58c",
+  "wrapper_sha256": "e0597d016eb6ca9563bfbe05a9d1e927bcbec137a377316d4df5d6c90d8b2bda",
+  "methods_or_grids_changed": false
+}

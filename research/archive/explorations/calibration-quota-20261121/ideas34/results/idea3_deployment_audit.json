@@ -1,0 +1,568 @@
+[
+  {
+    "model": "1_pb",
+    "epsilon": 0.0,
+    "policy": "always",
+    "calls": [
+      256,
+      256
+    ],
+    "selected": 256,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.011326289015636704
+  },
+  {
+    "model": "1_pb",
+    "epsilon": 0.0,
+    "policy": "random64",
+    "calls": [
+      256,
+      64
+    ],
+    "selected": 64,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.011326289015636704
+  },
+  {
+    "model": "1_pb",
+    "epsilon": 0.0,
+    "policy": "safe64",
+    "calls": [
+      256,
+      64
+    ],
+    "selected": 64,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.011326289015636704
+  },
+  {
+    "model": "1_pb",
+    "epsilon": 0.0,
+    "policy": "forced64",
+    "calls": [
+      256,
+      64
+    ],
+    "selected": 64,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.011326289015636704
+  },
+  {
+    "model": "1_pb",
+    "epsilon": 0.1,
+    "policy": "always",
+    "calls": [
+      256,
+      256
+    ],
+    "selected": 256,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.011326289015636704
+  },
+  {
+    "model": "1_pb",
+    "epsilon": 0.1,
+    "policy": "random64",
+    "calls": [
+      256,
+      64
+    ],
+    "selected": 64,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.011326289015636704
+  },
+  {
+    "model": "1_pb",
+    "epsilon": 0.1,
+    "policy": "safe64",
+    "calls": [
+      256
+    ],
+    "selected": 0,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.011326289015636704
+  },
+  {
+    "model": "1_pb",
+    "epsilon": 0.1,
+    "policy": "forced64",
+    "calls": [
+      256,
+      64
+    ],
+    "selected": 64,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.011326289015636704
+  },
+  {
+    "model": "1_pb",
+    "epsilon": 0.25,
+    "policy": "always",
+    "calls": [
+      256,
+      256
+    ],
+    "selected": 256,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.011326289015636704
+  },
+  {
+    "model": "1_pb",
+    "epsilon": 0.25,
+    "policy": "random64",
+    "calls": [
+      256,
+      64
+    ],
+    "selected": 64,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.011326289015636704
+  },
+  {
+    "model": "1_pb",
+    "epsilon": 0.25,
+    "policy": "safe64",
+    "calls": [
+      256
+    ],
+    "selected": 0,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.011326289015636704
+  },
+  {
+    "model": "1_pb",
+    "epsilon": 0.25,
+    "policy": "forced64",
+    "calls": [
+      256,
+      64
+    ],
+    "selected": 64,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.011326289015636704
+  },
+  {
+    "model": "1_pb",
+    "epsilon": 0.5,
+    "policy": "always",
+    "calls": [
+      256,
+      256
+    ],
+    "selected": 256,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.011326289015636704
+  },
+  {
+    "model": "1_pb",
+    "epsilon": 0.5,
+    "policy": "random64",
+    "calls": [
+      256,
+      64
+    ],
+    "selected": 64,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.011326289015636704
+  },
+  {
+    "model": "1_pb",
+    "epsilon": 0.5,
+    "policy": "safe64",
+    "calls": [
+      256
+    ],
+    "selected": 0,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.011326289015636704
+  },
+  {
+    "model": "1_pb",
+    "epsilon": 0.5,
+    "policy": "forced64",
+    "calls": [
+      256,
+      64
+    ],
+    "selected": 64,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.011326289015636704
+  },
+  {
+    "model": "1_pb",
+    "epsilon": 0.75,
+    "policy": "always",
+    "calls": [
+      256,
+      256
+    ],
+    "selected": 256,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.011326289015636704
+  },
+  {
+    "model": "1_pb",
+    "epsilon": 0.75,
+    "policy": "random64",
+    "calls": [
+      256,
+      64
+    ],
+    "selected": 64,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.011326289015636704
+  },
+  {
+    "model": "1_pb",
+    "epsilon": 0.75,
+    "policy": "safe64",
+    "calls": [
+      256
+    ],
+    "selected": 0,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.011326289015636704
+  },
+  {
+    "model": "1_pb",
+    "epsilon": 0.75,
+    "policy": "forced64",
+    "calls": [
+      256,
+      64
+    ],
+    "selected": 64,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.011326289015636704
+  },
+  {
+    "model": "1_pb",
+    "epsilon": 1.0,
+    "policy": "always",
+    "calls": [
+      256,
+      256
+    ],
+    "selected": 256,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.011326289015636704
+  },
+  {
+    "model": "1_pb",
+    "epsilon": 1.0,
+    "policy": "random64",
+    "calls": [
+      256,
+      64
+    ],
+    "selected": 64,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.011326289015636704
+  },
+  {
+    "model": "1_pb",
+    "epsilon": 1.0,
+    "policy": "safe64",
+    "calls": [
+      256
+    ],
+    "selected": 0,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.011326289015636704
+  },
+  {
+    "model": "1_pb",
+    "epsilon": 1.0,
+    "policy": "forced64",
+    "calls": [
+      256,
+      64
+    ],
+    "selected": 64,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.011326289015636704
+  },
+  {
+    "model": "16_pb",
+    "epsilon": 0.0,
+    "policy": "always",
+    "calls": [
+      256,
+      256
+    ],
+    "selected": 256,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.04678798207126578
+  },
+  {
+    "model": "16_pb",
+    "epsilon": 0.0,
+    "policy": "random64",
+    "calls": [
+      256,
+      64
+    ],
+    "selected": 64,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.04678798207126578
+  },
+  {
+    "model": "16_pb",
+    "epsilon": 0.0,
+    "policy": "safe64",
+    "calls": [
+      256,
+      3
+    ],
+    "selected": 3,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.04678798207126578
+  },
+  {
+    "model": "16_pb",
+    "epsilon": 0.0,
+    "policy": "forced64",
+    "calls": [
+      256,
+      64
+    ],
+    "selected": 64,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.04678798207126578
+  },
+  {
+    "model": "16_pb",
+    "epsilon": 0.1,
+    "policy": "always",
+    "calls": [
+      256,
+      256
+    ],
+    "selected": 256,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.04678798207126578
+  },
+  {
+    "model": "16_pb",
+    "epsilon": 0.1,
+    "policy": "random64",
+    "calls": [
+      256,
+      64
+    ],
+    "selected": 64,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.04678798207126578
+  },
+  {
+    "model": "16_pb",
+    "epsilon": 0.1,
+    "policy": "safe64",
+    "calls": [
+      256
+    ],
+    "selected": 0,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.04678798207126578
+  },
+  {
+    "model": "16_pb",
+    "epsilon": 0.1,
+    "policy": "forced64",
+    "calls": [
+      256,
+      64
+    ],
+    "selected": 64,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.04678798207126578
+  },
+  {
+    "model": "16_pb",
+    "epsilon": 0.25,
+    "policy": "always",
+    "calls": [
+      256,
+      256
+    ],
+    "selected": 256,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.04678798207126578
+  },
+  {
+    "model": "16_pb",
+    "epsilon": 0.25,
+    "policy": "random64",
+    "calls": [
+      256,
+      64
+    ],
+    "selected": 64,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.04678798207126578
+  },
+  {
+    "model": "16_pb",
+    "epsilon": 0.25,
+    "policy": "safe64",
+    "calls": [
+      256
+    ],
+    "selected": 0,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.04678798207126578
+  },
+  {
+    "model": "16_pb",
+    "epsilon": 0.25,
+    "policy": "forced64",
+    "calls": [
+      256,
+      64
+    ],
+    "selected": 64,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.04678798207126578
+  },
+  {
+    "model": "16_pb",
+    "epsilon": 0.5,
+    "policy": "always",
+    "calls": [
+      256,
+      256
+    ],
+    "selected": 256,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.04678798207126578
+  },
+  {
+    "model": "16_pb",
+    "epsilon": 0.5,
+    "policy": "random64",
+    "calls": [
+      256,
+      64
+    ],
+    "selected": 64,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.04678798207126578
+  },
+  {
+    "model": "16_pb",
+    "epsilon": 0.5,
+    "policy": "safe64",
+    "calls": [
+      256
+    ],
+    "selected": 0,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.04678798207126578
+  },
+  {
+    "model": "16_pb",
+    "epsilon": 0.5,
+    "policy": "forced64",
+    "calls": [
+      256,
+      64
+    ],
+    "selected": 64,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.04678798207126578
+  },
+  {
+    "model": "16_pb",
+    "epsilon": 0.75,
+    "policy": "always",
+    "calls": [
+      256,
+      256
+    ],
+    "selected": 256,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.04678798207126578
+  },
+  {
+    "model": "16_pb",
+    "epsilon": 0.75,
+    "policy": "random64",
+    "calls": [
+      256,
+      64
+    ],
+    "selected": 64,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.04678798207126578
+  },
+  {
+    "model": "16_pb",
+    "epsilon": 0.75,
+    "policy": "safe64",
+    "calls": [
+      256
+    ],
+    "selected": 0,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.04678798207126578
+  },
+  {
+    "model": "16_pb",
+    "epsilon": 0.75,
+    "policy": "forced64",
+    "calls": [
+      256,
+      64
+    ],
+    "selected": 64,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.04678798207126578
+  },
+  {
+    "model": "16_pb",
+    "epsilon": 1.0,
+    "policy": "always",
+    "calls": [
+      256,
+      256
+    ],
+    "selected": 256,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.04678798207126578
+  },
+  {
+    "model": "16_pb",
+    "epsilon": 1.0,
+    "policy": "random64",
+    "calls": [
+      256,
+      64
+    ],
+    "selected": 64,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.04678798207126578
+  },
+  {
+    "model": "16_pb",
+    "epsilon": 1.0,
+    "policy": "safe64",
+    "calls": [
+      256
+    ],
+    "selected": 0,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.04678798207126578
+  },
+  {
+    "model": "16_pb",
+    "epsilon": 1.0,
+    "policy": "forced64",
+    "calls": [
+      256,
+      64
+    ],
+    "selected": 64,
+    "max_deploy_error": 0.0,
+    "max_interval_violation": -0.04678798207126578
+  }
+]

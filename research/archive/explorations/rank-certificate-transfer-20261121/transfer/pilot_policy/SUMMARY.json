@@ -1,0 +1,11 @@
+{
+  "timestamp_utc": "2026-11-21T10:09:42.350259+00:00",
+  "models": 8,
+  "task_mass": 0.9999999999999992,
+  "prevalence": 0.49999999999999956,
+  "bayes_error": 0.10937500000000014,
+  "max_CDF_error": 4.1744385725905886e-14,
+  "max_FFT_error": 2.1163626406917047e-16,
+  "all_checks_pass": true,
+  "new_confirmation_models_accessed": false
+}

@@ -1,0 +1,7 @@
+cohort,pair,steps,max_error
+rings,1,100,0.0
+rings,16,100,0.0
+waveform,1,100,0.0
+waveform,16,100,0.0
+two_invariants,1,100,0.0
+two_invariants,16,100,0.0

@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-21",
+  "scope": "Local evidence hashes. Web retrieval hashes are not original PDF hashes.",
+  "files": [
+    {
+      "path": "EXACT_OBSTRUCTIONS.md",
+      "bytes": 2615,
+      "sha256": "f9008690d9a3aab2505ae88942f2fb6d1ae804e7f59940c189a3186de4faa0a4"
+    },
+    {
+      "path": "lyapunov_counterexample_results.json",
+      "bytes": 4146,
+      "sha256": "6ad6a45a609315dbf3babb85a8f02c1ad15dab549bd0b9549a5526e74906932c"
+    },
+    {
+      "path": "lyapunov_counterexample.cjs",
+      "bytes": 2128,
+      "sha256": "49cfe271ef4c4972d573bbee1187c6951bbd98c704bdd3a07dc574db0451de9a"
+    },
+    {
+      "path": "OPTIMAL_FACE_NOVELTY_ADDENDUM.md",
+      "bytes": 2938,
+      "sha256": "492c63197d4aed007da560dfafe8fd8e2d1ad8f861a49e8e50675f4497e5a760"
+    },
+    {
+      "path": "PRIMARY_AUDIT.md",
+      "bytes": 14188,
+      "sha256": "34f97150e964aa45e5ab4792d36b8195b452eb91afd1a2a72f0879130846d5cc"
+    },
+    {
+      "path": "SEARCH_LEDGER.md",
+      "bytes": 4447,
+      "sha256": "f59627f20c5f3d55aeaa4ca85401af7dd45d264649c7940bd3545241fc55d13a"
+    },
+    {
+      "path": "sources/abb_web_retrieval.json",
+      "bytes": 20025,
+      "sha256": "aab864c448ba29eb52581d5cb1c00ce2a29bb08e9efe665015fe72637151615c"
+    },
+    {
+      "path": "sources/bah_web_retrieval.json",
+      "bytes": 20414,
+      "sha256": "815cbe521cce425c4e4bc84823cbdc2f66238055f0be74b629e01aea4fda7232"
+    },
+    {
+      "path": "sources/precgd_web_retrieval.json",
+      "bytes": 22445,
+      "sha256": "e5dbbf5cf784a0458804f78cb107aa74b0264aa71ff06474283883d3a56a2f62"
+    },
+    {
+      "path": "sources/zhang_peyre_web_retrieval.json",
+      "bytes": 25496,
+      "sha256": "c9d6e61b37218d4c37b3f73bcc36e6c6ef838d311d73b300f0db61de7b29ebad"
+    }
+  ]
+}

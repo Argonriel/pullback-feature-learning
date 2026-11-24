@@ -1,0 +1,10 @@
+{
+  "timestamp_utc": "2026-11-21T08:26:49.938835+00:00",
+  "design_sha256": "39d27f36c67e9e5b9da81e0e543f78a37c90ed33fa7578d4daaee6d79bf5713c",
+  "fresh_outcomes_accessed": false,
+  "historical_defaults": {
+    "gd": 64,
+    "pb": 51,
+    "hybrid": 58
+  }
+}

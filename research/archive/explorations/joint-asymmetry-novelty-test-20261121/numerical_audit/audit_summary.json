@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "python": "3.12.14",
+  "numpy": "2.5.5",
+  "support_cases": 300,
+  "support_max_error": 1.7763568394002505e-15,
+  "joint_cases": 250,
+  "joint_max_error": 4.440892098500626e-16,
+  "shared_constraint_counterexample": {
+    "epsilon": 0.4,
+    "r": 0,
+    "shared_posteriors": true,
+    "rectangular_lower": -0.07988549304172249,
+    "actual_feasible_min": 0.12011450695827752,
+    "actual_feasible_max": 0.12011450695827752,
+    "gap": 0.2,
+    "interpretation": "Pointwise sharpness does not imply sharpness under shared posterior constraints."
+  },
+  "source_sha256": "dbe4fef69a81a914a9a33d1e5db7a3e8b50c19c6dc04676e39cfe6a1b9fde5e6",
+  "meaning": "Numerical verification of reductions; not a proof of novelty or a training experiment."
+}

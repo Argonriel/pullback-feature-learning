@@ -1,0 +1,71 @@
+{
+  "legacy": {
+    "raw": {
+      "mean_beta": 0.47078810288130113,
+      "mean_temperature": 2.15750603270971,
+      "statuses": {
+        "interior": 16
+      }
+    },
+    "full": {
+      "mean_beta": 0.7308513856080325,
+      "mean_temperature": 1.3855401756817294,
+      "statuses": {
+        "interior": 16
+      }
+    },
+    "interp": {
+      "mean_beta": 0.6441642220499868,
+      "mean_temperature": 1.5673963539508597,
+      "statuses": {
+        "interior": 16
+      }
+    }
+  },
+  "selected": {
+    "raw": {
+      "mean_beta": 0.7983589911526278,
+      "mean_temperature": 1.2933394478015712,
+      "statuses": {
+        "interior": 16
+      }
+    },
+    "full": {
+      "mean_beta": 1.3972576370974092,
+      "mean_temperature": 0.7320166363265848,
+      "statuses": {
+        "interior": 16
+      }
+    },
+    "interp": {
+      "mean_beta": 1.1716206800731326,
+      "mean_temperature": 0.8731122571443282,
+      "statuses": {
+        "interior": 16
+      }
+    }
+  },
+  "extra_train": {
+    "raw": {
+      "mean_beta": 1.4726249775192581,
+      "mean_temperature": 0.6824615753951906,
+      "statuses": {
+        "interior": 16
+      }
+    },
+    "full": {
+      "mean_beta": 1.6878255561968016,
+      "mean_temperature": 0.5946368373862825,
+      "statuses": {
+        "interior": 16
+      }
+    },
+    "interp": {
+      "mean_beta": 1.6313079791808247,
+      "mean_temperature": 0.6152899361109683,
+      "statuses": {
+        "interior": 16
+      }
+    }
+  }
+}

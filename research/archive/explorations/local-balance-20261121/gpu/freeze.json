@@ -1,0 +1,62 @@
+{
+  "timestamp_utc": "2026-11-21T09:32:18.764298+00:00",
+  "config": {
+    "widths": [
+      64,
+      256,
+      1024
+    ],
+    "seeds": [
+      1,
+      2,
+      3
+    ],
+    "train_n": 1024,
+    "train_steps": 1000,
+    "train_seed_base": 971000,
+    "init_seed_base": 972000,
+    "gate_seed_base": 973000,
+    "angle_radius_seed_base": 974000,
+    "angle_phase_seed_base": 975000,
+    "test_seed_base": 976000,
+    "tie_seed_base": 977000,
+    "label_seed_base": 978000,
+    "timing_seed_base": 978100,
+    "train_lr": 0.001,
+    "test_n": 16384,
+    "batch": 256,
+    "quota": 64,
+    "calibration_forwards": 8192,
+    "angle_radii": 64,
+    "angle_nodes": 128,
+    "warmups": 3,
+    "repeats": 7,
+    "timing_batches": 16,
+    "hidden_layers": 2,
+    "activation": "tanh",
+    "dtype": "float32",
+    "tf32": false,
+    "autocast": false,
+    "cpu_threads": 1,
+    "optimizer": "Adam",
+    "calibration_tables_resident": true
+  },
+  "policies": [
+    "raw",
+    "full_sequential",
+    "full_fused",
+    "confidence_pi",
+    "folded_sequential",
+    "folded_fused",
+    "confidence_radial"
+  ],
+  "source_hashes": {
+    "gpu\\benchmark.py": "d08f25001f5444bd3af0983942ef2694da34c8261a57ab4df57e179579ab5682",
+    "gpu\\PROTOCOL.md": "721de2916452dd778962639edf2232df1af0652a40b8c118e43e31dc8c28f618",
+    "reference\\experiment.py": "d865d8eafb95fb39a5b97f957471c27d142055616c46430e95c0c6f1e2d8ff56",
+    "legacy\\budgeted-rotation-final\\gate.py": "2727f2fb030cb6e6a02cf8ac77be8f96b04db9a6419bc5a7bdf2024b548684c3",
+    "source\\pullback_feature_learning\\core.py": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5"
+  },
+  "gpu_training_started": false,
+  "conditional_go_ahead": "Root explicitly activated GPU branch after old-model local-bound progress."
+}

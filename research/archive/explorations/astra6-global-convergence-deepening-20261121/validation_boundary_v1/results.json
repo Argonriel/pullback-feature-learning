@@ -1,0 +1,392 @@
+{
+  "scope": "One new 5x5 coupled-center PSD-only boundary problem, two SPD weights, two RK4 steps. No reserved data; no old large-target run repeated.",
+  "caveat": "Finite-horizon differences are not endpoint differences. Sampled positivity/descent/invariants are numerical checks, not continuous-time certificates.",
+  "source_sha256": "cd93fd83209f29d11f49b65c57fac59bdd9af69de47ac271f580e6988b85f48e",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "damping": 2.0,
+  "elapsed_seconds": 19.206598043441772,
+  "endpoint_eigenvalues": [
+    0.0,
+    0.0,
+    0.7454998192913285,
+    1.0,
+    1.6057323459955912
+  ],
+  "regular_endpoint_center": 1.1756160826434598,
+  "initial_target_block_commutator_norm": 0.15556349186104035,
+  "weight_eigenvalues": [
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      0.5246224358331767,
+      0.7645522016827249,
+      1.4315905657245926,
+      1.493313308521943,
+      1.645921488237561
+    ]
+  ],
+  "refinement_errors": [
+    1.2596995973407702e-11,
+    1.2113241301553196e-10
+  ],
+  "finite_horizon_weight_gap": 0.00034745510812196937,
+  "records": [
+    {
+      "step": 0.05,
+      "horizon": 1600.0,
+      "steps": 32000,
+      "minimum_sampled_eigenvalue": 0.00035416687890859835,
+      "maximum_sampled_invariant_drift": 4.972244838086226e-10,
+      "maximum_sampled_loss_increase": 0.0,
+      "snapshots": [
+        {
+          "time": 0,
+          "loss": 1.2283333333333328,
+          "measurement_residual": 1.5673757260678327,
+          "endpoint_error": 1.5941494181474936,
+          "regular_block_error": 0.9624512285721248,
+          "first_block_minimum_eigenvalue": 0.8584524052577349,
+          "scalar_component": 0.7999999999999999,
+          "minimum_eigenvalue": 0.7999999999999999
+        },
+        {
+          "time": 100,
+          "loss": 0.00010922629139832877,
+          "measurement_residual": 0.014780141501239342,
+          "endpoint_error": 0.01673737488642702,
+          "regular_block_error": 1.3380800244747598e-11,
+          "first_block_minimum_eigenvalue": 0.014937060642017386,
+          "scalar_component": 0.005964545744603338,
+          "minimum_eigenvalue": 0.005964545744603338
+        },
+        {
+          "time": 200,
+          "loss": 2.6377565650556395e-05,
+          "measurement_residual": 0.007263272767913428,
+          "endpoint_error": 0.008231006275742721,
+          "regular_block_error": 1.3380800244747598e-11,
+          "first_block_minimum_eigenvalue": 0.0073599261350533185,
+          "scalar_component": 0.002911814261489473,
+          "minimum_eigenvalue": 0.002911814261489473
+        },
+        {
+          "time": 400,
+          "loss": 6.450399145785976e-06,
+          "measurement_residual": 0.003591768128870787,
+          "endpoint_error": 0.004071764871289989,
+          "regular_block_error": 1.3380800244747598e-11,
+          "first_block_minimum_eigenvalue": 0.003644253404110065,
+          "scalar_component": 0.001435264368479426,
+          "minimum_eigenvalue": 0.001435264368479426
+        },
+        {
+          "time": 800,
+          "loss": 1.5911216804679452e-06,
+          "measurement_residual": 0.0017838843462892684,
+          "endpoint_error": 0.0020226333818075897,
+          "regular_block_error": 1.3380800244747598e-11,
+          "first_block_minimum_eigenvalue": 0.001811094843656269,
+          "scalar_component": 0.0007116974410233023,
+          "minimum_eigenvalue": 0.0007116974410233023
+        },
+        {
+          "time": 1600.0,
+          "loss": 3.94655081905155e-07,
+          "measurement_residual": 0.0008884312938040341,
+          "endpoint_error": 0.0010074235146516433,
+          "regular_block_error": 1.3380800244747598e-11,
+          "first_block_minimum_eigenvalue": 0.0009022645639869264,
+          "scalar_component": 0.00035416687890859835,
+          "minimum_eigenvalue": 0.00035416687890859835
+        }
+      ],
+      "weight_index": 0
+    },
+    {
+      "step": 0.025,
+      "horizon": 1600.0,
+      "steps": 64000,
+      "minimum_sampled_eigenvalue": 0.0003541668787975044,
+      "maximum_sampled_invariant_drift": 3.0949021123660714e-11,
+      "maximum_sampled_loss_increase": 0.0,
+      "snapshots": [
+        {
+          "time": 0,
+          "loss": 1.2283333333333328,
+          "measurement_residual": 1.5673757260678327,
+          "endpoint_error": 1.5941494181474936,
+          "regular_block_error": 0.9624512285721248,
+          "first_block_minimum_eigenvalue": 0.8584524052577349,
+          "scalar_component": 0.7999999999999999,
+          "minimum_eigenvalue": 0.7999999999999999
+        },
+        {
+          "time": 100,
+          "loss": 0.00010922629139611004,
+          "measurement_residual": 0.014780141501089226,
+          "endpoint_error": 0.016737374887760545,
+          "regular_block_error": 7.853726268886701e-13,
+          "first_block_minimum_eigenvalue": 0.014937060643696876,
+          "scalar_component": 0.005964545742711079,
+          "minimum_eigenvalue": 0.005964545742711079
+        },
+        {
+          "time": 200,
+          "loss": 2.6377565650350058e-05,
+          "measurement_residual": 0.00726327276788502,
+          "endpoint_error": 0.008231006276451213,
+          "regular_block_error": 7.853726268886701e-13,
+          "first_block_minimum_eigenvalue": 0.007359926135928674,
+          "scalar_component": 0.0029118142605738914,
+          "minimum_eigenvalue": 0.0029118142605738914
+        },
+        {
+          "time": 400,
+          "loss": 6.450399145768568e-06,
+          "measurement_residual": 0.00359176812886594,
+          "endpoint_error": 0.004071764871650955,
+          "regular_block_error": 7.853726268886701e-13,
+          "first_block_minimum_eigenvalue": 0.0036442534045532937,
+          "scalar_component": 0.0014352643680292613,
+          "minimum_eigenvalue": 0.0014352643680292613
+        },
+        {
+          "time": 800,
+          "loss": 1.5911216804669203e-06,
+          "measurement_residual": 0.0017838843462886938,
+          "endpoint_error": 0.002022633381989217,
+          "regular_block_error": 7.853726268886701e-13,
+          "first_block_minimum_eigenvalue": 0.0018110948438785635,
+          "scalar_component": 0.0007116974408001571,
+          "minimum_eigenvalue": 0.0007116974408001571
+        },
+        {
+          "time": 1600.0,
+          "loss": 3.9465508190514524e-07,
+          "measurement_residual": 0.0008884312938040232,
+          "endpoint_error": 0.0010074235147426067,
+          "regular_block_error": 7.853726268886701e-13,
+          "first_block_minimum_eigenvalue": 0.0009022645640980875,
+          "scalar_component": 0.0003541668787975044,
+          "minimum_eigenvalue": 0.0003541668787975044
+        }
+      ],
+      "weight_index": 0
+    },
+    {
+      "step": 0.05,
+      "horizon": 1600.0,
+      "steps": 32000,
+      "minimum_sampled_eigenvalue": 0.0003172498445380013,
+      "maximum_sampled_invariant_drift": 4.289921751166048e-10,
+      "maximum_sampled_loss_increase": 0.0,
+      "snapshots": [
+        {
+          "time": 0,
+          "loss": 1.4129973598300092,
+          "measurement_residual": 1.5673757260678327,
+          "endpoint_error": 1.5941494181474936,
+          "regular_block_error": 0.9624512285721248,
+          "first_block_minimum_eigenvalue": 0.8584524052577349,
+          "scalar_component": 0.7999999999999999,
+          "minimum_eigenvalue": 0.7999999999999999
+        },
+        {
+          "time": 100,
+          "loss": 9.978011542080446e-05,
+          "measurement_residual": 0.01454980661002993,
+          "endpoint_error": 0.016959683760380973,
+          "regular_block_error": 0.0018325856511613506,
+          "first_block_minimum_eigenvalue": 0.013477972053491022,
+          "scalar_component": 0.005402739975559685,
+          "minimum_eigenvalue": 0.005402739975559685
+        },
+        {
+          "time": 200,
+          "loss": 2.3905245889015037e-05,
+          "measurement_residual": 0.007101740503072173,
+          "endpoint_error": 0.008289076690925738,
+          "regular_block_error": 0.0008871021376948297,
+          "first_block_minimum_eigenvalue": 0.0066210827531831,
+          "scalar_component": 0.002624336131221661,
+          "minimum_eigenvalue": 0.002624336131221661
+        },
+        {
+          "time": 400,
+          "loss": 5.814997970694625e-06,
+          "measurement_residual": 0.003497969935118203,
+          "endpoint_error": 0.004085411133065599,
+          "regular_block_error": 0.00043513967489466156,
+          "first_block_minimum_eigenvalue": 0.003271200937794233,
+          "scalar_component": 0.001289492514443772,
+          "minimum_eigenvalue": 0.001289492514443772
+        },
+        {
+          "time": 800,
+          "loss": 1.429703374491838e-06,
+          "measurement_residual": 0.0017333423501925023,
+          "endpoint_error": 0.0020250686379668847,
+          "regular_block_error": 0.00021518204685053524,
+          "first_block_minimum_eigenvalue": 0.001623376818441491,
+          "scalar_component": 0.0006382108429839287,
+          "minimum_eigenvalue": 0.0006382108429839287
+        },
+        {
+          "time": 1600.0,
+          "loss": 3.5392860103315737e-07,
+          "measurement_residual": 0.0008621475785154495,
+          "endpoint_error": 0.0010074044669959917,
+          "regular_block_error": 0.0001069204700087808,
+          "first_block_minimum_eigenvalue": 0.0008080403969178418,
+          "scalar_component": 0.0003172498445380013,
+          "minimum_eigenvalue": 0.0003172498445380013
+        }
+      ],
+      "weight_index": 1
+    },
+    {
+      "step": 0.025,
+      "horizon": 1600.0,
+      "steps": 64000,
+      "minimum_sampled_eigenvalue": 0.000317249844450993,
+      "maximum_sampled_invariant_drift": 2.6653124152176133e-11,
+      "maximum_sampled_loss_increase": 0.0,
+      "snapshots": [
+        {
+          "time": 0,
+          "loss": 1.4129973598300092,
+          "measurement_residual": 1.5673757260678327,
+          "endpoint_error": 1.5941494181474936,
+          "regular_block_error": 0.9624512285721248,
+          "first_block_minimum_eigenvalue": 0.8584524052577349,
+          "scalar_component": 0.7999999999999999,
+          "minimum_eigenvalue": 0.7999999999999999
+        },
+        {
+          "time": 100,
+          "loss": 9.978011541698722e-05,
+          "measurement_residual": 0.014549806609754159,
+          "endpoint_error": 0.016959683761167927,
+          "regular_block_error": 0.00183258564938288,
+          "first_block_minimum_eigenvalue": 0.013477972054682735,
+          "scalar_component": 0.0054027399740067365,
+          "minimum_eigenvalue": 0.0054027399740067365
+        },
+        {
+          "time": 200,
+          "loss": 2.390524588862027e-05,
+          "measurement_residual": 0.007101740503014542,
+          "endpoint_error": 0.00828907669132718,
+          "regular_block_error": 0.0008871021361165696,
+          "first_block_minimum_eigenvalue": 0.0066210827538397965,
+          "scalar_component": 0.0026243361304885524,
+          "minimum_eigenvalue": 0.0026243361304885524
+        },
+        {
+          "time": 400,
+          "loss": 5.814997970653953e-06,
+          "measurement_residual": 0.003497969935106207,
+          "endpoint_error": 0.004085411133207436,
+          "regular_block_error": 0.0004351396733976709,
+          "first_block_minimum_eigenvalue": 0.0032712009381341556,
+          "scalar_component": 0.0012894925140878538,
+          "minimum_eigenvalue": 0.0012894925140878538
+        },
+        {
+          "time": 800,
+          "loss": 1.4297033744878848e-06,
+          "measurement_residual": 0.001733342350190029,
+          "endpoint_error": 0.0020250686379658087,
+          "regular_block_error": 0.00021518204539139216,
+          "first_block_minimum_eigenvalue": 0.0016233768186137698,
+          "scalar_component": 0.0006382108428086083,
+          "minimum_eigenvalue": 0.0006382108428086083
+        },
+        {
+          "time": 1600.0,
+          "loss": 3.53928601032835e-07,
+          "measurement_residual": 0.0008621475785150125,
+          "endpoint_error": 0.001007404466920793,
+          "regular_block_error": 0.0001069204685695873,
+          "first_block_minimum_eigenvalue": 0.0008080403970043837,
+          "scalar_component": 0.000317249844450993,
+          "minimum_eigenvalue": 0.000317249844450993
+        }
+      ],
+      "weight_index": 1
+    }
+  ],
+  "inconsistent_weight_control": [
+    {
+      "weight": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "target": [
+        -1.0,
+        1.0
+      ],
+      "optimum": [
+        0.0,
+        1.0
+      ],
+      "gradient": [
+        1.0,
+        0.0
+      ],
+      "loss": 0.5,
+      "complementarity": 0.0,
+      "weight_minimum_eigenvalue": 1.0
+    },
+    {
+      "weight": [
+        [
+          1.0,
+          0.5
+        ],
+        [
+          0.5,
+          1.0
+        ]
+      ],
+      "target": [
+        -1.0,
+        1.0
+      ],
+      "optimum": [
+        0.0,
+        0.5
+      ],
+      "gradient": [
+        0.75,
+        0.0
+      ],
+      "loss": 0.375,
+      "complementarity": 0.0,
+      "weight_minimum_eigenvalue": 0.5
+    }
+  ],
+  "checks": {
+    "basis_orthonormal": true,
+    "normal_orthogonality": true,
+    "endpoint_has_two_zero_eigenvalues": true,
+    "step_refinement_below_1e_minus_7": true,
+    "sampled_positivity": true,
+    "sampled_invariant_error_below_1e_minus_6": true,
+    "endpoint_errors_decrease_at_late_samples": true,
+    "inconsistent_controls_psd_kkt": true
+  },
+  "passed": true
+}

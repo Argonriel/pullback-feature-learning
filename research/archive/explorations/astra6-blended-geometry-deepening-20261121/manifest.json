@@ -1,0 +1,149 @@
+{
+  "created_utc": "2026-11-22T04:06:21.531056+00:00",
+  "files": {
+    "DATA_DICTIONARY.md": {
+      "sha256": "6e4d05c6c707ae0a37063ac72bcdb4d8830a65c0a2cc6414f28b86abda8a0774",
+      "bytes": 4765
+    },
+    "endpoint_difference_refinement/results.json": {
+      "sha256": "45a6fc13b41bd0801541c823e2beac988dee8f615f26da478f1503230be8c5db",
+      "bytes": 1380
+    },
+    "exceptional/derivative_validation_v1/results.json": {
+      "sha256": "7824b33ad36857a0cafd4fdbd99ddb7b71430bcb47c646135a42344a52d62d36",
+      "bytes": 821
+    },
+    "exceptional/FAILED_ATTEMPTS.md": {
+      "sha256": "118733fea7657b8a581579c3b1e4472aa3be7f585ba580ea0cc7e33cf072d50f",
+      "bytes": 1140
+    },
+    "exceptional/REPORT.md": {
+      "sha256": "b37f7966348bc14971a727fadf54ae930ce4df3c632a3db36ba87305c21ebb2d",
+      "bytes": 10685
+    },
+    "exceptional/STATIC_THEOREM_REVIEW.md": {
+      "sha256": "34c7a7ad4dae67cca9f361078acaca398b53b9df4adeeb7a6e6250cf2f53c1a3",
+      "bytes": 14450
+    },
+    "exceptional/validation_v1/results.json": {
+      "sha256": "41c17dd58523a25403245c924737707ca125ccda5d862358f2615bbf59f87afe",
+      "bytes": 19299
+    },
+    "FAILED_ATTEMPTS.md": {
+      "sha256": "cdd2d1ec7a3c67e867bc9f2fbb59cea085c8d393983bfed16770f3093ccee0b1",
+      "bytes": 4127
+    },
+    "literature/AUDIT.md": {
+      "sha256": "e496230d74365b237f1c1615d22f3475279ace8ca7cd0f5dc23d16e41f03d501",
+      "bytes": 12081
+    },
+    "literature/SEARCH_LEDGER.md": {
+      "sha256": "2ee3ada2886fde0bcf68abed78ce11e237abbf149756c044696f64f807fc97cf",
+      "bytes": 6092
+    },
+    "literature/sources/ballantine_1968_II.pdf": {
+      "sha256": "bdc90ed143a648416b6518b4e8c57d2772fae53bad056fb8637a7bbdc7ec1a6b",
+      "bytes": 1178042
+    },
+    "literature/sources/commuting_neurips2022.pdf": {
+      "sha256": "24e2f130fe6f8dbeb0fef6c61d659306fa7a99e2cdfdca85ddc673121503b424",
+      "bytes": 634373
+    },
+    "literature/sources/intrinsic_2508.07370v1.html": {
+      "sha256": "8e22d0fb76dfc6af9c2b7a7b70af8068980381bd449a27f67847b6fce5fe727b",
+      "bytes": 1230371
+    },
+    "literature/sources/isospectral_2604.23895v1.html": {
+      "sha256": "e29cf5e0d2e0772e657f52238db98f6bd1e06f528de388a2764b27941b115146",
+      "bytes": 496421
+    },
+    "literature/sources/keep_momentum_2405.12888v1.html": {
+      "sha256": "6a9e1f8e03ae64f862a0b72c375c344d95f97d27d31e98a6786da409caa82407",
+      "bytes": 1283770
+    },
+    "literature/sources/physical_brownian_1302.2531.html": {
+      "sha256": "c0151271c38ab2b5dc1e7e8d9fe76e621910b4098e8b760ffded70e6cf1e9637",
+      "bytes": 383485
+    },
+    "literature/sources/sld_2307.03431v3.html": {
+      "sha256": "11252e72f5b849f25b655626bf45000710f77c334da310847459e342e1131358",
+      "bytes": 1965044
+    },
+    "literature/sources/split_covariance_2610.09356v1.html": {
+      "sha256": "7e160bac73319ad282cd7348c9bad8345bc11f122f4b59edab4fa4ef6856c253",
+      "bytes": 4167661
+    },
+    "literature/SOURCES.json": {
+      "sha256": "0a801fe67a4e7b3486b4aa93add91425f4816160fe939afe09391afd22198ca1",
+      "bytes": 2535
+    },
+    "packaging_attempt_v1/failure.json": {
+      "sha256": "682dd70b4bf9bc923309482a050a4bf92ee80a1c0de90ffca0bb6fe6f84fb767",
+      "bytes": 451
+    },
+    "packaging_attempt_v1/provenance.json": {
+      "sha256": "638a4831298a42395c313ebe7e365b15e41cd3bbe8c8ae2f3935958b6b6f9ea8",
+      "bytes": 5370
+    },
+    "provenance.json": {
+      "sha256": "a8cef37d16a8598f89a7d74c03efa350dbe298f7ef0fb3c7c61a6cb3429cc932",
+      "bytes": 5678
+    },
+    "REPORT.md": {
+      "sha256": "a21f316348802e103b4ea6d4f6e2cdb51019e301c08386a9532bd7dcedae138f",
+      "bytes": 9538
+    },
+    "source_snapshot/exceptional/exact_rank_checks.py": {
+      "sha256": "d200e60ab45f3e25c9e2d0075035390715cb39dd404c7f8d5fce0ae0b27e38b2",
+      "bytes": 6345
+    },
+    "source_snapshot/exceptional/finite_difference_check.py": {
+      "sha256": "c7fbf2d693b4f0de59818c2cdf61ab0a3dab6e2191ff136cd7f36d187959ccf4",
+      "bytes": 1294
+    },
+    "source_snapshot/finish_package.py": {
+      "sha256": "fb63a23738fe2adbb410a89cd514c33df1a2dbd216559fcb2568bf0f27a2b251",
+      "bytes": 6800
+    },
+    "source_snapshot/package_results.py": {
+      "sha256": "f7db8dd69e88e9018d8d61811205ef8640e14fb986bd1104a2fb6aa13f6dfe44",
+      "bytes": 7305
+    },
+    "source_snapshot/README.md": {
+      "sha256": "a951e909872b4b20afac3b496e5e11c9f7835ae2d56aee3301498573580bf5ad",
+      "bytes": 1705
+    },
+    "source_snapshot/refine_endpoint_difference.py": {
+      "sha256": "9523e95902f583ec3d23158c56849405863562308df746ccc654ed68e39ce999",
+      "bytes": 2651
+    },
+    "source_snapshot/static_loss/check_area_rank.py": {
+      "sha256": "d216cbd6fe00df9915cd933360a5387a00533c9ad83362e2da2a56393fd81cdc",
+      "bytes": 3766
+    },
+    "source_snapshot/validate_static_range.py": {
+      "sha256": "31abe9fc7757cfaa792c1936f9136844d49fa8e187ddd0ef96d71b0442ba9de5",
+      "bytes": 9566
+    },
+    "static_loss/FAILED_ATTEMPTS.md": {
+      "sha256": "e52a39de39b7705dd0aec1eeebc5a7bb97a2dd7ca383641c05559c199996728e",
+      "bytes": 1411
+    },
+    "static_loss/THEOREM.md": {
+      "sha256": "a2f25f062dbb4bc8e4fd258ef82f4acfe585158a0666fcfc4b26059480416390",
+      "bytes": 16702
+    },
+    "static_loss/validation_v1/results.json": {
+      "sha256": "be49d0e32b2f9f9478562ee9aa3a389de88c5e68110ff5254ce245485926bf6e",
+      "bytes": 3117
+    },
+    "THEOREM.md": {
+      "sha256": "7a564dcbd069dc23eafa9f65f943ad8477382d3fa76a13af9ef6d234089bd1df",
+      "bytes": 15148
+    },
+    "validation_v1/results.json": {
+      "sha256": "31438dc88aa5e2f04dca3f013af9c3b219a985f6100ad421654a985ab54ee679",
+      "bytes": 14191
+    }
+  }
+}

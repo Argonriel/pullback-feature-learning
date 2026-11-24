@@ -1,0 +1,164 @@
+{
+  "purpose": "Independent algebraic checks; proof is analytic, not inferred from rank samples.",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "rates": [
+    1.0,
+    2.0,
+    4.0,
+    7.0
+  ],
+  "rank_rows": [
+    {
+      "krylov_dimension": 0,
+      "direction": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rank": 0,
+      "expected_rank": 0,
+      "singular_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "krylov_dimension": 1,
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rank": 3,
+      "expected_rank": 3,
+      "singular_values": [
+        0.16666666666666666,
+        0.09999999999999998,
+        0.0625,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "krylov_dimension": 2,
+      "direction": [
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "rank": 5,
+      "expected_rank": 5,
+      "singular_values": [
+        0.2484519974999766,
+        0.18360047514632133,
+        0.11918586855808125,
+        0.005043156479785825,
+        0.003236981647264627,
+        0.0
+      ]
+    },
+    {
+      "krylov_dimension": 3,
+      "direction": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "rank": 6,
+      "expected_rank": 6,
+      "singular_values": [
+        0.32865699136656484,
+        0.2550995036817697,
+        0.16472604560676504,
+        0.020127631343224477,
+        0.010301307040195997,
+        0.0004133783319262816
+      ]
+    },
+    {
+      "krylov_dimension": 4,
+      "direction": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rank": 6,
+      "expected_rank": 6,
+      "singular_values": [
+        0.3746693417805521,
+        0.29811083774687697,
+        0.21250943986089577,
+        0.03620027845437387,
+        0.02054978599323683,
+        0.0018311234927102947
+      ]
+    }
+  ],
+  "scalar_weight_rank": 3,
+  "scalar_weight_expected_rank": 3,
+  "finite_difference_direction": [
+    [
+      0.3,
+      -0.2,
+      0.1,
+      0.4
+    ],
+    [
+      -0.2,
+      0.5,
+      -0.1,
+      0.2
+    ],
+    [
+      0.1,
+      -0.1,
+      -0.4,
+      0.3
+    ],
+    [
+      0.4,
+      0.2,
+      0.3,
+      0.1
+    ]
+  ],
+  "finite_differences": [
+    {
+      "increment": 0.01,
+      "error_frobenius": 6.068075619645349e-07
+    },
+    {
+      "increment": 0.005,
+      "error_frobenius": 1.517008363755971e-07
+    },
+    {
+      "increment": 0.0025,
+      "error_frobenius": 3.792513845540479e-08
+    }
+  ],
+  "cyclic_gramian_eigenvalues": [
+    0.00021311230050824638,
+    0.0049023780398735105,
+    0.07039670918609954,
+    0.8709163719020901
+  ],
+  "cyclic_S_eigenvalues": [
+    0.0007336465818282492,
+    0.013851938018202604,
+    0.19740845762968195,
+    1.7880059577702871
+  ],
+  "cyclic_lyapunov_residual": 1.5700924586837752e-16,
+  "source_sha256": "d216cbd6fe00df9915cd933360a5387a00533c9ad83362e2da2a56393fd81cdc"
+}

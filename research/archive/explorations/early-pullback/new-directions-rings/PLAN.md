@@ -1,0 +1,10 @@
+# Direct transfer of the fixed optimizer schedules to concentric rings
+
+**Recorded before running any rings trajectories.** The switch experiment on two moons suggested that 100 pullback updates can give GD an early head start. This experiment carries that specific schedule and the two single-method controls to a second classification problem. The primary summary compares warm-up versus GD validation logistic loss at 500 updates. Report the 100-step and 2,000-step validation losses, fixed-readout accuracies, and results for full pullback as well.
+
+Each split contains exactly 128 inner-ring and 128 outer-ring examples. Each point starts at an independent angle uniformly distributed over the full circle, with radius 0.5 for the inner class (−1) and 1.2 for the outer class (+1). Add independent Cartesian Gaussian noise with standard deviation 0.15 in both coordinates, then shuffle the rows. This yields rotationally symmetric class distributions, a radial label rule, and overlapping noisy observations. No coordinate scaling is applied. The training and validation splits are independent. Pairs 1 through 8 respectively use train seeds 71001–71008, initialization seeds 72001–72008, and validation seeds 73001–73008. Every schedule within a pair uses the identical draws and weights. No test data are generated.
+
+Use the same 80-parameter residual model, fixed first-coordinate readout, mean logistic objective, GD learning rate 0.125, pullback learning rate 8, and damping 0.1 as in the two-moons experiment. Run GD throughout, pullback throughout, and 100 steps of pullback followed by GD. Each trajectory runs 2,000 updates and every arm is scored at 100, 500 and 2,000 updates. The two pullback-first arms share the exact prefix parameters. Record seed-paired mean and sample SD of validation loss and accuracy differences, and counts of pairs favoring the warm-up; also preserve each seed's metrics.
+
+This is an exploratory direct-transfer experiment on a synthetic dataset. Hyperparameters were chosen on two moons. There is no tuning on rings, no timing claim, and no selection of the best horizon after the run.
+

@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-21T22:26:05.115429+00:00",
+  "files": {
+    "summary.csv": "3dea85eea4aa4735d11f73bdc2236d5bf7f3f1c72e298c17d24a20fa2e50237b",
+    "cost_quality.csv": "7d9bed3667946fdb369d222d2927bd317fdb5d7b15c6e86835870b4f6028257b",
+    "cpu_cuda_equivalence.csv": "20c04e901361b516c055c15c77cba5cbc1d19efc190ceef7fe8b1b45c5b9b74b",
+    "contrasts.csv": "373de2a0ce91dc6fab20d9a012fce48410784340d617d9b0865cb2f355caf8f6"
+  }
+}

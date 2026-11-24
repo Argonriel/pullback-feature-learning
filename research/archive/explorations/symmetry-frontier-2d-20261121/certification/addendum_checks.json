@@ -1,0 +1,10 @@
+{
+  "seed": 1109002,
+  "replacements": 10000,
+  "maximum_absolute_sum_change": 1.0,
+  "absolute_bound": 1.0,
+  "maximum_relative_sum_change": 2.0,
+  "relative_bound": 2.0,
+  "passed": true,
+  "qualification": "Numerical audit supplements the deterministic proof."
+}

@@ -1,0 +1,129 @@
+{
+  "summary": [
+    {
+      "dataset": "holdout",
+      "method": "B",
+      "ce": 0.26306888575346327,
+      "error": 0.09538333333333333,
+      "seed_sd_ce": 0.009178280759727651,
+      "seed_sd_error": 0.002267524347535583
+    },
+    {
+      "dataset": "holdout",
+      "method": "T",
+      "ce": 0.25641153455528576,
+      "error": 0.09291666666666666,
+      "seed_sd_ce": 0.008252440034319195,
+      "seed_sd_error": 0.00304526955566608
+    },
+    {
+      "dataset": "holdout",
+      "method": "S",
+      "ce": 0.2701648219835387,
+      "error": 0.09753333333333332,
+      "seed_sd_ce": 0.006879866740112039,
+      "seed_sd_error": 0.002471167065713421
+    },
+    {
+      "dataset": "holdout",
+      "method": "C",
+      "ce": 0.23223016783835768,
+      "error": 0.084,
+      "seed_sd_ce": 0.005850014175808988,
+      "seed_sd_error": 0.003706211003167521
+    },
+    {
+      "dataset": "myntra_seen",
+      "method": "B",
+      "ce": 1.5701692662737727,
+      "error": 0.4631111111111111,
+      "seed_sd_ce": 0.1086275263965935,
+      "seed_sd_error": 0.030467955236548057
+    },
+    {
+      "dataset": "myntra_seen",
+      "method": "T",
+      "ce": 1.5614002066466801,
+      "error": 0.45766666666666667,
+      "seed_sd_ce": 0.11855523559253854,
+      "seed_sd_error": 0.03199097094841327
+    },
+    {
+      "dataset": "myntra_seen",
+      "method": "S",
+      "ce": 1.582961930600901,
+      "error": 0.4551111111111111,
+      "seed_sd_ce": 0.1414397571888242,
+      "seed_sd_error": 0.034923832465439335
+    },
+    {
+      "dataset": "myntra_seen",
+      "method": "C",
+      "ce": 1.6340716878273414,
+      "error": 0.46366666666666667,
+      "seed_sd_ce": 0.20403185542909874,
+      "seed_sd_error": 0.03858554709271912
+    },
+    {
+      "dataset": "zappos_new",
+      "method": "B",
+      "ce": 1.2406601865850342,
+      "error": 0.4677777777777778,
+      "seed_sd_ce": 0.344594589720325,
+      "seed_sd_error": 0.06644719429463994
+    },
+    {
+      "dataset": "zappos_new",
+      "method": "T",
+      "ce": 1.1150858107053052,
+      "error": 0.45644444444444443,
+      "seed_sd_ce": 0.15091315180291653,
+      "seed_sd_error": 0.02604497534536634
+    },
+    {
+      "dataset": "zappos_new",
+      "method": "S",
+      "ce": 1.1913726614428561,
+      "error": 0.4701111111111111,
+      "seed_sd_ce": 0.2387536685135321,
+      "seed_sd_error": 0.053823442503828776
+    },
+    {
+      "dataset": "zappos_new",
+      "method": "C",
+      "ce": 1.1846565437397885,
+      "error": 0.448,
+      "seed_sd_ce": 0.29457893920257433,
+      "seed_sd_error": 0.09481678238699212
+    }
+  ],
+  "success": {
+    "utc": "2026-11-22T00:20:03.879631+00:00",
+    "new_source_error_ordering_replication_success": false,
+    "criteria": {
+      "S-B": {
+        "mean_error_gain": -0.002333333333333332,
+        "at_least_one_percentage_point_gain": false,
+        "adjusted_seed_interval_upper_below_zero": false,
+        "improves_at_least_five_of_six": false,
+        "negative_seed_pairs": 3,
+        "upper": 0.059895029522689804
+      },
+      "S-C": {
+        "mean_error_gain": -0.02211111111111111,
+        "at_least_one_percentage_point_gain": false,
+        "adjusted_seed_interval_upper_below_zero": false,
+        "improves_at_least_five_of_six": false,
+        "negative_seed_pairs": 3,
+        "upper": 0.15005318546994076
+      }
+    },
+    "primary_comparisons": 2,
+    "primary_interval_family": "Bonferroni 2; 97.5% two-sided paired-seed Student t intervals",
+    "assumptions": "Six independent training randomizations of one fixed training split; paired differences approximately normal. No guarantee at n=6.",
+    "crossed_product_bootstrap_role": "Secondary sensitivity; resample six seed pairs and 500 unique product groups per class, common product draws across chosen seeds/methods.",
+    "no_training_dataset_resampling": true,
+    "brand_dependence_unresolved": true,
+    "serving_quality_criteria_separate": true
+  }
+}

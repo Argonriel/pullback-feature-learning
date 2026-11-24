@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "worlds_checked": 192,
+  "half_prevalence_worlds_checked": 96,
+  "independent_density": "Direct Rice-mixture density; 24-point Gauss quadrature on independently split segments",
+  "max_half_prevalence_error": 1.609823385706477e-15,
+  "max_total_density_mass_error": 4.440892098500626e-16,
+  "max_continuous_gain_error": 2.42861286636753e-17,
+  "max_saved_probability_error": 0.0,
+  "max_parity_correction": 5.204170427930421e-17,
+  "all_1920_repaired_masks_match_original": true,
+  "reexecuted_policy_masks": 30,
+  "recomputed_iid_risk_rows": 360,
+  "max_recomputed_risk_error": 0.0,
+  "original_sources_and_policy_tables_unchanged": true,
+  "freeze_commit_replay_order_valid": true,
+  "diagnostic_repair_forward_examples": 13631488,
+  "additional_independent_audit_forward_examples": 2555904,
+  "sharpness_scope": "Exact threshold-rearrangement characterization for the fixed piecewise-interpolated moment curves; numerical true-density integration. Underlying neural moments remain approximate. Intervals are model-specific, not one common posterior world.",
+  "tail_mass_bound": 5.380186160021062e-32
+}

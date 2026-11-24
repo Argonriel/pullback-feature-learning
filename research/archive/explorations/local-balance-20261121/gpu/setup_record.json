@@ -1,0 +1,32 @@
+{
+  "recorded_utc": "2026-11-21T09:31:57.692991+00:00",
+  "environment": ".venv-gpu",
+  "torch": "2.7.1+cu128",
+  "cuda": "12.8",
+  "numpy": "2.2.6",
+  "threadpoolctl": "3.6.0",
+  "device": "NVIDIA GeForce RTX 5070 Ti",
+  "memory_total_MiB": 16303,
+  "driver": "610.88",
+  "compute_capability": [
+    12,
+    0
+  ],
+  "compiled_architecture": "sm_120",
+  "cuda_matmul_check": {
+    "shape": [
+      256,
+      256
+    ],
+    "expected": 256,
+    "observed": 256,
+    "synchronized": true
+  },
+  "torch_wheel_MB": 3273.0,
+  "sources": [
+    "https://download.pytorch.org/whl/cu128",
+    "https://pypi.org/simple"
+  ],
+  "existing_research_environment_changed": false,
+  "earlier_DNS_failure_resolved_by_authorized_network_execution": true
+}

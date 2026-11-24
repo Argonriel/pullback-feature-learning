@@ -1,0 +1,7 @@
+# Independent trajectory replication
+
+The first 16 pairs showed an early excursion at two GD updates and a smaller apparent late reversal in the trajectory that switched at step 100. The mean confidence advantage was positive 250 GD updates after that switch and negative after 300. The late change in sign, and the distinction between the first transient and the eventual ranking, prompted this independent test.
+
+Use training, initialization, calibration, held-out evaluation, and tie-breaking seeds obtained by adding indices 17 through 32 to the same five base seeds. These pairs were not used to devise the test. Fit each checkpoint's table to 8,192 unlabeled inputs. Test on 32,768 held-out inputs using 64 second views per batch of 256. Reuse both switch points (100 and 350), all previously used observation delays, the original learning rates and the age-matched uninterrupted pullback branch. No change to the decision rule or the budget.
+
+Report the signs and magnitudes of mean and median folded-minus-confidence loss at 250, 300, 350 and 400 updates after the step-100 switch. Check the late sign crossing in the new group separately. Report the first two updates with per-seed counts and raw risk, contrasting typical changes with extreme cases. Use the pair as the uncertainty unit. Bootstrap intervals describe each prespecified checkpoint separately. Check whether switched and continued trajectories differ. The original group remains the discovery group; comparisons choosing any other interval after examining the replication will be labeled exploratory.

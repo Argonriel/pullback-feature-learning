@@ -1,0 +1,50 @@
+[
+  {
+    "path": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\rank-certificate-transfer-20261121\\certificate\\fresh\\rings\\1_local.npz",
+    "seconds": 0.00024049999774433672
+  },
+  {
+    "path": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\rank-certificate-transfer-20261121\\certificate\\fresh\\rings\\1_distribution.npz",
+    "seconds": 0.00012030001380480826
+  },
+  {
+    "path": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\rank-certificate-transfer-20261121\\certificate\\fresh\\rings\\8_local.npz",
+    "seconds": 9.770001634024084e-05
+  },
+  {
+    "path": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\rank-certificate-transfer-20261121\\certificate\\fresh\\rings\\8_distribution.npz",
+    "seconds": 0.00023169998894445598
+  },
+  {
+    "path": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\rank-certificate-transfer-20261121\\certificate\\fresh\\rings\\16_local.npz",
+    "seconds": 0.00013190001482143998
+  },
+  {
+    "path": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\rank-certificate-transfer-20261121\\certificate\\fresh\\rings\\16_distribution.npz",
+    "seconds": 8.58000130392611e-05
+  },
+  {
+    "path": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\rank-certificate-transfer-20261121\\certificate\\fresh\\waveform\\1_local.npz",
+    "seconds": 9.42000187933445e-05
+  },
+  {
+    "path": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\rank-certificate-transfer-20261121\\certificate\\fresh\\waveform\\1_distribution.npz",
+    "seconds": 7.979999645613134e-05
+  },
+  {
+    "path": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\rank-certificate-transfer-20261121\\certificate\\fresh\\waveform\\8_local.npz",
+    "seconds": 0.0002886999864131212
+  },
+  {
+    "path": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\rank-certificate-transfer-20261121\\certificate\\fresh\\waveform\\8_distribution.npz",
+    "seconds": 8.310002158395946e-05
+  },
+  {
+    "path": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\rank-certificate-transfer-20261121\\certificate\\fresh\\waveform\\16_local.npz",
+    "seconds": 108.02367290001712
+  },
+  {
+    "path": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\rank-certificate-transfer-20261121\\certificate\\fresh\\waveform\\16_distribution.npz",
+    "seconds": 0.00012850001803599298
+  }
+]

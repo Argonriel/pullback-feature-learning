@@ -1,0 +1,86 @@
+{
+  "created_utc": "2026-11-22T04:05:24.260464+00:00",
+  "status": "passed",
+  "manifest_content_files": 48,
+  "content_failures": [],
+  "broken_new_document_links": [],
+  "embedded_hash_resolution": [
+    {
+      "file": "independent-literature/EXTRA_SOURCE_HASHES.json",
+      "field": "source_sha256",
+      "resolved": true
+    },
+    {
+      "file": "independent-literature/FAILED_SOURCE_RETRIEVAL.json",
+      "field": "source_sha256",
+      "resolved": true
+    },
+    {
+      "file": "independent-literature/moment_constant_check.json",
+      "field": "source_sha256",
+      "resolved": true
+    },
+    {
+      "file": "independent-literature/SOURCE_HASHES.json",
+      "field": "source_sha256",
+      "resolved": true
+    },
+    {
+      "file": "independent-regularity/exact_plateau_results.json",
+      "field": "source_sha256",
+      "resolved": true
+    },
+    {
+      "file": "independent-regularity/exact_plateau_results.json",
+      "field": "theorem_sha256",
+      "resolved": true
+    },
+    {
+      "file": "validation-v1/results.json",
+      "field": "source_sha256",
+      "resolved": true
+    }
+  ],
+  "primary_source_hashes": [
+    {
+      "file": "sources/lesniewski_ruskai.pdf",
+      "verified": true
+    },
+    {
+      "file": "sources/grasselli_streater.pdf",
+      "verified": true
+    },
+    {
+      "file": "sources/fawzi_saunderson_parrilo.pdf",
+      "verified": true
+    },
+    {
+      "file": "sources/bresar_cabrera_fosner_villena.pdf",
+      "verified": true
+    },
+    {
+      "file": "sources/ohara_ishi_tsuchiya.html",
+      "verified": true
+    },
+    {
+      "file": "sources/nagaoka_fujiwara.html",
+      "verified": true
+    },
+    {
+      "file": "sources/ciaglia_dinocera.pdf",
+      "verified": true
+    },
+    {
+      "file": "sources/li_wang_lee_arora.pdf",
+      "verified": true
+    },
+    {
+      "file": "sources/thanwerdas_pennec.pdf",
+      "verified": true
+    }
+  ],
+  "prior_archive_check": "provenance.json verifies 39+13 old manifest-listed content files",
+  "bookkeeping_exclusion": "manifest.json and ARCHIVE_CHECK.json do not hash themselves; bytecode caches excluded",
+  "archived_to": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\astra6-universality-deepening-20261121",
+  "archive_content_equality": true
+}

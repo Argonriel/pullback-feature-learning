@@ -1,0 +1,218 @@
+{
+  "utc": "2026-11-21T22:33:42.134404+00:00",
+  "status": "PASS",
+  "scientific_freezes": [
+    {
+      "freeze": "training/PILOT_FREEZE.json",
+      "sha256": "f4d0ee14ecbbbf8b74f4c132f4f4bdb3743202aa8fffa59fadb6fe1ce495db3a",
+      "verified_sources": [
+        {
+          "path": "training/model.py",
+          "sha256": "fca6b349140849e8486a426d77ce3858123f005a9e84ecf2f112111acb05ac20"
+        },
+        {
+          "path": "training/pilot.py",
+          "sha256": "a8be78031c936eb9c4b912dc374f09d51f5bbb635e8655fd914ffd943cd22aef"
+        },
+        {
+          "path": "training/PROTOCOL.md",
+          "sha256": "31bc0bb706c2357d632f58a03a7731389f634274ab4d7c858460b68c7e6dec34"
+        },
+        {
+          "path": "training/LITERATURE.md",
+          "sha256": "ddce583dac0fd645b44d3d15b2536b211fbeafb1c6ecb3b9f6012eb3b5816e17"
+        },
+        {
+          "path": "training/reference/task.py",
+          "sha256": "8da7d92d23437155d10be130a712e219211760ee740c2fca2a4b3506437214f4"
+        },
+        {
+          "path": "training/reference/core4d.py",
+          "sha256": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77"
+        },
+        {
+          "path": "training/reference/TRAINING_CHOICE.json",
+          "sha256": "2a86fdf6cb070344b62620c4f4f47c2683c762bd4d5737d43e83c69b69354588"
+        }
+      ]
+    },
+    {
+      "freeze": "training/FRESH_FREEZE.json",
+      "sha256": "33d379696dc6b3ea813ffdb5a73df0ffed05570e54b6775af1f01b9beeaf1a90",
+      "verified_sources": [
+        {
+          "path": "training/model.py",
+          "sha256": "fca6b349140849e8486a426d77ce3858123f005a9e84ecf2f112111acb05ac20"
+        },
+        {
+          "path": "training/pilot.py",
+          "sha256": "a8be78031c936eb9c4b912dc374f09d51f5bbb635e8655fd914ffd943cd22aef"
+        },
+        {
+          "path": "training/adapters.py",
+          "sha256": "6f1501b81931d6da93557c7b5ddb4ca26b0f07563e1a918e582cae7dd4a61345"
+        },
+        {
+          "path": "training/study.py",
+          "sha256": "340466c43a8d153dac7eb467590d10ecb66c2357421be64f27d59405e4ac2653"
+        },
+        {
+          "path": "training/PROTOCOL.md",
+          "sha256": "31bc0bb706c2357d632f58a03a7731389f634274ab4d7c858460b68c7e6dec34"
+        },
+        {
+          "path": "training/FRESH_PROTOCOL.md",
+          "sha256": "9948818f6e91659c0aff61c471dc884ef2d4bf3185d489339c6b3d0b8870242d"
+        },
+        {
+          "path": "training/LITERATURE.md",
+          "sha256": "ddce583dac0fd645b44d3d15b2536b211fbeafb1c6ecb3b9f6012eb3b5816e17"
+        },
+        {
+          "path": "training/PILOT_FREEZE.json",
+          "sha256": "f4d0ee14ecbbbf8b74f4c132f4f4bdb3743202aa8fffa59fadb6fe1ce495db3a"
+        },
+        {
+          "path": "training/TRAINING_CHOICE.json",
+          "sha256": "b9bfc48f28447aed2e74a0326d9ed46c59b5b3d6aff4e187c22b55cdd3da9518"
+        },
+        {
+          "path": "training/smoke.py",
+          "sha256": "cf0ae39038fdba91505cba337f0166c9b531ee79c681e7f16a7c6a22cfc1527c"
+        },
+        {
+          "path": "training/SMOKE.json",
+          "sha256": "d0af683f82244a688fb691e99adfd4e39cb73a3645304497423c10a21d87653d"
+        },
+        {
+          "path": "training/reference/baseline.py",
+          "sha256": "652b9f68f021bbd05b2031e26325e495e3a3cf1ff423c89680bc6335592d6ac3"
+        },
+        {
+          "path": "training/reference/core4d.py",
+          "sha256": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77"
+        },
+        {
+          "path": "training/reference/task.py",
+          "sha256": "8da7d92d23437155d10be130a712e219211760ee740c2fca2a4b3506437214f4"
+        },
+        {
+          "path": "training/reference/TRAINING_CHOICE.json",
+          "sha256": "2a86fdf6cb070344b62620c4f4f47c2683c762bd4d5737d43e83c69b69354588"
+        }
+      ]
+    },
+    {
+      "freeze": "robustness/FREEZE.json",
+      "sha256": "b9161c04ec58aa66da9bb05a22caa95bb680a9fc39c6c4a4696854b1c4754f17",
+      "verified_sources": [
+        {
+          "path": "robustness/run.py",
+          "sha256": "c3b6cdf3878bebded08c2ec8f818190841e624f82653e1f8f5c3af6491242bca"
+        },
+        {
+          "path": "robustness/bounds.py",
+          "sha256": "2429f0c7edb521d68b817e4adc645feb6fdfb612e11eee2bc5fd3b952a4a01da"
+        },
+        {
+          "path": "robustness/common.py",
+          "sha256": "ce33ad0abfa8b544da60340876d1287a3482018299ef27359e806ea22dafe362"
+        },
+        {
+          "path": "robustness/PROTOCOL.md",
+          "sha256": "eca649a1b0b720b1fbab4e25bb57a115a86b5c6cc8c4882248d6390db1d8cd2a"
+        },
+        {
+          "path": "robustness/THEORY.md",
+          "sha256": "c5ae03f8cd1e192e70f85ffc2dafda8625ebb4b861a5c51c5c6caf25aff84108"
+        },
+        {
+          "path": "robustness/reference/baseline.py",
+          "sha256": "652b9f68f021bbd05b2031e26325e495e3a3cf1ff423c89680bc6335592d6ac3"
+        },
+        {
+          "path": "training/reference/task.py",
+          "sha256": "8da7d92d23437155d10be130a712e219211760ee740c2fca2a4b3506437214f4"
+        },
+        {
+          "path": "training/reference/core4d.py",
+          "sha256": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77"
+        }
+      ]
+    },
+    {
+      "freeze": "realdata/TRAINING_FREEZE.json",
+      "sha256": "3f057e12633dbfdf03970d3dd6ccd75b456b6d9071894a0a3caa5b4f0ce776de",
+      "verified_sources": [
+        {
+          "path": "realdata/data.py",
+          "sha256": "2434b9fa05dbf959fade93d1bbe0dbbf7691c59d2d96bff332becbb794ca55e9"
+        },
+        {
+          "path": "realdata/model.py",
+          "sha256": "a035171d142946a624c113bee91baf39300713af75d12cf6edea6ec28fe2b1d4"
+        },
+        {
+          "path": "realdata/train.py",
+          "sha256": "67016e62f86ffa85f52870f1ed2bc3a3c394304bfaaec931b275a6cb2d049c1c"
+        },
+        {
+          "path": "realdata/TRAINING_PROTOCOL.md",
+          "sha256": "c5dc29fcda9965bfa21427a7a74d0c9a6e0996794f7ce3ff979aa98db9a909a5"
+        }
+      ]
+    },
+    {
+      "freeze": "realdata/SOURCE_FREEZE.json",
+      "sha256": "aea2fcaed27fe33a2a7cbe9eddaf8423b33a631c35d98df69a01015509b0980f",
+      "verified_sources": [
+        {
+          "path": "realdata/study.py",
+          "sha256": "53540ce045a616412207a30ac6ba49172bb2c17dbe254ee09d1ec4dd6b838afa"
+        },
+        {
+          "path": "realdata/policy.py",
+          "sha256": "0bd8866842beaa12925983b15f3b0d7fa5d0f19abcaa2530b5e7286244d3fefc"
+        },
+        {
+          "path": "realdata/PROTOCOL.md",
+          "sha256": "1fa35a5d572dcd77c21c769964c029936432bb106350743c6d54df925aa84158"
+        },
+        {
+          "path": "realdata/TRAINING_FREEZE.json",
+          "sha256": "3f057e12633dbfdf03970d3dd6ccd75b456b6d9071894a0a3caa5b4f0ce776de"
+        },
+        {
+          "path": "realdata/data.py",
+          "sha256": "2434b9fa05dbf959fade93d1bbe0dbbf7691c59d2d96bff332becbb794ca55e9"
+        },
+        {
+          "path": "realdata/model.py",
+          "sha256": "a035171d142946a624c113bee91baf39300713af75d12cf6edea6ec28fe2b1d4"
+        },
+        {
+          "path": "realdata/train.py",
+          "sha256": "67016e62f86ffa85f52870f1ed2bc3a3c394304bfaaec931b275a6cb2d049c1c"
+        }
+      ]
+    }
+  ],
+  "internal_release_commitments": [
+    {
+      "release": "training/ROOT_APPROVAL.json",
+      "target": "training/FRESH_FREEZE.json",
+      "sha256": "33d379696dc6b3ea813ffdb5a73df0ffed05570e54b6775af1f01b9beeaf1a90"
+    },
+    {
+      "release": "robustness/ROOT_APPROVAL.json",
+      "target": "robustness/FREEZE.json",
+      "sha256": "b9161c04ec58aa66da9bb05a22caa95bb680a9fc39c6c4a4696854b1c4754f17"
+    },
+    {
+      "release": "realdata/TEST_APPROVAL.json",
+      "target": "realdata/POLICY_COMMIT.json",
+      "sha256": "317244b1e73871984b3d939b8db2612bea361e84bb4a6e765601cfcfda1d7ba4"
+    }
+  ],
+  "mismatches": 0
+}

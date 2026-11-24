@@ -1,0 +1,28 @@
+{
+  "utc": "2026-11-21T22:53:35.980420+00:00",
+  "status": "PASS",
+  "pages": 6,
+  "pdf_sha256": "52d6b30a2edb2fa497c784ef8c3da921702593f9bd6e0d99c035b246ad0512b9",
+  "markdown_sha256": "d12acede9f8d7c06935733054e2ec21d4fec2beb027a04cc1c1d2533f6a948e1",
+  "visual_review": {
+    "pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "render": "pdftoppm PNG, 1400-pixel long side",
+    "findings": "All pages directly inspected: readable figures/tables, consistent layout, no clipping, overlap, or overflow pages.",
+    "final_revision": "Page2 selection-field chronology corrected and visually rechecked. Rendered pages1,3,4,5,6 remain byte-identical to their immediately prior inspected versions."
+  },
+  "independent_reviews": {
+    "calibration": "Four primary intervals, equal-label versus unequal-compute distinction and audit costs verified; field-versus-future-mask chronology corrected.",
+    "augmentation": "Quality, primary intervals, historical exposure, augmented-only timing and pooled comparisons, and separate cost ledgers verified.",
+    "shift": "Multiclass assumptions, same-input-law moments, bound versus measured gain, TV obstruction and non-formal CNN numerical range qualification verified."
+  },
+  "scientific_source_changes_after_freeze": 0,
+  "data_boundary": "Image holdout excluded from this round fitting, but historically exposed; no pristine external replication claimed.",
+  "no_real_image_certificate": true
+}

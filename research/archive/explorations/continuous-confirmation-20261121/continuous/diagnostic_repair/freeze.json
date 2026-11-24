@@ -1,0 +1,9 @@
+{
+  "timestamp_utc": "2026-11-21T09:08:04.495981+00:00",
+  "source_sha256": "d5ef213e50a4a02ba3178ede675e17377d443e82fee86108d3528638e5af2d10",
+  "spec_sha256": "357febce99c4156aa1ea58196931ea26bf223ca2e484898ebc647479d004c6e3",
+  "policy_sha256": "245e2b508f28ebee8907f41105513fc7899cac83175f6401478d9e9b43fed48c",
+  "original_outcomes_sha256": "5c9385e2e05e78b2d4113728acf328b49754cfc1db4094c208bc07764044038d",
+  "original_policy_commit_sha256": "da1749abe29b8af2d5b47fc267ed1954922c40e0f1f3b231ec67511153af207b",
+  "purpose": "Evaluation-only atom and continuous-density repair; no policy, resolution, mask, data seed, or original-risk change."
+}

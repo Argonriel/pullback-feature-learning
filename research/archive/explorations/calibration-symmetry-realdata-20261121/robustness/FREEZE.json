@@ -1,0 +1,62 @@
+{
+  "timestamp_utc": "2026-11-21T22:20:51.202836+00:00",
+  "config": {
+    "pairs": 16,
+    "variants": [
+      "legacy_raw",
+      "pb_temp"
+    ],
+    "safe": [
+      "symmetric_jensen",
+      "folded"
+    ],
+    "policies": [
+      "raw",
+      "full",
+      "symmetric_jensen",
+      "folded",
+      "confidence"
+    ],
+    "looks": [
+      512,
+      2048
+    ],
+    "primary_batches": 2048,
+    "stress_n": 65536,
+    "epsilons": [
+      0.0,
+      0.025,
+      0.05,
+      0.1,
+      0.2,
+      0.4,
+      0.8,
+      1.0
+    ],
+    "worlds": [
+      "cosine",
+      "adversarial"
+    ],
+    "family_events": 512,
+    "delta": 9.765625e-05,
+    "certificate_input_base": 2121000,
+    "certificate_tie_base": 2122000,
+    "stress_input_base": 2124000,
+    "stress_tie_base": 2125000,
+    "bootstrap_seed": 2129000,
+    "bootstrap_repeats": 20000,
+    "clip_rule": "min(.5,max(1e-6,quantile95(grid.folded_jensen)))"
+  },
+  "fresh_outcomes_accessed": false,
+  "fresh_manifest_absent": true,
+  "hashes": {
+    "robustness/run.py": "c3b6cdf3878bebded08c2ec8f818190841e624f82653e1f8f5c3af6491242bca",
+    "robustness/bounds.py": "2429f0c7edb521d68b817e4adc645feb6fdfb612e11eee2bc5fd3b952a4a01da",
+    "robustness/common.py": "ce33ad0abfa8b544da60340876d1287a3482018299ef27359e806ea22dafe362",
+    "robustness/PROTOCOL.md": "eca649a1b0b720b1fbab4e25bb57a115a86b5c6cc8c4882248d6390db1d8cd2a",
+    "robustness/THEORY.md": "c5ae03f8cd1e192e70f85ffc2dafda8625ebb4b861a5c51c5c6caf25aff84108",
+    "robustness/reference/baseline.py": "652b9f68f021bbd05b2031e26325e495e3a3cf1ff423c89680bc6335592d6ac3",
+    "training/reference/task.py": "8da7d92d23437155d10be130a712e219211760ee740c2fca2a4b3506437214f4",
+    "training/reference/core4d.py": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77"
+  }
+}

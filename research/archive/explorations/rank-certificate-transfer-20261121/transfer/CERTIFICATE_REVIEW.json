@@ -1,0 +1,15 @@
+{
+  "timestamp_utc": "2026-11-21T10:15:48.182048+00:00",
+  "status": "mathematical_review_pass_with_stated_numerical_assumptions",
+  "source_sha256": {
+    "root_audit/certificate.py": "03b951115dbf95d997cbea4c75d095dd0380d200100321da53dc0c1d0362860b",
+    "root_audit/CERTIFICATE.md": "9e0e0f3ab9b85b32c37b2fc7e0da804c0cd414b9e030ae12672c4c222a028834",
+    "certificate/known_cdf.py": "9eb325a3f4fe4b2488b0bc19ff708ac8b78595e76f46d01b4431892d45ce5ef7",
+    "certificate/local_rank.py": "8e7b36d7fe1cfa4a5ae8b208e60241a732a57aa7d54a6d2195412d0a6f9161ca",
+    "reference/local_jets.py": "f92586ac2c97b31871c92c0c5e7eea5f6afd6a114c9d125fec6b6d9f16c9e691",
+    "validation/adapters.py": "a614d61c180a7b3adcc8fb6d3cfa0421fca1a337e1989b2e7aed8a780c261097"
+  },
+  "paper": "https://www.cs.mcgill.ca/~colt2009/papers/012.pdf",
+  "implementation_issue": "network_constants adapter export reported and owner confirmed correction",
+  "fresh_models_read": false
+}

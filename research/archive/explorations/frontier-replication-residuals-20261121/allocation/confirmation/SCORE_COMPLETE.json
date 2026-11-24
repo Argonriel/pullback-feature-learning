@@ -1,0 +1,28 @@
+{
+  "utc": "2026-11-22T00:28:41.750208+00:00",
+  "manifest": {
+    "confirmation/predictions/1.npz": "2236ee8fc25aeac3c751a90d3783864c830705076d54be17a7f9fa9614277c5a",
+    "confirmation/predictions/2.npz": "1fccfc6ab60768b173aa062468045f6ccb6187703d863187e5d75432024c7535",
+    "confirmation/predictions/3.npz": "d2247ea8619dfc218d0b280654e2175f0df14d449bc1c2320a042d873d61bc3f",
+    "confirmation/predictions/4.npz": "4293d4e3ebad8e64f2614f62df5b2d2d5440b09d2b62a2d999ca9fcf77a9ffbb",
+    "confirmation/predictions/5.npz": "4b3559cb36051f1cbeafa5cb687d031e140a386272585c83852fea9893f0473b",
+    "confirmation/predictions/6.npz": "8f887e5b0840ac0b3b13120ed618b18c77088ca2bed084ef913311e628281fcf",
+    "confirmation/predictions/7.npz": "9177bbcad52641f0213083154804a6ef2c6648d1547206feb5a276663ffe7b40",
+    "confirmation/predictions/8.npz": "ac2844b85f198c0b7ec2b46a4b4882b6862a67b33f60548c3c02edae442d7790",
+    "confirmation/predictions/9.npz": "8c68561f3e7ff74b0117257c730ae4f6f2a6bc702aca3ca25814fe6c525e2866",
+    "confirmation/predictions/10.npz": "87b780b66b31a673b61227abd4eef434404988c5ed21339b813a1600f0520cd2",
+    "confirmation/predictions/11.npz": "bff5083ebc255f8e201e59383926c8de9adb39ea0f861ffb2726a294a16ce9ef",
+    "confirmation/predictions/12.npz": "ba51126ea6d4af2036669f439530a7f49c6e0d785df1cb41c02c0e257d37436f",
+    "confirmation/predictions/13.npz": "979cffea59bdf7e88fb7ae0158c259b5d446ec624d1fc722c29962e26716dbcf",
+    "confirmation/predictions/14.npz": "da67df24b96bdf7f6b7fdbf9707765ff57a908b9e641d771c8362449f65f5d81",
+    "confirmation/predictions/15.npz": "d78c3073a45950e10ded3d0bb2d1c68797ad3b05aa98292f642e537c33809e2d",
+    "confirmation/predictions/16.npz": "c9df8459b4f172a7be894c3077a7b9a531db35e95776923a6975fa04d0642316",
+    "confirmation/per_model.csv": "af45dae4f9284a432b45c93d4be8a4d5fedc600c04058dea98740c40debc5a96",
+    "confirmation/reliability_bins.csv": "075d25dae4702c55a5d1875fc018ed4730e21af187f110d72b014279d6f05f01",
+    "confirmation/deployment_ledger.csv": "93cc243c2af387b99226635a778d05c493276776a9b7ac813f9a79be6baa39d2"
+  },
+  "rows": 80,
+  "actual_evaluation_label_union": 1048576,
+  "actual_inference_forwards": 8388608,
+  "fit_commit_sha256": "69763c9924f3ef7d9fbf697968a7c98a575c497106a9b4e6df41eb9f6c26fc06"
+}

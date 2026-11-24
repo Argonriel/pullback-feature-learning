@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "utc": "2026-11-22T00:41:47.698910+00:00",
+  "report_pages": 9,
+  "pdf_sha256": "8ebdbd6f04bfae69c35e91b24afbec36878b6ad01ef834a23ac9ca6440fb0af1",
+  "manuscript_sha256": "d7819b3e4200bea6645292b1543651cef5115a6113765d28dc37185f74b8760e",
+  "pages": [
+    {
+      "page": 1,
+      "preview_sha256": "fbf25747a0d19e03bf942b42b5d8164f2200e7fc10dc6e15c616faecaeb312c5",
+      "width": 1160,
+      "height": 1500,
+      "text_characters": 2391,
+      "visual_status": "PASS"
+    },
+    {
+      "page": 2,
+      "preview_sha256": "9c2e579bb8ca08825bd338bb97054148a6df8b5beaf70f79f0489e249110cc83",
+      "width": 1160,
+      "height": 1500,
+      "text_characters": 2293,
+      "visual_status": "PASS"
+    },
+    {
+      "page": 3,
+      "preview_sha256": "1b71dff376c9fd4c6a3426af30febece38743d0a3625e370f6f3370dc2c49a33",
+      "width": 1160,
+      "height": 1500,
+      "text_characters": 2186,
+      "visual_status": "PASS"
+    },
+    {
+      "page": 4,
+      "preview_sha256": "0241ac3712601b464bd90253587bb3e7a41b3ff121d3f3643064c4eb067e754f",
+      "width": 1160,
+      "height": 1500,
+      "text_characters": 1913,
+      "visual_status": "PASS"
+    },
+    {
+      "page": 5,
+      "preview_sha256": "c28f839abdb47cf246c3ab213090790bc95848671c1e2008d66c6c10a7e6c62f",
+      "width": 1160,
+      "height": 1500,
+      "text_characters": 2731,
+      "visual_status": "PASS"
+    },
+    {
+      "page": 6,
+      "preview_sha256": "3bada5bf960988d56a3c75da84fb59c1f25be6dff047e78c7aa30cf17c3c4ea0",
+      "width": 1160,
+      "height": 1500,
+      "text_characters": 2699,
+      "visual_status": "PASS"
+    },
+    {
+      "page": 7,
+      "preview_sha256": "5fe3e63c6eb3a819ec36970462c176ea833a66aab9d9194f0318e0b5c58a4bde",
+      "width": 1160,
+      "height": 1500,
+      "text_characters": 2401,
+      "visual_status": "PASS"
+    },
+    {
+      "page": 8,
+      "preview_sha256": "10a28545138f3d6b0e2fc9566845d94bd755848e2bc99b529943712719d38cc7",
+      "width": 1160,
+      "height": 1500,
+      "text_characters": 2488,
+      "visual_status": "PASS"
+    },
+    {
+      "page": 9,
+      "preview_sha256": "62bed5f670777e4b8911cb097991fccf58fa85dc93bbe3fc7720883893bc3fa7",
+      "width": 1160,
+      "height": 1500,
+      "text_characters": 2884,
+      "visual_status": "PASS"
+    }
+  ],
+  "external_hyperlinks": [
+    "https://vision.cs.utexas.edu/projects/finegrained/utzap50k/",
+    "https://jmlr.org/papers/v11/cawley10a.html",
+    "https://arxiv.org/abs/1503.02531",
+    "https://jmlr.org/papers/v21/20-163.html",
+    "https://arxiv.org/abs/0907.3740"
+  ],
+  "visual_review": "Root inspected all nine initial pages and final affected theory/timing pages; independent branch reviewers checked final pages2-9. No clipping, overlap, missing glyphs or illegible figures remain.",
+  "resolved": [
+    "explicit epsilon range and IID same-P sampling",
+    "un-clipped counterexample equality",
+    "roundoff maximum distinguished from initial failure",
+    "complete timing exclusions and hardware/criterion",
+    "baseline identity inference and source/category confounding"
+  ],
+  "independent_review_hashes": {
+    "ALLOCATION_REPORT_REVIEW.md": "ca43d4f0192637880a56af7e24cef74e6b15b067302c0b973eccce42c5bc486d",
+    "IMAGE_REPORT_REVIEW.md": "4ed4f28af991d8fc07f03042acc4ca654c73af16eabe1354e9ea3c20447a5387",
+    "THEORY_REPORT_REVIEW.md": "9344cea52135566f7ad14d0b9918facfe819dd35eb06902bdacfdb2b1bc0dbcb"
+  }
+}

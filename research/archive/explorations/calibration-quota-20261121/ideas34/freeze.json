@@ -1,0 +1,55 @@
+{
+  "timestamp_utc": "2026-11-21T08:31:01.347769+00:00",
+  "config": {
+    "old_model_keys": [
+      "1_pb",
+      "2_pb",
+      "3_pb",
+      "4_pb",
+      "5_pb",
+      "6_pb",
+      "7_pb",
+      "8_pb",
+      "9_pb",
+      "10_pb",
+      "11_pb",
+      "12_pb",
+      "13_pb",
+      "14_pb",
+      "15_pb",
+      "16_pb"
+    ],
+    "epsilons": [
+      0.0,
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "radius_max": 3.0,
+    "radius_cells": 128,
+    "angle_cells": 128,
+    "n_test": 32768,
+    "batch": 256,
+    "quota": 64,
+    "test_seed_base": 7731000,
+    "tie_seed_base": 7732000,
+    "bootstrap_seed": 7733000,
+    "finite_radii": 16,
+    "finite_angles": 16,
+    "finite_radius_range": [
+      0.25,
+      1.55
+    ],
+    "per_radius_quota": 4,
+    "independent_grid_batches": 2048,
+    "grid_random_seed_base": 7734000,
+    "nature": "Fixed previously inspected old pullback models; no fresh training replication"
+  },
+  "script_sha256": "277d03e39303160a0bf2c91540c45817eb635e809e92c72131b7d3ac5feffd84",
+  "protocol_sha256": "b1bb3fdf1096599064a8f62339a6ab12d1d13fbb072b9f081c43c0a4c4df803b",
+  "theory_sha256": "6d0d8ba45653d5f8040792f36fc1261788e2129732aa326d466853311b9cec6e",
+  "model_sha256": "5a8a5b5e4b94b3f2619760ffbc02ec3a345ca1f85aa29cbdd6da85303e14c20c",
+  "core_sha256": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5"
+}

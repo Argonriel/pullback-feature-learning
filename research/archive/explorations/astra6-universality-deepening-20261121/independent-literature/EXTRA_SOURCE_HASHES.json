@@ -1,0 +1,15 @@
+{
+  "source_sha256": "a0fd44ebe8f48257fa73eb988ba7d66a43b1a58bb73cdc6a916fcf29487a25c6",
+  "records": [
+    {
+      "file": "sources/thanwerdas_pennec.pdf",
+      "url": "https://arxiv.org/pdf/2111.02990",
+      "retrieved_at_utc": "2026-11-22T04:00:34.821646+00:00",
+      "content_type": "application/pdf",
+      "resolved_url": "https://arxiv.org/pdf/2111.02990",
+      "status": "saved",
+      "bytes": 702703,
+      "sha256": "53abb9afcd99b66a0dadabcd591302fc6b92d3e01387579e928d485a965b1a1a"
+    }
+  ]
+}

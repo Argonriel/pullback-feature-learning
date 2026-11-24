@@ -1,0 +1,11 @@
+{
+  "checkpoint_hashes": 864,
+  "training_losses": 864,
+  "gd_updates_replayed": 768,
+  "max_training_ce_error": 0.0,
+  "max_gd_replay_error": 0.0,
+  "max_gap_identity_error": 1.0061396160665481e-16,
+  "max_gate_quota_error": 0,
+  "forks_checked": 32,
+  "early_traces_checked": 96
+}

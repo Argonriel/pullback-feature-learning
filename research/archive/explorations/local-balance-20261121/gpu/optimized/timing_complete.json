@@ -1,0 +1,10 @@
+{
+  "timestamp_utc": "2026-11-21T09:47:29.491276+00:00",
+  "n_records": 2646,
+  "device": "NVIDIA GeForce RTX 5070 Ti",
+  "torch_version": "2.7.1+cu128",
+  "timing_approval_sha256": "90d56694aa591912e148e552443cca9bcbb938eeb4836dd8a8410293555c9f5a",
+  "transfer_policy": "Only needed input and tie tensors are transferred.",
+  "runner_freeze_sha256": "0b47802963bb456ad3ca48673223732ca35b299284b8eb3e822294558e53d51f",
+  "equivalence_commit_sha256": "ef6beb121c97bfafc8fbdc631651957e759466dcf0d49e12b2ff07abcfc5cfd9"
+}

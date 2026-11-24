@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "file_count": 39,
+  "total_bytes": 251993,
+  "manifest_sha256": "65482ffc1bc0e590d481e8a43b70d2fe8d9dc9374e87c3b49ee60d2c4ba99214",
+  "source_and_dependency_hashes_resolved": 5,
+  "main_candidate_count": 3,
+  "supplementary_discrete_candidate_counted": false,
+  "reported_main_validation_sanity_checks": "passed",
+  "previous_archives": [
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\learned-geometry-gate-20261121",
+      "unchanged_files": 105,
+      "manifest_sha256": "7164aede3c183ea07325b4cda8aa2a1fa8b820aee34d3782043fa4e4a5c9baf6"
+    },
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\geometry-condition-screen-20261121",
+      "unchanged_files": 32,
+      "manifest_sha256": "b03f4388c8e890343dd1b8d4a79de50a34c1739978da374fa0de5edcb6a9abaf"
+    },
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\new-direction-screen-20261121",
+      "unchanged_files": 43,
+      "manifest_sha256": "1119aeed6ad606bed615dbec134b83bba97c6d47fe038137fee5b07d7da07e1a"
+    },
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\endpoint-selection-deepening-20261121",
+      "unchanged_files": 25,
+      "manifest_sha256": "c2c26f0f77cb43c771f03bb9712c3f21494449634019f003b9b2085df624c2a1"
+    },
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\endpoint-classification-audit-20261121",
+      "unchanged_files": 13,
+      "manifest_sha256": "e87f7057cf21af0bd3d5ad09568c5951cd2525c8c1bd3d1de17ecf803989880e"
+    }
+  ],
+  "broken_report_links": [],
+  "checked_utc": "2026-11-22T03:44:01.247773+00:00"
+}

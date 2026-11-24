@@ -1,0 +1,9 @@
+{
+  "rates": {
+    "gd": 0.5,
+    "warmup": 2.0
+  },
+  "tuning_sha256": "50a40fbbdc5f8e83b7aa817c6ec01dffc85df080f14e387ecdb43075ffa8ab9c",
+  "grid_sha256": "0e2b71835ab95a00073980f40b4c1d86fa412e2133349b7d0bbda24358fcb8ad",
+  "plan_sha256": "31ef37f97f06dc824bbd3e5263ebfe00e66716ecc772900e1e0caedafe1164ad"
+}

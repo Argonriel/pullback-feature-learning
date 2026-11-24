@@ -1,0 +1,44 @@
+{
+  "rows": [
+    {
+      "method": "gd",
+      "rate": 0.1,
+      "models": 4,
+      "conditional_risk": 0.697151992741623,
+      "full_partner_risk": 0.6941510022379571,
+      "training_loss": 0.679257647355506,
+      "seconds": 0.0465038500042283
+    },
+    {
+      "method": "gd",
+      "rate": 0.3,
+      "models": 4,
+      "conditional_risk": 0.6670277189657186,
+      "full_partner_risk": 0.6605320441017317,
+      "training_loss": 0.6357561742320506,
+      "seconds": 0.046718600002350286
+    },
+    {
+      "method": "pb",
+      "rate": 8,
+      "models": 4,
+      "conditional_risk": 0.3831025184228555,
+      "full_partner_risk": 0.332933002393589,
+      "training_loss": 0.1707159789648225,
+      "seconds": 1.1138529749950976
+    },
+    {
+      "method": "pb",
+      "rate": 16,
+      "models": 4,
+      "conditional_risk": 0.5515383568858396,
+      "full_partner_risk": 0.4032125480047859,
+      "training_loss": 0.09553554570875258,
+      "seconds": 1.1102624749983079
+    }
+  ],
+  "training_choice": "PB8 primary; GD.3 descriptivecontext",
+  "pilot_models": 4,
+  "pilot_recipes": 16,
+  "fresh_data_used": false
+}

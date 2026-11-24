@@ -1,0 +1,602 @@
+{
+  "status": "passed; actual controller refinement verified",
+  "evaluation_files_read": [],
+  "refinement_archive_audit": {
+    "folder": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\learned-geometry-gate-20261121\\refinement",
+    "hashes_checked": 12,
+    "seed_pairs_exactly_regenerated": [
+      "moons__d1",
+      "moons__d2",
+      "moons__d3",
+      "moons__d4",
+      "rings__d1",
+      "rings__d2",
+      "rings__d3",
+      "rings__d4"
+    ],
+    "state_count": 128,
+    "summary_status_counts": {
+      "complete": 32
+    },
+    "independent_forward_loss_max_error": 1.1102230246251565e-16,
+    "independent_target_max_error": 9.873110662361739e-11,
+    "complex_step_initial_jacobian_max_error": 2.220446049250313e-16
+  },
+  "changed_config_fields": [
+    "param_step_cap",
+    "step_sizes",
+    "max_steps"
+  ],
+  "source_data_matches_original_and_extension": true,
+  "representative_independent_replays": [
+    {
+      "task": "rings",
+      "seed": "d1",
+      "arm": "tangent_pb",
+      "step_size": 0.005,
+      "steps_replayed": 15110,
+      "matched_states": [
+        {
+          "step": 1736,
+          "fraction": 0.75,
+          "state_max_absolute_error": 0.0,
+          "state_exactly_equal": true
+        },
+        {
+          "step": 6459,
+          "fraction": 0.5,
+          "state_max_absolute_error": 0.0,
+          "state_exactly_equal": true
+        },
+        {
+          "step": 15110,
+          "fraction": 0.25,
+          "state_max_absolute_error": 0.0,
+          "state_exactly_equal": true
+        }
+      ],
+      "max_parameter_error": 0.0,
+      "max_train_loss_error": 0.0,
+      "max_parameter_step": 0.05000000000000001,
+      "max_taylor_ratio": 3.595437695647314e-11,
+      "max_predicted_logit_rms": 0.0022254260473052513,
+      "parameter_cap_active_before_backtracking_steps": 15110,
+      "parameter_cap_active_fraction": 1.0,
+      "backtracks": 0,
+      "complex_step_nonlinear_jacobian_error": 0.0,
+      "independence_limit": "Native Jacobian reused; checked separately by complex-step differentiation. No runner imported."
+    },
+    {
+      "task": "moons",
+      "seed": "d1",
+      "arm": "nonlinear_pb",
+      "step_size": 0.005,
+      "steps_replayed": 362,
+      "matched_states": [
+        {
+          "step": 89,
+          "fraction": 0.75,
+          "state_max_absolute_error": 0.0,
+          "state_exactly_equal": true
+        },
+        {
+          "step": 192,
+          "fraction": 0.5,
+          "state_max_absolute_error": 0.0,
+          "state_exactly_equal": true
+        },
+        {
+          "step": 362,
+          "fraction": 0.25,
+          "state_max_absolute_error": 0.0,
+          "state_exactly_equal": true
+        }
+      ],
+      "max_parameter_error": 0.0,
+      "max_train_loss_error": 0.0,
+      "max_parameter_step": 0.05000000000000001,
+      "max_taylor_ratio": 0.04782434357240235,
+      "max_predicted_logit_rms": 0.005000000000000001,
+      "parameter_cap_active_before_backtracking_steps": 37,
+      "parameter_cap_active_fraction": 0.10220994475138122,
+      "backtracks": 8,
+      "complex_step_nonlinear_jacobian_error": 2.220446049250313e-16,
+      "independence_limit": "Native Jacobian reused; checked separately by complex-step differentiation. No runner imported."
+    }
+  ],
+  "assembled_states_exactly_matched_to_components": 256,
+  "assembled_component_counts": {
+    "discovery": 96,
+    "refinement": 128,
+    "coverage_extension": 32
+  },
+  "primary_training_prediction_sensitivity": [
+    {
+      "task": "moons",
+      "seed": "d1",
+      "arm": "nonlinear_gd",
+      "fraction": 0.25,
+      "coarse_steps": 353,
+      "refined_steps": 706,
+      "fine_to_coarse_step_count_ratio": 2.0,
+      "state_identical": false,
+      "parameter_distance": 0.007622645699641775,
+      "training_logit_rms_difference": 0.0009294557111832876,
+      "training_loss_difference": 5.607028730203467e-11
+    },
+    {
+      "task": "moons",
+      "seed": "d1",
+      "arm": "nonlinear_pb",
+      "fraction": 0.25,
+      "coarse_steps": 189,
+      "refined_steps": 362,
+      "fine_to_coarse_step_count_ratio": 1.9153439153439153,
+      "state_identical": false,
+      "parameter_distance": 0.6034197461199132,
+      "training_logit_rms_difference": 0.015275868534574492,
+      "training_loss_difference": -4.953468191182253e-11
+    },
+    {
+      "task": "moons",
+      "seed": "d1",
+      "arm": "tangent_gd",
+      "fraction": 0.25,
+      "coarse_steps": 4967,
+      "refined_steps": 6822,
+      "fine_to_coarse_step_count_ratio": 1.3734648681296557,
+      "state_identical": false,
+      "parameter_distance": 0.0038104348863762464,
+      "training_logit_rms_difference": 0.001736655294241875,
+      "training_loss_difference": 2.7520236089983996e-11
+    },
+    {
+      "task": "moons",
+      "seed": "d1",
+      "arm": "tangent_pb",
+      "fraction": 0.25,
+      "coarse_steps": 2181,
+      "refined_steps": 4361,
+      "fine_to_coarse_step_count_ratio": 1.9995414947271895,
+      "state_identical": false,
+      "parameter_distance": 0.009929877547378096,
+      "training_logit_rms_difference": 0.00017298165260863882,
+      "training_loss_difference": -1.169381258492308e-11
+    },
+    {
+      "task": "moons",
+      "seed": "d2",
+      "arm": "nonlinear_gd",
+      "fraction": 0.25,
+      "coarse_steps": 339,
+      "refined_steps": 678,
+      "fine_to_coarse_step_count_ratio": 2.0,
+      "state_identical": false,
+      "parameter_distance": 0.0044431416241068515,
+      "training_logit_rms_difference": 0.0009184714373319585,
+      "training_loss_difference": -9.55335810459701e-12
+    },
+    {
+      "task": "moons",
+      "seed": "d2",
+      "arm": "nonlinear_pb",
+      "fraction": 0.25,
+      "coarse_steps": 177,
+      "refined_steps": 335,
+      "fine_to_coarse_step_count_ratio": 1.8926553672316384,
+      "state_identical": false,
+      "parameter_distance": 0.6453877480281571,
+      "training_logit_rms_difference": 0.004282109167593435,
+      "training_loss_difference": -4.4990955405666e-12
+    },
+    {
+      "task": "moons",
+      "seed": "d2",
+      "arm": "tangent_gd",
+      "fraction": 0.25,
+      "coarse_steps": 2091,
+      "refined_steps": 3246,
+      "fine_to_coarse_step_count_ratio": 1.552367288378766,
+      "state_identical": false,
+      "parameter_distance": 0.004412529452581236,
+      "training_logit_rms_difference": 0.0007388955246390008,
+      "training_loss_difference": -2.8881896874111135e-12
+    },
+    {
+      "task": "moons",
+      "seed": "d2",
+      "arm": "tangent_pb",
+      "fraction": 0.25,
+      "coarse_steps": 1250,
+      "refined_steps": 2498,
+      "fine_to_coarse_step_count_ratio": 1.9984,
+      "state_identical": false,
+      "parameter_distance": 0.011807034368025692,
+      "training_logit_rms_difference": 0.0002614746442599891,
+      "training_loss_difference": -1.6806278591019463e-12
+    },
+    {
+      "task": "moons",
+      "seed": "d3",
+      "arm": "nonlinear_gd",
+      "fraction": 0.25,
+      "coarse_steps": 324,
+      "refined_steps": 647,
+      "fine_to_coarse_step_count_ratio": 1.9969135802469136,
+      "state_identical": false,
+      "parameter_distance": 0.007006145547205173,
+      "training_logit_rms_difference": 0.0009452990485239193,
+      "training_loss_difference": 6.541989172603735e-14
+    },
+    {
+      "task": "moons",
+      "seed": "d3",
+      "arm": "nonlinear_pb",
+      "fraction": 0.25,
+      "coarse_steps": 182,
+      "refined_steps": 343,
+      "fine_to_coarse_step_count_ratio": 1.8846153846153846,
+      "state_identical": false,
+      "parameter_distance": 0.1497510906237939,
+      "training_logit_rms_difference": 0.006336692060750038,
+      "training_loss_difference": 1.5615786441713908e-11
+    },
+    {
+      "task": "moons",
+      "seed": "d3",
+      "arm": "tangent_gd",
+      "fraction": 0.25,
+      "coarse_steps": 1264,
+      "refined_steps": 2220,
+      "fine_to_coarse_step_count_ratio": 1.7563291139240507,
+      "state_identical": false,
+      "parameter_distance": 0.009395987720985446,
+      "training_logit_rms_difference": 0.004494757895236267,
+      "training_loss_difference": -5.6548543625467573e-11
+    },
+    {
+      "task": "moons",
+      "seed": "d3",
+      "arm": "tangent_pb",
+      "fraction": 0.25,
+      "coarse_steps": 1009,
+      "refined_steps": 2018,
+      "fine_to_coarse_step_count_ratio": 2.0,
+      "state_identical": false,
+      "parameter_distance": 0.006934677471370434,
+      "training_logit_rms_difference": 0.00019090561494164343,
+      "training_loss_difference": -4.767242156589191e-12
+    },
+    {
+      "task": "moons",
+      "seed": "d4",
+      "arm": "nonlinear_gd",
+      "fraction": 0.25,
+      "coarse_steps": 315,
+      "refined_steps": 629,
+      "fine_to_coarse_step_count_ratio": 1.9968253968253968,
+      "state_identical": false,
+      "parameter_distance": 0.004212068053682265,
+      "training_logit_rms_difference": 0.0006794505002465507,
+      "training_loss_difference": -4.371997208707512e-11
+    },
+    {
+      "task": "moons",
+      "seed": "d4",
+      "arm": "nonlinear_pb",
+      "fraction": 0.25,
+      "coarse_steps": 171,
+      "refined_steps": 332,
+      "fine_to_coarse_step_count_ratio": 1.9415204678362572,
+      "state_identical": false,
+      "parameter_distance": 0.4585220504640748,
+      "training_logit_rms_difference": 0.00711409826531469,
+      "training_loss_difference": 3.750103005906169e-11
+    },
+    {
+      "task": "moons",
+      "seed": "d4",
+      "arm": "tangent_gd",
+      "fraction": 0.25,
+      "coarse_steps": 1201,
+      "refined_steps": 2000,
+      "fine_to_coarse_step_count_ratio": 1.665278934221482,
+      "state_identical": false,
+      "parameter_distance": 0.011881840442726796,
+      "training_logit_rms_difference": 0.006963502956650293,
+      "training_loss_difference": 4.135308762087675e-11
+    },
+    {
+      "task": "moons",
+      "seed": "d4",
+      "arm": "tangent_pb",
+      "fraction": 0.25,
+      "coarse_steps": 894,
+      "refined_steps": 1788,
+      "fine_to_coarse_step_count_ratio": 2.0,
+      "state_identical": false,
+      "parameter_distance": 0.013561364065433972,
+      "training_logit_rms_difference": 0.00029022381624768244,
+      "training_loss_difference": -5.7042537360274537e-11
+    },
+    {
+      "task": "rings",
+      "seed": "d1",
+      "arm": "nonlinear_gd",
+      "fraction": 0.25,
+      "coarse_steps": 355,
+      "refined_steps": 709,
+      "fine_to_coarse_step_count_ratio": 1.9971830985915493,
+      "state_identical": false,
+      "parameter_distance": 0.048286264248470184,
+      "training_logit_rms_difference": 0.004867347451366561,
+      "training_loss_difference": 6.379868855432846e-11
+    },
+    {
+      "task": "rings",
+      "seed": "d1",
+      "arm": "nonlinear_pb",
+      "fraction": 0.25,
+      "coarse_steps": 220,
+      "refined_steps": 383,
+      "fine_to_coarse_step_count_ratio": 1.740909090909091,
+      "state_identical": false,
+      "parameter_distance": 0.13723713950129485,
+      "training_logit_rms_difference": 0.005912553654264176,
+      "training_loss_difference": -6.578476652308041e-11
+    },
+    {
+      "task": "rings",
+      "seed": "d1",
+      "arm": "tangent_gd",
+      "fraction": 0.25,
+      "coarse_steps": 30872,
+      "refined_steps": 31821,
+      "fine_to_coarse_step_count_ratio": 1.0307398289712362,
+      "state_identical": false,
+      "parameter_distance": 0.00030681298080510635,
+      "training_logit_rms_difference": 7.8744675740457e-05,
+      "training_loss_difference": -1.2041867503143067e-11
+    },
+    {
+      "task": "rings",
+      "seed": "d1",
+      "arm": "tangent_pb",
+      "fraction": 0.25,
+      "coarse_steps": 7556,
+      "refined_steps": 15110,
+      "fine_to_coarse_step_count_ratio": 1.9997353096876653,
+      "state_identical": false,
+      "parameter_distance": 0.0029882684771627317,
+      "training_logit_rms_difference": 5.502938625486913e-06,
+      "training_loss_difference": 2.9732716289032624e-11
+    },
+    {
+      "task": "rings",
+      "seed": "d2",
+      "arm": "nonlinear_gd",
+      "fraction": 0.25,
+      "coarse_steps": 298,
+      "refined_steps": 593,
+      "fine_to_coarse_step_count_ratio": 1.9899328859060403,
+      "state_identical": false,
+      "parameter_distance": 0.10519376398830678,
+      "training_logit_rms_difference": 0.004371408502037126,
+      "training_loss_difference": 1.08998365888624e-11
+    },
+    {
+      "task": "rings",
+      "seed": "d2",
+      "arm": "nonlinear_pb",
+      "fraction": 0.25,
+      "coarse_steps": 222,
+      "refined_steps": 400,
+      "fine_to_coarse_step_count_ratio": 1.8018018018018018,
+      "state_identical": false,
+      "parameter_distance": 0.14699796275196625,
+      "training_logit_rms_difference": 0.0037892859318474875,
+      "training_loss_difference": -3.421912753154288e-11
+    },
+    {
+      "task": "rings",
+      "seed": "d2",
+      "arm": "tangent_gd",
+      "fraction": 0.25,
+      "coarse_steps": 23225,
+      "refined_steps": 24958,
+      "fine_to_coarse_step_count_ratio": 1.0746178686759957,
+      "state_identical": false,
+      "parameter_distance": 0.0017941752767647698,
+      "training_logit_rms_difference": 0.0010106960423808184,
+      "training_loss_difference": 8.549216889974787e-12
+    },
+    {
+      "task": "rings",
+      "seed": "d2",
+      "arm": "tangent_pb",
+      "fraction": 0.25,
+      "coarse_steps": 7744,
+      "refined_steps": 15487,
+      "fine_to_coarse_step_count_ratio": 1.999870867768595,
+      "state_identical": false,
+      "parameter_distance": 0.0042794480428757645,
+      "training_logit_rms_difference": 5.963069214248807e-06,
+      "training_loss_difference": 5.980427264518084e-11
+    },
+    {
+      "task": "rings",
+      "seed": "d3",
+      "arm": "nonlinear_gd",
+      "fraction": 0.25,
+      "coarse_steps": 336,
+      "refined_steps": 668,
+      "fine_to_coarse_step_count_ratio": 1.9880952380952381,
+      "state_identical": false,
+      "parameter_distance": 0.08758822059573135,
+      "training_logit_rms_difference": 0.015162158790200927,
+      "training_loss_difference": -1.4888035249072118e-11
+    },
+    {
+      "task": "rings",
+      "seed": "d3",
+      "arm": "nonlinear_pb",
+      "fraction": 0.25,
+      "coarse_steps": 226,
+      "refined_steps": 411,
+      "fine_to_coarse_step_count_ratio": 1.8185840707964602,
+      "state_identical": false,
+      "parameter_distance": 0.1891087168134207,
+      "training_logit_rms_difference": 0.006802544561918774,
+      "training_loss_difference": 6.468289792671555e-11
+    },
+    {
+      "task": "rings",
+      "seed": "d3",
+      "arm": "tangent_gd",
+      "fraction": 0.25,
+      "coarse_steps": 11485,
+      "refined_steps": 14016,
+      "fine_to_coarse_step_count_ratio": 1.2203744013931215,
+      "state_identical": false,
+      "parameter_distance": 0.002437972244636322,
+      "training_logit_rms_difference": 0.0013945938510871716,
+      "training_loss_difference": 6.987382894507732e-12
+    },
+    {
+      "task": "rings",
+      "seed": "d3",
+      "arm": "tangent_pb",
+      "fraction": 0.25,
+      "coarse_steps": 4184,
+      "refined_steps": 8367,
+      "fine_to_coarse_step_count_ratio": 1.9997609942638623,
+      "state_identical": false,
+      "parameter_distance": 0.004046921167868033,
+      "training_logit_rms_difference": 1.0879329931071193e-05,
+      "training_loss_difference": 3.6005171066832986e-11
+    },
+    {
+      "task": "rings",
+      "seed": "d4",
+      "arm": "nonlinear_gd",
+      "fraction": 0.25,
+      "coarse_steps": 331,
+      "refined_steps": 659,
+      "fine_to_coarse_step_count_ratio": 1.9909365558912386,
+      "state_identical": false,
+      "parameter_distance": 0.043517291628182894,
+      "training_logit_rms_difference": 0.005016271932379881,
+      "training_loss_difference": -9.446221582720682e-12
+    },
+    {
+      "task": "rings",
+      "seed": "d4",
+      "arm": "nonlinear_pb",
+      "fraction": 0.25,
+      "coarse_steps": 226,
+      "refined_steps": 401,
+      "fine_to_coarse_step_count_ratio": 1.7743362831858407,
+      "state_identical": false,
+      "parameter_distance": 0.7086006851151749,
+      "training_logit_rms_difference": 0.015765171540432044,
+      "training_loss_difference": -5.173583783601998e-11
+    },
+    {
+      "task": "rings",
+      "seed": "d4",
+      "arm": "tangent_gd",
+      "fraction": 0.25,
+      "coarse_steps": 23170,
+      "refined_steps": 22482,
+      "fine_to_coarse_step_count_ratio": 0.9703064307293915,
+      "state_identical": false,
+      "parameter_distance": 0.001924359220437843,
+      "training_logit_rms_difference": 0.0016940782173608816,
+      "training_loss_difference": 2.790589981316316e-11
+    },
+    {
+      "task": "rings",
+      "seed": "d4",
+      "arm": "tangent_pb",
+      "fraction": 0.25,
+      "coarse_steps": 5917,
+      "refined_steps": 11831,
+      "fine_to_coarse_step_count_ratio": 1.9994929863106303,
+      "state_identical": false,
+      "parameter_distance": 0.0032562187746719164,
+      "training_logit_rms_difference": 6.357898385722063e-06,
+      "training_loss_difference": -3.575845175518566e-11
+    }
+  ],
+  "primary_sensitivity_summary": [
+    {
+      "task": "moons",
+      "arm": "nonlinear_gd",
+      "mean_training_logit_rms_difference": 0.000868169174321429,
+      "max_training_logit_rms_difference": 0.0009452990485239193,
+      "mean_step_count_ratio": 1.9984347442680777
+    },
+    {
+      "task": "moons",
+      "arm": "nonlinear_pb",
+      "mean_training_logit_rms_difference": 0.008252192007058163,
+      "max_training_logit_rms_difference": 0.015275868534574492,
+      "mean_step_count_ratio": 1.9085337837567988
+    },
+    {
+      "task": "moons",
+      "arm": "tangent_gd",
+      "mean_training_logit_rms_difference": 0.003483452917691859,
+      "max_training_logit_rms_difference": 0.006963502956650293,
+      "mean_step_count_ratio": 1.5868600511634887
+    },
+    {
+      "task": "moons",
+      "arm": "tangent_pb",
+      "mean_training_logit_rms_difference": 0.00022889643201448844,
+      "max_training_logit_rms_difference": 0.00029022381624768244,
+      "mean_step_count_ratio": 1.9994853736817975
+    },
+    {
+      "task": "rings",
+      "arm": "nonlinear_gd",
+      "mean_training_logit_rms_difference": 0.007354296668996124,
+      "max_training_logit_rms_difference": 0.015162158790200927,
+      "mean_step_count_ratio": 1.9915369446210165
+    },
+    {
+      "task": "rings",
+      "arm": "nonlinear_pb",
+      "mean_training_logit_rms_difference": 0.008067388922115622,
+      "max_training_logit_rms_difference": 0.015765171540432044,
+      "mean_step_count_ratio": 1.7839078116732985
+    },
+    {
+      "task": "rings",
+      "arm": "tangent_gd",
+      "mean_training_logit_rms_difference": 0.0010445281966423323,
+      "max_training_logit_rms_difference": 0.0016940782173608816,
+      "mean_step_count_ratio": 1.0740096324424362
+    },
+    {
+      "task": "rings",
+      "arm": "tangent_pb",
+      "mean_training_logit_rms_difference": 7.175809039132244e-06,
+      "max_training_logit_rms_difference": 1.0879329931071193e-05,
+      "mean_step_count_ratio": 1.9997150395076884
+    }
+  ],
+  "caveats": [
+    "The report uses training artifacts only; it makes no held-out-risk conclusion or gate decision.",
+    "Both scalar upper bounds are halved at a common state. Backtracking can alter actual accepted-step ratios.",
+    "All 32 primary parameter states change under the repaired refinement. Two resolutions quantify sensitivity, not a convergence theorem.",
+    "Small matched-training prediction changes do not bound population-risk changes without additional assumptions.",
+    "The original protocol and both amendments retain their distinct status; the assembled run is supplemental.",
+    "Replay reuses the native analytic Jacobian, separately checked by independent complex-step differentiation. No study runner is imported."
+  ],
+  "previous_audit_sha256": "84812fa9f959c3430933ea2f367659752e16668114d75a86e8a17aad39bbfdbb",
+  "preserved_previous_audit_code_sha256": "d210bda62493052184323b2079a5f01e424a53d2516ec97ff9bb3b7481335c8d",
+  "audit_source_sha256": "0c40816e9d53f7ec06ee63b700c7671731044cd3783928006e68c54415b26724",
+  "refinement_amendment_sha256": "aa079c5d2feb85b00b336258961c09b543cac2307143d5a433043fb6704696fb",
+  "elapsed_seconds": 3.245273400010774
+}

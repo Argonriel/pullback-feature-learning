@@ -1,0 +1,225 @@
+seed,policy,mask_equal,max_logit_error,calls
+1,raw,True,0.0,[256]
+1,full,True,0.0,"[256, 256]"
+1,confidence,True,0.0,"[256, 64]"
+1,radius,True,0.0,"[256, 64]"
+1,folded,True,0.0,"[256, 64]"
+1,rank_balanced,True,0.0,"[256, 64]"
+1,rank_even,True,0.0,"[256, 64]"
+1,rank_unbalanced,True,0.0,"[256, 64]"
+1,full_fused,True,0.0,[512]
+1,radius_fused,True,0.0,[320]
+1,folded_fused,True,0.0,[320]
+1,rank_balanced_fused,True,0.0,[320]
+1,rank_even_fused,True,0.0,[320]
+1,rank_unbalanced_fused,True,0.0,[320]
+2,raw,True,0.0,[256]
+2,full,True,0.0,"[256, 256]"
+2,confidence,True,0.0,"[256, 64]"
+2,radius,True,0.0,"[256, 64]"
+2,folded,True,0.0,"[256, 64]"
+2,rank_balanced,True,0.0,"[256, 64]"
+2,rank_even,True,0.0,"[256, 64]"
+2,rank_unbalanced,True,0.0,"[256, 64]"
+2,full_fused,True,0.0,[512]
+2,radius_fused,True,0.0,[320]
+2,folded_fused,True,0.0,[320]
+2,rank_balanced_fused,True,0.0,[320]
+2,rank_even_fused,True,0.0,[320]
+2,rank_unbalanced_fused,True,0.0,[320]
+3,raw,True,0.0,[256]
+3,full,True,0.0,"[256, 256]"
+3,confidence,True,0.0,"[256, 64]"
+3,radius,True,0.0,"[256, 64]"
+3,folded,True,0.0,"[256, 64]"
+3,rank_balanced,True,0.0,"[256, 64]"
+3,rank_even,True,0.0,"[256, 64]"
+3,rank_unbalanced,True,0.0,"[256, 64]"
+3,full_fused,True,0.0,[512]
+3,radius_fused,True,0.0,[320]
+3,folded_fused,True,0.0,[320]
+3,rank_balanced_fused,True,0.0,[320]
+3,rank_even_fused,True,0.0,[320]
+3,rank_unbalanced_fused,True,0.0,[320]
+4,raw,True,0.0,[256]
+4,full,True,0.0,"[256, 256]"
+4,confidence,True,0.0,"[256, 64]"
+4,radius,True,0.0,"[256, 64]"
+4,folded,True,0.0,"[256, 64]"
+4,rank_balanced,True,0.0,"[256, 64]"
+4,rank_even,True,0.0,"[256, 64]"
+4,rank_unbalanced,True,0.0,"[256, 64]"
+4,full_fused,True,0.0,[512]
+4,radius_fused,True,0.0,[320]
+4,folded_fused,True,0.0,[320]
+4,rank_balanced_fused,True,0.0,[320]
+4,rank_even_fused,True,0.0,[320]
+4,rank_unbalanced_fused,True,0.0,[320]
+5,raw,True,0.0,[256]
+5,full,True,0.0,"[256, 256]"
+5,confidence,True,0.0,"[256, 64]"
+5,radius,True,0.0,"[256, 64]"
+5,folded,True,0.0,"[256, 64]"
+5,rank_balanced,True,0.0,"[256, 64]"
+5,rank_even,True,0.0,"[256, 64]"
+5,rank_unbalanced,True,0.0,"[256, 64]"
+5,full_fused,True,0.0,[512]
+5,radius_fused,True,0.0,[320]
+5,folded_fused,True,0.0,[320]
+5,rank_balanced_fused,True,0.0,[320]
+5,rank_even_fused,True,0.0,[320]
+5,rank_unbalanced_fused,True,0.0,[320]
+6,raw,True,0.0,[256]
+6,full,True,0.0,"[256, 256]"
+6,confidence,True,0.0,"[256, 64]"
+6,radius,True,0.0,"[256, 64]"
+6,folded,True,0.0,"[256, 64]"
+6,rank_balanced,True,0.0,"[256, 64]"
+6,rank_even,True,0.0,"[256, 64]"
+6,rank_unbalanced,True,0.0,"[256, 64]"
+6,full_fused,True,0.0,[512]
+6,radius_fused,True,0.0,[320]
+6,folded_fused,True,0.0,[320]
+6,rank_balanced_fused,True,0.0,[320]
+6,rank_even_fused,True,0.0,[320]
+6,rank_unbalanced_fused,True,0.0,[320]
+7,raw,True,0.0,[256]
+7,full,True,0.0,"[256, 256]"
+7,confidence,True,0.0,"[256, 64]"
+7,radius,True,0.0,"[256, 64]"
+7,folded,True,0.0,"[256, 64]"
+7,rank_balanced,True,0.0,"[256, 64]"
+7,rank_even,True,0.0,"[256, 64]"
+7,rank_unbalanced,True,0.0,"[256, 64]"
+7,full_fused,True,0.0,[512]
+7,radius_fused,True,0.0,[320]
+7,folded_fused,True,0.0,[320]
+7,rank_balanced_fused,True,0.0,[320]
+7,rank_even_fused,True,0.0,[320]
+7,rank_unbalanced_fused,True,0.0,[320]
+8,raw,True,0.0,[256]
+8,full,True,0.0,"[256, 256]"
+8,confidence,True,0.0,"[256, 64]"
+8,radius,True,0.0,"[256, 64]"
+8,folded,True,0.0,"[256, 64]"
+8,rank_balanced,True,0.0,"[256, 64]"
+8,rank_even,True,0.0,"[256, 64]"
+8,rank_unbalanced,True,0.0,"[256, 64]"
+8,full_fused,True,0.0,[512]
+8,radius_fused,True,0.0,[320]
+8,folded_fused,True,0.0,[320]
+8,rank_balanced_fused,True,0.0,[320]
+8,rank_even_fused,True,0.0,[320]
+8,rank_unbalanced_fused,True,0.0,[320]
+9,raw,True,0.0,[256]
+9,full,True,0.0,"[256, 256]"
+9,confidence,True,0.0,"[256, 64]"
+9,radius,True,0.0,"[256, 64]"
+9,folded,True,0.0,"[256, 64]"
+9,rank_balanced,True,0.0,"[256, 64]"
+9,rank_even,True,0.0,"[256, 64]"
+9,rank_unbalanced,True,0.0,"[256, 64]"
+9,full_fused,True,0.0,[512]
+9,radius_fused,True,0.0,[320]
+9,folded_fused,True,0.0,[320]
+9,rank_balanced_fused,True,0.0,[320]
+9,rank_even_fused,True,0.0,[320]
+9,rank_unbalanced_fused,True,0.0,[320]
+10,raw,True,0.0,[256]
+10,full,True,0.0,"[256, 256]"
+10,confidence,True,0.0,"[256, 64]"
+10,radius,True,0.0,"[256, 64]"
+10,folded,True,0.0,"[256, 64]"
+10,rank_balanced,True,0.0,"[256, 64]"
+10,rank_even,True,0.0,"[256, 64]"
+10,rank_unbalanced,True,0.0,"[256, 64]"
+10,full_fused,True,0.0,[512]
+10,radius_fused,True,0.0,[320]
+10,folded_fused,True,0.0,[320]
+10,rank_balanced_fused,True,0.0,[320]
+10,rank_even_fused,True,0.0,[320]
+10,rank_unbalanced_fused,True,0.0,[320]
+11,raw,True,0.0,[256]
+11,full,True,0.0,"[256, 256]"
+11,confidence,True,0.0,"[256, 64]"
+11,radius,True,0.0,"[256, 64]"
+11,folded,True,0.0,"[256, 64]"
+11,rank_balanced,True,0.0,"[256, 64]"
+11,rank_even,True,0.0,"[256, 64]"
+11,rank_unbalanced,True,0.0,"[256, 64]"
+11,full_fused,True,0.0,[512]
+11,radius_fused,True,0.0,[320]
+11,folded_fused,True,0.0,[320]
+11,rank_balanced_fused,True,0.0,[320]
+11,rank_even_fused,True,0.0,[320]
+11,rank_unbalanced_fused,True,0.0,[320]
+12,raw,True,0.0,[256]
+12,full,True,0.0,"[256, 256]"
+12,confidence,True,0.0,"[256, 64]"
+12,radius,True,0.0,"[256, 64]"
+12,folded,True,0.0,"[256, 64]"
+12,rank_balanced,True,0.0,"[256, 64]"
+12,rank_even,True,0.0,"[256, 64]"
+12,rank_unbalanced,True,0.0,"[256, 64]"
+12,full_fused,True,0.0,[512]
+12,radius_fused,True,0.0,[320]
+12,folded_fused,True,0.0,[320]
+12,rank_balanced_fused,True,0.0,[320]
+12,rank_even_fused,True,0.0,[320]
+12,rank_unbalanced_fused,True,0.0,[320]
+13,raw,True,0.0,[256]
+13,full,True,0.0,"[256, 256]"
+13,confidence,True,0.0,"[256, 64]"
+13,radius,True,0.0,"[256, 64]"
+13,folded,True,0.0,"[256, 64]"
+13,rank_balanced,True,0.0,"[256, 64]"
+13,rank_even,True,0.0,"[256, 64]"
+13,rank_unbalanced,True,0.0,"[256, 64]"
+13,full_fused,True,0.0,[512]
+13,radius_fused,True,0.0,[320]
+13,folded_fused,True,0.0,[320]
+13,rank_balanced_fused,True,0.0,[320]
+13,rank_even_fused,True,0.0,[320]
+13,rank_unbalanced_fused,True,0.0,[320]
+14,raw,True,0.0,[256]
+14,full,True,0.0,"[256, 256]"
+14,confidence,True,0.0,"[256, 64]"
+14,radius,True,0.0,"[256, 64]"
+14,folded,True,0.0,"[256, 64]"
+14,rank_balanced,True,0.0,"[256, 64]"
+14,rank_even,True,0.0,"[256, 64]"
+14,rank_unbalanced,True,0.0,"[256, 64]"
+14,full_fused,True,0.0,[512]
+14,radius_fused,True,0.0,[320]
+14,folded_fused,True,0.0,[320]
+14,rank_balanced_fused,True,0.0,[320]
+14,rank_even_fused,True,0.0,[320]
+14,rank_unbalanced_fused,True,0.0,[320]
+15,raw,True,0.0,[256]
+15,full,True,0.0,"[256, 256]"
+15,confidence,True,0.0,"[256, 64]"
+15,radius,True,0.0,"[256, 64]"
+15,folded,True,0.0,"[256, 64]"
+15,rank_balanced,True,0.0,"[256, 64]"
+15,rank_even,True,0.0,"[256, 64]"
+15,rank_unbalanced,True,0.0,"[256, 64]"
+15,full_fused,True,0.0,[512]
+15,radius_fused,True,0.0,[320]
+15,folded_fused,True,0.0,[320]
+15,rank_balanced_fused,True,0.0,[320]
+15,rank_even_fused,True,0.0,[320]
+15,rank_unbalanced_fused,True,0.0,[320]
+16,raw,True,0.0,[256]
+16,full,True,0.0,"[256, 256]"
+16,confidence,True,0.0,"[256, 64]"
+16,radius,True,0.0,"[256, 64]"
+16,folded,True,0.0,"[256, 64]"
+16,rank_balanced,True,0.0,"[256, 64]"
+16,rank_even,True,0.0,"[256, 64]"
+16,rank_unbalanced,True,0.0,"[256, 64]"
+16,full_fused,True,0.0,[512]
+16,radius_fused,True,0.0,[320]
+16,folded_fused,True,0.0,[320]
+16,rank_balanced_fused,True,0.0,[320]
+16,rank_even_fused,True,0.0,[320]
+16,rank_unbalanced_fused,True,0.0,[320]

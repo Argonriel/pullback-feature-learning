@@ -1,0 +1,10 @@
+{
+  "seed": 12,
+  "policy_sha256": "fde9be08677488349f06e7c6ce385dbe20201a1d735976d4da9a0216fea0f360",
+  "cdf32_64_max_difference": 3.974754512192646e-06,
+  "empirical_true64_max_difference": 0.0012443574037208638,
+  "rank_q_interpolation_error_bound": 1.3683592096927687e-08,
+  "model_forward_examples": 5242880,
+  "seconds": 4.438583499999368,
+  "DKW_family16_epsilon": 0.004964730101854428
+}

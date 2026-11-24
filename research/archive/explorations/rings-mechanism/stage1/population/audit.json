@@ -1,0 +1,23 @@
+{
+  "unique_quadratures": 48,
+  "methods_times_seeds": 72,
+  "max_identity_error": 1.1102230246251565e-16,
+  "max_refinement_difference": 1.8362820452220985e-07,
+  "min_bayes_loss": 0.028295290274932557,
+  "max_bayes_loss": 0.028295290274934912,
+  "paired_changes": 96,
+  "controls": {
+    "decision_radius": 0.8641968775081965,
+    "bayes_accuracy": 0.98964758833745,
+    "bayes_loss": 0.028295290274933847,
+    "gaussian_polar_mass": 0.9999999999999949,
+    "dense_oracle_loss": 0.028295290274933157,
+    "dense_oracle_accuracy": 0.989647588281469,
+    "zero_logit_loss": 0.6931471805599417,
+    "radial_only_excess": 0.001940692326448161,
+    "angular_only_excess": 0.008157721739406957,
+    "grid_atol": 2e-07,
+    "grid_rtol": 2e-06,
+    "truncation_radius": 3.0
+  }
+}

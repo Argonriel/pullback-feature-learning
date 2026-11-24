@@ -1,0 +1,7 @@
+# Development attempts
+
+The initial single-model timing run is preserved as `../pilot_1_sub4_na256.npz`. The bounded four-model, four-configuration development run preserves all 16 outputs and its original local source snapshot.
+
+A one-line command intended to launch numerical spot checks failed to parse because of a mismatched parenthesis. No numerical work or scientific output was produced by that command. It was replaced by the readable `../pilot_check.py` driver. No model, bound configuration, or criterion was changed because of that command error.
+
+The first finite-difference audit used step 2e-4 and absolute derivative tolerances. It failed on a high-curvature outer-radius point: first-derivative error 0.000443245 and second-derivative error 0.010739982. At step 2.5e-5 a later development model still exceeded the first-derivative absolute tolerance (0.000071844). The interval enclosures passed throughout. Before freezing the confirmation, the audit was expanded to six fixed step sizes, and both absolute and derivative-normalized errors were recorded. The first derivatives display approximately quadratic convergence; the second derivatives display truncation error followed by roundoff. The frozen audit criterion uses finest-step normalized first-derivative error and the minimum normalized second-derivative error across the prespecified step sequence. All four development models pass it. The bound algorithm, its interval formulas, and its selected resolution were not changed in response to these numerical differentiation diagnostics.

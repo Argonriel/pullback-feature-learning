@@ -1,0 +1,10 @@
+{
+  "utc": "2026-11-22T00:15:28.022719+00:00",
+  "distillation_freeze_sha256": "7c015fa2f70b2016b456a34697379991f7fdb4c433bc66785fa7e2ee2583aee8",
+  "allocation_freeze_sha256": "28f022413e2bf455f44f412a9430b6eb8e5f9f60a424f78f9813f25d2d78be3c",
+  "fresh_authorized": true,
+  "review": "Independent product selection replay passed; frozen paired recipes, six-seed inference, explicit failure criteria and source boundaries reviewed before model outcomes.",
+  "external_audit_sha256": "28fa61e0d52ccdad252ae2ff5e39173eae88db9ba9f86d4b8704f6af592e7b11",
+  "user_permission": "Existing user authorization; internal scientific release only.",
+  "structured_release": "Separate branch-specific record after its complete source freeze."
+}

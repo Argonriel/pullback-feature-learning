@@ -1,0 +1,95 @@
+{
+  "timestamp_utc": "2026-11-21T09:02:14.850679+00:00",
+  "n_equivalence_checks": 80,
+  "all_checks_pass": true,
+  "config": {
+    "cohort": "fresh",
+    "epsilon": 0.1,
+    "n_models": 16,
+    "batches_per_measurement": 8,
+    "batch_size": 256,
+    "warmup_blocks": 2,
+    "measurement_blocks": 8,
+    "randomization_seed": 8660000,
+    "blas_threads": 1
+  },
+  "summary": [
+    {
+      "method": "raw",
+      "n_models": 16,
+      "measurement_blocks_per_model": 8,
+      "median_of_model_medians_ms_per_256": 0.030125,
+      "mean_of_model_medians_ms_per_256": 0.030169140625,
+      "min_model_median": 0.0294,
+      "max_model_median": 0.03106875
+    },
+    {
+      "method": "full_halfturn",
+      "n_models": 16,
+      "measurement_blocks_per_model": 8,
+      "median_of_model_medians_ms_per_256": 0.06175625,
+      "mean_of_model_medians_ms_per_256": 0.062284374999999996,
+      "min_model_median": 0.06050625,
+      "max_model_median": 0.0654
+    },
+    {
+      "method": "base_independent",
+      "n_models": 16,
+      "measurement_blocks_per_model": 8,
+      "median_of_model_medians_ms_per_256": 0.08208125,
+      "mean_of_model_medians_ms_per_256": 0.08450703125,
+      "min_model_median": 0.0716875,
+      "max_model_median": 0.10389375
+    },
+    {
+      "method": "base_joint",
+      "n_models": 16,
+      "measurement_blocks_per_model": 8,
+      "median_of_model_medians_ms_per_256": 0.086240625,
+      "mean_of_model_medians_ms_per_256": 0.086986328125,
+      "min_model_median": 0.07375625,
+      "max_model_median": 0.10885
+    },
+    {
+      "method": "uniform_independent",
+      "n_models": 16,
+      "measurement_blocks_per_model": 8,
+      "median_of_model_medians_ms_per_256": 0.084071875,
+      "mean_of_model_medians_ms_per_256": 0.08420117187500001,
+      "min_model_median": 0.0733875,
+      "max_model_median": 0.097925
+    },
+    {
+      "method": "uniform_joint",
+      "n_models": 16,
+      "measurement_blocks_per_model": 8,
+      "median_of_model_medians_ms_per_256": 0.0877,
+      "mean_of_model_medians_ms_per_256": 0.088107421875,
+      "min_model_median": 0.07384375,
+      "max_model_median": 0.09995625
+    },
+    {
+      "method": "adaptive_joint",
+      "n_models": 16,
+      "measurement_blocks_per_model": 8,
+      "median_of_model_medians_ms_per_256": 0.140340625,
+      "mean_of_model_medians_ms_per_256": 0.141582421875,
+      "min_model_median": 0.1206375,
+      "max_model_median": 0.16926875
+    },
+    {
+      "method": "pointwise_oracle",
+      "n_models": 16,
+      "measurement_blocks_per_model": 8,
+      "median_of_model_medians_ms_per_256": 0.10094687499999999,
+      "mean_of_model_medians_ms_per_256": 0.102727734375,
+      "min_model_median": 0.095025,
+      "max_model_median": 0.11400625
+    }
+  ],
+  "csv_sha256": {
+    "summary.csv": "69262718f2763b338ff072ae158a8b7d99759a7a891df15b2d8f88a75996eeb5",
+    "table_loading.csv": "20a5542fb4e64e66825113a30f7200da06012ed5c9f5fa31124af5ad201894be",
+    "timings.csv": "26766371ee44026dc4356d3c4aa85792a0b4bab23f344c17e88338fe55a85d9b"
+  }
+}

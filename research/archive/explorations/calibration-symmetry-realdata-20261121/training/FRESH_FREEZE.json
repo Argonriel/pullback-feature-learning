@@ -1,0 +1,79 @@
+{
+  "timestamp_utc": "2026-11-21T22:19:38.578842+00:00",
+  "config": {
+    "replications": 16,
+    "train_n": 256,
+    "validation_n": 2048,
+    "temperature_n": 2048,
+    "test_n": 65536,
+    "seed_bases": {
+      "train": 2101000,
+      "init": 2102000,
+      "validation": 2103000,
+      "temperature": 2104000,
+      "selector": 2105000,
+      "test": 2106000,
+      "ties": 2107000,
+      "labels": 2108000
+    },
+    "variants": [
+      "legacy_raw",
+      "legacy_temp",
+      "pb_raw",
+      "pb_temp",
+      "gd_raw",
+      "gd_temp"
+    ],
+    "policies": [
+      "raw",
+      "full",
+      "folded",
+      "symmetric_jensen"
+    ],
+    "grid": [
+      16,
+      16,
+      256
+    ],
+    "folded": [
+      16,
+      16,
+      16
+    ],
+    "bootstrap_seed": 2109001,
+    "bootstrap_draws": 20000,
+    "primary_alpha": 0.0125
+  },
+  "choice": {
+    "pb": {
+      "optimizer": "pb",
+      "rate": 2.0,
+      "lam": 0.0,
+      "damping": 0.1
+    },
+    "gd": {
+      "optimizer": "gd",
+      "rate": 0.3,
+      "lam": 0.0,
+      "damping": 0.1
+    }
+  },
+  "sources": {
+    "model.py": "fca6b349140849e8486a426d77ce3858123f005a9e84ecf2f112111acb05ac20",
+    "pilot.py": "a8be78031c936eb9c4b912dc374f09d51f5bbb635e8655fd914ffd943cd22aef",
+    "adapters.py": "6f1501b81931d6da93557c7b5ddb4ca26b0f07563e1a918e582cae7dd4a61345",
+    "study.py": "340466c43a8d153dac7eb467590d10ecb66c2357421be64f27d59405e4ac2653",
+    "PROTOCOL.md": "31bc0bb706c2357d632f58a03a7731389f634274ab4d7c858460b68c7e6dec34",
+    "FRESH_PROTOCOL.md": "9948818f6e91659c0aff61c471dc884ef2d4bf3185d489339c6b3d0b8870242d",
+    "LITERATURE.md": "ddce583dac0fd645b44d3d15b2536b211fbeafb1c6ecb3b9f6012eb3b5816e17",
+    "PILOT_FREEZE.json": "f4d0ee14ecbbbf8b74f4c132f4f4bdb3743202aa8fffa59fadb6fe1ce495db3a",
+    "TRAINING_CHOICE.json": "b9bfc48f28447aed2e74a0326d9ed46c59b5b3d6aff4e187c22b55cdd3da9518",
+    "smoke.py": "cf0ae39038fdba91505cba337f0166c9b531ee79c681e7f16a7c6a22cfc1527c",
+    "SMOKE.json": "d0af683f82244a688fb691e99adfd4e39cb73a3645304497423c10a21d87653d",
+    "reference/baseline.py": "652b9f68f021bbd05b2031e26325e495e3a3cf1ff423c89680bc6335592d6ac3",
+    "reference/core4d.py": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77",
+    "reference/task.py": "8da7d92d23437155d10be130a712e219211760ee740c2fca2a4b3506437214f4",
+    "reference/TRAINING_CHOICE.json": "2a86fdf6cb070344b62620c4f4f47c2683c762bd4d5737d43e83c69b69354588"
+  },
+  "fresh_generated": false
+}

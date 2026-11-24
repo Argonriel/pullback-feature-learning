@@ -1,0 +1,14 @@
+{
+  "selection_sha256": "511d2347ecd501bce6aaeef64fa2a58370722478bfda9728b82b70477e65042f",
+  "rates": {
+    "gd": 0.5,
+    "warmup": 2.0
+  },
+  "states_evaluated": 24,
+  "contrasts": 48,
+  "old_prefix_hashes_verified": 8,
+  "max_grid_delta": 1.388361378987235e-07,
+  "max_identity_error": 1.3877787807814457e-16,
+  "polar_sha256": "b4d26f11018d28a3d6c05c9b9afe8f9ff12c50d617dadcd5246d8e0b615e1dd7",
+  "plan_sha256": "2c44c854a13da88abd68ea45e0fe83f5d51558f9b7737cb2dbad551bc436e03f"
+}

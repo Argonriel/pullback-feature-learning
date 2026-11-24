@@ -1,0 +1,140 @@
+[
+  {
+    "task": "moons",
+    "cohort": "discovery",
+    "estimand": "B",
+    "passes": false,
+    "reason": "effect_size_sign_or_refinement_gate_failed",
+    "direction": "not_retained",
+    "step_checks": [
+      {
+        "step_size": 0.01,
+        "all_four_arms_all_four_pairs": true,
+        "mean": 0.009641861221525407,
+        "sign_agreements": 3,
+        "values": [
+          -0.010715562783533542,
+          0.025486720071153796,
+          0.004925875927874579,
+          0.018870411670606796
+        ],
+        "passes": false
+      },
+      {
+        "step_size": 0.005,
+        "all_four_arms_all_four_pairs": true,
+        "mean": 0.009590420062101746,
+        "sign_agreements": 3,
+        "values": [
+          -0.01088469104797081,
+          0.02551288592320075,
+          0.004997415663484994,
+          0.01873606970969205
+        ],
+        "passes": false
+      }
+    ],
+    "refinement_difference": 5.1441159423661065e-05,
+    "gate_role": "necessary_screen_not_novelty_or_causal_attribution"
+  },
+  {
+    "task": "moons",
+    "cohort": "discovery",
+    "estimand": "D",
+    "passes": false,
+    "reason": "effect_size_sign_or_refinement_gate_failed",
+    "direction": "not_retained",
+    "step_checks": [
+      {
+        "step_size": 0.01,
+        "all_four_arms_all_four_pairs": true,
+        "mean": 0.0021784448607791752,
+        "sign_agreements": 1,
+        "values": [
+          -0.0014589465254054995,
+          0.03226789969077298,
+          -0.018315693486811058,
+          -0.003779480235439725
+        ],
+        "passes": false
+      },
+      {
+        "step_size": 0.005,
+        "all_four_arms_all_four_pairs": true,
+        "mean": 0.0021943236080455147,
+        "sign_agreements": 1,
+        "values": [
+          -0.001634930606813384,
+          0.03234964539397772,
+          -0.01814907773925628,
+          -0.003788342615725998
+        ],
+        "passes": false
+      }
+    ],
+    "refinement_difference": 1.5878747266339505e-05,
+    "gate_role": "necessary_screen_not_novelty_or_causal_attribution"
+  },
+  {
+    "task": "rings",
+    "cohort": "discovery",
+    "estimand": "B",
+    "passes": false,
+    "reason": "insufficient_primary_target_coverage",
+    "direction": "not_retained",
+    "step_checks": [
+      {
+        "step_size": 0.01,
+        "all_four_arms_all_four_pairs": false,
+        "mean": -0.01259153190873781,
+        "sign_agreements": 2,
+        "values": [
+          -0.009670060275056291,
+          -0.015513003542419329
+        ],
+        "passes": false
+      },
+      {
+        "step_size": 0.005,
+        "all_four_arms_all_four_pairs": false,
+        "mean": -0.012576468092077228,
+        "sign_agreements": 2,
+        "values": [
+          -0.009607174271858199,
+          -0.015545761912296258
+        ],
+        "passes": false
+      }
+    ],
+    "refinement_difference": 1.5063816660582097e-05,
+    "gate_role": "necessary_screen_not_novelty_or_causal_attribution"
+  },
+  {
+    "task": "rings",
+    "cohort": "discovery",
+    "estimand": "D",
+    "passes": false,
+    "reason": "insufficient_primary_target_coverage",
+    "direction": "not_retained",
+    "step_checks": [
+      {
+        "step_size": 0.01,
+        "all_four_arms_all_four_pairs": false,
+        "mean": null,
+        "sign_agreements": 0,
+        "values": [],
+        "passes": false
+      },
+      {
+        "step_size": 0.005,
+        "all_four_arms_all_four_pairs": false,
+        "mean": null,
+        "sign_agreements": 0,
+        "values": [],
+        "passes": false
+      }
+    ],
+    "refinement_difference": null,
+    "gate_role": "necessary_screen_not_novelty_or_causal_attribution"
+  }
+]

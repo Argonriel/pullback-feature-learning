@@ -1,0 +1,3 @@
+# Pre-freeze arithmetic correction
+
+Before prospective streams were opened, the proposed nominal cost slope was 179,245. Root independently counted 179,045, and the independently assembled preflight kernel ledger raised an assertion on the proposed slope. The discrepancy was an addition error: the listed per-block Jacobian terms sum to 5,576n, not 5,676n. No kernel or experimental recipe changed. The corrected slope is 179,045; the constant remains 2,001,144. The integer matched schedules remain 4,332, 1,485, and 896. The passing preflight and source freeze use only the corrected accounting. No fresh training, validation, calibration or test outcomes had been accessed at correction time.

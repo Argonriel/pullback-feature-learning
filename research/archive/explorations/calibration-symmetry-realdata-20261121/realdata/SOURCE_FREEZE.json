@@ -1,0 +1,55 @@
+{
+  "utc": "2026-11-21T22:19:56.034712+00:00",
+  "config": {
+    "seeds": [
+      1,
+      2,
+      3
+    ],
+    "batch": 256,
+    "test_n": 10000,
+    "test_order_seed": 2136000,
+    "selector_tie_base": 2134000,
+    "test_tie_base": 2135000,
+    "timing_base": 2137000,
+    "bootstrap_seed": 2138000,
+    "bootstrap_draws": 5000,
+    "warmups": 3,
+    "repeats": 7,
+    "timing_batches": 4,
+    "modes": [
+      "cpu",
+      "cuda_resident",
+      "cuda_transfer"
+    ],
+    "dtype": "float32",
+    "cpu_threads": 1,
+    "ridge_alphas": [
+      0.0001,
+      0.01,
+      1.0
+    ],
+    "knn_k": [
+      1,
+      5,
+      25
+    ],
+    "hist_bins": [
+      8,
+      16,
+      32
+    ],
+    "practical_speedup": 1.1,
+    "practical_loss_tolerance": 0.01
+  },
+  "source_hashes": {
+    "study.py": "53540ce045a616412207a30ac6ba49172bb2c17dbe254ee09d1ec4dd6b838afa",
+    "policy.py": "0bd8866842beaa12925983b15f3b0d7fa5d0f19abcaa2530b5e7286244d3fefc",
+    "PROTOCOL.md": "1fa35a5d572dcd77c21c769964c029936432bb106350743c6d54df925aa84158",
+    "TRAINING_FREEZE.json": "3f057e12633dbfdf03970d3dd6ccd75b456b6d9071894a0a3caa5b4f0ce776de",
+    "data.py": "2434b9fa05dbf959fade93d1bbe0dbbf7691c59d2d96bff332becbb794ca55e9",
+    "model.py": "a035171d142946a624c113bee91baf39300713af75d12cf6edea6ec28fe2b1d4",
+    "train.py": "67016e62f86ffa85f52870f1ed2bc3a3c394304bfaaec931b275a6cb2d049c1c"
+  },
+  "test_accessed": false
+}

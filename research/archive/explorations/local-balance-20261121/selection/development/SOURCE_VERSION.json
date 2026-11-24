@@ -1,0 +1,5 @@
+{
+  "timestamp_utc": "2026-11-21T09:32:22.052515+00:00",
+  "running_development_source_sha256": "0f601cf672aa63ff1497df0ec43bf9a6da9db141a337b87cee45d1dd702acba3",
+  "change": "Pre-freeze numerical robustness: canonical half-plane coordinates for even-frequency actions; mathematically equivalent scores, to be checked against retained development masks."
+}

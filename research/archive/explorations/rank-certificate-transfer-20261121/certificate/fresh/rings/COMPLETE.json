@@ -1,0 +1,11 @@
+{
+  "timestamp_utc": "2026-11-21T10:23:30.048827+00:00",
+  "task": "rings",
+  "kind": "known",
+  "successes": 16,
+  "failures": [],
+  "all_models_retained": true,
+  "source_freeze_sha256": "205d6af0c80a593552e60667b030f975e241ef36771ad48c4b44e0d582024eb1",
+  "interval_jet_propagations": 46479760,
+  "coordinate_cdf_queries": 541899272
+}

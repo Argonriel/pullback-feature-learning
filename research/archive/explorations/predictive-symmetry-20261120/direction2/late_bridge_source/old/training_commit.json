@@ -1,0 +1,48 @@
+{
+  "config": {
+    "old_seeds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "new_seeds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "new_train_base": 621000,
+    "new_init_base": 622000,
+    "new_cal_base": 625000,
+    "old_cal_base": 605000,
+    "pb_updates": 500,
+    "pb_rate": 8.0,
+    "damping": 0.1,
+    "target_drop": 0.02,
+    "root_norm_cap": 4.0,
+    "root_expansion": 1.35,
+    "root_iterations": 160,
+    "bisection_iterations": 60,
+    "development": "PB100 pilot had no useful global angle changes; this PB500 sensitivity was frozen before a separate third cohort.",
+    "no_further_optimization": true
+  },
+  "state_hash": "e5b39d80c2c36522ef65a9d73d3716321e6d10c1db5227ee999021e314d3a926",
+  "prediction_hash": "75d89620d5be1071dd0d59ca383bdeb02f7f4a92da3d6029656aa5d713e03d20",
+  "root_hash": "940333e677c66f92c4b3c9a73527f58b91cb7bd8ccc54e5c6c00432b5f49c89f",
+  "labels_used_only_for_training": true
+}

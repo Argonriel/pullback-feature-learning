@@ -1,0 +1,9 @@
+# Can a short pullback warm-up improve subsequent gradient descent?
+
+This exploratory development experiment evaluates a specific intervention suggested by the previous study's early feature advantage. It uses eight new paired draws from the same noisy two-moons generator. The training seed is 61000 plus the pair number, the initialization seed is 62000 plus the pair number, and the validation seed is 63000 plus the pair number (pairs 1–8). Each split has 256 examples at noise 0.15. No test split is generated. The model and frozen learning rates are identical to the earlier formal run.
+
+Run four fixed schedules: GD throughout, pullback throughout, 100 updates of pullback followed by GD, and 100 updates of GD followed by pullback. Evaluate the original fixed readout at steps 100, 500, and 2,000. Share the first 100 updates exactly between branches with the same starting optimizer. The switch time was chosen from the earlier study, before inspecting these validation draws. Compare seed-paired validation logistic loss (primary) and accuracy (secondary). Record training metrics as descriptive diagnostics.
+
+For a practical cost check, 100 pullback steps cost roughly as much as 840 GD steps in the earlier single-threaded CPU implementation. At nominal steps 500 and 2,000 for the pullback-to-GD hybrid, also report pure GD at steps 1,240 and 2,740. This estimates comparable budgets using a rounded earlier timing ratio. Actual timing can vary by machine, contention and parameter state. Report counts of expensive pullback solves and ordinary GD steps for each schedule.
+
+Preserve all seed-level outcomes and both horizons, regardless of ranking. This experiment explores fixed schedules and does not optimize the switch point. Its validation data are shared with the parallel geometry experiment.

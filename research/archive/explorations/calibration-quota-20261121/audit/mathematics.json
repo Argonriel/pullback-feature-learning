@@ -1,0 +1,75 @@
+{
+  "status": "checked",
+  "role": "Independent mathematical and numerical diagnostics; not new trained-model replications",
+  "random_identity_pairs": 50000,
+  "max_antipodal_identity_error": 1.987993103469421e-15,
+  "sharpness": [
+    {
+      "epsilon": 0.0,
+      "max_bound_equality_error": 1.7763568394002505e-15
+    },
+    {
+      "epsilon": 0.1,
+      "max_bound_equality_error": 1.8318679906315083e-15
+    },
+    {
+      "epsilon": 0.25,
+      "max_bound_equality_error": 2.1094237467877974e-15
+    },
+    {
+      "epsilon": 0.5,
+      "max_bound_equality_error": 1.9984014443252818e-15
+    },
+    {
+      "epsilon": 0.75,
+      "max_bound_equality_error": 1.6653345369377348e-15
+    },
+    {
+      "epsilon": 1.0,
+      "max_bound_equality_error": 1.3322676295501878e-15
+    }
+  ],
+  "four_point_gains": [
+    0.09497137326043062,
+    -0.15502862673956938
+  ],
+  "known_prevalence": {
+    "n_enumerated": 85,
+    "range": [
+      -0.35749999999999993,
+      0.2675
+    ],
+    "constant_b_range_width": 2.7755575615628914e-17
+  },
+  "bin_cancellation": {
+    "bin_mean_b": 0.0,
+    "C": 0.005176163149131757,
+    "posterior_worlds": [
+      {
+        "posterior": "increasing_step",
+        "class_probability": 0.5,
+        "actual_gain": 0.06767616314913175,
+        "incorrectly_binned_identified_gain": 0.005176163149131757
+      },
+      {
+        "posterior": "decreasing_step",
+        "class_probability": 0.5,
+        "actual_gain": -0.05732383685086825,
+        "incorrectly_binned_identified_gain": 0.005176163149131757
+      },
+      {
+        "posterior": "increasing_smooth",
+        "class_probability": 0.5,
+        "actual_gain": 0.056244368261323396,
+        "incorrectly_binned_identified_gain": 0.005176163149131757
+      },
+      {
+        "posterior": "decreasing_smooth",
+        "class_probability": 0.5,
+        "actual_gain": -0.045892041963059876,
+        "incorrectly_binned_identified_gain": 0.005176163149131757
+      }
+    ]
+  },
+  "interval_jensen_minimum_checks": 100
+}

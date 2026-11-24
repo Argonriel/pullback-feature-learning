@@ -1,0 +1,31 @@
+{
+  "utc": "2026-11-21T23:19:39.664345+00:00",
+  "branch_complete": true,
+  "quality_preservation_success": false,
+  "serving_success": false,
+  "models": 9,
+  "paired_seeds": 3,
+  "external_images": 1500,
+  "external_source": "Param Aggarwal Fashion Product Images Small v1",
+  "no_post_outcome_tuning": true,
+  "no_timing_repeats": true,
+  "artifacts_sha256": {
+    "SOURCE_FREEZE.json": "67e16f354cc53c0e0fc897622897b46040b04bcc34a3506c29e9a7927ab04cab",
+    "MODEL_COMMIT.json": "e5358c892a2d6e934f94b0adc88ddb353cdc512a7de05ef44c7b7d635bf4add0",
+    "SCORE_COMPLETE.json": "f72e35cc8c3ef24d215384d2b47a2675ac5f0708a6b78638547e49ab12761ea4",
+    "SUCCESS_CRITERIA.json": "85a1af4f892535f159c978b4134a6500d43a23cb80bab38028ce1bb27cf526d5",
+    "TIMING_COMPLETE.json": "b3cb509ea139998f53445e7a39f29f65754649c76210696e9c97131875d9d4da",
+    "SERVING_SUCCESS.json": "93cc512591e84ac7adac069a65f518e058ae984403d837582ea874e49ac50ba4",
+    "FINAL_VERIFICATION.json": "f8a52dcfc99d6cc71669c438a0dbda1fc3fbf9448a1df77731caef6387db0089",
+    "EXTERNAL_REBUILD_AUDIT.json": "cf6fef93b07f473f716f3c5dde4d5abe9167fa136f803ac6465073724b350a31",
+    "REPOSITORY_SOURCE_COPIES.json": "22c241f99af5b3aa60bbd80d8c1b8b420218a8112e748ddc6c5da60e9c261a71",
+    "summary.csv": "6bc7aa3c7d2688cc084616284fcd674e773493e354684e058ff33e2546f9ec70",
+    "contrasts.csv": "ffe9a73c3a738643e0d7136e804db498c3a6fc9bc994013186a467e1bb247f18",
+    "serving_aggregate.csv": "80d0c8235f2129a9e51a4cd981b2b94bec3348cf7b94c213dbdc42e299a8fd75",
+    "flip_diagnostics.csv": "3294af26b77dcb0c8798f8b1375caaf37cb5da6e4e1981ad8c83c1ab7bc25018",
+    "README.md": "21cc6e7d5c40593eea1a6b34b52780882037a167be8fe7af083c1601013452e9",
+    "distillation_report.png": "56811d96a3856a42ef12bb4dfbacf5bc747eedc14ddf6c2f75f6c6218d3c5b28",
+    "report.py": "6cfaa5d085a33b55f5a92ac8e5f9c394f221af555d8dbc0959fb314456f176a3",
+    "print_report_plot.py": "0701e825886afc5dc7e6d9562bfc095575db4963cbd73300e7246e8037d1a83d"
+  }
+}

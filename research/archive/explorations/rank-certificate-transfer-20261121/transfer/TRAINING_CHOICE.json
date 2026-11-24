@@ -1,0 +1,20 @@
+{
+  "timestamp_utc": "2026-11-21T10:06:48.486409+00:00",
+  "chosen_rates": {
+    "gd": 0.3,
+    "pb": 8.0
+  },
+  "pilot_mean_conditional_risk": {
+    "gd_0.1": 0.697151992741623,
+    "gd_0.3": 0.6670277189657186,
+    "pb_8": 0.3831025184228555,
+    "pb_16": 0.5515383568858396
+  },
+  "source_results_sha256": "e8323b03b823ae0a2e5e381a54c9a648073490b2828ed93f4c659c70de800556",
+  "steps": 500,
+  "damping": 0.1,
+  "task_models": 4,
+  "supervised_training_recipe_choice": true,
+  "selector_tau_fixed": 1.0,
+  "new_confirmation_streams_read": false
+}

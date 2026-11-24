@@ -1,0 +1,61 @@
+{
+  "recorded_at_utc": "2026-11-20T10:05:34.499673+00:00",
+  "protocol_commit": "6cb553d09784d0769f0f03138d76e8accce2d9f8",
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "dtype": "float64",
+  "device": "cpu",
+  "source_archive": "reports/formal-v1",
+  "input_sha256": {
+    "config.json": "811b36c44774fecb44d847b27a84dbcce85bc7ab592a877903699b64127d5cce",
+    "data.json": "628ed852e14b4587d8978137a500fcac1d41feee559fd40e3c92e495040d9a75",
+    "trajectories.json": "8b882431799f4b30d24ca5ccb5e1c2a6bdf6ab718bae8e748365430fb7a49fca",
+    "metrics.csv": "c0ee9f23262758ea898c6d53db88d9b8eb98d8bf9bdc4e3ea03e80de10e81bd0",
+    "spectra.csv": "00f18cbfb1ebd235a8c8b06d840609e51deb8c9d3817b7329a38e2611673ebd8",
+    "spectral_metadata.json": "93d67279c3c226fc1b9806be1b31d5e3381ef6257182daf4e3937de00347935e"
+  },
+  "source_sha256": {
+    "core.py": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5",
+    "data.py": "40126e817fd391fc75007677864f182fac2b103163cd0a83b7f3a383f6c2c703",
+    "formal.py": "279ea08250517f04a3cbf92d57d2d209db59ef395a090966d22ed67ab94fb95d",
+    "long_training.py": "534384f736926ad014c065145a51da7d3682ddb382df34275976a2422e401db8",
+    "pilot.py": "d75c0128e7a4ad892fc101c3ae0b7f3c052fed51302fead8db6e57185fbfd47f",
+    "probes.py": "a855a75b12aeebf5ffdf7c40f8a98754822a73b6669a00ca23eae56f0869295f",
+    "representation_analysis.py": "495e5356872b9040d25c0ac25ccbe4e7bae228f28994539f90110b1d6b633185",
+    "tuning.py": "d7e2f17335ed038d6936a9bd5eea828a150ce488fee6fe4cb1ca6efc2c645f35",
+    "verify.py": "d3eb3ea222a1207ee3cacf4e7495ff31b33a4fdff867d7346f0cd4cb4fae89bd",
+    "__init__.py": "cfa50d8dc213dd829cd6eb880cc14a50e689d919782ce75e74fb270cb9a9b943"
+  },
+  "packages": {
+    "numpy": "2.5.5",
+    "matplotlib": "3.11.2",
+    "threadpoolctl": "3.8.0"
+  },
+  "network_training_performed": false,
+  "probe_training_performed": false,
+  "test_predictions_recomputed": false,
+  "test_metrics_source": "Copied from the archived formal metrics.csv",
+  "states": [
+    "initial",
+    "middle",
+    "iteration",
+    "time"
+  ],
+  "displacement_fractions": [
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "version": "0.3.34.237.2",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    }
+  ]
+}

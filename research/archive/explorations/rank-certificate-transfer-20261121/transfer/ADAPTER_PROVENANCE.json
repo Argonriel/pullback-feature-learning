@@ -1,0 +1,22 @@
+{
+  "timestamp_utc": "2026-11-21T10:08:27.066753+00:00",
+  "reference_sha256": "9f6e3e96a85fa62657ec1430aececc846cffa3ce338786356d514d942d00ae31",
+  "changes": [
+    "4D two-harmonic orbit and task model",
+    "bounded r support [.4,1.4] and Beta-mixture radius sampler",
+    "half-turn flips first harmonic only; canonical even angle uses firstpair",
+    "exact polynomial population-scoreCDF evaluation",
+    "4D geometry constants in evaluator-only bound",
+    "tau fixed1, matching previous frozen choice"
+  ],
+  "unchanged": [
+    "global rank score family",
+    "frequencies1..4",
+    "quarter-grid phase offset",
+    "129anchors and512angles",
+    "LP hull objective/moment balancing",
+    "independent radius-only action mixtures",
+    "top64 of256 and binomial marginal",
+    "131072 coordinate-onlyCDFdraws"
+  ]
+}

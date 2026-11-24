@@ -1,0 +1,15 @@
+Prospective actual-loss-drop prediction protocol
+
+Exploration: old seed IDs 1..6. Confirmation: wholly new ring train611001..611016/init612001..612016 and synthetic train27751101..27751116/init27752101..27752116. Shared ring states across directions are not independent replications. Same 80-parameter architecture; damping .1. Original rings pre-states initial and PB100(rate8). Synthetic pre-states initial and GD300(rate.125).
+
+Matched transfer: identical X and initialization across radial/angular task, u~Uniform[0,1], phi~Uniform[0,2pi], r=.3+1.2u; logit posterior=3cos(2piu) or 3cos(2phi). These scores have identical arcsine distributions, equal .5 class probability, and identical Bayes risk/accuracy. True radial symmetry is full rotations. True angular symmetry is pi rotations (also reflections); only pi partner used.
+
+Fit is Bayes-excess loss of true-symmetry averaged logit; nuisance is exact Jensen loss gap. For radial/rings these are radial fitting/angular nuisance. For angular, fitting retains informative angle dependence; it is NOT radial fitting. View value is one-view risk minus expected two-view averaged-logit risk: independent uniform rotational partner for radial/rings; the pi partner for angular (there it equals nuisance identically).
+
+Every branch starts at exactly the same theta. GD/PB root searches first detected crossing along direction: geometrically increasing alpha, displacement norm cap4; bisection; failed and unreachable targets retained. Local drops 1e-5 and .02 nats; multistep 8 recomputed directions at .005 nats/drop, horizons1,2,4,8. Prediction at initial state remains frozen over horizon.
+
+Primary pre-state clock predictor: DQ[d]*delta/(-DL[d]). Diagnostic realized-step tangent: DQ[d]*alpha for one step; DQ[theta_end-theta_start] for path, using actual train-only state displacement; it is outcome-blind but NOT a fully pre-update prediction. Zero and old-seed pooled slopes (same task/stage/method/experiment/horizon/requested_drop) are competitors. Old baseline mean delta per achieved-drop uses only old-seed outcomes, stratified by exact requested drop. If an exact stratum has no reachable old outcome, fallback pools reachable slopes for the same task/stage/method/metric; source and training count are recorded. Training-only endpoint loss/steps do not use population outcomes.
+
+For each cohort, all endpoint states are generated with training data only, then prediction table is physically saved and SHA256 stamped before ANY updated-state population scores are evaluated. Pre-state metrics/derivatives are allowed. Old cohort is completed first and frozen protocol records old artifacts/code hashes before fresh states. All roots, seed rows, states and failures retained. No fresh-seed winner selection.
+
+Report component MAE/RMSE, sign counts, paired improvement over competitors, aggregated within seed then bootstrap seeds10000 times. Repeated states/targets are not independent samples. Report all strata and combined fixed strata. Identity/finite-difference/grid checks supplied. A first-order prediction can fail at substantial drop or long horizons; preserve these failures.

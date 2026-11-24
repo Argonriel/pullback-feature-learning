@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "review_date": "2026-11-21",
+  "excludes": [
+    "manifest.json"
+  ],
+  "files": [
+    {
+      "path": "DECISION.json",
+      "bytes": 1712,
+      "sha256": "cdefd107b62e01b5a1edbd71e9b5a52564b44230d2be618268efd8948fc1264a"
+    },
+    {
+      "path": "numerical_audit/audit_data.json",
+      "bytes": 259373,
+      "sha256": "bc6aecc2318bd2e96375fd4401d63ce0fccf0f987a4abc880fe51724f6e99022"
+    },
+    {
+      "path": "numerical_audit/audit_summary.json",
+      "bytes": 784,
+      "sha256": "6f8f8373e85ba9a0d9442c03ddd289e461fe9d80fcd5f649ab92e9930794552e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1534,
+      "sha256": "3d1fb866c26cd0673daf712f1c87ff38ddfa916e8661bda71b0eb30648580591"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 11919,
+      "sha256": "89f921c46adbbb8127d409bc0daace1501a41869047d60aad06017f6fdf7ce68"
+    },
+    {
+      "path": "REVIEW_NOTES.md",
+      "bytes": 3921,
+      "sha256": "3b89602bc9a8b09c23c261d329a21907fb8c07d99abdb3314f74443b8d2f1765"
+    },
+    {
+      "path": "source/verify_reduction.py",
+      "bytes": 8244,
+      "sha256": "dbe4fef69a81a914a9a33d1e5db7a3e8b50c19c6dc04676e39cfe6a1b9fde5e6"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-21T22:48:08.362298+00:00",
+  "status": "PASS",
+  "split_ids_reconstructed": 60000,
+  "checkpoint_choices": 6,
+  "temperature_fits": 12,
+  "max_temperature_error": 0.0,
+  "quality_rows": 60,
+  "classwise_rows": 120,
+  "max_metric_error": 2.220446049250313e-16,
+  "direct_holdout_model_view_replays": 12,
+  "max_direct_logit_error": 0.0,
+  "direct_class_discrepancies": 0,
+  "bootstrap_intervals": 20,
+  "max_bootstrap_replay_error": 2.220446049250313e-16,
+  "latency_rows": 378,
+  "measured_forward_examples": 645120,
+  "warmup_forward_examples": 276480,
+  "quality_forward_examples": 240000,
+  "additional_audit_forward_examples": 120000,
+  "committed_files": 48,
+  "limitation": "Holdout excluded from this round, but images were used in historical studies; image bootstrap conditions on these six models."
+}

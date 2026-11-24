@@ -1,0 +1,39 @@
+{
+  "pair": 5,
+  "metadata": [
+    {
+      "proposals": 1024,
+      "proposal_batches": 1,
+      "class_counts": [
+        128,
+        128
+      ]
+    },
+    {
+      "proposals": 2048,
+      "proposal_batches": 1,
+      "class_counts": [
+        256,
+        256
+      ]
+    },
+    {
+      "proposals": 2048,
+      "proposal_batches": 1,
+      "class_counts": [
+        256,
+        256
+      ]
+    },
+    {
+      "proposals": 4096,
+      "proposal_batches": 1,
+      "class_counts": [
+        512,
+        512
+      ]
+    }
+  ],
+  "accepted_training_labels": 2304,
+  "experimental_union_fit_labels": 7424
+}

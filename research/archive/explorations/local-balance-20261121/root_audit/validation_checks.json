@@ -1,0 +1,27 @@
+{
+  "chronology_pass": true,
+  "all_frozen_hashes_pass": true,
+  "all_calibration_hashes_pass": true,
+  "unique_fresh_models": 16,
+  "overlap_with_64_development_models": 0,
+  "training_replays": [
+    {
+      "seed": 1,
+      "max_parameter_error": 0.0
+    },
+    {
+      "seed": 8,
+      "max_parameter_error": 0.0
+    },
+    {
+      "seed": 16,
+      "max_parameter_error": 0.0
+    }
+  ],
+  "risk_rows_reconstructed": 240,
+  "max_expected_risk_error": 5.551115123125783e-17,
+  "max_sampled_risk_error": 2.7755575615628914e-17,
+  "call_audits_checked": 61440,
+  "deployment_forward_examples": 20971520,
+  "all_per_batch_quotas_pass": true
+}

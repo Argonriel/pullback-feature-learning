@@ -1,0 +1,5 @@
+# Auxiliary rate sensitivity check
+
+After completing the primary population decomposition on the archived trajectories, the earlier crossed-control study motivates this follow-up. Evaluate two fixed schedules with the already selected rings rates on the same eight original rings pairs. Pure GD uses rate 0.5 from initialization to 100 and 500 updates. The hybrid starts from the exact original pullback-100 state and uses GD rate 2 for the following 400 updates. Keep all original control-state population measurements for the comparisons. Use the same population evaluator and eight seed pairs. No tuning or use of validation measurements for selection. The rates were previously selected on separate tuning draws for a 100 ms budget. This check compares 100 and 500 updates.
+
+Report population risk, radial excess and angular excess for each new state and paired differences against the inherited-rate counterpart and original full pullback. Verify seed/state identities and the unchanged generation/evaluation software, retain seed measurements, and check that total differences equal the sum of their radial and angular terms.

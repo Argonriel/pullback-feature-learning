@@ -1,0 +1,3 @@
+# Learned ring features at two checkpoints
+
+Each panel shows the same 256 validation points from the first of eight seed pairs, in the network's two learned coordinates. The vertical dashed line is the fixed classifier boundary at the first feature equal to zero. At 100 updates, 95.3% of points fall on the correct side under pullback and 47.3% under GD. After 400 subsequent GD updates, the warm-up reaches 98.8% on this pair, compared with 69.5% for 500 GD updates. Horizontal axis limits vary by panel and the vertical limits are shared. The aggregate table in the [study report](README.md) covers all eight pairs. [PNG](rings_features_pair1.png) · [SVG](rings_features_pair1.svg)

@@ -1,0 +1,12 @@
+{
+  "bootstrap_seed": 472103,
+  "resamples": 20000,
+  "ci": "Pointwise 95% paired percentile bootstrap, resampling full seed vectors.",
+  "units": "Log losses and gains in nats per example. Mask disagreement is a fraction.",
+  "signed_gap": "Folded loss minus confidence loss. Negative favors the folded rule.",
+  "groups": {
+    "original": "1-16",
+    "validation": "17-32, independent of the original study",
+    "pooled": "1-32, descriptive combined estimate"
+  }
+}

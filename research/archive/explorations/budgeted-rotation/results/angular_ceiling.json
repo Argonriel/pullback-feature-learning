@@ -1,0 +1,17 @@
+{
+  "gd": {
+    "angular": 0.043017000357495935,
+    "two_view_gain": 0.028372460309142047,
+    "fraction_of_angular_loss_addressable": 0.6595638950496463
+  },
+  "pb": {
+    "angular": 0.015534058477348579,
+    "two_view_gain": 0.009366101448553658,
+    "fraction_of_angular_loss_addressable": 0.6029397573217006
+  },
+  "hybrid": {
+    "angular": 0.02657111514561135,
+    "two_view_gain": 0.017202156482910964,
+    "fraction_of_angular_loss_addressable": 0.6474006223917245
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "timestamp_utc": "2026-11-21T07:41:52.016494+00:00",
+  "config": {
+    "old_seeds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "new_seeds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "damping": 0.1,
+    "stages": [
+      "initial",
+      "trained"
+    ],
+    "single_drops": [
+      1e-05,
+      0.02
+    ],
+    "path_drop": 0.005,
+    "horizons": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "root_expansion": 1.35,
+    "root_max_norm": 4.0,
+    "root_residual": 2e-12,
+    "derivative_grid": [
+      48,
+      64
+    ],
+    "score_grids": [
+      [
+        48,
+        64
+      ],
+      [
+        96,
+        128
+      ],
+      [
+        192,
+        256
+      ]
+    ],
+    "score_atol": 2e-07,
+    "new_ring_train_base": 611000,
+    "new_ring_init_base": 612000,
+    "new_synthetic_train_base": 27751100,
+    "new_synthetic_init_base": 27752100,
+    "old_ring_train_base": 71000,
+    "old_ring_init_base": 73000,
+    "old_synthetic_train_base": 1,
+    "old_synthetic_init_base": 1001,
+    "synthetic_n": 256,
+    "synthetic_gd_steps": 300,
+    "synthetic_gd_rate": 0.125,
+    "rings_pb_steps": 100,
+    "rings_pb_rate": 8.0,
+    "bootstrap_seed": 27753100,
+    "bootstrap_repeats": 10000
+  },
+  "sha256": {
+    "study.py": "32fa5d0aeb9ba8fd42fe5f798dc8bbc02b266cdbd1672a854669e0eb19aa8608",
+    "PROTOCOL.md": "6cfd545d55403278a8600928f015f62eb61890985ecb94ba2ce352fc4fd22e50",
+    "outcomes.csv": "e4a03e81657a2b4fdcbd51d13943ce21ddb630c6d11d61be5672d071cb34dfed",
+    "predictions.csv": "21d19c9d9af941833e92023afe783e3939653da6e1b43275ff637906cf449fdf"
+  },
+  "core_sha256": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5"
+}

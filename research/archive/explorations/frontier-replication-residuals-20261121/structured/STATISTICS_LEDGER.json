@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-22T00:34:16.232181+00:00",
+  "raw_batch_moment_series": 2144,
+  "stored_batch_moment_values": 4390912,
+  "moment_look_reductions": 4288,
+  "moment_concentration_calculations": 8576,
+  "allocated_moment_events": 8576,
+  "parameter_intervals": 14,
+  "cell_intervals": 32,
+  "total_probability_events": 8622,
+  "curve_rows": 1920,
+  "truth_rows": 5504,
+  "extra_network_calls_for_saved_logit_statistics": 0,
+  "algebra_random_records": 49152,
+  "quadrature_angular_points": 1048576
+}

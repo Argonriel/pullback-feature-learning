@@ -1,0 +1,91 @@
+{
+  "utc": "2026-11-22T00:10:37.554365+00:00",
+  "source": "UT Zappos50K, official UT Austin source; README version1.2; site version2.1",
+  "license_terms": "Academic, non-commercial use only; retain official README and cite Yu and Grauman (CVPR2014, ICCV2017).",
+  "mapping": {
+    "5": [
+      "Sandals",
+      null
+    ],
+    "7": [
+      "Shoes",
+      "Sneakers and Athletic Shoes"
+    ],
+    "9": [
+      "Boots",
+      "Ankle"
+    ]
+  },
+  "eligible_unique_products": {
+    "5": 2607,
+    "7": 6008,
+    "9": 3365
+  },
+  "per_class": 500,
+  "selected_images": 1500,
+  "selected_unique_products": 1500,
+  "selected_brands": 435,
+  "metadata_conflicting_product_labels": 7,
+  "excluded_candidates": [],
+  "selected_raw_exact_duplicates": 0,
+  "selected_pixel_exact_duplicates": 0,
+  "exact_pixel_overlap_with_fashion_mnist_and_prior_myntra": 0,
+  "product_group_rule": "One deterministically selected color image per unique ProductID; sample groups separately by mapped category.",
+  "population_sha256": "ce9bdd8633d365e3eff7c246bd1f9877de63ec2e593dcd8bd64b55246be9099a",
+  "source_archive_sha256": "462af32659411c0eb6cbda6c4ce82b0efce3d614ab6ba74370c5e7e8113c52d5",
+  "preprocessing_unchanged_from_prior": true,
+  "models_loaded": false,
+  "outcomes_observed": false,
+  "near_duplicate_designs_and_brand_dependencies_not_ruled_out": true,
+  "ambiguous_product_exclusions": [
+    {
+      "product_id": "7278502",
+      "mapped_labels": [
+        7,
+        9
+      ]
+    },
+    {
+      "product_id": "7280086",
+      "mapped_labels": [
+        7,
+        9
+      ]
+    },
+    {
+      "product_id": "7292328",
+      "mapped_labels": [
+        5,
+        7
+      ]
+    },
+    {
+      "product_id": "7366299",
+      "mapped_labels": [
+        7,
+        9
+      ]
+    },
+    {
+      "product_id": "7743503",
+      "mapped_labels": [
+        5,
+        7
+      ]
+    },
+    {
+      "product_id": "7958152",
+      "mapped_labels": [
+        5,
+        7
+      ]
+    },
+    {
+      "product_id": "8069905",
+      "mapped_labels": [
+        7,
+        9
+      ]
+    }
+  ]
+}

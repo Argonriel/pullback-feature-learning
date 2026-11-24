@@ -1,0 +1,43 @@
+budget_cap,policy,per_model_calibration_forwards,calibration_pool,deployment_base,deployment_extra,deployment_per_input
+8192,random_pi,0,none; historical default uses frozen old archive when applicable,256,64,1.25
+8192,random_default,0,none; historical default uses frozen old archive when applicable,256,64,1.25
+8192,random_global,8192,shared angular orbit,256,64,1.25
+8192,random_radial,8192,shared angular orbit,256,64,1.25
+8192,confidence_pi,0,none; historical default uses frozen old archive when applicable,256,64,1.25
+8192,confidence_default,0,none; historical default uses frozen old archive when applicable,256,64,1.25
+8192,confidence_global,8192,shared angular orbit,256,64,1.25
+8192,confidence_radial,8192,shared angular orbit,256,64,1.25
+8192,radius_pi_pi,8192,shared angular orbit,256,64,1.25
+8192,radius_pi_default,8192,shared angular orbit,256,64,1.25
+8192,radius_pi_global,8192,shared angular orbit,256,64,1.25
+8192,radius_pi_radial,8192,shared angular orbit,256,64,1.25
+8192,folded_pi,8192,shared angular orbit,256,64,1.25
+8192,radius_angle_default,8192,shared angular orbit,256,64,1.25
+8192,radius_angle_global,8192,shared angular orbit,256,64,1.25
+8192,joint,8192,shared angular orbit,256,64,1.25
+8192,legacy_iid_radius_pi,8192,IID inputs plus antipodes,256,64,1.25
+8192,legacy_iid_folded_pi,8192,IID inputs plus antipodes,256,64,1.25
+8192,raw,0,none; historical default uses frozen old archive when applicable,256,0,1
+8192,full_pi,0,none; historical default uses frozen old archive when applicable,256,256,2
+8192,full_radial,8192,shared angular orbit,256,256,2
+65536,random_pi,0,none; historical default uses frozen old archive when applicable,256,64,1.25
+65536,random_default,0,none; historical default uses frozen old archive when applicable,256,64,1.25
+65536,random_global,65536,shared angular orbit,256,64,1.25
+65536,random_radial,65536,shared angular orbit,256,64,1.25
+65536,confidence_pi,0,none; historical default uses frozen old archive when applicable,256,64,1.25
+65536,confidence_default,0,none; historical default uses frozen old archive when applicable,256,64,1.25
+65536,confidence_global,65536,shared angular orbit,256,64,1.25
+65536,confidence_radial,65536,shared angular orbit,256,64,1.25
+65536,radius_pi_pi,65536,shared angular orbit,256,64,1.25
+65536,radius_pi_default,65536,shared angular orbit,256,64,1.25
+65536,radius_pi_global,65536,shared angular orbit,256,64,1.25
+65536,radius_pi_radial,65536,shared angular orbit,256,64,1.25
+65536,folded_pi,65536,shared angular orbit,256,64,1.25
+65536,radius_angle_default,65536,shared angular orbit,256,64,1.25
+65536,radius_angle_global,65536,shared angular orbit,256,64,1.25
+65536,joint,65536,shared angular orbit,256,64,1.25
+65536,legacy_iid_radius_pi,65536,IID inputs plus antipodes,256,64,1.25
+65536,legacy_iid_folded_pi,65536,IID inputs plus antipodes,256,64,1.25
+65536,raw,0,none; historical default uses frozen old archive when applicable,256,0,1
+65536,full_pi,0,none; historical default uses frozen old archive when applicable,256,256,2
+65536,full_radial,65536,shared angular orbit,256,256,2

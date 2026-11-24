@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "example": "Two-parameter linear weighted damped least squares",
+  "parameters": {
+    "a": 1.0,
+    "b": 0.7302967433402214,
+    "damping": 0.1,
+    "eta": 0.05,
+    "steps": 500
+  },
+  "expected_infinite_time_unused_path_ratio": 49.0,
+  "observed_finite_unused_path_ratio": 49.00000011174182,
+  "predictive_path_relative_difference": 2.2804297339362734e-09,
+  "matched_continuous_clock_max_readout_error": 0.0,
+  "closed_form_max_error": 3.552713678800501e-15,
+  "endpoints": [
+    {
+      "gamma": 0.0,
+      "rate": 0.9090909090909091,
+      "step": 500,
+      "u": 0.9999999999208761,
+      "v": 0.0,
+      "readout": 0.9999999999208761,
+      "unused": 0.9999999999208761,
+      "predictive_path": 0.9999999999208761,
+      "unused_path": 0.9999999999208761,
+      "loss": 3.1302981200859972e-21
+    },
+    {
+      "gamma": 0.1111111111111111,
+      "rate": 0.8548707753479126,
+      "step": 500,
+      "u": 0.9999999996732969,
+      "v": -0.5095093556523014,
+      "readout": 0.9999999996732969,
+      "unused": 0.6279069765390466,
+      "predictive_path": 0.9999999996732969,
+      "unused_path": 0.6279069765390469,
+      "loss": 5.3367460718529204e-20
+    },
+    {
+      "gamma": 1.0,
+      "rate": 0.7949790794979078,
+      "step": 500,
+      "u": 0.9999999984426206,
+      "v": -1.1531001192676964,
+      "readout": 0.9999999984426206,
+      "unused": 0.15789473659620096,
+      "predictive_path": 0.9999999984426206,
+      "unused_path": 0.15789473659620348,
+      "loss": 1.2127153719429218e-18
+    },
+    {
+      "gamma": 9.0,
+      "rate": 0.7790143084260729,
+      "step": 500,
+      "u": 0.9999999976404463,
+      "v": -1.3413613621537612,
+      "readout": 0.9999999976404463,
+      "unused": 0.02040816321715116,
+      "predictive_path": 0.9999999976404463,
+      "unused_path": 0.020408163217151647,
+      "loss": 2.783746745625686e-18
+    }
+  ],
+  "meaning": "The path-length headline alone does not identify a new nonlinear mechanism.",
+  "limitation": "Illustrative scalar-output model; not a causal explanation fitted to archived rings models.",
+  "python": "3.12.14",
+  "numpy": "2.5.5",
+  "source_sha256": "57ca7dbbdb27c62ef8b25668b850a889162e0581826afec2a9863503633153a0"
+}

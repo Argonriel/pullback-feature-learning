@@ -1,0 +1,10 @@
+{
+  "timestamp_utc": "2026-11-21T08:30:25.629828+00:00",
+  "code_sha256": "d865d8eafb95fb39a5b97f957471c27d142055616c46430e95c0c6f1e2d8ff56",
+  "phase_seed_base": 745000,
+  "prior_amendment_sha256": "12a0054ce51dcc22d055824492b1f870feec1c4a5e2840d10c8267f98e4caf93",
+  "prior_calibration_commit_sha256": "9f305547c3324e91a6d438dcc3a90d227219828d0ddea58934d7ccbe235f9607",
+  "addendum_sha256": "5d66cfc3b0378d0d214581d913aa6cf2dad2942bef0126caf69259f7e5ad5761",
+  "test_started": false,
+  "fresh_outcomes_accessed": false
+}

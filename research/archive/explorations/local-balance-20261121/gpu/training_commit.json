@@ -1,0 +1,29 @@
+{
+  "timestamp_utc": "2026-11-21T09:32:36.938845+00:00",
+  "failures": [],
+  "files": {
+    "w1024_s1.pt": "66d5e73763cd6b1153c38227c6fc2588f141d9c565d11f42b221cc4088c28ab9",
+    "w1024_s1_training.npz": "7dce056e7e5e3842c48d6abc3349c4982babf1c3d9b208de6b708fc0850cd6b9",
+    "w1024_s2.pt": "32b0dfa6b89beac09d0ab5de6f4a6989439ef27046d5c027bc333e90af255011",
+    "w1024_s2_training.npz": "dc0fc97238a1672a1359f917580a80778ec212409775d16cf96bc28fde2ca02b",
+    "w1024_s3.pt": "dd39105ccffaae5dfd0955d063f4cdb02496135cf330b754c89d7b6bf6fa6e09",
+    "w1024_s3_training.npz": "59274902af26896512583afe992a6cfafd9280e540bf07d79acefbeb280c6e68",
+    "w256_s1.pt": "333a5bb2d2724a5d3a777159df1222d2e55944cfab466d890db227ee5f216170",
+    "w256_s1_training.npz": "db70ad8a70804ae6b5c0c600eea6884942724724bff0fb2c57d6f64a8788cc09",
+    "w256_s2.pt": "b8dbb558ed014a672217751e5ca87969e6527af5d36fd5b34d6671e6afd32bdf",
+    "w256_s2_training.npz": "e779a56eaa174730247b3fe8ba383d3255fd8c253cc9c38faa6fe9b86e0a68e7",
+    "w256_s3.pt": "ae7d1b9ae7f1bd6b173a4db89dc33dceab999b3f556bb6a2e5ec44d2734f8c5b",
+    "w256_s3_training.npz": "794112b889881110d2a27542c9fe1df7764aa92e5c3f4f76506cc39b552decfe",
+    "w64_s1.pt": "44bf9b3cd906db4c2fdb338e694d381e946c06c0e1c93b1ac0d6f594a007c709",
+    "w64_s1_training.npz": "bcc9f3c37abfcabec8c945d76175ad55f0e9ca022be9a0db4d1c28db722f61ce",
+    "w64_s2.pt": "51d9de55c659cf19a1ec18dab69a4ea3bbb0dfd30952a761c7f45e35883c0a85",
+    "w64_s2_training.npz": "d152e0456e7c14da00568dd560c608920721564fa559cd4c1effe59f7bc33f86",
+    "w64_s3.pt": "15006924ee75d97f3f6290d4fd63ed63f852f5e3555e8b2e88e2adb4f6d7c49e",
+    "w64_s3_training.npz": "a7c350bb6751cfa0d47b4830b85794f695cd185298cb1cb447216cc2faa1909a"
+  },
+  "torch_version": "2.7.1+cu128",
+  "cuda_version": "12.8",
+  "device": "NVIDIA GeForce RTX 5070 Ti",
+  "torch_config": "PyTorch built with:\n  - C++ Version: 201703\n  - MSVC 192930158\n  - Intel(R) oneAPI Math Kernel Library Version 2025.1-Product Build 20250306 for Intel(R) 64 architecture applications\n  - Intel(R) MKL-DNN v3.7.1 (Git Hash 8d263e693366ef8db40acc569cc7d8edf644556d)\n  - OpenMP 2019\n  - LAPACK is enabled (usually provided by MKL)\n  - CPU capability usage: AVX512\n  - CUDA Runtime 12.8\n  - NVCC architecture flags: -gencode;arch=compute_50,code=sm_50;-gencode;arch=compute_60,code=sm_60;-gencode;arch=compute_61,code=sm_61;-gencode;arch=compute_70,code=sm_70;-gencode;arch=compute_75,code=sm_75;-gencode;arch=compute_80,code=sm_80;-gencode;arch=compute_86,code=sm_86;-gencode;arch=compute_90,code=sm_90;-gencode;arch=compute_100,code=sm_100;-gencode;arch=compute_120,code=sm_120\n  - CuDNN 90.7.1\n  - Magma 2.5.4\n  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, COMMIT_SHA=e2d141dbde55c2a4370fac5165b0561b6af4798b, CUDA_VERSION=12.8, CUDNN_VERSION=9.7.1, CXX_COMPILER=C:/actions-runner/_work/pytorch/pytorch/pytorch/.ci/pytorch/windows/tmp_bin/sccache-cl.exe, CXX_FLAGS=/DWIN32 /D_WINDOWS /GR /EHsc /Zc:__cplusplus /bigobj /FS /utf-8 -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_FBGEMM -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE /wd4624 /wd4068 /wd4067 /wd4267 /wd4661 /wd4717 /wd4244 /wd4804 /wd4273, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, TORCH_VERSION=2.7.1, USE_CUDA=ON, USE_CUDNN=ON, USE_CUSPARSELT=OFF, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=OFF, USE_NNPACK=OFF, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, \n",
+  "freeze_sha256": "681026b2fdbc272721b249f336b8210497adb367a70ab761d91dbf97986618b5"
+}

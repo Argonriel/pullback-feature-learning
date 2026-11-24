@@ -1,0 +1,16 @@
+{
+  "source_root": "source",
+  "manifest": {
+    "source/model.py": "fca6b349140849e8486a426d77ce3858123f005a9e84ecf2f112111acb05ac20",
+    "source/postprocess.py": "04de9a69f8b33338b631601747b23e48ae938c26e549762e526afe4eab80b3af",
+    "source/preflight.py": "6b2ad2fd8730cfd88dabfac9b827524c9882d955d25125c8e0cf4c563ddfc96e",
+    "source/README.md": "6b92953800176a06ebab4eb2b5fc7318fd084f4b9a23d9eaaeb4b559b6a719a6",
+    "source/reference/core4d.py": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77",
+    "source/reference/DEVELOPMENT_STATE.npz": "5a69e55007a4d6ad30f013070da9400df737f701fa17228d934566674448e883",
+    "source/reference/task.py": "8da7d92d23437155d10be130a712e219211760ee740c2fca2a4b3506437214f4",
+    "source/reproduce.py": "49e4f9ad6ed53fb46de12e18c6a6441a2e43bf50d049d0f1cb094b67c73032a8",
+    "source/runner.py": "944604aae14aaaf8fa28714fd7c25f2f787261f8ddcc5196d47a1866654244f1",
+    "source/timing.py": "85c8dede7b0b09876f92e9c3c11ea98b97614bffbe9a460e8d820e2b1b5a3cc8"
+  },
+  "note": "Derived accounting/report helper finalized after predictive commits for full cost disclosure, baseline identity wording, and visual QA. Frozen primary sources unchanged."
+}

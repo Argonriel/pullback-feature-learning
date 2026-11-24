@@ -1,0 +1,301 @@
+{
+  "status": "passed",
+  "role": "constructed restricted-architecture counterexample; not a new mechanism",
+  "slice_trainable_original_indices": [
+    24,
+    56
+  ],
+  "damping": 0.1,
+  "c": 0.3807970779778824,
+  "config": {
+    "bias": 0.25,
+    "theta0": [
+      0.0,
+      0.5
+    ],
+    "shifts": [
+      -0.1,
+      1.0
+    ],
+    "weights": [
+      0.75,
+      0.25
+    ],
+    "early": [
+      0.17318282119708245,
+      -0.00012425680966077213
+    ],
+    "late": [
+      3.0,
+      7.14612167480172e-06
+    ]
+  },
+  "population_shifts": [
+    0.0,
+    -0.1,
+    1.0
+  ],
+  "population_weights": [
+    0.1,
+    0.675,
+    0.225
+  ],
+  "population_labels": [
+    1,
+    1,
+    1
+  ],
+  "reduction_max_error": 2.220446049250313e-16,
+  "max_matched_logit_error": 1.167063667928403e-11,
+  "rows": [
+    {
+      "step": 0.002,
+      "target_training_logit": 0.17318282119708245,
+      "adaptive_parameters": [
+        0.22461433198309325,
+        1.0707377781231129
+      ],
+      "frozen_parameters": [
+        0.23067537810564057,
+        1.0639460350058174
+      ],
+      "matched_logit_error": 1.167063667928403e-11,
+      "min_active_tanh_argument": 0.15,
+      "adaptive_invariant_error": 1.7108137129184797e-10,
+      "population_risk_adaptive": 0.5979876522270385,
+      "population_risk_frozen": 0.5980994833282098,
+      "risk_difference": -0.00011183110117130024
+    },
+    {
+      "step": 0.002,
+      "target_training_logit": 3.0,
+      "adaptive_parameters": [
+        2.767912519766401,
+        6.954484394060666
+      ],
+      "frozen_parameters": [
+        2.8059109736208185,
+        6.925158986788676
+      ],
+      "matched_logit_error": 1.0934364524928242e-11,
+      "min_active_tanh_argument": 0.15,
+      "adaptive_invariant_error": 1.830215978770866e-10,
+      "population_risk_adaptive": 0.04823031980133537,
+      "population_risk_frozen": 0.0482238882891712,
+      "risk_difference": 6.431512164166431e-06
+    },
+    {
+      "step": 0.001,
+      "target_training_logit": 0.17318282119708245,
+      "adaptive_parameters": [
+        0.22461433201901418,
+        1.0707377781261853
+      ],
+      "frozen_parameters": [
+        0.2306753781470279,
+        1.06394603502704
+      ],
+      "matched_logit_error": 7.207012764354204e-13,
+      "min_active_tanh_argument": 0.15,
+      "adaptive_invariant_error": 1.066113863856799e-11,
+      "population_risk_adaptive": 0.5979876522241393,
+      "population_risk_frozen": 0.5980994833234371,
+      "risk_difference": -0.00011183109929779889
+    },
+    {
+      "step": 0.001,
+      "target_training_logit": 3.0,
+      "adaptive_parameters": [
+        2.767912519773337,
+        6.954484394069974
+      ],
+      "frozen_parameters": [
+        2.8059109736288312,
+        6.925158986806289
+      ],
+      "matched_logit_error": 6.701306176637445e-13,
+      "min_active_tanh_argument": 0.15,
+      "adaptive_invariant_error": 1.1290524071227992e-11,
+      "population_risk_adaptive": 0.04823031980103566,
+      "population_risk_frozen": 0.04822388828868848,
+      "risk_difference": 6.4315123471797575e-06
+    },
+    {
+      "step": 0.0005,
+      "target_training_logit": 0.17318282119708245,
+      "adaptive_parameters": [
+        0.22461433202124417,
+        1.0707377781263594
+      ],
+      "frozen_parameters": [
+        0.23067537814959538,
+        1.0639460350283358
+      ],
+      "matched_logit_error": 4.4797499043625066e-14,
+      "min_active_tanh_argument": 0.15,
+      "adaptive_invariant_error": 6.660227924726314e-13,
+      "population_risk_adaptive": 0.5979876522239608,
+      "population_risk_frozen": 0.5980994833231428,
+      "risk_difference": -0.00011183109918200262
+    },
+    {
+      "step": 0.0005,
+      "target_training_logit": 3.0,
+      "adaptive_parameters": [
+        2.7679125197737684,
+        6.954484394070571
+      ],
+      "frozen_parameters": [
+        2.8059109736293166,
+        6.925158986807377
+      ],
+      "matched_logit_error": 3.952393967665557e-14,
+      "min_active_tanh_argument": 0.15,
+      "adaptive_invariant_error": 8.597567102697212e-13,
+      "population_risk_adaptive": 0.048230319801016656,
+      "population_risk_frozen": 0.04822388828865881,
+      "risk_difference": 6.4315123578448374e-06
+    }
+  ],
+  "construction_search_candidates": [
+    {
+      "bias": 0.25,
+      "theta0": [
+        0.0,
+        0.5
+      ],
+      "shifts": [
+        -0.1,
+        1.0
+      ],
+      "weights": [
+        0.75,
+        0.25
+      ],
+      "early": [
+        0.17318282119708245,
+        -0.00012425680966077213
+      ],
+      "late": [
+        3.0,
+        7.14612167480172e-06
+      ]
+    },
+    {
+      "bias": 0.25,
+      "theta0": [
+        0.0,
+        0.5
+      ],
+      "shifts": [
+        -0.2,
+        0.25
+      ],
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "early": [
+        0.17318282119708245,
+        -1.389411509944427e-05
+      ],
+      "late": [
+        3.0,
+        6.465837096340799e-05
+      ]
+    },
+    {
+      "bias": 0.25,
+      "theta0": [
+        0.0,
+        0.5
+      ],
+      "shifts": [
+        -0.2,
+        3.0
+      ],
+      "weights": [
+        0.75,
+        0.25
+      ],
+      "early": [
+        0.17318282119708245,
+        -4.250097122439345e-05
+      ],
+      "late": [
+        3.0,
+        0.0001459707048593311
+      ]
+    },
+    {
+      "bias": 0.5,
+      "theta0": [
+        0.0,
+        0.5
+      ],
+      "shifts": [
+        -0.1,
+        1.0
+      ],
+      "weights": [
+        0.75,
+        0.25
+      ],
+      "early": [
+        0.22739241936926827,
+        -0.00010626687552578451
+      ],
+      "late": [
+        3.0000000000000004,
+        1.5553717422503097e-05
+      ]
+    },
+    {
+      "bias": 0.5,
+      "theta0": [
+        0.0,
+        0.5
+      ],
+      "shifts": [
+        -0.2,
+        0.25
+      ],
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "early": [
+        0.22739241936926827,
+        -8.12364801988652e-06
+      ],
+      "late": [
+        3.0000000000000004,
+        0.00034448596271798373
+      ]
+    },
+    {
+      "bias": 0.5,
+      "theta0": [
+        0.0,
+        0.5
+      ],
+      "shifts": [
+        -0.2,
+        3.0
+      ],
+      "weights": [
+        0.75,
+        0.25
+      ],
+      "early": [
+        0.22739241936926827,
+        -2.4390038640687006e-05
+      ],
+      "late": [
+        3.0000000000000004,
+        0.0007829502564386387
+      ]
+    }
+  ],
+  "source_sha256": "81086bd926e2b0bb9d773358f78ea673fb6c34d3d558d8bdc1b8a8c2b55c323b"
+}

@@ -1,0 +1,53 @@
+{
+  "utc": "2026-11-21T22:27:53.025876+00:00",
+  "status": "PASS",
+  "certificate_rows": 128,
+  "elementary_bounds": 512,
+  "max_bound_error": 0.0,
+  "stress_rows": 2560,
+  "max_stress_metric_error": 2.220446049250313e-16,
+  "committed_files": 64,
+  "primary_lines_positive_at_epsilon_point1": 64,
+  "minimum_primary_critical": 0.10263461842940952,
+  "certificate_batch_rows": 65536,
+  "actual_certificate_forwards": 10036010,
+  "certificate_replays": [
+    {
+      "pair": 1,
+      "variant": "legacy_raw",
+      "batches": 128,
+      "forwards": 20566
+    },
+    {
+      "pair": 1,
+      "variant": "pb_temp",
+      "batches": 128,
+      "forwards": 18508
+    },
+    {
+      "pair": 8,
+      "variant": "legacy_raw",
+      "batches": 128,
+      "forwards": 19538
+    },
+    {
+      "pair": 8,
+      "variant": "pb_temp",
+      "batches": 128,
+      "forwards": 19120
+    },
+    {
+      "pair": 16,
+      "variant": "legacy_raw",
+      "batches": 128,
+      "forwards": 20102
+    },
+    {
+      "pair": 16,
+      "variant": "pb_temp",
+      "batches": 128,
+      "forwards": 18730
+    }
+  ],
+  "additional_audit_forward_examples": 116564
+}

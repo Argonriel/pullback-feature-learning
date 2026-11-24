@@ -1,0 +1,66 @@
+{
+  "timestamp_utc": "2026-11-21T09:32:07.676540+00:00",
+  "fresh_models_accessed": false,
+  "calls": [
+    {
+      "policy": "raw",
+      "calls": [
+        256
+      ],
+      "selected": 0
+    },
+    {
+      "policy": "full_sequential",
+      "calls": [
+        256,
+        256
+      ],
+      "selected": 256
+    },
+    {
+      "policy": "full_fused",
+      "calls": [
+        512
+      ],
+      "selected": 256
+    },
+    {
+      "policy": "confidence_pi",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    },
+    {
+      "policy": "folded_sequential",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    },
+    {
+      "policy": "folded_fused",
+      "calls": [
+        320
+      ],
+      "selected": 64
+    },
+    {
+      "policy": "confidence_radial",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    }
+  ],
+  "fusion_errors": {
+    "full_sequential": 0.0,
+    "folded_sequential": 0.0
+  },
+  "torch_version": "2.7.1+cu128",
+  "device": "NVIDIA GeForce RTX 5070 Ti",
+  "code_sha256": "d08f25001f5444bd3af0983942ef2694da34c8261a57ab4df57e179579ab5682"
+}

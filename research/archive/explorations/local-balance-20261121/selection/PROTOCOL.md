@@ -1,0 +1,23 @@
+# Frozen candidate and old-only development protocol
+
+This directory owns the selection method, mathematical statements, numerical checks, and old-model development. Independent confirmation is owned by `../validation`. No new train921001..921016 / init922001..922016 states or outcomes were accessed during this development.
+
+The candidate family is `rank_balanced`, `rank_even`, `rank_unbalanced` in `policy.py`. All select exactly 64 of 256 inputs; all selected partners are -x. Selection receives coordinates, first logits, resident calibration arrays, independent tie keys, and independent uniform action keys. The learned rank policies do not read first logits or evaluate partner logits to choose a mask. The deploy cost is 256 initial plus 64 selected partner example forwards, i.e. 1.25/input. Calibration costs 66,048 example forwards per model, shared across the three policies, plus 131,072 coordinate-only radii and offline fitting computation. Evaluation-only population integrations are counted separately.
+
+The old bank contains all 64 original-ring PB500 models from four prior 16-model cohorts, with model hashes and original paths retained. These are development models, never independent confirmation. For index i=1..64, calibration seed=953000+i, held-out old inputs=954000+i, action keys=955000+i, and tie keys=956000+i. Each model has 16,384 old evaluation inputs. Three tau values {.25,1,4} are compared, with no subsequent search. Choose the tau maximizing the mean `rank_balanced` centered logistic gain, breaking exact ties toward smaller tau. The centered logistic gain is computed from logits alone; neither labels nor the original posterior enters this choice. All policy/tau outcomes, including losers, are retained.
+
+The initial implementation and complete development are preserved in `policy_development_v1.py`, `policy_canonical_v1.py`, `develop_v1.py`, `development/`, and `FROZEN_CHOICE_v1.json`. Independent audit found material floating-coordinate differences at sampled sawtooth wrap nodes. Before any new-model access, `AMENDMENT_v2.json` recorded the fixed quarter-grid action-phase shift. `development_v2/` reruns the same old64/three-tau comparison with identical evaluation inputs. It uses the portable old model bank already stored under `development/models.npz`. No old results were deleted or silently rewritten.
+
+Before confirmation, the final checks compare FFT sums with direct coordinate evaluation for all frequencies and many phases/radii, verify zero-moment hull feasibility, compare even scores under x -> -x, confirm exact batch quota, verify the binomial marginal against integration identities, and hash the final source, theory, protocol, old rows, and choice. `FREEZE.json` is the final algorithm boundary. `FROZEN_CHOICE.json` is the active v2 choice; prior choices remain versioned.
+
+Independent confirmation uses 16 entirely new original-ring PB500 models and 65,536 iid inputs per model. Its primary comparisons and baseline definitions are recorded by the validation owner before new-state generation. The unit of inference is the model seed, not each correlated batch or orbit point. The evaluator must save calibration policies before testing, count actual first/partner forwards, preserve all methods, and report numerical continuous conditional moments using the actual top-64 marginal. The even-frequency policy is an exact-balance control. The learned balance policy has an approximation bound, not an exact guarantee. No fresh data choose tau, phases, bins, or a winning method.
+
+## API and reproduction
+
+Run from the study root using the supplied Python environment (NumPy, threadpoolctl; matplotlib only for reporting):
+
+`python selection/develop.py`
+
+This reruns the bounded corrected pilot into a new `development_v2` directory and intentionally refuses to overwrite existing outputs. For an archived rerun, copy the study and move the existing `development_v2`, `FROZEN_CHOICE_v2.json`, and final choice/freeze files to a preserved run subdirectory first. Do not delete historical outputs. The initial external-source bootstrap is preserved as `develop_v1.py`; corrected reproduction uses the archived portable old bank and needs no original external files.
+
+`table = policy.calibrate(theta, calibration_seed)` returns a plain dictionary suitable for `np.savez_compressed`; load it into resident arrays before deployment timing. `mask = policy.select(x, first, table, name, ties, action_keys)` returns a flat Boolean mask. Both key arrays have one independent uniform key per input. `policy.marginal(..., true_cdf=True)` and `policy.conditional_bound(...)` are evaluator-only diagnostics.

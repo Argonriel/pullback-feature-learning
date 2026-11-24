@@ -1,0 +1,20 @@
+{
+  "timestamp_utc": "2026-11-21T09:33:33.562348+00:00",
+  "tau": 1.0,
+  "criterion": "Highest mean held-out OLD input-only centered logistic gain of rank_balanced across64 prior PB models; no labels or posterior.",
+  "old_mean_centered_gain": {
+    "0.25": 0.009972379458744312,
+    "1.0": 0.010267894145548486,
+    "4.0": 0.01020728649225646
+  },
+  "old_model_count": 64,
+  "old_input_count_per_model": 16384,
+  "all_taus_retained": [
+    0.25,
+    1.0,
+    4.0
+  ],
+  "development_scores_sha256": "ef9cb8cce5dfb4c0f8c16a9ea5a2108fc76a17b78838f1ff91aba9e14ac1b07d",
+  "new_states_accessed": false,
+  "new_outcomes_accessed": false
+}

@@ -1,0 +1,6 @@
+{
+  "utc": "2026-11-21T22:43:21.920364+00:00",
+  "augmentation_authorized": true,
+  "augmentation_source_freeze_sha256": "d18fae8007c705cf04094d124ad11d8c268702659256cf832daa6efe305a6186",
+  "root_review": "Paired initializations/orders,50k unique labels,within-round holdout separation,raw/final temperature fits,four primary intervals and timing design reviewed. Previous image exposure explicitly acknowledged. Source and split hashes checked before training."
+}

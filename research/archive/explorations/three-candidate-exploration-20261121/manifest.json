@@ -1,0 +1,161 @@
+{
+  "created_utc": "2026-11-22T03:44:01.202873+00:00",
+  "files": {
+    "DATA_DICTIONARY.md": {
+      "sha256": "aaad98133417124eb5127562beb57d2cf87b4160f9c62e5539e88e8dcff2421d",
+      "bytes": 4611
+    },
+    "discrete/critical_exact.json": {
+      "sha256": "6ebfc6a9d11382735f007f4f402e058e06fa4e34d4adfd43a3abd5e2ffa137d0",
+      "bytes": 1311
+    },
+    "discrete/DISCRETE_THEORY.md": {
+      "sha256": "1b69f1842c7014fdc2490bd75490b01f348e621a2fd58690b09fe65ca219f403",
+      "bytes": 11465
+    },
+    "discrete/FAILED_ATTEMPTS.md": {
+      "sha256": "96502341657713b24cefb2a6c120344e0bbd9b4d7cfc5a7b54a32b58b18a1232",
+      "bytes": 924
+    },
+    "discrete/failed_initial_source.py": {
+      "sha256": "1590cc886c93632282a9f549ea668c8102d9a336d0f3d0dc04736d61c2ff0625",
+      "bytes": 7272
+    },
+    "discrete/PRIMARY_LITERATURE_AUDIT.md": {
+      "sha256": "4b32acd68bebf835cf560d07a9378c14ba9d6e2291a7286db2370fa4b9a448b0",
+      "bytes": 6064
+    },
+    "discrete/PROTOCOL.md": {
+      "sha256": "1ccf7520d7bd6eef28d7e5ab8f7bcd98e4d013be30ee5ddbdb1f2384fa471375",
+      "bytes": 2068
+    },
+    "discrete/run01/results.json": {
+      "sha256": "16bdcf37b8dd296e7504a503695c17bc3d69182077ae7b8d6b1fe87046a59b1f",
+      "bytes": 39239
+    },
+    "discrete/run01/verification.json": {
+      "sha256": "e0a1aaf9369555eb74e3a5d6225c4eec0bfdb94e5ae43d6763be8b4ef49b4079",
+      "bytes": 519
+    },
+    "global_convergence/REVIEW.md": {
+      "sha256": "72d5bbc095c051a7b470edda50af484d4514d5cae9ab57cff6580bbe210003a3",
+      "bytes": 6641
+    },
+    "global_convergence/THEOREM.md": {
+      "sha256": "6806d27f630aba153e44ca779ab575a7f99223b1c4499d285c792608a3d60bc2",
+      "bytes": 9810
+    },
+    "global_convergence/validation/matrices.npz": {
+      "sha256": "ddc0b72cb2fcce433db10aa867a2d40d51e7acf54707509ec4848a8dd1959cf4",
+      "bytes": 8204
+    },
+    "global_convergence/validation/results.json": {
+      "sha256": "2be5c6c185fc3642efda4b835ac8fe8b45729897b411a4dcb36ee5eaa22629a8",
+      "bytes": 2193
+    },
+    "nonisotropic/bures_refined/results.json": {
+      "sha256": "eae7e57912208be88a2d5ac8f5be5162a95768c8e785d074c182aa3d81dc4e4b",
+      "bytes": 1046
+    },
+    "nonisotropic/REPORT.md": {
+      "sha256": "60484adf8665328d269a539e400137d33944cd8eb3d86aaed4a84790fb9e7270",
+      "bytes": 14794
+    },
+    "nonisotropic/SEARCH_LEDGER.md": {
+      "sha256": "e2c97e23448b0978bbe4a07e6c8466c5e1fa07df569844e11f8abfa9a7a63d28",
+      "bytes": 4129
+    },
+    "nonisotropic/validation_v1/results.json": {
+      "sha256": "2dd16fac970f5989700ca73f929f43da81e9d24cfac7352dfcf2089a373012a9",
+      "bytes": 10350
+    },
+    "provenance.json": {
+      "sha256": "5db16a625281ac384f2558b544cf622859e5c37b5c600a350b6d35627329dd96",
+      "bytes": 4117
+    },
+    "REPORT.md": {
+      "sha256": "efe63e7d0fa3e883d52650b93cdc0f29221e73e073f630a1e471574438a37727",
+      "bytes": 11443
+    },
+    "robustness/GLOBAL_CONVERGENCE_NOVELTY_AUDIT.md": {
+      "sha256": "096bd2f038437802c2b74c18fad2806ae8a66b86a939d2842d649896a0be80f1",
+      "bytes": 10456
+    },
+    "robustness/near_boundary_probe.json": {
+      "sha256": "4ef2f949639d98571cb57af5343514697ea992b3187ef5a941e7f7a9cfd582ae",
+      "bytes": 1982
+    },
+    "robustness/near_diagonal_probe.json": {
+      "sha256": "bbb985086d68feb8e32d8ee91fa5f114ba49181793b4a21b2bc6520699c1778e",
+      "bytes": 6090
+    },
+    "robustness/ROBUSTNESS_SCREEN.md": {
+      "sha256": "80de24b66454e52c239237b015ed5edf1067f201064e3a7742ef7a839313da80",
+      "bytes": 5709
+    },
+    "robustness/SEARCH_LEDGER.md": {
+      "sha256": "ded816d913c16fddf7713503a05706260bff2974b490f0ad403c7abbe0f6f86b",
+      "bytes": 4852
+    },
+    "SCREEN_REGISTER.md": {
+      "sha256": "64b8e66bcf233141eb3121f0ec3177eec8fe6194380fe52f76485319c1ca15e2",
+      "bytes": 1523
+    },
+    "source_snapshot/experiments/endpoint_classification_audit_20261121/verify_finite_damping.py": {
+      "sha256": "f46d0411bd8ec1fec86cbefc56b3f82f1f90910d279d36c072715e3e4984112b",
+      "bytes": 7167
+    },
+    "source_snapshot/experiments/three_candidate_exploration_20261121/discrete/critical_quartic_certificate.py": {
+      "sha256": "914949c58111bfe5f9ff3957a32598f6b24a27c283745b466b8e192c8e00674f",
+      "bytes": 2607
+    },
+    "source_snapshot/experiments/three_candidate_exploration_20261121/discrete/factor_step_cancellation.py": {
+      "sha256": "ba9e15bd5e6288eb919b4c734e776713eabf6eb8bde9d7e7af486712b49c1f38",
+      "bytes": 7716
+    },
+    "source_snapshot/experiments/three_candidate_exploration_20261121/global_convergence/global_target_check.py": {
+      "sha256": "9c1fbdd92a6f937bda90f3e4107961de0a11fd973b11a0b6bc72c9c50531522c",
+      "bytes": 4577
+    },
+    "source_snapshot/experiments/three_candidate_exploration_20261121/nonisotropic/coherent_blend.py": {
+      "sha256": "385fc456f7c01be440197c1bcef81cb6ebf6aabdd76a10a64cf6495674438cf3",
+      "bytes": 7750
+    },
+    "source_snapshot/experiments/three_candidate_exploration_20261121/nonisotropic/refine_bures_control.py": {
+      "sha256": "e914d0a278f48c8a70f5acf85be453f020921c8e725fafb881cd87605856c2a0",
+      "bytes": 1256
+    },
+    "source_snapshot/experiments/three_candidate_exploration_20261121/README.md": {
+      "sha256": "7a2f4af0c13c57cde1c9c84b59177ee9aab72682c982839bb03d692821bd09f9",
+      "bytes": 1362
+    },
+    "source_snapshot/experiments/three_candidate_exploration_20261121/robustness/near_diagonal_probe.py": {
+      "sha256": "bc07054ef884d794962c9c85ca1e44dfa9e5df27c1836b7d9ee8b21e1498b698",
+      "bytes": 2728
+    },
+    "source_snapshot/experiments/three_candidate_exploration_20261121/universality/spectral_delay_check.py": {
+      "sha256": "175959995e840954aba143a8e5ec51c3d534117167b3ccda5d626e7fa0e2de4a",
+      "bytes": 6450
+    },
+    "universality/REVIEW.md": {
+      "sha256": "1c21659cad541192302b8b3840fe4b06ffcc7928bf42a24a839ce6eccca3f4b1",
+      "bytes": 6720
+    },
+    "universality/SEARCH_LEDGER.md": {
+      "sha256": "60c78d3fb3428c2468f671b936b1bf7e778ddb9a81930ff7eee2e5357fea1af2",
+      "bytes": 3028
+    },
+    "universality/THEOREM.md": {
+      "sha256": "afa0e8007b9e2b49b5749f74f238d6e90f873e89f858ecfe2021c878eef63ce9",
+      "bytes": 9878
+    },
+    "universality/validation/response_matrices.npz": {
+      "sha256": "e79ab7f49339f955c47f56b29d315fceb748d151b4291cc71b92e807461c224b",
+      "bytes": 5518
+    },
+    "universality/validation/results.json": {
+      "sha256": "723ee9260281d8f9dce40a66b2c48a6e8fbc162f1dc960d5ad92f35dd7d4059e",
+      "bytes": 8424
+    }
+  }
+}

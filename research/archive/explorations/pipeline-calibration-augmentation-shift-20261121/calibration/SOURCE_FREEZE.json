@@ -1,0 +1,97 @@
+{
+  "utc": "2026-11-21T22:42:00.332822+00:00",
+  "config": {
+    "pairs": 16,
+    "families": [
+      "legacy",
+      "selected",
+      "extra_train"
+    ],
+    "arms": [
+      [
+        "raw_uncal",
+        "raw",
+        "none"
+      ],
+      [
+        "raw_rawT",
+        "raw",
+        "raw"
+      ],
+      [
+        "full_uncal",
+        "full",
+        "none"
+      ],
+      [
+        "full_rawT",
+        "full",
+        "raw"
+      ],
+      [
+        "full_finalT",
+        "full",
+        "full"
+      ],
+      [
+        "interp_uncal",
+        "interp",
+        "none"
+      ],
+      [
+        "interp_rawT",
+        "interp",
+        "raw"
+      ],
+      [
+        "interp_finalT",
+        "interp",
+        "interp"
+      ]
+    ],
+    "n_test": 65536,
+    "total_labels": 4352,
+    "base_train_n": 256,
+    "extra_train_n": 2048,
+    "validation_n": 2048,
+    "calibration_n": {
+      "legacy": 4096,
+      "selected": 2048,
+      "extra_train": 2048
+    },
+    "grid": [
+      16,
+      16,
+      256
+    ],
+    "seeds": {
+      "train": 2151000,
+      "extra": 2151500,
+      "shuffle": 2151600,
+      "init": 2152000,
+      "validation": 2153000,
+      "calibration": 2154000,
+      "test": 2156000,
+      "ties": 2157000,
+      "calibration_ties": 2157500,
+      "labels": 2158000
+    },
+    "bootstrap_seed": 2159000,
+    "bootstrap_draws": 20000,
+    "primary_alpha": 0.0125
+  },
+  "source_hashes": {
+    "study.py": "4d3e9386bf7602ff1f9e79125113ee93560f0502158c8d999676e6b6197b0aac",
+    "model.py": "fca6b349140849e8486a426d77ce3858123f005a9e84ecf2f112111acb05ac20",
+    "PROTOCOL.md": "00ffe273af8e471ac33c5ab4b11a4b09493130581f98fedff8b44496094fcd3b",
+    "preflight.py": "6e90b64535c56389c532ffe5a6c9787d4b9ff127ca5df84cc142dedeae9b18bc",
+    "PREFLIGHT.json": "fb225b3bd88568d27e14a4f91d831ec7fbb912b6e87fe5c07a3ed7393ac01505",
+    "reference/baseline.py": "652b9f68f021bbd05b2031e26325e495e3a3cf1ff423c89680bc6335592d6ac3",
+    "reference/core4d.py": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77",
+    "reference/DEVELOPMENT_STATE.npz": "5a69e55007a4d6ad30f013070da9400df737f701fa17228d934566674448e883",
+    "reference/SELECTED_TRAINING_CHOICE.json": "b9bfc48f28447aed2e74a0326d9ed46c59b5b3d6aff4e187c22b55cdd3da9518",
+    "reference/task.py": "8da7d92d23437155d10be130a712e219211760ee740c2fca2a4b3506437214f4",
+    "reference/TRAINING_CHOICE.json": "2a86fdf6cb070344b62620c4f4f47c2683c762bd4d5737d43e83c69b69354588"
+  },
+  "fresh_accessed": false
+}

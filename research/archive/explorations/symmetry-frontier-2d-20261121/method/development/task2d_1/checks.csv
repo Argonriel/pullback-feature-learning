@@ -1,0 +1,6 @@
+cohort,pair,method,individual_flip_mask_changes,score_max_error,first_calls,second_calls,deploy_max_error
+task2d,1,symmetric_jensen,0,0.0,256,64,0.0
+task2d,1,grid_nearest,0,0.0,256,64,0.0
+task2d,1,folded_4x4x8,0,0.0,256,64,0.0
+task2d,1,folded_8x8x16,0,0.0,256,64,0.0
+task2d,1,folded_16x16x16,0,0.0,256,64,0.0

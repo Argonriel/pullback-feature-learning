@@ -1,0 +1,93 @@
+{
+  "models": 16,
+  "means": {
+    "rank_balanced": {
+      "C": 0.009671855720153989,
+      "centered_gain": 0.009634982863493818,
+      "b_mean": 7.374571332034193e-05,
+      "max_abs_b": 0.03282674156696114,
+      "numerical_width": 0.0004531540306918742,
+      "numerical_low": 0.009408405848147882,
+      "numerical_high": 0.009861559878839755,
+      "formal_width_bound": 10.10718733750162,
+      "mean_rate": 0.24995185046157276
+    },
+    "rank_even": {
+      "C": 0.009496376235744395,
+      "centered_gain": 0.009496376235744395,
+      "b_mean": 7.718306461898446e-20,
+      "max_abs_b": 1.0511624600054126e-16,
+      "numerical_width": 0.0,
+      "numerical_low": 0.009496376235744395,
+      "numerical_high": 0.009496376235744395,
+      "formal_width_bound": 0.0,
+      "mean_rate": 0.24992468988382266
+    },
+    "rank_unbalanced": {
+      "C": 0.029546807069284434,
+      "centered_gain": 0.01594277437000123,
+      "b_mean": 0.027208065398566402,
+      "max_abs_b": 0.21549005087467374,
+      "numerical_width": 0.027229340416994086,
+      "numerical_low": 0.002328104161504191,
+      "numerical_high": 0.029557444578498276,
+      "formal_width_bound": 16.310987990845767,
+      "mean_rate": 0.2499732628202484
+    }
+  },
+  "rigorous_universal_width_caps": [
+    11.094523233987866,
+    6.98171585062113,
+    6.802457616162874,
+    8.919599949830687,
+    13.299249413912117,
+    9.350496548320983,
+    11.47495573471183,
+    7.573943620604021,
+    12.187183940146074,
+    10.619305576051387,
+    10.712176746408428,
+    11.098880338743978,
+    11.470508538131421,
+    7.0604712449434075,
+    9.412530419957818,
+    11.157340920292803
+  ],
+  "mean_rigorous_universal_width_cap": 9.950958730801677,
+  "max_change_from_initial_main": {
+    "rank_balanced": {
+      "C": 3.193136118903421e-05,
+      "centered_gain": 1.3076228985418187e-05,
+      "numerical_width": 3.2374321176406866e-05,
+      "numerical_low": 2.9263389573624954e-05,
+      "numerical_high": 1.642023274795769e-05,
+      "mean_rate": 0.00011689149487220662
+    },
+    "rank_even": {
+      "C": 5.310089629600306e-06,
+      "centered_gain": 5.310089629598572e-06,
+      "numerical_width": 0.0,
+      "numerical_low": 5.310089629596837e-06,
+      "numerical_high": 5.310089629596837e-06,
+      "mean_rate": 0.0001268876673136965
+    },
+    "rank_unbalanced": {
+      "C": 3.071173479338857e-05,
+      "centered_gain": 2.37928146124243e-05,
+      "numerical_width": 8.306462866781994e-05,
+      "numerical_low": 5.3562210396194986e-05,
+      "numerical_high": 5.412110072168172e-05,
+      "mean_rate": 8.7309648172329e-05
+    }
+  },
+  "numerical_balanced_lower_beats_even_count": 4,
+  "numerical_balanced_lower_positive_count": 16,
+  "max_integrated_rate_error": 0.00010025110289449413,
+  "mean_imbalance_reduction": 0.9833578770637773,
+  "max_CDF32_64_grid_difference": 5.8227151140677336e-06,
+  "max_marginal_interpolation_spot_error": 5.715631301583812e-10,
+  "rank_q_interpolation_uniform_bound": 1.3683592096927687e-08,
+  "total_evaluation_model_forwards": 218103808,
+  "interval_scope": "Unrestricted radial posteriors, individually extremized for each model; no fixed-prevalence constraint. Numerical quadrature, not an exact neural certificate.",
+  "formal_bound_scope": "Uniform pointwise DKW/BV/radial bound with alpha=.05/16. Its stored Gauss integral is only a numerical estimate without a quadrature certificate; separately reported universal integrated cap is rigorous and vacuous."
+}

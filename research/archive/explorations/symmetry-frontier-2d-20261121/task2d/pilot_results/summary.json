@@ -1,0 +1,29 @@
+[
+  {
+    "recipe": "pb8_500",
+    "expected_loss": 0.8503751766152818,
+    "full_expected_loss": 0.7020157886975325,
+    "classification_error": 0.3732530914155441,
+    "full_classification_error": 0.3427000719212605,
+    "train_loss": 0.2687220810116757,
+    "seconds": 1.043349425010092
+  },
+  {
+    "recipe": "pb4_500",
+    "expected_loss": 0.692926477331612,
+    "full_expected_loss": 0.6194936039727355,
+    "classification_error": 0.3661673825849534,
+    "full_classification_error": 0.33791117924614944,
+    "train_loss": 0.37054363767798915,
+    "seconds": 1.0570458000001963
+  },
+  {
+    "recipe": "pb8_1000",
+    "expected_loss": 1.0866432559883774,
+    "full_expected_loss": 0.8403631720651648,
+    "classification_error": 0.38117155932098445,
+    "full_classification_error": 0.3489731592528609,
+    "train_loss": 0.19622842386135675,
+    "seconds": 2.1416689249963383
+  }
+]

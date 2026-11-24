@@ -1,0 +1,15 @@
+a_policy,a_variant,alpha,b_policy,b_variant,contrast,lower,mean_difference,metric,primary,ties,upper,wins
+raw,pb_temp,0.0125,raw,legacy_raw,primary_total,-0.061754591795387136,-0.04766513939849028,expected_nll,True,0,-0.034218506303620506,16
+raw,pb_temp,0.05,raw,legacy_raw,primary_total,0.0011170678075749553,0.005858435431946526,expected_error,False,0,0.010329112969036564,4
+symmetric_jensen,pb_temp,0.0125,raw,pb_temp,primary_preserved_gain,-0.017838289387570174,-0.015386035901790003,expected_nll,True,0,-0.013192380036460142,16
+symmetric_jensen,pb_temp,0.05,raw,pb_temp,primary_preserved_gain,-0.03174119760830414,-0.026563672175417836,expected_error,False,0,-0.020527117989063145,15
+symmetric_jensen,pb_temp,0.05,folded,pb_temp,strong_comparator,-0.0008894818752268271,-0.0007764932418962076,expected_nll,False,0,-0.0006661695061298383,16
+symmetric_jensen,pb_temp,0.05,folded,pb_temp,strong_comparator,-0.0010587133409715552,-0.0005017806917249241,expected_error,False,0,6.725215304161597e-05,10
+raw,pb_raw,0.0125,raw,legacy_raw,training_only,-0.057379951644835614,-0.043830045174521964,expected_nll,True,0,-0.030698721480111164,16
+raw,pb_raw,0.05,raw,legacy_raw,training_only,0.0011170678075749553,0.005858435431946526,expected_error,False,0,0.010329112969036564,4
+raw,legacy_temp,0.0125,raw,legacy_raw,legacy_temperature,-0.06153714237376408,-0.050427385188277225,expected_nll,True,0,-0.03963183582065446,16
+raw,legacy_temp,0.05,raw,legacy_raw,legacy_temperature,0.0,0.0,expected_error,False,16,0.0,0
+raw,pb_temp,0.05,raw,pb_raw,selected_temperature,-0.005830178128675483,-0.0038350942239683133,expected_nll,False,0,-0.0021474786465075497,16
+raw,pb_temp,0.05,raw,pb_raw,selected_temperature,0.0,0.0,expected_error,False,16,0.0,0
+raw,gd_temp,0.05,raw,pb_temp,gd_context,0.037656227892608474,0.04268447023032451,expected_nll,False,0,0.047473877467169634,0
+raw,gd_temp,0.05,raw,pb_temp,gd_context,0.10470849396688921,0.11302257032423052,expected_error,False,0,0.12154680174940942,0

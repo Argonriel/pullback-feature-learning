@@ -1,0 +1,10 @@
+{
+  "timestamp_utc": "2026-11-21T08:31:55.621394+00:00",
+  "n_seed_rows": 2016,
+  "n_batch_rows": 24576,
+  "n_audits": 2016,
+  "max_deployment_error": 0.0,
+  "policies_immutable": true,
+  "outcome_sha256": "d55a388c429374892a44b3d41dea4d663dbd851a53b18a97303e034c316eb4d8",
+  "batch_sha256": "e5058030f2043f02ceee37a5b73d7472f1774ee77053ccda81225545b3ff58ba"
+}

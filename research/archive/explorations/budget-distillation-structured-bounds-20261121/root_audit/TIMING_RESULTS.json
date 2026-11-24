@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "utc": "2026-11-21T23:19:04.120688+00:00",
+  "image_latency_rows": 315,
+  "image_measured_forward_examples": 451584,
+  "image_warmup_forward_examples": 193536,
+  "serving_conditions": {
+    "cpu": {
+      "student_over_plain": 1.0108090513232504,
+      "within_ten_percent": true
+    },
+    "cuda_resident": {
+      "student_over_plain": 1.040578020928326,
+      "within_ten_percent": true
+    },
+    "cuda_transfer": {
+      "student_over_plain": 1.1964704943306388,
+      "within_ten_percent": false
+    }
+  },
+  "allocation_timing_rows": 28,
+  "allocation_measured_updates": 840,
+  "allocation_warmup_updates": 20,
+  "allocation_measured_nominal_operations": 174939226560,
+  "allocation_warmup_nominal_operations": 4165219680,
+  "additional_model_forwards": 0,
+  "limits": "Recalculates recorded isolated measurements, not an independent repeated hardware benchmark."
+}

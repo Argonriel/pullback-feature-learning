@@ -1,0 +1,26 @@
+{
+  "timestamp_utc": "2026-11-21T10:29:23.348533+00:00",
+  "mode": "known",
+  "family_confidence": 0.95,
+  "positive_models": 32,
+  "models": 32,
+  "min_gain_lower": 0.0026081387477836166,
+  "mean_gain_lower": 0.0210656224989883,
+  "verification_forwards": 16777216,
+  "by_cohort": {
+    "rings": {
+      "positive": 16,
+      "mean_gain_lower": 0.007871529568317081,
+      "min_gain_lower": 0.0026081387477836166
+    },
+    "transfer": {
+      "positive": 16,
+      "mean_gain_lower": 0.034259715429659526,
+      "min_gain_lower": 0.013631982346474359
+    }
+  },
+  "confidence_scope": "32 EB events",
+  "real_arithmetic_enclosures": true,
+  "formal_float_proof": false,
+  "freeze_sha256": "ea5bf3384dcd77881da5a5b661efa3bee2fc3a48ae3904b821552cecf18c267a"
+}

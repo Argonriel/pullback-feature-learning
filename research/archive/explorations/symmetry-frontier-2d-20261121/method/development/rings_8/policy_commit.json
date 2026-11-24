@@ -1,0 +1,24 @@
+{
+  "utc": "2026-11-21T10:48:22.811756+00:00",
+  "cohort": "rings",
+  "pair": 8,
+  "state": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\rank-certificate-transfer-20261121\\validation\\states\\rings_8.npz",
+  "state_sha256": "79cc6729d58dbec6d3b60f00c702627f16b5ffa7b593acbff34ddcef49f691a8",
+  "streams": {
+    "inputs": 1191008,
+    "ties": 1192008,
+    "histogram": 1193008,
+    "cdf": 1194008,
+    "action": 1195008
+  },
+  "policies": {
+    "folded_16x8.npz": "71b477ea0a03734ae1a046475267781a4188236e37bf80e3df37f3318843e1e4",
+    "folded_32x16.npz": "d020f707a835e1d4a9974422101a4ded9a3977040cb0e4c74fa160618c0584d1",
+    "folded_64x32.npz": "31dc409a65f68ed1840d41962136edfe8b4945a603c297f3ed87e4df8f8f1c3c",
+    "grid.npz": "fd9458dbfe3da0c7ccb56290e28e6d89f2208bc729a19e5989ac894b402008e0",
+    "rank.npz": "789ad6ac16abb6253da99b8d562e68d1852c563700250ad52891435f9e5d5dc1"
+  },
+  "calibration_forward_examples_each_policy": 65536,
+  "unique_shared_calibration_forward_examples": 131072,
+  "extra_rank_coordinate_examples": 131072
+}

@@ -1,0 +1,20 @@
+{
+  "original_freeze_sha256": "5fc494f25fdfa379c4889012330574c44e7b08b4d5f3ff07a6569a10257ed462",
+  "reason": "Probability endpoint roundoff, not scientific protocol change",
+  "hashes": {
+    "stress_recovery.py": "5004a4ff40275bd8c2fb42237d54d0bb8b76153a5c02f736ad883a9b7e12c543",
+    "STRESS_RECOVERY.md": "e9b57672f58c2172b2a8189cf2febc449bf703b82211ab58f47b24c0ee85982c"
+  },
+  "preserved_failure": {
+    "FAILURE_stress_1795307248369647500.json": "5196dac8eba72c556a9cd32ca07485bebe94900cb11c8b9374fc182a8cc9c8ec"
+  },
+  "failed_attempt": {
+    "pair": 1,
+    "law": "uniform",
+    "coordinate_inputs": 65536,
+    "truth_forwards": 131072,
+    "deployment_replay_forwards": 640,
+    "total_forwards": 131712,
+    "source": "Exact frozen control flow before the failed assertion; no model/law result committed"
+  }
+}

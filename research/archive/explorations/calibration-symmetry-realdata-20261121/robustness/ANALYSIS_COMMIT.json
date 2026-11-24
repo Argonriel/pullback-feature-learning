@@ -1,0 +1,14 @@
+{
+  "timestamp_utc": "2026-11-21T22:24:05.514905+00:00",
+  "bootstrap_seed": 2129000,
+  "bootstrap_repeats": 20000,
+  "certificate_commit_sha256": "b02bd40ec4cbe7917f37d0f4eb3220c8f241b4b433da35d31806842c4617a55b",
+  "stress_commit_sha256": "a7b58b6d19159ce5285f9d9ce57f524ad6bc5ed6ca41f490303f5a3dc9af6672",
+  "outputs": {
+    "certificate_summary.csv": "62cbc72b3917762a356f8f2385beb8a758b931ae5063403d4b55409a0db0ae74",
+    "certificate_curve_summary.csv": "58b1841a92a320daeadf0ee698d2f6c17499fba19f962b57ff6fcf165b78a1c8",
+    "clip_summary.csv": "2b42d2e9eaab9b80f3eca77d7db97b32bf089f3148804f53f88b9face6b5dc7d",
+    "stress_summary.csv": "fa399dedc04a544e5d5235d1a0a05f8930624093bcf03bc7ebe796621154ad3a",
+    "stress_crossings.csv": "60a1faa39b1d12a1f1f5f10122197891bb85d80c3c72423344106f97204461e4"
+  }
+}

@@ -1,0 +1,1480 @@
+{
+  "created_at_utc": "2026-11-20T10:17:41.0735991Z",
+  "project": "Pullback Feature Learning",
+  "source_repository": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning",
+  "source_commit": "2e43a2a423d17e7e2237add4229c01bd40427788",
+  "archive_root": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning",
+  "verified_files": 245,
+  "files": [
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\docs\\displacement_refinement_protocol.md",
+      "archive_path": "docs/displacement_refinement_protocol.md",
+      "bytes": 6575,
+      "sha256": "39f1a3a297d2cbaca41b156c361faa643e51dbe9321a3470eb06ca3797f0200b"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\docs\\formal_findings.md",
+      "archive_path": "docs/formal_findings.md",
+      "bytes": 5770,
+      "sha256": "7d51915084dfe51c8045b96bf0432b57ea9216f2e554f7e53b9ace74492ccca1"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\docs\\formal_protocol.md",
+      "archive_path": "docs/formal_protocol.md",
+      "bytes": 12251,
+      "sha256": "ffa77fe707323ab136b961d32ed0894fe10f2b43ec6be91195cd0eb235446444"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\docs\\literature.md",
+      "archive_path": "docs/literature.md",
+      "bytes": 16869,
+      "sha256": "4af96eda773d7b9f7c71c506078db5ba70106d1dd9ebabd4cb3b006e854142dd"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\docs\\long_training_findings.md",
+      "archive_path": "docs/long_training_findings.md",
+      "bytes": 6380,
+      "sha256": "ec22ef8fae8cb0a4b4df2e8dbe17b5980bfa4b20189075e0670b14a42aac535f"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\docs\\long_training_protocol.md",
+      "archive_path": "docs/long_training_protocol.md",
+      "bytes": 7635,
+      "sha256": "db81adf861c683f08bd07d13b746c91f272655790e830d150c693d3e15577196"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\docs\\mathematics.md",
+      "archive_path": "docs/mathematics.md",
+      "bytes": 7996,
+      "sha256": "a0d447bc1449c7ba1ed9ddd9b9d2c55b2141c870dbcd1f94c472dca974b65150"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\docs\\pilot_findings.md",
+      "archive_path": "docs/pilot_findings.md",
+      "bytes": 4937,
+      "sha256": "7588b8c8bb45fef819044b982578596f3981b124c973f77304c166302427d4b4"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\docs\\probe_findings.md",
+      "archive_path": "docs/probe_findings.md",
+      "bytes": 6435,
+      "sha256": "602f0db927bcf95037a095e75da41c5f5f4416d89c2ecbe6240ad3d2e974ba0e"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\docs\\probe_protocol.md",
+      "archive_path": "docs/probe_protocol.md",
+      "bytes": 7325,
+      "sha256": "4a00ed88fbeb3ab4284c7c7c8301d287c6b1615bfa223ceee1aa87a000e3332f"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\docs\\project_plan.md",
+      "archive_path": "docs/project_plan.md",
+      "bytes": 7449,
+      "sha256": "00d9e0149069f227028522391a0482f5f83a533e75c68bb48ad1c8487871813b"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\docs\\proposal.tex",
+      "archive_path": "docs/proposal.tex",
+      "bytes": 7297,
+      "sha256": "03d8155b0a113857af54c0fa0ca691a102587d2b020b0c9f1d7450d6b91ed765"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\docs\\protocol.md",
+      "archive_path": "docs/protocol.md",
+      "bytes": 12521,
+      "sha256": "a95b8b5ffe126c2e960dbf33f664388cd5a6ccafcd8c877227b06cc938b3c83d"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\docs\\references.bib",
+      "archive_path": "docs/references.bib",
+      "bytes": 4395,
+      "sha256": "82848ac30779ae48c8e43a38a8e6e5231af9f2a51d5dcf35d48685d3b399c6b5"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\docs\\representation_analysis_protocol.md",
+      "archive_path": "docs/representation_analysis_protocol.md",
+      "bytes": 8212,
+      "sha256": "552749dfa6b815b64f11ad18630aab9e2869ddbc63655233ae9626be6eb4848a"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\docs\\representation_findings.md",
+      "archive_path": "docs/representation_findings.md",
+      "bytes": 12354,
+      "sha256": "f6981ef7f4c039c481501d0f813a370d6482a165a68a7d23ace6107d23f4f375"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\docs\\tuning_findings.md",
+      "archive_path": "docs/tuning_findings.md",
+      "bytes": 5074,
+      "sha256": "98f77f2358e6b2fa3f7679c38ff7cbf6f5d49cc809be77c339fdc0009fcee795"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\docs\\tuning_protocol.md",
+      "archive_path": "docs/tuning_protocol.md",
+      "bytes": 8762,
+      "sha256": "36b8dbef72c70c5feceb6ad126117466b81421fd89cde6a7d76086f1f4fa07eb"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\displacement_refinement_audit.json",
+      "archive_path": "reports/displacement_refinement_audit.json",
+      "bytes": 73483,
+      "sha256": "86e0619501d108d802999ccd6c013d2b107c757b23910dbdb3acc5586a02b023"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\displacement_refinement_test_results.txt",
+      "archive_path": "reports/displacement_refinement_test_results.txt",
+      "bytes": 14557,
+      "sha256": "8f29e4df39f4de6c05fb38dc6205691e92b597aa337d710c1acb4189eebe1fa6"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\formal_audit.json",
+      "archive_path": "reports/formal_audit.json",
+      "bytes": 14866,
+      "sha256": "3728c33d62789b1a2b8888d085e67af1be34d32f17f139f9cd43788892531e5e"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\formal_test_results.txt",
+      "archive_path": "reports/formal_test_results.txt",
+      "bytes": 6226,
+      "sha256": "6ac27b665e0818afd63c1b4eac473c812b8689446b17ec3e6606d1e15084857b"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\long_training_audit.json",
+      "archive_path": "reports/long_training_audit.json",
+      "bytes": 163105,
+      "sha256": "dc080a64ff4b0e24b3a73c43bcc03a2adb01087a75bc699906d51d90ac0cfe1b"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\long_training_test_results.txt",
+      "archive_path": "reports/long_training_test_results.txt",
+      "bytes": 8546,
+      "sha256": "1e17f50caf8be6230c4cb3425ba45383f9f8240ea6b13a89bc4a9decf6c1a3a7"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\reproducibility_audit.json",
+      "archive_path": "reports/reproducibility_audit.json",
+      "bytes": 3096,
+      "sha256": "7eed9996b0e6b60800e6d36c1586ad2823f14413cd5338c8dcbb7db6f281f6db"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\stage6_audit.json",
+      "archive_path": "reports/stage6_audit.json",
+      "bytes": 425130,
+      "sha256": "ec124cef804f041329f202ccd21053d94355b96b4d41a47927b1b374ce16e045"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\stage6_test_results.txt",
+      "archive_path": "reports/stage6_test_results.txt",
+      "bytes": 13125,
+      "sha256": "9c0510c152ccd14e31cd7531cd8caf49bccc641e43c0432953fa2e4463b18615"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\test_results.txt",
+      "archive_path": "reports/test_results.txt",
+      "bytes": 1894,
+      "sha256": "982e644ce257b59f72f2110d0f04c8cc81ce856005aec6e23aba13cece0585f7"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\tuning_audit.json",
+      "archive_path": "reports/tuning_audit.json",
+      "bytes": 5140,
+      "sha256": "54c81c4c0faa9bf44fda182a1286472d89d3ba4833893c03872817ad377b6c54"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\tuning_test_results.txt",
+      "archive_path": "reports/tuning_test_results.txt",
+      "bytes": 4179,
+      "sha256": "a8918fc4cd11154712f7b6e6f6e385d84eab9804b2b99d17f17846f081a1a5c1"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\verification.json",
+      "archive_path": "reports/verification.json",
+      "bytes": 3120,
+      "sha256": "989076069c405982ed64910eac5d82de71fdc7369b8b6f7a17d0ece87b5d5a4d"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\displacement-refinement-v1\\displacement_refinement.svg",
+      "archive_path": "reports/displacement-refinement-v1/displacement_refinement.svg",
+      "bytes": 88116,
+      "sha256": "2b04f31d3f4d3495e91756b5f1fff3fd986e55976cb987896f218f8cec6aed97"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\displacement-refinement-v1\\environment.json",
+      "archive_path": "reports/displacement-refinement-v1/environment.json",
+      "bytes": 2496,
+      "sha256": "3dd4bf91bdf9385cbf1b772cda199351d6203182503c609ac358e8d1a31e9966"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\displacement-refinement-v1\\metrics.csv",
+      "archive_path": "reports/displacement-refinement-v1/metrics.csv",
+      "bytes": 6611,
+      "sha256": "61ba837a4c41579964fd7b412c4897d01fc1ed13ade5b1134e8538f27bf4fa51"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\displacement-refinement-v1\\README.md",
+      "archive_path": "reports/displacement-refinement-v1/README.md",
+      "bytes": 2245,
+      "sha256": "27f183091bed7e82b1578336625bab30be30ee00110dc4acacdb457e1cfbb647"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\displacement-refinement-v1\\replays.json",
+      "archive_path": "reports/displacement-refinement-v1/replays.json",
+      "bytes": 169311,
+      "sha256": "5172e90b96d56d76646035b523685fd6ab03277a5f5da5d887abc2a394b59ecb"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\displacement-refinement-v1\\summary.json",
+      "archive_path": "reports/displacement-refinement-v1/summary.json",
+      "bytes": 13416,
+      "sha256": "a3725bb470bd4eb8397e2f43cba62b1fadb48c50adcaf570d72ed934fcc33b49"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\displacement-refinement-v1\\timing.json",
+      "archive_path": "reports/displacement-refinement-v1/timing.json",
+      "bytes": 236,
+      "sha256": "93c0aab36a36b3e397413c7a52cac5806ac60805d466c6a3edb731bc8fcacb66"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\formal-v1\\config.json",
+      "archive_path": "reports/formal-v1/config.json",
+      "bytes": 1269,
+      "sha256": "811b36c44774fecb44d847b27a84dbcce85bc7ab592a877903699b64127d5cce"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\formal-v1\\data.json",
+      "archive_path": "reports/formal-v1/data.json",
+      "bytes": 681609,
+      "sha256": "628ed852e14b4587d8978137a500fcac1d41feee559fd40e3c92e495040d9a75"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\formal-v1\\endpoint_metrics.csv",
+      "archive_path": "reports/formal-v1/endpoint_metrics.csv",
+      "bytes": 2096,
+      "sha256": "4557b8c5c08b20f2d5eb4ecf543e19fdce81d47639ef0fe770f42e723955fb21"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\formal-v1\\environment.json",
+      "archive_path": "reports/formal-v1/environment.json",
+      "bytes": 1596,
+      "sha256": "52790719f622f8801da83c6e343b5d0fd1941c9c40d7f9efbbfe2e88fb8ef219"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\formal-v1\\learning_curves.svg",
+      "archive_path": "reports/formal-v1/learning_curves.svg",
+      "bytes": 118202,
+      "sha256": "72dd70cc4e115a19875c19d706ed0207f01d918d55e6783824684914e0dd9ee5"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\formal-v1\\metrics.csv",
+      "archive_path": "reports/formal-v1/metrics.csv",
+      "bytes": 138154,
+      "sha256": "c0ee9f23262758ea898c6d53db88d9b8eb98d8bf9bdc4e3ea03e80de10e81bd0"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\formal-v1\\paired_endpoints.svg",
+      "archive_path": "reports/formal-v1/paired_endpoints.svg",
+      "bytes": 51264,
+      "sha256": "a17c5e1b2551a8d0d901714ba5f730631ea253c4e1c7984a71639681593025e9"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\formal-v1\\README.md",
+      "archive_path": "reports/formal-v1/README.md",
+      "bytes": 1676,
+      "sha256": "89512407b5907f26a9469a3b30634d8fd1fad3f458c8bb5cfd905cb1681efe48"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\formal-v1\\schedule.json",
+      "archive_path": "reports/formal-v1/schedule.json",
+      "bytes": 245,
+      "sha256": "56a0607124f6fc3570f8c414d1895e175e84bb33b5b9c1bbdd92bc2d642f5b0a"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\formal-v1\\spectra.csv",
+      "archive_path": "reports/formal-v1/spectra.csv",
+      "bytes": 171841,
+      "sha256": "00f18cbfb1ebd235a8c8b06d840609e51deb8c9d3817b7329a38e2611673ebd8"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\formal-v1\\spectral_metadata.json",
+      "archive_path": "reports/formal-v1/spectral_metadata.json",
+      "bytes": 6383,
+      "sha256": "93d67279c3c226fc1b9806be1b31d5e3381ef6257182daf4e3937de00347935e"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\formal-v1\\summary.json",
+      "archive_path": "reports/formal-v1/summary.json",
+      "bytes": 4761,
+      "sha256": "5a11f8511d65f5dd2b24f09b5e9a7a5ecee79d1844e82a9c5b9e1411b65c7eaa"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\formal-v1\\timing.json",
+      "archive_path": "reports/formal-v1/timing.json",
+      "bytes": 257,
+      "sha256": "a7a7601569af2fc5cf3bc38b84c840ed339518f148db3982873f7c5436e14e70"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\formal-v1\\trajectories.json",
+      "archive_path": "reports/formal-v1/trajectories.json",
+      "bytes": 2822975,
+      "sha256": "8b882431799f4b30d24ca5ccb5e1c2a6bdf6ab718bae8e748365430fb7a49fca"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\long-training-v1\\config.json",
+      "archive_path": "reports/long-training-v1/config.json",
+      "bytes": 1551,
+      "sha256": "6e01dda1b67f9d86f3a24943d5989f75df3bc048ec2a522bbc7dbc88f94505e9"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\long-training-v1\\data.json",
+      "archive_path": "reports/long-training-v1/data.json",
+      "bytes": 143916,
+      "sha256": "dd8eb33fa378f402079df9ec6758b07bdda267ab548102b5ebbc2b6792a1f245"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\long-training-v1\\environment.json",
+      "archive_path": "reports/long-training-v1/environment.json",
+      "bytes": 1581,
+      "sha256": "fbefd91e95aa413489c56c4c214a333043508b2aae2be1123d731c455f71f93d"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\long-training-v1\\learning_curves.svg",
+      "archive_path": "reports/long-training-v1/learning_curves.svg",
+      "bytes": 190456,
+      "sha256": "695b29f4f948eacb02ee2b8d363faa5e41e2e79539c3da4e956565aec47a1077"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\long-training-v1\\metrics.csv",
+      "archive_path": "reports/long-training-v1/metrics.csv",
+      "bytes": 73679,
+      "sha256": "a50c797ee9c18c3e664415693907a39c3f2921e1d0a446ebaca727b51edb8f46"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\long-training-v1\\README.md",
+      "archive_path": "reports/long-training-v1/README.md",
+      "bytes": 3111,
+      "sha256": "9537be0e7c5422af5efd64735eb43f882beb61d3b63ad46fb11d782b4a4c0380"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\long-training-v1\\schedule.json",
+      "archive_path": "reports/long-training-v1/schedule.json",
+      "bytes": 353,
+      "sha256": "74f0eb6988fee4b7a0660336d19b2134134a17b8032d9a6a1fe1c2799fd8c98b"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\long-training-v1\\summary.json",
+      "archive_path": "reports/long-training-v1/summary.json",
+      "bytes": 27728,
+      "sha256": "18df4aa6161d28578d83da0f077d317c84e746481af23704b3dda3f8158eb753"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\long-training-v1\\timing.json",
+      "archive_path": "reports/long-training-v1/timing.json",
+      "bytes": 247,
+      "sha256": "cd7248406ebec28784888bf7a05db495748ac75554cf76d6855808ca5686f86f"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\long-training-v1\\trajectories.json",
+      "archive_path": "reports/long-training-v1/trajectories.json",
+      "bytes": 1708929,
+      "sha256": "0244a7c80494c021581d5e1ab0b9f3d654d03ea02f465c1e7d6f1aaf26d83312"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\pilot\\config.json",
+      "archive_path": "reports/pilot/config.json",
+      "bytes": 500,
+      "sha256": "d75c20f33a13dd16f1d66692e509a4d5c0d4d7cdea074192f6b9ba199db6256a"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\pilot\\data.json",
+      "archive_path": "reports/pilot/data.json",
+      "bytes": 40774,
+      "sha256": "d23bb5c3c30acdfac707a35d46a9740f953f3a54418b46ddc59aa267e37d5917"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\pilot\\environment.json",
+      "archive_path": "reports/pilot/environment.json",
+      "bytes": 1418,
+      "sha256": "ff8f282ffb2cd06e5dcfb581a5dcd862d1985054665b32197392761a41631f6d"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\pilot\\feature_clouds.svg",
+      "archive_path": "reports/pilot/feature_clouds.svg",
+      "bytes": 172709,
+      "sha256": "7736fac81bc9f7efd326ac635c3a1301381d58ba62644e507c0a7711f583916f"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\pilot\\gd_checkpoints.json",
+      "archive_path": "reports/pilot/gd_checkpoints.json",
+      "bytes": 6667,
+      "sha256": "7ce9dd693b07c3c515578d12186bbc48a3ccfa3e73ed148f63d2144af2baf468"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\pilot\\gd_history.csv",
+      "archive_path": "reports/pilot/gd_history.csv",
+      "bytes": 24876,
+      "sha256": "df36763c403a82a38ce63cfcead6ea5fe25e85e1ecb5165d803cb061e2a1c588"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\pilot\\gd_spectrum.csv",
+      "archive_path": "reports/pilot/gd_spectrum.csv",
+      "bytes": 18058,
+      "sha256": "0d5a74ada699cf0e6536376536e96ba01d32d835d5883b2fd3a3f6c7703f102d"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\pilot\\learning_curves.svg",
+      "archive_path": "reports/pilot/learning_curves.svg",
+      "bytes": 73704,
+      "sha256": "9b9d7ece9fc573821a4bb44836f7219ae672f7e17d3fcd93c424bd8d57499ecc"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\pilot\\pullback_checkpoints.json",
+      "archive_path": "reports/pilot/pullback_checkpoints.json",
+      "bytes": 6556,
+      "sha256": "9c2e815b83f22204928dcfa38b2b29ae622cf1a1431899eb65672214e8202629"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\pilot\\pullback_history.csv",
+      "archive_path": "reports/pilot/pullback_history.csv",
+      "bytes": 23919,
+      "sha256": "d7a4fe1d4dca11cbd979086ac6ac36e21587a4e6c6fe571f0fbd60d86f28ba54"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\pilot\\pullback_spectrum.csv",
+      "archive_path": "reports/pilot/pullback_spectrum.csv",
+      "bytes": 17641,
+      "sha256": "5ad690b2eaaee87fc9233343d81c2060cf910b7a50269616dfad762565faf6ce"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\pilot\\README.md",
+      "archive_path": "reports/pilot/README.md",
+      "bytes": 1326,
+      "sha256": "3ba3133e8123a58fed611fe0ad04f913159f409b63cfc17179147ecf6b67e1fc"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\pilot\\summary.json",
+      "archive_path": "reports/pilot/summary.json",
+      "bytes": 3788,
+      "sha256": "b7425f82dbac4a4bccc96ce8a20ea872b186e799d834a2340df876829ee60985"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\probes-v1\\candidate_fits.json",
+      "archive_path": "reports/probes-v1/candidate_fits.json",
+      "bytes": 310083,
+      "sha256": "c493a3637d301b52bd821ddc238b1ab10a87f238088031e6702fc804cb340787"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\probes-v1\\config.json",
+      "archive_path": "reports/probes-v1/config.json",
+      "bytes": 965,
+      "sha256": "2b98720b62f1e6f178bcc8eacb99ded406d47f6541a737ac9ef0d73c824f6679"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\probes-v1\\environment.json",
+      "archive_path": "reports/probes-v1/environment.json",
+      "bytes": 2260,
+      "sha256": "0c2dd3afa1ced8ba85772dae6ed65f1fe7affd9cdcaedf051ddb6718eaf176e0"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\probes-v1\\failures.json",
+      "archive_path": "reports/probes-v1/failures.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\probes-v1\\metrics.csv",
+      "archive_path": "reports/probes-v1/metrics.csv",
+      "bytes": 8228,
+      "sha256": "7e1bc4ddaa67cb3a2133af83b2c3559ee57467124379146a9e3dc13be434ce96"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\probes-v1\\probe_comparison.svg",
+      "archive_path": "reports/probes-v1/probe_comparison.svg",
+      "bytes": 71546,
+      "sha256": "cd4d836349c463b4aecccfd40707319bd6b9d50ab58403acd1821479ffa09e23"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\probes-v1\\README.md",
+      "archive_path": "reports/probes-v1/README.md",
+      "bytes": 2148,
+      "sha256": "01af5fd6a72c7554b29bd62ab7e1b9bf3c753d0f1a6b9ad53edb7c67bee3a15f"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\probes-v1\\selections.json",
+      "archive_path": "reports/probes-v1/selections.json",
+      "bytes": 38743,
+      "sha256": "e8b39ddc9aa88114100ac2decf37a5a8f9de8a217df1bd31a663b22b1546497e"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\probes-v1\\states.json",
+      "archive_path": "reports/probes-v1/states.json",
+      "bytes": 88946,
+      "sha256": "aba159ef9e29d2371bf96c4c68c5577c754731c120f1e010fad3bc0ce166d609"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\probes-v1\\summary.json",
+      "archive_path": "reports/probes-v1/summary.json",
+      "bytes": 41688,
+      "sha256": "d58c9b1a39f4f872f7ba1a9cbe010d531404d60044ed124cac8134ef515c9f94"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\probes-v1\\timing.json",
+      "archive_path": "reports/probes-v1/timing.json",
+      "bytes": 195,
+      "sha256": "49b2587658545c3a96ddb6abea25b46b71f918839da20434dd49c5d6b58f4fdb"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\representation-analysis-v1\\displacement_brackets.json",
+      "archive_path": "reports/representation-analysis-v1/displacement_brackets.json",
+      "bytes": 30821,
+      "sha256": "43cfd8a188f325bbf372c0bed8d3cf97af91165f5405aa8dc9452465295e3096"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\representation-analysis-v1\\displacement_comparison.svg",
+      "archive_path": "reports/representation-analysis-v1/displacement_comparison.svg",
+      "bytes": 86551,
+      "sha256": "699e58133d2dd6bcc01d3705b78a29c45b942cc06de56c357ea3aaaa21d45861"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\representation-analysis-v1\\displacement_summary.json",
+      "archive_path": "reports/representation-analysis-v1/displacement_summary.json",
+      "bytes": 10635,
+      "sha256": "3f88491e5d3a242b82db338ceeff73e95c100040b3cabe5c3d753f3c3a1dcb90"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\representation-analysis-v1\\environment.json",
+      "archive_path": "reports/representation-analysis-v1/environment.json",
+      "bytes": 2487,
+      "sha256": "27220f75df6a71b7f2b5160d5a45b66ddf94e1114c699bd7e2854167f2932466"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\representation-analysis-v1\\feature_clouds_formal1.svg",
+      "archive_path": "reports/representation-analysis-v1/feature_clouds_formal1.svg",
+      "bytes": 406945,
+      "sha256": "f93827eaffa43061884ee52257778071f7416410e9d53d3dd81dcdb30ef759f2"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\representation-analysis-v1\\feature_clouds_formal2.svg",
+      "archive_path": "reports/representation-analysis-v1/feature_clouds_formal2.svg",
+      "bytes": 410372,
+      "sha256": "fc58a351de895dd538a7a1b76dba69ba037fa6e3a77b518e81aec920eaec7c0a"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\representation-analysis-v1\\feature_clouds_formal3.svg",
+      "archive_path": "reports/representation-analysis-v1/feature_clouds_formal3.svg",
+      "bytes": 410140,
+      "sha256": "280c695518a39df0e951f080e6b3dbdd78d72317a7730d814f5b82f2bfe38d32"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\representation-analysis-v1\\feature_clouds.json",
+      "archive_path": "reports/representation-analysis-v1/feature_clouds.json",
+      "bytes": 550744,
+      "sha256": "ebf1e2e233fdfca3027df616d722ad20ad488a02ff1337d534d4daac015d2c6b"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\representation-analysis-v1\\README.md",
+      "archive_path": "reports/representation-analysis-v1/README.md",
+      "bytes": 3321,
+      "sha256": "28a49620c47a6e38487a0e9912e78e0b6e6f85f5772ed7f3be4703057441c768"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\representation-analysis-v1\\spectra_formal1.svg",
+      "archive_path": "reports/representation-analysis-v1/spectra_formal1.svg",
+      "bytes": 150137,
+      "sha256": "d1cc0a8a4f84fa117c6aeee14359f2b62dbfe6d9031cd9c80b5b27189ecb7092"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\representation-analysis-v1\\spectra_formal2.svg",
+      "archive_path": "reports/representation-analysis-v1/spectra_formal2.svg",
+      "bytes": 131267,
+      "sha256": "c5cb64fb897013ab8b3057663cb7d2c139038e3a09b5b5d6c13a37906f029748"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\representation-analysis-v1\\spectra_formal3.svg",
+      "archive_path": "reports/representation-analysis-v1/spectra_formal3.svg",
+      "bytes": 168246,
+      "sha256": "205e73d3dea9f99840ce1cf05e515fdb0e1e7dbd3d479134138b166a70626f2b"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\representation-analysis-v1\\spectral_summary.csv",
+      "archive_path": "reports/representation-analysis-v1/spectral_summary.csv",
+      "bytes": 8407,
+      "sha256": "cc7207d600e096ee4d43d8bfee800ac756dd76b972c53bd6f1f8936d2238ffeb"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\representation-analysis-v1\\timing.json",
+      "archive_path": "reports/representation-analysis-v1/timing.json",
+      "bytes": 49,
+      "sha256": "a3c28f262a65d700f7e0bcc7ff4b599358326e6ba5bece4b4a2aa97418bdec19"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\tuning-v1\\candidates.json",
+      "archive_path": "reports/tuning-v1/candidates.json",
+      "bytes": 2575,
+      "sha256": "97aae20fc3f399d8ad0637b75f3b539cbd5e79cbe5025b39f840cdc3814f3da2"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\tuning-v1\\config.json",
+      "archive_path": "reports/tuning-v1/config.json",
+      "bytes": 2042,
+      "sha256": "042a8ca089569d78e97c9685cbd3f4d7ad5c92318df8b782c6b0081469dffc61"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\tuning-v1\\development_data.json",
+      "archive_path": "reports/tuning-v1/development_data.json",
+      "bytes": 143916,
+      "sha256": "70c2c361148f34dd4987dc1e5d669d0d5b28025b6c1fc52a4e8498dba6d3b682"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\tuning-v1\\environment.json",
+      "archive_path": "reports/tuning-v1/environment.json",
+      "bytes": 1452,
+      "sha256": "563b91c249b079ed10b6e20187bca917a802a3d69ac4f8e1ad576435fa93e989"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\tuning-v1\\formal.json",
+      "archive_path": "reports/tuning-v1/formal.json",
+      "bytes": 1269,
+      "sha256": "811b36c44774fecb44d847b27a84dbcce85bc7ab592a877903699b64127d5cce"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\tuning-v1\\histories.csv",
+      "archive_path": "reports/tuning-v1/histories.csv",
+      "bytes": 200632,
+      "sha256": "7dc11e0bb4d8982b548c33145eee1ece56a90d25ce2968b8092cb24614d9df85"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\tuning-v1\\rankings.csv",
+      "archive_path": "reports/tuning-v1/rankings.csv",
+      "bytes": 3168,
+      "sha256": "be7875fee214cfd12130392fee50d59a35474987afb0b25016708eabbac25ddb"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\tuning-v1\\README.md",
+      "archive_path": "reports/tuning-v1/README.md",
+      "bytes": 1578,
+      "sha256": "8709e70b4115f76547f6b677ab36ebecb3441df6c6e425898361f845ad53a5c4"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\tuning-v1\\results.json",
+      "archive_path": "reports/tuning-v1/results.json",
+      "bytes": 56593,
+      "sha256": "7e4730a30734ab44617eca8ce578a4c96fe4a6441d4d5cf7bd18ce85ea5bc11b"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\tuning-v1\\schedule.json",
+      "archive_path": "reports/tuning-v1/schedule.json",
+      "bytes": 2885,
+      "sha256": "f07683ef600301b878f485882ddecaa3ff528eee9757e04641706ac022f01971"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\tuning-v1\\selection.json",
+      "archive_path": "reports/tuning-v1/selection.json",
+      "bytes": 11800,
+      "sha256": "23b3a44a9fe69764cfab07937120b750247b9752b23aac5db64d9b756e7e3070"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\tuning-v1\\terminal_checkpoints.json",
+      "archive_path": "reports/tuning-v1/terminal_checkpoints.json",
+      "bytes": 167365,
+      "sha256": "92f122460eb4f9c840867bfbe6398fc2e0aa761b73ada7a01db3bceb25337b80"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\tuning-v1\\trial_log.jsonl",
+      "archive_path": "reports/tuning-v1/trial_log.jsonl",
+      "bytes": 50252,
+      "sha256": "a44444c1d8d13d08343624c275806091740ff914510d2b1327cd30cfd6fc8c95"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\tuning-v1\\validation_ranking.svg",
+      "archive_path": "reports/tuning-v1/validation_ranking.svg",
+      "bytes": 95155,
+      "sha256": "8f874a92234d68fcc2d5188363a1b364d7117d540ee9344276caecf0e4fedb8a"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\reports\\tuning-v1\\wall_time.json",
+      "archive_path": "reports/tuning-v1/wall_time.json",
+      "bytes": 127,
+      "sha256": "5c55db05cc9eaf501098b32b12f3972ed7da4c05051f402352cbeec4f138f9c1"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\verification-final.json",
+      "archive_path": "runs/verification-final.json",
+      "bytes": 3120,
+      "sha256": "989076069c405982ed64910eac5d82de71fdc7369b8b6f7a17d0ece87b5d5a4d"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\displacement-refinement-v1\\displacement_refinement.png",
+      "archive_path": "runs/displacement-refinement-v1/displacement_refinement.png",
+      "bytes": 172402,
+      "sha256": "c6312f8ebe8b150b05bb70d6631b5f7d2bc11f634af1f4f77c51fb83f8305ae5"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\displacement-refinement-v1\\displacement_refinement.svg",
+      "archive_path": "runs/displacement-refinement-v1/displacement_refinement.svg",
+      "bytes": 88116,
+      "sha256": "2b04f31d3f4d3495e91756b5f1fff3fd986e55976cb987896f218f8cec6aed97"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\displacement-refinement-v1\\environment.json",
+      "archive_path": "runs/displacement-refinement-v1/environment.json",
+      "bytes": 2496,
+      "sha256": "3dd4bf91bdf9385cbf1b772cda199351d6203182503c609ac358e8d1a31e9966"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\displacement-refinement-v1\\metrics.csv",
+      "archive_path": "runs/displacement-refinement-v1/metrics.csv",
+      "bytes": 6611,
+      "sha256": "61ba837a4c41579964fd7b412c4897d01fc1ed13ade5b1134e8538f27bf4fa51"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\displacement-refinement-v1\\README.md",
+      "archive_path": "runs/displacement-refinement-v1/README.md",
+      "bytes": 2245,
+      "sha256": "27f183091bed7e82b1578336625bab30be30ee00110dc4acacdb457e1cfbb647"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\displacement-refinement-v1\\replays.json",
+      "archive_path": "runs/displacement-refinement-v1/replays.json",
+      "bytes": 169311,
+      "sha256": "5172e90b96d56d76646035b523685fd6ab03277a5f5da5d887abc2a394b59ecb"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\displacement-refinement-v1\\summary.json",
+      "archive_path": "runs/displacement-refinement-v1/summary.json",
+      "bytes": 13416,
+      "sha256": "a3725bb470bd4eb8397e2f43cba62b1fadb48c50adcaf570d72ed934fcc33b49"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\displacement-refinement-v1\\timing.json",
+      "archive_path": "runs/displacement-refinement-v1/timing.json",
+      "bytes": 236,
+      "sha256": "93c0aab36a36b3e397413c7a52cac5806ac60805d466c6a3edb731bc8fcacb66"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\formal-v1\\config.json",
+      "archive_path": "runs/formal-v1/config.json",
+      "bytes": 1269,
+      "sha256": "811b36c44774fecb44d847b27a84dbcce85bc7ab592a877903699b64127d5cce"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\formal-v1\\data.json",
+      "archive_path": "runs/formal-v1/data.json",
+      "bytes": 681609,
+      "sha256": "628ed852e14b4587d8978137a500fcac1d41feee559fd40e3c92e495040d9a75"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\formal-v1\\endpoint_metrics.csv",
+      "archive_path": "runs/formal-v1/endpoint_metrics.csv",
+      "bytes": 2096,
+      "sha256": "4557b8c5c08b20f2d5eb4ecf543e19fdce81d47639ef0fe770f42e723955fb21"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\formal-v1\\environment.json",
+      "archive_path": "runs/formal-v1/environment.json",
+      "bytes": 1596,
+      "sha256": "52790719f622f8801da83c6e343b5d0fd1941c9c40d7f9efbbfe2e88fb8ef219"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\formal-v1\\learning_curves.png",
+      "archive_path": "runs/formal-v1/learning_curves.png",
+      "bytes": 206899,
+      "sha256": "19023277608b8aee8f0d39b51cf429b447eadc9e5fe158d69bc78f5142522fb2"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\formal-v1\\learning_curves.svg",
+      "archive_path": "runs/formal-v1/learning_curves.svg",
+      "bytes": 118202,
+      "sha256": "72dd70cc4e115a19875c19d706ed0207f01d918d55e6783824684914e0dd9ee5"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\formal-v1\\metrics.csv",
+      "archive_path": "runs/formal-v1/metrics.csv",
+      "bytes": 138154,
+      "sha256": "c0ee9f23262758ea898c6d53db88d9b8eb98d8bf9bdc4e3ea03e80de10e81bd0"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\formal-v1\\paired_endpoints.png",
+      "archive_path": "runs/formal-v1/paired_endpoints.png",
+      "bytes": 104544,
+      "sha256": "45e313127606fdf7419a189a0a44857d5a37c4956f33275cbed31b64d7e1a391"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\formal-v1\\paired_endpoints.svg",
+      "archive_path": "runs/formal-v1/paired_endpoints.svg",
+      "bytes": 51264,
+      "sha256": "a17c5e1b2551a8d0d901714ba5f730631ea253c4e1c7984a71639681593025e9"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\formal-v1\\README.md",
+      "archive_path": "runs/formal-v1/README.md",
+      "bytes": 1676,
+      "sha256": "89512407b5907f26a9469a3b30634d8fd1fad3f458c8bb5cfd905cb1681efe48"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\formal-v1\\schedule.json",
+      "archive_path": "runs/formal-v1/schedule.json",
+      "bytes": 245,
+      "sha256": "56a0607124f6fc3570f8c414d1895e175e84bb33b5b9c1bbdd92bc2d642f5b0a"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\formal-v1\\spectra.csv",
+      "archive_path": "runs/formal-v1/spectra.csv",
+      "bytes": 171841,
+      "sha256": "00f18cbfb1ebd235a8c8b06d840609e51deb8c9d3817b7329a38e2611673ebd8"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\formal-v1\\spectral_metadata.json",
+      "archive_path": "runs/formal-v1/spectral_metadata.json",
+      "bytes": 6383,
+      "sha256": "93d67279c3c226fc1b9806be1b31d5e3381ef6257182daf4e3937de00347935e"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\formal-v1\\summary.json",
+      "archive_path": "runs/formal-v1/summary.json",
+      "bytes": 4761,
+      "sha256": "5a11f8511d65f5dd2b24f09b5e9a7a5ecee79d1844e82a9c5b9e1411b65c7eaa"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\formal-v1\\timing.json",
+      "archive_path": "runs/formal-v1/timing.json",
+      "bytes": 257,
+      "sha256": "a7a7601569af2fc5cf3bc38b84c840ed339518f148db3982873f7c5436e14e70"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\formal-v1\\trajectories.json",
+      "archive_path": "runs/formal-v1/trajectories.json",
+      "bytes": 2822975,
+      "sha256": "8b882431799f4b30d24ca5ccb5e1c2a6bdf6ab718bae8e748365430fb7a49fca"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\long-training-v1\\config.json",
+      "archive_path": "runs/long-training-v1/config.json",
+      "bytes": 1551,
+      "sha256": "6e01dda1b67f9d86f3a24943d5989f75df3bc048ec2a522bbc7dbc88f94505e9"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\long-training-v1\\data.json",
+      "archive_path": "runs/long-training-v1/data.json",
+      "bytes": 143916,
+      "sha256": "dd8eb33fa378f402079df9ec6758b07bdda267ab548102b5ebbc2b6792a1f245"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\long-training-v1\\environment.json",
+      "archive_path": "runs/long-training-v1/environment.json",
+      "bytes": 1581,
+      "sha256": "fbefd91e95aa413489c56c4c214a333043508b2aae2be1123d731c455f71f93d"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\long-training-v1\\learning_curves.png",
+      "archive_path": "runs/long-training-v1/learning_curves.png",
+      "bytes": 286769,
+      "sha256": "0153cf8ff7fa7d0fd91fa5240cd79025334a2a396b6e1e555f65d90c14a6a4d8"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\long-training-v1\\learning_curves.svg",
+      "archive_path": "runs/long-training-v1/learning_curves.svg",
+      "bytes": 190456,
+      "sha256": "695b29f4f948eacb02ee2b8d363faa5e41e2e79539c3da4e956565aec47a1077"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\long-training-v1\\metrics.csv",
+      "archive_path": "runs/long-training-v1/metrics.csv",
+      "bytes": 73679,
+      "sha256": "a50c797ee9c18c3e664415693907a39c3f2921e1d0a446ebaca727b51edb8f46"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\long-training-v1\\README.md",
+      "archive_path": "runs/long-training-v1/README.md",
+      "bytes": 3111,
+      "sha256": "9537be0e7c5422af5efd64735eb43f882beb61d3b63ad46fb11d782b4a4c0380"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\long-training-v1\\schedule.json",
+      "archive_path": "runs/long-training-v1/schedule.json",
+      "bytes": 353,
+      "sha256": "74f0eb6988fee4b7a0660336d19b2134134a17b8032d9a6a1fe1c2799fd8c98b"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\long-training-v1\\summary.json",
+      "archive_path": "runs/long-training-v1/summary.json",
+      "bytes": 27728,
+      "sha256": "18df4aa6161d28578d83da0f077d317c84e746481af23704b3dda3f8158eb753"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\long-training-v1\\timing.json",
+      "archive_path": "runs/long-training-v1/timing.json",
+      "bytes": 247,
+      "sha256": "cd7248406ebec28784888bf7a05db495748ac75554cf76d6855808ca5686f86f"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\long-training-v1\\trajectories.json",
+      "archive_path": "runs/long-training-v1/trajectories.json",
+      "bytes": 1708929,
+      "sha256": "0244a7c80494c021581d5e1ab0b9f3d654d03ea02f465c1e7d6f1aaf26d83312"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-001\\config.json",
+      "archive_path": "runs/pilot-001/config.json",
+      "bytes": 500,
+      "sha256": "d75c20f33a13dd16f1d66692e509a4d5c0d4d7cdea074192f6b9ba199db6256a"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-001\\data.json",
+      "archive_path": "runs/pilot-001/data.json",
+      "bytes": 40774,
+      "sha256": "d23bb5c3c30acdfac707a35d46a9740f953f3a54418b46ddc59aa267e37d5917"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-001\\environment.json",
+      "archive_path": "runs/pilot-001/environment.json",
+      "bytes": 1418,
+      "sha256": "d84702f1bf8c9cc6adc9127df89ee33c3b620edb1d645488b1fe77f1cc85c980"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-001\\feature_clouds.png",
+      "archive_path": "runs/pilot-001/feature_clouds.png",
+      "bytes": 127812,
+      "sha256": "44752c7b64b9995e9a608ac724375f1e20462f2329b7e6eacbbd3fa0951850bf"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-001\\feature_clouds.svg",
+      "archive_path": "runs/pilot-001/feature_clouds.svg",
+      "bytes": 172709,
+      "sha256": "a94cb95be9bdbe502663d8b14f57d9d3d6c8432159629e89f0b48951d2d76ffb"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-001\\gd_checkpoints.json",
+      "archive_path": "runs/pilot-001/gd_checkpoints.json",
+      "bytes": 6667,
+      "sha256": "7ce9dd693b07c3c515578d12186bbc48a3ccfa3e73ed148f63d2144af2baf468"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-001\\gd_history.csv",
+      "archive_path": "runs/pilot-001/gd_history.csv",
+      "bytes": 24896,
+      "sha256": "1d5bf2a159ee7834dc599c9df97d357d53f31c3f2b57c6631471cf5ec6723a80"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-001\\gd_spectrum.csv",
+      "archive_path": "runs/pilot-001/gd_spectrum.csv",
+      "bytes": 18058,
+      "sha256": "0d5a74ada699cf0e6536376536e96ba01d32d835d5883b2fd3a3f6c7703f102d"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-001\\learning_curves.png",
+      "archive_path": "runs/pilot-001/learning_curves.png",
+      "bytes": 116443,
+      "sha256": "b4d7c49d6f09ec2eb8d53eb09107a165e5dcc7cb2429bb13e45084af9f3759b9"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-001\\learning_curves.svg",
+      "archive_path": "runs/pilot-001/learning_curves.svg",
+      "bytes": 73831,
+      "sha256": "dde4316a169e3e4079b7955f2e53afed7c68dc7161be65569764edad4ce1cc08"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-001\\pullback_checkpoints.json",
+      "archive_path": "runs/pilot-001/pullback_checkpoints.json",
+      "bytes": 6556,
+      "sha256": "9c2e815b83f22204928dcfa38b2b29ae622cf1a1431899eb65672214e8202629"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-001\\pullback_history.csv",
+      "archive_path": "runs/pilot-001/pullback_history.csv",
+      "bytes": 23896,
+      "sha256": "3f67e59c372d595e9c45786131d5aaedfdb8725ce4b9f9865373c6145ad0fbe2"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-001\\pullback_spectrum.csv",
+      "archive_path": "runs/pilot-001/pullback_spectrum.csv",
+      "bytes": 17641,
+      "sha256": "5ad690b2eaaee87fc9233343d81c2060cf910b7a50269616dfad762565faf6ce"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-001\\README.md",
+      "archive_path": "runs/pilot-001/README.md",
+      "bytes": 1326,
+      "sha256": "de366845088eb18d88441c0984abee64c2f3479f396d2a2815b911c6d4697a57"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-001\\summary.json",
+      "archive_path": "runs/pilot-001/summary.json",
+      "bytes": 3784,
+      "sha256": "b0fc70047f242da1975da554412cc22312c375d0affd7df76ce99b56c670f8ae"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-final\\config.json",
+      "archive_path": "runs/pilot-final/config.json",
+      "bytes": 500,
+      "sha256": "d75c20f33a13dd16f1d66692e509a4d5c0d4d7cdea074192f6b9ba199db6256a"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-final\\data.json",
+      "archive_path": "runs/pilot-final/data.json",
+      "bytes": 40774,
+      "sha256": "d23bb5c3c30acdfac707a35d46a9740f953f3a54418b46ddc59aa267e37d5917"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-final\\environment.json",
+      "archive_path": "runs/pilot-final/environment.json",
+      "bytes": 1418,
+      "sha256": "ff8f282ffb2cd06e5dcfb581a5dcd862d1985054665b32197392761a41631f6d"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-final\\feature_clouds.png",
+      "archive_path": "runs/pilot-final/feature_clouds.png",
+      "bytes": 127812,
+      "sha256": "44752c7b64b9995e9a608ac724375f1e20462f2329b7e6eacbbd3fa0951850bf"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-final\\feature_clouds.svg",
+      "archive_path": "runs/pilot-final/feature_clouds.svg",
+      "bytes": 172709,
+      "sha256": "7736fac81bc9f7efd326ac635c3a1301381d58ba62644e507c0a7711f583916f"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-final\\gd_checkpoints.json",
+      "archive_path": "runs/pilot-final/gd_checkpoints.json",
+      "bytes": 6667,
+      "sha256": "7ce9dd693b07c3c515578d12186bbc48a3ccfa3e73ed148f63d2144af2baf468"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-final\\gd_history.csv",
+      "archive_path": "runs/pilot-final/gd_history.csv",
+      "bytes": 24876,
+      "sha256": "df36763c403a82a38ce63cfcead6ea5fe25e85e1ecb5165d803cb061e2a1c588"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-final\\gd_spectrum.csv",
+      "archive_path": "runs/pilot-final/gd_spectrum.csv",
+      "bytes": 18058,
+      "sha256": "0d5a74ada699cf0e6536376536e96ba01d32d835d5883b2fd3a3f6c7703f102d"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-final\\learning_curves.png",
+      "archive_path": "runs/pilot-final/learning_curves.png",
+      "bytes": 117104,
+      "sha256": "738093322ae7618f5fa6ffb07612ca125f25fb53462ffbb548058d1b16a0a5b6"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-final\\learning_curves.svg",
+      "archive_path": "runs/pilot-final/learning_curves.svg",
+      "bytes": 73704,
+      "sha256": "9b9d7ece9fc573821a4bb44836f7219ae672f7e17d3fcd93c424bd8d57499ecc"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-final\\pullback_checkpoints.json",
+      "archive_path": "runs/pilot-final/pullback_checkpoints.json",
+      "bytes": 6556,
+      "sha256": "9c2e815b83f22204928dcfa38b2b29ae622cf1a1431899eb65672214e8202629"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-final\\pullback_history.csv",
+      "archive_path": "runs/pilot-final/pullback_history.csv",
+      "bytes": 23919,
+      "sha256": "d7a4fe1d4dca11cbd979086ac6ac36e21587a4e6c6fe571f0fbd60d86f28ba54"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-final\\pullback_spectrum.csv",
+      "archive_path": "runs/pilot-final/pullback_spectrum.csv",
+      "bytes": 17641,
+      "sha256": "5ad690b2eaaee87fc9233343d81c2060cf910b7a50269616dfad762565faf6ce"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-final\\README.md",
+      "archive_path": "runs/pilot-final/README.md",
+      "bytes": 1326,
+      "sha256": "3ba3133e8123a58fed611fe0ad04f913159f409b63cfc17179147ecf6b67e1fc"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\pilot-final\\summary.json",
+      "archive_path": "runs/pilot-final/summary.json",
+      "bytes": 3788,
+      "sha256": "b7425f82dbac4a4bccc96ce8a20ea872b186e799d834a2340df876829ee60985"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\probes-v1\\candidate_fits.json",
+      "archive_path": "runs/probes-v1/candidate_fits.json",
+      "bytes": 310083,
+      "sha256": "c493a3637d301b52bd821ddc238b1ab10a87f238088031e6702fc804cb340787"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\probes-v1\\config.json",
+      "archive_path": "runs/probes-v1/config.json",
+      "bytes": 965,
+      "sha256": "2b98720b62f1e6f178bcc8eacb99ded406d47f6541a737ac9ef0d73c824f6679"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\probes-v1\\environment.json",
+      "archive_path": "runs/probes-v1/environment.json",
+      "bytes": 2260,
+      "sha256": "0c2dd3afa1ced8ba85772dae6ed65f1fe7affd9cdcaedf051ddb6718eaf176e0"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\probes-v1\\failures.json",
+      "archive_path": "runs/probes-v1/failures.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\probes-v1\\metrics.csv",
+      "archive_path": "runs/probes-v1/metrics.csv",
+      "bytes": 8228,
+      "sha256": "7e1bc4ddaa67cb3a2133af83b2c3559ee57467124379146a9e3dc13be434ce96"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\probes-v1\\probe_comparison.png",
+      "archive_path": "runs/probes-v1/probe_comparison.png",
+      "bytes": 112711,
+      "sha256": "4989645180111e5989b12be4743b8d34e1bc4af9df862ad53a94b52ce6021ff8"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\probes-v1\\probe_comparison.svg",
+      "archive_path": "runs/probes-v1/probe_comparison.svg",
+      "bytes": 71546,
+      "sha256": "cd4d836349c463b4aecccfd40707319bd6b9d50ab58403acd1821479ffa09e23"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\probes-v1\\README.md",
+      "archive_path": "runs/probes-v1/README.md",
+      "bytes": 2148,
+      "sha256": "01af5fd6a72c7554b29bd62ab7e1b9bf3c753d0f1a6b9ad53edb7c67bee3a15f"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\probes-v1\\selections.json",
+      "archive_path": "runs/probes-v1/selections.json",
+      "bytes": 38743,
+      "sha256": "e8b39ddc9aa88114100ac2decf37a5a8f9de8a217df1bd31a663b22b1546497e"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\probes-v1\\states.json",
+      "archive_path": "runs/probes-v1/states.json",
+      "bytes": 88946,
+      "sha256": "aba159ef9e29d2371bf96c4c68c5577c754731c120f1e010fad3bc0ce166d609"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\probes-v1\\summary.json",
+      "archive_path": "runs/probes-v1/summary.json",
+      "bytes": 41688,
+      "sha256": "d58c9b1a39f4f872f7ba1a9cbe010d531404d60044ed124cac8134ef515c9f94"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\probes-v1\\timing.json",
+      "archive_path": "runs/probes-v1/timing.json",
+      "bytes": 195,
+      "sha256": "49b2587658545c3a96ddb6abea25b46b71f918839da20434dd49c5d6b58f4fdb"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\representation-analysis-v1\\displacement_brackets.json",
+      "archive_path": "runs/representation-analysis-v1/displacement_brackets.json",
+      "bytes": 30821,
+      "sha256": "43cfd8a188f325bbf372c0bed8d3cf97af91165f5405aa8dc9452465295e3096"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\representation-analysis-v1\\displacement_comparison.png",
+      "archive_path": "runs/representation-analysis-v1/displacement_comparison.png",
+      "bytes": 159890,
+      "sha256": "f46bf903054d9e27e8a85833491027dae8ca89f89422e11373a980fce95768bf"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\representation-analysis-v1\\displacement_comparison.svg",
+      "archive_path": "runs/representation-analysis-v1/displacement_comparison.svg",
+      "bytes": 86551,
+      "sha256": "699e58133d2dd6bcc01d3705b78a29c45b942cc06de56c357ea3aaaa21d45861"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\representation-analysis-v1\\displacement_summary.json",
+      "archive_path": "runs/representation-analysis-v1/displacement_summary.json",
+      "bytes": 10635,
+      "sha256": "3f88491e5d3a242b82db338ceeff73e95c100040b3cabe5c3d753f3c3a1dcb90"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\representation-analysis-v1\\environment.json",
+      "archive_path": "runs/representation-analysis-v1/environment.json",
+      "bytes": 2487,
+      "sha256": "27220f75df6a71b7f2b5160d5a45b66ddf94e1114c699bd7e2854167f2932466"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\representation-analysis-v1\\feature_clouds_formal1.png",
+      "archive_path": "runs/representation-analysis-v1/feature_clouds_formal1.png",
+      "bytes": 136380,
+      "sha256": "734907acad256029e051fbf097be13b0a2b7d6a242de5ce3dd010e06b6743aa8"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\representation-analysis-v1\\feature_clouds_formal1.svg",
+      "archive_path": "runs/representation-analysis-v1/feature_clouds_formal1.svg",
+      "bytes": 406945,
+      "sha256": "f93827eaffa43061884ee52257778071f7416410e9d53d3dd81dcdb30ef759f2"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\representation-analysis-v1\\feature_clouds_formal2.png",
+      "archive_path": "runs/representation-analysis-v1/feature_clouds_formal2.png",
+      "bytes": 149587,
+      "sha256": "6c88aca3b103bfc13aff7efdb16b589fece56cc61020a4e239e5be90e714518a"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\representation-analysis-v1\\feature_clouds_formal2.svg",
+      "archive_path": "runs/representation-analysis-v1/feature_clouds_formal2.svg",
+      "bytes": 410372,
+      "sha256": "fc58a351de895dd538a7a1b76dba69ba037fa6e3a77b518e81aec920eaec7c0a"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\representation-analysis-v1\\feature_clouds_formal3.png",
+      "archive_path": "runs/representation-analysis-v1/feature_clouds_formal3.png",
+      "bytes": 133310,
+      "sha256": "f033482084f678a23ff509aea5c1150d6576ea64b1f3e9df09f3c78d6352ab2e"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\representation-analysis-v1\\feature_clouds_formal3.svg",
+      "archive_path": "runs/representation-analysis-v1/feature_clouds_formal3.svg",
+      "bytes": 410140,
+      "sha256": "280c695518a39df0e951f080e6b3dbdd78d72317a7730d814f5b82f2bfe38d32"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\representation-analysis-v1\\feature_clouds.json",
+      "archive_path": "runs/representation-analysis-v1/feature_clouds.json",
+      "bytes": 550744,
+      "sha256": "ebf1e2e233fdfca3027df616d722ad20ad488a02ff1337d534d4daac015d2c6b"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\representation-analysis-v1\\README.md",
+      "archive_path": "runs/representation-analysis-v1/README.md",
+      "bytes": 3321,
+      "sha256": "28a49620c47a6e38487a0e9912e78e0b6e6f85f5772ed7f3be4703057441c768"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\representation-analysis-v1\\spectra_formal1.png",
+      "archive_path": "runs/representation-analysis-v1/spectra_formal1.png",
+      "bytes": 243657,
+      "sha256": "a83558aa2fc73be213d9909c8d2221cae1f8b392393790cc271f70de066d2841"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\representation-analysis-v1\\spectra_formal1.svg",
+      "archive_path": "runs/representation-analysis-v1/spectra_formal1.svg",
+      "bytes": 150137,
+      "sha256": "d1cc0a8a4f84fa117c6aeee14359f2b62dbfe6d9031cd9c80b5b27189ecb7092"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\representation-analysis-v1\\spectra_formal2.png",
+      "archive_path": "runs/representation-analysis-v1/spectra_formal2.png",
+      "bytes": 230131,
+      "sha256": "46169c5b405184aee1c7da678147be4da938362f69cbc954685e38f814030e3e"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\representation-analysis-v1\\spectra_formal2.svg",
+      "archive_path": "runs/representation-analysis-v1/spectra_formal2.svg",
+      "bytes": 131267,
+      "sha256": "c5cb64fb897013ab8b3057663cb7d2c139038e3a09b5b5d6c13a37906f029748"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\representation-analysis-v1\\spectra_formal3.png",
+      "archive_path": "runs/representation-analysis-v1/spectra_formal3.png",
+      "bytes": 233979,
+      "sha256": "23f64df8171f6462503804e1092ade6ee43afe1f82c2939c6da2bedb33d9bdbc"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\representation-analysis-v1\\spectra_formal3.svg",
+      "archive_path": "runs/representation-analysis-v1/spectra_formal3.svg",
+      "bytes": 168246,
+      "sha256": "205e73d3dea9f99840ce1cf05e515fdb0e1e7dbd3d479134138b166a70626f2b"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\representation-analysis-v1\\spectral_summary.csv",
+      "archive_path": "runs/representation-analysis-v1/spectral_summary.csv",
+      "bytes": 8407,
+      "sha256": "cc7207d600e096ee4d43d8bfee800ac756dd76b972c53bd6f1f8936d2238ffeb"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\representation-analysis-v1\\timing.json",
+      "archive_path": "runs/representation-analysis-v1/timing.json",
+      "bytes": 49,
+      "sha256": "a3c28f262a65d700f7e0bcc7ff4b599358326e6ba5bece4b4a2aa97418bdec19"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\tuning-v1\\candidates.json",
+      "archive_path": "runs/tuning-v1/candidates.json",
+      "bytes": 2575,
+      "sha256": "97aae20fc3f399d8ad0637b75f3b539cbd5e79cbe5025b39f840cdc3814f3da2"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\tuning-v1\\config.json",
+      "archive_path": "runs/tuning-v1/config.json",
+      "bytes": 2042,
+      "sha256": "042a8ca089569d78e97c9685cbd3f4d7ad5c92318df8b782c6b0081469dffc61"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\tuning-v1\\development_data.json",
+      "archive_path": "runs/tuning-v1/development_data.json",
+      "bytes": 143916,
+      "sha256": "70c2c361148f34dd4987dc1e5d669d0d5b28025b6c1fc52a4e8498dba6d3b682"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\tuning-v1\\environment.json",
+      "archive_path": "runs/tuning-v1/environment.json",
+      "bytes": 1452,
+      "sha256": "563b91c249b079ed10b6e20187bca917a802a3d69ac4f8e1ad576435fa93e989"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\tuning-v1\\formal.json",
+      "archive_path": "runs/tuning-v1/formal.json",
+      "bytes": 1269,
+      "sha256": "811b36c44774fecb44d847b27a84dbcce85bc7ab592a877903699b64127d5cce"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\tuning-v1\\histories.csv",
+      "archive_path": "runs/tuning-v1/histories.csv",
+      "bytes": 200632,
+      "sha256": "7dc11e0bb4d8982b548c33145eee1ece56a90d25ce2968b8092cb24614d9df85"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\tuning-v1\\rankings.csv",
+      "archive_path": "runs/tuning-v1/rankings.csv",
+      "bytes": 3168,
+      "sha256": "be7875fee214cfd12130392fee50d59a35474987afb0b25016708eabbac25ddb"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\tuning-v1\\README.md",
+      "archive_path": "runs/tuning-v1/README.md",
+      "bytes": 1578,
+      "sha256": "8709e70b4115f76547f6b677ab36ebecb3441df6c6e425898361f845ad53a5c4"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\tuning-v1\\results.json",
+      "archive_path": "runs/tuning-v1/results.json",
+      "bytes": 56593,
+      "sha256": "7e4730a30734ab44617eca8ce578a4c96fe4a6441d4d5cf7bd18ce85ea5bc11b"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\tuning-v1\\schedule.json",
+      "archive_path": "runs/tuning-v1/schedule.json",
+      "bytes": 2885,
+      "sha256": "f07683ef600301b878f485882ddecaa3ff528eee9757e04641706ac022f01971"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\tuning-v1\\selection.json",
+      "archive_path": "runs/tuning-v1/selection.json",
+      "bytes": 11800,
+      "sha256": "23b3a44a9fe69764cfab07937120b750247b9752b23aac5db64d9b756e7e3070"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\tuning-v1\\terminal_checkpoints.json",
+      "archive_path": "runs/tuning-v1/terminal_checkpoints.json",
+      "bytes": 167365,
+      "sha256": "92f122460eb4f9c840867bfbe6398fc2e0aa761b73ada7a01db3bceb25337b80"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\tuning-v1\\trial_log.jsonl",
+      "archive_path": "runs/tuning-v1/trial_log.jsonl",
+      "bytes": 50252,
+      "sha256": "a44444c1d8d13d08343624c275806091740ff914510d2b1327cd30cfd6fc8c95"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\tuning-v1\\validation_ranking.png",
+      "archive_path": "runs/tuning-v1/validation_ranking.png",
+      "bytes": 114907,
+      "sha256": "7efc85930ede5cc5287ad4c34c4306405074a44fe3bcb2c3210c7cb626eab46f"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\tuning-v1\\validation_ranking.svg",
+      "archive_path": "runs/tuning-v1/validation_ranking.svg",
+      "bytes": 95155,
+      "sha256": "8f874a92234d68fcc2d5188363a1b364d7117d540ee9344276caecf0e4fedb8a"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\runs\\tuning-v1\\wall_time.json",
+      "archive_path": "runs/tuning-v1/wall_time.json",
+      "bytes": 127,
+      "sha256": "5c55db05cc9eaf501098b32b12f3972ed7da4c05051f402352cbeec4f138f9c1"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\configs\\formal.json",
+      "archive_path": "configs/formal.json",
+      "bytes": 1269,
+      "sha256": "811b36c44774fecb44d847b27a84dbcce85bc7ab592a877903699b64127d5cce"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\configs\\long_training.json",
+      "archive_path": "configs/long_training.json",
+      "bytes": 1194,
+      "sha256": "515ecd2f45a6a802c1f6a26af6ba05bc2d683dea2fd51fef217703a72a16fd92"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\configs\\pilot.json",
+      "archive_path": "configs/pilot.json",
+      "bytes": 425,
+      "sha256": "39efa0359f6e4f740aba1baa400fb3974dd051faafa786c7574d49581d0bb1cc"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\configs\\probes.json",
+      "archive_path": "configs/probes.json",
+      "bytes": 754,
+      "sha256": "0ed42c5ba878dc9534b4e6b4615d22b0a308576675e9e3bf396a412225e79cc4"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\configs\\tuning.json",
+      "archive_path": "configs/tuning.json",
+      "bytes": 1613,
+      "sha256": "e4aeaff9d12e66efb7641f4b555e25fa597a3446c91922611761c5f4266e4927"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\README.md",
+      "archive_path": "PROJECT_OVERVIEW.md",
+      "bytes": 14070,
+      "sha256": "c078e6fbeecd97d79586e2a667346aa1a6004759b2e2ec00e9aaec8311362d2a"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\277final_proposal_draft.tex",
+      "archive_path": "provenance/277final_proposal_draft.tex",
+      "bytes": 7297,
+      "sha256": "03d8155b0a113857af54c0fa0ca691a102587d2b020b0c9f1d7450d6b91ed765"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\archive_project.ps1",
+      "archive_path": "provenance/workspace_tmp/archive_project.ps1",
+      "bytes": 5550,
+      "sha256": "2ce8bd735fd5180d6d6f6b955d1aa807ada7a8d5e544800837fe5cad6a34fa2f"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\audit_displacement_refinement.py",
+      "archive_path": "provenance/workspace_tmp/audit_displacement_refinement.py",
+      "bytes": 16297,
+      "sha256": "d2efb0ce436d3b6b69aaccfd9c3cc601d454a99f14334808243bdae6d2db8a3b"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\audit_formal.py",
+      "archive_path": "provenance/workspace_tmp/audit_formal.py",
+      "bytes": 13306,
+      "sha256": "84b7afd76a5609eea8820078160443c30852f400c537f8f50d60d44aea8bd4e6"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\audit_long_training.py",
+      "archive_path": "provenance/workspace_tmp/audit_long_training.py",
+      "bytes": 15187,
+      "sha256": "c2bca7e9127aa369cbb40ce7f8dce10ee88fd7cd7e3178722fac298fd64f2c58"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\audit_stage6.py",
+      "archive_path": "provenance/workspace_tmp/audit_stage6.py",
+      "bytes": 29839,
+      "sha256": "65622b2eb4a072658bf118783b0af3ecb6607a9896d8b316ab4bb7f9c45321ce"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\long_training_publish.json",
+      "archive_path": "provenance/workspace_tmp/long_training_publish.json",
+      "bytes": 2358135,
+      "sha256": "2bc8f41679de6e901dd717d306ce70c9ff0d357b1e0ffb4942a91148c346b411"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\pullback-feature-learning-before-local-archive.bundle",
+      "archive_path": "provenance/workspace_tmp/pullback-feature-learning-before-local-archive.bundle",
+      "bytes": 2489447,
+      "sha256": "a90730e81fbdebc5c9ad4626a627e59e39ced0acd89ad4ee60a729488102313d"
+    },
+    {
+      "source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\stage6_publish.json",
+      "archive_path": "provenance/workspace_tmp/stage6_publish.json",
+      "bytes": 3899225,
+      "sha256": "d1b3ec384cddaf038a7e512126ce37d80ae53055b1b79f9082cb1fa7dc5295c8"
+    }
+  ]
+}

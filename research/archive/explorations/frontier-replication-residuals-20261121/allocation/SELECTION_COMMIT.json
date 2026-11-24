@@ -1,0 +1,37 @@
+{
+  "utc": "2026-11-22T00:22:42.877574+00:00",
+  "selected_procedure": "train_2304",
+  "selected_training_n": 2304,
+  "selected_development_sampled_nll": 0.5531699088700858,
+  "selection_metric": "mean sampled-label calibrated raw NLL over 8 paired seeds",
+  "candidate_scores": [
+    {
+      "procedure": "train_2304",
+      "n_train": 2304,
+      "sampled_nll": 0.5531699088700858
+    },
+    {
+      "procedure": "train_3072",
+      "n_train": 3072,
+      "sampled_nll": 0.5587999261745477
+    },
+    {
+      "procedure": "train_3584",
+      "n_train": 3584,
+      "sampled_nll": 0.5704413007334552
+    },
+    {
+      "procedure": "train_3840",
+      "n_train": 3840,
+      "sampled_nll": 0.5763435782732506
+    }
+  ],
+  "baseline_selected": true,
+  "confirmation_streams_accessed": false,
+  "development_score_commit_sha256": "733a18c0f2b1d70d7cd2145e860fed11a591e0e23e6a897f144471513f046137",
+  "development_selection_label_union": 524288,
+  "manifest": {
+    "development/summary.csv": "a5123599388092f0ee032a2de155d249458c9e378d1a5573818e5da7004f9364"
+  },
+  "winner_bias_warning": "Development minimum is selected and optimistic; only independent confirmation supports inference."
+}

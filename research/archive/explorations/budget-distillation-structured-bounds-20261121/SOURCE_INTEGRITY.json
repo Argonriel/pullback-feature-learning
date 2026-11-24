@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "utc": "2026-11-21T23:23:10.759365+00:00",
+  "hash_checks": 2056,
+  "checks": [
+    "allocation source, protocol, preflight, release, fits, outputs and chronology",
+    "distillation external boundary, source, release, model/temperature commitments and chronology",
+    "structured theory/source, historical inputs, parameter samples, moments/truth and chronology"
+  ],
+  "limitation": "Local hash/event records establish internal consistency, not independent externally timestamped registration."
+}

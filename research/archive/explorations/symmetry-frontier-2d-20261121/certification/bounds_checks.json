@@ -1,0 +1,10 @@
+{
+  "seed": 1109001,
+  "jensen_identity_max_error": 6.078471059822732e-15,
+  "antithetic_batch_identity_max_error": 1.3322676295501878e-15,
+  "unbiased_variance_pairwise_error": 0.0,
+  "affine_scaling_error": 0.0,
+  "ring_tail_C20_R3": 3.095288350187117e-31,
+  "all_passed": true,
+  "qualification": "Numerical identities supplement, and do not replace, the mathematical proof."
+}

@@ -1,0 +1,53 @@
+{
+  "summary": [
+    {
+      "dataset": "holdout",
+      "method": "B",
+      "ce": 0.26142829324370054,
+      "error": 0.09443333333333333
+    },
+    {
+      "dataset": "holdout",
+      "method": "T",
+      "ce": 0.25665612522633835,
+      "error": 0.09306666666666666
+    },
+    {
+      "dataset": "holdout",
+      "method": "S",
+      "ce": 0.270491730886708,
+      "error": 0.09813333333333335
+    },
+    {
+      "dataset": "holdout",
+      "method": "C",
+      "ce": 0.2390553507035904,
+      "error": 0.08496666666666665
+    },
+    {
+      "dataset": "external",
+      "method": "B",
+      "ce": 1.6063787321119567,
+      "error": 0.47466666666666657
+    },
+    {
+      "dataset": "external",
+      "method": "T",
+      "ce": 1.59630188040143,
+      "error": 0.46644444444444444
+    },
+    {
+      "dataset": "external",
+      "method": "S",
+      "ce": 1.5906072366883266,
+      "error": 0.43511111111111117
+    },
+    {
+      "dataset": "external",
+      "method": "C",
+      "ce": 1.6982038037019271,
+      "error": 0.49377777777777776
+    }
+  ],
+  "success": false
+}

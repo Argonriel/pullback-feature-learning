@@ -1,0 +1,105 @@
+{
+  "created_utc": "2026-11-22T02:57:16.541240+00:00",
+  "files": {
+    "DATA_DICTIONARY.md": {
+      "sha256": "17af73a72d0f82fb7dc4282c8bdd01de60229e1bc6f2ab1f7f60b1ba7b2ee9b7",
+      "bytes": 3545
+    },
+    "factor_replay_results.json": {
+      "sha256": "c4cf8447f3789a593e2f0ea23e03a018cd0e971ff750b6c7587f4d01124dab66",
+      "bytes": 3063
+    },
+    "GENERAL_GEOMETRY.md": {
+      "sha256": "22fcbfc0118e43951148d8f03c6aafcdf47dec6a5a99a53e74b23d276a2ca5a0",
+      "bytes": 17655
+    },
+    "general_geometry_certificates/general_geometry_results.json": {
+      "sha256": "d617a24ef015c537b6072f4a5b68c5083d743b75decd2906c81427936d3caf93",
+      "bytes": 3449
+    },
+    "general_geometry_checks/general_geometry_results.json": {
+      "sha256": "72467966ed0b18eec0863c057a94d5fa36da0b8c6b3eefab52a8fe78421c2063",
+      "bytes": 2289
+    },
+    "general_geometry_checks/source_v1.py": {
+      "sha256": "6ec676012cd3e83070827ded7ff0c3547c958d27a4c64d00a256d93797906510",
+      "bytes": 6437
+    },
+    "LITERATURE_AUDIT.md": {
+      "sha256": "8904ea710b21fa6c5e19a266bc595e303435d324fe9a6c64245297f2b5a86ac6",
+      "bytes": 15749
+    },
+    "METRIC_CONTROL.md": {
+      "sha256": "36d652f3a3ab4a32327e534d371e31efa0f1dc4ad92c8f65f07c298b3307eae4",
+      "bytes": 5360
+    },
+    "metric_control_results.json": {
+      "sha256": "c862ce493fbbfa6d98bd0d29fc9abd23fe20b282627ef42dfd8fe3faaf78be82",
+      "bytes": 9117
+    },
+    "REPORT.md": {
+      "sha256": "e20a10bb63440f5ce089d4cc57df1b506188e6efdee4a5d6869c31f79274c9e0",
+      "bytes": 10542
+    },
+    "SCREEN_REGISTER.md": {
+      "sha256": "57f78e22036048a5a5707529c8bcbfdea616e78fea8efe1f202e237e229b695c",
+      "bytes": 2236
+    },
+    "source_snapshot/AGENTS.md": {
+      "sha256": "2a8bb3dd088d5a545e1927408e82a8125d6c69c22e7edf5f2fc961736fa8975d",
+      "bytes": 813
+    },
+    "source_snapshot/experiments/endpoint_selection_deepening_20261121/factor_replay.py": {
+      "sha256": "dfa565de1b971aa8933ca855bec335406f9a44d129b58f99bd6864c925cd99c4",
+      "bytes": 3544
+    },
+    "source_snapshot/experiments/endpoint_selection_deepening_20261121/general_geometry_check.py": {
+      "sha256": "34ded3473bf136759f5a5a1a4fd033bffcbf6517795b30b683420c9b6707e7b9",
+      "bytes": 7717
+    },
+    "source_snapshot/experiments/endpoint_selection_deepening_20261121/metric_control.py": {
+      "sha256": "bc422a41b49a1dc9d18c9f3ae69acc9e3dd3ca9e0dccf318dd96d24146376598",
+      "bytes": 6233
+    },
+    "source_snapshot/experiments/endpoint_selection_deepening_20261121/package_archive.py": {
+      "sha256": "4e5fd808ea97fe21122c4660c0c1bd25f1ef092a63f34ea9711134685ff2568e",
+      "bytes": 5075
+    },
+    "source_snapshot/experiments/endpoint_selection_deepening_20261121/README.md": {
+      "sha256": "a60356bec808f15b044ea011efc13b92079ce2dbb60aea5d07a713054e8888ab",
+      "bytes": 2110
+    },
+    "source_snapshot/experiments/endpoint_selection_deepening_20261121/static_weight_quartic_mixed.py": {
+      "sha256": "12862e64bd62ac19653f6d8ff0087b9265fdddc614ffe2c71d1620af38643b31",
+      "bytes": 3534
+    },
+    "source_snapshot/experiments/endpoint_selection_deepening_20261121/static_weight_response.py": {
+      "sha256": "8f61ef84b5a02fa080ffe436741dc26351a208e93ae5a97dc1e3499d0021fa97",
+      "bytes": 7707
+    },
+    "source_snapshot/pyproject.toml": {
+      "sha256": "e23dbecaeb1a16d49d6216ff5020af6c4ae40301e06e463d350991a6a9b339f1",
+      "bytes": 542
+    },
+    "source_snapshot/requirements-lock.txt": {
+      "sha256": "71b86ff95f8e1315e393aa05f25241a83f246fa2e636b932bdfa6da0096435bf",
+      "bytes": 270
+    },
+    "static_weight_quartic_mixed_results.json": {
+      "sha256": "19d045ddd5ed0b47d986501421a24a2b76cc377a9f42c7ede14a21d6a21fdb98",
+      "bytes": 7597
+    },
+    "static_weight_response_results.json": {
+      "sha256": "853a06ada3407964410ce1d45b2d74aae4b9c7b3c0ab3ad02a13ed4fc673d089",
+      "bytes": 22388
+    },
+    "STATIC_WEIGHT_THEORY.md": {
+      "sha256": "a210f3bb14bbb4b5dd60bf12cd9ebd05f8f899e36947b7c57f72d00dc643a410",
+      "bytes": 14874
+    },
+    "VALIDATION_CHECKLIST.md": {
+      "sha256": "30601a4fdfaf912d5c3e7e61889c51999fa800d1fa93782daa3b2d0c98f2baf3",
+      "bytes": 2886
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "half_world_count": 96,
+  "invalid_half_worlds": 60,
+  "maximum_half_prevalence_error": 0.006724048493050805,
+  "maximum_independent_prevalence_integration_error": 0.06113215999397015,
+  "maximum_exact_threshold_plateau_mass": 0.06113205377294379,
+  "tail_mass_bound": 5.380186160021062e-32
+}

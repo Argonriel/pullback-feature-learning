@@ -1,0 +1,16 @@
+{
+  "unique_states": 48,
+  "seed_pairs": 8,
+  "branches": 384,
+  "derivative_points": 192,
+  "q_monotone_count": 48,
+  "unused_motion_monotone_count": 48,
+  "max_normalized_fd_error": 1.2582116356367871e-08,
+  "max_logit_match_relative_error": 2.220446049250313e-16,
+  "max_t1_parameter_relative_error": 2.9671980271246887e-12,
+  "max_fd_absolute_error": 3.027381123565931e-11,
+  "fixed_rate_z2_at_t9_over_t0_median": 0.029380755652185044,
+  "plan_sha256": "3c0448e027c8e3baf267ced9d1194127d5a8de94aa217b1353acedaf1c8e800b",
+  "generator_sha256": "885eb5c8d8878b57df1025c1a5a69b6978d4c2803f3f0e552c557170c7e355d2",
+  "stage1_bank_sha256": "71122d9627106dcff1012f28556d555332a6418ea04cc7bcf4354328ab423f7a"
+}

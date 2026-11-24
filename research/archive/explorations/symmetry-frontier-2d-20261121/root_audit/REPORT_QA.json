@@ -1,0 +1,16 @@
+{
+  "timestamp_utc": "2026-11-21T11:03:22.662831+00:00",
+  "pdf_sha256": "2f630a54f19950079f7e69ca1a2b2b127c19200916d1ec3274ca979ae1f0503b",
+  "pages": 6,
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "layout_status": "PASS",
+  "independent_accuracy_review": "PASS; per-model retention and signed Jmax sensitivity clarified",
+  "known_layout_defects": []
+}

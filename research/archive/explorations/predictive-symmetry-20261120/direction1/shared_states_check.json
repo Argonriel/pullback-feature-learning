@@ -1,0 +1,118 @@
+{
+  "rows": [
+    {
+      "seed": 1,
+      "training_x_equal": true,
+      "training_y_equal": true,
+      "initial_equal": true,
+      "pb100_equal": true
+    },
+    {
+      "seed": 2,
+      "training_x_equal": true,
+      "training_y_equal": true,
+      "initial_equal": true,
+      "pb100_equal": true
+    },
+    {
+      "seed": 3,
+      "training_x_equal": true,
+      "training_y_equal": true,
+      "initial_equal": true,
+      "pb100_equal": true
+    },
+    {
+      "seed": 4,
+      "training_x_equal": true,
+      "training_y_equal": true,
+      "initial_equal": true,
+      "pb100_equal": true
+    },
+    {
+      "seed": 5,
+      "training_x_equal": true,
+      "training_y_equal": true,
+      "initial_equal": true,
+      "pb100_equal": true
+    },
+    {
+      "seed": 6,
+      "training_x_equal": true,
+      "training_y_equal": true,
+      "initial_equal": true,
+      "pb100_equal": true
+    },
+    {
+      "seed": 7,
+      "training_x_equal": true,
+      "training_y_equal": true,
+      "initial_equal": true,
+      "pb100_equal": true
+    },
+    {
+      "seed": 8,
+      "training_x_equal": true,
+      "training_y_equal": true,
+      "initial_equal": true,
+      "pb100_equal": true
+    },
+    {
+      "seed": 9,
+      "training_x_equal": true,
+      "training_y_equal": true,
+      "initial_equal": true,
+      "pb100_equal": true
+    },
+    {
+      "seed": 10,
+      "training_x_equal": true,
+      "training_y_equal": true,
+      "initial_equal": true,
+      "pb100_equal": true
+    },
+    {
+      "seed": 11,
+      "training_x_equal": true,
+      "training_y_equal": true,
+      "initial_equal": true,
+      "pb100_equal": true
+    },
+    {
+      "seed": 12,
+      "training_x_equal": true,
+      "training_y_equal": true,
+      "initial_equal": true,
+      "pb100_equal": true
+    },
+    {
+      "seed": 13,
+      "training_x_equal": true,
+      "training_y_equal": true,
+      "initial_equal": true,
+      "pb100_equal": true
+    },
+    {
+      "seed": 14,
+      "training_x_equal": true,
+      "training_y_equal": true,
+      "initial_equal": true,
+      "pb100_equal": true
+    },
+    {
+      "seed": 15,
+      "training_x_equal": true,
+      "training_y_equal": true,
+      "initial_equal": true,
+      "pb100_equal": true
+    },
+    {
+      "seed": 16,
+      "training_x_equal": true,
+      "training_y_equal": true,
+      "initial_equal": true,
+      "pb100_equal": true
+    }
+  ],
+  "paired_synthetic_inputs_identical": true,
+  "paired_synthetic_initialization_identical": true
+}

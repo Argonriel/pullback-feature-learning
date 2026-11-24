@@ -1,0 +1,56 @@
+{
+  "timestamp_utc": "2026-11-21T08:56:41.475729+00:00",
+  "config": {
+    "epsilons": [
+      0.0,
+      0.1,
+      0.25,
+      0.5
+    ],
+    "primary_epsilon": 0.1,
+    "n_models": 16,
+    "n_test": 32768,
+    "n_mass": 16384,
+    "base_grid": [
+      128,
+      128
+    ],
+    "uniform_grid": [
+      128,
+      256
+    ],
+    "adaptive_root_grid": [
+      64,
+      128
+    ],
+    "adaptive_rounds": 24,
+    "adaptive_splits_per_round": 512,
+    "adaptive_budget": 65536,
+    "base_budget": 32768,
+    "uniform_budget": 65536,
+    "quota": 64,
+    "batch": 256,
+    "old_mass_seed": 8640000,
+    "old_test_seed": 8641000,
+    "old_tie_seed": 8642000,
+    "fresh_mass_seed": 8650000,
+    "fresh_test_seed": 8651000,
+    "fresh_tie_seed": 8652000,
+    "bootstrap_seed": 8653000,
+    "primary_method": "adaptive_joint",
+    "primary_min_coverage": 0.02,
+    "primary_min_oracle_gain_fraction": 0.5,
+    "additional_success": "Positive paired gain improvement over base_independent with pointwise95%model-bootstrap lower limit above0",
+    "numerical_padding": "1e-10*(1+max absolute endpoint); stationary residual >1e-7 triggers original-bound fallback",
+    "old_models": "Previously inspected historical PB500",
+    "fresh_models": "Locked original-ring PB500 states from confirmation; no ellipse claims"
+  },
+  "source_hashes": {
+    "study.py": "f08e125ca88cac76970a529265e9ea15ba2288e86591afd185fb5eedc56a6ddf",
+    "bounds.py": "b051c604728c20dea61293613fc555be7aee7e7b43371b52ca419ec1b26ace80",
+    "THEORY.md": "e786793e03833dac82202840a2ab6f8a61613a7499bc7ef85f405e7707fb00e8"
+  },
+  "protocol_sha256": "0f3ffc09af7c2749bc8db546bd1af41f36d504836800cdb485c15f84d1c46c9b",
+  "core_sha256": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5",
+  "fresh_outcomes_inspected": false
+}

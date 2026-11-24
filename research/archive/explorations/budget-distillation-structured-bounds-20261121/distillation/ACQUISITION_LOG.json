@@ -1,0 +1,13 @@
+{
+  "public_source": "Param Aggarwal Fashion Product Images Small version 1",
+  "metadata_retrieved": "https://www.kaggle.com/api/v1/datasets/view/paramaggarwal/fashion-product-images-small",
+  "failed_attempts": [
+    "Ordinary network requests failed DNS; escalated retrieval succeeded",
+    "Download suffix /1 returned HTTP404; version query datasetVersionNumber=1 succeeded",
+    "prepare_external using GPU environment failed import PIL before touching population; used existing .venv with Pillow13.0.0"
+  ],
+  "successful_population_environment": "existing .venv/Scripts/python.exe; numpy, Pillow13.0.0",
+  "full_zip_preserved_locally": true,
+  "compact_archive_exclusion": "external/fashion-product-images-small-v1.zip, 592614936 bytes; include DOWNLOAD.json digest+URL, all selected original JPEGs, complete styles.csv and exact population+manifest instead",
+  "external_image_outcome_tuning": false
+}

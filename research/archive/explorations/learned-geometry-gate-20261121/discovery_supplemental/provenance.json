@@ -1,0 +1,34 @@
+{
+  "assembled_utc": "2026-11-22T01:52:55.978826+00:00",
+  "finished_utc": "2026-11-22T01:52:55.978826+00:00",
+  "components": [
+    {
+      "path": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\learned-geometry-gate-20261121\\discovery",
+      "provenance_sha256": "68476202809e8eb122878ee4963bdcb2773c6e41e0c6976fdbf753387a9776de",
+      "original_max_steps": 6000
+    },
+    {
+      "path": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\learned-geometry-gate-20261121\\coverage_extension",
+      "provenance_sha256": "3497adb5d47d9faa5c8e20f29c6618a98fb28a2422134c7569cc93f5825f765f",
+      "original_max_steps": 60000
+    }
+  ],
+  "role": "Explicit supplemental composite; original component runs remain frozen.",
+  "run_count": 64,
+  "state_count": 256,
+  "completed_runs": 64,
+  "source_sha256": {
+    "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\experiments\\learned_geometry_gate_20261121\\assemble.py": "98d44a7837e2ca56d68c5c648e185ecf7d82c405f5fa0a4b30047ad36ab6c7a0"
+  },
+  "output_sha256": {
+    "actual_seeds.json": "6fc764d572e7791d8b01a41bca19b060ce38bd01568517b159c7943b41a7aa1f",
+    "config.json": "a48e6ba78859b28d00e1d88fb6ae8dd97dc8702dc47b8c57875540551dbf9fe5",
+    "data.npz": "4eec4a9a44094d978b8f03a9e968931f64d653421e48a29b84134f1741f0e180",
+    "overlap_checks.json": "f58b96aafbbcc62b9f331ad552204b39287f3866f8a8742d07bde1527e41b7fc",
+    "snapshots.csv": "0a0b3260ea5a905d9e060dcd3ef95329be4cebd65ec80e61bea5c96e986629f2",
+    "snapshots.json": "541d8c5c6a7eebe337c4a1865600c5f00e8626ac6b78134ef14a2a65da67fe7b",
+    "states.npz": "53224623b288049bbc2c7eea114c15bf85c39b668d32a32f35ad0d0e04b8632e",
+    "summaries.csv": "d297ab29e644522356550af4a5041e5c2c8d05d5ce0f7e6f67a3c6bc20f90a3a",
+    "trajectory.csv": "796dd659cc7c40e4eb781ade048cf872e019ffef33a1aa44478ce99a9a659deb"
+  }
+}

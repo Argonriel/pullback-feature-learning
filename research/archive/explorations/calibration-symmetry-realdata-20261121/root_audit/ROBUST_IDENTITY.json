@@ -1,0 +1,492 @@
+{
+  "timestamp_utc": "2026-11-21T22:18:54.872980+00:00",
+  "status": "PASS",
+  "source": "Prior completed model; new development streams2142001/2142002 only",
+  "cases": 48,
+  "max_identity_error": 1.1102230246251565e-15,
+  "beta_skip_scaling_explicit": true,
+  "posterior_valid": true,
+  "lower_bound_pointwise_passed": true,
+  "rows": [
+    {
+      "beta": 0.25,
+      "world": "fixed_odd",
+      "epsilon": 0.0,
+      "identity_error": 2.220446049250313e-16,
+      "actual_label_gap": 0.0,
+      "mean_direct_gain": 0.00525371060534498,
+      "global_D": 7.182866617286495,
+      "observed_max_d": 0.892778442883819
+    },
+    {
+      "beta": 0.25,
+      "world": "fixed_odd",
+      "epsilon": 0.025,
+      "identity_error": 2.92300905702092e-16,
+      "actual_label_gap": 0.02499999990613122,
+      "mean_direct_gain": 0.005122991674980878,
+      "global_D": 7.182866617286495,
+      "observed_max_d": 0.892778442883819
+    },
+    {
+      "beta": 0.25,
+      "world": "fixed_odd",
+      "epsilon": 0.05,
+      "identity_error": 2.8275992658421956e-16,
+      "actual_label_gap": 0.04999999981226244,
+      "mean_direct_gain": 0.004992272744616777,
+      "global_D": 7.182866617286495,
+      "observed_max_d": 0.892778442883819
+    },
+    {
+      "beta": 0.25,
+      "world": "fixed_odd",
+      "epsilon": 0.1,
+      "identity_error": 2.723515857283587e-16,
+      "actual_label_gap": 0.09999999962452466,
+      "mean_direct_gain": 0.004730834883888575,
+      "global_D": 7.182866617286495,
+      "observed_max_d": 0.892778442883819
+    },
+    {
+      "beta": 0.25,
+      "world": "fixed_odd",
+      "epsilon": 0.2,
+      "identity_error": 2.42861286636753e-16,
+      "actual_label_gap": 0.19999999924904932,
+      "mean_direct_gain": 0.004207959162432171,
+      "global_D": 7.182866617286495,
+      "observed_max_d": 0.892778442883819
+    },
+    {
+      "beta": 0.25,
+      "world": "fixed_odd",
+      "epsilon": 0.4,
+      "identity_error": 2.740863092043355e-16,
+      "actual_label_gap": 0.39999999849809864,
+      "mean_direct_gain": 0.0036782763578687085,
+      "global_D": 7.182866617286495,
+      "observed_max_d": 0.892778442883819
+    },
+    {
+      "beta": 0.25,
+      "world": "fixed_odd",
+      "epsilon": 0.8,
+      "identity_error": 2.740863092043355e-16,
+      "actual_label_gap": 0.7999999969961973,
+      "mean_direct_gain": 0.0034934744070763135,
+      "global_D": 7.182866617286495,
+      "observed_max_d": 0.892778442883819
+    },
+    {
+      "beta": 0.25,
+      "world": "fixed_odd",
+      "epsilon": 1.0,
+      "identity_error": 2.740863092043355e-16,
+      "actual_label_gap": 0.9955560494776705,
+      "mean_direct_gain": 0.003527506480746961,
+      "global_D": 7.182866617286495,
+      "observed_max_d": 0.892778442883819
+    },
+    {
+      "beta": 0.25,
+      "world": "adversarial",
+      "epsilon": 0.0,
+      "identity_error": 2.220446049250313e-16,
+      "actual_label_gap": 0.0,
+      "mean_direct_gain": 0.00525371060534498,
+      "global_D": 7.182866617286495,
+      "observed_max_d": 0.892778442883819
+    },
+    {
+      "beta": 0.25,
+      "world": "adversarial",
+      "epsilon": 0.025,
+      "identity_error": 2.1337098754514727e-16,
+      "actual_label_gap": 0.025000000000000022,
+      "mean_direct_gain": 0.004001358111827713,
+      "global_D": 7.182866617286495,
+      "observed_max_d": 0.892778442883819
+    },
+    {
+      "beta": 0.25,
+      "world": "adversarial",
+      "epsilon": 0.05,
+      "identity_error": 2.6281060661048627e-16,
+      "actual_label_gap": 0.050000000000000044,
+      "mean_direct_gain": 0.0027490056183104416,
+      "global_D": 7.182866617286495,
+      "observed_max_d": 0.892778442883819
+    },
+    {
+      "beta": 0.25,
+      "world": "adversarial",
+      "epsilon": 0.1,
+      "identity_error": 2.688821387764051e-16,
+      "actual_label_gap": 0.10000000000000009,
+      "mean_direct_gain": 0.0002443006312759042,
+      "global_D": 7.182866617286495,
+      "observed_max_d": 0.892778442883819
+    },
+    {
+      "beta": 0.25,
+      "world": "adversarial",
+      "epsilon": 0.2,
+      "identity_error": 2.498001805406602e-16,
+      "actual_label_gap": 0.20000000000000007,
+      "mean_direct_gain": -0.004765109342793165,
+      "global_D": 7.182866617286495,
+      "observed_max_d": 0.892778442883819
+    },
+    {
+      "beta": 0.25,
+      "world": "adversarial",
+      "epsilon": 0.4,
+      "identity_error": 2.3592239273284576e-16,
+      "actual_label_gap": 0.40000000000000013,
+      "mean_direct_gain": -0.010686089420791271,
+      "global_D": 7.182866617286495,
+      "observed_max_d": 0.892778442883819
+    },
+    {
+      "beta": 0.25,
+      "world": "adversarial",
+      "epsilon": 0.8,
+      "identity_error": 2.3592239273284576e-16,
+      "actual_label_gap": 0.8,
+      "mean_direct_gain": -0.016053367099890387,
+      "global_D": 7.182866617286495,
+      "observed_max_d": 0.892778442883819
+    },
+    {
+      "beta": 0.25,
+      "world": "adversarial",
+      "epsilon": 1.0,
+      "identity_error": 2.3592239273284576e-16,
+      "actual_label_gap": 0.999896119504716,
+      "mean_direct_gain": -0.01668599689435126,
+      "global_D": 7.182866617286495,
+      "observed_max_d": 0.892778442883819
+    },
+    {
+      "beta": 1.0,
+      "world": "fixed_odd",
+      "epsilon": 0.0,
+      "identity_error": 6.38378239159465e-16,
+      "actual_label_gap": 0.0,
+      "mean_direct_gain": 0.06507461345643153,
+      "global_D": 28.73146646914598,
+      "observed_max_d": 3.571113771535276
+    },
+    {
+      "beta": 1.0,
+      "world": "fixed_odd",
+      "epsilon": 0.025,
+      "identity_error": 6.522560269672795e-16,
+      "actual_label_gap": 0.02499999990613122,
+      "mean_direct_gain": 0.06456008840648231,
+      "global_D": 28.73146646914598,
+      "observed_max_d": 3.571113771535276
+    },
+    {
+      "beta": 1.0,
+      "world": "fixed_odd",
+      "epsilon": 0.05,
+      "identity_error": 6.800116025829084e-16,
+      "actual_label_gap": 0.04999999981226244,
+      "mean_direct_gain": 0.06404556335653308,
+      "global_D": 28.73146646914598,
+      "observed_max_d": 3.571113771535276
+    },
+    {
+      "beta": 1.0,
+      "world": "fixed_odd",
+      "epsilon": 0.1,
+      "identity_error": 5.828670879282072e-16,
+      "actual_label_gap": 0.09999999962452466,
+      "mean_direct_gain": 0.06301651325663463,
+      "global_D": 28.73146646914598,
+      "observed_max_d": 3.571113771535276
+    },
+    {
+      "beta": 1.0,
+      "world": "fixed_odd",
+      "epsilon": 0.2,
+      "identity_error": 6.38378239159465e-16,
+      "actual_label_gap": 0.19999999924904932,
+      "mean_direct_gain": 0.06095841305683773,
+      "global_D": 28.73146646914598,
+      "observed_max_d": 3.571113771535276
+    },
+    {
+      "beta": 1.0,
+      "world": "fixed_odd",
+      "epsilon": 0.4,
+      "identity_error": 5.828670879282072e-16,
+      "actual_label_gap": 0.39999999849809864,
+      "mean_direct_gain": 0.058852981575318875,
+      "global_D": 28.73146646914598,
+      "observed_max_d": 3.571113771535276
+    },
+    {
+      "beta": 1.0,
+      "world": "fixed_odd",
+      "epsilon": 0.8,
+      "identity_error": 5.828670879282072e-16,
+      "actual_label_gap": 0.7999999969961973,
+      "mean_direct_gain": 0.05805262948789216,
+      "global_D": 28.73146646914598,
+      "observed_max_d": 3.571113771535276
+    },
+    {
+      "beta": 1.0,
+      "world": "fixed_odd",
+      "epsilon": 1.0,
+      "identity_error": 5.828670879282072e-16,
+      "actual_label_gap": 0.9955560494776705,
+      "mean_direct_gain": 0.05812912678280206,
+      "global_D": 28.73146646914598,
+      "observed_max_d": 3.571113771535276
+    },
+    {
+      "beta": 1.0,
+      "world": "adversarial",
+      "epsilon": 0.0,
+      "identity_error": 6.38378239159465e-16,
+      "actual_label_gap": 0.0,
+      "mean_direct_gain": 0.06507461345643153,
+      "global_D": 28.73146646914598,
+      "observed_max_d": 3.571113771535276
+    },
+    {
+      "beta": 1.0,
+      "world": "adversarial",
+      "epsilon": 0.025,
+      "identity_error": 6.38378239159465e-16,
+      "actual_label_gap": 0.025000000000000022,
+      "mean_direct_gain": 0.06021108389222923,
+      "global_D": 28.73146646914598,
+      "observed_max_d": 3.571113771535276
+    },
+    {
+      "beta": 1.0,
+      "world": "adversarial",
+      "epsilon": 0.05,
+      "identity_error": 5.689893001203927e-16,
+      "actual_label_gap": 0.050000000000000044,
+      "mean_direct_gain": 0.055347554328026904,
+      "global_D": 28.73146646914598,
+      "observed_max_d": 3.571113771535276
+    },
+    {
+      "beta": 1.0,
+      "world": "adversarial",
+      "epsilon": 0.1,
+      "identity_error": 6.106226635438361e-16,
+      "actual_label_gap": 0.10000000000000009,
+      "mean_direct_gain": 0.0456204951996223,
+      "global_D": 28.73146646914598,
+      "observed_max_d": 3.571113771535276
+    },
+    {
+      "beta": 1.0,
+      "world": "adversarial",
+      "epsilon": 0.2,
+      "identity_error": 6.106226635438361e-16,
+      "actual_label_gap": 0.20000000000000007,
+      "mean_direct_gain": 0.026166376942813093,
+      "global_D": 28.73146646914598,
+      "observed_max_d": 3.571113771535276
+    },
+    {
+      "beta": 1.0,
+      "world": "adversarial",
+      "epsilon": 0.4,
+      "identity_error": 6.106226635438361e-16,
+      "actual_label_gap": 0.40000000000000013,
+      "mean_direct_gain": 0.001262957940029055,
+      "global_D": 28.73146646914598,
+      "observed_max_d": 3.571113771535276
+    },
+    {
+      "beta": 1.0,
+      "world": "adversarial",
+      "epsilon": 0.8,
+      "identity_error": 6.106226635438361e-16,
+      "actual_label_gap": 0.8,
+      "mean_direct_gain": -0.021587976604781033,
+      "global_D": 28.73146646914598,
+      "observed_max_d": 3.571113771535276
+    },
+    {
+      "beta": 1.0,
+      "world": "adversarial",
+      "epsilon": 1.0,
+      "identity_error": 6.106226635438361e-16,
+      "actual_label_gap": 0.999896119504716,
+      "mean_direct_gain": -0.02429655985602918,
+      "global_D": 28.73146646914598,
+      "observed_max_d": 3.571113771535276
+    },
+    {
+      "beta": 2.0,
+      "world": "fixed_odd",
+      "epsilon": 0.0,
+      "identity_error": 8.881784197001252e-16,
+      "actual_label_gap": 0.0,
+      "mean_direct_gain": 0.18687031101582446,
+      "global_D": 57.46293293829196,
+      "observed_max_d": 7.142227543070552
+    },
+    {
+      "beta": 2.0,
+      "world": "fixed_odd",
+      "epsilon": 0.025,
+      "identity_error": 6.661338147750939e-16,
+      "actual_label_gap": 0.02499999990613122,
+      "mean_direct_gain": 0.1858101587247095,
+      "global_D": 57.46293293829196,
+      "observed_max_d": 7.142227543070552
+    },
+    {
+      "beta": 2.0,
+      "world": "fixed_odd",
+      "epsilon": 0.05,
+      "identity_error": 8.881784197001252e-16,
+      "actual_label_gap": 0.04999999981226244,
+      "mean_direct_gain": 0.18475000643359452,
+      "global_D": 57.46293293829196,
+      "observed_max_d": 7.142227543070552
+    },
+    {
+      "beta": 2.0,
+      "world": "fixed_odd",
+      "epsilon": 0.1,
+      "identity_error": 8.881784197001252e-16,
+      "actual_label_gap": 0.09999999962452466,
+      "mean_direct_gain": 0.18262970185136454,
+      "global_D": 57.46293293829196,
+      "observed_max_d": 7.142227543070552
+    },
+    {
+      "beta": 2.0,
+      "world": "fixed_odd",
+      "epsilon": 0.2,
+      "identity_error": 8.881784197001252e-16,
+      "actual_label_gap": 0.19999999924904932,
+      "mean_direct_gain": 0.17838909268690462,
+      "global_D": 57.46293293829196,
+      "observed_max_d": 7.142227543070552
+    },
+    {
+      "beta": 2.0,
+      "world": "fixed_odd",
+      "epsilon": 0.4,
+      "identity_error": 1.1102230246251565e-15,
+      "actual_label_gap": 0.39999999849809864,
+      "mean_direct_gain": 0.1744799516797937,
+      "global_D": 57.46293293829196,
+      "observed_max_d": 7.142227543070552
+    },
+    {
+      "beta": 2.0,
+      "world": "fixed_odd",
+      "epsilon": 0.8,
+      "identity_error": 1.1102230246251565e-15,
+      "actual_label_gap": 0.7999999969961973,
+      "mean_direct_gain": 0.17367841128285286,
+      "global_D": 57.46293293829196,
+      "observed_max_d": 7.142227543070552
+    },
+    {
+      "beta": 2.0,
+      "world": "fixed_odd",
+      "epsilon": 1.0,
+      "identity_error": 1.1102230246251565e-15,
+      "actual_label_gap": 0.9955560494776705,
+      "mean_direct_gain": 0.17397434803765482,
+      "global_D": 57.46293293829196,
+      "observed_max_d": 7.142227543070552
+    },
+    {
+      "beta": 2.0,
+      "world": "adversarial",
+      "epsilon": 0.0,
+      "identity_error": 8.881784197001252e-16,
+      "actual_label_gap": 0.0,
+      "mean_direct_gain": 0.18687031101582446,
+      "global_D": 57.46293293829196,
+      "observed_max_d": 7.142227543070552
+    },
+    {
+      "beta": 2.0,
+      "world": "adversarial",
+      "epsilon": 0.025,
+      "identity_error": 8.881784197001252e-16,
+      "actual_label_gap": 0.025000000000000022,
+      "mean_direct_gain": 0.1774320160075823,
+      "global_D": 57.46293293829196,
+      "observed_max_d": 7.142227543070552
+    },
+    {
+      "beta": 2.0,
+      "world": "adversarial",
+      "epsilon": 0.05,
+      "identity_error": 8.881784197001252e-16,
+      "actual_label_gap": 0.050000000000000044,
+      "mean_direct_gain": 0.1679937209993401,
+      "global_D": 57.46293293829196,
+      "observed_max_d": 7.142227543070552
+    },
+    {
+      "beta": 2.0,
+      "world": "adversarial",
+      "epsilon": 0.1,
+      "identity_error": 8.881784197001252e-16,
+      "actual_label_gap": 0.10000000000000009,
+      "mean_direct_gain": 0.14911713098285573,
+      "global_D": 57.46293293829196,
+      "observed_max_d": 7.142227543070552
+    },
+    {
+      "beta": 2.0,
+      "world": "adversarial",
+      "epsilon": 0.2,
+      "identity_error": 7.771561172376096e-16,
+      "actual_label_gap": 0.20000000000000007,
+      "mean_direct_gain": 0.11136395094988698,
+      "global_D": 57.46293293829196,
+      "observed_max_d": 7.142227543070552
+    },
+    {
+      "beta": 2.0,
+      "world": "adversarial",
+      "epsilon": 0.4,
+      "identity_error": 8.881784197001252e-16,
+      "actual_label_gap": 0.40000000000000013,
+      "mean_direct_gain": 0.06185721726054112,
+      "global_D": 57.46293293829196,
+      "observed_max_d": 7.142227543070552
+    },
+    {
+      "beta": 2.0,
+      "world": "adversarial",
+      "epsilon": 0.8,
+      "identity_error": 8.881784197001252e-16,
+      "actual_label_gap": 0.8,
+      "mean_direct_gain": 0.016606731860431267,
+      "global_D": 57.46293293829196,
+      "observed_max_d": 7.142227543070552
+    },
+    {
+      "beta": 2.0,
+      "world": "adversarial",
+      "epsilon": 1.0,
+      "identity_error": 8.881784197001252e-16,
+      "actual_label_gap": 0.999896119504716,
+      "mean_direct_gain": 0.01126211972399549,
+      "global_D": 57.46293293829196,
+      "observed_max_d": 7.142227543070552
+    }
+  ]
+}

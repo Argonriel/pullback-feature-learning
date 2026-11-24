@@ -1,0 +1,62 @@
+{
+  "scope": "One large-target check; proof, not this case, establishes global convergence.",
+  "source_sha256": "9c1fbdd92a6f937bda90f3e4107961de0a11fd973b11a0b6bc72c9c50531522c",
+  "dependency_sha256": "f46d0411bd8ec1fec86cbefc56b3f82f1f90910d279d36c072715e3e4984112b",
+  "dependency_name": "verify_finite_damping.py",
+  "damping": 4.0,
+  "horizon": 300.0,
+  "target_displacement_norm": 3.291318504006684,
+  "strict_feasible_minimum_eigenvalue": 0.3000000000000001,
+  "euclidean_interpolant_minimum_eigenvalue": -0.5087384098464445,
+  "prediction_minimum_eigenvalue": 0.11171476211110065,
+  "prediction_steps": 6,
+  "prediction_invariant_residual": 4.7791200441584545e-15,
+  "fine_weight_gap": 1.4016535243654131e-11,
+  "refinement_errors": [
+    6.413788919319961e-11,
+    2.863968911833236e-10
+  ],
+  "records": [
+    {
+      "dt": 0.025,
+      "steps": 12000,
+      "horizon": 300.0,
+      "measurement_residual": 1.6723844936806767e-12,
+      "minimum_sampled_eigenvalue": 0.11171476207878642,
+      "max_sampled_invariant_drift": 5.057031544454881e-10,
+      "weight_index": 0,
+      "prediction_error": 6.928283486085124e-11
+    },
+    {
+      "dt": 0.0125,
+      "steps": 24000,
+      "horizon": 300.0,
+      "measurement_residual": 1.699613832043424e-12,
+      "minimum_sampled_eigenvalue": 0.11171476210981726,
+      "max_sampled_invariant_drift": 3.1828730028312866e-11,
+      "weight_index": 0,
+      "prediction_error": 5.467844715705172e-12
+    },
+    {
+      "dt": 0.025,
+      "steps": 12000,
+      "horizon": 300.0,
+      "measurement_residual": 4.8282193991052216e-14,
+      "minimum_sampled_eigenvalue": 0.11171476196412997,
+      "max_sampled_invariant_drift": 2.1982896643179796e-09,
+      "weight_index": 1,
+      "prediction_error": 3.05514361517023e-10
+    },
+    {
+      "dt": 0.0125,
+      "steps": 24000,
+      "horizon": 300.0,
+      "measurement_residual": 9.690258128230162e-14,
+      "minimum_sampled_eigenvalue": 0.11171476210198053,
+      "max_sampled_invariant_drift": 1.3779393304664935e-10,
+      "weight_index": 1,
+      "prediction_error": 1.911776893138483e-11
+    }
+  ],
+  "passed": true
+}

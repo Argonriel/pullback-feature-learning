@@ -1,0 +1,22 @@
+% Manuscript fragment for use after the allocation study.
+% If adding the figure, place switch_time.pdf beside the main LaTeX file.
+\subsection{When does changing the optimizer change the preferred routing rule?}
+\label{sec:switch-time}
+
+We asked whether switching from pullback to gradient descent (GD) changes which inputs benefit most from a second view. The region rule assigns its 64 extra predictions per batch of 256 to inputs with the largest estimated half-turn benefit in their radius and angle region. The confidence rule uses the same budget on the least confident first predictions. Let \(D=L_{\mathrm{region}}-L_{\mathrm{confidence}}\), expressed in nats per example. Positive values favor confidence.
+
+\paragraph{Two distinct timing questions.}
+We varied the number of pullback updates before switching to GD over
+\(\{0,25,50,100,150,200,250,300,350,400,450,475,500\}\), holding total training at 500 full-batch updates. We also forked training at updates 100 and 350 and followed each switched model alongside a continued-pullback control. The main sweep used pullback rate 8 with damping 0.1 and GD rate 2. Every schedule within a seed shared its training data, initial weights, 8,192 unlabeled calibration inputs and 32,768 held-out inputs. Sixteen new seed pairs repeated the design used on the original sixteen.
+
+\paragraph{The change in preference replicated.}
+For all-pullback training, confidence produced lower risk in 31 of 32 seeds. After 100 pullback and 400 GD updates the region rule won in 12 of 16 original seeds and 12 of 16 new seeds. In the independent cohort the switch lowered \(D\) by 0.00279 nats on average (paired 95\% bootstrap interval \(0.00122\) to \(0.00492\)). The interval for \(D\) under the switched schedule alone, \([-0.00283,0.00055]\), spanned zero. The replicated evidence is strongest for the change in relative performance induced by the training schedule.
+
+\paragraph{Timing varies across trained models.}
+After switching at update 100, the number of seeds favoring the region rule across both cohorts was 8/32 at 200 GD updates, 12/32 at 250, 15/32 at 300, 20/32 at 350, and 24/32 at 400. At 250 updates the independent cohort's mean already favored the region rule while its median still favored confidence. The original cohort's mean crossed zero between 250 and 300 updates. The early switched trajectories also showed temporary excursions. One validation seed at 250 GD updates had \(D=-0.140\) nats. These temporary changes of sign and the differences among seeds prevent locating a common crossover step. Continued-pullback controls favored confidence on average at every sampled age in both cohorts.
+
+\paragraph{Accounting for the reversal.}
+Let \(F\) denote the gain of the region rule over single-view loss. Write the confidence gain as \(S+A\), where \(S\) is the symmetric contribution from combining the two logits and \(A\) is the signed contribution from preferentially correcting one starting orientation. The identity \(D=A-(F-S)\) compares the confidence rule's orientation benefit with the region rule's extra symmetric benefit. In the original cohort the two benefits were 0.00438 and 0.00185 under all pullback and 0.00152 and 0.00209 after switching at 100. In the independent cohort the corresponding pairs were 0.00342 and 0.00149, then 0.00445 and 0.00531. The orientation benefit remained positive in each comparison. The relative ordering replicated even though individual terms moved differently across cohorts.
+
+\paragraph{Learning rate controls the reversal at fixed training time.}
+Starting from the same update-100 checkpoint, changing the GD rate while holding the next 400 updates fixed changed the number of seeds favoring the region rule from 3/32 (rate 0.5), to 14/32 (rate 1), to 24/32 (rate 2). The change from 0.5 to 2 moved \(D\) toward the region rule in 31/32 matched seeds. These differences tie the endpoint result to both the training method and its update size. The 13-schedule sweep does not yield a universal switch-time threshold.

@@ -1,0 +1,299 @@
+[
+  {
+    "seed": 1,
+    "policy": "group_balanced",
+    "calls": [
+      65536,
+      16384
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  },
+  {
+    "seed": 1,
+    "policy": "group_unbalanced",
+    "calls": [
+      65536,
+      16384
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  },
+  {
+    "seed": 1,
+    "policy": "group_even",
+    "calls": [
+      65536,
+      16384
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  },
+  {
+    "seed": 1,
+    "policy": "group_uniform",
+    "calls": [
+      65536,
+      16384
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  },
+  {
+    "seed": 1,
+    "policy": "group_confidence",
+    "calls": [
+      65536,
+      16384
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  },
+  {
+    "seed": 1,
+    "policy": "confidence",
+    "calls": [
+      65536,
+      16384
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  },
+  {
+    "seed": 1,
+    "policy": "radius",
+    "calls": [
+      65536,
+      16384
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  },
+  {
+    "seed": 1,
+    "policy": "folded",
+    "calls": [
+      65536,
+      16384
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  },
+  {
+    "seed": 1,
+    "policy": "raw",
+    "calls": [
+      65536
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  },
+  {
+    "seed": 1,
+    "policy": "full",
+    "calls": [
+      65536,
+      65536
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  },
+  {
+    "seed": 8,
+    "policy": "group_balanced",
+    "calls": [
+      65536,
+      16384
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  },
+  {
+    "seed": 8,
+    "policy": "group_unbalanced",
+    "calls": [
+      65536,
+      16384
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  },
+  {
+    "seed": 8,
+    "policy": "group_even",
+    "calls": [
+      65536,
+      16384
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  },
+  {
+    "seed": 8,
+    "policy": "group_uniform",
+    "calls": [
+      65536,
+      16384
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  },
+  {
+    "seed": 8,
+    "policy": "group_confidence",
+    "calls": [
+      65536,
+      16384
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  },
+  {
+    "seed": 8,
+    "policy": "confidence",
+    "calls": [
+      65536,
+      16384
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  },
+  {
+    "seed": 8,
+    "policy": "radius",
+    "calls": [
+      65536,
+      16384
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  },
+  {
+    "seed": 8,
+    "policy": "folded",
+    "calls": [
+      65536,
+      16384
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  },
+  {
+    "seed": 8,
+    "policy": "raw",
+    "calls": [
+      65536
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  },
+  {
+    "seed": 8,
+    "policy": "full",
+    "calls": [
+      65536,
+      65536
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  },
+  {
+    "seed": 16,
+    "policy": "group_balanced",
+    "calls": [
+      65536,
+      16384
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  },
+  {
+    "seed": 16,
+    "policy": "group_unbalanced",
+    "calls": [
+      65536,
+      16384
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  },
+  {
+    "seed": 16,
+    "policy": "group_even",
+    "calls": [
+      65536,
+      16384
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  },
+  {
+    "seed": 16,
+    "policy": "group_uniform",
+    "calls": [
+      65536,
+      16384
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  },
+  {
+    "seed": 16,
+    "policy": "group_confidence",
+    "calls": [
+      65536,
+      16384
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  },
+  {
+    "seed": 16,
+    "policy": "confidence",
+    "calls": [
+      65536,
+      16384
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  },
+  {
+    "seed": 16,
+    "policy": "radius",
+    "calls": [
+      65536,
+      16384
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  },
+  {
+    "seed": 16,
+    "policy": "folded",
+    "calls": [
+      65536,
+      16384
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  },
+  {
+    "seed": 16,
+    "policy": "raw",
+    "calls": [
+      65536
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  },
+  {
+    "seed": 16,
+    "policy": "full",
+    "calls": [
+      65536,
+      65536
+    ],
+    "mask_matches": true,
+    "rings_risk_error": 0.0
+  }
+]

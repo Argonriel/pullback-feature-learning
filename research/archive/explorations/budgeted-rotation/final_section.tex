@@ -1,0 +1,45 @@
+% Manuscript fragment. Use amsmath, amssymb, booktabs, and the supplied references.bib.
+\section{Which inputs deserve a second view?}
+\label{sec:budgeted-rotation}
+
+The noisy rings have a radial class posterior, yet a trained network assigns different logits to different angles at the same radius. We used this discrepancy to ask an inference question: given one extra evaluation for only a quarter of incoming inputs, where does a half-turn reduce the most logistic loss? Group averaging and the log-loss benefit of combining disagreeing predictions have established theoretical treatments \cite{lyle2020invariance,wood2023diversity}. Prior methods also choose transformations per example or stop evaluating them when the prediction becomes sufficiently confident \cite{kim2020learningloss,mocerino2021adaptta}. Our contribution is a controlled test of a label-free allocation criterion on a problem with a known posterior. We compare learned geometries under an exact per-batch budget and resolve the behavior of a confidence baseline through a symmetry decomposition.
+
+\paragraph{An allocation rule from symmetry.}
+Let $T x=-x$, $a=h(x)$, $b=h(Tx)$, $m=(a+b)/2$ and $B(s)=\log(1+e^s)$. Write $\ell(y,s)=B(s)-ys$, with $y\in\{0,1\}$. Averaging the loss improvement of the two orientations cancels the label term:
+\[
+d(x)=\tfrac12\{\ell(y,a)+\ell(y,b)\}-\ell(y,m)
+    =\tfrac12\{B(a)+B(b)\}-B(m)\ \geq\ 0.
+\]
+Under the joint half-turn symmetry of $(X,Y)$, the expected improvement given any invariant cell $C(x)=C(-x)$ is therefore $\mu(C)=\mathbb E[d(X)\mid C]$. The expensive second view is available offline when estimating $\mu$. At deployment the policy reads only the cell. With equal second-view costs, choosing the $k$ largest true cell scores in an independent batch maximizes expected loss reduction among policies using those cells: exchanging an included score for a larger excluded score increases the sum. If every estimated cell score is within $\epsilon$ of its true value, the shortfall in batch-average gain is at most $2k\epsilon/n$ for a batch of size $n$. The conditional mean and cost threshold are connected to earlier optimal-deferral rules \cite{jitkrittum2023cascade}.
+
+\paragraph{Experiment.}
+Sixteen new training draws each produced three 500-update models: GD, damped representation pullback, and a hybrid switching to GD after 100 pullback updates. The training configuration came from earlier experiments. For each frozen model, 8,192 independent unlabeled inputs supplied paired logits at $x$ and $-x$. We averaged $d$ in 16 radial quantile bins crossed with eight equal bins in angle modulo $\pi$. On a separate draw of 32,768 inputs, each batch of 256 received exactly 64 extra views. We estimated population logistic risk using the known class posterior and both antipodal orientations. Each seed contributed one risk estimate per policy.
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrr}
+\toprule
+Training method & Single view & Random 25\% & Selected 25\% & All two-view & Gain retained\\
+\midrule
+GD & 0.17744 & 0.17038 & 0.15630 & 0.14918 & 74.8\%\\
+Pullback & 0.11038 & 0.10803 & 0.10123 & 0.10097 & 97.2\%\\
+Pullback then GD & 0.06127 & 0.05696 & 0.04460 & 0.04405 & 96.8\%\\
+\bottomrule
+\end{tabular}
+\caption{Mean population log-loss estimates (nats per input). Gain retained is the selected policy's reduction from single-view loss divided by the all-input half-turn reduction, using pooled means. Random allocation retains 25\% in expectation.}
+\end{table}
+
+For full pullback, the invariant policy reduced loss by 0.00680 nats per input relative to random allocation (paired 95\% seed-bootstrap interval $[0.00515,0.00862]$). All 16 comparisons favored learned allocation. Routing by radius alone retained 91.7\% of the all-input gain; selecting the inputs closest to the true Bayes boundary retained 83.1\%. A separate polar integration showed that the half-turn itself removed 60.3\% of this model family's total angular loss penalty. Angular errors that repeat after a half-turn survive two-view averaging, and the radial component of risk is preserved.
+
+\paragraph{A stronger baseline reveals a limit.}
+After the main comparison we fixed a second policy: give the extra view to the 64 smallest values of $|h(x)|$. This requires no calibration. On a disjoint evaluation draw with the same 48 frozen models, confidence routing beat invariant routing on every GD and full-pullback seed. For full pullback, the two risks were 0.09860 and 0.10113, a difference of 0.00253 nats ($[0.00198,0.00317]$). On the hybrid models invariant routing gave lower risk on 12 of 16 seeds, with a mean advantage of 0.00057 nats.
+
+The distinction is visible algebraically. Let $s_+$ and $s_-$ flag purchase of a second view for the two base orientations. The average loss reduction over the pair is
+\[
+ \frac{s_++s_-}{2}\,d(x)
+ +\frac{s_+-s_-}{4}\{\ell(y,a)-\ell(y,b)\}.
+\]
+An invariant policy makes the second term zero. A confidence policy can choose the worse of two orientations more often, in which case the signed term adds to its benefit. On the pullback models, confidence routing gave up 0.00212 nats of available symmetric gain by skipping inputs, yet gained 0.00438 from orientation-specific decisions. Consequently its mean loss was 0.00227 lower than always averaging. The sign of the orientation term depends on the model's errors and carries no general benefit guarantee.
+
+\paragraph{Computational scope.}
+The invariant policy uses 1.25 model evaluations per incoming example after paying for 16,384 calibration evaluations per model. Measured on the small CPU network, its median inference time was 0.109 ms per batch of 256 on the first pullback model, versus 0.069 ms for evaluating both orientations throughout. Computing coordinates and sorting the batch dominated the saved forward work. The experiment demonstrates a tradeoff in model evaluations; a wall-time benefit on more expensive networks remains an empirical question.

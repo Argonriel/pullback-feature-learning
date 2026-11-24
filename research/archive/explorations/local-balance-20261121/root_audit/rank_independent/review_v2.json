@@ -1,0 +1,59 @@
+{
+  "rank_probability_error": 7.815970093361102e-14,
+  "cdf_formula_error": 2.220446049250313e-16,
+  "fft_modular_max_C_error": 8.326672684688674e-17,
+  "fft_modular_max_b_error": 2.7755575615628914e-17,
+  "fft_float_wrap_max_C_error": 5.551115123125783e-17,
+  "fft_float_wrap_max_b_error": 4.076509203087449e-17,
+  "hull_checks": [
+    {
+      "row": 10,
+      "value_error": 6.776263578034403e-21,
+      "moment_residual": 0.0
+    },
+    {
+      "row": 32,
+      "value_error": 0.0,
+      "moment_residual": 0.0
+    },
+    {
+      "row": 53,
+      "value_error": 0.0,
+      "moment_residual": 2.710505431213761e-20
+    },
+    {
+      "row": 64,
+      "value_error": 1.3877787807814457e-17,
+      "moment_residual": 6.938893903907228e-18
+    },
+    {
+      "row": 90,
+      "value_error": 0.0,
+      "moment_residual": 0.0
+    },
+    {
+      "row": 127,
+      "value_error": 0.0,
+      "moment_residual": 0.0
+    }
+  ],
+  "quota_checks": [
+    {
+      "policy": "rank_balanced",
+      "min_count": 64,
+      "max_count": 64
+    },
+    {
+      "policy": "rank_even",
+      "min_count": 64,
+      "max_count": 64
+    },
+    {
+      "policy": "rank_unbalanced",
+      "min_count": 64,
+      "max_count": 64
+    }
+  ],
+  "even_partial_flip_mask_identical": true,
+  "notes": "Quarter-grid phases remove the old wrap-node ambiguity. Both modular and floating-coordinate direct sums agree with FFT. Finite anchor residuals still do not establish exact continuous balance."
+}

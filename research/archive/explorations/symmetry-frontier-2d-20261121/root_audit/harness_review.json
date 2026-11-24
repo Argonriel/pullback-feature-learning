@@ -1,0 +1,282 @@
+{
+  "utc": "2026-11-21T10:54:55.916458+00:00",
+  "scope": "Pre-release harness review using three development models; no fresh states read.",
+  "source_hashes": {
+    "validation\\study.py": "51d7bcccc020fafe39624c7aa2973e36d18312a93c0311994561846a879fea3e",
+    "validation\\adapters.py": "bb63cbd3443fe50fafb5dfb62ed7495aaab1782cb20fba036fcdf6452395cfb4",
+    "validation\\PROTOCOL.md": "584847e2b8d914412e9e15863dd791956e2e293f3f148d6926e803cf0b6618fb",
+    "method\\baseline.py": "652b9f68f021bbd05b2031e26325e495e3a3cf1ff423c89680bc6335592d6ac3"
+  },
+  "rows": [
+    {
+      "cohort": "rings",
+      "policy": "raw",
+      "actual_calls": [
+        256
+      ],
+      "selected": 0,
+      "mask_changes": 0,
+      "output_max_error": 0.0
+    },
+    {
+      "cohort": "rings",
+      "policy": "full",
+      "actual_calls": [
+        256,
+        256
+      ],
+      "selected": 256,
+      "mask_changes": 0,
+      "output_max_error": 0.0
+    },
+    {
+      "cohort": "rings",
+      "policy": "confidence",
+      "actual_calls": [
+        256,
+        64
+      ],
+      "selected": 64,
+      "mask_changes": 0,
+      "output_max_error": 0.0
+    },
+    {
+      "cohort": "rings",
+      "policy": "folded_legacy",
+      "actual_calls": [
+        256,
+        64
+      ],
+      "selected": 64,
+      "mask_changes": 0,
+      "output_max_error": 0.0
+    },
+    {
+      "cohort": "rings",
+      "policy": "folded",
+      "actual_calls": [
+        256,
+        64
+      ],
+      "selected": 64,
+      "mask_changes": 0,
+      "output_max_error": 0.0
+    },
+    {
+      "cohort": "rings",
+      "policy": "symmetric_jensen",
+      "actual_calls": [
+        256,
+        64
+      ],
+      "selected": 64,
+      "mask_changes": 0,
+      "output_max_error": 0.0
+    },
+    {
+      "cohort": "rings",
+      "policy": "grid_nearest",
+      "actual_calls": [
+        256,
+        64
+      ],
+      "selected": 64,
+      "mask_changes": 0,
+      "output_max_error": 0.0
+    },
+    {
+      "cohort": "rings",
+      "policy": "oracle_jensen",
+      "actual_calls": [
+        256,
+        256
+      ],
+      "selected": 64,
+      "mask_changes": 0,
+      "output_max_error": 0.0
+    },
+    {
+      "cohort": "waveform",
+      "policy": "raw",
+      "actual_calls": [
+        256
+      ],
+      "selected": 0,
+      "mask_changes": 0,
+      "output_max_error": 0.0
+    },
+    {
+      "cohort": "waveform",
+      "policy": "full",
+      "actual_calls": [
+        256,
+        256
+      ],
+      "selected": 256,
+      "mask_changes": 0,
+      "output_max_error": 0.0
+    },
+    {
+      "cohort": "waveform",
+      "policy": "confidence",
+      "actual_calls": [
+        256,
+        64
+      ],
+      "selected": 64,
+      "mask_changes": 0,
+      "output_max_error": 0.0
+    },
+    {
+      "cohort": "waveform",
+      "policy": "folded_legacy",
+      "actual_calls": [
+        256,
+        64
+      ],
+      "selected": 64,
+      "mask_changes": 0,
+      "output_max_error": 0.0
+    },
+    {
+      "cohort": "waveform",
+      "policy": "folded",
+      "actual_calls": [
+        256,
+        64
+      ],
+      "selected": 64,
+      "mask_changes": 0,
+      "output_max_error": 0.0
+    },
+    {
+      "cohort": "waveform",
+      "policy": "symmetric_jensen",
+      "actual_calls": [
+        256,
+        64
+      ],
+      "selected": 64,
+      "mask_changes": 0,
+      "output_max_error": 0.0
+    },
+    {
+      "cohort": "waveform",
+      "policy": "grid_nearest",
+      "actual_calls": [
+        256,
+        64
+      ],
+      "selected": 64,
+      "mask_changes": 0,
+      "output_max_error": 0.0
+    },
+    {
+      "cohort": "waveform",
+      "policy": "oracle_jensen",
+      "actual_calls": [
+        256,
+        256
+      ],
+      "selected": 64,
+      "mask_changes": 0,
+      "output_max_error": 0.0
+    },
+    {
+      "cohort": "two_invariants",
+      "policy": "raw",
+      "actual_calls": [
+        256
+      ],
+      "selected": 0,
+      "mask_changes": 0,
+      "output_max_error": 0.0
+    },
+    {
+      "cohort": "two_invariants",
+      "policy": "full",
+      "actual_calls": [
+        256,
+        256
+      ],
+      "selected": 256,
+      "mask_changes": 0,
+      "output_max_error": 0.0
+    },
+    {
+      "cohort": "two_invariants",
+      "policy": "confidence",
+      "actual_calls": [
+        256,
+        64
+      ],
+      "selected": 64,
+      "mask_changes": 0,
+      "output_max_error": 0.0
+    },
+    {
+      "cohort": "two_invariants",
+      "policy": "folded_legacy",
+      "actual_calls": [
+        256,
+        64
+      ],
+      "selected": 64,
+      "mask_changes": 0,
+      "output_max_error": 0.0
+    },
+    {
+      "cohort": "two_invariants",
+      "policy": "folded",
+      "actual_calls": [
+        256,
+        64
+      ],
+      "selected": 64,
+      "mask_changes": 0,
+      "output_max_error": 0.0
+    },
+    {
+      "cohort": "two_invariants",
+      "policy": "symmetric_jensen",
+      "actual_calls": [
+        256,
+        64
+      ],
+      "selected": 64,
+      "mask_changes": 0,
+      "output_max_error": 0.0
+    },
+    {
+      "cohort": "two_invariants",
+      "policy": "grid_nearest",
+      "actual_calls": [
+        256,
+        64
+      ],
+      "selected": 64,
+      "mask_changes": 0,
+      "output_max_error": 0.0
+    },
+    {
+      "cohort": "two_invariants",
+      "policy": "oracle_jensen",
+      "actual_calls": [
+        256,
+        256
+      ],
+      "selected": 64,
+      "mask_changes": 0,
+      "output_max_error": 0.0
+    }
+  ],
+  "expected_records": 98304,
+  "expected_forwards": 35389440,
+  "forward_examples_per_complete_batch": 2880,
+  "stream_count": 24,
+  "stream_seed_count": 384,
+  "pairwise_seed_intersections": [],
+  "primary_bootstrap": "Three model-paired expected-loss contrasts; alpha .05/3 each, fixed 20,000 draws. Approximate bootstrap, not distribution-free.",
+  "source_review": "Selectors never receive posterior labels; tables are committed before score. Oracle all-partner charge is explicit.",
+  "failure_preservation": "Requested explicit failure snapshots before final source freeze; final source inspection must confirm this fix."
+}

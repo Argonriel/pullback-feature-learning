@@ -1,0 +1,9 @@
+# How often must the representation metric be refreshed?
+
+Exploratory design recorded before running this comparison. Use eight new paired training and validation draws from the two-moons model: train seeds 61001–61008, initialization 62001–62008, validation 63001–63008. Use 256 samples per split, noise 0.15, the fixed readout, and the previously selected optimizer settings. The switch and direction experiments share these draws. Do not generate test data.
+
+Compare GD (rate 0.125), full pullback (rate 8, damping 0.1), 100 full pullback updates followed by GD, and two periodic pullback variants. A periodic variant recomputes the full training representation Jacobian and its damped Gram eigensystem at updates 1, 1+k, ... and applies that metric to the current exact gradient on every step. Fix k=10 and k=50. No clipping or retuning. Compare against a direct solve at refresh in a numerical check. Record nonfinite failures.
+
+Primary practical comparison: validation logistic loss at the last whole update completed in 0.10 seconds of core training wall time. Report accuracy and completed updates on the same states. Secondary: measure validation quality and core time at 100, 500 and 2,000 updates, including matrix refreshes. Run each seed-method once, in a fixed shuffled order after warm-up, sequentially with one BLAS thread. Exclude validation and output operations. Report descriptive seed-paired results. Timing depends on this machine and other operating-system activity. Fresh execution is required when moving to another machine.
+
+Aim: distinguish paying for the metric only early from paying for it periodically. Existing K-FAC work also amortizes matrix operations across updates (Martens and Grosse, ICML 2015). Our matrix is the full Euclidean representation Gram matrix on a small model.

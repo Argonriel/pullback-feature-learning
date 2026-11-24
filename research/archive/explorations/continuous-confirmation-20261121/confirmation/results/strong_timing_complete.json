@@ -1,0 +1,7 @@
+{
+  "timestamp": "2026-11-21T09:05:37.280932+00:00",
+  "source_hash": "69ef102eaabe08bfd5bfeb26fedbfefb9d318701206165b32ca9dc67f1aa4acb",
+  "max_equivalence_error": 8.104628079763643e-15,
+  "n_equivalence_checks": 576,
+  "risk_outcomes_or_learned_policies_changed": false
+}

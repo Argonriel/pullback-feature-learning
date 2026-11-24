@@ -1,0 +1,70 @@
+{
+  "timestamp_utc": "2026-11-21T23:03:21.735547+00:00",
+  "rows": [
+    {
+      "a": 0.0,
+      "input_seed": 2338000,
+      "input_sha256": "6e3520c1e09d9fa75fcd1b990ce137cec47fd1e4ec65df4a70b29d188c0cc797",
+      "cosine_sha256": "eb68a9a145906b4ab7ac7e26f0639036c7b0e297a3badc8f0498db2d5ca20b32",
+      "coordinate_inputs": 65536,
+      "forward_examples": 0,
+      "estimate": -0.0024536305074110555,
+      "radius": 0.03638749338843282,
+      "lower": 0.0,
+      "upper": 0.033933862881021765,
+      "n": 65536,
+      "delta": 3.8940809968847354e-05,
+      "proposals": 67510,
+      "retained": 65536
+    },
+    {
+      "a": 0.01,
+      "input_seed": 2338001,
+      "input_sha256": "2bfdfd7dae1afbdfe25e0755fb41e6dbc7097df232d359deb312243e4c755c10",
+      "cosine_sha256": "ab9710b2ccebf63891fa97fbfe320f7c099a642cd5f168a28e9d60bcd1088193",
+      "coordinate_inputs": 65536,
+      "forward_examples": 0,
+      "estimate": 0.011540720560329745,
+      "radius": 0.03638749338843282,
+      "lower": 0.0,
+      "upper": 0.047928213948762566,
+      "n": 65536,
+      "delta": 3.8940809968847354e-05,
+      "proposals": 68185,
+      "retained": 65536
+    },
+    {
+      "a": 0.1,
+      "input_seed": 2338002,
+      "input_sha256": "ac3d0bbdaf082e64a09c848f20e26335ab4069c7f4ff38189cb554f74a37088c",
+      "cosine_sha256": "9df67fedeba0d92ce19606ff039d9e00672dfe71252a64894aaa9cf417e81f87",
+      "coordinate_inputs": 65536,
+      "forward_examples": 0,
+      "estimate": 0.1038661483131233,
+      "radius": 0.03638749338843282,
+      "lower": 0.06747865492469048,
+      "upper": 0.14025364170155613,
+      "n": 65536,
+      "delta": 3.8940809968847354e-05,
+      "proposals": 74260,
+      "retained": 65536
+    },
+    {
+      "a": 0.6,
+      "input_seed": 2338003,
+      "input_sha256": "2cae1550ce43756af6156c8827f7d8b78329eb729b0ba6eb5311bc16089a63d9",
+      "cosine_sha256": "bb6cd97289e6d2f1552cf66dfe12734bc75665277938746f55ab0f79020d12b1",
+      "coordinate_inputs": 65536,
+      "forward_examples": 0,
+      "estimate": 0.6024119652525709,
+      "radius": 0.03638749338843282,
+      "lower": 0.5660244718641381,
+      "upper": 0.6387994586410037,
+      "n": 65536,
+      "delta": 3.8940809968847354e-05,
+      "proposals": 108011,
+      "retained": 65536
+    }
+  ],
+  "raw_sha256": "6f7e992dbf1c2acd7936605a0e1bdc72338488e39049477f65d1366f6857efa3"
+}

@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-11-21T09:05:11.460996+00:00",
+  "source_hash": "69ef102eaabe08bfd5bfeb26fedbfefb9d318701206165b32ca9dc67f1aa4acb",
+  "primary_freeze_hash": "8b3c88830d7f5e70390a4ab76f97cdde5e5b973004b46115288ef7e75219d549",
+  "reason": "Fixed-pi references need no radius bins or conjugated coordinate transform; preserve frozen main timings and add stronger equivalent references.",
+  "candidate": "Unchanged confidence_radial deployment",
+  "test_input_seed_base": 831000,
+  "tie_seed_base": 832000,
+  "repetitions": 8,
+  "batches_per_repeat": 16,
+  "variants": [
+    "confidence_radial",
+    "fast_confidence_pi",
+    "fast_full_pi",
+    "fast_legacy_iid_folded_pi",
+    "original_confidence_pi",
+    "original_full_pi",
+    "original_legacy_iid_folded_pi"
+  ],
+  "timing_only_no_risk_selection": true,
+  "all_primary_policy_settings_unchanged": true
+}

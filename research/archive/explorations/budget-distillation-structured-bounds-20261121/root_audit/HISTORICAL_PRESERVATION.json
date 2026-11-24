@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "date_local": "2026-11-21",
+  "verification": "Both existing Research archives were read-only verified using their retained SHA-256 manifests after this study's execution work. No old scientific artifacts were edited.",
+  "archives": [
+    {"name": "pipeline-calibration-augmentation-shift-20261121", "files": 466, "bytes": 473513296, "mismatches": 0, "manifest_sha256": "ff8a903acce1735e9458c458226e53f0b4aa7ab436150d41072a7cf419cf23c5"},
+    {"name": "calibration-symmetry-realdata-20261121", "files": 646, "bytes": 660412187, "mismatches": 0}
+  ]
+}

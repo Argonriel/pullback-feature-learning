@@ -1,0 +1,20 @@
+{
+  "utc": "2026-11-22T00:35:12.652882+00:00",
+  "repository": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\experiments\\residual_bounds",
+  "all_python_sources_byte_identical": true,
+  "files": {
+    "analyze.py": "b678539c781b7025400fb219d47b44cfb3740e536547befbbf136258d94962f1",
+    "assets.py": "2ed8ec1ce959e7499914c59c1de77e78c83f28f1c082619c8ae952442ef22d4c",
+    "build_report.py": "42965f84d52f858d045e673ad9447cb8a1003312eaa91257a08d1c19c1fb2211",
+    "common.py": "13e3a4e95e4faaae90dedacf56339b57b6c6d62050b5bdb52106edff67844554",
+    "finalize.py": "404f512369a15083b213ee9d3858052de0afb472ad1208125ac2266cc90b0014",
+    "math_utils.py": "2b7777bb6bf0ab815c1ff4de75a0fb80da1a5976a4fdee1ac9b1fe78d0287099",
+    "plot_overview.py": "5a96b81f26779888f90d4471d8578e78c97cc814d5ff1638a7baeff3f4028a89",
+    "reproduce.py": "e1320d2be57d3851b1eafc699babc6a8fed10df83f63e7be9d532d2c7da3b01d",
+    "run.py": "3a9bab88e799b153a283e84040eb7fcffe9eb2ba29a575ee2a530fd1bee3f845",
+    "stress_recovery.py": "5004a4ff40275bd8c2fb42237d54d0bb8b76153a5c02f736ad883a9b7e12c543",
+    "reference/baseline.py": "652b9f68f021bbd05b2031e26325e495e3a3cf1ff423c89680bc6335592d6ac3",
+    "reference/core4d.py": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77",
+    "reference/task.py": "8da7d92d23437155d10be130a712e219211760ee740c2fca2a4b3506437214f4"
+  }
+}

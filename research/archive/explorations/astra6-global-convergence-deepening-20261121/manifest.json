@@ -1,0 +1,161 @@
+{
+  "files": {
+    "DATA_DICTIONARY.md": {
+      "sha256": "db807dc766b7b7b2e91825e0bfda8c80d15386f5ce7aae1fe2e16bd5ebe4c11f",
+      "bytes": 5347
+    },
+    "FAILED_ATTEMPTS.md": {
+      "sha256": "ceef0607e6b3d95494959e4c2fb74dd2738573ff9c45a804e7974f9c9efb89e8",
+      "bytes": 2525
+    },
+    "historical_input_hashes.json": {
+      "sha256": "490dfa9bac96f651e32155076fd4425477eeb429b6b7f3775e12786a6f4f144d",
+      "bytes": 2636
+    },
+    "independent_boundary/exact_checks.json": {
+      "sha256": "d7666c079be3edba762a1442b719ee5d659ddc018bd1dee36e69248b9f15fa9f",
+      "bytes": 1240
+    },
+    "independent_boundary/EXACT_CONTROLS.md": {
+      "sha256": "f665b202c957baa3e4939942a0cba3435857b9c76e7c49aab2e11f2cd8a31ccf",
+      "bytes": 5134
+    },
+    "independent_boundary/exact_controls_check.py": {
+      "sha256": "2a0cafc901e8a3f750476a479592c3069c5d50b9f5786f49c82176857d4ca2d4",
+      "bytes": 1909
+    },
+    "independent_boundary/FAILED_ATTEMPTS.md": {
+      "sha256": "b4c58953e8f3838f61e32c6f517bc6c28833ca78c585ce7fd8114562ebed635b",
+      "bytes": 1092
+    },
+    "independent_boundary/provenance.json": {
+      "sha256": "84d6294aea8da316501f773def73bf70f8229c7babad18155ca0870288f6dc73",
+      "bytes": 1645
+    },
+    "independent_boundary/THEOREM_BOUNDARY.md": {
+      "sha256": "9bc47af075df643ace26211a4b6d40e3ee0042859abed0d353d698c28be6e27a",
+      "bytes": 11933
+    },
+    "independent_literature/EXACT_OBSTRUCTIONS.md": {
+      "sha256": "f9008690d9a3aab2505ae88942f2fb6d1ae804e7f59940c189a3186de4faa0a4",
+      "bytes": 2615
+    },
+    "independent_literature/lyapunov_counterexample.cjs": {
+      "sha256": "49cfe271ef4c4972d573bbee1187c6951bbd98c704bdd3a07dc574db0451de9a",
+      "bytes": 2128
+    },
+    "independent_literature/lyapunov_counterexample_results.json": {
+      "sha256": "6ad6a45a609315dbf3babb85a8f02c1ad15dab549bd0b9549a5526e74906932c",
+      "bytes": 4146
+    },
+    "independent_literature/OPTIMAL_FACE_NOVELTY_ADDENDUM.md": {
+      "sha256": "492c63197d4aed007da560dfafe8fd8e2d1ad8f861a49e8e50675f4497e5a760",
+      "bytes": 2938
+    },
+    "independent_literature/PRIMARY_AUDIT.md": {
+      "sha256": "34f97150e964aa45e5ab4792d36b8195b452eb91afd1a2a72f0879130846d5cc",
+      "bytes": 14188
+    },
+    "independent_literature/SEARCH_LEDGER.md": {
+      "sha256": "f59627f20c5f3d55aeaa4ca85401af7dd45d264649c7940bd3545241fc55d13a",
+      "bytes": 4447
+    },
+    "independent_literature/SOURCE_MANIFEST.json": {
+      "sha256": "6b1573a48c0bc4e306658e32aba0c3bf1168a570356415ce58ad4821fd22c7d7",
+      "bytes": 1821
+    },
+    "independent_literature/sources/abb_web_retrieval.json": {
+      "sha256": "aab864c448ba29eb52581d5cb1c00ce2a29bb08e9efe665015fe72637151615c",
+      "bytes": 20025
+    },
+    "independent_literature/sources/bah_web_retrieval.json": {
+      "sha256": "815cbe521cce425c4e4bc84823cbdc2f66238055f0be74b629e01aea4fda7232",
+      "bytes": 20414
+    },
+    "independent_literature/sources/precgd_web_retrieval.json": {
+      "sha256": "e5dbbf5cf784a0458804f78cb107aa74b0264aa71ff06474283883d3a56a2f62",
+      "bytes": 22445
+    },
+    "independent_literature/sources/zhang_peyre_web_retrieval.json": {
+      "sha256": "c9d6e61b37218d4c37b3f73bcc36e6c6ef838d311d73b300f0db61de7b29ebad",
+      "bytes": 25496
+    },
+    "independent_spectral/BOUNDARY_THEOREM_SECOND_REVIEW.md": {
+      "sha256": "c2f3f947804ce1e0b4e32ed0aadec2d0a5f3c295546b67b3ab4e3f05e32dd5ec",
+      "bytes": 5868
+    },
+    "independent_spectral/check_quantitative.py": {
+      "sha256": "d32bbc1e6a335d79d213555b662a1dcc8ae09bfcf666e5db0676f07b477aba89",
+      "bytes": 10109
+    },
+    "independent_spectral/FAILED_ATTEMPTS.md": {
+      "sha256": "b7afd42fb91071fec4a544c540bcef3a58060c01b100a22d78f1d0b6f69b4e23",
+      "bytes": 759
+    },
+    "independent_spectral/QUANTITATIVE_REVIEW.md": {
+      "sha256": "fd6cf8247a1593a298a0639b8a67d432ce1d38c14af394b7f68d68afadbb0517",
+      "bytes": 10675
+    },
+    "independent_spectral/results.json": {
+      "sha256": "078b3c19f98008beeb8152141b3c36dd49f9e4411d0b933492d1b2a06ed4a988",
+      "bytes": 5910
+    },
+    "provenance.json": {
+      "sha256": "344d510261212de2d02ef6ce1c2018aa5728d15ddcb72b383ce1e80c4559c1d8",
+      "bytes": 1088
+    },
+    "REPORT.md": {
+      "sha256": "f7619ed1780dfb09e643c00fc89254902d9713e7aa488153a921cfe75325fd28",
+      "bytes": 11843
+    },
+    "ROOT_REVIEW.md": {
+      "sha256": "229cab449fb4decfeb6a4462060e5b995415531ea0883ecbe3bd7947396d7fcb",
+      "bytes": 6680
+    },
+    "SEARCH_LEDGER.md": {
+      "sha256": "dd02faf034cf5a7a0cc0b101a8efeebd44091a64a8c66a27c04b03fc9b3a9578",
+      "bytes": 1180
+    },
+    "source_snapshot/check_quantitative.py": {
+      "sha256": "d32bbc1e6a335d79d213555b662a1dcc8ae09bfcf666e5db0676f07b477aba89",
+      "bytes": 10109
+    },
+    "source_snapshot/exact_controls_check.py": {
+      "sha256": "2a0cafc901e8a3f750476a479592c3069c5d50b9f5786f49c82176857d4ca2d4",
+      "bytes": 1909
+    },
+    "source_snapshot/lyapunov_counterexample.cjs": {
+      "sha256": "49cfe271ef4c4972d573bbee1187c6951bbd98c704bdd3a07dc574db0451de9a",
+      "bytes": 2128
+    },
+    "source_snapshot/package_audit.py": {
+      "sha256": "c3a7f9571959899c7f811d6f4497af64fb9d4b7b53cd25562a2389f615338e2a",
+      "bytes": 8558
+    },
+    "source_snapshot/README.md": {
+      "sha256": "1982cdea30f7ebe0fd3a27dd4819bf20919c4e3579fece222d8e752b947e13c8",
+      "bytes": 2119
+    },
+    "source_snapshot/verify_boundary.py": {
+      "sha256": "cd93fd83209f29d11f49b65c57fac59bdd9af69de47ac271f580e6988b85f48e",
+      "bytes": 9673
+    },
+    "THEOREM.md": {
+      "sha256": "9bc47af075df643ace26211a4b6d40e3ee0042859abed0d353d698c28be6e27a",
+      "bytes": 11933
+    },
+    "validation_boundary_v1/matrices.npz": {
+      "sha256": "86e85fc83f2289f80aef845d7f92fff6653a0f6b1aa8d7da5643d97932ba45a2",
+      "bytes": 4768
+    },
+    "validation_boundary_v1/results.json": {
+      "sha256": "e392bfcb5c8615610f8cd145d1425932ff334c7727dbae6da70be317f5ad92e1",
+      "bytes": 13942
+    }
+  },
+  "exclusions": [
+    "manifest.json",
+    "ARCHIVE_CHECK.json",
+    "__pycache__"
+  ]
+}

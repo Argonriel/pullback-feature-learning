@@ -1,0 +1,14 @@
+{
+  "timestamp_utc": "2026-11-21T10:30:04.833865+00:00",
+  "models": 32,
+  "quantity_model_rows": 64,
+  "disjoint_points": 0,
+  "known_enclosure_outside_empirical_points": 8,
+  "maximum_disjoint_excess": -1.9830803665854546e-12,
+  "minimum_containment_margin": -0.012125297368242076,
+  "ordinary_forward_examples": 0,
+  "interval_jet_propagations": 0,
+  "score_CDF_query_inputs": 65600,
+  "location_CDF_query_inputs": 98400,
+  "scope": "Finite-grid descriptive overlap check; not a proof of the uniform confidence event. No model or setting is changed or excluded by this diagnostic."
+}

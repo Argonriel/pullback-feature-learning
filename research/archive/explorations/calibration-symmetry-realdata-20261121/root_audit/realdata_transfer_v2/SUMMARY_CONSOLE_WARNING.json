@@ -1,0 +1,7 @@
+{
+  "status": "summary artifacts completed; console printing failed",
+  "reason": "The Windows cp1252 console could not encode a Unicode minus sign after classwise_mean.csv and the appended audit report had already been written successfully in UTF-8.",
+  "affected_outputs": "console text only",
+  "additional_model_forward_examples": 0,
+  "correction": "Console print now escapes non-ASCII characters. Numerical outputs and audit report were not rerun or changed."
+}

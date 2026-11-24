@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "utc": "2026-11-22T00:20:35.164316+00:00",
+  "selected_checkpoints_replayed": 18,
+  "validation_forward_examples": 360000,
+  "temperature_fits": 24,
+  "quality_rows": 72,
+  "classwise_rows": 456,
+  "max_metric_error": 4.440892098500626e-16,
+  "max_direct_logit_error": 0.0,
+  "max_temperature_error": 0.0,
+  "max_target_error": 0.0,
+  "max_validation_error": 0.0,
+  "seed_intervals": 24,
+  "independent_t_critical": [
+    2.570581835636312,
+    3.163381449748587
+  ],
+  "max_interval_error": 1.4210854715202004e-14,
+  "crossed_bootstrap_replicates": 20000,
+  "max_crossed_bootstrap_error": 7.771561172376096e-16,
+  "primary_success": false,
+  "additional_audit_forward_examples": 1272000,
+  "committed_files_checked": 3193,
+  "full_distillation_matrix_work_per_pair": 13784417280000,
+  "full_control_matrix_work_per_pair": 13784407362560,
+  "limits": "Full forward replay, not independent full retraining. Six seeds condition on a fixed source training dataset; brand dependence remains unresolved."
+}

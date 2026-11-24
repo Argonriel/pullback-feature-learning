@@ -1,0 +1,17 @@
+{
+  "width_inches": 7.1,
+  "height_inches": 2.8,
+  "font_pt": 9,
+  "panels": [
+    "historical holdout classification error",
+    "new external classification error"
+  ],
+  "each_panel_four_methods_three_seed_points": true,
+  "separate_y_axes": true,
+  "original_figure_hashes_unchanged": {
+    "distillation_quality.png": "435968b01a38a3349e513670d05624171e99ad88a67aaf476decbb89d1876e4f",
+    "distillation_quality.svg": "9f3d613ae76727b94f2a1c73d80b890d553d3c210b9f8751d4a19121ffd2953f",
+    "distillation_contrasts.png": "f485d2d689ba03eedf1971a96816689e80604b9654aa9ec738a2d2b0ada114e5",
+    "distillation_contrasts.svg": "838365876825043b3d92ffb9ddaa6671175de522f01ba1c04960241e4b883009"
+  }
+}

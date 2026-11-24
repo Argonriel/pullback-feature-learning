@@ -1,0 +1,57 @@
+{
+  "timestamp_utc": "2026-11-21T10:55:44.318296+00:00",
+  "config": {
+    "cohorts": [
+      "rings",
+      "waveform",
+      "two_invariants"
+    ],
+    "bases": {
+      "rings": 1160000,
+      "waveform": 1110000,
+      "two_invariants": 1140000
+    },
+    "replications": 16,
+    "n": 65536,
+    "batch": 256,
+    "quota": 64,
+    "policies": [
+      "raw",
+      "full",
+      "confidence",
+      "folded_legacy",
+      "folded",
+      "symmetric_jensen",
+      "grid_nearest",
+      "oracle_jensen"
+    ],
+    "bootstrap_draws": 20000,
+    "bootstrap_alpha": 0.016666666666666666,
+    "bootstrap_seeds": [
+      1171001,
+      1171002,
+      1171003
+    ]
+  },
+  "no_fresh_states": true,
+  "hashes": {
+    "STUDY_SCOPE.md": "cef33ef447fbd59f33893d14faeefc99814b2ea69def8ec24811ccb739d3b860",
+    "validation/study.py": "51d7bcccc020fafe39624c7aa2973e36d18312a93c0311994561846a879fea3e",
+    "validation/adapters.py": "bb63cbd3443fe50fafb5dfb62ed7495aaab1782cb20fba036fcdf6452395cfb4",
+    "validation/PROTOCOL.md": "584847e2b8d914412e9e15863dd791956e2e293f3f148d6926e803cf0b6618fb",
+    "method/METHOD_FREEZE.json": "71c2b45bbf421da00a20dbbbc3e6b9dffff5a1be931761baeb3664099a59e401",
+    "method/HISTOGRAM_CHOICE.json": "4ecd4fbb2a417fb1e4003cdb905b035f89c68dba841c76747c8967604dc7c2d6",
+    "method/baseline.py": "652b9f68f021bbd05b2031e26325e495e3a3cf1ff423c89680bc6335592d6ac3",
+    "task2d/TASK_FREEZE.json": "30321894c38d23996a0f8bf3de0230994913536af603d6670342f3cc185cec48",
+    "task2d/TRAINING_CHOICE.json": "2a86fdf6cb070344b62620c4f4f47c2683c762bd4d5737d43e83c69b69354588",
+    "task2d/task.py": "8da7d92d23437155d10be130a712e219211760ee740c2fca2a4b3506437214f4",
+    "task2d/core4d.py": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77",
+    "certification/FREEZE.json": "07102c9b33b4e2613bbc8815c52964bfb4ac8f167f7025c2dcd6249c4dee4ed0",
+    "certification/ADDENDUM_FREEZE.json": "e7c5da216f5ad41854c0cc9ff5d3732b552823aeb43b8f0d04b56fdff45a8cc1",
+    "source/pullback_feature_learning/core.py": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5",
+    "source/pullback_feature_learning/__init__.py": "cfa50d8dc213dd829cd6eb880cc14a50e689d919782ce75e74fb270cb9a9b943",
+    "legacy/generator.py": "885eb5c8d8878b57df1025c1a5a69b6978d4c2803f3f0e552c557170c7e355d2",
+    "reference/legacy_rank_policy.py": "9f6e3e96a85fa62657ec1430aececc846cffa3ce338786356d514d942d00ae31",
+    "reference/waveform_task.py": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "timestamp_utc": "2026-11-21T09:01:48.717469+00:00",
+  "config": {
+    "cohort": "fresh",
+    "epsilon": 0.1,
+    "n_models": 16,
+    "batches_per_measurement": 8,
+    "batch_size": 256,
+    "warmup_blocks": 2,
+    "measurement_blocks": 8,
+    "randomization_seed": 8660000,
+    "blas_threads": 1
+  },
+  "source_sha256": "ed537fe2ab5b6d0fa928ba4a660622b8f6af3774d351e62f29f530330cecf29a",
+  "policy_source_sha256": "f08e125ca88cac76970a529265e9ea15ba2288e86591afd185fb5eedc56a6ddf",
+  "outcome_neutral": true,
+  "scientific_policy_changed": false
+}

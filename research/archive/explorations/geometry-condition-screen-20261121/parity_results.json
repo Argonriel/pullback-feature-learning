@@ -1,0 +1,147 @@
+{
+  "status": "passed",
+  "role": "algebraic_screen_only_no_training_sweep_or_novelty_claim",
+  "seed": 190733,
+  "n_inputs": 128,
+  "damping_sum_metric": 0.1,
+  "exact_parity_and_gradient_max_errors": {
+    "representation_parity": 0.0,
+    "weight_jacobian_parity": 0.0,
+    "bias_jacobian_parity": 0.0,
+    "metric_cross_block": 2.3599404997529073e-16,
+    "weight_gradient_label_dependence": 2.0816681711721685e-17,
+    "bias_gradient_label_reversal": 4.336808689942018e-19,
+    "restricted_risk_label_dependence": 1.1102230246251565e-16,
+    "block_solve_error": 1.5178830414797062e-18
+  },
+  "epsilon_scaling": [
+    {
+      "epsilon": 1.0,
+      "bias_jacobian_norm": 0.8324588699352701,
+      "bias_gradient_norm": 0.0030174779940305885,
+      "bias_pb_parameter_velocity_norm": 0.016597339543555245,
+      "even_pb_predictive_velocity_norm": 0.0033026724669942926,
+      "even_gd_predictive_velocity_norm": 0.0015034941262666163,
+      "pb_vs_gd_even_velocity_ratio": 2.1966646954553024,
+      "even_pb_velocity_over_epsilon_squared": 0.0033026724669942926
+    },
+    {
+      "epsilon": 0.3,
+      "bias_jacobian_norm": 0.25077531687638116,
+      "bias_gradient_norm": 0.0009051183087642899,
+      "bias_pb_parameter_velocity_norm": 0.007511817875001562,
+      "even_pb_predictive_velocity_norm": 0.0010154025338412918,
+      "even_gd_predictive_velocity_norm": 0.000135403631367168,
+      "pb_vs_gd_even_velocity_ratio": 7.499079039378715,
+      "even_pb_velocity_over_epsilon_squared": 0.011282250376014354
+    },
+    {
+      "epsilon": 0.1,
+      "bias_jacobian_norm": 0.08369133569390619,
+      "bias_gradient_norm": 0.0003017320845376982,
+      "bias_pb_parameter_velocity_norm": 0.0029411988850775303,
+      "even_pb_predictive_velocity_norm": 0.00014509983891206318,
+      "even_gd_predictive_velocity_norm": 1.5049444039911226e-05,
+      "pb_vs_gd_even_velocity_ratio": 9.641541476698903,
+      "even_pb_velocity_over_epsilon_squared": 0.014509983891206314
+    },
+    {
+      "epsilon": 0.03,
+      "bias_jacobian_norm": 0.025117878016655697,
+      "bias_gradient_norm": 9.052354507705089e-05,
+      "bias_pb_parameter_velocity_norm": 0.0009030994495372462,
+      "even_pb_predictive_velocity_norm": 1.3500910617259694e-05,
+      "even_gd_predictive_velocity_norm": 1.354611573439637e-06,
+      "pb_vs_gd_even_velocity_ratio": 9.96662872367029,
+      "even_pb_velocity_over_epsilon_squared": 0.015001011796955215
+    },
+    {
+      "epsilon": 0.01,
+      "bias_jacobian_norm": 0.008373624578203778,
+      "bias_gradient_norm": 3.017492613651523e-05,
+      "bias_pb_parameter_velocity_norm": 0.00030166985849021773,
+      "even_pb_predictive_velocity_norm": 1.5046172108530606e-06,
+      "even_gd_predictive_velocity_norm": 1.5051770609578978e-07,
+      "pb_vs_gd_even_velocity_ratio": 9.996280503341707,
+      "even_pb_velocity_over_epsilon_squared": 0.015046172108530605
+    },
+    {
+      "epsilon": 0.003,
+      "bias_jacobian_norm": 0.0025121922466898937,
+      "bias_gradient_norm": 9.052522198148513e-06,
+      "bias_pb_parameter_velocity_norm": 9.052307703108159e-05,
+      "even_pb_predictive_velocity_norm": 1.3546308813546992e-07,
+      "even_gd_predictive_velocity_norm": 1.3546762472567914e-08,
+      "pb_vs_gd_even_velocity_ratio": 9.999665116280115,
+      "even_pb_velocity_over_epsilon_squared": 0.015051454237274435
+    },
+    {
+      "epsilon": 0.001,
+      "bias_jacobian_norm": 0.0008374074042230686,
+      "bias_gradient_norm": 3.0175116616701616e-06,
+      "bias_pb_parameter_velocity_norm": 3.0175037168714407e-05,
+      "even_pb_predictive_velocity_norm": 1.505195609839586e-08,
+      "even_gd_predictive_velocity_norm": 1.5052012108274922e-09,
+      "pb_vs_gd_even_velocity_ratio": 9.999962789108421,
+      "even_pb_velocity_over_epsilon_squared": 0.015051956098395861
+    },
+    {
+      "epsilon": 0.0003,
+      "bias_jacobian_norm": 0.0002512232700992917,
+      "bias_gradient_norm": 9.052539472316563e-07,
+      "bias_pb_parameter_velocity_norm": 9.052537327187014e-06,
+      "even_pb_predictive_velocity_norm": 1.3546823326209019e-09,
+      "even_gd_predictive_velocity_norm": 1.354682786305062e-10,
+      "pb_vs_gd_even_velocity_ratio": 9.999996650993394,
+      "even_pb_velocity_over_epsilon_squared": 0.015052025918010024
+    },
+    {
+      "epsilon": 0.0001,
+      "bias_jacobian_norm": 8.374118992262766e-05,
+      "bias_gradient_norm": 3.0175135851792535e-07,
+      "bias_pb_parameter_velocity_norm": 3.0175135057297118e-06,
+      "even_pb_predictive_velocity_norm": 1.5052035786533846e-10,
+      "even_gd_predictive_velocity_norm": 1.5052036346638832e-11,
+      "pb_vs_gd_even_velocity_ratio": 9.999999627887567,
+      "even_pb_velocity_over_epsilon_squared": 0.015052035786533845
+    }
+  ],
+  "zero_residual": {
+    "initial_bias_jacobian_norm": 0.0,
+    "initial_residual_gradient_norm": 0.09602105353080927,
+    "two_step_checks": [
+      {
+        "eta": 0.2,
+        "first_bias_gradient_norm": 0.0005988642327547872,
+        "second_bias_norm": 0.00011977284655095743,
+        "second_even_prediction_norm": 1.2677354454791448e-05,
+        "even_over_eta_cubed": 0.0015846693068489307
+      },
+      {
+        "eta": 0.1,
+        "first_bias_gradient_norm": 0.000300805899946521,
+        "second_bias_norm": 3.00805899946521e-05,
+        "second_even_prediction_norm": 1.6073903777362573e-06,
+        "even_over_eta_cubed": 0.001607390377736257
+      },
+      {
+        "eta": 0.05,
+        "first_bias_gradient_norm": 0.0001507459147434565,
+        "second_bias_norm": 7.537295737172824e-06,
+        "second_even_prediction_norm": 2.0235771963353872e-07,
+        "even_over_eta_cubed": 0.0016188617570683094
+      },
+      {
+        "eta": 0.025,
+        "first_bias_gradient_norm": 7.545863800681778e-05,
+        "second_bias_norm": 1.8864659501704448e-06,
+        "second_even_prediction_norm": 2.538476982794664e-08,
+        "even_over_eta_cubed": 0.0016246252689885844
+      }
+    ],
+    "estimated_even_prediction_eta_power": 2.992306680862065
+  },
+  "single_unit_monotone_radial_covariance": -0.05426837421147396,
+  "source_sha256": "15f4c97416102bfbf2dc2562094040da7e4399ae32f69157f9f412f68b12ed61",
+  "core_sha256": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5"
+}

@@ -1,0 +1,7 @@
+{
+  "status": "halted before CNN evaluation",
+  "reason": "An exact NumPy-versus-CUDA float32 normalization equality assertion failed. Float32 division and reciprocal multiplication may differ by an ulp. The integer image reversal and the subsequent exact torch flip comparison remain appropriate.",
+  "additional_model_forward_examples": 0,
+  "source_preserved": "root_audit/realdata_transfer_check_attempt1.py",
+  "correction": "Record the maximum normalization difference and allow at most one float32 epsilon absolute error; preserve exact equality for the two torch implementations of horizontal reversal. Run all same-model checks in a new v2 output directory. No model or scientific source modified."
+}

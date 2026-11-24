@@ -1,0 +1,123 @@
+[
+  {
+    "name": "rings",
+    "kind": "rings"
+  },
+  {
+    "name": "constant_half",
+    "kind": "constant",
+    "value": 0.5
+  },
+  {
+    "name": "increasing",
+    "kind": "sigmoid",
+    "sign": 1
+  },
+  {
+    "name": "decreasing",
+    "kind": "sigmoid",
+    "sign": -1
+  },
+  {
+    "name": "balanced_unrestricted_min",
+    "kind": "threshold",
+    "field": "balanced",
+    "threshold": 0.0,
+    "high": true,
+    "constant_value": -1.0
+  },
+  {
+    "name": "balanced_prevalence_half_min",
+    "kind": "threshold",
+    "field": "balanced",
+    "threshold": 3.5294430594896624e-19,
+    "high": true,
+    "constant_value": -1.0,
+    "numerical_prevalence": 0.49990195806088944
+  },
+  {
+    "name": "balanced_unrestricted_max",
+    "kind": "threshold",
+    "field": "balanced",
+    "threshold": 0.0,
+    "high": false,
+    "constant_value": -1.0
+  },
+  {
+    "name": "balanced_prevalence_half_max",
+    "kind": "threshold",
+    "field": "balanced",
+    "threshold": 3.5294430594896624e-19,
+    "high": false,
+    "constant_value": -1.0,
+    "numerical_prevalence": 0.5000980265776582
+  },
+  {
+    "name": "unbalanced_unrestricted_min",
+    "kind": "threshold",
+    "field": "unbalanced",
+    "threshold": 0.0,
+    "high": true,
+    "constant_value": -1.0
+  },
+  {
+    "name": "unbalanced_prevalence_half_min",
+    "kind": "threshold",
+    "field": "unbalanced",
+    "threshold": 0.010483828606623197,
+    "high": true,
+    "constant_value": -1.0,
+    "numerical_prevalence": 0.5
+  },
+  {
+    "name": "unbalanced_unrestricted_max",
+    "kind": "threshold",
+    "field": "unbalanced",
+    "threshold": 0.0,
+    "high": false,
+    "constant_value": -1.0
+  },
+  {
+    "name": "unbalanced_prevalence_half_max",
+    "kind": "threshold",
+    "field": "unbalanced",
+    "threshold": 0.01048382896939953,
+    "high": false,
+    "constant_value": -1.0,
+    "numerical_prevalence": 0.5
+  },
+  {
+    "name": "even_unrestricted_min",
+    "kind": "threshold",
+    "field": "even",
+    "threshold": 0.0,
+    "high": true,
+    "constant_value": 0.0
+  },
+  {
+    "name": "even_prevalence_half_min",
+    "kind": "threshold",
+    "field": "even",
+    "threshold": 0.0,
+    "high": true,
+    "constant_value": 0.5,
+    "numerical_prevalence": 0.5
+  },
+  {
+    "name": "even_unrestricted_max",
+    "kind": "threshold",
+    "field": "even",
+    "threshold": 0.0,
+    "high": false,
+    "constant_value": 1.0
+  },
+  {
+    "name": "even_prevalence_half_max",
+    "kind": "threshold",
+    "field": "even",
+    "threshold": 0.0,
+    "high": false,
+    "constant_value": 0.5,
+    "numerical_prevalence": 0.5
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "date_local": "2026-11-21",
+  "timezone": "America/Los_Angeles",
+  "python_executable": "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1118-904-0_26.1118.904.0_x64__3k8sg7r9htsxt\\dependencies\\python\\python.exe",
+  "python_version": "3.12.14",
+  "repository_source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\experiments\\astra6_global_convergence_deepening_20261121",
+  "research_staging": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\astra6-global-convergence-deepening-20261121",
+  "planned_archive": "C:/Users/liwei/Documents/Research/pullback-feature-learning/explorations/astra6-global-convergence-deepening-20261121",
+  "historical_input_hashes": "historical_input_hashes.json",
+  "agent_settings": "All subagents inherited the parent; no model/reasoning/speed override was requested by this chat.",
+  "web_provenance_limit": "Retained extraction records are not full publisher-file byte snapshots.",
+  "data_policy": "No training cohort, reserved sample, historical result mutation, or public communication."
+}

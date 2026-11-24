@@ -1,0 +1,19 @@
+{
+  "utc": "2026-11-21T10:48:29.599216+00:00",
+  "seconds": 1.4147303999925498,
+  "evaluation_forward_examples": 65536,
+  "additional_actual_deploy_check_examples": 1600,
+  "exceptions": [],
+  "files": {
+    "batches.csv": "d739cc4e98d2a2f5cecc6b3fb70386a8a09bf50f88edcd62f45fd6a6bff9452b",
+    "checks.csv": "641afb8c6321ec55c86b7a08db863869d00ffdcf7a78360a8218d1af11cef667",
+    "evaluation.npz": "dd46ba1ee78aff257e3f07cf399d72777322cc5a9a90dc47fc4c6400494ee8cd",
+    "folded_16x8.npz": "edf5b0b2692aa5ba9ea758eb898853f0761da957abd29b48e15b56a26598ed42",
+    "folded_32x16.npz": "daf8d3087d9a0e72524142cb09387df1533002e1b36bc6d6ea3db1c786ccfde4",
+    "folded_64x32.npz": "e117c469600b201c98cf880c726a64541a67e3c4fcfa8d22d5029f3bffcda272",
+    "grid.npz": "c517736a701b3814ce787635e770f7c51be773c01449055abcf0e6bc4e9223f7",
+    "policy_commit.json": "ebbb3a6dde48020d1bd7b097ae7a910f71d5ff6195f4306a5bd3921f591c1dce",
+    "rank.npz": "4517c694786ed1cc5067e1fe282c7c6b9f0ea4202529da95bd5890baffaa27f4",
+    "results.csv": "a4a336102d6c2f83554297bb0522c70642b1085c1996b5df4a1215163436963d"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "timestamp_utc": "2026-11-21T09:44:11.083160+00:00",
+  "models": 16,
+  "passes": 4,
+  "rows": 192,
+  "forward_examples": 83886080,
+  "source_sha256": "e2fa158fd72bf253668135cea2e85572c6d4c5dfe74befe837f6174f01144898",
+  "summary_sha256": "4793a15556541a2017b1fa25a8b53d55d97d9b430fb77a3b0f26f88066bb517d"
+}

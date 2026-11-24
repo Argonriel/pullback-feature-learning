@@ -1,0 +1,33 @@
+{
+  "utc": "2026-11-21T23:18:46.588251+00:00",
+  "exclusive_window_confirmed_by_root": true,
+  "source_sha256": "6658f273d9164d41ab14ba235da080e05871d6d3374d3693d3ca8e090f0d9995",
+  "fit_commit_sha256": "5110e80236d0e866bb31de2ac8f5cf7a19bf1c925770fa4310d90353f4681741",
+  "score_commit_sha256": "100ba89e03d99ee91c8c1e2f9228fb63474be8ea2fe16573681208a9b89c6630",
+  "development_state_sha256": "5a69e55007a4d6ad30f013070da9400df737f701fa17228d934566674448e883",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "processor": "AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD",
+  "numpy": "2.5.5",
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\.venv\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-4e39871015dc1470c682dc512497ee22.dll",
+      "version": "0.3.34.237.2",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    }
+  ],
+  "repeats": 7,
+  "updates_per_block": 30,
+  "warmup_per_n": 5,
+  "maximum_normalization_end_state_difference": 9.414691248821327e-14,
+  "measured_updates": 840,
+  "warmup_updates": 20,
+  "total_updates": 860,
+  "actual_timed_nominal_operations": 174939226560,
+  "warmup_nominal_operations": 4165219680,
+  "summary": "After all predictive results were committed, an exclusive CPU window measured seven 30-update blocks per n with one BLAS thread, following five warm-up updates. Each block resets to the same old development state and duplicates the same 256 training examples. Median block times project to fixed_2304 12.954 s (1.000 times baseline), flop_256 11.275 s (0.870 times baseline), flop_768 11.312 s (0.873 times baseline), flop_1280 12.569 s (0.970 times baseline), examples_256 11.713 s (0.904 times baseline). These are development-workload projections, not timed complete prospective fits; they exclude diagnostics, calibration, validation, data generation and I/O, and do not alter any schedule."
+}

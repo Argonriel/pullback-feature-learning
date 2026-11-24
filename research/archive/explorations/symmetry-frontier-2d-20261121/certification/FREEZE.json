@@ -1,0 +1,68 @@
+{
+  "timestamp_utc": "2026-11-21T10:51:12.147526+00:00",
+  "config": {
+    "n_pairs": 16,
+    "cohorts": [
+      "rings",
+      "waveform",
+      "two_invariants"
+    ],
+    "batch": 256,
+    "quota": 64,
+    "looks": [
+      128,
+      512,
+      2048
+    ],
+    "primary_batches": 512,
+    "family_alpha": 0.05,
+    "family_events": 432,
+    "clips": {
+      "rings": 0.25,
+      "waveform": 0.5,
+      "two_invariants": 0.5
+    },
+    "input_seeds": {
+      "rings": 1121000,
+      "waveform": 1123000,
+      "two_invariants": 1151000
+    },
+    "tie_seeds": {
+      "rings": 1122000,
+      "waveform": 1124000,
+      "two_invariants": 1152000
+    },
+    "d_radii": {
+      "rings": 3.0,
+      "waveform": 1.0,
+      "two_invariants": 1.4
+    },
+    "rings_cutoff": 3.0,
+    "max_predict_chunk": 8192,
+    "policy_names": [
+      "symmetric_jensen",
+      "folded"
+    ],
+    "no_labels": true,
+    "source_policy": "Frozen before fresh model generation; no adaptive additional sampling."
+  },
+  "source_hashes": {
+    "certification/run.py": "95eb760bf3d8cf4e8e4de5aeb42d7dfbe6ca093fcd08582722e8d3d4cead5c5f",
+    "certification/bounds.py": "8bd8b3e1fdd5fd59027490ae06d51f8ddf6ab85756d61550c45dde9febb58518",
+    "certification/PROTOCOL.md": "3c3d0e632f3d6fb8d1cdefedb9d504a48d69d8fc9e7a8f08d3d477155a3e6d13",
+    "certification/LITERATURE_AND_PROOF.md": "0c0aba57e7f753858272a383169e7805cd2176913ac57d75edfeef5f8731c68f",
+    "certification/check_bounds.py": "3e9f2c309d0af4295696d94722b7b1a09b5a90a07aece8b24f4ede4351d3e060",
+    "certification/bounds_checks.json": "ada19515d5224c28792b19cdaa43440dc6e690a4185caaaaceed078f703d0fc5",
+    "certification/development_old32/choice.json": "abd7cd97cc0d7a95697de3cdc6fc60d84e10d383660006f993a771b2ce051d47",
+    "validation/adapters.py": "bb63cbd3443fe50fafb5dfb62ed7495aaab1782cb20fba036fcdf6452395cfb4",
+    "method/baseline.py": "652b9f68f021bbd05b2031e26325e495e3a3cf1ff423c89680bc6335592d6ac3",
+    "source/pullback_feature_learning/core.py": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5",
+    "source/pullback_feature_learning/__init__.py": "cfa50d8dc213dd829cd6eb880cc14a50e689d919782ce75e74fb270cb9a9b943",
+    "legacy/generator.py": "885eb5c8d8878b57df1025c1a5a69b6978d4c2803f3f0e552c557170c7e355d2",
+    "reference/legacy_rank_policy.py": "9f6e3e96a85fa62657ec1430aececc846cffa3ce338786356d514d942d00ae31",
+    "reference/waveform_task.py": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77",
+    "task2d/task.py": "8da7d92d23437155d10be130a712e219211760ee740c2fca2a4b3506437214f4"
+  },
+  "no_fresh_state_files": true,
+  "fresh_outcomes_accessed": false
+}

@@ -1,0 +1,347 @@
+{
+  "status": "passed",
+  "scope": "Actual full 80-parameter initial local calculation only; no training sweep.",
+  "source_sha256": "2bd8f6be98d72161f423bcca6bb34d333d3e9a787f9c7a91b087da8a8973de2c",
+  "core_sha256": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5",
+  "created_utc": "2026-11-22T02:02:44.107231+00:00",
+  "initialization_seed": 404027,
+  "x": [
+    [
+      -0.7,
+      0.2
+    ],
+    [
+      0.4,
+      -0.6
+    ],
+    [
+      0.8,
+      0.5
+    ],
+    [
+      -0.2,
+      -0.8
+    ]
+  ],
+  "probabilities": [
+    0.2,
+    0.7,
+    0.4,
+    0.8
+  ],
+  "damping": 0.1,
+  "conditional_label_patterns": [
+    {
+      "labels01": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "probability": 0.028799999999999996,
+      "initial_loss_speed": 0.024034397260468507,
+      "raw_acceleration_norm": 0.240224832844346,
+      "projected_norm": 0.21680475254459117,
+      "progress_normalized_norm": 375.3205356965173,
+      "loss_tangent_error": 1.5720931501039814e-18
+    },
+    {
+      "labels01": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "probability": 0.11520000000000002,
+      "initial_loss_speed": 0.029398228568885333,
+      "raw_acceleration_norm": 0.1535133027840631,
+      "projected_norm": 0.153437440522234,
+      "progress_normalized_norm": 177.53705892421584,
+      "loss_tangent_error": 3.144186300207963e-18
+    },
+    {
+      "labels01": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "probability": 0.019200000000000002,
+      "initial_loss_speed": 0.03715041360133893,
+      "raw_acceleration_norm": 0.14737957419517564,
+      "projected_norm": 0.14711494271371583,
+      "progress_normalized_norm": 106.59319518725646,
+      "loss_tangent_error": 8.673617379884035e-19
+    },
+    {
+      "labels01": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "probability": 0.07680000000000003,
+      "initial_loss_speed": 0.003988939603254127,
+      "raw_acceleration_norm": 0.024421931057090115,
+      "projected_norm": 0.02427915492889737,
+      "progress_normalized_norm": 1525.873901939638,
+      "loss_tangent_error": 6.776263578034403e-20
+    },
+    {
+      "labels01": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probability": 0.06719999999999998,
+      "initial_loss_speed": 0.010123476752707711,
+      "raw_acceleration_norm": 0.05295992176527132,
+      "projected_norm": 0.05363449346942922,
+      "progress_normalized_norm": 523.3410527070405,
+      "loss_tangent_error": 2.168404344971009e-19
+    },
+    {
+      "labels01": [
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "probability": 0.2688,
+      "initial_loss_speed": 0.055046611880318425,
+      "raw_acceleration_norm": 0.26416595654054287,
+      "projected_norm": 0.2642739811133782,
+      "progress_normalized_norm": 87.21540874773953,
+      "loss_tangent_error": 4.553649124439119e-18
+    },
+    {
+      "labels01": [
+        0.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "probability": 0.044799999999999986,
+      "initial_loss_speed": 0.02538658825822393,
+      "raw_acceleration_norm": 0.08944824950153384,
+      "projected_norm": 0.08872279833674598,
+      "progress_normalized_norm": 137.66595520247387,
+      "loss_tangent_error": 1.6263032587282567e-18
+    },
+    {
+      "labels01": [
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "probability": 0.1792,
+      "initial_loss_speed": 0.03178441807933273,
+      "raw_acceleration_norm": 0.20123514840879617,
+      "projected_norm": 0.2022025698935983,
+      "progress_normalized_norm": 200.15117394827044,
+      "loss_tangent_error": 0.0
+    },
+    {
+      "labels01": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "probability": 0.007199999999999999,
+      "initial_loss_speed": 0.07411678249445636,
+      "raw_acceleration_norm": 0.3927178467922069,
+      "projected_norm": 0.39457006945322687,
+      "progress_normalized_norm": 71.82754497391484,
+      "loss_tangent_error": 4.336808689942018e-18
+    },
+    {
+      "labels01": [
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "probability": 0.028800000000000006,
+      "initial_loss_speed": 0.08179724643482636,
+      "raw_acceleration_norm": 0.30407612098491094,
+      "projected_norm": 0.30131275831238236,
+      "progress_normalized_norm": 45.03396157018082,
+      "loss_tangent_error": 3.0357660829594124e-18
+    },
+    {
+      "labels01": [
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "probability": 0.0048000000000000004,
+      "initial_loss_speed": 0.05589654925591232,
+      "raw_acceleration_norm": 0.31593398681101986,
+      "projected_norm": 0.31018632396456935,
+      "progress_normalized_norm": 99.27791562561274,
+      "loss_tangent_error": 0.0
+    },
+    {
+      "labels01": [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "probability": 0.01920000000000001,
+      "initial_loss_speed": 0.02505170788978043,
+      "raw_acceleration_norm": 0.1292579557832248,
+      "projected_norm": 0.12722518514976844,
+      "progress_normalized_norm": 202.72084763450408,
+      "loss_tangent_error": 2.5478751053409354e-18
+    },
+    {
+      "labels01": [
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "probability": 0.016799999999999995,
+      "initial_loss_speed": 0.028162074076497977,
+      "raw_acceleration_norm": 0.15497194884244406,
+      "projected_norm": 0.15550628244178838,
+      "progress_normalized_norm": 196.07339386152597,
+      "loss_tangent_error": 2.168404344971009e-19
+    },
+    {
+      "labels01": [
+        1.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "probability": 0.0672,
+      "initial_loss_speed": 0.07540184183606154,
+      "raw_acceleration_norm": 0.2080184768325316,
+      "projected_norm": 0.2085262191968962,
+      "progress_normalized_norm": 36.67724954224021,
+      "loss_tangent_error": 8.239936510889834e-18
+    },
+    {
+      "labels01": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "probability": 0.011199999999999996,
+      "initial_loss_speed": 0.012088936002599806,
+      "raw_acceleration_norm": 0.06674834244551509,
+      "projected_norm": 0.06615817986855038,
+      "progress_normalized_norm": 452.69676552330924,
+      "loss_tangent_error": 2.710505431213761e-19
+    },
+    {
+      "labels01": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "probability": 0.0448,
+      "initial_loss_speed": 0.0208033984556615,
+      "raw_acceleration_norm": 0.18524668209066125,
+      "projected_norm": 0.1726967924869697,
+      "progress_normalized_norm": 399.03932459381633,
+      "loss_tangent_error": 7.589415207398531e-19
+    }
+  ],
+  "raw_noise_identity": {
+    "max_absolute_error": 7.632783294297951e-17,
+    "mean_raw_norm": 0.10150313220811409,
+    "zero_noise_soft_target_norm": 0.057835764744685686,
+    "noise_contraction_norm": 0.0643278781406256
+  },
+  "projection_caveat": {
+    "mean_projected_norm": 0.10105842464672303,
+    "project_mean_raw_at_mean_velocity_norm": 0.10168338287376597,
+    "absolute_difference": 0.005923797141928955,
+    "progress_normalized_mean_norm": 138.24248153514958
+  },
+  "derivative_checks": [
+    {
+      "direction": "mean",
+      "steps": [
+        0.002,
+        0.001,
+        0.0005
+      ],
+      "errors": [
+        1.0245072549844357e-09,
+        2.5609984778054535e-10,
+        6.395358552326404e-11
+      ]
+    },
+    {
+      "direction": "label0",
+      "steps": [
+        0.002,
+        0.001,
+        0.0005
+      ],
+      "errors": [
+        2.4986547140517437e-08,
+        6.246631496177918e-09,
+        1.561652016784965e-09
+      ]
+    }
+  ],
+  "nonidentifiability_witness": {
+    "candidate_inputs": [
+      [
+        0.1,
+        0.9
+      ],
+      [
+        1.1,
+        -0.3
+      ],
+      [
+        -0.8,
+        0.6
+      ]
+    ],
+    "selected_index": 0,
+    "selected_x": [
+      0.1,
+      0.9
+    ],
+    "selected_logit": 0.11178291685904945,
+    "selected_prediction_probability": 0.5279166660600428,
+    "predictive_projection": -5.977486469098853,
+    "common_training_support_total_mass": 0.01,
+    "unseen_mass": 0.99,
+    "common_support_posteriors": [
+      0.2,
+      0.7,
+      0.4,
+      0.8
+    ],
+    "laws": [
+      {
+        "law": "lower",
+        "posterior_at_unseen": 0.29187499909006426,
+        "coefficient_of_squared_training_loss_decrease": -0.7035980070491373,
+        "sign": "benefit"
+      },
+      {
+        "law": "upper",
+        "posterior_at_unseen": 0.7639583330300215,
+        "coefficient_of_squared_training_loss_decrease": 0.6932285047028819,
+        "sign": "harm"
+      }
+    ],
+    "meaning": "Same conditional law of every training-only label-replica statistic, opposite expected local equal-loss risk signs; unrestricted populations only."
+  },
+  "decision": "Reject universal training-only replica-variability/noise-harm sign rule. Keep exact covariance identity as routine bookkeeping, not innovation."
+}

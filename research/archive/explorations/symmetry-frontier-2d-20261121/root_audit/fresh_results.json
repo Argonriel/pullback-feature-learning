@@ -1,0 +1,105 @@
+{
+  "utc": "2026-11-21T10:57:56.368006+00:00",
+  "status": "PASS",
+  "audited_source_sha256": "9b66b8ec5aa720801e59090cdcb17dc42e89d622c422d4e12a469b7e0e736ded",
+  "models": 48,
+  "metric_rows": 384,
+  "max_metric_error": 4.440892098500626e-16,
+  "max_output_error": 0.0,
+  "total_mask_changes": 0,
+  "manifest_files_checked": 240,
+  "chronology": {
+    "method\\METHOD_FREEZE.json": "2026-11-21T10:50:55.540406+00:00",
+    "validation\\FREEZE.json": "2026-11-21T10:55:44.318296+00:00",
+    "validation\\ROOT_APPROVAL.json": "2026-11-21T10:56:03.293588+00:00",
+    "validation\\training_start.json": "2026-11-21T10:56:04.839056+00:00",
+    "validation\\training_commit.json": "2026-11-21T10:56:20.662562+00:00",
+    "validation\\calibration_start.json": "2026-11-21T10:56:29.057984+00:00",
+    "validation\\policy_commit.json": "2026-11-21T10:56:37.433698+00:00",
+    "validation\\score_start.json": "2026-11-21T10:56:47.399507+00:00",
+    "validation\\score_complete.json": "2026-11-21T10:57:16.246296+00:00"
+  },
+  "training_inputs_unique": 48,
+  "performance_inputs_unique": 48,
+  "seed_stream_replays": 48,
+  "training_100_step_replays": [
+    {
+      "cohort": "rings",
+      "pair": 1,
+      "steps": 100,
+      "max_error": 0.0
+    },
+    {
+      "cohort": "rings",
+      "pair": 16,
+      "steps": 100,
+      "max_error": 0.0
+    },
+    {
+      "cohort": "waveform",
+      "pair": 1,
+      "steps": 100,
+      "max_error": 0.0
+    },
+    {
+      "cohort": "waveform",
+      "pair": 16,
+      "steps": 100,
+      "max_error": 0.0
+    },
+    {
+      "cohort": "two_invariants",
+      "pair": 1,
+      "steps": 100,
+      "max_error": 0.0
+    },
+    {
+      "cohort": "two_invariants",
+      "pair": 16,
+      "steps": 100,
+      "max_error": 0.0
+    }
+  ],
+  "ledger_records": 98304,
+  "actual_forward_examples": 35389440,
+  "forwards_by_policy": {
+    "raw": 3145728,
+    "full": 6291456,
+    "confidence": 3932160,
+    "folded_legacy": 3932160,
+    "folded": 3932160,
+    "symmetric_jensen": 3932160,
+    "grid_nearest": 3932160,
+    "oracle_jensen": 6291456
+  },
+  "calibration_forward_examples": 6291456,
+  "primary_bootstrap_reconstruction": [
+    {
+      "cohort": "rings",
+      "mean": -1.7663249855913964e-05,
+      "lower": -3.3689483848543495e-05,
+      "upper": -5.057487147369444e-06,
+      "wins": 13
+    },
+    {
+      "cohort": "waveform",
+      "mean": -0.0017849690740417215,
+      "lower": -0.0022184888608986425,
+      "upper": -0.0013504349149488478,
+      "wins": 16
+    },
+    {
+      "cohort": "two_invariants",
+      "mean": -0.005380826123149246,
+      "lower": -0.0063372330594525334,
+      "upper": -0.004553796538259575,
+      "wins": 16
+    }
+  ],
+  "seconds": 8.964368199987803,
+  "limits": [
+    "Ordinary floating-point audit, not directed rounding.",
+    "Bootstrap intervals remain finite-replication approximations.",
+    "Training direction implementation is reused for deterministic replay; risk and mask arithmetic are independent."
+  ]
+}

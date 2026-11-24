@@ -1,0 +1,86 @@
+{
+  "config": {
+    "old_seeds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "new_seeds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "new_train_base": 621000,
+    "new_init_base": 622000,
+    "new_cal_base": 625000,
+    "old_cal_base": 605000,
+    "pb_updates": 500,
+    "pb_rate": 8.0,
+    "damping": 0.1,
+    "target_drop": 0.005,
+    "root_norm_cap": 4.0,
+    "root_expansion": 1.35,
+    "root_iterations": 160,
+    "bisection_iterations": 60,
+    "development": "PB100 pilot had no useful global angle changes; this PB500 sensitivity was frozen before a separate third cohort.",
+    "no_further_optimization": true,
+    "feasibility_selection": {
+      "selected_drop": 0.005,
+      "paired_success_counts": {
+        "0.005": 5,
+        "0.001": 6
+      },
+      "rule": "Largest of .005,.001 feasible for BOTH methods on at least4/6 old pairs; fallback.001.",
+      "decision_used_only_training_loss_and_root_status": true,
+      "old_state_hash": "e5b39d80c2c36522ef65a9d73d3716321e6d10c1db5227ee999021e314d3a926",
+      "root_table_hash": "ef785cb8ebf77875b791058f6c2d228ea201f77d76e6790a4a89b03fb8148f5c"
+    }
+  },
+  "bridge_config": {
+    "calibration_radii": 512,
+    "calibration_angles": 128,
+    "radial_bins": 8,
+    "calibration_seed_old": 605000,
+    "calibration_seed_new": 625000,
+    "requested_drop": 0.005,
+    "task": "rings",
+    "stage": "trained",
+    "experiment": "single",
+    "primary": "drop_clock_logits",
+    "secondary": [
+      "matched_step_logits",
+      "first_order_gain"
+    ],
+    "evaluation_nr": 32,
+    "evaluation_na": 512,
+    "refinement_nr": 64,
+    "refinement_na": 1024,
+    "reuse": "New confirmation cohort621001..621016/622001..622016; independent of main and PB100 bridge.",
+    "selection": "Complete independent calibration orbits; every selector fixed before population risk.",
+    "checkpoint": "PB500"
+  },
+  "timestamp_utc": "2026-11-21T07:50:15.441339+00:00",
+  "source_sha256": {
+    "late_bridge.py": "bc1ee0a4ab258613a9881195346bd58ef454fa3e56972295c6d767ed04aa5b05",
+    "late_forecast.py": "3bdcadb09cdbc98551c734fcf97cd7a6d128085fa6380209fde98fdfb2873b07",
+    "rotation_selectors.py": "f79a394c7ab67de90428830fd9c68c4530d2ef30b41938570c6b0dd190ab9bf6"
+  },
+  "old_outcomes_sha256": "f5133fa9670d5d6b75c33aa5d5b07a7ba351f8ae1d80f368abfd994e54c483b0",
+  "no_setting_change_after_old_results": true
+}

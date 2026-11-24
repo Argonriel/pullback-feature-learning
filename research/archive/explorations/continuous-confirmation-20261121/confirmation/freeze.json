@@ -1,0 +1,106 @@
+{
+  "timestamp": "2026-11-21T08:53:39.688494+00:00",
+  "config": {
+    "geometries": {
+      "original": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "ellipse": [
+        [
+          1.5,
+          0.0
+        ],
+        [
+          0.0,
+          0.7
+        ]
+      ]
+    },
+    "n_pairs_per_geometry": 16,
+    "models": [
+      "gd",
+      "pb",
+      "hybrid"
+    ],
+    "budgets": [
+      8192,
+      65536
+    ],
+    "train_seed_base": 821000,
+    "init_seed_base": 822000,
+    "orbit_radius_seed_base": 823000,
+    "orbit_phase_seed_base": 824000,
+    "iid_gate_seed_base": 825000,
+    "test_seed_base": 826000,
+    "tie_seed_base": 827000,
+    "label_seed_base": 828000,
+    "bootstrap_seed": 829000,
+    "n_test": 65536,
+    "batch": 256,
+    "quota": 64,
+    "orbit_angles": 128,
+    "radius_bins": 16,
+    "min_radius_count": 4,
+    "calibration_radii": {
+      "8192": 64,
+      "65536": 512
+    },
+    "training": {
+      "gd_steps": 500,
+      "gd_rate": 0.5,
+      "pb_steps": 500,
+      "pb_rate": 8.0,
+      "damping": 0.1,
+      "hybrid_pb_steps": 100,
+      "hybrid_gd_steps": 400,
+      "hybrid_gd_rate": 2.0
+    },
+    "primary_method": "pb",
+    "primary_budget": 8192,
+    "primary_contrast": [
+      "confidence_radial",
+      "confidence_pi"
+    ],
+    "primary_family": "Two geometries; report ordinary95% and Bonferroni97.5% bootstrap intervals.",
+    "bootstrap_repeats": 20000,
+    "timing_repetitions": 8,
+    "timing_batches": 16,
+    "latent_information": "All policies know A and may access z=A^-1 x; model itself trains on observed x.",
+    "risk_labels": "Analytic latent-radius posterior only in evaluation; independent sampled Bernoulli labels also scored.",
+    "no_retuning": true,
+    "practical_cost_targets": {
+      "calibration_overhead_relative_to_deployment": [
+        0.1,
+        0.01
+      ],
+      "forward_break_even_reference": "full_pi",
+      "latency_break_even_reference": "full_pi"
+    }
+  },
+  "policies": [
+    "confidence_pi",
+    "confidence_global",
+    "confidence_radial",
+    "legacy_iid_folded_pi",
+    "joint",
+    "raw",
+    "full_pi",
+    "full_radial"
+  ],
+  "hashes": {
+    "confirmation\\study.py": "827314ff0f16c997142fd3e522c3b99ca9e73bd145a108fabcadbe4eaab80dff",
+    "confirmation\\PROTOCOL.md": "5a69f5217ecc3e3660df9005f807aeb4b950ec655bb448ca7ac92b3843261995",
+    "reference\\experiment.py": "d865d8eafb95fb39a5b97f957471c27d142055616c46430e95c0c6f1e2d8ff56",
+    "source\\pullback_feature_learning\\core.py": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5",
+    "legacy\\budgeted-rotation-final\\gate.py": "2727f2fb030cb6e6a02cf8ac77be8f96b04db9a6419bc5a7bdf2024b548684c3",
+    "legacy\\budgeted-rotation-final\\generator.py": "885eb5c8d8878b57df1025c1a5a69b6978d4c2803f3f0e552c557170c7e355d2"
+  },
+  "frozen_before_new_training": true
+}

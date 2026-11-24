@@ -1,0 +1,7 @@
+{
+  "utc": "2026-11-22T00:15:28.022719+00:00",
+  "fresh_authorized": true,
+  "source_freeze_sha256": "28f022413e2bf455f44f412a9430b6eb8e5f9f60a424f78f9813f25d2d78be3c",
+  "review": "Protocol, source, preflight, normalized work ledger, stage separation, baseline-wins rule and complete-fit benchmark reviewed before fresh streams.",
+  "user_permission": "Existing user authorization; internal scientific release only."
+}

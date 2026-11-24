@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-21T22:22:04.581773+00:00",
+  "manifest": {
+    "1_cuda.npz": "795cc43b345ffe889c5d39ea1173bd6e7de474e68b2cd9106ab9bf345c44771c",
+    "1_cpu.npz": "e950a985fc4b74947b5d60c49af809296b9a3291c32e9056edabcef1f1b95f11",
+    "2_cuda.npz": "0db69f4e781de4c5dd84ca992aa7fa2f9af647baae2916ed056bf5f3cdb6b09f",
+    "2_cpu.npz": "a2b2b13340f54d72ed44958c6e62312358ae5bbcc4e38d7fba53f279468549f8",
+    "3_cuda.npz": "c97cdbdc04284eeaee616066bf204df9f07bb718c888ac640d5cf152686ea3c7",
+    "3_cpu.npz": "e3054b9b56c8558de352a5761137adaaf357688af84ae9bfdd0ad5a56a03dda5"
+  },
+  "images_per_model": 10000,
+  "models": 3,
+  "rows": 48,
+  "actual_forward_examples": 720000,
+  "test_partners_are_evaluation_reuse": true
+}

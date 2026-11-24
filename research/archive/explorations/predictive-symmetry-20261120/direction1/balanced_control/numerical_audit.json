@@ -1,0 +1,12 @@
+{
+  "all32_task_samples_exactly_balanced": true,
+  "all16_task_pairs_share_inputs_and_initialization": true,
+  "all_training_pairs_have_opposite_labels": true,
+  "max_recomputed_loss_match_error": 2.0469737016526324e-16,
+  "successful_roots": 107,
+  "failed_rays": 21,
+  "failed_trial_rows": 224,
+  "freeze_before_commit_before_score": true,
+  "hashes_pass": true,
+  "important_scope": "256 training observations comprise128 independent antithetic pairs; angular substantial-drop inference has only2 jointly reachable seed pairs."
+}

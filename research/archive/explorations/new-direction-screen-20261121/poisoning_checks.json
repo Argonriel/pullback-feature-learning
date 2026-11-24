@@ -1,0 +1,43 @@
+{
+  "status": "reject_generic_novelty_standard_matrix_perturbation",
+  "scope": "fixed-gradient linear representation; no model training",
+  "rank_one_addition": {
+    "formula_max_error": 1.1102230246251565e-16,
+    "progress_drop": 0.08130579098321013,
+    "progress_drop_formula_error": 1.942890293094024e-16,
+    "angle_degrees": 11.788627945966969
+  },
+  "normalized_replacement": {
+    "poison_fraction": 0.02,
+    "poison_feature_norm": 30.0,
+    "clean_descent_direction": [
+      0.9090909090909091,
+      0.9090909090909091
+    ],
+    "poisoned_descent_direction": [
+      0.05241090146750524,
+      0.9259259259259258
+    ],
+    "angle_degrees": 41.760299703897864,
+    "clean_progress": 1.8181818181818181,
+    "poisoned_progress": 0.9783368273934311,
+    "resolvent_max_error": 1.1102230246251565e-16
+  },
+  "rank_one_target_reachability": {
+    "curvature_condition": 0.162,
+    "target": [
+      0.15,
+      -0.1
+    ],
+    "max_error": 2.7755575615628914e-17,
+    "addition_trace": 4.990895061728395
+  },
+  "quadratic_stationarity": {
+    "common_minimizer": [
+      0.31521739130434784,
+      -0.8260869565217392
+    ],
+    "clean_update_norm": 9.007544500562902e-17,
+    "poisoned_update_norm": 6.603812177931649e-17
+  }
+}

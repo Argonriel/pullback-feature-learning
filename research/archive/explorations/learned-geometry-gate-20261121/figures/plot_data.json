@@ -1,0 +1,226 @@
+[
+  {
+    "task": "moons",
+    "estimand": "B",
+    "seed": "d1",
+    "step_size": 0.01,
+    "value": -0.010715562783533542
+  },
+  {
+    "task": "moons",
+    "estimand": "B",
+    "seed": "d1",
+    "step_size": 0.005,
+    "value": -0.010867714348229168
+  },
+  {
+    "task": "moons",
+    "estimand": "B",
+    "seed": "d2",
+    "step_size": 0.01,
+    "value": 0.025486720071153796
+  },
+  {
+    "task": "moons",
+    "estimand": "B",
+    "seed": "d2",
+    "step_size": 0.005,
+    "value": 0.025514559818459154
+  },
+  {
+    "task": "moons",
+    "estimand": "B",
+    "seed": "d3",
+    "step_size": 0.01,
+    "value": 0.004925875927874579
+  },
+  {
+    "task": "moons",
+    "estimand": "B",
+    "seed": "d3",
+    "step_size": 0.005,
+    "value": 0.004993260981035974
+  },
+  {
+    "task": "moons",
+    "estimand": "B",
+    "seed": "d4",
+    "step_size": 0.01,
+    "value": 0.018870411670606796
+  },
+  {
+    "task": "moons",
+    "estimand": "B",
+    "seed": "d4",
+    "step_size": 0.005,
+    "value": 0.01875257742642858
+  },
+  {
+    "task": "moons",
+    "estimand": "D",
+    "seed": "d1",
+    "step_size": 0.01,
+    "value": -0.0014589465254054995
+  },
+  {
+    "task": "moons",
+    "estimand": "D",
+    "seed": "d1",
+    "step_size": 0.005,
+    "value": -0.001616804219260748
+  },
+  {
+    "task": "moons",
+    "estimand": "D",
+    "seed": "d2",
+    "step_size": 0.01,
+    "value": 0.03226789969077298
+  },
+  {
+    "task": "moons",
+    "estimand": "D",
+    "seed": "d2",
+    "step_size": 0.005,
+    "value": 0.032305050707426786
+  },
+  {
+    "task": "moons",
+    "estimand": "D",
+    "seed": "d3",
+    "step_size": 0.01,
+    "value": -0.018315693486811058
+  },
+  {
+    "task": "moons",
+    "estimand": "D",
+    "seed": "d3",
+    "step_size": 0.005,
+    "value": -0.01814939850345279
+  },
+  {
+    "task": "moons",
+    "estimand": "D",
+    "seed": "d4",
+    "step_size": 0.01,
+    "value": -0.003779480235439725
+  },
+  {
+    "task": "moons",
+    "estimand": "D",
+    "seed": "d4",
+    "step_size": 0.005,
+    "value": -0.003774386341828362
+  },
+  {
+    "task": "rings",
+    "estimand": "B",
+    "seed": "d1",
+    "step_size": 0.01,
+    "value": 0.002562705637513041
+  },
+  {
+    "task": "rings",
+    "estimand": "B",
+    "seed": "d1",
+    "step_size": 0.005,
+    "value": 0.002534148112222634
+  },
+  {
+    "task": "rings",
+    "estimand": "B",
+    "seed": "d2",
+    "step_size": 0.01,
+    "value": -0.01156017622567107
+  },
+  {
+    "task": "rings",
+    "estimand": "B",
+    "seed": "d2",
+    "step_size": 0.005,
+    "value": -0.01147886129804565
+  },
+  {
+    "task": "rings",
+    "estimand": "B",
+    "seed": "d3",
+    "step_size": 0.01,
+    "value": -0.009670060275056291
+  },
+  {
+    "task": "rings",
+    "estimand": "B",
+    "seed": "d3",
+    "step_size": 0.005,
+    "value": -0.00957732712658263
+  },
+  {
+    "task": "rings",
+    "estimand": "B",
+    "seed": "d4",
+    "step_size": 0.01,
+    "value": -0.015513003542419329
+  },
+  {
+    "task": "rings",
+    "estimand": "B",
+    "seed": "d4",
+    "step_size": 0.005,
+    "value": -0.0154820334339828
+  },
+  {
+    "task": "rings",
+    "estimand": "D",
+    "seed": "d1",
+    "step_size": 0.01,
+    "value": 0.010209825111977017
+  },
+  {
+    "task": "rings",
+    "estimand": "D",
+    "seed": "d1",
+    "step_size": 0.005,
+    "value": 0.010246331979637618
+  },
+  {
+    "task": "rings",
+    "estimand": "D",
+    "seed": "d2",
+    "step_size": 0.01,
+    "value": -0.00543429441690374
+  },
+  {
+    "task": "rings",
+    "estimand": "D",
+    "seed": "d2",
+    "step_size": 0.005,
+    "value": -0.005368192701524471
+  },
+  {
+    "task": "rings",
+    "estimand": "D",
+    "seed": "d3",
+    "step_size": 0.01,
+    "value": -0.003993828694542456
+  },
+  {
+    "task": "rings",
+    "estimand": "D",
+    "seed": "d3",
+    "step_size": 0.005,
+    "value": -0.0041951190360603186
+  },
+  {
+    "task": "rings",
+    "estimand": "D",
+    "seed": "d4",
+    "step_size": 0.01,
+    "value": -0.01834264652385431
+  },
+  {
+    "task": "rings",
+    "estimand": "D",
+    "seed": "d4",
+    "step_size": 0.005,
+    "value": -0.01824417375456694
+  }
+]

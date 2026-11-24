@@ -1,0 +1,30 @@
+{
+  "utc": "2026-11-22T00:26:34.459332+00:00",
+  "branch_complete": true,
+  "paired_seeds": 6,
+  "networks": 18,
+  "new_source_images": 1500,
+  "new_source_unique_products": 1500,
+  "primary_error_ordering_replication_success": false,
+  "secondary_serving_success": true,
+  "no_outcome_tuning": true,
+  "no_timing_repeats": true,
+  "artifacts_sha256": {
+    "SOURCE_FREEZE.json": "7c015fa2f70b2016b456a34697379991f7fdb4c433bc66785fa7e2ee2583aee8",
+    "MODEL_COMMIT.json": "afd3b784312bb130ec373cb23172d27c31ccb44d52958e97d89047b401ef3a27",
+    "SCORE_COMPLETE.json": "4975f8b69471d3d5bce287b1e9f501c585794718e890b9718efe456e1ea93a80",
+    "SUCCESS_CRITERIA.json": "36efed4a9a9cb63e0b061c09293447f3723cc93fe5b064dc3c2c6d25093cd36a",
+    "TIMING_COMPLETE.json": "cc99a8c4b52a85e289f7910c0856731b7687a21b065d2277e5efce65fa648679",
+    "SERVING_SUCCESS.json": "400a0ed11b5e379a6461c8bf1cd0191082578c72f997434c980f9b6ed4b871e4",
+    "FINAL_VERIFICATION.json": "9a914466caaf02444e1917b65427b1cb3c8ff3fc257cd1eebfd38a9b98515049",
+    "REPOSITORY_SOURCE_COPIES.json": "08f2806f3a4be2598a27ba41d3d386d94d2065d722a307a851ef91de108cc015",
+    "summary.csv": "4317f8f1ee1dfade4d8ec583715a0b4c7c6ce3885674850a0c428c1de53b13dd",
+    "seed_contrasts.csv": "d13abddc0533694c236b1653d47efe5d60a6eb2e7a4d809a292e0665ce5db4de",
+    "crossed_bootstrap_contrasts.csv": "6b3e7cb0142ae89504b5d50e09a94415c0864cdd74fbabc22abeb1778c6df33e",
+    "serving_aggregate.csv": "9b7eb6d939e15cdd5a3b687a68c0237646caffbcc5f84b3e39dcf98b2a80c003",
+    "README.md": "1f449de295fdb537d0914d4e0a06e015a476bf2076e904214ac7f070e61ca77b",
+    "distillation_replication_report.png": "a0d2554d34ec7cc97c09ff0c3cf04e13787544e5757c75641fa496d453de39a2",
+    "report.py": "d5baae6023dc048a524377145f6a8c2f6f4cf8acb8fab6af8e43268578827826"
+  },
+  "portable_archive_optional_exclusion": "external/ut-zap50k-images.zip (305323328 bytes), preserved locally; selected originals+metadata+URL+digest retained"
+}

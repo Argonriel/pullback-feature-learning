@@ -1,0 +1,219 @@
+{
+  "timestamp_utc": "2026-11-21T10:54:06.108731+00:00",
+  "rows": [
+    {
+      "cohort": "rings",
+      "policy": "raw",
+      "calls": [
+        256
+      ],
+      "selected": 0
+    },
+    {
+      "cohort": "rings",
+      "policy": "full",
+      "calls": [
+        256,
+        256
+      ],
+      "selected": 256
+    },
+    {
+      "cohort": "rings",
+      "policy": "confidence",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    },
+    {
+      "cohort": "rings",
+      "policy": "folded_legacy",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    },
+    {
+      "cohort": "rings",
+      "policy": "folded",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    },
+    {
+      "cohort": "rings",
+      "policy": "symmetric_jensen",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    },
+    {
+      "cohort": "rings",
+      "policy": "grid_nearest",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    },
+    {
+      "cohort": "rings",
+      "policy": "oracle_jensen",
+      "calls": [
+        256,
+        256
+      ],
+      "selected": 64
+    },
+    {
+      "cohort": "waveform",
+      "policy": "raw",
+      "calls": [
+        256
+      ],
+      "selected": 0
+    },
+    {
+      "cohort": "waveform",
+      "policy": "full",
+      "calls": [
+        256,
+        256
+      ],
+      "selected": 256
+    },
+    {
+      "cohort": "waveform",
+      "policy": "confidence",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    },
+    {
+      "cohort": "waveform",
+      "policy": "folded_legacy",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    },
+    {
+      "cohort": "waveform",
+      "policy": "folded",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    },
+    {
+      "cohort": "waveform",
+      "policy": "symmetric_jensen",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    },
+    {
+      "cohort": "waveform",
+      "policy": "grid_nearest",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    },
+    {
+      "cohort": "waveform",
+      "policy": "oracle_jensen",
+      "calls": [
+        256,
+        256
+      ],
+      "selected": 64
+    },
+    {
+      "cohort": "two_invariants",
+      "policy": "raw",
+      "calls": [
+        256
+      ],
+      "selected": 0
+    },
+    {
+      "cohort": "two_invariants",
+      "policy": "full",
+      "calls": [
+        256,
+        256
+      ],
+      "selected": 256
+    },
+    {
+      "cohort": "two_invariants",
+      "policy": "confidence",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    },
+    {
+      "cohort": "two_invariants",
+      "policy": "folded_legacy",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    },
+    {
+      "cohort": "two_invariants",
+      "policy": "folded",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    },
+    {
+      "cohort": "two_invariants",
+      "policy": "symmetric_jensen",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    },
+    {
+      "cohort": "two_invariants",
+      "policy": "grid_nearest",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64
+    },
+    {
+      "cohort": "two_invariants",
+      "policy": "oracle_jensen",
+      "calls": [
+        256,
+        256
+      ],
+      "selected": 64
+    }
+  ],
+  "no_fresh_inputs": true
+}

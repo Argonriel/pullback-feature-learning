@@ -1,0 +1,146 @@
+{
+  "utc": "2026-11-21T10:49:20.560519+00:00",
+  "criterion": "Highest mean selected Jensen gain; equal model weights; exact tie prefers smaller listed resolution.",
+  "choices": {
+    "rings": {
+      "config": [
+        64,
+        32
+      ],
+      "chosen_method": "folded_64x32",
+      "development_mean_selected_j": 0.010374074483470445,
+      "models": 16,
+      "candidates": [
+        {
+          "cohort": "rings",
+          "method": "folded_16x8",
+          "models": 16,
+          "risk": 0.10012281728155256,
+          "raw_risk": 0.11043741049462885,
+          "gain": 0.010314593213076283,
+          "selected_j": 0.01027366647601951,
+          "oracle_fraction": 0.9877895300905168,
+          "gain_minus_selected_j": 4.092673705677234e-05
+        },
+        {
+          "cohort": "rings",
+          "method": "folded_32x16",
+          "models": 16,
+          "risk": 0.1000461042229516,
+          "raw_risk": 0.11043741049462885,
+          "gain": 0.010391306271677257,
+          "selected_j": 0.010351135099044012,
+          "oracle_fraction": 0.9958669829663465,
+          "gain_minus_selected_j": 4.017117263324457e-05
+        },
+        {
+          "cohort": "rings",
+          "method": "folded_64x32",
+          "models": 16,
+          "risk": 0.10002772728049106,
+          "raw_risk": 0.11043741049462885,
+          "gain": 0.01040968321413779,
+          "selected_j": 0.010374074483470445,
+          "oracle_fraction": 0.998330694016805,
+          "gain_minus_selected_j": 3.560873066734353e-05
+        }
+      ]
+    },
+    "waveform": {
+      "config": [
+        64,
+        32
+      ],
+      "chosen_method": "folded_64x32",
+      "development_mean_selected_j": 0.05149815531383596,
+      "models": 16,
+      "candidates": [
+        {
+          "cohort": "waveform",
+          "method": "folded_16x8",
+          "models": 16,
+          "risk": 0.3491694987527497,
+          "raw_risk": 0.39422774025155993,
+          "gain": 0.04505824149881032,
+          "selected_j": 0.04490272859780005,
+          "oracle_fraction": 0.8510764996852946,
+          "gain_minus_selected_j": 0.00015551290101026833
+        },
+        {
+          "cohort": "waveform",
+          "method": "folded_32x16",
+          "models": 16,
+          "risk": 0.34469773977670765,
+          "raw_risk": 0.39422774025155993,
+          "gain": 0.04953000047485232,
+          "selected_j": 0.04933640014137192,
+          "oracle_fraction": 0.9305124345998277,
+          "gain_minus_selected_j": 0.00019360033348040187
+        },
+        {
+          "cohort": "waveform",
+          "method": "folded_64x32",
+          "models": 16,
+          "risk": 0.34260415284561785,
+          "raw_risk": 0.39422774025155993,
+          "gain": 0.0516235874059421,
+          "selected_j": 0.05149815531383596,
+          "oracle_fraction": 0.9695686610724049,
+          "gain_minus_selected_j": 0.0001254320921061264
+        }
+      ]
+    },
+    "two_invariants": {
+      "config": [
+        16,
+        16,
+        16
+      ],
+      "chosen_method": "folded_16x16x16",
+      "development_mean_selected_j": 0.048530639637866635,
+      "models": 4,
+      "candidates": [
+        {
+          "cohort": "two_invariants",
+          "method": "folded_4x4x8",
+          "models": 4,
+          "risk": 0.6509951299267378,
+          "raw_risk": 0.6921957427488858,
+          "gain": 0.0412006128221481,
+          "selected_j": 0.04111723758297288,
+          "oracle_fraction": 0.7775610989320085,
+          "gain_minus_selected_j": 8.337523917521751e-05
+        },
+        {
+          "cohort": "two_invariants",
+          "method": "folded_8x8x16",
+          "models": 4,
+          "risk": 0.6443120355876414,
+          "raw_risk": 0.6921957427488858,
+          "gain": 0.047883707161244536,
+          "selected_j": 0.04817673152202049,
+          "oracle_fraction": 0.9088536187529258,
+          "gain_minus_selected_j": -0.0002930243607759614
+        },
+        {
+          "cohort": "two_invariants",
+          "method": "folded_16x16x16",
+          "models": 4,
+          "risk": 0.6440295607319759,
+          "raw_risk": 0.6921957427488858,
+          "gain": 0.04816618201690998,
+          "selected_j": 0.048530639637866635,
+          "oracle_fraction": 0.9155639100103197,
+          "gain_minus_selected_j": -0.0003644576209566446
+        }
+      ]
+    }
+  },
+  "total_models": 36,
+  "checks": 180,
+  "max_flip_score_error": 0.0,
+  "total_flip_mask_changes": 0,
+  "max_deploy_error": 0.0,
+  "total_model_seconds": 48.38692280006944,
+  "historical_sources_unchanged": true
+}

@@ -1,0 +1,29 @@
+{
+  "timestamp_utc": "2026-11-21T09:24:54.140032+00:00",
+  "model_ids": [
+    1,
+    2,
+    8,
+    16
+  ],
+  "configurations": [
+    [
+      4,
+      256
+    ],
+    [
+      8,
+      256
+    ],
+    [
+      4,
+      512
+    ],
+    [
+      8,
+      512
+    ]
+  ],
+  "source_sha256": "f3d0c21f992c043ac135a2ef280e8924ee9d28611f27490b60c4c1caae1d9104",
+  "new_model_access": false
+}

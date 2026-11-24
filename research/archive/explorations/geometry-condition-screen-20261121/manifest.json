@@ -1,0 +1,133 @@
+{
+  "created_utc": "2026-11-22T02:07:39.629027+00:00",
+  "files": {
+    "commuting/results.json": {
+      "sha256": "1bf280cb457ca332a0fd85899d2770baaae51ff3512c162569ac739225c2dc2b",
+      "bytes": 7074
+    },
+    "COMMUTING_AUDIT.md": {
+      "sha256": "5be417aee59ecfd5e0d3ddaa79bc58c83ccd56a06644b6fce24eef9da859777f",
+      "bytes": 5246
+    },
+    "CURVATURE_AUDIT.md": {
+      "sha256": "620ca081254011cbcfcf5ddbcdf8475d45a90ffbd6def9c012b579342cf08316",
+      "bytes": 8553
+    },
+    "curvature_results.json": {
+      "sha256": "15aadd15034085953c15a0eb72734523db757fed210addf794891b7e5ba10757",
+      "bytes": 6779
+    },
+    "curvature_results_v2.json": {
+      "sha256": "48382b886166949ebf72669490a375bcdfce693d8a49f08060a4b8ec93e0e058",
+      "bytes": 7285
+    },
+    "curvature_search_full.json": {
+      "sha256": "51a5ec1217ded9d8f403162acceb245d51775c5bfc2ca616f4bae99851bef558",
+      "bytes": 3303864
+    },
+    "DATA_DICTIONARY.md": {
+      "sha256": "18515e0d118b977c43e34265c7e2093ec75881edaa2cd3b7684004b6a14a7119",
+      "bytes": 3466
+    },
+    "historical_source/curvature_v1.py": {
+      "sha256": "81086bd926e2b0bb9d773358f78ea673fb6c34d3d558d8bdc1b8a8c2b55c323b",
+      "bytes": 7546
+    },
+    "historical_source/noise_initial_snapshot.py": {
+      "sha256": "2bd8f6be98d72161f423bcca6bb34d333d3e9a787f9c7a91b087da8a8973de2c",
+      "bytes": 7576
+    },
+    "NOISE_AUDIT.md": {
+      "sha256": "db1a4c3092fb396d465c17323ac3fc70dd2d0e77f5919ed39ed66f31cfa3ec03",
+      "bytes": 11221
+    },
+    "noise_results.json": {
+      "sha256": "68a5497e9b4fcd7d8fe19a9a502be56a9ccff045a08ad7cb22114efb509a5238",
+      "bytes": 9345
+    },
+    "noise_results_verified.json": {
+      "sha256": "c8eb7cd6102adc51cf96ed64b92e6edbee01da2b24b3263c0090ce57850a8947",
+      "bytes": 10108
+    },
+    "PARITY_AUDIT.md": {
+      "sha256": "0ade98da3636c939d23ababab6ba9a2f29e1804e5f7e4472abcd862a81d6cab4",
+      "bytes": 13116
+    },
+    "parity_results.json": {
+      "sha256": "14ab71e2d006cd0bced08b4f6afefbd16c8884f281885b770175ad9fbac3b3b4",
+      "bytes": 6397
+    },
+    "REPORT.md": {
+      "sha256": "04a2c8fbdcf874ac45caf704eb480df80f8803d34a03babc1bc23148ad624608",
+      "bytes": 11559
+    },
+    "REVIEW_CURVATURE_AGENT.md": {
+      "sha256": "60dc6e5aebd2d31291463c1aef430346727ae8fb94ea2bf64f1f940cb56b6aa8",
+      "bytes": 4006
+    },
+    "REVIEW_NOISE_AGENT.md": {
+      "sha256": "b841702ba1075e09a051336e9bd8d226bb9f2d0d40725a8a7dc4b014d6a17210",
+      "bytes": 4807
+    },
+    "SCREENING_PROTOCOL.md": {
+      "sha256": "2ff7edd4d96a28b24034d6c60927680f24b470ae83be167148eae96bef5de6d3",
+      "bytes": 3346
+    },
+    "source_snapshot/AGENTS.md": {
+      "sha256": "2a8bb3dd088d5a545e1927408e82a8125d6c69c22e7edf5f2fc961736fa8975d",
+      "bytes": 813
+    },
+    "source_snapshot/experiments/geometry_condition_screen_20261121/commuting.py": {
+      "sha256": "21e6d7a5321b96e3a183923161df5751b9a8e3ef1f59150eef8f731b2f5b5f06",
+      "bytes": 5460
+    },
+    "source_snapshot/experiments/geometry_condition_screen_20261121/curvature.py": {
+      "sha256": "82414837294c581b607f7564109ab10bd02fff4f82aaf379b9e4c7ec2e49ad8e",
+      "bytes": 8916
+    },
+    "source_snapshot/experiments/geometry_condition_screen_20261121/curvature_search_full.py": {
+      "sha256": "18b69d29c60a6703a3f6769a085c4a21c05111a26704ec9dae13fcb8b70d7790",
+      "bytes": 2749
+    },
+    "source_snapshot/experiments/geometry_condition_screen_20261121/noise.py": {
+      "sha256": "b8a08c15791d342bb487c317edd672a6e2ff80684d6153a883fd5156eff2d610",
+      "bytes": 9983
+    },
+    "source_snapshot/experiments/geometry_condition_screen_20261121/package_archive.py": {
+      "sha256": "134e67b9bc05121efcc90e46fb0cb7713e9f37f915b394e008c0977648a3be26",
+      "bytes": 4545
+    },
+    "source_snapshot/experiments/geometry_condition_screen_20261121/parity.py": {
+      "sha256": "15f4c97416102bfbf2dc2562094040da7e4399ae32f69157f9f412f68b12ed61",
+      "bytes": 7910
+    },
+    "source_snapshot/experiments/geometry_condition_screen_20261121/README.md": {
+      "sha256": "abd0aeb78cf4f98918ca53fac0e8096b56dddfd447050960d5f07b18e870711f",
+      "bytes": 2089
+    },
+    "source_snapshot/pyproject.toml": {
+      "sha256": "e23dbecaeb1a16d49d6216ff5020af6c4ae40301e06e463d350991a6a9b339f1",
+      "bytes": 542
+    },
+    "source_snapshot/requirements-lock.txt": {
+      "sha256": "71b86ff95f8e1315e393aa05f25241a83f246fa2e636b932bdfa6da0096435bf",
+      "bytes": 270
+    },
+    "source_snapshot/src/pullback_feature_learning/__init__.py": {
+      "sha256": "cfa50d8dc213dd829cd6eb880cc14a50e689d919782ce75e74fb270cb9a9b943",
+      "bytes": 95
+    },
+    "source_snapshot/src/pullback_feature_learning/core.py": {
+      "sha256": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5",
+      "bytes": 4701
+    },
+    "source_snapshot/src/pullback_feature_learning/data.py": {
+      "sha256": "40126e817fd391fc75007677864f182fac2b103163cd0a83b7f3a383f6c2c703",
+      "bytes": 759
+    },
+    "VALIDATION_CHECKLIST.md": {
+      "sha256": "1b5267b4563423ef95373ca114a5f18c184611476de43636bdb79149ade200eb",
+      "bytes": 3475
+    }
+  }
+}

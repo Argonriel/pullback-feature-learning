@@ -1,0 +1,60 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,hyperref}
+\title{What Does a Network Learn About Noisy Rings?}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+
+Let the two equally likely classes have clean radii \(R_0=0.5\) and \(R_1=1.2\),
+with uniform angle and independent Gaussian noise of standard deviation
+\(\sigma=0.15\) in each Cartesian coordinate. Write \(r=\|x\|\).
+Integration over the latent angle gives the class-conditional density of the observed radius:
+\[
+f_j(r)=\frac{r}{\sigma^2}e^{-(r^2+R_j^2)/(2\sigma^2)}
+I_0(rR_j/\sigma^2),\quad r>0.
+\]
+Here \(I_0(u)=(2\pi)^{-1}\int_0^{2\pi} e^{u\cos t}\,dt\).
+This is the Rice density (see
+\href{https://pmc.ncbi.nlm.nih.gov/articles/PMC2254141/}{Gudbjartsson and Patz, 1995}).
+The posterior probability of the outer class is \(p(r)=f_1(r)/(f_1(r)+f_0(r))\).
+The Bayes log odds have the continuous radial expression
+\[
+b(r)=\frac{R_0^2-R_1^2}{2\sigma^2}
+ +\log I_0(rR_1/\sigma^2)-\log I_0(rR_0/\sigma^2).
+\]
+Numerical integration gives a decision radius \(0.86420\), population Bayes
+accuracy \(98.96476\%\), and population Bayes logistic loss \(0.0282953\) nats.
+For reproducibility, use composite trapezoidal integration on \(0\le r\le3\),
+with 60,001 and 120,001 equally spaced points. The accuracy integrand is
+\(\max(f_0,f_1)/2\). The loss integrand is
+\([f_0\log(1+e^{b})+f_1\log(1+e^{-b})]/2\).
+On the finer grid the integrated probability mass is \(0.9999999999955\);
+refining the grid changed the accuracy by less than \(4\times10^{-10}\) on
+the probability scale. These are population quantities. A finite validation
+sample can exceed the population Bayes accuracy.
+
+\paragraph{A diagnostic for trained checkpoints.}
+Let \(h(r,\phi)\) be the model's output logit and
+\(\bar h(r)=\mathbb E_\phi[h(r,\phi)]\) its mean over uniform angles.
+Set \(B(u)=\log(1+e^u)\) and \(q(r)=1/(1+e^{-\bar h(r)})\).
+Under the specified population law, the excess logistic risk satisfies
+\begin{align*}
+\mathcal L(h)-\mathcal L_{\rm Bayes}
+={}&\mathbb E_r\,D_{\rm KL}\!\left(\mathrm{Bern}(p(r))\,\|\,\mathrm{Bern}(q(r))\right)\\
+&+\mathbb E_r\!\left[\mathbb E_\phi B(h(r,\phi))-B(\bar h(r))\right].
+\end{align*}
+Indeed, the conditional expected loss is \(B(h)-p(r)h\). Subtracting and
+adding \(B(\bar h)-p(r)\bar h\) yields the identity. The first term measures
+radial fit for the angularly averaged logit. The second measures the cost of
+varying the logit with angle at a fixed radius and is nonnegative by Jensen's
+inequality. Radial expectations use the mixture density \((f_0+f_1)/2\).
+
+Evaluate both terms on the same polar grid at the initial state and after
+100 and 500 updates for GD, full pullback, and the warm-up schedule. With
+held-fixed model states, refine both radius and angle grids until the
+contributions stabilize. Compare matched-seed trajectories and inspect radii
+near the decision boundary. The two terms have not yet been measured for
+the trained models in this note.
+\end{document}

@@ -1,0 +1,47 @@
+{
+  "timestamp_utc": "2026-11-21T07:48:47.360888+00:00",
+  "config": {
+    "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "tasks": [
+      "radial",
+      "angular"
+    ],
+    "stage": "initial",
+    "drops": [
+      1e-05,
+      0.02
+    ],
+    "train_seed_base": 27760100,
+    "init_seed_base": 27761100,
+    "fd_parameter_norms": [
+      0.001,
+      0.0005
+    ],
+    "fd_selected": "smaller_step_no_adaptation",
+    "root_cap": 4.0,
+    "old_baseline": "original_iid_old6_out_of_design",
+    "training_sampling": "128_antithetic_pairs_exact_label_balance",
+    "bootstrap_seed": 27762100
+  },
+  "script_sha256": "14ca58d397cddb3962b1cf72bde608134d0cd2481f960a9cda699df6c0f266f5",
+  "protocol_sha256": "d28b2121bb5c1125c90a9892e1ccf15ac4434f1cf560990f2646be6bb70d98ae",
+  "parent_script_sha256": "32fa5d0aeb9ba8fd42fe5f798dc8bbc02b266cdbd1672a854669e0eb19aa8608",
+  "old_outcomes_sha256": "e4a03e81657a2b4fdcbd51d13943ce21ddb630c6d11d61be5672d071cb34dfed"
+}

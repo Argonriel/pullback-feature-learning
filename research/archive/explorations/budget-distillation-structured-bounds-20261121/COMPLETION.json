@@ -1,0 +1,33 @@
+{
+  "status": "COMPLETE",
+  "utc": "2026-11-21T23:23:37.343335+00:00",
+  "branches": [
+    "allocation",
+    "distillation",
+    "structured"
+  ],
+  "all_requested_experiments_completed": true,
+  "independent_audits": [
+    "PREFLIGHT",
+    "ALLOCATION_RESULTS",
+    "DISTILLATION_RESULTS",
+    "DISTILLATION_CRITERIA",
+    "EXTERNAL_SELECTION",
+    "STRUCTURED_RESULTS",
+    "TIMING_RESULTS",
+    "HISTORICAL_PRESERVATION"
+  ],
+  "report_pages": 9,
+  "report_sha256": "9f441d789e05ea4b9599209e85270d36805ed9f3b47d757a88b2ce9b56e59f4d",
+  "source_hash_checks": 2056,
+  "repository_source_copies": 35,
+  "negative_results_preserved": true,
+  "limitations": [
+    "Matching work uses specified arithmetic definitions, not exact elapsed time.",
+    "Image preservation and serving criteria failed.",
+    "External evaluation is shifted and covers six classes.",
+    "Theorem needs stated family/posterior assumptions.",
+    "No independent full retraining or formal directed-rounding proof."
+  ],
+  "archive_note": "Every evaluated original photo is included. Unused source ZIP remains local and is excluded with its digest/retrieval URL retained. Archive-copy integrity is checked separately by archive_tools.py."
+}

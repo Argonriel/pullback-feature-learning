@@ -1,0 +1,26 @@
+[
+  {
+    "relative_path": "model.py",
+    "source": "tmp\\pipeline-calibration-augmentation-shift-20261121\\calibration\\model.py",
+    "sha256": "fca6b349140849e8486a426d77ce3858123f005a9e84ecf2f112111acb05ac20",
+    "byte_identical": true
+  },
+  {
+    "relative_path": "reference/core4d.py",
+    "source": "tmp\\pipeline-calibration-augmentation-shift-20261121\\calibration\\reference\\core4d.py",
+    "sha256": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77",
+    "byte_identical": true
+  },
+  {
+    "relative_path": "reference/task.py",
+    "source": "tmp\\pipeline-calibration-augmentation-shift-20261121\\calibration\\reference\\task.py",
+    "sha256": "8da7d92d23437155d10be130a712e219211760ee740c2fca2a4b3506437214f4",
+    "byte_identical": true
+  },
+  {
+    "relative_path": "reference/DEVELOPMENT_STATE.npz",
+    "source": "tmp\\pipeline-calibration-augmentation-shift-20261121\\calibration\\reference\\DEVELOPMENT_STATE.npz",
+    "sha256": "5a69e55007a4d6ad30f013070da9400df737f701fa17228d934566674448e883",
+    "byte_identical": true
+  }
+]

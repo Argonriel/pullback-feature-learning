@@ -1,0 +1,86 @@
+{
+  "purpose": "Primary source byte provenance; relevant passages independently inspected via web tools.",
+  "source_sha256": "f7d564695cfbd9d44f64e979e16f4a7c72e278db40c8f01b1153a5c56ec704d5",
+  "records": [
+    {
+      "file": "sources/lesniewski_ruskai.pdf",
+      "url": "https://arxiv.org/pdf/math-ph/9808016",
+      "retrieved_at_utc": "2026-11-22T03:58:38.578382+00:00",
+      "content_type": "application/pdf",
+      "resolved_url": "https://arxiv.org/pdf/math-ph/9808016",
+      "status": "saved",
+      "bytes": 295449,
+      "sha256": "9f1a14f323d5c560af582dfc5c55bb5c33fc7a7475d1e973d520aaeaf1c9fc43"
+    },
+    {
+      "file": "sources/grasselli_streater.pdf",
+      "url": "https://math.mcmaster.ca/~grasselli/GrasselliStreater01.pdf",
+      "retrieved_at_utc": "2026-11-22T03:58:38.578887+00:00",
+      "content_type": "application/pdf",
+      "resolved_url": "https://math.mcmaster.ca/~grasselli/GrasselliStreater01.pdf",
+      "status": "saved",
+      "bytes": 184986,
+      "sha256": "672c4d8399c4885cd8a29fe8dcdc190500df7ecdab39a7b7d183feb4c45bfb50"
+    },
+    {
+      "file": "sources/fawzi_saunderson_parrilo.pdf",
+      "url": "https://arxiv.org/pdf/1705.00812",
+      "retrieved_at_utc": "2026-11-22T03:58:38.579892+00:00",
+      "content_type": "application/pdf",
+      "resolved_url": "https://arxiv.org/pdf/1705.00812",
+      "status": "saved",
+      "bytes": 589019,
+      "sha256": "1d338bff3b8a08391280a83f043405aeca5d79a8389f4320c49f9ae418e1c695"
+    },
+    {
+      "file": "sources/bresar_cabrera_fosner_villena.pdf",
+      "url": "https://www.impan.pl/shop/en/publication/transaction/download/product/90340",
+      "retrieved_at_utc": "2026-11-22T03:58:38.580897+00:00",
+      "content_type": "application/pdf; charset=binary",
+      "resolved_url": "https://www.impan.pl/shop/en/publication/transaction/download/product/90340",
+      "status": "saved",
+      "bytes": 196677,
+      "sha256": "3b083e2992995913421b42123d15cea321a86e4806d40087f720631e8570a35a"
+    },
+    {
+      "file": "sources/ohara_ishi_tsuchiya.html",
+      "url": "https://link.springer.com/article/10.1007/s41884-023-00116-x",
+      "retrieved_at_utc": "2026-11-22T03:58:38.716342+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "resolved_url": "https://link.springer.com/article/10.1007/s41884-023-00116-x?error=cookies_not_supported&code=54319a1f-d040-47f7-b09c-86ffdadadc7d",
+      "status": "saved",
+      "bytes": 546881,
+      "sha256": "624fc84092b0114f659bfdb9b3834b47f4cf99f5142e877fd9c2ede7c0f5717e"
+    },
+    {
+      "file": "sources/nagaoka_fujiwara.html",
+      "url": "https://arxiv.org/html/2307.03431v3",
+      "retrieved_at_utc": "2026-11-22T03:58:38.746637+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "resolved_url": "https://arxiv.org/html/2307.03431v3",
+      "status": "saved",
+      "bytes": 1965044,
+      "sha256": "11252e72f5b849f25b655626bf45000710f77c334da310847459e342e1131358"
+    },
+    {
+      "file": "sources/ciaglia_dinocera.pdf",
+      "url": "https://arxiv.org/pdf/2206.10394",
+      "retrieved_at_utc": "2026-11-22T03:58:38.879991+00:00",
+      "content_type": "application/pdf",
+      "resolved_url": "https://arxiv.org/pdf/2206.10394",
+      "status": "saved",
+      "bytes": 695931,
+      "sha256": "53c82de512bdcb08f12d0448d369d85da657c111bea1279241dc826873e1fbfb"
+    },
+    {
+      "file": "sources/li_wang_lee_arora.pdf",
+      "url": "https://papers.nips.cc/paper_files/paper/2022/file/dfa1106ea7065899b13f2be9da04efb4-Paper-Conference.pdf",
+      "retrieved_at_utc": "2026-11-22T03:58:39.107661+00:00",
+      "content_type": "application/pdf",
+      "resolved_url": "https://papers.nips.cc/paper_files/paper/2022/file/dfa1106ea7065899b13f2be9da04efb4-Paper-Conference.pdf",
+      "status": "saved",
+      "bytes": 634373,
+      "sha256": "24e2f130fe6f8dbeb0fef6c61d659306fa7a99e2cdfdca85ddc673121503b424"
+    }
+  ]
+}

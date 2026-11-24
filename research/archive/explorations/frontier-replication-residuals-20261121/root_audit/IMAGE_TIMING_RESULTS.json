@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "utc": "2026-11-22T00:26:16.019395+00:00",
+  "timing_rows": 630,
+  "warmup_call_rows": 270,
+  "measured_call_rows": 630,
+  "measured_forward_examples": 903168,
+  "warmup_forward_examples": 387072,
+  "modes": [
+    {
+      "mode": "cpu",
+      "median_ms": {
+        "B": 28.980949999095174,
+        "S": 28.533900000184076,
+        "C": 29.114212502463488,
+        "full": 57.79001250266447
+      },
+      "student_over_plain": 0.9845743497392233,
+      "median_pair_full_over_student": 2.0229215749212024,
+      "ratio_pooled_full_over_student": 2.025310683162542,
+      "individual_student_slower_than_best_full": [],
+      "individual_student_over_plain_exceeds_1_1": []
+    },
+    {
+      "mode": "cuda_resident",
+      "median_ms": {
+        "B": 0.41369999962626025,
+        "S": 0.3821124955720734,
+        "C": 0.3868249987135641,
+        "full": 0.7086999976309016
+      },
+      "student_over_plain": 0.9236463522293371,
+      "median_pair_full_over_student": 1.7288783287859066,
+      "ratio_pooled_full_over_student": 1.854689406505493,
+      "individual_student_slower_than_best_full": [],
+      "individual_student_over_plain_exceeds_1_1": [
+        2,
+        3
+      ]
+    },
+    {
+      "mode": "cuda_transfer",
+      "median_ms": {
+        "B": 0.6740749995515216,
+        "S": 0.6447375017160084,
+        "C": 0.6738874981238041,
+        "full": 0.8853500003169756
+      },
+      "student_over_plain": 0.9564773981307241,
+      "median_pair_full_over_student": 1.3613818167558855,
+      "ratio_pooled_full_over_student": 1.3731945139852457,
+      "individual_student_slower_than_best_full": [
+        1
+      ],
+      "individual_student_over_plain_exceeds_1_1": [
+        1,
+        4
+      ]
+    }
+  ],
+  "equivalence_checks": 60,
+  "max_cpu_gpu_logit_difference": 7.62939453125e-06,
+  "cpu_gpu_argmax_changes": 0,
+  "pooled_serving_criterion_pass": true,
+  "limits": "Independent table/accounting reconstruction, not a benchmark rerun. Pooled criterion does not require every pair to pass."
+}

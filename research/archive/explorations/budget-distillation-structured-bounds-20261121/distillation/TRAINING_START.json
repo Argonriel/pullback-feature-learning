@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-21T23:04:07.058926+00:00",
+  "torch": "2.7.1+cu128",
+  "numpy": "2.2.6",
+  "device": "NVIDIA GeForce RTX 5070 Ti",
+  "source_freeze": "67e16f354cc53c0e0fc897622897b46040b04bcc34a3506c29e9a7927ab04cab",
+  "parameters": 426122,
+  "approval_sha256": "66e65d7e630c3bb7aba8128500f2ca95456b88ac56f9e58aa8d7b7d7be6440e1"
+}

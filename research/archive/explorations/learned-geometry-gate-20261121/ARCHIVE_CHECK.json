@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "file_count": 105,
+  "total_bytes": 8998409,
+  "manifest_sha256": "7164aede3c183ea07325b4cda8aa2a1fa8b820aee34d3782043fa4e4a5c9baf6",
+  "broken_relative_report_links": [],
+  "source_provenance_checks": [
+    {
+      "record": "coverage_extension\\provenance.json",
+      "original": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\experiments\\learned_geometry_gate_20261121\\runner.py",
+      "sha256": "c4960d7703bd67e16da78cbc9f61b7d5396680acc7e39e8ad6814f63203f5d9e",
+      "resolved": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\experiments\\learned_geometry_gate_20261121\\runner.py"
+    },
+    {
+      "record": "coverage_extension\\provenance.json",
+      "original": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\src\\pullback_feature_learning\\core.py",
+      "sha256": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5",
+      "resolved": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\src\\pullback_feature_learning\\core.py"
+    },
+    {
+      "record": "coverage_extension\\provenance.json",
+      "original": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\src\\pullback_feature_learning\\data.py",
+      "sha256": "40126e817fd391fc75007677864f182fac2b103163cd0a83b7f3a383f6c2c703",
+      "resolved": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\src\\pullback_feature_learning\\data.py"
+    },
+    {
+      "record": "discovery\\provenance.json",
+      "original": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\experiments\\learned_geometry_gate_20261121\\runner.py",
+      "sha256": "c4960d7703bd67e16da78cbc9f61b7d5396680acc7e39e8ad6814f63203f5d9e",
+      "resolved": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\experiments\\learned_geometry_gate_20261121\\runner.py"
+    },
+    {
+      "record": "discovery\\provenance.json",
+      "original": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\src\\pullback_feature_learning\\core.py",
+      "sha256": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5",
+      "resolved": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\src\\pullback_feature_learning\\core.py"
+    },
+    {
+      "record": "discovery\\provenance.json",
+      "original": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\src\\pullback_feature_learning\\data.py",
+      "sha256": "40126e817fd391fc75007677864f182fac2b103163cd0a83b7f3a383f6c2c703",
+      "resolved": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\src\\pullback_feature_learning\\data.py"
+    },
+    {
+      "record": "discovery_refined\\provenance.json",
+      "original": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\experiments\\learned_geometry_gate_20261121\\assemble.py",
+      "sha256": "4c1da6bd3f96e8a75b2484ae5f18a7418375362a357a4acf834741e90e09a2bf",
+      "resolved": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\experiments\\learned_geometry_gate_20261121\\assemble.py"
+    },
+    {
+      "record": "discovery_supplemental\\provenance.json",
+      "original": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\experiments\\learned_geometry_gate_20261121\\assemble.py",
+      "sha256": "98d44a7837e2ca56d68c5c648e185ecf7d82c405f5fa0a4b30047ad36ab6c7a0",
+      "resolved": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\learned-geometry-gate-20261121\\historical_source\\assemble_coverage_snapshot.py"
+    },
+    {
+      "record": "refinement\\provenance.json",
+      "original": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\experiments\\learned_geometry_gate_20261121\\runner.py",
+      "sha256": "c4960d7703bd67e16da78cbc9f61b7d5396680acc7e39e8ad6814f63203f5d9e",
+      "resolved": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\experiments\\learned_geometry_gate_20261121\\runner.py"
+    },
+    {
+      "record": "refinement\\provenance.json",
+      "original": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\src\\pullback_feature_learning\\core.py",
+      "sha256": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5",
+      "resolved": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\src\\pullback_feature_learning\\core.py"
+    },
+    {
+      "record": "refinement\\provenance.json",
+      "original": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\src\\pullback_feature_learning\\data.py",
+      "sha256": "40126e817fd391fc75007677864f182fac2b103163cd0a83b7f3a383f6c2c703",
+      "resolved": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\src\\pullback_feature_learning\\data.py"
+    }
+  ],
+  "checked_utc": "2026-11-22T01:58:23.302875+00:00"
+}

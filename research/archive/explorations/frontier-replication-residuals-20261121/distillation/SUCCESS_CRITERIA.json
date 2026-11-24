@@ -1,0 +1,29 @@
+{
+  "utc": "2026-11-22T00:20:03.879631+00:00",
+  "new_source_error_ordering_replication_success": false,
+  "criteria": {
+    "S-B": {
+      "mean_error_gain": -0.002333333333333332,
+      "at_least_one_percentage_point_gain": false,
+      "adjusted_seed_interval_upper_below_zero": false,
+      "improves_at_least_five_of_six": false,
+      "negative_seed_pairs": 3,
+      "upper": 0.059895029522689804
+    },
+    "S-C": {
+      "mean_error_gain": -0.02211111111111111,
+      "at_least_one_percentage_point_gain": false,
+      "adjusted_seed_interval_upper_below_zero": false,
+      "improves_at_least_five_of_six": false,
+      "negative_seed_pairs": 3,
+      "upper": 0.15005318546994076
+    }
+  },
+  "primary_comparisons": 2,
+  "primary_interval_family": "Bonferroni 2; 97.5% two-sided paired-seed Student t intervals",
+  "assumptions": "Six independent training randomizations of one fixed training split; paired differences approximately normal. No guarantee at n=6.",
+  "crossed_product_bootstrap_role": "Secondary sensitivity; resample six seed pairs and 500 unique product groups per class, common product draws across chosen seeds/methods.",
+  "no_training_dataset_resampling": true,
+  "brand_dependence_unresolved": true,
+  "serving_quality_criteria_separate": true
+}

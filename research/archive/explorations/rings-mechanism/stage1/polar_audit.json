@@ -1,0 +1,102 @@
+{
+  "controls": {
+    "decision_radius": 0.8641968775081965,
+    "bayes_accuracy": 0.98964758833745,
+    "bayes_loss": 0.028295290274933847,
+    "gaussian_polar_mass": 0.9999999999999949,
+    "dense_oracle_loss": 0.028295290274933157,
+    "dense_oracle_accuracy": 0.989647588281469,
+    "zero_logit_loss": 0.6931471805599417,
+    "radial_only_excess": 0.001940692326448161,
+    "angular_only_excess": 0.008157721739406957,
+    "grid_atol": 2e-07,
+    "grid_rtol": 2e-06,
+    "truncation_radius": 3.0
+  },
+  "independent_grid": {
+    "radial_simpson_nodes": 769,
+    "angular_equispaced_nodes": 521,
+    "angular_phase_in_steps": 0.7071067811865476
+  },
+  "states": {
+    "pair1_gd100": {
+      "adaptive_grid_nodes": 96,
+      "independent_values": {
+        "population_loss": 0.7161174712216704,
+        "radial_excess": 0.6630174781446081,
+        "angular_excess": 0.024804702802129118
+      },
+      "absolute_discrepancies": {
+        "population_loss": 4.5833226103297875e-11,
+        "radial_excess": 4.5816461735626035e-11,
+        "angular_excess": 1.6056600493641326e-14
+      }
+    },
+    "pair1_gd500": {
+      "adaptive_grid_nodes": 96,
+      "independent_values": {
+        "population_loss": 0.6737817519992018,
+        "radial_excess": 0.63591788327174,
+        "angular_excess": 0.009568578452528478
+      },
+      "absolute_discrepancies": {
+        "population_loss": 3.4537483983854145e-11,
+        "radial_excess": 3.453237695794087e-11,
+        "angular_excess": 4.489464355827977e-15
+      }
+    },
+    "pair1_initial": {
+      "adaptive_grid_nodes": 96,
+      "independent_values": {
+        "population_loss": 0.7445105377700254,
+        "radial_excess": 0.6648518902382482,
+        "angular_excess": 0.051363357256844
+      },
+      "absolute_discrepancies": {
+        "population_loss": 4.6799342179326686e-11,
+        "radial_excess": 4.675970721734757e-11,
+        "angular_excess": 3.901046152776644e-14
+      }
+    },
+    "pair1_pullback100": {
+      "adaptive_grid_nodes": 96,
+      "independent_values": {
+        "population_loss": 0.3416304633776882,
+        "radial_excess": 0.29936569371044897,
+        "angular_excess": 0.013969479392306104
+      },
+      "absolute_discrepancies": {
+        "population_loss": 1.499489421519229e-11,
+        "radial_excess": 1.4992118657630726e-11,
+        "angular_excess": 2.031361190368841e-15
+      }
+    },
+    "pair1_pullback500": {
+      "adaptive_grid_nodes": 384,
+      "independent_values": {
+        "population_loss": 0.1374119026142252,
+        "radial_excess": 0.0709715589144488,
+        "angular_excess": 0.038145053424843284
+      },
+      "absolute_discrepancies": {
+        "population_loss": 9.066969397508728e-12,
+        "radial_excess": 3.5223074457135795e-12,
+        "angular_excess": 5.542892533849653e-12
+      }
+    },
+    "pair1_warmup500": {
+      "adaptive_grid_nodes": 96,
+      "independent_values": {
+        "population_loss": 0.06853374809145059,
+        "radial_excess": 0.03208733251872851,
+        "angular_excess": 0.008151125297788957
+      },
+      "absolute_discrepancies": {
+        "population_loss": 3.859829122987435e-13,
+        "radial_excess": 4.096306627232593e-13,
+        "angular_excess": 2.432429258014679e-14
+      }
+    }
+  },
+  "maximum_discrepancy": 4.6799342179326686e-11
+}

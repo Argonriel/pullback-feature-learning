@@ -1,0 +1,7 @@
+{
+  "timestamp_utc": "2026-11-21T09:30:11.619763+00:00",
+  "source_sha256": "0066a62ae4f0ba9c2553a7e2cb616bdb5450975723dbde8eb0f108ad4c999e01",
+  "purpose": "Separate parity simplification from local derivative bounds; no policy or primary target change.",
+  "fresh_states_accessed": false,
+  "additional_model_forwards": 0
+}

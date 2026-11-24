@@ -1,0 +1,235 @@
+{
+  "status": "passed",
+  "role": "counterexample_to_universal_condition_not_novelty",
+  "restricted_parameters": [
+    0,
+    3
+  ],
+  "fixed_parameters": "All other 78 parameters fixed; B1[0,0:2]=2.",
+  "initial": [
+    0.15,
+    0.35
+  ],
+  "damping": 0.1,
+  "train_inputs": [
+    [
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0
+    ]
+  ],
+  "train_labels": [
+    1,
+    1
+  ],
+  "initial_loss": 0.4071928121520054,
+  "training_clock": "s=L(initial)-L(theta), integrated directly",
+  "population_laws": "Same two inputs and deterministic +1 labels; weights (0.8,0.2) or (0.2,0.8).",
+  "sampling_note": "One observation of each input has probability 0.32 under either iid law. No deliberate distribution shift is required.",
+  "source_sha256": "21e6d7a5321b96e3a183923161df5751b9a8e3ef1f59150eef8f731b2f5b5f06",
+  "checks": {
+    "max_slice_forward_error": 0.0,
+    "max_slice_jacobian_error": 0.0,
+    "max_loss_clock_error": 4.7315207307718765e-12,
+    "max_metric_commutator": 0.0
+  },
+  "refinements": [
+    {
+      "loss_drop": 0.02,
+      "max_risk_refinement_error": 4.4425184017593544e-17
+    },
+    {
+      "loss_drop": 0.06,
+      "max_risk_refinement_error": 7.548215524844082e-16
+    },
+    {
+      "loss_drop": 0.12,
+      "max_risk_refinement_error": 9.114237142782144e-15
+    },
+    {
+      "loss_drop": 0.18,
+      "max_risk_refinement_error": 2.4925838303102577e-12
+    }
+  ],
+  "rows": [
+    {
+      "ds": 0.0002,
+      "loss_drop": 0.02,
+      "adaptive": [
+        0.19472303683697065,
+        0.434704508027847
+      ],
+      "frozen": [
+        0.19605022862439503,
+        0.4338099794512756
+      ],
+      "adaptive_train_loss": 0.3871928121520053,
+      "frozen_train_loss": 0.3871928121520053,
+      "adaptive_minus_frozen_per_input_loss": [
+        0.0002973844361791045,
+        -0.0002973844361791045
+      ],
+      "risk_change_population_weight_08": 0.0001784306617074627,
+      "risk_change_population_weight_02": -0.0001784306617074627,
+      "predictor_rms_difference": 0.001045882517505285,
+      "same_state_field_cosine": 0.9993830311409507
+    },
+    {
+      "ds": 0.0002,
+      "loss_drop": 0.06,
+      "adaptive": [
+        0.2962959303708757,
+        0.637126783267044
+      ],
+      "frozen": [
+        0.31165046283811837,
+        0.6250799281615647
+      ],
+      "adaptive_train_loss": 0.3471928121520044,
+      "frozen_train_loss": 0.3471928121520046,
+      "adaptive_minus_frozen_per_input_loss": [
+        0.0030142881573526903,
+        -0.003014288157353051
+      ],
+      "risk_change_population_weight_08": 0.0018085728944115423,
+      "risk_change_population_weight_02": -0.0018085728944119029,
+      "predictor_rms_difference": 0.011514383587808225,
+      "same_state_field_cosine": 0.9898716760884887
+    },
+    {
+      "ds": 0.0002,
+      "loss_drop": 0.12,
+      "adaptive": [
+        0.5135424594122285,
+        1.127735269118879
+      ],
+      "frozen": [
+        0.6041410520004671,
+        1.0230418276376745
+      ],
+      "adaptive_train_loss": 0.2871928121519983,
+      "frozen_train_loss": 0.28719281215200015,
+      "adaptive_minus_frozen_per_input_loss": [
+        0.012212876902237102,
+        -0.012212876902240766
+      ],
+      "risk_change_population_weight_08": 0.007327726141341529,
+      "risk_change_population_weight_02": -0.007327726141345192,
+      "predictor_rms_difference": 0.055044336096251936,
+      "same_state_field_cosine": 0.8990069216604075
+    },
+    {
+      "ds": 0.0002,
+      "loss_drop": 0.18,
+      "adaptive": [
+        1.6156741788271123,
+        2.355525241578351
+      ],
+      "frozen": [
+        1.715019486805589,
+        2.205710875521975
+      ],
+      "adaptive_train_loss": 0.2271928121472739,
+      "frozen_train_loss": 0.22719281214748227,
+      "adaptive_minus_frozen_per_input_loss": [
+        0.001680604436744948,
+        -0.0016806044371616702
+      ],
+      "risk_change_population_weight_08": 0.0010083626619636244,
+      "risk_change_population_weight_02": -0.0010083626623803466,
+      "predictor_rms_difference": 0.010341012673252974,
+      "same_state_field_cosine": 0.9999960649202776
+    },
+    {
+      "ds": 0.0001,
+      "loss_drop": 0.02,
+      "adaptive": [
+        0.19472303683697056,
+        0.43470450802784666
+      ],
+      "frozen": [
+        0.19605022862439436,
+        0.43380997945127564
+      ],
+      "adaptive_train_loss": 0.38719281215200535,
+      "frozen_train_loss": 0.3871928121520054,
+      "adaptive_minus_frozen_per_input_loss": [
+        0.00029738443617904897,
+        -0.0002973844361791045
+      ],
+      "risk_change_population_weight_08": 0.00017843066170741828,
+      "risk_change_population_weight_02": -0.0001784306617074738,
+      "predictor_rms_difference": 0.0010458825175048952,
+      "same_state_field_cosine": 0.9993830311409507
+    },
+    {
+      "ds": 0.0001,
+      "loss_drop": 0.06,
+      "adaptive": [
+        0.29629593037087226,
+        0.637126783267033
+      ],
+      "frozen": [
+        0.3116504628381102,
+        0.6250799281615583
+      ],
+      "adaptive_train_loss": 0.34719281215200615,
+      "frozen_train_loss": 0.34719281215200615,
+      "adaptive_minus_frozen_per_input_loss": [
+        0.003014288157351802,
+        -0.0030142881573518854
+      ],
+      "risk_change_population_weight_08": 0.0018085728944110646,
+      "risk_change_population_weight_02": -0.001808572894411148,
+      "predictor_rms_difference": 0.011514383587804579,
+      "same_state_field_cosine": 0.9898716760884897
+    },
+    {
+      "ds": 0.0001,
+      "loss_drop": 0.12,
+      "adaptive": [
+        0.513542459412065,
+        1.1277352691189335
+      ],
+      "frozen": [
+        0.6041410520003923,
+        1.0230418276376316
+      ],
+      "adaptive_train_loss": 0.2871928121520072,
+      "frozen_train_loss": 0.2871928121520076,
+      "adaptive_minus_frozen_per_input_loss": [
+        0.012212876902251313,
+        -0.012212876902252034
+      ],
+      "risk_change_population_weight_08": 0.0073277261413506435,
+      "risk_change_population_weight_02": -0.007327726141351365,
+      "predictor_rms_difference": 0.05504433609630986,
+      "same_state_field_cosine": 0.8990069216603294
+    },
+    {
+      "ds": 0.0001,
+      "loss_drop": 0.18,
+      "adaptive": [
+        1.6156741787700981,
+        2.355525240768764
+      ],
+      "frozen": [
+        1.715019486498586,
+        2.2057108752312597
+      ],
+      "adaptive_train_loss": 0.22719281215170303,
+      "frozen_train_loss": 0.22719281215171752,
+      "adaptive_minus_frozen_per_input_loss": [
+        0.0016806044331076353,
+        -0.0016806044331366121
+      ],
+      "risk_change_population_weight_08": 0.001008362659858786,
+      "risk_change_population_weight_02": -0.0010083626598877628,
+      "predictor_rms_difference": 0.010341012650251707,
+      "same_state_field_cosine": 0.9999960649202749
+    }
+  ]
+}

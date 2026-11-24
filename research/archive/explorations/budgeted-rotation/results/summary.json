@@ -1,0 +1,1106 @@
+{
+  "pairs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "bootstrap_seed": 291031,
+  "bootstrap_draws": 20000,
+  "ci_method": "Pointwise 95% percentile interval. Resample full paired model/data seeds.",
+  "primary": "random_loss minus folded_loss on full pullback at step 500",
+  "units": "Population logistic loss per example, in nats.",
+  "fraction_definition": "Mean reduction relative to raw divided by mean reduction when all inputs receive the second view.",
+  "models": {
+    "gd": {
+      "arms": {
+        "raw": {
+          "loss": {
+            "mean": 0.17744105126063064,
+            "seed_sd": 0.09511565060917544,
+            "median": 0.1999003061177922,
+            "ci95": [
+              0.1333004571255057,
+              0.22344680012183593
+            ]
+          },
+          "gain_over_raw": {
+            "mean": 0.0,
+            "seed_sd": 0.0,
+            "median": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "positive_pairs": 0,
+            "negative_pairs": 0,
+            "tied_pairs": 16
+          },
+          "relative_gain_over_raw": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fraction_of_full_gain": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "additional_gain_over_random": {
+            "mean": -0.007065222246054862,
+            "seed_sd": 0.006608027320945507,
+            "median": -0.005307334679125905,
+            "ci95": [
+              -0.010472839688423875,
+              -0.0042018538267266
+            ],
+            "positive_pairs": 0,
+            "negative_pairs": 16,
+            "tied_pairs": 0
+          }
+        },
+        "random": {
+          "loss": {
+            "mean": 0.1703758290145758,
+            "seed_sd": 0.09268359553073224,
+            "median": 0.18568764497952947,
+            "ci95": [
+              0.1275754075560168,
+              0.21554566467197284
+            ]
+          },
+          "gain_over_raw": {
+            "mean": 0.007065222246054862,
+            "seed_sd": 0.006608027320945507,
+            "median": 0.005307334679125905,
+            "ci95": [
+              0.004201853826726594,
+              0.01047283968842387
+            ],
+            "positive_pairs": 16,
+            "negative_pairs": 0,
+            "tied_pairs": 0
+          },
+          "relative_gain_over_raw": {
+            "estimate": 0.039817292536647876,
+            "ci95": [
+              0.024919197568332833,
+              0.05769934439481833
+            ]
+          },
+          "fraction_of_full_gain": {
+            "estimate": 0.24999999999999997,
+            "ci95": [
+              0.24999999999999964,
+              0.2500000000000004
+            ]
+          },
+          "additional_gain_over_random": {
+            "mean": 0.0,
+            "seed_sd": 0.0,
+            "median": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "positive_pairs": 0,
+            "negative_pairs": 0,
+            "tied_pairs": 16
+          }
+        },
+        "boundary": {
+          "loss": {
+            "mean": 0.16791892422614735,
+            "seed_sd": 0.09410178353260601,
+            "median": 0.18419186975922214,
+            "ci95": [
+              0.12432597132007521,
+              0.213652980747977
+            ]
+          },
+          "gain_over_raw": {
+            "mean": 0.009522127034483307,
+            "seed_sd": 0.0075897996644558804,
+            "median": 0.006935515254160626,
+            "ci95": [
+              0.006442881435537992,
+              0.013546399365560395
+            ],
+            "positive_pairs": 16,
+            "negative_pairs": 0,
+            "tied_pairs": 0
+          },
+          "relative_gain_over_raw": {
+            "estimate": 0.05366360809312906,
+            "ci95": [
+              0.034317629495859175,
+              0.07901779522670568
+            ]
+          },
+          "fraction_of_full_gain": {
+            "estimate": 0.33693657123809345,
+            "ci95": [
+              0.2929467941266477,
+              0.41441336302772414
+            ]
+          },
+          "additional_gain_over_random": {
+            "mean": 0.002456904788428446,
+            "seed_sd": 0.0026902071355771216,
+            "median": 0.002056917187470017,
+            "ci95": [
+              0.0012690740242995708,
+              0.0037974634626258236
+            ],
+            "positive_pairs": 14,
+            "negative_pairs": 2,
+            "tied_pairs": 0
+          }
+        },
+        "radius": {
+          "loss": {
+            "mean": 0.16442363085508105,
+            "seed_sd": 0.09291907597428695,
+            "median": 0.17236655179346647,
+            "ci95": [
+              0.12156616027423707,
+              0.2099457160876653
+            ]
+          },
+          "gain_over_raw": {
+            "mean": 0.013017420405549597,
+            "seed_sd": 0.01188348052141297,
+            "median": 0.008260641855954182,
+            "ci95": [
+              0.008008573188066838,
+              0.019234494306754404
+            ],
+            "positive_pairs": 16,
+            "negative_pairs": 0,
+            "tied_pairs": 0
+          },
+          "relative_gain_over_raw": {
+            "estimate": 0.07336194365997768,
+            "ci95": [
+              0.0444994826545936,
+              0.1092058406744494
+            ]
+          },
+          "fraction_of_full_gain": {
+            "estimate": 0.4606160978452721,
+            "ci95": [
+              0.4194118905075886,
+              0.513992013004084
+            ]
+          },
+          "additional_gain_over_random": {
+            "mean": 0.0059521981594947366,
+            "seed_sd": 0.005579171906149419,
+            "median": 0.0032649560761469076,
+            "ci95": [
+              0.0035760086489340925,
+              0.008824116971087731
+            ],
+            "positive_pairs": 16,
+            "negative_pairs": 0,
+            "tied_pairs": 0
+          }
+        },
+        "folded": {
+          "loss": {
+            "mean": 0.15629734186293115,
+            "seed_sd": 0.09043541883829594,
+            "median": 0.1587246540736075,
+            "ci95": [
+              0.11521658865702619,
+              0.2008369480867172
+            ]
+          },
+          "gain_over_raw": {
+            "mean": 0.021143709397699526,
+            "seed_sd": 0.020448398776027547,
+            "median": 0.013496296787775554,
+            "ci95": [
+              0.012308389651343924,
+              0.031755997004015504
+            ],
+            "positive_pairs": 16,
+            "negative_pairs": 0,
+            "tied_pairs": 0
+          },
+          "relative_gain_over_raw": {
+            "estimate": 0.11915906295349334,
+            "ci95": [
+              0.07169593906083448,
+              0.1769217831910102
+            ]
+          },
+          "fraction_of_full_gain": {
+            "estimate": 0.7481615107545246,
+            "ci95": [
+              0.6961449339958603,
+              0.8007552295250712
+            ]
+          },
+          "additional_gain_over_random": {
+            "mean": 0.014078487151644666,
+            "seed_sd": 0.013948505165533243,
+            "median": 0.008955142377504992,
+            "ci95": [
+              0.008128012739842224,
+              0.02135361026773801
+            ],
+            "positive_pairs": 16,
+            "negative_pairs": 0,
+            "tied_pairs": 0
+          }
+        },
+        "full": {
+          "loss": {
+            "mean": 0.14918016227641123,
+            "seed_sd": 0.08800015255946789,
+            "median": 0.14675788056450886,
+            "ci95": [
+              0.10964244830501567,
+              0.19288255905043408
+            ]
+          },
+          "gain_over_raw": {
+            "mean": 0.02826088898421945,
+            "seed_sd": 0.026432109283782045,
+            "median": 0.021229338716503537,
+            "ci95": [
+              0.016807415306906357,
+              0.041891358753695485
+            ],
+            "positive_pairs": 16,
+            "negative_pairs": 0,
+            "tied_pairs": 0
+          },
+          "relative_gain_over_raw": {
+            "estimate": 0.15926917014659153,
+            "ci95": [
+              0.09967679027333132,
+              0.2307973775792734
+            ]
+          },
+          "fraction_of_full_gain": {
+            "estimate": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ]
+          },
+          "additional_gain_over_random": {
+            "mean": 0.021195666738164587,
+            "seed_sd": 0.019824081962836537,
+            "median": 0.015922004037377632,
+            "ci95": [
+              0.01260556148017976,
+              0.03141851906527161
+            ],
+            "positive_pairs": 16,
+            "negative_pairs": 0,
+            "tied_pairs": 0
+          }
+        }
+      },
+      "folded_advantage": {
+        "folded_vs_random": {
+          "mean": 0.014078487151644666,
+          "seed_sd": 0.013948505165533243,
+          "median": 0.008955142377504992,
+          "ci95": [
+            0.008128012739842224,
+            0.02135361026773801
+          ],
+          "positive_pairs": 16,
+          "negative_pairs": 0,
+          "tied_pairs": 0
+        },
+        "folded_vs_radius": {
+          "mean": 0.008126288992149929,
+          "seed_sd": 0.008898657232212373,
+          "median": 0.005105346160069357,
+          "ci95": [
+            0.004237496586771291,
+            0.012720316059481863
+          ],
+          "positive_pairs": 16,
+          "negative_pairs": 0,
+          "tied_pairs": 0
+        },
+        "folded_vs_boundary": {
+          "mean": 0.01162158236321622,
+          "seed_sd": 0.013669908553289409,
+          "median": 0.006487781267691492,
+          "ci95": [
+            0.005685869006686504,
+            0.018702851724506444
+          ],
+          "positive_pairs": 16,
+          "negative_pairs": 0,
+          "tied_pairs": 0
+        }
+      },
+      "amortization": {
+        "pricing": "Counts each network example-forward, including both calibration views. Assumes the same deployment horizon per model. Lookup and batch routing are outside the forward count.",
+        "calibration_forwards": 16384,
+        "illustrative_horizon": 32768,
+        "uniform_extra_view_fraction_at_equal_total_cost": 0.75,
+        "folded_advantage_over_equal_total_cost_uniform": {
+          "mean": -5.195734046506287e-05,
+          "seed_sd": 0.0030666780884218417,
+          "median": 0.0002233324902625039,
+          "ci95": [
+            -0.0013887556664150898,
+            0.0014675873103849
+          ],
+          "positive_pairs": 8,
+          "negative_pairs": 8,
+          "tied_pairs": 0
+        },
+        "break_even_future_examples_for_mean_gains": 32888.93189516888,
+        "break_even_ci95": [
+          29748.242271123414,
+          36723.49219178184
+        ]
+      }
+    },
+    "pb": {
+      "arms": {
+        "raw": {
+          "loss": {
+            "mean": 0.11038430825380076,
+            "seed_sd": 0.009675064419305966,
+            "median": 0.11215687565183083,
+            "ci95": [
+              0.10588117419158788,
+              0.11505665063674138
+            ]
+          },
+          "gain_over_raw": {
+            "mean": 0.0,
+            "seed_sd": 0.0,
+            "median": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "positive_pairs": 0,
+            "negative_pairs": 0,
+            "tied_pairs": 16
+          },
+          "relative_gain_over_raw": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fraction_of_full_gain": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "additional_gain_over_random": {
+            "mean": -0.00235383994055122,
+            "seed_sd": 0.0012434849176143723,
+            "median": -0.0019242048599978495,
+            "ci95": [
+              -0.002968486653220356,
+              -0.0017979024313929603
+            ],
+            "positive_pairs": 0,
+            "negative_pairs": 16,
+            "tied_pairs": 0
+          }
+        },
+        "random": {
+          "loss": {
+            "mean": 0.10803046831324954,
+            "seed_sd": 0.00868385237239874,
+            "median": 0.10998960585140033,
+            "ci95": [
+              0.10397702111184375,
+              0.11220562369315253
+            ]
+          },
+          "gain_over_raw": {
+            "mean": 0.00235383994055122,
+            "seed_sd": 0.0012434849176143723,
+            "median": 0.0019242048599978495,
+            "ci95": [
+              0.00179790243139296,
+              0.0029684866532203548
+            ],
+            "positive_pairs": 16,
+            "negative_pairs": 0,
+            "tied_pairs": 0
+          },
+          "relative_gain_over_raw": {
+            "estimate": 0.021324044855534734,
+            "ci95": [
+              0.016805993365632342,
+              0.026006553132168632
+            ]
+          },
+          "fraction_of_full_gain": {
+            "estimate": 0.24999999999999964,
+            "ci95": [
+              0.2499999999999993,
+              0.25000000000000006
+            ]
+          },
+          "additional_gain_over_random": {
+            "mean": 0.0,
+            "seed_sd": 0.0,
+            "median": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "positive_pairs": 0,
+            "negative_pairs": 0,
+            "tied_pairs": 16
+          }
+        },
+        "boundary": {
+          "loss": {
+            "mean": 0.10255667125530468,
+            "seed_sd": 0.007008747875241308,
+            "median": 0.10211758015956396,
+            "ci95": [
+              0.09929319180893809,
+              0.10597028867107806
+            ]
+          },
+          "gain_over_raw": {
+            "mean": 0.00782763699849609,
+            "seed_sd": 0.00469157842289932,
+            "median": 0.005996062469370796,
+            "ci95": [
+              0.005696200079739625,
+              0.010145100379874707
+            ],
+            "positive_pairs": 16,
+            "negative_pairs": 0,
+            "tied_pairs": 0
+          },
+          "relative_gain_over_raw": {
+            "estimate": 0.07091258823218262,
+            "ci95": [
+              0.05314399245261568,
+              0.08919833434271716
+            ]
+          },
+          "fraction_of_full_gain": {
+            "estimate": 0.8313688691873213,
+            "ci95": [
+              0.756721128241883,
+              0.8899118551206245
+            ]
+          },
+          "additional_gain_over_random": {
+            "mean": 0.005473797057944871,
+            "seed_sd": 0.0035066489047412067,
+            "median": 0.00443472071103046,
+            "ci95": [
+              0.0038765449265522425,
+              0.007209783954667571
+            ],
+            "positive_pairs": 16,
+            "negative_pairs": 0,
+            "tied_pairs": 0
+          }
+        },
+        "radius": {
+          "loss": {
+            "mean": 0.10175165717548082,
+            "seed_sd": 0.0069155838114091685,
+            "median": 0.10149525364980032,
+            "ci95": [
+              0.09853841081342185,
+              0.10514776142484349
+            ]
+          },
+          "gain_over_raw": {
+            "mean": 0.008632651078319935,
+            "seed_sd": 0.004625823057395602,
+            "median": 0.006631979129816584,
+            "ci95": [
+              0.006558781584586062,
+              0.01092160129184332
+            ],
+            "positive_pairs": 16,
+            "negative_pairs": 0,
+            "tied_pairs": 0
+          },
+          "relative_gain_over_raw": {
+            "estimate": 0.07820541900277475,
+            "ci95": [
+              0.060995615223112414,
+              0.09590156896262945
+            ]
+          },
+          "fraction_of_full_gain": {
+            "estimate": 0.9168689562955517,
+            "ci95": [
+              0.8818228488815902,
+              0.9495996303781047
+            ]
+          },
+          "additional_gain_over_random": {
+            "mean": 0.006278811137768715,
+            "seed_sd": 0.003400389862466816,
+            "median": 0.00478520987372591,
+            "ci95": [
+              0.004750863027844708,
+              0.007964932558513202
+            ],
+            "positive_pairs": 16,
+            "negative_pairs": 0,
+            "tied_pairs": 0
+          }
+        },
+        "folded": {
+          "loss": {
+            "mean": 0.10123315233136823,
+            "seed_sd": 0.0065140383820330204,
+            "median": 0.10109002030941687,
+            "ci95": [
+              0.09822744601924303,
+              0.10441311550604547
+            ]
+          },
+          "gain_over_raw": {
+            "mean": 0.009151155922432534,
+            "seed_sd": 0.0049258722531775045,
+            "median": 0.007414132670279613,
+            "ci95": [
+              0.006944208836720257,
+              0.01158836138798789
+            ],
+            "positive_pairs": 16,
+            "negative_pairs": 0,
+            "tied_pairs": 0
+          },
+          "relative_gain_over_raw": {
+            "estimate": 0.08290268849981619,
+            "ci95": [
+              0.06471465471059187,
+              0.10151017731174772
+            ]
+          },
+          "fraction_of_full_gain": {
+            "estimate": 0.9719390605940597,
+            "ci95": [
+              0.9546013520704137,
+              0.9840983116546725
+            ]
+          },
+          "additional_gain_over_random": {
+            "mean": 0.006797315981881314,
+            "seed_sd": 0.003684983899825078,
+            "median": 0.0055264111666088744,
+            "ci95": [
+              0.005145978949912385,
+              0.0086180083292476
+            ],
+            "positive_pairs": 16,
+            "negative_pairs": 0,
+            "tied_pairs": 0
+          }
+        },
+        "full": {
+          "loss": {
+            "mean": 0.10096894849159588,
+            "seed_sd": 0.006274680106054246,
+            "median": 0.10089565923166327,
+            "ci95": [
+              0.09805822918983244,
+              0.10402355126146878
+            ]
+          },
+          "gain_over_raw": {
+            "mean": 0.009415359762204895,
+            "seed_sd": 0.004973939670457506,
+            "median": 0.007696819439991398,
+            "ci95": [
+              0.007191609725571839,
+              0.011873946612881433
+            ],
+            "positive_pairs": 16,
+            "negative_pairs": 0,
+            "tied_pairs": 0
+          },
+          "relative_gain_over_raw": {
+            "estimate": 0.08529617942213906,
+            "ci95": [
+              0.06722397346252948,
+              0.1040262125286748
+            ]
+          },
+          "fraction_of_full_gain": {
+            "estimate": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ]
+          },
+          "additional_gain_over_random": {
+            "mean": 0.0070615198216536735,
+            "seed_sd": 0.0037304547528431327,
+            "median": 0.0057726145799935485,
+            "ci95": [
+              0.0053937072941788785,
+              0.008905459959661077
+            ],
+            "positive_pairs": 16,
+            "negative_pairs": 0,
+            "tied_pairs": 0
+          }
+        }
+      },
+      "folded_advantage": {
+        "folded_vs_random": {
+          "mean": 0.006797315981881314,
+          "seed_sd": 0.003684983899825078,
+          "median": 0.0055264111666088744,
+          "ci95": [
+            0.005145978949912385,
+            0.0086180083292476
+          ],
+          "positive_pairs": 16,
+          "negative_pairs": 0,
+          "tied_pairs": 0
+        },
+        "folded_vs_radius": {
+          "mean": 0.0005185048441125988,
+          "seed_sd": 0.0006052121689595617,
+          "median": 0.00020837549789077398,
+          "ci95": [
+            0.0002612959645624407,
+            0.0008289795455132399
+          ],
+          "positive_pairs": 16,
+          "negative_pairs": 0,
+          "tied_pairs": 0
+        },
+        "folded_vs_boundary": {
+          "mean": 0.001323518923936443,
+          "seed_sd": 0.001238004101030864,
+          "median": 0.0011616424833676212,
+          "ci95": [
+            0.0007718671003467117,
+            0.001932919384435983
+          ],
+          "positive_pairs": 16,
+          "negative_pairs": 0,
+          "tied_pairs": 0
+        }
+      },
+      "amortization": {
+        "pricing": "Counts each network example-forward, including both calibration views. Assumes the same deployment horizon per model. Lookup and batch routing are outside the forward count.",
+        "calibration_forwards": 16384,
+        "illustrative_horizon": 32768,
+        "uniform_extra_view_fraction_at_equal_total_cost": 0.75,
+        "folded_advantage_over_equal_total_cost_uniform": {
+          "mean": 0.002089636100778864,
+          "seed_sd": 0.0012191852027762541,
+          "median": 0.0017322882125780231,
+          "ci95": [
+            0.0015355280075583034,
+            0.0026852627454268256
+          ],
+          "positive_pairs": 16,
+          "negative_pairs": 0,
+          "tied_pairs": 0
+        },
+        "break_even_future_examples_for_mean_gains": 22694.436267956124,
+        "break_even_ci95": [
+          22318.536550057077,
+          23252.864831804465
+        ]
+      }
+    },
+    "hybrid": {
+      "arms": {
+        "raw": {
+          "loss": {
+            "mean": 0.06126509710621794,
+            "seed_sd": 0.015873526499038927,
+            "median": 0.05927361697466213,
+            "ci95": [
+              0.054216962272989694,
+              0.06926531425072856
+            ]
+          },
+          "gain_over_raw": {
+            "mean": 0.0,
+            "seed_sd": 0.0,
+            "median": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "positive_pairs": 0,
+            "negative_pairs": 0,
+            "tied_pairs": 16
+          },
+          "relative_gain_over_raw": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fraction_of_full_gain": {
+            "estimate": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ]
+          },
+          "additional_gain_over_random": {
+            "mean": -0.004304045970246028,
+            "seed_sd": 0.0021255878182534563,
+            "median": -0.004347372693074437,
+            "ci95": [
+              -0.005351147801915463,
+              -0.0033018813394256226
+            ],
+            "positive_pairs": 0,
+            "negative_pairs": 16,
+            "tied_pairs": 0
+          }
+        },
+        "random": {
+          "loss": {
+            "mean": 0.05696105113597191,
+            "seed_sd": 0.014301477701299078,
+            "median": 0.05485114999855287,
+            "ci95": [
+              0.050638711635590014,
+              0.064153520445681
+            ]
+          },
+          "gain_over_raw": {
+            "mean": 0.004304045970246028,
+            "seed_sd": 0.0021255878182534563,
+            "median": 0.004347372693074437,
+            "ci95": [
+              0.003301881339425622,
+              0.0053511478019154625
+            ],
+            "positive_pairs": 16,
+            "negative_pairs": 0,
+            "tied_pairs": 0
+          },
+          "relative_gain_over_raw": {
+            "estimate": 0.07025282213760174,
+            "ci95": [
+              0.05861928754078396,
+              0.08132602379039162
+            ]
+          },
+          "fraction_of_full_gain": {
+            "estimate": 0.24999999999999994,
+            "ci95": [
+              0.24999999999999983,
+              0.2500000000000001
+            ]
+          },
+          "additional_gain_over_random": {
+            "mean": 0.0,
+            "seed_sd": 0.0,
+            "median": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "positive_pairs": 0,
+            "negative_pairs": 0,
+            "tied_pairs": 16
+          }
+        },
+        "boundary": {
+          "loss": {
+            "mean": 0.04561462593029059,
+            "seed_sd": 0.012761397546915073,
+            "median": 0.042808971324263666,
+            "ci95": [
+              0.03994845705288147,
+              0.05209619816203224
+            ]
+          },
+          "gain_over_raw": {
+            "mean": 0.015650471175927355,
+            "seed_sd": 0.007194087739199929,
+            "median": 0.015950290361003747,
+            "ci95": [
+              0.012187753118645596,
+              0.019066688136084073
+            ],
+            "positive_pairs": 16,
+            "negative_pairs": 0,
+            "tied_pairs": 0
+          },
+          "relative_gain_over_raw": {
+            "estimate": 0.2554549313582815,
+            "ci95": [
+              0.21225242083077098,
+              0.3006153780626391
+            ]
+          },
+          "fraction_of_full_gain": {
+            "estimate": 0.9090557631191344,
+            "ci95": [
+              0.8517813962669156,
+              0.9646448859284169
+            ]
+          },
+          "additional_gain_over_random": {
+            "mean": 0.01134642520568133,
+            "seed_sd": 0.005177629398854687,
+            "median": 0.011493565439363182,
+            "ci95": [
+              0.008845154920561846,
+              0.013775117267608605
+            ],
+            "positive_pairs": 16,
+            "negative_pairs": 0,
+            "tied_pairs": 0
+          }
+        },
+        "radius": {
+          "loss": {
+            "mean": 0.045458166430942,
+            "seed_sd": 0.012632276365137042,
+            "median": 0.04276716489965589,
+            "ci95": [
+              0.03983661815961711,
+              0.05186392474797406
+            ]
+          },
+          "gain_over_raw": {
+            "mean": 0.015806930675275943,
+            "seed_sd": 0.0073311426738444,
+            "median": 0.016004172403053754,
+            "ci95": [
+              0.012295794015738411,
+              0.019306763562150563
+            ],
+            "positive_pairs": 16,
+            "negative_pairs": 0,
+            "tied_pairs": 0
+          },
+          "relative_gain_over_raw": {
+            "estimate": 0.258008742691957,
+            "ci95": [
+              0.21419300833448085,
+              0.3033573048191636
+            ]
+          },
+          "fraction_of_full_gain": {
+            "estimate": 0.9181436945928103,
+            "ci95": [
+              0.8654188489189321,
+              0.9699267732413488
+            ]
+          },
+          "additional_gain_over_random": {
+            "mean": 0.011502884705029914,
+            "seed_sd": 0.005295224089905649,
+            "median": 0.011524097633997959,
+            "ci95": [
+              0.008949508145758919,
+              0.013999428270405366
+            ],
+            "positive_pairs": 16,
+            "negative_pairs": 0,
+            "tied_pairs": 0
+          }
+        },
+        "folded": {
+          "loss": {
+            "mean": 0.04459936752540354,
+            "seed_sd": 0.011333044839366471,
+            "median": 0.04275161901498406,
+            "ci95": [
+              0.03953072821928588,
+              0.05033564603400921
+            ]
+          },
+          "gain_over_raw": {
+            "mean": 0.016665729580814397,
+            "seed_sd": 0.008264763634956112,
+            "median": 0.016863490314539785,
+            "ci95": [
+              0.012789362823858542,
+              0.020726889358816617
+            ],
+            "positive_pairs": 16,
+            "negative_pairs": 0,
+            "tied_pairs": 0
+          },
+          "relative_gain_over_raw": {
+            "estimate": 0.27202649417041325,
+            "ci95": [
+              0.2256314495696689,
+              0.31734367834164207
+            ]
+          },
+          "fraction_of_full_gain": {
+            "estimate": 0.9680269272229536,
+            "ci95": [
+              0.9467464450810654,
+              0.9854351013271381
+            ]
+          },
+          "additional_gain_over_random": {
+            "mean": 0.012361683610568368,
+            "seed_sd": 0.006149475371565472,
+            "median": 0.01229323295683217,
+            "ci95": [
+              0.009488427635037043,
+              0.01539230475293424
+            ],
+            "positive_pairs": 16,
+            "negative_pairs": 0,
+            "tied_pairs": 0
+          }
+        },
+        "full": {
+          "loss": {
+            "mean": 0.04404891322523383,
+            "seed_sd": 0.010790737235853519,
+            "median": 0.042665594112114874,
+            "ci95": [
+              0.039206902073499854,
+              0.04950524387823276
+            ]
+          },
+          "gain_over_raw": {
+            "mean": 0.017216183880984115,
+            "seed_sd": 0.008502351273013827,
+            "median": 0.017389490772297737,
+            "ci95": [
+              0.01320752535770249,
+              0.021404591207661854
+            ],
+            "positive_pairs": 16,
+            "negative_pairs": 0,
+            "tied_pairs": 0
+          },
+          "relative_gain_over_raw": {
+            "estimate": 0.281011288550407,
+            "ci95": [
+              0.23447715016313583,
+              0.32530409516156655
+            ]
+          },
+          "fraction_of_full_gain": {
+            "estimate": 1.0,
+            "ci95": [
+              1.0,
+              1.0
+            ]
+          },
+          "additional_gain_over_random": {
+            "mean": 0.012912137910738086,
+            "seed_sd": 0.006376763454760371,
+            "median": 0.0130421180792233,
+            "ci95": [
+              0.009905644018276868,
+              0.01605344340574639
+            ],
+            "positive_pairs": 16,
+            "negative_pairs": 0,
+            "tied_pairs": 0
+          }
+        }
+      },
+      "folded_advantage": {
+        "folded_vs_random": {
+          "mean": 0.012361683610568368,
+          "seed_sd": 0.006149475371565472,
+          "median": 0.01229323295683217,
+          "ci95": [
+            0.009488427635037043,
+            0.01539230475293424
+          ],
+          "positive_pairs": 16,
+          "negative_pairs": 0,
+          "tied_pairs": 0
+        },
+        "folded_vs_radius": {
+          "mean": 0.0008587989055384541,
+          "seed_sd": 0.0017571832573472276,
+          "median": 0.0001908222055959745,
+          "ci95": [
+            0.00021261099291090688,
+            0.0018218776655876932
+          ],
+          "positive_pairs": 16,
+          "negative_pairs": 0,
+          "tied_pairs": 0
+        },
+        "folded_vs_boundary": {
+          "mean": 0.0010152584048870388,
+          "seed_sd": 0.001998155958706728,
+          "median": 0.00027947130830437497,
+          "ci95": [
+            0.00029050061801918256,
+            0.0021115271723993177
+          ],
+          "positive_pairs": 16,
+          "negative_pairs": 0,
+          "tied_pairs": 0
+        }
+      },
+      "amortization": {
+        "pricing": "Counts each network example-forward, including both calibration views. Assumes the same deployment horizon per model. Lookup and batch routing are outside the forward count.",
+        "calibration_forwards": 16384,
+        "illustrative_horizon": 32768,
+        "uniform_extra_view_fraction_at_equal_total_cost": 0.75,
+        "folded_advantage_over_equal_total_cost_uniform": {
+          "mean": 0.003753591670076311,
+          "seed_sd": 0.001986012988811978,
+          "median": 0.0037545508603224267,
+          "ci95": [
+            0.0028359070898425955,
+            0.004727049049454329
+          ],
+          "positive_pairs": 16,
+          "negative_pairs": 0,
+          "tied_pairs": 0
+        },
+        "break_even_future_examples_for_mean_gains": 22818.085755316843,
+        "break_even_ci95": [
+          22277.968471227523,
+          23515.010540303145
+        ]
+      }
+    }
+  },
+  "verified_batches": 6144
+}

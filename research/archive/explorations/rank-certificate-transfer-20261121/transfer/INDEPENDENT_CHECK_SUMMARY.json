@@ -1,0 +1,22 @@
+{
+  "timestamp_utc": "2026-11-21T10:27:32.244706+00:00",
+  "models": 6,
+  "all_checks_pass": true,
+  "orbit_probes": 222,
+  "jet_probes": 4800,
+  "CDF_probe_points": 1542,
+  "q_and_W_input_points": 1548,
+  "ordinary_model_forwards": 3643896,
+  "analytic_jet_propagations": 1920,
+  "enclosure_failure_count": 0,
+  "maxima": {
+    "cdf_violation": 0.0,
+    "q_interval_violation": 0.0,
+    "W_interval_violation": 0.0,
+    "cdf_fast_vs_split_max": 6.596251145296606e-08,
+    "max_orbit_subsample_difference": 0.0001919668342261413,
+    "max_partner_roll_error": 8.709699628184353e-14
+  },
+  "source_sha256": "5520c4f4718bb0105aec924182ea76f58f00786d3d48ca08662fcfdf15f708f8",
+  "scope": "Numerical probes of already-derived real-arithmetic enclosures, not a directed-rounding proof or exhaustive verification."
+}

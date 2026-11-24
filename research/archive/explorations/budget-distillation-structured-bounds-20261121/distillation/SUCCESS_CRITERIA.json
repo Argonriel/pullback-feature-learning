@@ -1,0 +1,50 @@
+{
+  "utc": "2026-11-21T23:06:30.026665+00:00",
+  "overall_success": false,
+  "conditions": {
+    "holdout": {
+      "ce": {
+        "teacher_gain": 0.004772168017362247,
+        "student_gain": -0.009063437643007512,
+        "retained_fraction": -1.8992285288432085,
+        "teacher_improves": true,
+        "half_point_gain_retained": false,
+        "noninferior_to_teacher": false,
+        "noninferior_to_compute_control": false,
+        "margin": 0.00325
+      },
+      "error": {
+        "teacher_gain": 0.0013666666666666664,
+        "student_gain": -0.0037,
+        "retained_fraction": -2.7073170731707323,
+        "teacher_improves": true,
+        "half_point_gain_retained": false,
+        "noninferior_to_teacher": false,
+        "noninferior_to_compute_control": false,
+        "margin": 0.0014
+      }
+    },
+    "external": {
+      "ce": {
+        "teacher_gain": 0.01007685171052663,
+        "student_gain": 0.015771495423629954,
+        "retained_fraction": 1.5651213173212126,
+        "teacher_improves": true,
+        "half_point_gain_retained": true,
+        "noninferior_to_teacher": false,
+        "noninferior_to_compute_control": true,
+        "margin": 0.00325
+      },
+      "error": {
+        "teacher_gain": 0.008222222222222223,
+        "student_gain": 0.03955555555555555,
+        "retained_fraction": 4.81081081081081,
+        "teacher_improves": true,
+        "half_point_gain_retained": true,
+        "noninferior_to_teacher": true,
+        "noninferior_to_compute_control": true,
+        "margin": 0.0014
+      }
+    }
+  }
+}

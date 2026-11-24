@@ -1,0 +1,9 @@
+{
+  "timestamp_utc": "2026-11-21T07:46:55.809441+00:00",
+  "failed_ray_count": 157,
+  "attempt_rows": 1825,
+  "all_failed_sampled_points_above_target": true,
+  "terminal_reason": "next geometric trial exceeds norm4; no claim of global infeasibility",
+  "traces_sha256": "c96e76f10931549aa6e50ef489096672aa812327d9f7847a2102c0adab1f5f82",
+  "states_sha256": "dd204bb4489785ff82e7710c69f449b414af706dd6983312aeed1b6c8465a3e3"
+}

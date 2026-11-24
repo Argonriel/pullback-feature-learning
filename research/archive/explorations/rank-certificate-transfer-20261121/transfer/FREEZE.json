@@ -1,0 +1,86 @@
+{
+  "timestamp_utc": "2026-11-21T10:11:28.091373+00:00",
+  "task": "4D two-harmonic waveform with Beta(2,5)/Beta(5,2) amplitude classes",
+  "primary_training": {
+    "method": "pb",
+    "rate": 8.0,
+    "steps": 500,
+    "damping": 0.1,
+    "train_samples": 256,
+    "class_counts": [
+      128,
+      128
+    ]
+  },
+  "secondary_training": {
+    "method": "gd",
+    "rate": 0.3,
+    "steps": 500,
+    "role": "descriptive context, visibly underfit pilot"
+  },
+  "architecture": {
+    "dimension": 4,
+    "width": 8,
+    "blocks": 2,
+    "parameters": 144,
+    "residual_scale": 0.5,
+    "logit": "first output coordinate"
+  },
+  "selector": {
+    "tau": 1.0,
+    "frequencies": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "phase_offset": 0.25,
+    "angles": 512,
+    "radii": 129,
+    "radial_support": [
+      0.4,
+      1.4
+    ],
+    "calibration_forwards": 66048,
+    "coordinate_radii": 131072,
+    "policies": [
+      "rank_balanced",
+      "rank_even",
+      "rank_unbalanced"
+    ],
+    "quota": [
+      256,
+      64
+    ],
+    "partner": "diag(-1,-1,+1,+1)"
+  },
+  "pilot_models": 4,
+  "pilot_recipes": 16,
+  "confirmation_models": 16,
+  "new_confirmation_models_generated_or_read": false,
+  "new_confirmation_outcomes_accessed": false,
+  "train_seeds": [
+    1041001,
+    1041016
+  ],
+  "initialization_seeds": [
+    1042001,
+    1042016
+  ],
+  "file_sha256": {
+    "task.py": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77",
+    "task_pilot_v1.py": "9361b868a7ec73a360527580954806f25eec7df1f332c65eeb94d34ddb506711",
+    "rank_policy.py": "32feb6f0c13b7db4b5cc3b2f348c0af28c1d78676fa9e776b2a9a93c837379a8",
+    "pilot.py": "6984b1e264a1bc02e45edb2f93b15c5fa402495ee5a6419c18889e311a77b9c6",
+    "checks.py": "4a26c96334ce467f1dc172654e9c5f21eb3c42f4984ebd708f25a47203d2538e",
+    "THEORY.md": "f200f71877047ab10f84145b841dd8b77a92a159c1454c4a155b346ba6d7a32c",
+    "PROTOCOL.md": "24c58366d9441dc63de620ada4e7665b50221f2f9877b85c2ef530e48eb2f374",
+    "TRAINING_CHOICE.json": "b9b2cb02fa128f55b424b3a968b9e5c30b991898dbacea9a2f7efb3a7692c691",
+    "ADAPTER_PROVENANCE.json": "e8be4b1e8ff985c3281cb99a1662ee4d89d9880584dd44f57beb45e5ac809526",
+    "pilot/PROTOCOL.json": "63ec9a3a9f0df9f08bf4ca587c2da342791d11e1f36b9efef2fa3524d0c6f52a",
+    "pilot/checks.json": "dc2c6b137a4f8dd49beeba35eee57699f1a7f386a772191b59e45bd0b273957a",
+    "pilot/results.csv": "e8323b03b823ae0a2e5e381a54c9a648073490b2828ed93f4c659c70de800556",
+    "pilot_policy/checks.csv": "973ab3bfdcaf0f59e934fcf679b7bff38dbade07aba1e2f5164fcdd5278135a5",
+    "pilot_policy/SUMMARY.json": "299c4a0cb9d6be901079cc599a6fb9bffdea96ace0aa1afb23d388d1c43953c5"
+  }
+}

@@ -1,0 +1,11 @@
+# Frozen exact finite-label balance sensitivity
+
+Purpose: prior matched tasks had identical population class probability but different realized finite training class counts. This control exactly matches finite class fraction while preserving each observation marginally under the same input/posterior laws. It does not replace any previous result.
+
+Use sixteen new seed pairs: training27760101..27760116 and initialization27761101..27761116. Draw128 iid triples(u,phi,q), each uniform on[0,1]×[0,2pi]×[0,1]. Add the companion((u+.5) mod1,(phi+pi/2) mod2pi,1-q). Both posterior logits3cos(2piu) and3cos(2phi) change sign under this companion, so their Bernoulli labels are exactly opposite within each pair. Each task has exactly128 positive and128 negative training labels. Inputs and initial parameters are exactly shared across tasks. Each point has the correct population marginal; the256 observations are correlated within128 antithetic pairs, and cannot be treated as256 independent observations.
+
+Initial state only. Same GD/PB directions, damping.1, root cap4, targets1e-5 and.02. Same predeclared first-order and second-order loss-clock formulas from the curvature follow-up, with central second derivatives at parameter perturbation norms.001 and.0005 and the smaller step always used. All unreachable targets and numerical discrepancies retained. Predictions and state hashes physically committed before endpoint scoring. No predictor or target selection on these outcomes.
+
+Primary: radial initial fitting PB-minus-GD contrast at.02, testing whether prior finite-drop failure and curvature remedy persist under exact finite class balance. Report both tasks, all components and tiny controls. Angular outcomes use the valid pi subgroup, not all rotations. Compare first-order, second-order, zero and realized-step tangent. Original-old6 pooled slopes remain solely as an explicitly out-of-design comparator trained on iid, not antithetically balanced data. No balanced-old calibration or fit to new outcomes.
+
+Seed bootstrap confidence intervals use independent datasets as clusters; dependence within training pairs is retained, not resampled as independent points. This is a bounded sensitivity experiment and not a new source of adaptively selected winners.

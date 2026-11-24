@@ -1,0 +1,38 @@
+{
+  "utc": "2026-11-21T22:20:01.611072+00:00",
+  "choices": {
+    "1": {
+      "ridge_alpha": 1.0,
+      "hist_bins": 16,
+      "knn_k": 25,
+      "strong_control": "knn",
+      "validation_selected_jensen": {
+        "ridge": 0.826230598449707,
+        "histogram": 0.8289908599853516,
+        "knn": 0.8402539215087891
+      }
+    },
+    "2": {
+      "ridge_alpha": 0.01,
+      "hist_bins": 8,
+      "knn_k": 25,
+      "strong_control": "knn",
+      "validation_selected_jensen": {
+        "ridge": 0.8586171722412109,
+        "histogram": 0.8555830917358398,
+        "knn": 0.8817273941040039
+      }
+    },
+    "3": {
+      "ridge_alpha": 1.0,
+      "hist_bins": 16,
+      "knn_k": 5,
+      "strong_control": "knn",
+      "validation_selected_jensen": {
+        "ridge": 0.8011388549804688,
+        "histogram": 0.80502490234375,
+        "knn": 0.8215961380004883
+      }
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "utc": "2026-11-21T23:01:15.128821+00:00",
+  "config": {
+    "pairs": 16,
+    "total_labels": 4352,
+    "test_n": 65536,
+    "batch": 256,
+    "n_parameters": 144,
+    "representation_dimension": 4,
+    "procedures": [
+      {
+        "name": "fixed_256",
+        "n": 256,
+        "step": 500,
+        "validation": 0,
+        "calibration": 4096,
+        "regime": "fixed_steps"
+      },
+      {
+        "name": "fixed_768",
+        "n": 768,
+        "step": 500,
+        "validation": 0,
+        "calibration": 3584,
+        "regime": "fixed_steps"
+      },
+      {
+        "name": "fixed_1280",
+        "n": 1280,
+        "step": 500,
+        "validation": 0,
+        "calibration": 3072,
+        "regime": "fixed_steps"
+      },
+      {
+        "name": "fixed_2304",
+        "n": 2304,
+        "step": 500,
+        "validation": 0,
+        "calibration": 2048,
+        "regime": "fixed_steps"
+      },
+      {
+        "name": "flop_256",
+        "n": 256,
+        "step": 4332,
+        "validation": 0,
+        "calibration": 4096,
+        "regime": "nominal_flops"
+      },
+      {
+        "name": "flop_768",
+        "n": 768,
+        "step": 1485,
+        "validation": 0,
+        "calibration": 3584,
+        "regime": "nominal_flops"
+      },
+      {
+        "name": "flop_1280",
+        "n": 1280,
+        "step": 896,
+        "validation": 0,
+        "calibration": 3072,
+        "regime": "nominal_flops"
+      },
+      {
+        "name": "examples_256",
+        "n": 256,
+        "step": 4500,
+        "validation": 0,
+        "calibration": 4096,
+        "regime": "example_jacobian_work"
+      },
+      {
+        "name": "validation_1280",
+        "n": 1280,
+        "step": 896,
+        "validation": 1024,
+        "calibration": 2048,
+        "regime": "validation"
+      }
+    ],
+    "arms": [
+      [
+        "raw_uncal",
+        "raw",
+        "none"
+      ],
+      [
+        "raw_T",
+        "raw",
+        "raw"
+      ],
+      [
+        "full_uncal",
+        "full",
+        "none"
+      ],
+      [
+        "full_rawT",
+        "full",
+        "raw"
+      ],
+      [
+        "full_T",
+        "full",
+        "full"
+      ]
+    ],
+    "seeds": {
+      "training": 2311000,
+      "initialization": 2312000,
+      "validation": 2313000,
+      "calibration": 2314000,
+      "test": 2316000,
+      "test_labels": 2317000,
+      "bootstrap": 2319000
+    },
+    "training_increment_seed_offsets": [
+      0,
+      100,
+      200,
+      300
+    ],
+    "training_increment_sizes": [
+      256,
+      512,
+      512,
+      1024
+    ],
+    "training_shuffle_offset": 800,
+    "validation_checkpoints": [
+      100,
+      250,
+      500,
+      896
+    ],
+    "bootstrap_draws": 20000,
+    "primary_count": 8,
+    "flops_per_example": 179045,
+    "flops_constant": 2001144
+  },
+  "source_root": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\experiments\\budget_allocation",
+  "source_hashes": {
+    "model.py": "fca6b349140849e8486a426d77ce3858123f005a9e84ecf2f112111acb05ac20",
+    "preflight.py": "07a842913d730214377b27321f8a6e58774a203f26474d52b7fdf1e85fc587dd",
+    "reference/core4d.py": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77",
+    "reference/DEVELOPMENT_STATE.npz": "5a69e55007a4d6ad30f013070da9400df737f701fa17228d934566674448e883",
+    "reference/task.py": "8da7d92d23437155d10be130a712e219211760ee740c2fca2a4b3506437214f4",
+    "runner.py": "3263d37284bb0821d651681597d8566d33b8e0a542ebf1d22eb5d37e6029df07"
+  },
+  "protocol_sha256": "ad413e2b70cbb5e181c581ed7bec1283fec36014b0dcdfa183dd40bd32fdf366",
+  "preflight_sha256": "44b29ed5d6bb66cc4f9286b06521727323e3c1283658e94e81f441250084d0b7",
+  "fresh_streams_accessed": false
+}

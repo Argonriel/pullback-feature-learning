@@ -1,0 +1,15 @@
+{
+  "started_utc": "2026-11-21T07:42:10.434791+00:00",
+  "protocol_sha256": "8552b6f5d3fc121d286dfc0b0f814dbc2afb1fa31a7192fc76e52d2a275f8fc0",
+  "prediction_commit": {
+    "started_utc": "2026-11-21T07:41:52.480445+00:00",
+    "committed_utc": "2026-11-21T07:42:02.823334+00:00",
+    "outcome_evaluation_started": false,
+    "prediction_sha256": "74559950bc4b27dcc98f147c34d67d567dd7d26a4c712bb57571841d2c43f05a",
+    "state_sha256": "0b9393b8c0b2f610b953686e297c9d849486e89e613831592fe05d1c753c3989",
+    "root_sha256": "4aa4df48dea0504ffb87755fbf91d499d3bc277511aea4e8b8c529db68cbf53c",
+    "row_count": 3456,
+    "root_count": 2457,
+    "state_count": 1142
+  }
+}

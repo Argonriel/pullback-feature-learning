@@ -1,0 +1,8 @@
+{
+  "timestamp_utc": "2026-11-21T07:41:02.504302+00:00",
+  "outcome_sha256": "e4a03e81657a2b4fdcbd51d13943ce21ddb630c6d11d61be5672d071cb34dfed",
+  "unique_scored_states": 397,
+  "max_grid_error": 2.0661230781815476e-08,
+  "nonconverged": 0,
+  "max_identity_error": 0.0
+}

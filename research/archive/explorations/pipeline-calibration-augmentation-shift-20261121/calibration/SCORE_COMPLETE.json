@@ -1,0 +1,25 @@
+{
+  "utc": "2026-11-21T22:48:31.060108+00:00",
+  "rows": 384,
+  "batch_records": 98304,
+  "actual_forwards": 36962304,
+  "manifest": {
+    "predictions/1.npz": "03577e09c3200c339aa13b6882cff96644b85fc20fa7b56b13b7f544ea67a90b",
+    "predictions/2.npz": "f84b352164fdf0ea7d01202b0d0b6a56eec81191a3b7facbd87274a53e923896",
+    "predictions/3.npz": "e97669e9dccd420800b9143e9ad2ef52f57558cd5b144b08c55ee21decaf8c59",
+    "predictions/4.npz": "c990e3926a8d2c82800133d64e642a0e26fbaa7d88f07bda92d686b496694e25",
+    "predictions/5.npz": "ab3934cd4218a37d38bbf12486c5da6636189cd660db5c97c4bc858369514591",
+    "predictions/6.npz": "4f61124d3cfe7f4ed1f89dc2fa538858f6d8158c0703930c606ecdd5cd67e36f",
+    "predictions/7.npz": "51932084dd37d047147fd95a60e4ab577867cf502e7aac45fdcf42afd00ba758",
+    "predictions/8.npz": "96f2be6bb8b1edd03202bb811609f7d9e53c3c712bff7fe150d85dddd7f6f981",
+    "predictions/9.npz": "a9ce9560c645811304293477efdb3078e81b754df7ed3dbadced880edacbe458",
+    "predictions/10.npz": "6ec02b1450286b03225de84950bdfdb1c960518f4da0a0bf4cdcf1d060dbee73",
+    "predictions/11.npz": "11cc72055a5a8e7ed98266a545937729d65e84d1c4a82c560e52dce84e26b6b8",
+    "predictions/12.npz": "24eb474f04b489ccdad82885b5dcc3462434758df6860572e6e3287bc3c1e2b3",
+    "predictions/13.npz": "a349d40682ed5b30a5154773d35c417737967434d7991bae7c728a612cf3cd21",
+    "predictions/14.npz": "5ff6504ac1c271f8e3945d63692a163e5d5d706914c8d6ddfff3a1561b1c7953",
+    "predictions/15.npz": "2a13d50d686c391fd0dd08fb69dc7f414fd7ebfedcf6fe6ca1cbbe2bcdfd59df",
+    "predictions/16.npz": "7991c9cb0a542b4fd5f2d737fe5dc311e026d4afd17cebebf4a09d9f442efd3c"
+  },
+  "temperature_commit_sha256": "e4f684be774d07cbc7cb9f7b72392d732b171610bd285622f665293d7021a636"
+}

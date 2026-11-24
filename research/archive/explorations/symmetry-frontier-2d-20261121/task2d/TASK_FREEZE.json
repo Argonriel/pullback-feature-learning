@@ -1,0 +1,66 @@
+{
+  "timestamp_utc": "2026-11-21T10:48:52.176493+00:00",
+  "status": "FROZEN BEFORE FRESH INPUT GENERATION",
+  "task": "two-amplitude smooth XOR on a phase-coupled 4D harmonic support",
+  "quotient_dimension": 2,
+  "training_config": {
+    "steps": 500,
+    "method": "pb",
+    "rate": 4.0,
+    "damping": 0.1
+  },
+  "fresh_train_seeds": [
+    1141001,
+    1141002,
+    1141003,
+    1141004,
+    1141005,
+    1141006,
+    1141007,
+    1141008,
+    1141009,
+    1141010,
+    1141011,
+    1141012,
+    1141013,
+    1141014,
+    1141015,
+    1141016
+  ],
+  "fresh_init_seeds": [
+    1142001,
+    1142002,
+    1142003,
+    1142004,
+    1142005,
+    1142006,
+    1142007,
+    1142008,
+    1142009,
+    1142010,
+    1142011,
+    1142012,
+    1142013,
+    1142014,
+    1142015,
+    1142016
+  ],
+  "calibration_shape": [
+    16,
+    16,
+    256
+  ],
+  "calibration_forwards": 65536,
+  "files": {
+    "task.py": "8da7d92d23437155d10be130a712e219211760ee740c2fca2a4b3506437214f4",
+    "core4d.py": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77",
+    "pilot.py": "6b7c9514e2000dba080852605ddd57459fdf26918eb86276a81a607c1af0ac1f",
+    "TASK_LAW_FREEZE.json": "ec8b9f0e4ab47d0c7f87594258f01c8480334f85dc444fcbf0ab6ea72b27a7a1",
+    "TRAINING_CHOICE.json": "2a86fdf6cb070344b62620c4f4f47c2683c762bd4d5737d43e83c69b69354588",
+    "THEORY.md": "54563760c4222ec4bb66750e554c3771390183cd2c52482d3cb389fe91ea49a3",
+    "LITERATURE.md": "dcdc6c35cbd395f4e3b4d311dc6b716ef7d34b7abe565339a58010e17b7a2454",
+    "check_task.py": "9f1976b1a1f27ab8f44b1c7efb821ee9cc4ee9eeb4714f795a82e18b20b98838",
+    "TASK_CHECKS.json": "a496c6d9bdc8bddfb64d62640ebdfb7c7e91ba5830ea1ba9c1dea4d03a5c1c9f",
+    "freeze_task.py": "faaacde59a03c439664226d7a9f98004fb21ed4c9a13c327730d615eb8333c30"
+  }
+}

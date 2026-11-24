@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-21",
+  "candidate": "Finite-trajectory persistence and breakdown of readout versus unused-feature geometry decoupling",
+  "decision": "RETIRE_CURRENT_CANDIDATE_AS_MAIN_INNOVATION",
+  "standard": "Same prior-art, elementary-reduction, and alternative-explanation screen as the rejected joint-asymmetry candidate",
+  "reasons": [
+    "Broad representation/function dissociation and symmetry-preserved dynamics have close prior treatments",
+    "The proposed exact witness and generic conditional stability bounds reduce to standard mathematics",
+    "A two-parameter linear weighted least-squares model reproduces the 49-fold headline with a scalar clock change",
+    "Stored predictors differ despite similar path lengths, and standard local head compensation is present",
+    "No distinctive applicable finite-trajectory theorem or beyond-clock benefit has been established"
+  ],
+  "limits": [
+    "No identical published theorem for every detail of the original damped nonlinear intervention is asserted",
+    "The linear example is not a fitted causal explanation of the archived nonlinear paths",
+    "Local compensation does not fully explain the entire trajectory",
+    "The review does not rule out a future nonroutine architecture-specific result"
+  ],
+  "work_performed": {
+    "new_neural_network_training": false,
+    "new_holdout_or_population_evaluation": false,
+    "analytical_model_simulation": true,
+    "retrospective_training_checkpoint_diagnostics": true,
+    "checked_parameter_state_hashes": 288,
+    "checked_logical_checkpoints": 384,
+    "reconstructed_training_sets": 16,
+    "endpoint_contrasts": 480,
+    "local_diagnostic_rows": 576
+  },
+  "next_stage": "Problem selection before additional training; no third candidate promoted",
+  "historical_files": "PRESERVED"
+}

@@ -1,0 +1,27 @@
+{
+  "config": {
+    "calibration_radii": 512,
+    "calibration_angles": 128,
+    "radial_bins": 8,
+    "calibration_seed_old": 605000,
+    "calibration_seed_new": 615000,
+    "requested_drop": 0.02,
+    "task": "rings",
+    "stage": "trained",
+    "experiment": "single",
+    "primary": "drop_clock_logits",
+    "secondary": [
+      "matched_step_logits",
+      "first_order_gain"
+    ],
+    "evaluation_nr": 32,
+    "evaluation_na": 512,
+    "refinement_nr": 64,
+    "refinement_na": 1024,
+    "reuse": "Same direction1 matched-loss cohort, not an independent replication.",
+    "selection": "Complete independent calibration orbits; every selector fixed before population risk."
+  },
+  "script_sha256": "61831c025eba18da181af0b649f72f170cb38d479d381c9f6efa0e93ecf97d9f",
+  "old_results_sha256": "789b5817daa185a99401c539c13882538d9b4fbe85796be0ca9bd53db59648fc",
+  "settings_changed_after_old_exploration": false
+}

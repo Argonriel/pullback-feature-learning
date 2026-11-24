@@ -1,0 +1,35 @@
+{
+  "timestamp_utc": "2026-11-21T09:39:31.314186+00:00",
+  "training": {
+    "n_models": 16,
+    "train_seed_base": 921000,
+    "init_seed_base": 922000,
+    "steps": 500,
+    "prefix_steps": 100,
+    "rate": 8.0,
+    "damping": 0.1,
+    "n_train": 256,
+    "n_parameters": 80
+  },
+  "failures": [],
+  "n_successful": 16,
+  "approval_sha256": "c2a3bb3d13079f8df16c49285fde46ab7f537c337657ac6c9488d681efca8818",
+  "states": {
+    "1.npz": "b8a1f0a0ed96fdeaba135145a630ae05d1113c4166919bc727ef59015aa159e0",
+    "10.npz": "10b0b6ee6a3a6725a7ede8f1fa4ab801a465cb2b55a76b3c6e8f990f6a08a94d",
+    "11.npz": "03de0330bd9cb741aff8d37a0572c034e72a6661453655c8b582d7d16ff50a83",
+    "12.npz": "818bd942cc5f893bf352a47b20eb496a5fb904d5ae5961e1c90d7ed4a717a97e",
+    "13.npz": "2401b135fa2ce9aa2ea6a5c4ec8fd4aa8eeddf0e8e600246aee3088e58754249",
+    "14.npz": "818ab6506b9db63d36420168e848475edd9876af4850c4c306b5aebf56e36471",
+    "15.npz": "32893eebf0b09c2859d26e8e94ef38d9909ef7622346bc1af232ffbaa56e4752",
+    "16.npz": "ac0a62a845ca81a361ab6c7a1c7509c91205ce7d1955621c77be37c6b29b2ea8",
+    "2.npz": "83df067837476e8f735b952617660809148920466ae0d218001ff83a27241e8c",
+    "3.npz": "a3047c73b1f082436100d6b60287eb4871aefd70d047d952efe1f70d7aa533b5",
+    "4.npz": "8e137a3eec1600200d24c17ad792dc9ae8579f05a9d877fb4e003326b9237120",
+    "5.npz": "7724f723936299eabdb43da8dd05f63e4666685419298f2e64c637e287e067a1",
+    "6.npz": "78be546318e4d8a27a13c2784bd524df5ad2e656622cd652f41a656c513c286e",
+    "7.npz": "85768437de23b2787d13a399d2aa0e28c80f900c18c8a4d8fcf4bb5c5346b6db",
+    "8.npz": "1dd2ab2df0b08c7599418437526b6a919435e3b300aafbb97e086bfee2cc4fd4",
+    "9.npz": "99c93c2612f3defa4aa956ce498c3d698451068cd25a38fc5f63894f9885446d"
+  }
+}

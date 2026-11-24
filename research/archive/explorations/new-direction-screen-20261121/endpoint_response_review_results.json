@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "role": "Independent perturbation coefficient, not novelty validation",
+  "undamped_endpoint": [
+    [
+      1.0,
+      0.3
+    ],
+    [
+      0.3,
+      0.4
+    ]
+  ],
+  "records": [
+    {
+      "weight": 1.0,
+      "quadrature_order_per_interval": 64,
+      "endpoint_x12_first_derivative": 0.12053287230899508,
+      "nullspace_response": [
+        0.0,
+        -0.24106574461799016,
+        0.17045922273116532
+      ],
+      "minimum_spd_eigenvalue_at_quadrature_nodes": 0.1,
+      "unintegrated_tail_norm_bound": 2.2216109403865707e-20
+    },
+    {
+      "weight": 1.0,
+      "quadrature_order_per_interval": 128,
+      "endpoint_x12_first_derivative": 0.12053287230899491,
+      "nullspace_response": [
+        0.0,
+        -0.24106574461798982,
+        0.1704592227311651
+      ],
+      "minimum_spd_eigenvalue_at_quadrature_nodes": 0.1,
+      "unintegrated_tail_norm_bound": 2.2216109403865707e-20
+    },
+    {
+      "weight": 9.0,
+      "quadrature_order_per_interval": 64,
+      "endpoint_x12_first_derivative": 0.1272427401289315,
+      "nullspace_response": [
+        0.0,
+        -0.254485480257863,
+        0.1799484088038502
+      ],
+      "minimum_spd_eigenvalue_at_quadrature_nodes": 0.1,
+      "unintegrated_tail_norm_bound": 2.9432723782721334e-29
+    },
+    {
+      "weight": 9.0,
+      "quadrature_order_per_interval": 128,
+      "endpoint_x12_first_derivative": 0.1272427401288418,
+      "nullspace_response": [
+        0.0,
+        -0.2544854802576836,
+        0.17994840880372334
+      ],
+      "minimum_spd_eigenvalue_at_quadrature_nodes": 0.1,
+      "unintegrated_tail_norm_bound": 2.9432723782721334e-29
+    }
+  ],
+  "contrast_first_derivative_weight9_minus_weight1": 0.006709867819846879,
+  "quadrature_refinement_max_difference": 8.970602038971265e-14,
+  "explicit_one_form_max_error": 3.885780586188048e-16,
+  "explicit_curl": 0.031300374039469774,
+  "finite_difference_curl": 0.03130037405305042,
+  "conditions": "Tail bound uses the proved X(t)>=0.1I along these undamped paths; no uniform small-initialization claim.",
+  "source_sha256": "6e1181f5295549b81d6d82e9c755f009670dae6cd568d0f846a638befa493cec"
+}

@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-21T22:45:26.506016+00:00",
+  "primary_intervals": 4,
+  "bootstrap_unit": "original image",
+  "model_replicates": 3,
+  "independent_training_datasets": 1,
+  "freeze": "d18fae8007c705cf04094d124ad11d8c268702659256cf832daa6efe305a6186"
+}

@@ -1,0 +1,82 @@
+{
+  "started_utc": "2026-11-22T01:54:39.492328+00:00",
+  "run": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\learned-geometry-gate-20261121\\discovery_refined",
+  "source_sha256": "a36cc8cb54515f2e7af277eaba669b9347d227a8bf5bb5f8d2a783cd11b1689c",
+  "training_finished_utc": "2026-11-22T01:54:34.612335+00:00",
+  "input_sha256": {
+    "config.json": "ac927a66b5144e70285e8487dbfa805afdfa355760b3f5ffb32119e859a80705",
+    "provenance.json": "96cf4252f793fc9889220c19cf0c7478ba9ab93a3b73108874a0faa26f7481aa",
+    "data.npz": "4eec4a9a44094d978b8f03a9e968931f64d653421e48a29b84134f1741f0e180",
+    "states.npz": "64e910d02ebb77d0003566d3202a2715e7fdf9504ff9c9b7131d01eb70561dc1",
+    "snapshots.json": "7ab2628412ce9a65b8fdf9b521e88fa1b53885564349669ca7a95390d6f528dc",
+    "actual_seeds.json": "6fc764d572e7791d8b01a41bca19b060ce38bd01568517b159c7943b41a7aa1f"
+  },
+  "data_regeneration": {
+    "moons__d1": "exact",
+    "moons__d2": "exact",
+    "moons__d3": "exact",
+    "moons__d4": "exact",
+    "rings__d1": "exact",
+    "rings__d2": "exact",
+    "rings__d3": "exact",
+    "rings__d4": "exact"
+  },
+  "training_loss_max_error": 0.0,
+  "independent_quadrature": [
+    {
+      "state_key": "s000135",
+      "arm": "nonlinear_gd",
+      "differences": {
+        "risk": 4.421130128662298e-12,
+        "radial_excess": 4.6091602756703764e-12,
+        "angular_excess": 1.874750354957655e-13
+      },
+      "passes": true
+    },
+    {
+      "state_key": "s000143",
+      "arm": "nonlinear_pb",
+      "differences": {
+        "risk": 1.0530243343964685e-11,
+        "radial_excess": 9.441614157168488e-12,
+        "angular_excess": 1.0878693779137194e-12
+      },
+      "passes": true
+    },
+    {
+      "state_key": "s000151",
+      "arm": "tangent_gd",
+      "differences": {
+        "risk": 6.854794509791873e-13,
+        "radial_excess": 6.800671137341396e-13,
+        "angular_excess": 4.666406150377611e-15
+      },
+      "passes": true
+    },
+    {
+      "state_key": "s000159",
+      "arm": "tangent_pb",
+      "differences": {
+        "risk": 5.515865542093934e-13,
+        "radial_excess": 5.454248164227238e-13,
+        "angular_excess": 5.429684479807406e-15
+      },
+      "passes": true
+    }
+  ],
+  "failures": [],
+  "finished_utc": "2026-11-22T01:54:49.225922+00:00",
+  "status": "passed",
+  "scored_rows": 256,
+  "unique_evaluations": 208,
+  "output_sha256": {
+    "contrasts.csv": "a9f2f3b5810778ef8cf5148af7e6f512da6c7aea8874501827985678d62a6865",
+    "contrasts.json": "3d806a6668c22c9ced0cb7bdbb4db69a57daaef22108ec321d741242895b4385",
+    "evaluation_data.npz": "ce74af5b955d90a4cd889402b09c0fd4cec2805ac5b8ab7aa431169be51be9f6",
+    "gate_decisions.json": "2a506648e13db3ff8edc7c4fe406716b7889b5e7594983d096eba54704235c13",
+    "group_means.csv": "c28ddde85fa86521264ed57845f5aba53cc163fc10c1a4ef3e4b6d5ebad83bb8",
+    "group_means.json": "c43616239688d4a4b35a9d962c9778654ff135e5da62ae598ce3817f4980cc5a",
+    "metrics.csv": "a2b2eefc633a5cb0556f4dbd935c03b1aa80653c55ecfe3109f490a54eed5313",
+    "metrics.json": "07dd7c4a742208289860801ad05bb9508024825d23711b58486c190957e24cf8"
+  }
+}

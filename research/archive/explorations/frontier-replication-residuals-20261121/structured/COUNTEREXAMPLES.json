@@ -1,0 +1,37 @@
+{
+  "utc": "2026-11-22T00:22:41.027059+00:00",
+  "density_examples": [
+    {
+      "harmonic": 3,
+      "true_gain": -0.006875779518487015,
+      "analytic_true_upper": -0.006875,
+      "invalid_zero_imbalance_gain": 0.0006242204815129851,
+      "known_harmonic_lower": -0.006875779518487015,
+      "residual_rho_pointwise_lower": -0.008925076104015023,
+      "needed_rho_if_harmonic_omitted": 0.6,
+      "first_moment": -8.326672684688674e-17,
+      "third_moment": 0.29999999999999993
+    },
+    {
+      "harmonic": 5,
+      "true_gain": -0.006875779518487015,
+      "analytic_true_upper": -0.006875,
+      "invalid_zero_imbalance_gain": 0.0006242204815129851,
+      "known_harmonic_lower": -0.006875779518487015,
+      "residual_rho_pointwise_lower": -0.008925076104015023,
+      "needed_rho_if_harmonic_omitted": 0.6,
+      "first_moment": -2.7755575615628914e-17,
+      "third_moment": -6.245004513516506e-17
+    }
+  ],
+  "label_cell_counterexample": {
+    "half_circle_means": [
+      0.49999999999999994,
+      0.5
+    ],
+    "pointwise_posterior_tv_supremum": 1.0,
+    "explanation": "Equal cell means do not establish within-cell constancy or pointwise invariance."
+  },
+  "quadrature_points": 1048576,
+  "neural_forward_examples": 0
+}

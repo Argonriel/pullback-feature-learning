@@ -1,0 +1,8 @@
+{
+  "distillation_state": "Benchmark complete; postprocessing paused",
+  "root_state": "No numerical workload until completion",
+  "structured_state": "Numeric idle",
+  "utc": "2026-11-21T23:18:23.0956791Z",
+  "timing_source_sha256": "6658f273d9164d41ab14ba235da080e05871d6d3374d3693d3ca8e090f0d9995",
+  "exclusive": true
+}

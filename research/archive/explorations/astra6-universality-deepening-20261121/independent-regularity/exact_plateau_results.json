@@ -1,0 +1,182 @@
+{
+  "status": "passed",
+  "purpose": "Exact finite certificate for guarded global plateau counterexample",
+  "python": "3.12.14",
+  "arithmetic": "fractions.Fraction; all reported certificates exact",
+  "K": "4",
+  "delta": "1/2",
+  "Z1": [
+    [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "-1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "4",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "-4",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "Z2": [
+    [
+      "1",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "1",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "4",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "-4"
+    ]
+  ],
+  "ad_Z1_squared_Z2": [
+    [
+      "0",
+      "4",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "4",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "projection_coefficients": [
+    "0",
+    "2/9"
+  ],
+  "normal_obstruction_norm_squared": "272/9",
+  "active_ratio_upper_bound_squared": "2/9",
+  "plateau_delta_squared_minus_ratio_bound_squared": "1/36",
+  "active_min_eigenvalue_strict_lower_bound": "3/8",
+  "errors": {
+    "roundoff": "0; exact rational arithmetic",
+    "statistical": "not applicable"
+  },
+  "limitations": [
+    "Continuum spectral bound and global one-form exactness are proved in the theorem note, not inferred from samples.",
+    "This counterexample is in the smooth positive kernel class, not the analytic monotone metric class.",
+    "No finite-damping global endpoint claim is tested or implied."
+  ],
+  "source_sha256": "ce26954d40725e5ad37e7fde31d2e6ca9690b6bfb55c175748217a92721e68d0",
+  "theorem_sha256": "c9e62edbe7322a3e0fd69b11c0f46b6aa5a95920e8685c37e3ca96d7386eacdf",
+  "read_only_inputs_sha256": {
+    "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\three-candidate-exploration-20261121\\universality\\THEOREM.md": "afa0e8007b9e2b49b5749f74f238d6e90f873e89f858ecfe2021c878eef63ce9",
+    "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\three-candidate-exploration-20261121\\universality\\REVIEW.md": "1c21659cad541192302b8b3840fe4b06ffcc7928bf42a24a839ce6eccca3f4b1",
+    "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\endpoint-classification-audit-20261121\\ALGEBRA_REDUCTION.md": "1d2819fb23dae1d86cd653883dfa3133ac7b940c5c6c0dee8fc619bb1133b52f"
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "task": "rings",
+    "stage": "initial",
+    "max_derivative_error": 1.0632174828051344e-11,
+    "identity_error": 0.0
+  },
+  {
+    "task": "rings",
+    "stage": "trained",
+    "max_derivative_error": 4.794732211092778e-12,
+    "identity_error": 0.0
+  },
+  {
+    "task": "radial",
+    "stage": "initial",
+    "max_derivative_error": 1.4197532038906502e-11,
+    "identity_error": 0.0
+  },
+  {
+    "task": "radial",
+    "stage": "trained",
+    "max_derivative_error": 4.75908342682102e-12,
+    "identity_error": 0.0
+  },
+  {
+    "task": "angular",
+    "stage": "initial",
+    "max_derivative_error": 2.4276761156905025e-12,
+    "identity_error": 0.0
+  },
+  {
+    "task": "angular",
+    "stage": "trained",
+    "max_derivative_error": 1.4718009797021203e-12,
+    "identity_error": 0.0
+  }
+]

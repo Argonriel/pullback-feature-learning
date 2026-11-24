@@ -1,0 +1,8 @@
+{
+  "structured_state": "Print plot finished; numeric idle",
+  "authorized": "Run one frozen benchmark stage now",
+  "root_state": "All audits exited; no numerical work during serving",
+  "exclusive": true,
+  "allocation_state": "Training process exited; paused before calibration/scoring",
+  "utc": "2026-11-21T23:15:57.3939960Z"
+}

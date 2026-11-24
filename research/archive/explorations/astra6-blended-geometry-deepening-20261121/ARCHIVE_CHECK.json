@@ -1,0 +1,124 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-11-22T04:06:21.566991+00:00",
+  "content_files": 36,
+  "manifest_sha256": "00c25e070ddaca6a3acc97d02d4a114f06e037d88ab4dc930723ddf21e16997d",
+  "source_snapshot_files": 8,
+  "embedded_hash_resolution": [
+    {
+      "record": "endpoint_difference_refinement/results.json",
+      "field": "/source_sha256",
+      "sha256": "9523e95902f583ec3d23158c56849405863562308df746ccc654ed68e39ce999",
+      "resolved_files": [
+        "source_snapshot/refine_endpoint_difference.py"
+      ]
+    },
+    {
+      "record": "endpoint_difference_refinement/results.json",
+      "field": "/dependency_sha256",
+      "sha256": "31abe9fc7757cfaa792c1936f9136844d49fa8e187ddd0ef96d71b0442ba9de5",
+      "resolved_files": [
+        "source_snapshot/validate_static_range.py"
+      ]
+    },
+    {
+      "record": "endpoint_difference_refinement/results.json",
+      "field": "/input_sha256",
+      "sha256": "31438dc88aa5e2f04dca3f013af9c3b219a985f6100ad421654a985ab54ee679",
+      "resolved_files": [
+        "validation_v1/results.json"
+      ]
+    },
+    {
+      "record": "validation_v1/results.json",
+      "field": "/source_sha256",
+      "sha256": "31abe9fc7757cfaa792c1936f9136844d49fa8e187ddd0ef96d71b0442ba9de5",
+      "resolved_files": [
+        "source_snapshot/validate_static_range.py"
+      ]
+    },
+    {
+      "record": "exceptional/derivative_validation_v1/results.json",
+      "field": "/source_sha256",
+      "sha256": "c7fbf2d693b4f0de59818c2cdf61ab0a3dab6e2191ff136cd7f36d187959ccf4",
+      "resolved_files": [
+        "source_snapshot/exceptional/finite_difference_check.py"
+      ]
+    },
+    {
+      "record": "exceptional/derivative_validation_v1/results.json",
+      "field": "/dependency_sha256",
+      "sha256": "d200e60ab45f3e25c9e2d0075035390715cb39dd404c7f8d5fce0ae0b27e38b2",
+      "resolved_files": [
+        "source_snapshot/exceptional/exact_rank_checks.py"
+      ]
+    },
+    {
+      "record": "exceptional/validation_v1/results.json",
+      "field": "/source_sha256",
+      "sha256": "d200e60ab45f3e25c9e2d0075035390715cb39dd404c7f8d5fce0ae0b27e38b2",
+      "resolved_files": [
+        "source_snapshot/exceptional/exact_rank_checks.py"
+      ]
+    },
+    {
+      "record": "static_loss/validation_v1/results.json",
+      "field": "/source_sha256",
+      "sha256": "d216cbd6fe00df9915cd933360a5387a00533c9ad83362e2da2a56393fd81cdc",
+      "resolved_files": [
+        "source_snapshot/static_loss/check_area_rank.py"
+      ]
+    },
+    {
+      "record": "packaging_attempt_v1/failure.json",
+      "field": "/source_sha256",
+      "sha256": "f7db8dd69e88e9018d8d61811205ef8640e14fb986bd1104a2fb6aa13f6dfe44",
+      "resolved_files": [
+        "source_snapshot/package_results.py"
+      ]
+    }
+  ],
+  "primary_snapshots_checked": 8,
+  "local_markdown_links_checked": 12,
+  "previous_archives": [
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\three-candidate-exploration-20261121",
+      "manifest_sha256": "65482ffc1bc0e590d481e8a43b70d2fe8d9dc9374e87c3b49ee60d2c4ba99214",
+      "unchanged_files": 39
+    },
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\learned-geometry-gate-20261121",
+      "manifest_sha256": "7164aede3c183ea07325b4cda8aa2a1fa8b820aee34d3782043fa4e4a5c9baf6",
+      "unchanged_files": 105
+    },
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\geometry-condition-screen-20261121",
+      "manifest_sha256": "b03f4388c8e890343dd1b8d4a79de50a34c1739978da374fa0de5edcb6a9abaf",
+      "unchanged_files": 32
+    },
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\new-direction-screen-20261121",
+      "manifest_sha256": "1119aeed6ad606bed615dbec134b83bba97c6d47fe038137fee5b07d7da07e1a",
+      "unchanged_files": 43
+    },
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\endpoint-selection-deepening-20261121",
+      "manifest_sha256": "c2c26f0f77cb43c771f03bb9712c3f21494449634019f003b9b2085df624c2a1",
+      "unchanged_files": 25
+    },
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\endpoint-classification-audit-20261121",
+      "manifest_sha256": "e87f7057cf21af0bd3d5ad09568c5951cd2525c8c1bd3d1de17ecf803989880e",
+      "unchanged_files": 13
+    }
+  ],
+  "original_fd_decay_flag_preserved": false,
+  "targeted_refinement_checks": {
+    "fourfold_difference_decay": true,
+    "rank_margin_over_1000": true,
+    "weights_stay_positive": true
+  },
+  "packaging_false_positive_preserved": true,
+  "bookkeeping_exclusion": "manifest.json and ARCHIVE_CHECK.json do not hash themselves",
+  "limits": "Integrity checks are not a formal theorem certificate or an originality certificate."
+}

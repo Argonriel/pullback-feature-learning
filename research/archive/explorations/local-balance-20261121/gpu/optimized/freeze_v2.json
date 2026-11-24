@@ -1,0 +1,12 @@
+{
+  "timestamp_utc": "2026-11-21T09:37:57.384159+00:00",
+  "timing_started": false,
+  "source_hashes": {
+    "optimized_benchmark_v2.py": "3a3c7c552a8809db6b774e9e1b1e904b95db04008dfdb3b4747d3a54d706695c",
+    "TRANSFER_TIMING_AMENDMENT.md": "ab853f766a15b309dfb7ef256ad7faf4b03592f39681c927c9822faea6663a2e",
+    "optimized_benchmark.py": "5399a8d42306c48ef710d640d7cd5673232b50572c1a7daae1167e48e645d3c2",
+    "optimized\\freeze.json": "afe792ea36c302ced800485c53107040388b8a4f840c6a10a8fce97a308228a9",
+    "optimized\\equivalence_commit.json": "ef6beb121c97bfafc8fbdc631651957e759466dcf0d49e12b2ff07abcfc5cfd9"
+  },
+  "reason": "Transfer only needed tie keys; preserve original frozen runner."
+}

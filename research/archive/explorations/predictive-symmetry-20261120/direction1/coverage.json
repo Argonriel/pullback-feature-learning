@@ -1,0 +1,11 @@
+{
+  "prediction_rows": 3456,
+  "successful_rows": 2850,
+  "status_metric_rows": {
+    "ok": 2850,
+    "norm_cap": 606
+  },
+  "unique_cases": 1152,
+  "successful_cases": 950,
+  "matched_method_contrasts": 1314
+}

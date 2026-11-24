@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-21T22:17:08.872651+00:00",
+  "rows": [
+    {
+      "seed": 1,
+      "temperature": 1.0944470810133395,
+      "forward_examples": 5000,
+      "seconds": 0.04185979999601841
+    },
+    {
+      "seed": 2,
+      "temperature": 1.0555683063076335,
+      "forward_examples": 5000,
+      "seconds": 0.03641530001186766
+    },
+    {
+      "seed": 3,
+      "temperature": 1.0101525269304397,
+      "forward_examples": 5000,
+      "seconds": 0.03919169999426231
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "scope": "Complete main direction1 and direction2 pipelines, iid supplement, and independent main audit in a separate frozen-source directory",
+  "checks": [
+    {
+      "path": "direction1/new/predictions.csv",
+      "byte_identical": true,
+      "sha256": "74559950bc4b27dcc98f147c34d67d567dd7d26a4c712bb57571841d2c43f05a"
+    },
+    {
+      "path": "direction1/new/outcomes.csv",
+      "byte_identical": true,
+      "sha256": "fa07f3ec458f4e5c780e4c448a7583de51688d19db1f04a7d054160657458f78"
+    },
+    {
+      "path": "direction1/new/roots.csv",
+      "byte_identical": true,
+      "sha256": "4aa4df48dea0504ffb87755fbf91d499d3bc277511aea4e8b8c529db68cbf53c"
+    },
+    {
+      "path": "direction1/contrast_summary.csv",
+      "byte_identical": true,
+      "sha256": "0334d84e7a4357df876ae8d43ce05e97e819f868e2913745b492eeca34a8677e"
+    },
+    {
+      "path": "direction2/fresh_results/risks.csv",
+      "byte_identical": true,
+      "sha256": "312a922b982db8f6ad47dcaba006ec8fcfb456b1b348a0335d8ca2781427e832"
+    },
+    {
+      "path": "direction2/fresh_results/independent_iid_test.csv",
+      "byte_identical": true,
+      "sha256": "6188fda0cce42e1bfb6d15dfc70f3d418358648827d6e719b3acf2c4c06f8588"
+    },
+    {
+      "path": "direction2/fresh_results/paired_contrasts.csv",
+      "byte_identical": true,
+      "sha256": "b6c76e6e28601cf461fef541e6c967182d7f99811d0aa86fd0e4141b0263d410"
+    },
+    {
+      "path": "iid_results/by_seed.csv",
+      "byte_identical": true,
+      "sha256": "3dc3177e4aa0d3113c3a4cd3fa103d41531a82f1ed0ebf8c6f52a4f1cbc36d5d"
+    },
+    {
+      "path": "iid_results/paired_contrasts.csv",
+      "byte_identical": true,
+      "sha256": "023a5e1d6540c0e9e88753d06ccb574745e447cc8c9708aa6cdcd422e64268d1"
+    },
+    {
+      "path": "direction1/new/states.npz",
+      "array_keys": 1142,
+      "all_arrays_identical": true
+    },
+    {
+      "path": "direction2/fresh_results/models.npz",
+      "array_keys": 80,
+      "all_arrays_identical": true
+    }
+  ],
+  "excluded_from_byte_comparison": "timestamps, compression-container metadata and execution timing",
+  "packaging_note": "An omitted audit helper-file copy was corrected before the replay audit stage. Current reproduce.py copies all three auditor source files.",
+  "followups": "Separately independently audited; not rerun as part of this main-only portability check"
+}

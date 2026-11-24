@@ -1,0 +1,352 @@
+{
+  "source_sha256": "8ab4899241dc87f37b9390a80e70513c294f4d5618020b6ec775316da57ef95c",
+  "reason": "Numerical refinement only, declared after initial positive endpoint contrast; same cases and endpoints.",
+  "records": [
+    {
+      "damping": 0,
+      "second_loss_weight": 1.0,
+      "rk4_step": 0.005,
+      "steps": 3364,
+      "time": 16.82,
+      "matrix": [
+        [
+          0.9999999999900692,
+          0.2999999999966896
+        ],
+        [
+          0.2999999999966896,
+          0.3999999999966896
+        ]
+      ],
+      "unobserved_x12": 0.2999999999966896,
+      "max_constraint_residual": 9.931055977574488e-12,
+      "minimum_path_eigenvalue": 0.1
+    },
+    {
+      "damping": 0,
+      "second_loss_weight": 1.0,
+      "rk4_step": 0.0025,
+      "steps": 6727,
+      "time": 16.8175,
+      "matrix": [
+        [
+          0.9999999999900319,
+          0.2999999999966773
+        ],
+        [
+          0.2999999999966773,
+          0.3999999999966762
+        ]
+      ],
+      "unobserved_x12": 0.2999999999966773,
+      "max_constraint_residual": 9.968581515806818e-12,
+      "minimum_path_eigenvalue": 0.1
+    },
+    {
+      "damping": 0,
+      "second_loss_weight": 9.0,
+      "rk4_step": 0.005,
+      "steps": 6705,
+      "time": 33.525,
+      "matrix": [
+        [
+          0.9999999999900065,
+          0.30000000000373367
+        ],
+        [
+          0.30000000000373367,
+          0.4000000000037339
+        ]
+      ],
+      "unobserved_x12": 0.30000000000373367,
+      "max_constraint_residual": 9.993450511558422e-12,
+      "minimum_path_eigenvalue": 0.1
+    },
+    {
+      "damping": 0,
+      "second_loss_weight": 9.0,
+      "rk4_step": 0.0025,
+      "steps": 13410,
+      "time": 33.525,
+      "matrix": [
+        [
+          0.999999999990007,
+          0.30000000000373506
+        ],
+        [
+          0.30000000000373506,
+          0.4000000000037311
+        ]
+      ],
+      "unobserved_x12": 0.30000000000373506,
+      "max_constraint_residual": 9.993006422348572e-12,
+      "minimum_path_eigenvalue": 0.1
+    },
+    {
+      "damping": 0.003,
+      "second_loss_weight": 1.0,
+      "rk4_step": 0.005,
+      "steps": 3369,
+      "time": 16.845,
+      "matrix": [
+        [
+          0.9999999999900453,
+          0.3003596811747441
+        ],
+        [
+          0.3003596811747441,
+          0.3992806376405563
+        ]
+      ],
+      "unobserved_x12": 0.3003596811747441,
+      "max_constraint_residual": 9.955036794906391e-12,
+      "minimum_path_eigenvalue": 0.1
+    },
+    {
+      "damping": 0.003,
+      "second_loss_weight": 1.0,
+      "rk4_step": 0.0025,
+      "steps": 6737,
+      "time": 16.8425,
+      "matrix": [
+        [
+          0.9999999999900077,
+          0.3003596811826934
+        ],
+        [
+          0.3003596811826934,
+          0.39928063762462124
+        ]
+      ],
+      "unobserved_x12": 0.3003596811826934,
+      "max_constraint_residual": 9.992340288533796e-12,
+      "minimum_path_eigenvalue": 0.1
+    },
+    {
+      "damping": 0.003,
+      "second_loss_weight": 9.0,
+      "rk4_step": 0.005,
+      "steps": 6719,
+      "time": 33.595,
+      "matrix": [
+        [
+          0.9999999999900081,
+          0.3003798087948717
+        ],
+        [
+          0.3003798087948717,
+          0.39924038242145715
+        ]
+      ],
+      "unobserved_x12": 0.3003798087948717,
+      "max_constraint_residual": 9.991896199323946e-12,
+      "minimum_path_eigenvalue": 0.1
+    },
+    {
+      "damping": 0.003,
+      "second_loss_weight": 9.0,
+      "rk4_step": 0.0025,
+      "steps": 13438,
+      "time": 33.595,
+      "matrix": [
+        [
+          0.9999999999900084,
+          0.3003798105483533
+        ],
+        [
+          0.3003798105483533,
+          0.3992403789144935
+        ]
+      ],
+      "unobserved_x12": 0.3003798105483533,
+      "max_constraint_residual": 9.991563132416559e-12,
+      "minimum_path_eigenvalue": 0.1
+    },
+    {
+      "damping": 0.03,
+      "second_loss_weight": 1.0,
+      "rk4_step": 0.005,
+      "steps": 3417,
+      "time": 17.085,
+      "matrix": [
+        [
+          0.9999999999900576,
+          0.3034306114483659
+        ],
+        [
+          0.3034306114483659,
+          0.3931387770933248
+        ]
+      ],
+      "unobserved_x12": 0.3034306114483659,
+      "max_constraint_residual": 9.942824341635514e-12,
+      "minimum_path_eigenvalue": 0.1
+    },
+    {
+      "damping": 0.03,
+      "second_loss_weight": 1.0,
+      "rk4_step": 0.0025,
+      "steps": 6833,
+      "time": 17.0825,
+      "matrix": [
+        [
+          0.9999999999900199,
+          0.3034306114877978
+        ],
+        [
+          0.3034306114877978,
+          0.3931387770144261
+        ]
+      ],
+      "unobserved_x12": 0.3034306114877978,
+      "max_constraint_residual": 9.98012783526292e-12,
+      "minimum_path_eigenvalue": 0.1
+    },
+    {
+      "damping": 0.03,
+      "second_loss_weight": 9.0,
+      "rk4_step": 0.005,
+      "steps": 6845,
+      "time": 34.225,
+      "matrix": [
+        [
+          0.999999999990004,
+          0.303631227929717
+        ],
+        [
+          0.303631227929717,
+          0.3927375441517763
+        ]
+      ],
+      "unobserved_x12": 0.303631227929717,
+      "max_constraint_residual": 9.99600402451506e-12,
+      "minimum_path_eigenvalue": 0.1
+    },
+    {
+      "damping": 0.03,
+      "second_loss_weight": 9.0,
+      "rk4_step": 0.0025,
+      "steps": 13690,
+      "time": 34.225,
+      "matrix": [
+        [
+          0.9999999999900043,
+          0.3036312368059618
+        ],
+        [
+          0.3036312368059618,
+          0.39273752639928644
+        ]
+      ],
+      "unobserved_x12": 0.3036312368059618,
+      "max_constraint_residual": 9.995670957607672e-12,
+      "minimum_path_eigenvalue": 0.1
+    },
+    {
+      "damping": 0.3,
+      "second_loss_weight": 1.0,
+      "rk4_step": 0.005,
+      "steps": 3888,
+      "time": 19.44,
+      "matrix": [
+        [
+          0.9999999999900535,
+          0.32269994418903075
+        ],
+        [
+          0.32269994418903075,
+          0.3546001116119917
+        ]
+      ],
+      "unobserved_x12": 0.32269994418903075,
+      "max_constraint_residual": 9.94659909991924e-12,
+      "minimum_path_eigenvalue": 0.1
+    },
+    {
+      "damping": 0.3,
+      "second_loss_weight": 1.0,
+      "rk4_step": 0.0025,
+      "steps": 7775,
+      "time": 19.4375,
+      "matrix": [
+        [
+          0.9999999999900198,
+          0.3226999442007368
+        ],
+        [
+          0.3226999442007368,
+          0.3546001115885471
+        ]
+      ],
+      "unobserved_x12": 0.3226999442007368,
+      "max_constraint_residual": 9.980238857565382e-12,
+      "minimum_path_eigenvalue": 0.1
+    },
+    {
+      "damping": 0.3,
+      "second_loss_weight": 9.0,
+      "rk4_step": 0.005,
+      "steps": 8132,
+      "time": 40.660000000000004,
+      "matrix": [
+        [
+          0.9999999999900187,
+          0.3243452248222493
+        ],
+        [
+          0.3243452248222493,
+          0.35130955036674494
+        ]
+      ],
+      "unobserved_x12": 0.3243452248222493,
+      "max_constraint_residual": 9.981349080590007e-12,
+      "minimum_path_eigenvalue": 0.1
+    },
+    {
+      "damping": 0.3,
+      "second_loss_weight": 9.0,
+      "rk4_step": 0.0025,
+      "steps": 16263,
+      "time": 40.6575,
+      "matrix": [
+        [
+          0.9999999999900034,
+          0.3243452276144846
+        ],
+        [
+          0.3243452276144846,
+          0.3513095447822914
+        ]
+      ],
+      "unobserved_x12": 0.3243452276144846,
+      "max_constraint_residual": 9.996559136027372e-12,
+      "minimum_path_eigenvalue": 0.1
+    }
+  ],
+  "contrasts": [
+    {
+      "damping": 0,
+      "delta": 7.057743278693351e-12,
+      "delta_over_lambda": null,
+      "max_refinement_delta": 1.226796442210798e-14
+    },
+    {
+      "damping": 0.003,
+      "delta": 2.0129365659871112e-05,
+      "delta_over_lambda": 0.0067097885532903705,
+      "max_refinement_delta": 1.7534815821562688e-09
+    },
+    {
+      "damping": 0.03,
+      "delta": 0.00020062531816400497,
+      "delta_over_lambda": 0.006687510605466833,
+      "max_refinement_delta": 8.876244850242188e-09
+    },
+    {
+      "damping": 0.3,
+      "delta": 0.0016452834137478112,
+      "delta_over_lambda": 0.005484278045826038,
+      "max_refinement_delta": 2.7922352763276592e-09
+    }
+  ]
+}

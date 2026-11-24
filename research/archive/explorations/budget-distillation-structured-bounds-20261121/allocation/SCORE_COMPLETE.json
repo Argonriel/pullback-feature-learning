@@ -1,0 +1,27 @@
+{
+  "utc": "2026-11-21T23:17:36.025374+00:00",
+  "rows": 720,
+  "manifest": {
+    "predictions/1.npz": "9995f258f74e28202c38c700120cf01a70cf3c9a93fa1a1a21691cae12601d25",
+    "predictions/2.npz": "ff2bc177d23ebd7868e2680b5c530e5888a6f1939ef224f173f2b7441988859e",
+    "predictions/3.npz": "79fc232623d7c99147b8a92ce6d14ae24a5df1cd86b3a69734cd7b5c2d1d2ba4",
+    "predictions/4.npz": "42b91bd0e4ba2647a187e8ee13391d297e46208ec915b321b775652e9a64e9f7",
+    "predictions/5.npz": "cfd3b4e6e098700d8604f5d3aec36831cdb4ed95df9623f5ffa5b7e063a417fb",
+    "predictions/6.npz": "07b170dedfce476c027d5a979ba423139acf393cc9512fb1143c7269427a84cb",
+    "predictions/7.npz": "d5a14ee07288077008b14012569064707b5490b0f47f7a02d37bf553486dd87f",
+    "predictions/8.npz": "6461014842f6e33d96b36759c42b49b82a578c643061066f251b6537f4bcd0b0",
+    "predictions/9.npz": "9736f07096abda954e37de1f049f134503cd628ad906dbd092980d39e7cdbc35",
+    "predictions/10.npz": "6edb2e07412edd5c9f054ce82477e4b6e0f0d33eb54dfcecfd669e65811d6c22",
+    "predictions/11.npz": "4923c3b9b6851d7019c4730b8eec2949a15662172631ecf698c47e514e7b63d5",
+    "predictions/12.npz": "26599e42a3363ad7dc9d93fa94b97e8767dfe8815a5b769d6af28f71bf037434",
+    "predictions/13.npz": "ca3d8c0c01d57d8055f446a9ca67a4e885476fff762e5975911c2af3fbc351f1",
+    "predictions/14.npz": "11d0e95a0900fd42fb636503a44a53004d4d521bcd0e39afddcce39f800f453f",
+    "predictions/15.npz": "2d4ca58ab653605f7e3e3419f3bfaaf82eb347f4654f67cec64f696eebeb505e",
+    "predictions/16.npz": "1b08da813b7814c54e6cd9b37e38eea450891fb73a5f0b1a106558aaf0c33415",
+    "per_model.csv": "989f45ea538a9ff3332978d0fc29d63393138c4992ca3f2eda94b85558644b21",
+    "reliability_bins.csv": "f7cbbd5bc48b1819b96261d05144039dfc1465de15c78184162cd76f9d96fa8c",
+    "deployment_ledger.csv": "a5098eb4bfa19e539b2940af43f57f70e1596ed2972daecabde9107de7984a70"
+  },
+  "actual_inference_forward_examples": 75497472,
+  "fit_commit_sha256": "5110e80236d0e866bb31de2ac8f5cf7a19bf1c925770fa4310d90353f4681741"
+}

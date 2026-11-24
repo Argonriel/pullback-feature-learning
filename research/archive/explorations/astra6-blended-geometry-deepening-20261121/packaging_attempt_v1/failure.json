@@ -1,0 +1,8 @@
+{
+  "status": "failed_validation_false_positive",
+  "source_sha256": "f7db8dd69e88e9018d8d61811205ef8640e14fb986bd1104a2fb6aa13f6dfe44",
+  "error": "Broken local link THEOREM.md:X",
+  "cause": "The simple link regex interpreted [H_i,H_j](X) inside an indented mathematical code block as a Markdown link.",
+  "correction": "Ignore indented/fenced code and inline code before checking prose links.",
+  "math_or_numerical_outputs_changed": false
+}

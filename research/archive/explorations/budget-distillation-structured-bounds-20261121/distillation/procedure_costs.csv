@@ -1,0 +1,5 @@
+procedure,training_forward_backward_examples,validation_forward_examples,calibration_forward_examples,teacher_target_forward_examples,scalar_temperature_fits,network_matrix_flops,unique_fitting_labels,serving_forward_examples_per_input
+B_plain12_standalone,480000,20000,5000,0,1,6694845440000,50000,1
+T_full_standalone,480000,20000,10000,0,1,6718064640000,50000,2
+S_full_charged_pipeline,960000,40000,15000,80000,3,13784417280000,50000,1
+C_full_compute,997270,20000,5000,0,1,13784407362560,50000,1

@@ -1,0 +1,49 @@
+{
+  "timestamp_utc": "2026-11-21T22:20:17.873010+00:00",
+  "pair": 4,
+  "families": {
+    "legacy_pb": {
+      "beta": 0.5324792751610281,
+      "temperature": 1.878007364131849,
+      "status": "interior",
+      "iterations": 80,
+      "n_labels": 2048,
+      "raw_nll": 0.6650501697075775,
+      "calibrated_nll": 0.6306595781483717,
+      "derivative": -8.673617379884035e-18,
+      "lower_derivative": -0.22281203908327446,
+      "upper_derivative": 0.3391271490631816,
+      "beta_min": 0.049787068367863944,
+      "beta_max": 20.085536923187668
+    },
+    "selected_pb": {
+      "beta": 0.7641203299076218,
+      "temperature": 1.3086944043497637,
+      "status": "interior",
+      "iterations": 80,
+      "n_labels": 2048,
+      "raw_nll": 0.6508610860493567,
+      "calibrated_nll": 0.647174669498352,
+      "derivative": -1.734723475976807e-18,
+      "lower_derivative": -0.11677371866010469,
+      "upper_derivative": 0.21303769559039942,
+      "beta_min": 0.049787068367863944,
+      "beta_max": 20.085536923187668
+    },
+    "selected_gd": {
+      "beta": 0.049787068367863944,
+      "temperature": 20.085536923187668,
+      "status": "lower_bound",
+      "iterations": 0,
+      "n_labels": 2048,
+      "raw_nll": 0.699929539141023,
+      "calibrated_nll": 0.6931957305121088,
+      "derivative": 0.0012809126586857994,
+      "lower_derivative": 0.0012809126586857994,
+      "upper_derivative": 0.08852929246268615,
+      "beta_min": 0.049787068367863944,
+      "beta_max": 20.085536923187668
+    }
+  },
+  "label_seed": 2104004
+}

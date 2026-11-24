@@ -1,0 +1,185 @@
+{
+  "status": "verified elementary counterexample; no novelty claim",
+  "scope": "Arbitrary train/test representation map; not an architecture theorem or a rings result",
+  "parameters": {
+    "a": 0.7,
+    "b": 0.8,
+    "damping": 0.1,
+    "target_u": 1.0
+  },
+  "initial_jacobian_shared_by_both_curvatures": [
+    [
+      1.0,
+      0.0
+    ],
+    [
+      0.7,
+      0.8
+    ]
+  ],
+  "initial_gram_eigenvalues_shared": [
+    0.36198862029125023,
+    1.7680113797087498
+  ],
+  "initial_metric_eigenvalues_shared": [
+    0.4619886202912502,
+    1.8680113797087499
+  ],
+  "logistic_flow_rows": [
+    {
+      "curvature": 0.0,
+      "adaptive_metric": false,
+      "rk4_step": 0.005,
+      "accepted_steps": 635,
+      "flow_time": 3.170104348594778,
+      "training_prediction": 1.0,
+      "training_logistic_loss": 0.31326168751822286,
+      "unseen_prediction": -0.7567567567567561,
+      "unseen_logistic_loss_label_positive": 1.1414650212224147,
+      "exact_unseen_prediction": -0.7567567567567566,
+      "exact_relation_absolute_error": 4.440892098500626e-16,
+      "target_absolute_error": 0.0
+    },
+    {
+      "curvature": -1.0,
+      "adaptive_metric": true,
+      "rk4_step": 0.005,
+      "accepted_steps": 606,
+      "flow_time": 3.0284307218099884,
+      "training_prediction": 1.0,
+      "training_logistic_loss": 0.31326168751822286,
+      "unseen_prediction": -0.21621621621624673,
+      "unseen_logistic_loss_label_positive": 0.8070876226670012,
+      "exact_unseen_prediction": -0.21621621621621614,
+      "exact_relation_absolute_error": 3.058664432842306e-14,
+      "target_absolute_error": 0.0
+    },
+    {
+      "curvature": 1.0,
+      "adaptive_metric": true,
+      "rk4_step": 0.005,
+      "accepted_steps": 720,
+      "flow_time": 3.5959982893775444,
+      "training_prediction": 1.0,
+      "training_logistic_loss": 0.31326168751822286,
+      "unseen_prediction": -1.2972972972972259,
+      "unseen_logistic_loss_label_positive": 1.5388851904932235,
+      "exact_unseen_prediction": -1.2972972972972971,
+      "exact_relation_absolute_error": 7.127631818093505e-14,
+      "target_absolute_error": 0.0
+    },
+    {
+      "curvature": 0.0,
+      "adaptive_metric": false,
+      "rk4_step": 0.0025,
+      "accepted_steps": 1269,
+      "flow_time": 3.1701043485947467,
+      "training_prediction": 1.0,
+      "training_logistic_loss": 0.31326168751822286,
+      "unseen_prediction": -0.7567567567567565,
+      "unseen_logistic_loss_label_positive": 1.1414650212224149,
+      "exact_unseen_prediction": -0.7567567567567566,
+      "exact_relation_absolute_error": 1.1102230246251565e-16,
+      "target_absolute_error": 0.0
+    },
+    {
+      "curvature": -1.0,
+      "adaptive_metric": true,
+      "rk4_step": 0.0025,
+      "accepted_steps": 1212,
+      "flow_time": 3.0284307218099373,
+      "training_prediction": 1.0,
+      "training_logistic_loss": 0.31326168751822286,
+      "unseen_prediction": -0.21621621621621864,
+      "unseen_logistic_loss_label_positive": 0.8070876226669856,
+      "exact_unseen_prediction": -0.21621621621621614,
+      "exact_relation_absolute_error": 2.4980018054066022e-15,
+      "target_absolute_error": 0.0
+    },
+    {
+      "curvature": 1.0,
+      "adaptive_metric": true,
+      "rk4_step": 0.0025,
+      "accepted_steps": 1439,
+      "flow_time": 3.5959982893774938,
+      "training_prediction": 0.9999999999999999,
+      "training_logistic_loss": 0.3132616875182229,
+      "unseen_prediction": -1.2972972972972923,
+      "unseen_logistic_loss_label_positive": 1.5388851904932754,
+      "exact_unseen_prediction": -1.297297297297297,
+      "exact_relation_absolute_error": 4.6629367034256575e-15,
+      "target_absolute_error": 1.1102230246251565e-16
+    }
+  ],
+  "matched_progress_contrasts": [
+    {
+      "curvature": -1.0,
+      "rk4_step": 0.005,
+      "matched_training_prediction": 1.0,
+      "unseen_prediction_difference": 0.5405405405405094,
+      "exact_prediction_difference": 0.5405405405405405,
+      "unseen_logistic_risk_difference": -0.3343773985554135
+    },
+    {
+      "curvature": 1.0,
+      "rk4_step": 0.005,
+      "matched_training_prediction": 1.0,
+      "unseen_prediction_difference": -0.5405405405404697,
+      "exact_prediction_difference": -0.5405405405405405,
+      "unseen_logistic_risk_difference": 0.3974201692708088
+    },
+    {
+      "curvature": -1.0,
+      "rk4_step": 0.0025,
+      "matched_training_prediction": 1.0,
+      "unseen_prediction_difference": 0.5405405405405378,
+      "exact_prediction_difference": 0.5405405405405405,
+      "unseen_logistic_risk_difference": -0.33437739855542925
+    },
+    {
+      "curvature": 1.0,
+      "rk4_step": 0.0025,
+      "matched_training_prediction": 1.0,
+      "unseen_prediction_difference": -0.5405405405405358,
+      "exact_prediction_difference": -0.5405405405405405,
+      "unseen_logistic_risk_difference": 0.39742016927086055
+    }
+  ],
+  "separate_squared_loss_noise_expectation": [
+    {
+      "loss": "squared loss; exact converged endpoint u=y",
+      "curvature": -1.0,
+      "signal": 0.7,
+      "noise_standard_deviation": 0.4,
+      "noise_mean": 0.0,
+      "enumerated_expected_prediction_difference": 0.3513513513513513,
+      "analytic_expected_prediction_difference": 0.35135135135135126,
+      "noiseless_prediction_difference": 0.26486486486486477,
+      "noise_only_expected_difference": 0.08648648648648649,
+      "absolute_expectation_error": 5.551115123125783e-17
+    },
+    {
+      "loss": "squared loss; exact converged endpoint u=y",
+      "curvature": 1.0,
+      "signal": 0.7,
+      "noise_standard_deviation": 0.4,
+      "noise_mean": 0.0,
+      "enumerated_expected_prediction_difference": -0.3513513513513513,
+      "analytic_expected_prediction_difference": -0.35135135135135126,
+      "noiseless_prediction_difference": -0.26486486486486477,
+      "noise_only_expected_difference": -0.08648648648648649,
+      "absolute_expectation_error": 5.551115123125783e-17
+    }
+  ],
+  "checks": {
+    "max_exact_relation_error": 7.127631818093505e-14,
+    "max_training_target_error": 1.1102230246251565e-16,
+    "benefit_and_harm_at_identical_initial_spectra": true,
+    "zero_mean_noise_contributes_to_learned_geometry": true
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "source_sha256": "36f7b2e29f0a38e1da31579ed0a15def64ed874c55a7e2591f9e0c8dcd6c675d"
+}

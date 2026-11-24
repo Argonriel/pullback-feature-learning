@@ -1,0 +1,24 @@
+{
+  "timestamp_utc": "2026-11-21T09:37:16.531220+00:00",
+  "old_model_sha256": "49ebd3c184d0a8c49723e4388de8f16cb47de07c8ef734d1c6668ae42eea0d57",
+  "source_sha256": "e77c0994b63809372c907b6bdf2e73e93d2785991628fd440b258a2d71afb549",
+  "explicit_tau": 1.0,
+  "forward_examples": 66048,
+  "fit_seconds": 0.7184681999933673,
+  "checks": [
+    {
+      "policy": "rank_balanced",
+      "selected": 64
+    },
+    {
+      "policy": "rank_even",
+      "selected": 64
+    },
+    {
+      "policy": "rank_unbalanced",
+      "selected": 64
+    }
+  ],
+  "rank_even_halfturn_mask_identical": true,
+  "fresh_models_accessed": false
+}

@@ -1,0 +1,15 @@
+{
+  "timestamp_utc": "2026-11-21T10:23:09.936566+00:00",
+  "source_sha256": "5520c4f4718bb0105aec924182ea76f58f00786d3d48ca08662fcfdf15f708f8",
+  "protocol_sha256": "a63497c2c0337738ffe532b3e661cfb79e5ff71e2ab3e0fe1c16e4866c9fe58c",
+  "reviewed_source_sha256": {
+    "root_audit/certificate.py": "03b951115dbf95d997cbea4c75d095dd0380d200100321da53dc0c1d0362860b",
+    "root_audit/CERTIFICATE.md": "9e0e0f3ab9b85b32c37b2fc7e0da804c0cd414b9e030ae12672c4c222a028834",
+    "certificate/local_rank.py": "8e7b36d7fe1cfa4a5ae8b208e60241a732a57aa7d54a6d2195412d0a6f9161ca",
+    "certificate/known_cdf.py": "9eb325a3f4fe4b2488b0bc19ff708ac8b78595e76f46d01b4431892d45ce5ef7",
+    "validation/adapters.py": "a614d61c180a7b3adcc8fb6d3cfa0421fca1a337e1989b2e7aed8a780c261097",
+    "transfer/task.py": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77",
+    "transfer/rank_policy.py": "32feb6f0c13b7db4b5cc3b2f348c0af28c1d78676fa9e776b2a9a93c837379a8"
+  },
+  "fresh_files_read_before_commit": false
+}

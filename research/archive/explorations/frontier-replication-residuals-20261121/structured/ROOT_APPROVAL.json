@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-22T00:21:39.749661+00:00",
+  "residual_freeze_sha256": "5fc494f25fdfa379c4889012330574c44e7b08b4d5f3ff07a6569a10257ed462",
+  "fresh_execution_authorized": true,
+  "review": "Exact concave endpoint propagation, odd interval/even penalty, conditional range, independent cell labels,8622 events and violated-assumption exclusion independently reviewed. Root preflight passed before fresh evidence.",
+  "root_theory_review_sha256": "97d7b2aaa3a51bfaaa66979175d3dd7e7f5e2e76aa9508b4fbe85eef15a53fd1",
+  "root_preflight_sha256": "32608471dbd919923e278cc16272e64c40875987468e2593616dd5e51fc09394",
+  "user_permission": "Existing continuation authorization; internal scientific release."
+}

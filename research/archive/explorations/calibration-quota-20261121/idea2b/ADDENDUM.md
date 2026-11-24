@@ -1,0 +1,9 @@
+# Pre-outcome additive strong-baseline amendment
+
+The v1 design and code remain preserved in design_freeze.json, freeze.json and experiment_v1_frozen.py. Before any fresh Idea2B calibration or testing, root review identified that the orbit-folded gate sees only64 independent radii at the primary budget, whereas the original half-turn Gate.fit can observe4096 iid calibration inputs at the same8192-forward budget. Retaining only the orbit version could weaken the established competitor.
+
+Add legacy_iid_folded_pi and legacy_iid_radius_pi using the unchanged archived Gate.fit implementation: B/2 iid unlabeled inputs plus their antipodes, exactly B model-example forwards, with seed741000+i. The8192/65536 budgets use prefixes of the same32768-point iid pool. Keep every v1 policy. The primary pullback comparison is joint versus confidence_pi and versus legacy_iid_folded_pi; joint versus orbit folded remains reported as an additional comparison. Total budgeted policies now18, plus raw and two full-two-view references.
+
+Each individual calibrated policy stays within B forwards. The shared orbit pool benefits all angle-aware policies; the separate IID antipodal pool benefits both legacy gates. Combined research calibration work is larger than a single policy's cost and is disclosed. Calibration samples differ by design, and128 orbit orientations are not independent observations. The original empty-cell fallback is preserved for legacy Gate.fit; no new minimum-count rule changes this baseline. Confidence and random+fixed-angle policies require no offline model calibration; charging them an upper cap does not imply they used it.
+
+The change is motivated by pre-result sampling fairness, not observed fresh test performance. All old pilot results, both freezes and every comparison remain in the archive.

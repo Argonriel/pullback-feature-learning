@@ -1,0 +1,22 @@
+{
+  "review_date": "2026-11-21",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1143,
+      "sha256": "4cf6f4659dfbf098e8f3c60fdcda72c4d5faf59133725ef32e2d52181af0ded5"
+    },
+    {
+      "path": "literature_review.md",
+      "bytes": 17666,
+      "sha256": "a91969437161884a6ac536177033849c8e7fddc16d7ed7282dcf00a9611a4844"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 5837,
+      "sha256": "81a69a7481d837ed1be4f6c409e5930b82facbb6570913a3fdc7dcd31652ef9d"
+    }
+  ],
+  "source_count": 18,
+  "qa": "Reviewed for source scope, novelty overclaiming, sampling assumptions, and shared structural constraints."
+}

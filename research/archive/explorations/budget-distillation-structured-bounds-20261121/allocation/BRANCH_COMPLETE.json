@@ -1,0 +1,26 @@
+{
+  "utc": "2026-11-21T23:19:40.012317+00:00",
+  "status": "COMPLETE",
+  "models": 144,
+  "temperature_fits": 288,
+  "score_rows": 720,
+  "fresh_seed_failures": 0,
+  "visual_qa": "Both exported figure PNGs visually inspected: titles, legends, axis labels, points and intervals readable, no clipping or overlap. PDF versions are vector exports of the same figures.",
+  "source_checks": "PASS",
+  "root_independent_audit": "Handled separately by root coordinator",
+  "manifest": {
+    "REPORT.md": "504eee384060686227990dff1ac07412f42054be2dfcc3f4a32af25a275205cd",
+    "REPRODUCE.md": "02b0acb94fc8c8209eab707baede1986bca6463a0ddb5ee9a09f5f12c1b22606",
+    "COST_TOTALS.json": "cdda0200d9e152a4435c93cbf61989a8ec0c4ab0b70875e95a93af160508ad94",
+    "standalone_cost_ledger.csv": "021ea504e9e481dd96ee59bbb94a680d319935356b40021420cf599ed596c54e",
+    "TIMING_AUDIT.json": "09bc0e1943718230084e3094868eda6f9d5c8771c1b89131c30aa5c882fe2838",
+    "isolated_timing.csv": "05192f4b084a47fcb19cc558d9544c21355020bdc2faa2bef15ba32063697a37",
+    "timing_projections.csv": "42f0317e3214acc72fd0fbbb0075b8e3f8735a9e379b4fc821a2d0edcbdaa03a",
+    "allocation_outcomes.png": "2392c2e7db350700ebd2c6433b70d3ee299311600607295769e83cb5670d005c",
+    "allocation_outcomes.pdf": "8e3d134519442a5a76782c24098e8c0571a5690665a94fc27c03393de56c76e1",
+    "primary_contrasts.png": "061dc7440c6ebcd3ba53caa3875fc8e41bb2beec734c57f404397639624d4d92",
+    "primary_contrasts.pdf": "90098846496cc11b542126e78d2b4c2ccad70c39a17c4d2f5aad248320812420",
+    "SOURCE_SNAPSHOT.json": "5ebcff4592d1a749daad69acce3e5a36b551f958780aa02bbffce6c1bfe1033a",
+    "SOURCE_INTEGRITY.json": "47941e89b94ac01c21d47937cd4663d80bc1b08d28d43ebce34ee1289467d106"
+  }
+}

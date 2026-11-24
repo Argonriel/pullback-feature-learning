@@ -1,0 +1,80 @@
+{
+  "utc": "2026-11-21T22:42:26.603360+00:00",
+  "rows": [
+    {
+      "split": "train",
+      "count": 40000,
+      "class_counts": [
+        4000,
+        4000,
+        4000,
+        4000,
+        4000,
+        4000,
+        4000,
+        4000,
+        4000,
+        4000
+      ],
+      "indices_sha256": "030c896ef3064cdbdf9aba7aad2393a3e426ac1d5a5daa0de230ab524d3c4028"
+    },
+    {
+      "split": "validation",
+      "count": 5000,
+      "class_counts": [
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500
+      ],
+      "indices_sha256": "daa0bf04cb9f76a1f4ea6cfcbb2c0a8d631e90ecdadf03dc682f6ec3d22185d9"
+    },
+    {
+      "split": "temperature",
+      "count": 5000,
+      "class_counts": [
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500
+      ],
+      "indices_sha256": "0dd4a678913178fbcaaaf8944a4db4ea6c316462a0f87952fcc9c571c4c30bd4"
+    },
+    {
+      "split": "holdout",
+      "count": 10000,
+      "class_counts": [
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000
+      ],
+      "indices_sha256": "d4a967873841b46e73c121dd31ed46f6ae99e273c72851af9f28fa00a9f35db1"
+    }
+  ],
+  "unique_count": 60000,
+  "disjoint": true,
+  "holdout_subset_previous_training": true,
+  "previous_study_exposure": true,
+  "previous_weights_reused": false,
+  "labels_used_per_arm": 50000,
+  "images_decoded": false
+}

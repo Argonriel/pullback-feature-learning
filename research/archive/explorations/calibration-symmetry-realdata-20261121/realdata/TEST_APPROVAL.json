@@ -1,0 +1,6 @@
+{
+  "utc": "2026-11-21T22:21:02.815455+00:00",
+  "test_access_authorized": true,
+  "policy_commit_sha256": "317244b1e73871984b3d939b8db2612bea361e84bb4a6e765601cfcfda1d7ba4",
+  "root_review": "Frozen source, actual cost paths, held-out test boundary, fixed cluster-bootstrap and full references reviewed; speedup threshold is exactly1.10x"
+}

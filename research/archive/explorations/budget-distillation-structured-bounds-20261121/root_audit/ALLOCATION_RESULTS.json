@@ -1,0 +1,114 @@
+{
+  "status": "PASS",
+  "utc": "2026-11-21T23:19:16.313375+00:00",
+  "metric_rows": 720,
+  "replayed_full_test_models": 144,
+  "temperature_fits": 288,
+  "checkpoint_selections": 16,
+  "max_metric_error": 4.440892098500626e-16,
+  "max_forward_error": 0.0,
+  "max_beta_error": 4.440892098500626e-16,
+  "contrasts": 54,
+  "max_interval_error": 0.0,
+  "committed_files_checked": 359,
+  "additional_audit_forward_examples": 19890176,
+  "training_procedure_ledger_rows": 144,
+  "actual_training_trajectories": 64,
+  "nominal_flops_formula": [
+    179045,
+    2001144
+  ],
+  "actual_deployment_forwards": 75497472,
+  "actual_training_nominal_flops": 13389287921024,
+  "primary_contrasts": [
+    {
+      "alpha": "0.00625",
+      "contrast": "flop_256_vs_baseline_raw_T",
+      "lower": "0.10043939829963489",
+      "mean_difference": "0.1097380490414124",
+      "metric": "expected_nll",
+      "primary": "True",
+      "ties": "0",
+      "upper": "0.12050918063485994",
+      "wins": "0"
+    },
+    {
+      "alpha": "0.00625",
+      "contrast": "flop_768_vs_baseline_raw_T",
+      "lower": "0.025968174949730253",
+      "mean_difference": "0.03573043153364724",
+      "metric": "expected_nll",
+      "primary": "True",
+      "ties": "0",
+      "upper": "0.045837297304845426",
+      "wins": "0"
+    },
+    {
+      "alpha": "0.00625",
+      "contrast": "flop_1280_vs_baseline_raw_T",
+      "lower": "0.0007809088922557019",
+      "mean_difference": "0.009332108514581841",
+      "metric": "expected_nll",
+      "primary": "True",
+      "ties": "0",
+      "upper": "0.017029284270851958",
+      "wins": "4"
+    },
+    {
+      "alpha": "0.00625",
+      "contrast": "validation_vs_flop1280_raw_T",
+      "lower": "-0.00010145189556275757",
+      "mean_difference": "0.00020858595758713183",
+      "metric": "expected_nll",
+      "primary": "True",
+      "ties": "0",
+      "upper": "0.0008060997249979565",
+      "wins": "5"
+    },
+    {
+      "alpha": "0.00625",
+      "contrast": "flop_256_vs_baseline_full_T",
+      "lower": "0.10048018460139144",
+      "mean_difference": "0.10969261246926484",
+      "metric": "expected_nll",
+      "primary": "True",
+      "ties": "0",
+      "upper": "0.12054365237953057",
+      "wins": "0"
+    },
+    {
+      "alpha": "0.00625",
+      "contrast": "flop_768_vs_baseline_full_T",
+      "lower": "0.020234749162458144",
+      "mean_difference": "0.028514750228311188",
+      "metric": "expected_nll",
+      "primary": "True",
+      "ties": "0",
+      "upper": "0.03705824210550857",
+      "wins": "0"
+    },
+    {
+      "alpha": "0.00625",
+      "contrast": "flop_1280_vs_baseline_full_T",
+      "lower": "0.0031290670175023448",
+      "mean_difference": "0.009062608361566235",
+      "metric": "expected_nll",
+      "primary": "True",
+      "ties": "0",
+      "upper": "0.014886864017176617",
+      "wins": "3"
+    },
+    {
+      "alpha": "0.00625",
+      "contrast": "validation_vs_flop1280_full_T",
+      "lower": "-0.0002738602270026196",
+      "mean_difference": "-2.1254878908597008e-05",
+      "metric": "expected_nll",
+      "primary": "True",
+      "ties": "0",
+      "upper": "0.00020738412876574833",
+      "wins": "10"
+    }
+  ],
+  "limits": "All saved model outputs replayed; full training trajectories are not independently retrained."
+}

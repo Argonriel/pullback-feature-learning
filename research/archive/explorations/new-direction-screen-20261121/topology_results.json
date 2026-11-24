@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "role": "static_algebraic_screen_not_innovation",
+  "representation": "(x1+a*tanh(x1),x2)",
+  "active_original_parameter": 16,
+  "restriction": "79 original coordinates fixed; a=B1[0,0]/2",
+  "input_count": 81,
+  "damping_sum_metric": 0.1,
+  "rows": [
+    {
+      "coefficient": -0.5,
+      "metric": 42.46938097875233,
+      "minimum_input_determinant": 0.5,
+      "forward_error": 0.0,
+      "parameter_jacobian_error": 0.0,
+      "input_derivative_error": 1.666666804567285e-11
+    },
+    {
+      "coefficient": -1.0,
+      "metric": 42.46938097875233,
+      "minimum_input_determinant": 0.0,
+      "forward_error": 0.0,
+      "parameter_jacobian_error": 0.0,
+      "input_derivative_error": 3.333328757329848e-11
+    },
+    {
+      "coefficient": -2.0,
+      "metric": 42.46938097875233,
+      "minimum_input_determinant": -1.0,
+      "forward_error": 0.0,
+      "parameter_jacobian_error": 0.0,
+      "input_derivative_error": 6.666656116038894e-11
+    }
+  ],
+  "critical_input_coordinates_at_a_minus2": [
+    -0.881373587019543,
+    0.881373587019543
+  ],
+  "fold_determinant_error": 2.220446049250313e-16,
+  "source_sha256": "5e2afbff30583707b447153efee280f87415b7b2c7ebc16cd8aa15a19aaa5b3a",
+  "core_sha256": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5"
+}

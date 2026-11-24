@@ -1,0 +1,26 @@
+{
+  "old_models": 64,
+  "rows": 576,
+  "mean_centered_gain": {
+    "rank_balanced": {
+      "0.25": 0.0099702239860823,
+      "1.0": 0.010264075996329515,
+      "4.0": 0.01021127913514202
+    },
+    "rank_even": {
+      "0.25": 0.009920314329022533,
+      "1.0": 0.010189014976091882,
+      "4.0": 0.010075108784442602
+    },
+    "rank_unbalanced": {
+      "0.25": 0.013373499998403038,
+      "1.0": 0.016128318666776716,
+      "4.0": 0.01584756545266939
+    }
+  },
+  "selected_tau": 1.0,
+  "mean_balanced_odd_action_mass": 0.5321089817435214,
+  "all_failures": 0,
+  "interpretation": "Development-only input-based centered logistic gain; not fresh confirmation, not original-posterior risk.",
+  "freeze_source_sha256": "9f6e3e96a85fa62657ec1430aececc846cffa3ce338786356d514d942d00ae31"
+}

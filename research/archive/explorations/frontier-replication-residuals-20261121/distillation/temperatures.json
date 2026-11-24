@@ -1,0 +1,230 @@
+[
+  {
+    "pair": 1,
+    "arm": "teacher",
+    "raw": {
+      "beta": 1.0348277036807279,
+      "status": "interior",
+      "derivative": 2.1671553440683057e-17,
+      "ce": 0.2623733487761295
+    },
+    "full": {
+      "beta": 1.0631977134413435,
+      "status": "interior",
+      "derivative": 3.907985046680551e-18,
+      "ce": 0.2522580485375767
+    }
+  },
+  {
+    "pair": 1,
+    "arm": "student",
+    "raw": {
+      "beta": 1.0091433680051285,
+      "status": "interior",
+      "derivative": 3.979039320256561e-17,
+      "ce": 0.26830500129632145
+    },
+    "full": null
+  },
+  {
+    "pair": 1,
+    "arm": "control",
+    "raw": {
+      "beta": 0.8730249441404421,
+      "status": "interior",
+      "derivative": 2.6290081223123708e-17,
+      "ce": 0.2294356022696451
+    },
+    "full": null
+  },
+  {
+    "pair": 2,
+    "arm": "teacher",
+    "raw": {
+      "beta": 0.9777872359417037,
+      "status": "interior",
+      "derivative": 3.375077994860476e-17,
+      "ce": 0.24355803362204156
+    },
+    "full": {
+      "beta": 1.0058739289865617,
+      "status": "interior",
+      "derivative": 6.856737400084967e-17,
+      "ce": 0.2378269495324108
+    }
+  },
+  {
+    "pair": 2,
+    "arm": "student",
+    "raw": {
+      "beta": 0.9641188807114582,
+      "status": "interior",
+      "derivative": -4.121147867408581e-17,
+      "ce": 0.25124918660842677
+    },
+    "full": null
+  },
+  {
+    "pair": 2,
+    "arm": "control",
+    "raw": {
+      "beta": 0.8094795261272332,
+      "status": "interior",
+      "derivative": -5.2580162446247416e-17,
+      "ce": 0.22966848142723176
+    },
+    "full": null
+  },
+  {
+    "pair": 3,
+    "arm": "teacher",
+    "raw": {
+      "beta": 0.898877538974985,
+      "status": "interior",
+      "derivative": 3.126388037344441e-17,
+      "ce": 0.2639429143535667
+    },
+    "full": {
+      "beta": 0.9099196121384736,
+      "status": "interior",
+      "derivative": 2.913225216616411e-17,
+      "ce": 0.2593950943632352
+    }
+  },
+  {
+    "pair": 3,
+    "arm": "student",
+    "raw": {
+      "beta": 0.9149967823163863,
+      "status": "interior",
+      "derivative": -1.1368683772161604e-17,
+      "ce": 0.2727799323494568
+    },
+    "full": null
+  },
+  {
+    "pair": 3,
+    "arm": "control",
+    "raw": {
+      "beta": 0.9589778802463149,
+      "status": "interior",
+      "derivative": -2.7000623958883807e-17,
+      "ce": 0.23719027466655337
+    },
+    "full": null
+  },
+  {
+    "pair": 4,
+    "arm": "teacher",
+    "raw": {
+      "beta": 0.8900146874903943,
+      "status": "interior",
+      "derivative": -2.948752353404416e-17,
+      "ce": 0.2702950645488045
+    },
+    "full": {
+      "beta": 0.912812093164622,
+      "status": "interior",
+      "derivative": -2.3270274596143282e-17,
+      "ce": 0.2630692847644767
+    }
+  },
+  {
+    "pair": 4,
+    "arm": "student",
+    "raw": {
+      "beta": 0.8806497937425524,
+      "status": "interior",
+      "derivative": -2.1316282072803004e-18,
+      "ce": 0.26894842000857505
+    },
+    "full": null
+  },
+  {
+    "pair": 4,
+    "arm": "control",
+    "raw": {
+      "beta": 0.7903676587832129,
+      "status": "interior",
+      "derivative": -1.1013412404281552e-17,
+      "ce": 0.23936538291088783
+    },
+    "full": null
+  },
+  {
+    "pair": 5,
+    "arm": "teacher",
+    "raw": {
+      "beta": 0.910535702616704,
+      "status": "interior",
+      "derivative": 2.7000623958883807e-17,
+      "ce": 0.26227708761248597
+    },
+    "full": {
+      "beta": 0.9205727340429015,
+      "status": "interior",
+      "derivative": 4.7961634663806765e-18,
+      "ce": 0.2550736998756685
+    }
+  },
+  {
+    "pair": 5,
+    "arm": "student",
+    "raw": {
+      "beta": 0.8872195319486544,
+      "status": "interior",
+      "derivative": 1.6697754290362355e-17,
+      "ce": 0.27131413361106543
+    },
+    "full": null
+  },
+  {
+    "pair": 5,
+    "arm": "control",
+    "raw": {
+      "beta": 0.8688381669480145,
+      "status": "interior",
+      "derivative": 1.7763568394002505e-19,
+      "ce": 0.23907781334496458
+    },
+    "full": null
+  },
+  {
+    "pair": 6,
+    "arm": "teacher",
+    "raw": {
+      "beta": 1.0486192991942755,
+      "status": "interior",
+      "derivative": 1.2434497875801754e-17,
+      "ce": 0.24347979125241764
+    },
+    "full": {
+      "beta": 1.0522197074194346,
+      "status": "interior",
+      "derivative": -2.5490720645393594e-17,
+      "ce": 0.23999551809142558
+    }
+  },
+  {
+    "pair": 6,
+    "arm": "student",
+    "raw": {
+      "beta": 1.0100422566683451,
+      "status": "interior",
+      "derivative": -4.0678571622265736e-17,
+      "ce": 0.2562975954697633
+    },
+    "full": null
+  },
+  {
+    "pair": 6,
+    "arm": "control",
+    "raw": {
+      "beta": 0.9146729714420614,
+      "status": "interior",
+      "derivative": 1.2434497875801754e-17,
+      "ce": 0.22513036264811576
+    },
+    "full": null
+  }
+]

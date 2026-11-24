@@ -1,0 +1,7 @@
+seed,device,seconds,all_even_flip_masks_equal,all_quotas_exact
+1,cuda,1.527730400004657,True,True
+1,cpu,15.133311999990838,True,True
+2,cuda,0.9934071000025142,True,True
+2,cpu,15.961336699983804,True,True
+3,cuda,1.0796201000048313,True,True
+3,cpu,16.32111720001558,True,True

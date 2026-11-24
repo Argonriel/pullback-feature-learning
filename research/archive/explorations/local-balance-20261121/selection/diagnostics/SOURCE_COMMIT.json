@@ -1,0 +1,10 @@
+{
+  "timestamp_utc": "2026-11-21T09:42:58.920609+00:00",
+  "source_sha256": "e2fa158fd72bf253668135cea2e85572c6d4c5dfe74befe837f6174f01144898",
+  "spec_sha256": "59038728488c4ec15585c8dc74c3aad31aef4fbedfd504583a36f8d81a94e6e9",
+  "policy_source_sha256": "9f6e3e96a85fa62657ec1430aececc846cffa3ce338786356d514d942d00ae31",
+  "new_policy_files_accessed": false,
+  "new_test_outcomes_accessed": false,
+  "main_score_may_have_started": true,
+  "note": "Fixed diagnostic specification preceded any table/outcome access by this investigator; source committed before table reads. Main outcome scoring had begun eight seconds before the diagnostic-spec timestamp, without revealing results to this investigator."
+}

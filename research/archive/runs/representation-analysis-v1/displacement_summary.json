@@ -1,0 +1,386 @@
+{
+  "0.25": {
+    "methods": {
+      "gd": {
+        "train_loss": {
+          "mean": 0.5557784366725015,
+          "sample_sd": 0.002995157105324916
+        },
+        "test_loss": {
+          "mean": 0.555974829686429,
+          "sample_sd": 0.007656562035578296
+        },
+        "test_accuracy": {
+          "mean": 0.7208333333333333,
+          "sample_sd": 0.005838093296045639
+        },
+        "training_seconds": {
+          "mean": 0.0,
+          "sample_sd": 0.0
+        },
+        "cumulative_feature_displacement": {
+          "mean": 0.0,
+          "sample_sd": 0.0
+        }
+      },
+      "pullback": {
+        "train_loss": {
+          "mean": 0.26547047437674787,
+          "sample_sd": 0.004660715915502613
+        },
+        "test_loss": {
+          "mean": 0.267921956799769,
+          "sample_sd": 0.008569804814075896
+        },
+        "test_accuracy": {
+          "mean": 0.9791666666666666,
+          "sample_sd": 0.005965176722724419
+        },
+        "training_seconds": {
+          "mean": 0.06271439998818096,
+          "sample_sd": 0.0025506453293129413
+        },
+        "cumulative_feature_displacement": {
+          "mean": 0.931949685568286,
+          "sample_sd": 0.01457345705439289
+        }
+      }
+    },
+    "paired_differences": {
+      "train_loss": {
+        "definition": "pullback minus GD",
+        "seed_order": [
+          "formal1",
+          "formal2",
+          "formal3"
+        ],
+        "values": [
+          -0.2824235789803078,
+          -0.2955529904996861,
+          -0.2929473174072672
+        ],
+        "mean": -0.2903079622957537,
+        "sample_sd": 0.006951259473275347
+      },
+      "test_loss": {
+        "definition": "pullback minus GD",
+        "seed_order": [
+          "formal1",
+          "formal2",
+          "formal3"
+        ],
+        "values": [
+          -0.283039562688287,
+          -0.29839184828150644,
+          -0.2827272076901868
+        ],
+        "mean": -0.2880528728866601,
+        "sample_sd": 0.008955177305483042
+      },
+      "test_accuracy": {
+        "definition": "pullback minus GD",
+        "seed_order": [
+          "formal1",
+          "formal2",
+          "formal3"
+        ],
+        "values": [
+          0.25050000000000006,
+          0.27149999999999996,
+          0.253
+        ],
+        "mean": 0.25833333333333336,
+        "sample_sd": 0.011470977871713134
+      }
+    },
+    "interpretation": "Common per-pair displacement ceilings; realized saved-state distances may differ."
+  },
+  "0.5": {
+    "methods": {
+      "gd": {
+        "train_loss": {
+          "mean": 0.31004482543440465,
+          "sample_sd": 0.0173883170497095
+        },
+        "test_loss": {
+          "mean": 0.3058231459868292,
+          "sample_sd": 0.027073448859776184
+        },
+        "test_accuracy": {
+          "mean": 0.8673333333333334,
+          "sample_sd": 0.009169696468985987
+        },
+        "training_seconds": {
+          "mean": 0.012157099993297985,
+          "sample_sd": 0.003701608292323605
+        },
+        "cumulative_feature_displacement": {
+          "mean": 1.5061952253833184,
+          "sample_sd": 0.3533868740781541
+        }
+      },
+      "pullback": {
+        "train_loss": {
+          "mean": 0.10982549483938542,
+          "sample_sd": 0.0011934035612582645
+        },
+        "test_loss": {
+          "mean": 0.12454982977376207,
+          "sample_sd": 0.00585184239325094
+        },
+        "test_accuracy": {
+          "mean": 0.9876666666666667,
+          "sample_sd": 0.004645786621588757
+        },
+        "training_seconds": {
+          "mean": 0.18396773336523134,
+          "sample_sd": 0.002923880750443362
+        },
+        "cumulative_feature_displacement": {
+          "mean": 1.8860146292907434,
+          "sample_sd": 0.0026936745160300595
+        }
+      }
+    },
+    "paired_differences": {
+      "train_loss": {
+        "definition": "pullback minus GD",
+        "seed_order": [
+          "formal1",
+          "formal2",
+          "formal3"
+        ],
+        "values": [
+          -0.2048798784561,
+          -0.17975275865121101,
+          -0.21602535467774672
+        ],
+        "mean": -0.20021933059501926,
+        "sample_sd": 0.018579984806240606
+      },
+      "test_loss": {
+        "definition": "pullback minus GD",
+        "seed_order": [
+          "formal1",
+          "formal2",
+          "formal3"
+        ],
+        "values": [
+          -0.1711407576897598,
+          -0.16542804478073903,
+          -0.2072511461687025
+        ],
+        "mean": -0.18127331621306708,
+        "sample_sd": 0.022678062287112482
+      },
+      "test_accuracy": {
+        "definition": "pullback minus GD",
+        "seed_order": [
+          "formal1",
+          "formal2",
+          "formal3"
+        ],
+        "values": [
+          0.10999999999999999,
+          0.12249999999999994,
+          0.12850000000000006
+        ],
+        "mean": 0.12033333333333333,
+        "sample_sd": 0.009438396756511872
+      }
+    },
+    "interpretation": "Common per-pair displacement ceilings; realized saved-state distances may differ."
+  },
+  "0.75": {
+    "methods": {
+      "gd": {
+        "train_loss": {
+          "mean": 0.20214250277185233,
+          "sample_sd": 0.006166807826883332
+        },
+        "test_loss": {
+          "mean": 0.20475647232721994,
+          "sample_sd": 0.020972285445819628
+        },
+        "test_accuracy": {
+          "mean": 0.9183333333333333,
+          "sample_sd": 0.013041600106326403
+        },
+        "training_seconds": {
+          "mean": 0.033901366693802025,
+          "sample_sd": 0.009163021428189984
+        },
+        "cumulative_feature_displacement": {
+          "mean": 2.7295345064912495,
+          "sample_sd": 0.10983765294380703
+        }
+      },
+      "pullback": {
+        "train_loss": {
+          "mean": 0.04585309881316548,
+          "sample_sd": 0.0018654604450676518
+        },
+        "test_loss": {
+          "mean": 0.08465450816813729,
+          "sample_sd": 0.00876414561451825
+        },
+        "test_accuracy": {
+          "mean": 0.9838333333333334,
+          "sample_sd": 0.003214550253664321
+        },
+        "training_seconds": {
+          "mean": 0.45075976667673484,
+          "sample_sd": 0.03564493112171279
+        },
+        "cumulative_feature_displacement": {
+          "mean": 2.78190998787343,
+          "sample_sd": 0.07806264911192125
+        }
+      }
+    },
+    "paired_differences": {
+      "train_loss": {
+        "definition": "pullback minus GD",
+        "seed_order": [
+          "formal1",
+          "formal2",
+          "formal3"
+        ],
+        "values": [
+          -0.15072856362098158,
+          -0.16545950039415702,
+          -0.15268014786092204
+        ],
+        "mean": -0.15628940395868687,
+        "sample_sd": 0.008001260634316484
+      },
+      "test_loss": {
+        "definition": "pullback minus GD",
+        "seed_order": [
+          "formal1",
+          "formal2",
+          "formal3"
+        ],
+        "values": [
+          -0.09656046618038476,
+          -0.12964049986009218,
+          -0.13410492643677108
+        ],
+        "mean": -0.12010196415908268,
+        "sample_sd": 0.02050937277137986
+      },
+      "test_accuracy": {
+        "definition": "pullback minus GD",
+        "seed_order": [
+          "formal1",
+          "formal2",
+          "formal3"
+        ],
+        "values": [
+          0.052000000000000046,
+          0.06600000000000006,
+          0.07850000000000001
+        ],
+        "mean": 0.06550000000000004,
+        "sample_sd": 0.013257073583562836
+      }
+    },
+    "interpretation": "Common per-pair displacement ceilings; realized saved-state distances may differ."
+  },
+  "1.0": {
+    "methods": {
+      "gd": {
+        "train_loss": {
+          "mean": 0.11404974953442377,
+          "sample_sd": 0.00837560458828305
+        },
+        "test_loss": {
+          "mean": 0.12290955644463501,
+          "sample_sd": 0.029857268013126465
+        },
+        "test_accuracy": {
+          "mean": 0.96,
+          "sample_sd": 0.019150718002205604
+        },
+        "training_seconds": {
+          "mean": 0.04845296669373056,
+          "sample_sd": 0.008973142261611678
+        },
+        "cumulative_feature_displacement": {
+          "mean": 3.546739860083722,
+          "sample_sd": 0.13303895029161125
+        }
+      },
+      "pullback": {
+        "train_loss": {
+          "mean": 0.01638151266510898,
+          "sample_sd": 8.834470577264083e-05
+        },
+        "test_loss": {
+          "mean": 0.07985432869961277,
+          "sample_sd": 0.008172342656208207
+        },
+        "test_accuracy": {
+          "mean": 0.9821666666666666,
+          "sample_sd": 0.0032532035493238872
+        },
+        "training_seconds": {
+          "mean": 1.2220238999701298,
+          "sample_sd": 0.010618397068801445
+        },
+        "cumulative_feature_displacement": {
+          "mean": 3.810067120519618,
+          "sample_sd": 0.01697570827919123
+        }
+      }
+    },
+    "paired_differences": {
+      "train_loss": {
+        "definition": "pullback minus GD",
+        "seed_order": [
+          "formal1",
+          "formal2",
+          "formal3"
+        ],
+        "values": [
+          -0.08846816229744736,
+          -0.09978639197363856,
+          -0.10475015633685847
+        ],
+        "mean": -0.0976682368693148,
+        "sample_sd": 0.008345104448677339
+      },
+      "test_loss": {
+        "definition": "pullback minus GD",
+        "seed_order": [
+          "formal1",
+          "formal2",
+          "formal3"
+        ],
+        "values": [
+          -0.018637907093778466,
+          -0.04471680823951281,
+          -0.06581096790177543
+        ],
+        "mean": -0.04305522774502224,
+        "sample_sd": 0.0236303841230628
+      },
+      "test_accuracy": {
+        "definition": "pullback minus GD",
+        "seed_order": [
+          "formal1",
+          "formal2",
+          "formal3"
+        ],
+        "values": [
+          0.005499999999999949,
+          0.02100000000000002,
+          0.040000000000000036
+        ],
+        "mean": 0.022166666666666668,
+        "sample_sd": 0.01727956403771041
+      }
+    },
+    "interpretation": "Common per-pair displacement ceilings; realized saved-state distances may differ."
+  }
+}

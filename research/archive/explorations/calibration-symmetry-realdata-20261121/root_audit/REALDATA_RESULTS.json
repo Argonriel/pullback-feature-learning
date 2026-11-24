@@ -1,0 +1,18 @@
+{
+  "utc": "2026-11-21T22:28:29.099606+00:00",
+  "status": "PASS",
+  "model_device_runs": 6,
+  "quality_rows": 48,
+  "max_float64_vs_fp32_risk_error": 6.135803876095025e-08,
+  "quality_ledger_rows": 1920,
+  "quality_forwards": 720000,
+  "timing_rows": 504,
+  "timing_recorded_forwards": 774144,
+  "timing_warmup_forwards": 331776,
+  "max_timing_aggregate_error": 0.0,
+  "cluster_bootstrap_checks": 12,
+  "max_bootstrap_error": 0.0,
+  "performance_manifests_checked": 6,
+  "additional_model_forwards": 0,
+  "qualification": "Timing is descriptive for these three models; full-relative passes are not original-task predictive success."
+}

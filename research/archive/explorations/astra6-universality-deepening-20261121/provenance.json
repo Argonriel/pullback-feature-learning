@@ -1,0 +1,78 @@
+{
+  "created_utc": "2026-11-22T04:05:09.679852+00:00",
+  "user_facing_date": "2026-11-21",
+  "user_timezone": "America/Los_Angeles",
+  "python": "3.12.14",
+  "inputs": [
+    {
+      "original": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\three-candidate-exploration-20261121\\REPORT.md",
+      "snapshot": "reference_inputs/three-candidate-exploration-20261121/REPORT.md",
+      "sha256": "efe63e7d0fa3e883d52650b93cdc0f29221e73e073f630a1e471574438a37727",
+      "identical": true
+    },
+    {
+      "original": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\three-candidate-exploration-20261121\\DATA_DICTIONARY.md",
+      "snapshot": "reference_inputs/three-candidate-exploration-20261121/DATA_DICTIONARY.md",
+      "sha256": "aaad98133417124eb5127562beb57d2cf87b4160f9c62e5539e88e8dcff2421d",
+      "identical": true
+    },
+    {
+      "original": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\three-candidate-exploration-20261121\\universality\\THEOREM.md",
+      "snapshot": "reference_inputs/three-candidate-exploration-20261121/universality/THEOREM.md",
+      "sha256": "afa0e8007b9e2b49b5749f74f238d6e90f873e89f858ecfe2021c878eef63ce9",
+      "identical": true
+    },
+    {
+      "original": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\three-candidate-exploration-20261121\\universality\\REVIEW.md",
+      "snapshot": "reference_inputs/three-candidate-exploration-20261121/universality/REVIEW.md",
+      "sha256": "1c21659cad541192302b8b3840fe4b06ffcc7928bf42a24a839ce6eccca3f4b1",
+      "identical": true
+    },
+    {
+      "original": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\three-candidate-exploration-20261121\\universality\\SEARCH_LEDGER.md",
+      "snapshot": "reference_inputs/three-candidate-exploration-20261121/universality/SEARCH_LEDGER.md",
+      "sha256": "60c78d3fb3428c2468f671b936b1bf7e778ddb9a81930ff7eee2e5357fea1af2",
+      "identical": true
+    },
+    {
+      "original": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\three-candidate-exploration-20261121\\universality\\validation\\results.json",
+      "snapshot": "reference_inputs/three-candidate-exploration-20261121/universality/validation/results.json",
+      "sha256": "723ee9260281d8f9dce40a66b2c48a6e8fbc162f1dc960d5ad92f35dd7d4059e",
+      "identical": true
+    },
+    {
+      "original": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\endpoint-classification-audit-20261121\\ALGEBRA_REDUCTION.md",
+      "snapshot": "reference_inputs/endpoint-classification-audit-20261121/ALGEBRA_REDUCTION.md",
+      "sha256": "1d2819fb23dae1d86cd653883dfa3133ac7b940c5c6c0dee8fc619bb1133b52f",
+      "identical": true
+    },
+    {
+      "original": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\endpoint-classification-audit-20261121\\FINITEDAMPING_AUDIT.md",
+      "snapshot": "reference_inputs/endpoint-classification-audit-20261121/FINITEDAMPING_AUDIT.md",
+      "sha256": "c3ac8e0ecae1c492044464b8bfc01f9c6d71bfae2368acd7c49b45710df88455",
+      "identical": true
+    },
+    {
+      "original": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\endpoint-classification-audit-20261121\\REFEREE_AUDIT.md",
+      "snapshot": "reference_inputs/endpoint-classification-audit-20261121/REFEREE_AUDIT.md",
+      "sha256": "16c3edafe1c49edb56dd3d8fd78092c52e1fe6a5b98369929460a4fdad48860c",
+      "identical": true
+    }
+  ],
+  "validation_source_hash_resolved": true,
+  "old_archive_preservation": [
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\three-candidate-exploration-20261121",
+      "manifest_sha256": "65482ffc1bc0e590d481e8a43b70d2fe8d9dc9374e87c3b49ee60d2c4ba99214",
+      "files_verified": 39,
+      "failures": []
+    },
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\endpoint-classification-audit-20261121",
+      "manifest_sha256": "e87f7057cf21af0bd3d5ad09568c5951cd2525c8c1bd3d1de17ecf803989880e",
+      "files_verified": 13,
+      "failures": []
+    }
+  ],
+  "notes": "No old output or shared code was written. Source PDFs have separate byte hashes. No training or reserved cohort was used."
+}

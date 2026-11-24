@@ -1,0 +1,9 @@
+{
+  "repository/src/pullback_feature_learning/core.py": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5",
+  "archive/generator.py": "885eb5c8d8878b57df1025c1a5a69b6978d4c2803f3f0e552c557170c7e355d2",
+  "archive/stage2/training_record.json": "c6476e76f2cb87aa2629a2ea351d06382df9261b0097aa390d967c21260dbb91",
+  "archive/stage2/training_rows.csv": "048527e0473d7fb5518083f6a08c1afa9e581bd009cb502efdedc1fce8f84fd6",
+  "archive/stage2/states.npz": "fc971a063b36de9665dffe189a8890a6f0ad689112bcb3d807458b995ea35f13",
+  "archive/stage2_run.py": "7f591671c87042f34b433026cf28ece8e4c7c4ac5ff2fb0fc7db217183980862",
+  "archive/stage2_plan.md": "62113eaa158d9cac99f4dc4122a259157ef7b4cdc184f05cfd3d3bb8aceeace2"
+}

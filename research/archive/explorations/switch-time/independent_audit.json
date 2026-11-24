@@ -1,0 +1,63 @@
+{
+  "original_cohort": {
+    "seed_min": 1,
+    "seed_max": 16,
+    "states": 208,
+    "verified_batch_records": 26624,
+    "max_batch_mean_error": 4.440892098500626e-16,
+    "max_anchor_loss_error": 2.7755575615628914e-17,
+    "max_decomposition_error": 4.440892098500626e-16,
+    "rebuilt_from_weights": 6,
+    "worst_gap_row_rebuilt": {
+      "pair": 4,
+      "switch": 350,
+      "gap": -0.2352215786656694
+    },
+    "max_independent_rebuild_error": 1.1102230246251565e-16
+  },
+  "validation_cohort": {
+    "seed_min": 17,
+    "seed_max": 32,
+    "states": 208,
+    "verified_batch_records": 26624,
+    "max_batch_mean_error": 4.440892098500626e-16,
+    "max_anchor_loss_error": null,
+    "max_decomposition_error": 3.3306690738754696e-16,
+    "rebuilt_from_weights": 6,
+    "worst_gap_row_rebuilt": {
+      "pair": 20,
+      "switch": 200,
+      "gap": -0.4127435002815151
+    },
+    "max_independent_rebuild_error": 2.7755575615628914e-17
+  },
+  "matched_age_trajectories": {
+    "records": 864,
+    "max_decomposition_error": 4.440892098500626e-16,
+    "max_zero_lag_error": 0.0,
+    "max_shared_age_pullback_error": 0.0,
+    "max_shared_endpoint_error": 1.1102230246251565e-16
+  },
+  "targeted_validation_trajectories": {
+    "records": 864,
+    "max_decomposition_error": 4.440892098500626e-16,
+    "max_zero_lag_error": 0.0,
+    "max_shared_age_pullback_error": 0.0,
+    "max_shared_endpoint_error": 2.8406096919120216e-17
+  },
+  "learning_rate_controls": [
+    {
+      "records": 192,
+      "shared_trajectory_rows": 64,
+      "max_common_path_error": 0.0,
+      "max_decomposition_error": 6.938893903907228e-17
+    },
+    {
+      "records": 192,
+      "shared_trajectory_rows": 64,
+      "max_common_path_error": 0.0,
+      "max_decomposition_error": 8.760353553682876e-17
+    }
+  ],
+  "inference": "Pointwise percentile intervals and unstudentized simultaneous maximum-deviation bands. 20000 paired seed resamples, RNG seed 291031. Each series has its own band."
+}

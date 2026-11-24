@@ -1,0 +1,154 @@
+[
+  {
+    "task": "moons",
+    "cohort": "discovery",
+    "estimand": "B",
+    "passes": false,
+    "reason": "effect_size_sign_or_refinement_gate_failed",
+    "direction": "not_retained",
+    "step_checks": [
+      {
+        "step_size": 0.01,
+        "all_four_arms_all_four_pairs": true,
+        "mean": 0.009641861221525407,
+        "sign_agreements": 3,
+        "values": [
+          -0.010715562783533542,
+          0.025486720071153796,
+          0.004925875927874579,
+          0.018870411670606796
+        ],
+        "passes": false
+      },
+      {
+        "step_size": 0.005,
+        "all_four_arms_all_four_pairs": true,
+        "mean": 0.009598170969423635,
+        "sign_agreements": 3,
+        "values": [
+          -0.010867714348229168,
+          0.025514559818459154,
+          0.004993260981035974,
+          0.01875257742642858
+        ],
+        "passes": false
+      }
+    ],
+    "refinement_difference": 4.369025210177249e-05,
+    "gate_role": "necessary_screen_not_novelty_or_causal_attribution"
+  },
+  {
+    "task": "moons",
+    "cohort": "discovery",
+    "estimand": "D",
+    "passes": false,
+    "reason": "effect_size_sign_or_refinement_gate_failed",
+    "direction": "not_retained",
+    "step_checks": [
+      {
+        "step_size": 0.01,
+        "all_four_arms_all_four_pairs": true,
+        "mean": 0.0021784448607791752,
+        "sign_agreements": 1,
+        "values": [
+          -0.0014589465254054995,
+          0.03226789969077298,
+          -0.018315693486811058,
+          -0.003779480235439725
+        ],
+        "passes": false
+      },
+      {
+        "step_size": 0.005,
+        "all_four_arms_all_four_pairs": true,
+        "mean": 0.0021911154107212213,
+        "sign_agreements": 1,
+        "values": [
+          -0.001616804219260748,
+          0.032305050707426786,
+          -0.01814939850345279,
+          -0.003774386341828362
+        ],
+        "passes": false
+      }
+    ],
+    "refinement_difference": 1.2670549942046111e-05,
+    "gate_role": "necessary_screen_not_novelty_or_causal_attribution"
+  },
+  {
+    "task": "rings",
+    "cohort": "discovery",
+    "estimand": "B",
+    "passes": false,
+    "reason": "effect_size_sign_or_refinement_gate_failed",
+    "direction": "not_retained",
+    "step_checks": [
+      {
+        "step_size": 0.01,
+        "all_four_arms_all_four_pairs": true,
+        "mean": -0.008545133601408413,
+        "sign_agreements": 3,
+        "values": [
+          0.002562705637513041,
+          -0.01156017622567107,
+          -0.009670060275056291,
+          -0.015513003542419329
+        ],
+        "passes": false
+      },
+      {
+        "step_size": 0.005,
+        "all_four_arms_all_four_pairs": true,
+        "mean": -0.008501018436597112,
+        "sign_agreements": 3,
+        "values": [
+          0.002534148112222634,
+          -0.01147886129804565,
+          -0.00957732712658263,
+          -0.0154820334339828
+        ],
+        "passes": false
+      }
+    ],
+    "refinement_difference": 4.4115164811300844e-05,
+    "gate_role": "necessary_screen_not_novelty_or_causal_attribution"
+  },
+  {
+    "task": "rings",
+    "cohort": "discovery",
+    "estimand": "D",
+    "passes": false,
+    "reason": "effect_size_sign_or_refinement_gate_failed",
+    "direction": "not_retained",
+    "step_checks": [
+      {
+        "step_size": 0.01,
+        "all_four_arms_all_four_pairs": true,
+        "mean": -0.004390236130830873,
+        "sign_agreements": 3,
+        "values": [
+          0.010209825111977017,
+          -0.00543429441690374,
+          -0.003993828694542456,
+          -0.01834264652385431
+        ],
+        "passes": false
+      },
+      {
+        "step_size": 0.005,
+        "all_four_arms_all_four_pairs": true,
+        "mean": -0.004390288378128528,
+        "sign_agreements": 3,
+        "values": [
+          0.010246331979637618,
+          -0.005368192701524471,
+          -0.0041951190360603186,
+          -0.01824417375456694
+        ],
+        "passes": false
+      }
+    ],
+    "refinement_difference": 5.22472976549615e-08,
+    "gate_role": "necessary_screen_not_novelty_or_causal_attribution"
+  }
+]

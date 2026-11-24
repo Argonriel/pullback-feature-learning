@@ -1,0 +1,122 @@
+{
+  "status": "completed",
+  "timestamp_utc": "2026-11-21T09:54:15.259167+00:00",
+  "torch_version": "2.7.1+cu128",
+  "cpu_threads": 1,
+  "n_quality_rows": 27,
+  "n_batch_call_records": 1728,
+  "actual_network_invocations": 2304,
+  "actual_forward_examples": 663552,
+  "max_logit_error": 7.62939453125e-06,
+  "max_absolute_expected_risk_difference": 1.760191423172408e-09,
+  "total_mask_differences": 0,
+  "total_classification_differences": 0,
+  "all_batch_calls_match": true,
+  "frozen_sources_unchanged": true,
+  "summaries": [
+    {
+      "width": 64,
+      "policy": "full_fused",
+      "n_models": 3,
+      "mean_cpu_expected_risk": 0.03079114626756113,
+      "mean_cuda_expected_risk": 0.030791146428082155,
+      "mean_risk_difference": -1.6052102124371656e-10,
+      "max_absolute_risk_difference": 4.906865365417179e-10
+    },
+    {
+      "width": 64,
+      "policy": "folded_fused",
+      "n_models": 3,
+      "mean_cpu_expected_risk": 0.03083094029848883,
+      "mean_cuda_expected_risk": 0.03083094045922541,
+      "mean_risk_difference": -1.6073658492173534e-10,
+      "max_absolute_risk_difference": 4.942444821465219e-10
+    },
+    {
+      "width": 64,
+      "policy": "confidence_radial",
+      "n_models": 3,
+      "mean_cpu_expected_risk": 0.030434984116840324,
+      "mean_cuda_expected_risk": 0.030434984209021243,
+      "mean_risk_difference": -9.218092493027778e-11,
+      "max_absolute_risk_difference": 2.543284922940092e-10
+    },
+    {
+      "width": 256,
+      "policy": "full_fused",
+      "n_models": 3,
+      "mean_cpu_expected_risk": 0.03643279444115788,
+      "mean_cuda_expected_risk": 0.036432794031444365,
+      "mean_risk_difference": 4.097135084905427e-10,
+      "max_absolute_risk_difference": 5.63018930088699e-10
+    },
+    {
+      "width": 256,
+      "policy": "folded_fused",
+      "n_models": 3,
+      "mean_cpu_expected_risk": 0.036458587247485276,
+      "mean_cuda_expected_risk": 0.036458586799853865,
+      "mean_risk_difference": 4.4763142035645725e-10,
+      "max_absolute_risk_difference": 6.127395674182523e-10
+    },
+    {
+      "width": 256,
+      "policy": "confidence_radial",
+      "n_models": 3,
+      "mean_cpu_expected_risk": 0.036219697216719214,
+      "mean_cuda_expected_risk": 0.036219696858762425,
+      "mean_risk_difference": 3.57956784583872e-10,
+      "max_absolute_risk_difference": 8.966844836089116e-10
+    },
+    {
+      "width": 1024,
+      "policy": "full_fused",
+      "n_models": 3,
+      "mean_cpu_expected_risk": 0.03459324615263964,
+      "mean_cuda_expected_risk": 0.03459324544727709,
+      "mean_risk_difference": 7.053625438365371e-10,
+      "max_absolute_risk_difference": 1.7173062832886998e-09
+    },
+    {
+      "width": 1024,
+      "policy": "folded_fused",
+      "n_models": 3,
+      "mean_cpu_expected_risk": 0.034632865342033074,
+      "mean_cuda_expected_risk": 0.034632864590707,
+      "mean_risk_difference": 7.513260684895625e-10,
+      "max_absolute_risk_difference": 1.760191423172408e-09
+    },
+    {
+      "width": 1024,
+      "policy": "confidence_radial",
+      "n_models": 3,
+      "mean_cpu_expected_risk": 0.0340988207122701,
+      "mean_cuda_expected_risk": 0.03409882076964684,
+      "mean_risk_difference": -5.737674455922696e-11,
+      "max_absolute_risk_difference": 1.1111254277773597e-09
+    }
+  ],
+  "input_prediction_hashes": {
+    "w1024_s1.npz": "a67450f03e59762543d3df37c6b4383efb3328c61a2c16ce9cc43484f1542e1d",
+    "w1024_s2.npz": "ce0df017609b0c604b4887c85802344644d20debf37cd101b8eb0f2df0e42d1a",
+    "w1024_s3.npz": "7d09984c8500ba7ffc27daf419cb3946c7903f130b2b3b576608405cc0cee866",
+    "w256_s1.npz": "706718c61a224d89ce7cc365cb6a471ae336df5d1cf1ba0c22e606bcd9ed0c9d",
+    "w256_s2.npz": "dcb9cc33c9a56d08f39b94aa624ccf283f2ab70fb15dfd8614dd23acd26fe246",
+    "w256_s3.npz": "16b3b5c96dcb22d542b1643eb71c72a5dada1cbd83413b5d28d9adcb098c7657",
+    "w64_s1.npz": "4cb53d5083b48c9164f32ee2b31aab13284fbc2e52e12518027c3a9f145cbe3f",
+    "w64_s2.npz": "0ce166de11bf4756896582a16bb13f4ae1ac232da108809df5cee23361155b0e",
+    "w64_s3.npz": "c3a1f154702e37abbca9c884f7fd2289ce4124a783e4d378909c5634bb4cbdca"
+  },
+  "output_hashes": {
+    "w1024_s1.npz": "78d497d4981b0d80dde80d37453f4db5f887c491254eeaf482617111bb1b9325",
+    "w1024_s2.npz": "b949b2da50735373da3ae50426a5fc4b924cd8e717edd921e15e72bee9d7da10",
+    "w1024_s3.npz": "097ab533a9d94686bbf10c990ae2ddfd547af8a381cbff035d1870b82b178804",
+    "w256_s1.npz": "9968cdb4f9770b054ec9d9e990de6c11424d0135c11253d4c7bad4705116d1d4",
+    "w256_s2.npz": "b63aa3df7c3b802188f4171761a72427105a092a65731e2d8b6f800fe3482313",
+    "w256_s3.npz": "cdb63ea123d92caa88d369f817ee3d0ff09956aa1c9223e9ab40402874b15a06",
+    "w64_s1.npz": "4c3a4760e366d8f13bb8194d377d3cd0865d9a81b98e20500421ea0673b77f84",
+    "w64_s2.npz": "96d87935e5cfd75875612c1f302a381b0c2fd043836ec4cc5c1d4e11680d630f",
+    "w64_s3.npz": "33fff9d6155a779ce8e9ea0ef3c28d30b176e5cb46b918941652f7041470d75b"
+  },
+  "interpretation": "Direct CPU quality for three requested policies on the complete saved test inputs. Small cross-device FP32 differences are measured, not assumed absent. This adds fixed-model verification, not independent model replications or a new timing experiment."
+}

@@ -1,0 +1,53 @@
+{
+  "timestamp_utc": "2026-11-21T10:15:25.550960+00:00",
+  "config": {
+    "sub": 8,
+    "angular_cells": {
+      "rings": 256,
+      "waveform": 512
+    },
+    "inner": 64,
+    "cdf_bins": 131072,
+    "beta_nodes": 262145,
+    "n_models": 16,
+    "empirical_n": 1048576,
+    "empirical_alpha": 0.00078125,
+    "empirical_seed_base": {
+      "rings": 1013000,
+      "waveform": 1053000
+    }
+  },
+  "source_hashes": {
+    "certificate/known_cdf.py": "9eb325a3f4fe4b2488b0bc19ff708ac8b78595e76f46d01b4431892d45ce5ef7",
+    "certificate/local_rank.py": "8e7b36d7fe1cfa4a5ae8b208e60241a732a57aa7d54a6d2195412d0a6f9161ca",
+    "certificate/experiment.py": "e3c8c2d3b345f17cabe8e3274a58354d31432f7ae8527686c0438029c310ca19",
+    "certificate/checks.py": "960997df2179f6d5590ebd5f0a16ea959a5b91d004ff04117773c4f1114ade77",
+    "certificate/THEORY.md": "966982403a6273b1d23b30d2cd9d84d9ecc58e74f4003ef1cc6d938d11b153ef",
+    "certificate/PROTOCOL.md": "e7bb0a99c52306e59970860088864a587e5de2fe2aa7f85234fb79f46493ada1",
+    "reference/local_jets.py": "f92586ac2c97b31871c92c0c5e7eea5f6afd6a114c9d125fec6b6d9f16c9e691",
+    "reference/rank_policy.py": "9f6e3e96a85fa62657ec1430aececc846cffa3ce338786356d514d942d00ae31",
+    "source/pullback_feature_learning/core.py": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5",
+    "transfer/task.py": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77"
+  },
+  "pilot_hashes": {
+    "pilot/checks.json": "6c8e96c2fee89e5d5451f97198efc94a6f8a9e37292ec377398eee8efa3a125c",
+    "pilot/local_rank_v1.py": "032b074cc1724509e7b4b7cac5366d5a8efb5dca8c501fb7631dc4149cebbf77",
+    "pilot/rings16_v2_sub8_na256_inner64.npz": "2c2039f04b818e7c4306abed904fa5328543964a82d118eae916d0b68b1e2be4",
+    "pilot/rings16_v2_sub8_na256_inner64_cdf.npz": "751c6ab07efddebbd713465fa3811756197d54e9c09ad5b604766737012aadaa",
+    "pilot/rings1_DKW1M_v2_sub8_na256_inner64.npz": "1f085fb35841963fffedcd278c5f6de3ad9ee586fdefd3edc33fb65c091d9d9b",
+    "pilot/rings1_sub2_na64_inner32.npz": "d46fe8b3a791c2ec091a1272cb90f7fcf859e558501620e134cf88df051ed607",
+    "pilot/rings1_sub2_na64_inner32_cdf.npz": "a1540e3c72169a999a82a2d484a7c3c6d06609f1154bd6170e0dec80e2d4fe3b",
+    "pilot/rings1_v2_sub4_na128_inner64.npz": "21a779acb09d813c2419c667fcf7705e8aa21275e71b4557042d5005a5ed99fb",
+    "pilot/rings1_v2_sub4_na128_inner64_cdf.npz": "39c6c03edc79a1afdc2d63c0d7df0d671708d77cd575db00c3d9efd28577635d",
+    "pilot/rings1_v2_sub8_na256_inner64.npz": "eda766edc9faaf34cc1ceaafd1a0696f62bd0bde7a8261a97b532511fc04fc54",
+    "pilot/rings8_v2_sub8_na256_inner64.npz": "5fee5af794efacc691b08b5b95b3071ed53d32e8f0982780fd089224733e2e54",
+    "pilot/rings8_v2_sub8_na256_inner64_cdf.npz": "55b92276f5156570d47ceb4d7de8a83ef3755d39e2ce3fe280381df9e96fb7ce",
+    "pilot/waveform1_v2_sub8_na256_inner64.npz": "1f76b5784f9493f7204d118e99efaccfd35141b81c6b9fbdc7b44bc7056cb9a1",
+    "pilot/waveform1_v2_sub8_na256_inner64_cdf.npz": "0f9336b69df8ffd8e963a762eef88b2d5a61515c1e298be855d0185a699fe620",
+    "pilot/waveform1_v2_sub8_na512_inner64.npz": "98fe59ba528546b1a07b1f877a0c23a2cca17970fc86597338c63484de052421",
+    "pilot/waveform1_v2_sub8_na512_inner64_cdf.npz": "0f9336b69df8ffd8e963a762eef88b2d5a61515c1e298be855d0185a699fe620"
+  },
+  "fresh_models_accessed": false,
+  "fresh_test_outcomes_accessed": false,
+  "fresh_state_directory_absent": true
+}

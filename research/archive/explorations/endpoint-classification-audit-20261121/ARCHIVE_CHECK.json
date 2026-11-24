@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "file_count": 13,
+  "total_bytes": 103237,
+  "manifest_sha256": "e87f7057cf21af0bd3d5ad09568c5951cd2525c8c1bd3d1de17ecf803989880e",
+  "source_provenance_verified": true,
+  "previous_archives": [
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\learned-geometry-gate-20261121",
+      "unchanged_files": 105,
+      "manifest_sha256": "7164aede3c183ea07325b4cda8aa2a1fa8b820aee34d3782043fa4e4a5c9baf6"
+    },
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\geometry-condition-screen-20261121",
+      "unchanged_files": 32,
+      "manifest_sha256": "b03f4388c8e890343dd1b8d4a79de50a34c1739978da374fa0de5edcb6a9abaf"
+    },
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\new-direction-screen-20261121",
+      "unchanged_files": 43,
+      "manifest_sha256": "1119aeed6ad606bed615dbec134b83bba97c6d47fe038137fee5b07d7da07e1a"
+    },
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\endpoint-selection-deepening-20261121",
+      "unchanged_files": 25,
+      "manifest_sha256": "c2c26f0f77cb43c771f03bb9712c3f21494449634019f003b9b2085df624c2a1"
+    }
+  ],
+  "broken_report_links": [],
+  "packaging_note": "Two link-check attempts mistook algebra [L_a,L_b](x) for a link; checker now excludes inline and indented code. No content or experiment changed.",
+  "checked_utc": "2026-11-22T03:18:14.241785+00:00"
+}

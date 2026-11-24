@@ -1,0 +1,22 @@
+% This section refines the fixed-400-update learning-rate interpretation.
+% The citations use the references.bib supplied in this directory.
+\subsection{A smaller GD step catches up when it receives more updates}
+
+Changing the post-switch GD rate can change the preferred second-view policy at a fixed update count. But this control confounds the step size with how far training has progressed. From the same state after 100 pullback updates, GD with rate \(\eta\) takes an Euler step for gradient flow. Its nominal time after \(k\) GD updates is \(\tau=\eta k\). Equal nominal time is a natural finite-time comparison. Elkabetz and Cohen used this comparison directly in neural networks, while Cohen et al.\ documented regimes in which finite step sizes depart from gradient flow \cite{elkabetz2021continuous,cohen2021edge}. Uncertainty-based selection of inputs for additional test-time views also has a direct precedent \cite{son2023selective}. Here the measured outcome is the held-out log-loss difference \(D=L_{\mathrm{region}}-L_{\mathrm{confidence}}\) under an exact budget of 64 second views per batch of 256.
+
+\begin{center}
+\begin{tabular}{lrrr}
+\hline
+Training comparison & \(\eta=0.5\) & \(\eta=1\) & \(\eta=2\)\\
+\hline
+Region wins after 400 GD updates        & 3/32 & 14/32 & 24/32\\
+GD updates at \(\tau=800\)             & 1,600 & 800 & 400\\
+Region wins at \(\tau=800\)            & 25/32 & 25/32 & 24/32\\
+Region wins at \(\tau=1{,}600\)        & 32/32 & 32/32 & 31/32\\
+\hline
+\end{tabular}
+\end{center}
+
+At 400 updates, \(D_{\eta=2}-D_{\eta=0.5}\) averaged \(-0.00350\) nats across the same 32 paired seeds used in the switch-time study. Holding the rate-2 endpoint fixed and giving rate 0.5 four times as many updates reduced this contrast to \(-0.00016\) (paired 95\% bootstrap interval \([-0.00095,0.00051]\)). The extreme rates then favored the same policy in 29 of 32 seeds. Thus the ranking observed at a fixed budget largely reflects unequal training progress for this model and these rates.
+
+The paths still produced distinct models. At \(\tau=800\) the mean training losses were 0.01312, 0.01524, and 0.02134, in increasing order of learning rate. On a separate draw of inputs, the two extreme rates disagreed on approximately 1.03\% of single-view classifications. An additional control matched training loss along each path. At the first crossing of the common target 0.05 nats, equal-loss interpolated states favored confidence in 32, 32, and 31 seeds. A later control set each seed's loss target to the value attained by its rate-2 model at update 400. When all rates used the first crossing, the region rule won in 18, 18, and 20 seeds. Twelve rate-2 models had already reached their endpoint loss before update 400. Requiring the loss to remain at or below target for ten more units of nominal time yielded 17 region wins at every rate among the 31 eligible seeds. The timing and loss controls explain much of the original difference in relative routing performance, even though the parameter paths produce measurably different predictions.

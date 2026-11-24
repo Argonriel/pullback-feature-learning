@@ -1,0 +1,17 @@
+# Records and reproduction
+
+All numerical arrays and calculations use float64 unless complex-step differentiation explicitly uses complex128. Reports are English. User-facing study date is November 21, 2026 in America/Los_Angeles; machine UTC timestamps may be November 22.
+
+`SCREENING_PROTOCOL.md` defines the bounded analytical scope. `REPORT.md` consolidates the four decisions; `PARITY_AUDIT.md`, `CURVATURE_AUDIT.md`, `NOISE_AUDIT.md`, and `COMMUTING_AUDIT.md` contain derivations, limitations and primary-source checks. The `REVIEW_*.md` files provide cross-review rather than duplicating authorship of each lane.
+
+`parity_results.json` stores the paired-input specification, full-model parity errors, metric/gradient checks, nine residual scales, zero-residual two-step checks, radial-covariance witness, and source/core hashes. Scaling rows are algebraic checks, not candidate model-selection scores.
+
+`curvature_results_v2.json` is the final selected counterexample verification, with exact embedding indices, fixed population law, three ODE resolutions, invariant errors, initial transverse coefficient and local verification. `curvature_search_full.json` contains every one of the 120 deterministic construction attempts, including failures, early/late values and sampled curves. The selected witness is existential counterexample evidence; neither the count of six successful constructions nor any individual value estimates prevalence in neural learning. `curvature_results.json` and `historical_source/curvature_v1.py` preserve the earlier verification/version.
+
+`noise_results_verified.json` enumerates all sixteen conditional Bernoulli label patterns, their exact probabilities, raw/projected/progress-normalized feedback values, derivative checks, two population-law witnesses, and tiny finite-progress derivative validations. The risk coefficients are asymptotic in training-loss decrease; the finite ratios approach but are not identical to them. `noise_results.json` and `historical_source/noise_initial_snapshot.py` preserve the first local calculation before flow checks were added. The full conditional law at observed inputs is identical across the two population witnesses; the unseen posterior is not supplied to a training-only decision rule. A rule given the complete known population law has different information and is not ruled out.
+
+`commuting/results.json` records two original active parameter indices, fixed architecture coefficients, two population input mixtures, two loss-clock step sizes, four predetermined loss drops, all parameter endpoints and risks, exact metric commutators and numerical refinement errors. Both mixture laws can generate the same one-of-each empirical sample; this is not an assumption of a deliberately shifted test distribution.
+
+`source_snapshot/` contains a runnable repository-shaped tree with all new scripts, core code and dependencies. Its experiment README gives fresh-output commands. Historical code snapshots are separate and remain associated with the old JSON source hashes. The scripts refuse to overwrite existing results.
+
+`manifest.json` contains SHA-256 hashes and byte sizes for archive artifacts. `ARCHIVE_CHECK.json` verifies the manifest, numerical-result source references, report links, and unchanged content of the previous learned-geometry gate archive. Checksums establish integrity, not external preregistration or digital signatures. All previous records remain preserved.

@@ -1,0 +1,116 @@
+{
+  "created_utc": "2026-11-22T04:05:29.183109+00:00",
+  "user_facing_date": "2026-11-21",
+  "user_timezone": "America/Los_Angeles",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "new_source_root": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\experiments\\astra6_blended_geometry_deepening_20261121",
+  "staging_root": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\astra6-blended-geometry-deepening-20261121",
+  "source_files": [
+    {
+      "path": "exceptional/exact_rank_checks.py",
+      "sha256": "d200e60ab45f3e25c9e2d0075035390715cb39dd404c7f8d5fce0ae0b27e38b2",
+      "bytes": 6345
+    },
+    {
+      "path": "exceptional/finite_difference_check.py",
+      "sha256": "c7fbf2d693b4f0de59818c2cdf61ab0a3dab6e2191ff136cd7f36d187959ccf4",
+      "bytes": 1294
+    },
+    {
+      "path": "package_results.py",
+      "sha256": "f7db8dd69e88e9018d8d61811205ef8640e14fb986bd1104a2fb6aa13f6dfe44",
+      "bytes": 7305
+    },
+    {
+      "path": "README.md",
+      "sha256": "a951e909872b4b20afac3b496e5e11c9f7835ae2d56aee3301498573580bf5ad",
+      "bytes": 1705
+    },
+    {
+      "path": "refine_endpoint_difference.py",
+      "sha256": "9523e95902f583ec3d23158c56849405863562308df746ccc654ed68e39ce999",
+      "bytes": 2651
+    },
+    {
+      "path": "static_loss/check_area_rank.py",
+      "sha256": "d216cbd6fe00df9915cd933360a5387a00533c9ad83362e2da2a56393fd81cdc",
+      "bytes": 3766
+    },
+    {
+      "path": "validate_static_range.py",
+      "sha256": "31abe9fc7757cfaa792c1936f9136844d49fa8e187ddd0ef96d71b0442ba9de5",
+      "bytes": 9566
+    }
+  ],
+  "read_inputs": [
+    {
+      "path": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\three-candidate-exploration-20261121\\REPORT.md",
+      "sha256": "efe63e7d0fa3e883d52650b93cdc0f29221e73e073f630a1e471574438a37727",
+      "bytes": 11443
+    },
+    {
+      "path": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\three-candidate-exploration-20261121\\DATA_DICTIONARY.md",
+      "sha256": "aaad98133417124eb5127562beb57d2cf87b4160f9c62e5539e88e8dcff2421d",
+      "bytes": 4611
+    },
+    {
+      "path": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\three-candidate-exploration-20261121\\nonisotropic\\REPORT.md",
+      "sha256": "60484adf8665328d269a539e400137d33944cd8eb3d86aaed4a84790fb9e7270",
+      "bytes": 14794
+    },
+    {
+      "path": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\three-candidate-exploration-20261121\\nonisotropic\\SEARCH_LEDGER.md",
+      "sha256": "e2c97e23448b0978bbe4a07e6c8466c5e1fa07df569844e11f8abfa9a7a63d28",
+      "bytes": 4129
+    },
+    {
+      "path": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\three-candidate-exploration-20261121\\nonisotropic\\validation_v1\\results.json",
+      "sha256": "2dd16fac970f5989700ca73f929f43da81e9d24cfac7352dfcf2089a373012a9",
+      "bytes": 10350
+    },
+    {
+      "path": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\three-candidate-exploration-20261121\\nonisotropic\\bures_refined\\results.json",
+      "sha256": "eae7e57912208be88a2d5ac8f5be5162a95768c8e785d074c182aa3d81dc4e4b",
+      "bytes": 1046
+    },
+    {
+      "path": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\AGENTS.md",
+      "sha256": "2a8bb3dd088d5a545e1927408e82a8125d6c69c22e7edf5f2fc961736fa8975d",
+      "bytes": 813
+    }
+  ],
+  "previous_archives": [
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\three-candidate-exploration-20261121",
+      "manifest_sha256": "65482ffc1bc0e590d481e8a43b70d2fe8d9dc9374e87c3b49ee60d2c4ba99214",
+      "unchanged_files": 39
+    },
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\learned-geometry-gate-20261121",
+      "manifest_sha256": "7164aede3c183ea07325b4cda8aa2a1fa8b820aee34d3782043fa4e4a5c9baf6",
+      "unchanged_files": 105
+    },
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\geometry-condition-screen-20261121",
+      "manifest_sha256": "b03f4388c8e890343dd1b8d4a79de50a34c1739978da374fa0de5edcb6a9abaf",
+      "unchanged_files": 32
+    },
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\new-direction-screen-20261121",
+      "manifest_sha256": "1119aeed6ad606bed615dbec134b83bba97c6d47fe038137fee5b07d7da07e1a",
+      "unchanged_files": 43
+    },
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\endpoint-selection-deepening-20261121",
+      "manifest_sha256": "c2c26f0f77cb43c771f03bb9712c3f21494449634019f003b9b2085df624c2a1",
+      "unchanged_files": 25
+    },
+    {
+      "archive": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\endpoint-classification-audit-20261121",
+      "manifest_sha256": "e87f7057cf21af0bd3d5ad09568c5951cd2525c8c1bd3d1de17ecf803989880e",
+      "unchanged_files": 13
+    }
+  ],
+  "scope": "Only new assigned paths written; old archives read-only; no external messages or training."
+}

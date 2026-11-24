@@ -1,0 +1,26 @@
+{
+  "timestamp_utc": "2026-11-21T10:26:07.161260+00:00",
+  "input_policy_sha256": "f4a9b4cbbafca7390a5b7666b7a9b68acd02bc2d4bde9b768b0339abf61388d5",
+  "local_sha256": "3d2426c525f8f37fe24520eb0e2b4f5a767f72d3981c98c685a59f006b69461a",
+  "distribution_sha256": "c27d4ed5bed301a448d88fc6f01c33517094f12d5d96ae365b4c3787e336f5a0",
+  "config": {
+    "sub": 8,
+    "angular_cells": {
+      "rings": 256,
+      "waveform": 512
+    },
+    "inner": 64,
+    "cdf_bins": 131072,
+    "beta_nodes": 262145,
+    "n_models": 16,
+    "empirical_n": 1048576,
+    "empirical_alpha": 0.00078125,
+    "empirical_seed_base": {
+      "rings": 1013000,
+      "waveform": 1053000
+    }
+  },
+  "task": "waveform",
+  "kind": "known",
+  "seed": 14
+}

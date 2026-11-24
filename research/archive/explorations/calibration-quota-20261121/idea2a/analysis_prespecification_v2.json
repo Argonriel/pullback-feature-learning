@@ -1,0 +1,7 @@
+{
+  "timestamp": "2026-11-21T08:30:23.851258+00:00",
+  "analysis_sha256": "50cde22a3053938adf7bb02117096a492ae5e8af82f7aae227f51f6a8b3109d2",
+  "previous_manifest_sha256": "ee13b9fc8bea1bc16d73b51e4f03d538b1d2a9376d56a0432438c342c67c883e",
+  "written_before_new_outcome_evaluation": true,
+  "amendment": "Use nearest tested budget for discrete threshold interval endpoints; clean descriptive metadata wording. No policy or model settings changed."
+}

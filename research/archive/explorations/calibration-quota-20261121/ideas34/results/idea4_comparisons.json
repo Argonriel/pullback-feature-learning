@@ -1,0 +1,16 @@
+{
+  "balanced_minus_antipodal_mean": 0.00205713082321977,
+  "ci95": [
+    0.0016036201594987472,
+    0.0025539180802307965
+  ],
+  "wins": 16,
+  "balanced_minus_radius_only_mean": -0.0029298435260812355,
+  "radius_comparison_ci95": [
+    -0.005059700244020893,
+    -0.0010398510007219172
+  ],
+  "wins_over_radius_only": 4,
+  "largest_expected_abs_b": 2.7755575615628914e-17,
+  "minimum_marginal_asymmetry": 1.0
+}

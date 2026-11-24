@@ -1,0 +1,40 @@
+{
+  "timestamp_utc": "2026-11-21T08:29:11.328049+00:00",
+  "reason": "Pre-outcome calibration sampling fairness: preserve original iid-calibrated strong baseline at equal forward budget.",
+  "config": {
+    "n_seed": 16,
+    "models": [
+      "gd",
+      "pb",
+      "hybrid"
+    ],
+    "budgets": [
+      8192,
+      65536
+    ],
+    "angles": 128,
+    "radius_bins": 16,
+    "folded_bins": 8,
+    "min_radii": 4,
+    "batch": 256,
+    "quota": 64,
+    "test_n": 65536,
+    "cal_seed_base": 735000,
+    "test_seed_base": 736000,
+    "tie_seed_base": 737000,
+    "label_seed_base": 738000,
+    "bootstrap_seed": 739000,
+    "bootstrap_repeats": 10000,
+    "default_index": {
+      "gd": 64,
+      "pb": 51,
+      "hybrid": 58
+    },
+    "iid_cal_seed_base": 741000
+  },
+  "code_sha256": "2d007a66f8302cf877288e1eeef0094606970ff2a8aa0add568c9ba0e4584e47",
+  "prior_freeze_sha256": "30f6a71169732794f9b7afe36e6fae9a9a909119867f4db52b5201ed98d120c0",
+  "addendum_sha256": "fb6e21e44b5d69982048c911b58445849527d108a42a0056ecf0b8dad2478cc9",
+  "legacy_gate_sha256": "2727f2fb030cb6e6a02cf8ac77be8f96b04db9a6419bc5a7bdf2024b548684c3",
+  "fresh_outcomes_accessed": false
+}

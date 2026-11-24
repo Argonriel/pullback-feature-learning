@@ -1,0 +1,80 @@
+{
+  "timestamp_utc": "2026-11-21T10:59:06.714939+00:00",
+  "status": "PASS",
+  "models": 48,
+  "combined_rows": 432,
+  "individual_bounds": 864,
+  "maximum_bound_error": 0.0,
+  "range_and_tail_recomputations": 48,
+  "batch_replays": [
+    {
+      "cohort": "rings",
+      "pair": 1,
+      "batches": 128,
+      "extra_audit_forwards": 17836,
+      "max_errors": {
+        "symmetric_jensen_clipped": 0.0,
+        "folded_clipped": 0.0,
+        "relative_truncated": 0.0
+      }
+    },
+    {
+      "cohort": "rings",
+      "pair": 16,
+      "batches": 128,
+      "extra_audit_forwards": 17330,
+      "max_errors": {
+        "symmetric_jensen_clipped": 0.0,
+        "folded_clipped": 0.0,
+        "relative_truncated": 0.0
+      }
+    },
+    {
+      "cohort": "waveform",
+      "pair": 1,
+      "batches": 128,
+      "extra_audit_forwards": 18578,
+      "max_errors": {
+        "symmetric_jensen_clipped": 0.0,
+        "folded_clipped": 0.0,
+        "relative_truncated": 0.0
+      }
+    },
+    {
+      "cohort": "waveform",
+      "pair": 16,
+      "batches": 128,
+      "extra_audit_forwards": 18894,
+      "max_errors": {
+        "symmetric_jensen_clipped": 0.0,
+        "folded_clipped": 0.0,
+        "relative_truncated": 0.0
+      }
+    },
+    {
+      "cohort": "two_invariants",
+      "pair": 1,
+      "batches": 128,
+      "extra_audit_forwards": 19868,
+      "max_errors": {
+        "symmetric_jensen_clipped": 0.0,
+        "folded_clipped": 0.0,
+        "relative_truncated": 0.0
+      }
+    },
+    {
+      "cohort": "two_invariants",
+      "pair": 16,
+      "batches": 128,
+      "extra_audit_forwards": 20776,
+      "max_errors": {
+        "symmetric_jensen_clipped": 0.0,
+        "folded_clipped": 0.0,
+        "relative_truncated": 0.0
+      }
+    }
+  ],
+  "additional_audit_forward_examples": 113282,
+  "full_certificate_forwards": 14497086,
+  "qualification": "Independent numerical reconstruction, not directed-rounding machine verification."
+}

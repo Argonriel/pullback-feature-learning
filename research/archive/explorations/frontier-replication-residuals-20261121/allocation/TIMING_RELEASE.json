@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-22T00:29:27.226551+00:00",
+  "exclusive_numerical_window": true,
+  "confirmation_and_analysis_committed": true,
+  "analysis_sha256": "f3c4e4ab6f2a36ae011190916cc5a311f33a530dce490b918681eb3d7291a945",
+  "root_audit_sha256": "e3b0269f9c0f3b33319535467b8a3c07feadf27fdb93a68a4a162d31d5174469",
+  "paused": [
+    "root numerical audits",
+    "structured stress recovery pending",
+    "distillation complete; prose review only"
+  ],
+  "scope": "Frozen baseline-only complete-fit benchmark: one warmup and three measured fits on development pair1."
+}

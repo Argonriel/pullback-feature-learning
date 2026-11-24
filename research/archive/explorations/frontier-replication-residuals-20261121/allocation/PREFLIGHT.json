@@ -1,0 +1,1579 @@
+{
+  "utc": "2026-11-22T00:13:52.358773+00:00",
+  "status": "PASS",
+  "fresh_streams_accessed": false,
+  "checks": [
+    {
+      "test": "PB_duplication_normalization",
+      "state": 0,
+      "k": 2,
+      "error": 6.904199434387692e-16
+    },
+    {
+      "test": "PB_duplication_normalization",
+      "state": 0,
+      "k": 3,
+      "error": 5.63134608388971e-16
+    },
+    {
+      "test": "PB_duplication_normalization",
+      "state": 0,
+      "k": 9,
+      "error": 9.159339953157541e-16
+    },
+    {
+      "test": "PB_duplication_normalization",
+      "state": 0,
+      "k": 12,
+      "error": 1.995474098459571e-15
+    },
+    {
+      "test": "PB_duplication_normalization",
+      "state": 0,
+      "k": 14,
+      "error": 1.6323747908941755e-15
+    },
+    {
+      "test": "PB_duplication_normalization",
+      "state": 0,
+      "k": 15,
+      "error": 1.7607443281164592e-15
+    },
+    {
+      "test": "normalized_metric_equivalence",
+      "state": 0,
+      "error": 3.233090878351774e-16
+    },
+    {
+      "test": "directional_gradient",
+      "state": 0,
+      "index": 0,
+      "error": 2.8240881855268185e-12
+    },
+    {
+      "test": "directional_gradient",
+      "state": 0,
+      "index": 1,
+      "error": 2.529219889080281e-12
+    },
+    {
+      "test": "directional_gradient",
+      "state": 0,
+      "index": 2,
+      "error": 2.2979490489280496e-12
+    },
+    {
+      "test": "directional_gradient",
+      "state": 0,
+      "index": 3,
+      "error": 2.8390675227418782e-12
+    },
+    {
+      "test": "directional_gradient",
+      "state": 0,
+      "index": 4,
+      "error": 6.610462069227274e-12
+    },
+    {
+      "test": "directional_gradient",
+      "state": 0,
+      "index": 5,
+      "error": 2.0347144108479043e-12
+    },
+    {
+      "test": "directional_gradient",
+      "state": 0,
+      "index": 6,
+      "error": 3.995718686478078e-12
+    },
+    {
+      "test": "directional_gradient",
+      "state": 0,
+      "index": 7,
+      "error": 4.30224432468318e-14
+    },
+    {
+      "test": "PB_duplication_normalization",
+      "state": 1,
+      "k": 2,
+      "error": 9.398731792842341e-15
+    },
+    {
+      "test": "PB_duplication_normalization",
+      "state": 1,
+      "k": 3,
+      "error": 1.4290651995096937e-14
+    },
+    {
+      "test": "PB_duplication_normalization",
+      "state": 1,
+      "k": 9,
+      "error": 7.998159426425566e-15
+    },
+    {
+      "test": "PB_duplication_normalization",
+      "state": 1,
+      "k": 12,
+      "error": 1.3528783128491373e-14
+    },
+    {
+      "test": "PB_duplication_normalization",
+      "state": 1,
+      "k": 14,
+      "error": 9.408706452829207e-15
+    },
+    {
+      "test": "PB_duplication_normalization",
+      "state": 1,
+      "k": 15,
+      "error": 1.3858705849578712e-14
+    },
+    {
+      "test": "normalized_metric_equivalence",
+      "state": 1,
+      "error": 2.49366499671666e-16
+    },
+    {
+      "test": "directional_gradient",
+      "state": 1,
+      "index": 0,
+      "error": 1.182059658488832e-12
+    },
+    {
+      "test": "directional_gradient",
+      "state": 1,
+      "index": 1,
+      "error": 3.5128054978739165e-12
+    },
+    {
+      "test": "directional_gradient",
+      "state": 1,
+      "index": 2,
+      "error": 9.76044939315912e-12
+    },
+    {
+      "test": "directional_gradient",
+      "state": 1,
+      "index": 3,
+      "error": 2.1275151779187595e-12
+    },
+    {
+      "test": "directional_gradient",
+      "state": 1,
+      "index": 4,
+      "error": 4.416911281168723e-12
+    },
+    {
+      "test": "directional_gradient",
+      "state": 1,
+      "index": 5,
+      "error": 2.228888948407892e-12
+    },
+    {
+      "test": "directional_gradient",
+      "state": 1,
+      "index": 6,
+      "error": 3.5193983144443663e-12
+    },
+    {
+      "test": "directional_gradient",
+      "state": 1,
+      "index": 7,
+      "error": 2.0640728709553358e-12
+    }
+  ],
+  "failures": [],
+  "maximum_error": 9.76044939315912e-12,
+  "arithmetic_ledger": [
+    {
+      "n": 2304,
+      "calibration": 2048,
+      "updates": 500,
+      "per_update_nominal_flops": 414520824,
+      "nominal_budget": 207260412000,
+      "unused_budget": 0,
+      "relative_shortfall": 0.0,
+      "checkpoints": [
+        125,
+        250,
+        375,
+        500
+      ]
+    },
+    {
+      "n": 3072,
+      "calibration": 1280,
+      "updates": 375,
+      "per_update_nominal_flops": 552027384,
+      "nominal_budget": 207260412000,
+      "unused_budget": 250143000,
+      "relative_shortfall": 0.00120690197219139,
+      "checkpoints": [
+        93,
+        187,
+        281,
+        375
+      ]
+    },
+    {
+      "n": 3584,
+      "calibration": 768,
+      "updates": 321,
+      "per_update_nominal_flops": 643698424,
+      "nominal_budget": 207260412000,
+      "unused_budget": 633217896,
+      "relative_shortfall": 0.0030551801469930495,
+      "checkpoints": [
+        80,
+        160,
+        240,
+        321
+      ]
+    },
+    {
+      "n": 3840,
+      "calibration": 512,
+      "updates": 300,
+      "per_update_nominal_flops": 689533944,
+      "nominal_budget": 207260412000,
+      "unused_budget": 400228800,
+      "relative_shortfall": 0.0019310431555062237,
+      "checkpoints": [
+        75,
+        150,
+        225,
+        300
+      ]
+    }
+  ],
+  "calibration_checks": {
+    "raw": {
+      "beta": 1.0118543812488396,
+      "temperature": 0.9882844987692707,
+      "status": "interior",
+      "iterations": 80,
+      "n_labels": 256,
+      "raw_nll": 0.6265242397685232,
+      "calibrated_nll": 0.6265167083831843,
+      "derivative": -1.5612511283791264e-17,
+      "lower_derivative": -0.13343061828281993,
+      "upper_derivative": 0.17200705314953713,
+      "beta_min": 0.049787068367863944,
+      "beta_max": 20.085536923187668
+    },
+    "full": {
+      "beta": 1.7791919808105767,
+      "temperature": 0.5620528929904535,
+      "status": "interior",
+      "iterations": 80,
+      "n_labels": 256,
+      "raw_nll": 0.6112275307327251,
+      "calibrated_nll": 0.5951120095584097,
+      "derivative": 1.3877787807814457e-17,
+      "lower_derivative": -0.1186017107171039,
+      "upper_derivative": 0.10270923409118549,
+      "beta_min": 0.049787068367863944,
+      "beta_max": 20.085536923187668
+    }
+  },
+  "stream_ids_unique": true,
+  "enumerated_streams": [
+    {
+      "phase": "development",
+      "pair": 1,
+      "purpose": "train_0",
+      "seed": 2411001
+    },
+    {
+      "phase": "development",
+      "pair": 1,
+      "purpose": "train_100",
+      "seed": 2411101
+    },
+    {
+      "phase": "development",
+      "pair": 1,
+      "purpose": "train_200",
+      "seed": 2411201
+    },
+    {
+      "phase": "development",
+      "pair": 1,
+      "purpose": "train_300",
+      "seed": 2411301
+    },
+    {
+      "phase": "development",
+      "pair": 1,
+      "purpose": "shuffle",
+      "seed": 2411801
+    },
+    {
+      "phase": "development",
+      "pair": 1,
+      "purpose": "init",
+      "seed": 2412001
+    },
+    {
+      "phase": "development",
+      "pair": 1,
+      "purpose": "calibration",
+      "seed": 2414001
+    },
+    {
+      "phase": "development",
+      "pair": 1,
+      "purpose": "evaluation_inputs",
+      "seed": 2416001
+    },
+    {
+      "phase": "development",
+      "pair": 1,
+      "purpose": "evaluation_labels",
+      "seed": 2417001
+    },
+    {
+      "phase": "development",
+      "pair": 2,
+      "purpose": "train_0",
+      "seed": 2411002
+    },
+    {
+      "phase": "development",
+      "pair": 2,
+      "purpose": "train_100",
+      "seed": 2411102
+    },
+    {
+      "phase": "development",
+      "pair": 2,
+      "purpose": "train_200",
+      "seed": 2411202
+    },
+    {
+      "phase": "development",
+      "pair": 2,
+      "purpose": "train_300",
+      "seed": 2411302
+    },
+    {
+      "phase": "development",
+      "pair": 2,
+      "purpose": "shuffle",
+      "seed": 2411802
+    },
+    {
+      "phase": "development",
+      "pair": 2,
+      "purpose": "init",
+      "seed": 2412002
+    },
+    {
+      "phase": "development",
+      "pair": 2,
+      "purpose": "calibration",
+      "seed": 2414002
+    },
+    {
+      "phase": "development",
+      "pair": 2,
+      "purpose": "evaluation_inputs",
+      "seed": 2416002
+    },
+    {
+      "phase": "development",
+      "pair": 2,
+      "purpose": "evaluation_labels",
+      "seed": 2417002
+    },
+    {
+      "phase": "development",
+      "pair": 3,
+      "purpose": "train_0",
+      "seed": 2411003
+    },
+    {
+      "phase": "development",
+      "pair": 3,
+      "purpose": "train_100",
+      "seed": 2411103
+    },
+    {
+      "phase": "development",
+      "pair": 3,
+      "purpose": "train_200",
+      "seed": 2411203
+    },
+    {
+      "phase": "development",
+      "pair": 3,
+      "purpose": "train_300",
+      "seed": 2411303
+    },
+    {
+      "phase": "development",
+      "pair": 3,
+      "purpose": "shuffle",
+      "seed": 2411803
+    },
+    {
+      "phase": "development",
+      "pair": 3,
+      "purpose": "init",
+      "seed": 2412003
+    },
+    {
+      "phase": "development",
+      "pair": 3,
+      "purpose": "calibration",
+      "seed": 2414003
+    },
+    {
+      "phase": "development",
+      "pair": 3,
+      "purpose": "evaluation_inputs",
+      "seed": 2416003
+    },
+    {
+      "phase": "development",
+      "pair": 3,
+      "purpose": "evaluation_labels",
+      "seed": 2417003
+    },
+    {
+      "phase": "development",
+      "pair": 4,
+      "purpose": "train_0",
+      "seed": 2411004
+    },
+    {
+      "phase": "development",
+      "pair": 4,
+      "purpose": "train_100",
+      "seed": 2411104
+    },
+    {
+      "phase": "development",
+      "pair": 4,
+      "purpose": "train_200",
+      "seed": 2411204
+    },
+    {
+      "phase": "development",
+      "pair": 4,
+      "purpose": "train_300",
+      "seed": 2411304
+    },
+    {
+      "phase": "development",
+      "pair": 4,
+      "purpose": "shuffle",
+      "seed": 2411804
+    },
+    {
+      "phase": "development",
+      "pair": 4,
+      "purpose": "init",
+      "seed": 2412004
+    },
+    {
+      "phase": "development",
+      "pair": 4,
+      "purpose": "calibration",
+      "seed": 2414004
+    },
+    {
+      "phase": "development",
+      "pair": 4,
+      "purpose": "evaluation_inputs",
+      "seed": 2416004
+    },
+    {
+      "phase": "development",
+      "pair": 4,
+      "purpose": "evaluation_labels",
+      "seed": 2417004
+    },
+    {
+      "phase": "development",
+      "pair": 5,
+      "purpose": "train_0",
+      "seed": 2411005
+    },
+    {
+      "phase": "development",
+      "pair": 5,
+      "purpose": "train_100",
+      "seed": 2411105
+    },
+    {
+      "phase": "development",
+      "pair": 5,
+      "purpose": "train_200",
+      "seed": 2411205
+    },
+    {
+      "phase": "development",
+      "pair": 5,
+      "purpose": "train_300",
+      "seed": 2411305
+    },
+    {
+      "phase": "development",
+      "pair": 5,
+      "purpose": "shuffle",
+      "seed": 2411805
+    },
+    {
+      "phase": "development",
+      "pair": 5,
+      "purpose": "init",
+      "seed": 2412005
+    },
+    {
+      "phase": "development",
+      "pair": 5,
+      "purpose": "calibration",
+      "seed": 2414005
+    },
+    {
+      "phase": "development",
+      "pair": 5,
+      "purpose": "evaluation_inputs",
+      "seed": 2416005
+    },
+    {
+      "phase": "development",
+      "pair": 5,
+      "purpose": "evaluation_labels",
+      "seed": 2417005
+    },
+    {
+      "phase": "development",
+      "pair": 6,
+      "purpose": "train_0",
+      "seed": 2411006
+    },
+    {
+      "phase": "development",
+      "pair": 6,
+      "purpose": "train_100",
+      "seed": 2411106
+    },
+    {
+      "phase": "development",
+      "pair": 6,
+      "purpose": "train_200",
+      "seed": 2411206
+    },
+    {
+      "phase": "development",
+      "pair": 6,
+      "purpose": "train_300",
+      "seed": 2411306
+    },
+    {
+      "phase": "development",
+      "pair": 6,
+      "purpose": "shuffle",
+      "seed": 2411806
+    },
+    {
+      "phase": "development",
+      "pair": 6,
+      "purpose": "init",
+      "seed": 2412006
+    },
+    {
+      "phase": "development",
+      "pair": 6,
+      "purpose": "calibration",
+      "seed": 2414006
+    },
+    {
+      "phase": "development",
+      "pair": 6,
+      "purpose": "evaluation_inputs",
+      "seed": 2416006
+    },
+    {
+      "phase": "development",
+      "pair": 6,
+      "purpose": "evaluation_labels",
+      "seed": 2417006
+    },
+    {
+      "phase": "development",
+      "pair": 7,
+      "purpose": "train_0",
+      "seed": 2411007
+    },
+    {
+      "phase": "development",
+      "pair": 7,
+      "purpose": "train_100",
+      "seed": 2411107
+    },
+    {
+      "phase": "development",
+      "pair": 7,
+      "purpose": "train_200",
+      "seed": 2411207
+    },
+    {
+      "phase": "development",
+      "pair": 7,
+      "purpose": "train_300",
+      "seed": 2411307
+    },
+    {
+      "phase": "development",
+      "pair": 7,
+      "purpose": "shuffle",
+      "seed": 2411807
+    },
+    {
+      "phase": "development",
+      "pair": 7,
+      "purpose": "init",
+      "seed": 2412007
+    },
+    {
+      "phase": "development",
+      "pair": 7,
+      "purpose": "calibration",
+      "seed": 2414007
+    },
+    {
+      "phase": "development",
+      "pair": 7,
+      "purpose": "evaluation_inputs",
+      "seed": 2416007
+    },
+    {
+      "phase": "development",
+      "pair": 7,
+      "purpose": "evaluation_labels",
+      "seed": 2417007
+    },
+    {
+      "phase": "development",
+      "pair": 8,
+      "purpose": "train_0",
+      "seed": 2411008
+    },
+    {
+      "phase": "development",
+      "pair": 8,
+      "purpose": "train_100",
+      "seed": 2411108
+    },
+    {
+      "phase": "development",
+      "pair": 8,
+      "purpose": "train_200",
+      "seed": 2411208
+    },
+    {
+      "phase": "development",
+      "pair": 8,
+      "purpose": "train_300",
+      "seed": 2411308
+    },
+    {
+      "phase": "development",
+      "pair": 8,
+      "purpose": "shuffle",
+      "seed": 2411808
+    },
+    {
+      "phase": "development",
+      "pair": 8,
+      "purpose": "init",
+      "seed": 2412008
+    },
+    {
+      "phase": "development",
+      "pair": 8,
+      "purpose": "calibration",
+      "seed": 2414008
+    },
+    {
+      "phase": "development",
+      "pair": 8,
+      "purpose": "evaluation_inputs",
+      "seed": 2416008
+    },
+    {
+      "phase": "development",
+      "pair": 8,
+      "purpose": "evaluation_labels",
+      "seed": 2417008
+    },
+    {
+      "phase": "confirmation",
+      "pair": 1,
+      "purpose": "train_0",
+      "seed": 2411051
+    },
+    {
+      "phase": "confirmation",
+      "pair": 1,
+      "purpose": "train_100",
+      "seed": 2411151
+    },
+    {
+      "phase": "confirmation",
+      "pair": 1,
+      "purpose": "train_200",
+      "seed": 2411251
+    },
+    {
+      "phase": "confirmation",
+      "pair": 1,
+      "purpose": "train_300",
+      "seed": 2411351
+    },
+    {
+      "phase": "confirmation",
+      "pair": 1,
+      "purpose": "shuffle",
+      "seed": 2411851
+    },
+    {
+      "phase": "confirmation",
+      "pair": 1,
+      "purpose": "init",
+      "seed": 2412051
+    },
+    {
+      "phase": "confirmation",
+      "pair": 1,
+      "purpose": "calibration",
+      "seed": 2414051
+    },
+    {
+      "phase": "confirmation",
+      "pair": 1,
+      "purpose": "evaluation_inputs",
+      "seed": 2416051
+    },
+    {
+      "phase": "confirmation",
+      "pair": 1,
+      "purpose": "evaluation_labels",
+      "seed": 2417051
+    },
+    {
+      "phase": "confirmation",
+      "pair": 2,
+      "purpose": "train_0",
+      "seed": 2411052
+    },
+    {
+      "phase": "confirmation",
+      "pair": 2,
+      "purpose": "train_100",
+      "seed": 2411152
+    },
+    {
+      "phase": "confirmation",
+      "pair": 2,
+      "purpose": "train_200",
+      "seed": 2411252
+    },
+    {
+      "phase": "confirmation",
+      "pair": 2,
+      "purpose": "train_300",
+      "seed": 2411352
+    },
+    {
+      "phase": "confirmation",
+      "pair": 2,
+      "purpose": "shuffle",
+      "seed": 2411852
+    },
+    {
+      "phase": "confirmation",
+      "pair": 2,
+      "purpose": "init",
+      "seed": 2412052
+    },
+    {
+      "phase": "confirmation",
+      "pair": 2,
+      "purpose": "calibration",
+      "seed": 2414052
+    },
+    {
+      "phase": "confirmation",
+      "pair": 2,
+      "purpose": "evaluation_inputs",
+      "seed": 2416052
+    },
+    {
+      "phase": "confirmation",
+      "pair": 2,
+      "purpose": "evaluation_labels",
+      "seed": 2417052
+    },
+    {
+      "phase": "confirmation",
+      "pair": 3,
+      "purpose": "train_0",
+      "seed": 2411053
+    },
+    {
+      "phase": "confirmation",
+      "pair": 3,
+      "purpose": "train_100",
+      "seed": 2411153
+    },
+    {
+      "phase": "confirmation",
+      "pair": 3,
+      "purpose": "train_200",
+      "seed": 2411253
+    },
+    {
+      "phase": "confirmation",
+      "pair": 3,
+      "purpose": "train_300",
+      "seed": 2411353
+    },
+    {
+      "phase": "confirmation",
+      "pair": 3,
+      "purpose": "shuffle",
+      "seed": 2411853
+    },
+    {
+      "phase": "confirmation",
+      "pair": 3,
+      "purpose": "init",
+      "seed": 2412053
+    },
+    {
+      "phase": "confirmation",
+      "pair": 3,
+      "purpose": "calibration",
+      "seed": 2414053
+    },
+    {
+      "phase": "confirmation",
+      "pair": 3,
+      "purpose": "evaluation_inputs",
+      "seed": 2416053
+    },
+    {
+      "phase": "confirmation",
+      "pair": 3,
+      "purpose": "evaluation_labels",
+      "seed": 2417053
+    },
+    {
+      "phase": "confirmation",
+      "pair": 4,
+      "purpose": "train_0",
+      "seed": 2411054
+    },
+    {
+      "phase": "confirmation",
+      "pair": 4,
+      "purpose": "train_100",
+      "seed": 2411154
+    },
+    {
+      "phase": "confirmation",
+      "pair": 4,
+      "purpose": "train_200",
+      "seed": 2411254
+    },
+    {
+      "phase": "confirmation",
+      "pair": 4,
+      "purpose": "train_300",
+      "seed": 2411354
+    },
+    {
+      "phase": "confirmation",
+      "pair": 4,
+      "purpose": "shuffle",
+      "seed": 2411854
+    },
+    {
+      "phase": "confirmation",
+      "pair": 4,
+      "purpose": "init",
+      "seed": 2412054
+    },
+    {
+      "phase": "confirmation",
+      "pair": 4,
+      "purpose": "calibration",
+      "seed": 2414054
+    },
+    {
+      "phase": "confirmation",
+      "pair": 4,
+      "purpose": "evaluation_inputs",
+      "seed": 2416054
+    },
+    {
+      "phase": "confirmation",
+      "pair": 4,
+      "purpose": "evaluation_labels",
+      "seed": 2417054
+    },
+    {
+      "phase": "confirmation",
+      "pair": 5,
+      "purpose": "train_0",
+      "seed": 2411055
+    },
+    {
+      "phase": "confirmation",
+      "pair": 5,
+      "purpose": "train_100",
+      "seed": 2411155
+    },
+    {
+      "phase": "confirmation",
+      "pair": 5,
+      "purpose": "train_200",
+      "seed": 2411255
+    },
+    {
+      "phase": "confirmation",
+      "pair": 5,
+      "purpose": "train_300",
+      "seed": 2411355
+    },
+    {
+      "phase": "confirmation",
+      "pair": 5,
+      "purpose": "shuffle",
+      "seed": 2411855
+    },
+    {
+      "phase": "confirmation",
+      "pair": 5,
+      "purpose": "init",
+      "seed": 2412055
+    },
+    {
+      "phase": "confirmation",
+      "pair": 5,
+      "purpose": "calibration",
+      "seed": 2414055
+    },
+    {
+      "phase": "confirmation",
+      "pair": 5,
+      "purpose": "evaluation_inputs",
+      "seed": 2416055
+    },
+    {
+      "phase": "confirmation",
+      "pair": 5,
+      "purpose": "evaluation_labels",
+      "seed": 2417055
+    },
+    {
+      "phase": "confirmation",
+      "pair": 6,
+      "purpose": "train_0",
+      "seed": 2411056
+    },
+    {
+      "phase": "confirmation",
+      "pair": 6,
+      "purpose": "train_100",
+      "seed": 2411156
+    },
+    {
+      "phase": "confirmation",
+      "pair": 6,
+      "purpose": "train_200",
+      "seed": 2411256
+    },
+    {
+      "phase": "confirmation",
+      "pair": 6,
+      "purpose": "train_300",
+      "seed": 2411356
+    },
+    {
+      "phase": "confirmation",
+      "pair": 6,
+      "purpose": "shuffle",
+      "seed": 2411856
+    },
+    {
+      "phase": "confirmation",
+      "pair": 6,
+      "purpose": "init",
+      "seed": 2412056
+    },
+    {
+      "phase": "confirmation",
+      "pair": 6,
+      "purpose": "calibration",
+      "seed": 2414056
+    },
+    {
+      "phase": "confirmation",
+      "pair": 6,
+      "purpose": "evaluation_inputs",
+      "seed": 2416056
+    },
+    {
+      "phase": "confirmation",
+      "pair": 6,
+      "purpose": "evaluation_labels",
+      "seed": 2417056
+    },
+    {
+      "phase": "confirmation",
+      "pair": 7,
+      "purpose": "train_0",
+      "seed": 2411057
+    },
+    {
+      "phase": "confirmation",
+      "pair": 7,
+      "purpose": "train_100",
+      "seed": 2411157
+    },
+    {
+      "phase": "confirmation",
+      "pair": 7,
+      "purpose": "train_200",
+      "seed": 2411257
+    },
+    {
+      "phase": "confirmation",
+      "pair": 7,
+      "purpose": "train_300",
+      "seed": 2411357
+    },
+    {
+      "phase": "confirmation",
+      "pair": 7,
+      "purpose": "shuffle",
+      "seed": 2411857
+    },
+    {
+      "phase": "confirmation",
+      "pair": 7,
+      "purpose": "init",
+      "seed": 2412057
+    },
+    {
+      "phase": "confirmation",
+      "pair": 7,
+      "purpose": "calibration",
+      "seed": 2414057
+    },
+    {
+      "phase": "confirmation",
+      "pair": 7,
+      "purpose": "evaluation_inputs",
+      "seed": 2416057
+    },
+    {
+      "phase": "confirmation",
+      "pair": 7,
+      "purpose": "evaluation_labels",
+      "seed": 2417057
+    },
+    {
+      "phase": "confirmation",
+      "pair": 8,
+      "purpose": "train_0",
+      "seed": 2411058
+    },
+    {
+      "phase": "confirmation",
+      "pair": 8,
+      "purpose": "train_100",
+      "seed": 2411158
+    },
+    {
+      "phase": "confirmation",
+      "pair": 8,
+      "purpose": "train_200",
+      "seed": 2411258
+    },
+    {
+      "phase": "confirmation",
+      "pair": 8,
+      "purpose": "train_300",
+      "seed": 2411358
+    },
+    {
+      "phase": "confirmation",
+      "pair": 8,
+      "purpose": "shuffle",
+      "seed": 2411858
+    },
+    {
+      "phase": "confirmation",
+      "pair": 8,
+      "purpose": "init",
+      "seed": 2412058
+    },
+    {
+      "phase": "confirmation",
+      "pair": 8,
+      "purpose": "calibration",
+      "seed": 2414058
+    },
+    {
+      "phase": "confirmation",
+      "pair": 8,
+      "purpose": "evaluation_inputs",
+      "seed": 2416058
+    },
+    {
+      "phase": "confirmation",
+      "pair": 8,
+      "purpose": "evaluation_labels",
+      "seed": 2417058
+    },
+    {
+      "phase": "confirmation",
+      "pair": 9,
+      "purpose": "train_0",
+      "seed": 2411059
+    },
+    {
+      "phase": "confirmation",
+      "pair": 9,
+      "purpose": "train_100",
+      "seed": 2411159
+    },
+    {
+      "phase": "confirmation",
+      "pair": 9,
+      "purpose": "train_200",
+      "seed": 2411259
+    },
+    {
+      "phase": "confirmation",
+      "pair": 9,
+      "purpose": "train_300",
+      "seed": 2411359
+    },
+    {
+      "phase": "confirmation",
+      "pair": 9,
+      "purpose": "shuffle",
+      "seed": 2411859
+    },
+    {
+      "phase": "confirmation",
+      "pair": 9,
+      "purpose": "init",
+      "seed": 2412059
+    },
+    {
+      "phase": "confirmation",
+      "pair": 9,
+      "purpose": "calibration",
+      "seed": 2414059
+    },
+    {
+      "phase": "confirmation",
+      "pair": 9,
+      "purpose": "evaluation_inputs",
+      "seed": 2416059
+    },
+    {
+      "phase": "confirmation",
+      "pair": 9,
+      "purpose": "evaluation_labels",
+      "seed": 2417059
+    },
+    {
+      "phase": "confirmation",
+      "pair": 10,
+      "purpose": "train_0",
+      "seed": 2411060
+    },
+    {
+      "phase": "confirmation",
+      "pair": 10,
+      "purpose": "train_100",
+      "seed": 2411160
+    },
+    {
+      "phase": "confirmation",
+      "pair": 10,
+      "purpose": "train_200",
+      "seed": 2411260
+    },
+    {
+      "phase": "confirmation",
+      "pair": 10,
+      "purpose": "train_300",
+      "seed": 2411360
+    },
+    {
+      "phase": "confirmation",
+      "pair": 10,
+      "purpose": "shuffle",
+      "seed": 2411860
+    },
+    {
+      "phase": "confirmation",
+      "pair": 10,
+      "purpose": "init",
+      "seed": 2412060
+    },
+    {
+      "phase": "confirmation",
+      "pair": 10,
+      "purpose": "calibration",
+      "seed": 2414060
+    },
+    {
+      "phase": "confirmation",
+      "pair": 10,
+      "purpose": "evaluation_inputs",
+      "seed": 2416060
+    },
+    {
+      "phase": "confirmation",
+      "pair": 10,
+      "purpose": "evaluation_labels",
+      "seed": 2417060
+    },
+    {
+      "phase": "confirmation",
+      "pair": 11,
+      "purpose": "train_0",
+      "seed": 2411061
+    },
+    {
+      "phase": "confirmation",
+      "pair": 11,
+      "purpose": "train_100",
+      "seed": 2411161
+    },
+    {
+      "phase": "confirmation",
+      "pair": 11,
+      "purpose": "train_200",
+      "seed": 2411261
+    },
+    {
+      "phase": "confirmation",
+      "pair": 11,
+      "purpose": "train_300",
+      "seed": 2411361
+    },
+    {
+      "phase": "confirmation",
+      "pair": 11,
+      "purpose": "shuffle",
+      "seed": 2411861
+    },
+    {
+      "phase": "confirmation",
+      "pair": 11,
+      "purpose": "init",
+      "seed": 2412061
+    },
+    {
+      "phase": "confirmation",
+      "pair": 11,
+      "purpose": "calibration",
+      "seed": 2414061
+    },
+    {
+      "phase": "confirmation",
+      "pair": 11,
+      "purpose": "evaluation_inputs",
+      "seed": 2416061
+    },
+    {
+      "phase": "confirmation",
+      "pair": 11,
+      "purpose": "evaluation_labels",
+      "seed": 2417061
+    },
+    {
+      "phase": "confirmation",
+      "pair": 12,
+      "purpose": "train_0",
+      "seed": 2411062
+    },
+    {
+      "phase": "confirmation",
+      "pair": 12,
+      "purpose": "train_100",
+      "seed": 2411162
+    },
+    {
+      "phase": "confirmation",
+      "pair": 12,
+      "purpose": "train_200",
+      "seed": 2411262
+    },
+    {
+      "phase": "confirmation",
+      "pair": 12,
+      "purpose": "train_300",
+      "seed": 2411362
+    },
+    {
+      "phase": "confirmation",
+      "pair": 12,
+      "purpose": "shuffle",
+      "seed": 2411862
+    },
+    {
+      "phase": "confirmation",
+      "pair": 12,
+      "purpose": "init",
+      "seed": 2412062
+    },
+    {
+      "phase": "confirmation",
+      "pair": 12,
+      "purpose": "calibration",
+      "seed": 2414062
+    },
+    {
+      "phase": "confirmation",
+      "pair": 12,
+      "purpose": "evaluation_inputs",
+      "seed": 2416062
+    },
+    {
+      "phase": "confirmation",
+      "pair": 12,
+      "purpose": "evaluation_labels",
+      "seed": 2417062
+    },
+    {
+      "phase": "confirmation",
+      "pair": 13,
+      "purpose": "train_0",
+      "seed": 2411063
+    },
+    {
+      "phase": "confirmation",
+      "pair": 13,
+      "purpose": "train_100",
+      "seed": 2411163
+    },
+    {
+      "phase": "confirmation",
+      "pair": 13,
+      "purpose": "train_200",
+      "seed": 2411263
+    },
+    {
+      "phase": "confirmation",
+      "pair": 13,
+      "purpose": "train_300",
+      "seed": 2411363
+    },
+    {
+      "phase": "confirmation",
+      "pair": 13,
+      "purpose": "shuffle",
+      "seed": 2411863
+    },
+    {
+      "phase": "confirmation",
+      "pair": 13,
+      "purpose": "init",
+      "seed": 2412063
+    },
+    {
+      "phase": "confirmation",
+      "pair": 13,
+      "purpose": "calibration",
+      "seed": 2414063
+    },
+    {
+      "phase": "confirmation",
+      "pair": 13,
+      "purpose": "evaluation_inputs",
+      "seed": 2416063
+    },
+    {
+      "phase": "confirmation",
+      "pair": 13,
+      "purpose": "evaluation_labels",
+      "seed": 2417063
+    },
+    {
+      "phase": "confirmation",
+      "pair": 14,
+      "purpose": "train_0",
+      "seed": 2411064
+    },
+    {
+      "phase": "confirmation",
+      "pair": 14,
+      "purpose": "train_100",
+      "seed": 2411164
+    },
+    {
+      "phase": "confirmation",
+      "pair": 14,
+      "purpose": "train_200",
+      "seed": 2411264
+    },
+    {
+      "phase": "confirmation",
+      "pair": 14,
+      "purpose": "train_300",
+      "seed": 2411364
+    },
+    {
+      "phase": "confirmation",
+      "pair": 14,
+      "purpose": "shuffle",
+      "seed": 2411864
+    },
+    {
+      "phase": "confirmation",
+      "pair": 14,
+      "purpose": "init",
+      "seed": 2412064
+    },
+    {
+      "phase": "confirmation",
+      "pair": 14,
+      "purpose": "calibration",
+      "seed": 2414064
+    },
+    {
+      "phase": "confirmation",
+      "pair": 14,
+      "purpose": "evaluation_inputs",
+      "seed": 2416064
+    },
+    {
+      "phase": "confirmation",
+      "pair": 14,
+      "purpose": "evaluation_labels",
+      "seed": 2417064
+    },
+    {
+      "phase": "confirmation",
+      "pair": 15,
+      "purpose": "train_0",
+      "seed": 2411065
+    },
+    {
+      "phase": "confirmation",
+      "pair": 15,
+      "purpose": "train_100",
+      "seed": 2411165
+    },
+    {
+      "phase": "confirmation",
+      "pair": 15,
+      "purpose": "train_200",
+      "seed": 2411265
+    },
+    {
+      "phase": "confirmation",
+      "pair": 15,
+      "purpose": "train_300",
+      "seed": 2411365
+    },
+    {
+      "phase": "confirmation",
+      "pair": 15,
+      "purpose": "shuffle",
+      "seed": 2411865
+    },
+    {
+      "phase": "confirmation",
+      "pair": 15,
+      "purpose": "init",
+      "seed": 2412065
+    },
+    {
+      "phase": "confirmation",
+      "pair": 15,
+      "purpose": "calibration",
+      "seed": 2414065
+    },
+    {
+      "phase": "confirmation",
+      "pair": 15,
+      "purpose": "evaluation_inputs",
+      "seed": 2416065
+    },
+    {
+      "phase": "confirmation",
+      "pair": 15,
+      "purpose": "evaluation_labels",
+      "seed": 2417065
+    },
+    {
+      "phase": "confirmation",
+      "pair": 16,
+      "purpose": "train_0",
+      "seed": 2411066
+    },
+    {
+      "phase": "confirmation",
+      "pair": 16,
+      "purpose": "train_100",
+      "seed": 2411166
+    },
+    {
+      "phase": "confirmation",
+      "pair": 16,
+      "purpose": "train_200",
+      "seed": 2411266
+    },
+    {
+      "phase": "confirmation",
+      "pair": 16,
+      "purpose": "train_300",
+      "seed": 2411366
+    },
+    {
+      "phase": "confirmation",
+      "pair": 16,
+      "purpose": "shuffle",
+      "seed": 2411866
+    },
+    {
+      "phase": "confirmation",
+      "pair": 16,
+      "purpose": "init",
+      "seed": 2412066
+    },
+    {
+      "phase": "confirmation",
+      "pair": 16,
+      "purpose": "calibration",
+      "seed": 2414066
+    },
+    {
+      "phase": "confirmation",
+      "pair": 16,
+      "purpose": "evaluation_inputs",
+      "seed": 2416066
+    },
+    {
+      "phase": "confirmation",
+      "pair": 16,
+      "purpose": "evaluation_labels",
+      "seed": 2417066
+    }
+  ],
+  "development_state_sha256": "5a69e55007a4d6ad30f013070da9400df737f701fa17228d934566674448e883"
+}

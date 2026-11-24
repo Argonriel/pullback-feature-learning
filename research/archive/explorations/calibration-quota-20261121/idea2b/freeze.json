@@ -1,0 +1,121 @@
+{
+  "timestamp_utc": "2026-11-21T08:28:12.668552+00:00",
+  "config": {
+    "n_seed": 16,
+    "models": [
+      "gd",
+      "pb",
+      "hybrid"
+    ],
+    "budgets": [
+      8192,
+      65536
+    ],
+    "angles": 128,
+    "radius_bins": 16,
+    "folded_bins": 8,
+    "min_radii": 4,
+    "batch": 256,
+    "quota": 64,
+    "test_n": 65536,
+    "cal_seed_base": 735000,
+    "test_seed_base": 736000,
+    "tie_seed_base": 737000,
+    "label_seed_base": 738000,
+    "bootstrap_seed": 739000,
+    "bootstrap_repeats": 10000,
+    "default_index": {
+      "gd": 64,
+      "pb": 51,
+      "hybrid": 58
+    }
+  },
+  "policies": [
+    [
+      "random_pi",
+      "random",
+      "pi"
+    ],
+    [
+      "random_default",
+      "random",
+      "default"
+    ],
+    [
+      "random_global",
+      "random",
+      "global"
+    ],
+    [
+      "random_radial",
+      "random",
+      "radial"
+    ],
+    [
+      "confidence_pi",
+      "confidence",
+      "pi"
+    ],
+    [
+      "confidence_default",
+      "confidence",
+      "default"
+    ],
+    [
+      "confidence_global",
+      "confidence",
+      "global"
+    ],
+    [
+      "confidence_radial",
+      "confidence",
+      "radial"
+    ],
+    [
+      "radius_pi_pi",
+      "radius_pi",
+      "pi"
+    ],
+    [
+      "radius_pi_default",
+      "radius_pi",
+      "default"
+    ],
+    [
+      "radius_pi_global",
+      "radius_pi",
+      "global"
+    ],
+    [
+      "radius_pi_radial",
+      "radius_pi",
+      "radial"
+    ],
+    [
+      "folded_pi",
+      "folded",
+      "pi"
+    ],
+    [
+      "radius_angle_default",
+      "radius_angle",
+      "default"
+    ],
+    [
+      "radius_angle_global",
+      "radius_angle",
+      "global"
+    ],
+    [
+      "joint",
+      "joint",
+      "radial"
+    ]
+  ],
+  "code_sha256": "a341ee4b86efc68384193406773b6c6da247ff4750017a155fa6b089f48c4486",
+  "design_sha256": "39d27f36c67e9e5b9da81e0e543f78a37c90ed33fa7578d4daaee6d79bf5713c",
+  "historical_sha256": "898efb2e9ae25424ab6c5007390332c73b962ab1cb75deabc6e3ee983c9e33e3",
+  "old_checks_sha256": "8e07efe3b60bef963bd4d7de84169f6b4905d4aa3d0a6fae827952b74e53ce5b",
+  "core_sha256": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5",
+  "fresh_outcomes_accessed": false
+}

@@ -1,0 +1,70 @@
+{
+  "bootstrap_seed": 291031,
+  "bootstrap_resamples": 20000,
+  "n_pairs": 16,
+  "n_eval_per_pair": 32768,
+  "quota": 64,
+  "batch_size": 256,
+  "by_model": {
+    "gd": {
+      "mean_folded_minus_confidence": 0.00891170672661469,
+      "ci95": [
+        0.005301745024163785,
+        0.012861108059571994
+      ],
+      "folded_lower_pairs": 0,
+      "confidence_lower_pairs": 16,
+      "confidence_mask_disagreement": 0.2749481201171875,
+      "mean_loss": {
+        "raw": 0.17757771456118324,
+        "random": 0.17044845414732793,
+        "radius": 0.1643804094002612,
+        "folded": 0.15620763683826794,
+        "confidence": 0.14729593011165326,
+        "full": 0.14906067290576203
+      }
+    },
+    "pb": {
+      "mean_folded_minus_confidence": 0.0025287386949560692,
+      "ci95": [
+        0.00197831160237259,
+        0.003166195321875748
+      ],
+      "folded_lower_pairs": 0,
+      "confidence_lower_pairs": 16,
+      "confidence_mask_disagreement": 0.2758750915527344,
+      "mean_loss": {
+        "raw": 0.11028146915739816,
+        "random": 0.10792729070327148,
+        "radius": 0.10164005148415962,
+        "folded": 0.10112700655996099,
+        "confidence": 0.09859826786500492,
+        "full": 0.10086475534089144
+      }
+    },
+    "hybrid": {
+      "mean_folded_minus_confidence": -0.000565444189851287,
+      "ci95": [
+        -0.0010970229929727138,
+        -7.72411817178644e-05
+      ],
+      "folded_lower_pairs": 12,
+      "confidence_lower_pairs": 4,
+      "confidence_mask_disagreement": 0.24604034423828125,
+      "mean_loss": {
+        "raw": 0.061167079418127226,
+        "random": 0.05681659543412025,
+        "radius": 0.04517658843584542,
+        "folded": 0.04431100182706621,
+        "confidence": 0.044876446016917496,
+        "full": 0.043765143482099325
+      }
+    }
+  },
+  "hashes": {
+    "models.npz": "5a8a5b5e4b94b3f2619760ffbc02ec3a345ca1f85aa29cbdd6da85303e14c20c",
+    "calibrated_gates.npz": "3a429a9699ad75d31fabd937c805cc5369eba427bad0dc1f7219908f2b31847c",
+    "SUPPLEMENTAL_DESIGN.md": "a5d1ada30bdaa7c9b0c974a24440c77edf5798ed5a373ca8b8d8e8d82a1c31ad",
+    "supplemental_confidence.py": "10dc34eefe20341700e34251db028e377ec9f03893b51a6f258434232896f448"
+  }
+}

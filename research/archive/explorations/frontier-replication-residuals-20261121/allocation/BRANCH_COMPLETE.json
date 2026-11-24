@@ -1,0 +1,31 @@
+{
+  "utc": "2026-11-22T00:34:01.802900+00:00",
+  "status": "COMPLETE",
+  "development_pairs": 8,
+  "confirmation_pairs": 16,
+  "models": 48,
+  "temperature_fits": 96,
+  "scored_rows": 240,
+  "baseline_selected": true,
+  "new_allocation_improvement_test": "Not performed; baseline identity handled exactly as frozen",
+  "fresh_seed_failures": 0,
+  "visual_qa": "Both final PNG figures visually inspected; confirmation annotation moved outside axes to avoid the high-risk seed point. Final titles/labels/points legible with no clipping or overlap. PDFs export the same figures.",
+  "frozen_source_checks": "PASS",
+  "independent_root_audit": "Root reported PASS for48 model replays,96 calibration fits and240 risk rows; final audit record maintained by root.",
+  "manifest": {
+    "REPORT.md": "c3fecc609230111239d408c92e217aaebb5536b789483f52d4d2bc99b2ffab82",
+    "REPRODUCE.md": "23b3702efeacf185e4808dbc8d3033497c18e822bcce6ef628bed92178bdde28",
+    "COST_TOTALS.json": "a6217ede8fe5fd98f496b0bb19028bd3f35bfd99ca0cf5f6539fb29409f37331",
+    "standalone_cost_ledger.csv": "be5fc98b766189ce9c483ea65eb2f1a33d4c439d18b4d93b73e2e4904e76626d",
+    "TIMING_AUDIT.json": "042db5c4f7b052c98be57ccb3b450f29e60afac3157c1a3b605eccffde0b42b9",
+    "complete_fit_timing.csv": "c3c68658a2d28d8a0f4a284d94b5a81d25b2022c9258af4aa8aaee1990c7a849",
+    "timing_summary.csv": "af73ded4d056bb96a90aa7b6a3d3e63248e79fc5d2691dadf753a8a09a69d40a",
+    "timing_paired_ratios.csv": "d0af3020d4a32adc91efc7005b7f1f6365dc7b737df3f83c15d536847516c894",
+    "development_frontier.png": "0efb3f4c1851b2bbf020cafb30575fc01c650cc69501b5809b22835b44489cbf",
+    "development_frontier.pdf": "73b087a137edd173fe3fb958b661ef1843d33887c0c3d107409959d84f7180b9",
+    "confirmation_pairs.png": "5ffb9dab479965c130b890a4e4b7f00ac9408f49962cad6cac11e18804bb60ab",
+    "confirmation_pairs.pdf": "94f173bbe790957d0f7eb84c7e498cfff51985bbc0c8682d2a0632c54b79d749",
+    "SOURCE_SNAPSHOT.json": "cd91c0943382e751d16e5a98172041c7306a7e7210e8e642850c69cc80373469",
+    "SOURCE_INTEGRITY.json": "fb180a366917aab265bc5dfa2e239361a2609a7feb75c219b16fb929ce0e4f6f"
+  }
+}

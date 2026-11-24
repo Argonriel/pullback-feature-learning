@@ -1,0 +1,86 @@
+[
+  {
+    "task": "rings",
+    "seed": 9914001,
+    "moment_spots": 24,
+    "minimum_moment_slack": 3.079682689635004e-05,
+    "derivative_spots": 24,
+    "derivative_violations": 0,
+    "interval_jet_spots": 96,
+    "jet_violations": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "maximum_CDF_bracket_width": 9.668856448485919e-05,
+    "waveform_exact_CDF_max_excess": null,
+    "ordinary_verification_forwards": 1180608,
+    "interval_jet_propagations": 192,
+    "all_checks_pass": true
+  },
+  {
+    "task": "rings",
+    "seed": 9914008,
+    "moment_spots": 24,
+    "minimum_moment_slack": 5.8645016432845405e-05,
+    "derivative_spots": 24,
+    "derivative_violations": 0,
+    "interval_jet_spots": 96,
+    "jet_violations": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "maximum_CDF_bracket_width": 0.00011903513766398088,
+    "waveform_exact_CDF_max_excess": null,
+    "ordinary_verification_forwards": 1180608,
+    "interval_jet_propagations": 192,
+    "all_checks_pass": true
+  },
+  {
+    "task": "rings",
+    "seed": 9914016,
+    "moment_spots": 24,
+    "minimum_moment_slack": 8.008004034798072e-10,
+    "derivative_spots": 24,
+    "derivative_violations": 0,
+    "interval_jet_spots": 96,
+    "jet_violations": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "maximum_CDF_bracket_width": 0.00010516837286533853,
+    "waveform_exact_CDF_max_excess": null,
+    "ordinary_verification_forwards": 1180608,
+    "interval_jet_propagations": 192,
+    "all_checks_pass": true
+  },
+  {
+    "task": "waveform",
+    "seed": 9914001,
+    "moment_spots": 24,
+    "minimum_moment_slack": 8.317563754280453e-10,
+    "derivative_spots": 24,
+    "derivative_violations": 0,
+    "interval_jet_spots": 96,
+    "jet_violations": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "maximum_CDF_bracket_width": 3.0903551334782176e-05,
+    "waveform_exact_CDF_max_excess": 0.0,
+    "ordinary_verification_forwards": 1180608,
+    "interval_jet_propagations": 192,
+    "all_checks_pass": true
+  }
+]

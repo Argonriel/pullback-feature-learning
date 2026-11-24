@@ -1,0 +1,7 @@
+# Preserved failures and rejected stronger statements
+
+1. The first environment probe invoked `python -c` through the WindowsApps alias. It failed before executing Python: the executable could not be accessed by the system. This was an environment failure, not a mathematical or numerical failure. No output was overwritten. The later bounded check used the installed bundled runtime directly.
+2. An initial route attempted to prove full area differential rank from the off-diagonal weight directions alone. This is false already for d=(1,1) and diagonal two-dimensional C: the derivative in its sole off-diagonal symmetric direction is zero. Diagonal weight variations are essential there.
+3. An isotropic transformed reference weight C=alpha I does not give full quadratic endpoint differential rank in dimensions n>=3. Its exact rank is n-1. The final theorem uses the Krylov dimension criterion and preserves this control.
+4. A tentative requirement that d be cyclic was stronger than necessary. The exact rank calculation shows full area rank already when the Krylov dimension is n-1. Cyclicity remains a convenient sufficient condition.
+5. The exact signed-area image does not by itself prove exact finite-target reachability over all weights. The local Taylor error is uniform only on compact weight neighborhoods. The final statement explicitly restricts the exact global image to leading coefficients.

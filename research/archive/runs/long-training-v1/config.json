@@ -1,0 +1,85 @@
+{
+  "stage": "long_training_diagnostic",
+  "steps": 100000,
+  "threads": 1,
+  "dtype": "float64",
+  "noise": 0.15,
+  "train_size": 256,
+  "validation_size": 256,
+  "development_seeds": [
+    {
+      "id": "dev1",
+      "train_seed": 1701,
+      "validation_seed": 1702,
+      "initialization_seed": 23
+    },
+    {
+      "id": "dev2",
+      "train_seed": 1801,
+      "validation_seed": 1802,
+      "initialization_seed": 24
+    },
+    {
+      "id": "dev3",
+      "train_seed": 1901,
+      "validation_seed": 1902,
+      "initialization_seed": 25
+    }
+  ],
+  "methods": {
+    "gd": {
+      "learning_rate": 0.125
+    },
+    "pullback": {
+      "learning_rate": 8.0,
+      "damping": 0.1
+    }
+  },
+  "log_every": 1000,
+  "checkpoint_steps": [
+    0,
+    100,
+    500,
+    1000,
+    2000,
+    5000,
+    10000,
+    20000,
+    50000,
+    100000
+  ],
+  "warmup_steps": 5,
+  "schedule": [
+    {
+      "seed_id": "dev1",
+      "method": "gd"
+    },
+    {
+      "seed_id": "dev1",
+      "method": "pullback"
+    },
+    {
+      "seed_id": "dev2",
+      "method": "pullback"
+    },
+    {
+      "seed_id": "dev2",
+      "method": "gd"
+    },
+    {
+      "seed_id": "dev3",
+      "method": "gd"
+    },
+    {
+      "seed_id": "dev3",
+      "method": "pullback"
+    }
+  ],
+  "continuation_review": {
+    "start_step": 50000,
+    "end_step": 100000,
+    "minimum_relative_loss_decrease": 0.05,
+    "minimum_validation_seed_improvements": 2,
+    "automatic_extension": false
+  }
+}

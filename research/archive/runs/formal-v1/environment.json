@@ -1,0 +1,40 @@
+{
+  "recorded_at_utc": "2026-11-20T07:47:17.180146+00:00",
+  "frozen_config_commit": "8e24690f4f2af0e2c20a28701a2c0ea591cef4e7",
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "processor": "AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD",
+  "device": "cpu",
+  "dtype": "float64",
+  "source_sha256": {
+    "core.py": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5",
+    "data.py": "40126e817fd391fc75007677864f182fac2b103163cd0a83b7f3a383f6c2c703",
+    "formal.py": "279ea08250517f04a3cbf92d57d2d209db59ef395a090966d22ed67ab94fb95d",
+    "pilot.py": "d75c0128e7a4ad892fc101c3ae0b7f3c052fed51302fead8db6e57185fbfd47f",
+    "tuning.py": "d7e2f17335ed038d6936a9bd5eea828a150ce488fee6fe4cb1ca6efc2c645f35",
+    "verify.py": "d3eb3ea222a1207ee3cacf4e7495ff31b33a4fdff867d7346f0cd4cb4fae89bd",
+    "__init__.py": "cfa50d8dc213dd829cd6eb880cc14a50e689d919782ce75e74fb270cb9a9b943"
+  },
+  "packages": {
+    "numpy": "2.5.5",
+    "matplotlib": "3.11.2",
+    "threadpoolctl": "3.8.0"
+  },
+  "test_generated": true,
+  "test_evaluated": true,
+  "test_used_for_training_or_selection": false,
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "version": "0.3.34.237.2",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    }
+  ],
+  "training_finished_at_utc": "2026-11-20T07:47:34.487532+00:00",
+  "test_evaluation_started_at_utc": "2026-11-20T07:47:34.489533+00:00",
+  "test_evaluation_complete": true
+}

@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "purpose": "Exact controls for strict-feasibility, singular-start, zero-damping, and inconsistent-weight claims; not theorem certification.",
+  "scalar_implicit_solution_checks": [
+    {
+      "x": "1",
+      "lambda": "2",
+      "identity_value": "1"
+    },
+    {
+      "x": "1/3",
+      "lambda": "4",
+      "identity_value": "1"
+    },
+    {
+      "x": "7/5",
+      "lambda": "2/7",
+      "identity_value": "1"
+    }
+  ],
+  "inconsistent_weight_kkt_checks": [
+    {
+      "r": "0",
+      "endpoint": [
+        "0",
+        "1"
+      ],
+      "gradient": [
+        "1",
+        "0"
+      ],
+      "complementarity": "0",
+      "weight_eigenvalues": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "r": "1/2",
+      "endpoint": [
+        "0",
+        "1/2"
+      ],
+      "gradient": [
+        "3/4",
+        "0"
+      ],
+      "complementarity": "0",
+      "weight_eigenvalues": [
+        "1/2",
+        "3/2"
+      ]
+    }
+  ],
+  "arithmetic": "Python fractions.Fraction, exact rational arithmetic; no truncation or integration error",
+  "python": "3.13.13",
+  "source_sha256": "2a0cafc901e8a3f750476a479592c3069c5d50b9f5786f49c82176857d4ca2d4"
+}

@@ -1,0 +1,5 @@
+{
+  "utc": "2026-11-22T00:27:28.369647+00:00",
+  "stage": "stress",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\frontier-replication-residuals-20261121\\structured\\run.py\", line 227, in <module>\n    with threadpool_limits(limits=1):globals()[args.stage]()\n                                     ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\liwei\\Documents\\ChatGPT\\277\\tmp\\frontier-replication-residuals-20261121\\structured\\run.py\", line 202, in stress\n    assert p.min()>=0 and p.max()<=1 and np.max(abs(p-pt))<=eps+1e-12\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+}

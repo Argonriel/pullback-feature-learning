@@ -1,0 +1,28 @@
+# When does the preferred second-view policy change?
+
+This is a follow-up to a known result. On the prior 16 seed pairs, the confidence policy won for a network trained for 500 pullback steps. The coordinate policy won on average for a network trained for 100 pullback steps and then 400 GD steps. We use the same paired draws so that both endpoints can be reproduced. The sweep estimates an exploratory response curve for these seeds. It does not provide an independent replication of the original finding. This analysis plan was recorded before inspecting any intermediate switch-time results.
+
+## Interventions
+
+1. **Fixed total training.** Train to update 500 with the switch to GD after 0, 25, 50, 100, 150, 200, 250, 300, 350, 400, 450, 475 or 500 pullback updates. Switch 0 uses GD throughout at rate 2. Switch 500 uses pullback throughout at rate 8. All pullback updates have damping 0.1. The previous standalone GD baseline used rate 0.5. It is a different schedule from switch 0.
+2. **Matched-age trajectories.** Start from the shared state at update 100 and compare switching to GD with continuing pullback for the same number of updates. Measure at the branch point and after a sequence of short and long lags extending to update 500. Score both arms at each age. A later switch, if included, distinguishes a pattern specific to an early branch from one seen again later. Report each branch separately.
+
+Use the same training data, initial weights, calibration inputs, held-out inputs, and quota tie keys across schedules within a seed. Refit the coordinate lookup on the same unlabeled calibration inputs for every new state. Use 16 training/data seed pairs as the replication units. Per batch of 256, allocate exactly 64 second evaluations. Draws at opposite orientations share the tie keys. They require independently selected sets for the confidence policy.
+
+**Independent cohort.** Repeat all 13 fixed-horizon schedules on 16 previously unused training/data seeds (pairs 17–32). Report the original and new cohorts separately. The independent cohort evaluates reproducibility across training and evaluation draws for the same rings data law.
+
+**Learning-rate sensitivity.** From the switch at update 100, use GD rates 0.5, 1 and 2 at matched lags 25, 100, 200 and 400. This separates the choice of GD rate from the nominal number of GD updates within that branch. The same comparison was subsequently repeated on pairs 17–32; keep the two sets of results separate.
+
+**Targeted trajectory replication.** After observing the two trajectories on the original 16 seeds, repeat the same branches, lags and measurements on the new 16-seed cohort. This additional trajectory comparison was requested after the original trajectory results and before its own new results. Fixed-horizon and trajectory validation use the same new training pairs. Their intersecting checkpoints are shared observations.
+
+## Primary contrast and decomposition
+
+At each checkpoint report the mean paired difference D = coordinate-policy loss minus confidence-policy loss, in nats per input. Positive D favors confidence. Report all schedules, the number of seed pairs favoring each method and uncertainty from resampling whole seed pairs jointly across checkpoints. Use a 95% pointwise percentile bootstrap interval and an approximate 95% simultaneous maximum-deviation band for the fixed-horizon curve. Construct separate bands for each matched-age branch's contrasts across lags, preserving all dependence within a seed. Use 20,000 shared resamples with seed 291031. A simultaneous band here uses the bootstrap 95th percentile of the largest absolute deviation of a resampled mean from the observed mean, measured in nats over the full relevant grid. Its interpretation is exploratory with only 16 paired draws.
+
+Write the coordinate rule's gain over a single view as F and the confidence rule's gain as S + A. S measures how much of the nonnegative symmetric two-view gain the confidence rule captures. A measures the change due to selecting the two starting orientations differently. The identity D = A − (F − S) permits an exact accounting of reversals. A positive A can coexist with lower loss for the coordinate policy when F − S is larger. Evaluate both terms and their changes before attributing a reversal to either term. Class labels and the second prediction are unavailable to the routing policies at deployment. The known posterior is used for evaluation.
+
+## Interpreting time and mechanism
+
+Distinguish the crossover of ensemble-average policy losses at update 500 as a function of the switch time from the crossover observed along training after a given switch. For the matched-age trajectories also report the paired difference in D between the two training arms. The latter compares the interventions from a common starting state and distinguishes a reversal that was already under way on the continued-pullback path. At lag zero the branch and its control must agree.
+
+Describe adjacent measured ages or switch times with opposite sample means as a descriptive bracket. Report multiple brackets or isolated sign changes if present. Report the earliest sampled checkpoint favoring a policy with an interval excluding zero and whether the separation persists at the remaining sampled checkpoints. A coarse grid does not identify a unique change point between observations. The 16-seed mean does not imply that every seed crosses. The signed-term identity attributes a difference in loss for the two policies. By itself it does not establish which parameter-level feature of an optimizer caused that difference. The intervention couples the optimizer with its prescribed learning rate and reports progress in full-batch updates.

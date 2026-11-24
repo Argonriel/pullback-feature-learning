@@ -1,0 +1,41 @@
+{
+  "frozen_utc": "2026-11-21T07:41:48.870069+00:00",
+  "config": {
+    "n": 32768,
+    "seed_pairs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "stage": "trained",
+    "experiment": "single",
+    "requested_drop": 0.02,
+    "tasks": [
+      "rings",
+      "radial",
+      "angular"
+    ],
+    "x_seed_base": 27755100,
+    "label_seed_base": 27756100,
+    "bootstrap_seed": 27757100,
+    "bootstrap_repeats": 10000,
+    "outcome": "paired change in single-view logistic risk",
+    "role": "Independent iid check of primary deterministic population quadrature",
+    "selection": "All frozen trained-stage .02-drop branches, including failures"
+  },
+  "script_sha256": "da87dbec5c037a71c9e4cb470ce677d638e609860d0babd7a925b9bfb9416ba1",
+  "new_outcomes_present": false
+}

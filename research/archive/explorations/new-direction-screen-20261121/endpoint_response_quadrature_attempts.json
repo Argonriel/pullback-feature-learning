@@ -1,0 +1,108 @@
+{
+  "status": "initial_refinement_rejected_final_refinement_passed",
+  "initial_assertion": "max absolute 16-to-32 coefficient change < 1e-11",
+  "initial_failed_refinement_max_difference": 4.798742591882732e-05,
+  "initial_exception": "AssertionError at verify() refinement check; no result file was written",
+  "exact_evaluation_expression": "[coefficient(w,n) for w in [1.,9.] for n in [16,32,64,128]]",
+  "record_provenance": "Exact evaluation calls and results preserved by replay after the failure. Between the failed script and the final script only verify() quadrature orders changed 16/32 to 64/128, with an explanatory comment; coefficient(), model settings, intervals, and tolerance stayed identical.",
+  "source_snapshot_note": "Original full-file hash was not recorded because verify() failed before result assembly. This artifact preserves exact calls instead of claiming an unavailable original hash.",
+  "replay_source_sha256": "6e1181f5295549b81d6d82e9c755f009670dae6cd568d0f846a638befa493cec",
+  "records": [
+    {
+      "weight": 1.0,
+      "quadrature_order_per_interval": 16,
+      "endpoint_x12_first_derivative": 0.12053289011630763,
+      "nullspace_response": [
+        0.0,
+        -0.24106578023261527,
+        0.17045924791450826
+      ],
+      "minimum_spd_eigenvalue_at_quadrature_nodes": 0.1,
+      "unintegrated_tail_norm_bound": 2.2216109403865707e-20
+    },
+    {
+      "weight": 1.0,
+      "quadrature_order_per_interval": 32,
+      "endpoint_x12_first_derivative": 0.1205328723089976,
+      "nullspace_response": [
+        0.0,
+        -0.24106574461799524,
+        0.1704592227311689
+      ],
+      "minimum_spd_eigenvalue_at_quadrature_nodes": 0.1,
+      "unintegrated_tail_norm_bound": 2.2216109403865707e-20
+    },
+    {
+      "weight": 1.0,
+      "quadrature_order_per_interval": 64,
+      "endpoint_x12_first_derivative": 0.12053287230899508,
+      "nullspace_response": [
+        0.0,
+        -0.24106574461799016,
+        0.17045922273116532
+      ],
+      "minimum_spd_eigenvalue_at_quadrature_nodes": 0.1,
+      "unintegrated_tail_norm_bound": 2.2216109403865707e-20
+    },
+    {
+      "weight": 1.0,
+      "quadrature_order_per_interval": 128,
+      "endpoint_x12_first_derivative": 0.12053287230899491,
+      "nullspace_response": [
+        0.0,
+        -0.24106574461798982,
+        0.1704592227311651
+      ],
+      "minimum_spd_eigenvalue_at_quadrature_nodes": 0.1,
+      "unintegrated_tail_norm_bound": 2.2216109403865707e-20
+    },
+    {
+      "weight": 9.0,
+      "quadrature_order_per_interval": 16,
+      "endpoint_x12_first_derivative": 0.1272907880314367,
+      "nullspace_response": [
+        0.0,
+        -0.2545815760628734,
+        0.18001635879921665
+      ],
+      "minimum_spd_eigenvalue_at_quadrature_nodes": 0.1,
+      "unintegrated_tail_norm_bound": 2.9432723782721334e-29
+    },
+    {
+      "weight": 9.0,
+      "quadrature_order_per_interval": 32,
+      "endpoint_x12_first_derivative": 0.12724280060551788,
+      "nullspace_response": [
+        0.0,
+        -0.25448560121103575,
+        0.17994849433065888
+      ],
+      "minimum_spd_eigenvalue_at_quadrature_nodes": 0.1,
+      "unintegrated_tail_norm_bound": 2.9432723782721334e-29
+    },
+    {
+      "weight": 9.0,
+      "quadrature_order_per_interval": 64,
+      "endpoint_x12_first_derivative": 0.1272427401289315,
+      "nullspace_response": [
+        0.0,
+        -0.254485480257863,
+        0.1799484088038502
+      ],
+      "minimum_spd_eigenvalue_at_quadrature_nodes": 0.1,
+      "unintegrated_tail_norm_bound": 2.9432723782721334e-29
+    },
+    {
+      "weight": 9.0,
+      "quadrature_order_per_interval": 128,
+      "endpoint_x12_first_derivative": 0.1272427401288418,
+      "nullspace_response": [
+        0.0,
+        -0.2544854802576836,
+        0.17994840880372334
+      ],
+      "minimum_spd_eigenvalue_at_quadrature_nodes": 0.1,
+      "unintegrated_tail_norm_bound": 2.9432723782721334e-29
+    }
+  ]
+}

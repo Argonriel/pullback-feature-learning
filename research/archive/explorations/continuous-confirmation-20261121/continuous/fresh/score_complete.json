@@ -1,0 +1,8 @@
+{
+  "timestamp_utc": "2026-11-21T09:04:07.008246+00:00",
+  "per_seed_rows": 2560,
+  "batch_rows": 40960,
+  "deploy_audits": 160,
+  "policy_immutable": true,
+  "outcomes_sha256": "5c9385e2e05e78b2d4113728acf328b49754cfc1db4094c208bc07764044038d"
+}

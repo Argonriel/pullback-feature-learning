@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-21T23:06:16.910715+00:00",
+  "manifest": {
+    "holdout_1_teacher.npz": "3c973b66e8d2e56c54990df3fcc2a8aff449c88a50efef300f72e531a18dbadf",
+    "holdout_1_student.npz": "a09a178daa2015e0391db5c181021f8e9506f98ff2859370f6afdff60e5f196e",
+    "holdout_1_control.npz": "5e2d146c43c19388fddac00845bba18dae96665c591b6575c8967252676cffb5",
+    "holdout_2_teacher.npz": "b6dca83924d14843774e02f13a84defc9c2963828c8c728b7e147d290136fb3c",
+    "holdout_2_student.npz": "ff46a014516438d4e609a22549a050159f6553239026f5df5c301d097db3d695",
+    "holdout_2_control.npz": "75486e81a5193cab60cfef7afcebdb6f73478460d2267d2dd714240ca70e4b79",
+    "holdout_3_teacher.npz": "b578b4121fbcbb30c1d06cee2eae6d37b40134e487a0eb85b386cdac67722516",
+    "holdout_3_student.npz": "2ceccd96f9d471bed6b0fdef4360741edc3f81e20521ddfd2c800af69313b5f3",
+    "holdout_3_control.npz": "ebe1b6756aeebc2fb4f62a4836d6485e4fbc361a990b7e4d78344ebc2582dfd2",
+    "external_1_teacher.npz": "b43759d7929aa02ccfc525822facd6f34b7c41954f3d4da9165f8e5d4b7174b9",
+    "external_1_student.npz": "9e383e044370aed9592669466bcf8be7e7a1f238f7a5d2472ae3fd6878044642",
+    "external_1_control.npz": "476a6a49ee768755a165d3c8e58ab9849ef4f9693827dd070d1b1f6d17f08ea9",
+    "external_2_teacher.npz": "10623ab0712c80fed312fad1838fe7ba0d00d9a835bce6f9d646ec4bf9bab833",
+    "external_2_student.npz": "616dd3f1e0b88baafd8ae2171305e87e350ac67886232a8f0240123072217369",
+    "external_2_control.npz": "2406cc3324d2c3ea6765f5be8b9707e12af74c2d33f399d439861d279415dd95",
+    "external_3_teacher.npz": "18fdb98f324c207709eac9c9e74aa5453df55e39b30cf0c787c505b1a8728b9a",
+    "external_3_student.npz": "00824a37773168e370ea9651582c2bcef967966889afc6067e7869ead74ee4f6",
+    "external_3_control.npz": "1a9da57b078793a9f3b67e3e26c506aa2c5c089cb6544bf0552abdf5bbcc687c"
+  }
+}

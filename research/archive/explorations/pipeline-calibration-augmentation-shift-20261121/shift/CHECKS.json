@@ -1,0 +1,8 @@
+{
+  "timestamp_utc": "2026-11-21T22:44:47.915738+00:00",
+  "passed": true,
+  "multiclass_cases": 12,
+  "multiclass_records": 49152,
+  "coordinate_only_sampler_inputs": 262144,
+  "model_forward_examples": 0
+}

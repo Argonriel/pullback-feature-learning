@@ -1,0 +1,15 @@
+{
+  "repository_path": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\experiments\\structured_bounds",
+  "byte_identical_sources": {
+    "analyze.py": "3045250e129a7aaccb2baca8b8a67872bddecdb06dbf916db1c9f0b45938ffd6",
+    "assets.py": "0104392e5a2868b90312aba35d0dc45365c87dc4f044463bfadcfa5b6ff9f85e",
+    "build_report.py": "b252436b1ee86b190743ac279c0567b8ee917c99072d0f370554ae1a31ce1710",
+    "common.py": "f2958b3e3b8cbb8eb787b32318ce7da686c1c5f416e7079c6ad77c74798e66f8",
+    "math_utils.py": "abc0059f3b5d1dbec23fcd876792b6a3274ba0966fc2ae988268b856c46348cf",
+    "reproduce.py": "9a78884bf69e2da4b1294ea6e3ec4b3ee01baaa3e05de5f75d52475d145357a1",
+    "run.py": "ad99aaf0b30adf1eaea276c61ed59b7e8cd4e4e05e7bfd78dee30d4b725e5515",
+    "reference/baseline.py": "652b9f68f021bbd05b2031e26325e495e3a3cf1ff423c89680bc6335592d6ac3",
+    "reference/core4d.py": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77",
+    "reference/task.py": "8da7d92d23437155d10be130a712e219211760ee740c2fca2a4b3506437214f4"
+  }
+}

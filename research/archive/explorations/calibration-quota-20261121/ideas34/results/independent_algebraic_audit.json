@@ -1,0 +1,7 @@
+{
+  "known_prevalence_unequal_weight_vertex_checks": 100,
+  "max_fractional_allocation_bound_error": 4.440892098500626e-16,
+  "finite_conditional_LP_dual_certificates": 256,
+  "max_dual_optimality_violation": 5.551115123125783e-17,
+  "max_expected_conditional_imbalance": 2.7755575615628914e-17
+}

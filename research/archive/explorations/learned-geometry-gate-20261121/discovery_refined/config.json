@@ -1,0 +1,88 @@
+{
+  "study": "learned_geometry_gate_20261121",
+  "tasks": [
+    "moons",
+    "rings"
+  ],
+  "seeds": [
+    {
+      "id": "d1",
+      "cohort": "discovery",
+      "train_seed": 221101,
+      "init_seed": 222101,
+      "test_seed": 223101
+    },
+    {
+      "id": "d2",
+      "cohort": "discovery",
+      "train_seed": 221102,
+      "init_seed": 222102,
+      "test_seed": 223102
+    },
+    {
+      "id": "d3",
+      "cohort": "discovery",
+      "train_seed": 221103,
+      "init_seed": 222103,
+      "test_seed": 223103
+    },
+    {
+      "id": "d4",
+      "cohort": "discovery",
+      "train_seed": 221104,
+      "init_seed": 222104,
+      "test_seed": 223104
+    }
+  ],
+  "task_seed_offsets": {
+    "moons": 0,
+    "rings": 10000
+  },
+  "arms": [
+    "nonlinear_gd",
+    "nonlinear_pb",
+    "tangent_gd",
+    "tangent_pb"
+  ],
+  "dampings": [
+    0.1
+  ],
+  "step_sizes": [
+    0.01,
+    0.005
+  ],
+  "loss_fractions": [
+    0.75,
+    0.5,
+    0.25
+  ],
+  "max_steps": 120000,
+  "n_train": 256,
+  "n_test_moons": 20000,
+  "param_step_cap": 0.1,
+  "remainder_rtol": 0.05,
+  "armijo": 0.0001,
+  "target_atol": 1e-10,
+  "primary_fraction": 0.25,
+  "effect_floor_nats": 0.01,
+  "refinement_tolerance_nats": 0.003,
+  "minimum_sign_agreement": 3,
+  "evaluation_role": "screening; no tuning from evaluation outcomes",
+  "assembled_components": [
+    {
+      "path": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\learned-geometry-gate-20261121\\discovery",
+      "provenance_sha256": "68476202809e8eb122878ee4963bdcb2773c6e41e0c6976fdbf753387a9776de",
+      "original_max_steps": 6000
+    },
+    {
+      "path": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\learned-geometry-gate-20261121\\coverage_extension",
+      "provenance_sha256": "3497adb5d47d9faa5c8e20f29c6618a98fb28a2422134c7569cc93f5825f765f",
+      "original_max_steps": 60000
+    },
+    {
+      "path": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\learned-geometry-gate-20261121\\refinement",
+      "provenance_sha256": "067e0165e1c67eeb840cf79d5b17994e454d0e15d6a2bc613f56553e0ba222be",
+      "original_max_steps": 120000
+    }
+  ]
+}

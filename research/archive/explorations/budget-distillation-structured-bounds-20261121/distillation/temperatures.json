@@ -1,0 +1,116 @@
+[
+  {
+    "pair": 1,
+    "arm": "teacher",
+    "raw": {
+      "beta": 0.9742495480361948,
+      "status": "interior",
+      "derivative": -1.3500311979441904e-17,
+      "ce": 0.2660029139244786
+    },
+    "full": {
+      "beta": 0.9893310045369104,
+      "status": "interior",
+      "derivative": -7.727152251391089e-18,
+      "ce": 0.2610915371727932
+    }
+  },
+  {
+    "pair": 1,
+    "arm": "student",
+    "raw": {
+      "beta": 1.0241048090669498,
+      "status": "interior",
+      "derivative": -2.4513724383723456e-17,
+      "ce": 0.2625102551077073
+    },
+    "full": null
+  },
+  {
+    "pair": 1,
+    "arm": "control",
+    "raw": {
+      "beta": 0.8699434033452103,
+      "status": "interior",
+      "derivative": 1.3500311979441904e-17,
+      "ce": 0.24400205570079314
+    },
+    "full": null
+  },
+  {
+    "pair": 2,
+    "arm": "teacher",
+    "raw": {
+      "beta": 1.030759426387108,
+      "status": "interior",
+      "derivative": 1.7763568394002505e-19,
+      "ce": 0.2527973544608888
+    },
+    "full": {
+      "beta": 1.0561580607433676,
+      "status": "interior",
+      "derivative": -5.355715870791755e-17,
+      "ce": 0.24606899077213776
+    }
+  },
+  {
+    "pair": 2,
+    "arm": "student",
+    "raw": {
+      "beta": 1.0171791959244532,
+      "status": "interior",
+      "derivative": -6.998845947236986e-17,
+      "ce": 0.2712165158592341
+    },
+    "full": null
+  },
+  {
+    "pair": 2,
+    "arm": "control",
+    "raw": {
+      "beta": 1.0005804300371826,
+      "status": "interior",
+      "derivative": -1.2079226507921702e-17,
+      "ce": 0.23824052961646652
+    },
+    "full": null
+  },
+  {
+    "pair": 3,
+    "arm": "teacher",
+    "raw": {
+      "beta": 1.018867289812718,
+      "status": "interior",
+      "derivative": -3.765876499528531e-17,
+      "ce": 0.24944724635935855
+    },
+    "full": {
+      "beta": 1.0192483224120603,
+      "status": "interior",
+      "derivative": -4.263256414560601e-18,
+      "ce": 0.2452197309928704
+    }
+  },
+  {
+    "pair": 3,
+    "arm": "student",
+    "raw": {
+      "beta": 1.02404275201483,
+      "status": "interior",
+      "derivative": 4.192202140984591e-17,
+      "ce": 0.25365858447368433
+    },
+    "full": null
+  },
+  {
+    "pair": 3,
+    "arm": "control",
+    "raw": {
+      "beta": 0.8190884685360018,
+      "status": "interior",
+      "derivative": 2.842170943040401e-18,
+      "ce": 0.2265153141034239
+    },
+    "full": null
+  }
+]

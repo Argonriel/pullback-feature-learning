@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-11-21T08:27:46.627629+00:00",
+  "historical_curves_hash": "6992943cf47e43bc38dffd1519bf56f202ac6287377703cb4c352b82a1ca1ea0",
+  "old_model_bank_hash": "5a8a5b5e4b94b3f2619760ffbc02ec3a345ca1f85aa29cbdd6da85303e14c20c",
+  "retrospective_source_hashes": {
+    "risks.csv": "312a922b982db8f6ad47dcaba006ec8fcfb456b1b348a0335d8ca2781427e832",
+    "population_gain_curves.csv": "790ab5d2f31e485b860fba3e2c5a24a239035a034f11454320c235f5f6e29bd7"
+  },
+  "defaults": {
+    "gd": {
+      "index": 64,
+      "degrees": 180.0,
+      "historical_forward_examples": 1048576
+    },
+    "pb": {
+      "index": 51,
+      "degrees": 143.4375,
+      "historical_forward_examples": 1048576
+    },
+    "hybrid": {
+      "index": 58,
+      "degrees": 163.125,
+      "historical_forward_examples": 1048576
+    }
+  },
+  "retrospective_not_used_to_choose_defaults": true
+}

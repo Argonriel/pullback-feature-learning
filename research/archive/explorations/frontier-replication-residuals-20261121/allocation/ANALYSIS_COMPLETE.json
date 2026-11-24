@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-22T00:28:43.455796+00:00",
+  "manifest": {
+    "confirmation/summary.csv": "3192f7b12b81c2dbe45f334d42bb3e39bfb9544fb7fd37df3cf3dbf00d997881",
+    "confirmation/contrasts.csv": "b31f5bfa639ab9c9b5ec8b299bdf9b77b41197885077ba3612060a13b8131701",
+    "confirmation/paired_contrasts.csv": "984a12065af027c38302ce1f96c64d0f7036be4962ae8fbedff71172354f7f3e"
+  },
+  "selection_commit_sha256": "f77a118f9532253c59fb8778a75f1fce5faf6c91d2c09d0ba0797f755ff75370"
+}

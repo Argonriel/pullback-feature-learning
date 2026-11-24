@@ -1,0 +1,11 @@
+{
+  "selected_drop": 0.005,
+  "paired_success_counts": {
+    "0.005": 5,
+    "0.001": 6
+  },
+  "rule": "Largest of .005,.001 feasible for BOTH methods on at least4/6 old pairs; fallback.001.",
+  "decision_used_only_training_loss_and_root_status": true,
+  "old_state_hash": "e5b39d80c2c36522ef65a9d73d3716321e6d10c1db5227ee999021e314d3a926",
+  "root_table_hash": "ef785cb8ebf77875b791058f6c2d228ea201f77d76e6790a4a89b03fb8148f5c"
+}

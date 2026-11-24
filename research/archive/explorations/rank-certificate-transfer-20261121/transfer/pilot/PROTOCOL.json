@@ -1,0 +1,44 @@
+{
+  "timestamp_utc": "2026-11-21T10:06:38.966873+00:00",
+  "task": "4D two-harmonic waveform; bounded Beta radial mixture",
+  "architecture": "Two residual blocks,width8,4D,144parameters,fixedfirstcoordinate logit",
+  "seeds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "train_seed_base": 1031000,
+  "init_seed_base": 1032000,
+  "evaluation_seed_base": 1033000,
+  "training_samples": 256,
+  "training_exact_class_counts": [
+    128,
+    128
+  ],
+  "evaluation_samples": 16384,
+  "recipes": [
+    [
+      "gd",
+      0.1
+    ],
+    [
+      "gd",
+      0.3
+    ],
+    [
+      "pb",
+      8.0
+    ],
+    [
+      "pb",
+      16.0
+    ]
+  ],
+  "steps": 500,
+  "damping": 0.1,
+  "choice": "For each optimizer, minimize mean pilot conditional logistic risk over its two predeclared rates; this training-rate choice explicitly uses pilot posterior supervision.",
+  "selector_tau": 1.0,
+  "new_confirmation_streams_read": false,
+  "source_sha256": "9361b868a7ec73a360527580954806f25eec7df1f332c65eeb94d34ddb506711"
+}

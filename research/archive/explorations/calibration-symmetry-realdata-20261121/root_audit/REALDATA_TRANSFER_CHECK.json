@@ -1,0 +1,183 @@
+{
+  "timestamp_utc": "2026-11-21T22:26:37.324261+00:00",
+  "audit_started_utc": "2026-11-21T22:26:36.419561+00:00",
+  "timing_completed_utc": "2026-11-21T22:25:47.661595+00:00",
+  "status": "PASS",
+  "conclusion": "No image-order, label-order, preprocessing-axis, half-turn implementation, checkpoint, or saved-forward discrepancy was found in these checks. Negative original-distribution transfer is reproduced.",
+  "official_source": "https://github.com/zalandoresearch/fashion-mnist#Get-the-Data",
+  "official_files": [
+    {
+      "file": "train-images-idx3-ubyte.gz",
+      "md5": "8d4fb7e6c68d591d4c3dfef9ec88bf0d",
+      "sha256": "3aede38d61863908ad78613f6a32ed271626dd12800ba2636569512369268a84",
+      "published_md5_matches": true
+    },
+    {
+      "file": "train-labels-idx1-ubyte.gz",
+      "md5": "25c81989df183df01b3e8a0aad5dffbe",
+      "sha256": "a04f17134ac03560a47e3764e11b92fc97de4d1bfaf8ba1a3aa29af54cc90845",
+      "published_md5_matches": true
+    },
+    {
+      "file": "t10k-images-idx3-ubyte.gz",
+      "md5": "bef4ecab320f06d8554ea6380940ec79",
+      "sha256": "346e55b948d973a97e58d2351dde16a484bd415d4595297633bb08f03db6a073",
+      "published_md5_matches": true
+    },
+    {
+      "file": "t10k-labels-idx1-ubyte.gz",
+      "md5": "bb300cfdad3c16e7a12a480ee83cd310",
+      "sha256": "67da17c76eaffca5446c3361aaab5c3cd6d1c2608764d35dfb1850b086bf8dd5",
+      "published_md5_matches": true
+    }
+  ],
+  "original_image_array_sha256": "c867c93ff95360594e8ec3287995350b824dd110b11595c0e13d5423f621867a",
+  "original_labels_sha256": "d51d859896c55775b9e9e219b77ff03bcec1b6ac322f313544dc3f9e7bc94fae",
+  "permutation_sha256": "70d64f190502a7667b37e789a0f202bb5ef2a228623d87c5c9b4c83a9d1d0725",
+  "ordered_images_sha256": "a45b434eaa91f7ea358e2bf357db0875562113845cfb3d560a4c31d550b4153e",
+  "ordered_labels_sha256": "430678b2735f4b73323458ee0f0322a2a0a15f2a9f8f01185ee1a38eab0f3408",
+  "partner_images_sha256": "06dfbb31b0eaeb273d0ca1f6180002b8419e9f404d4a86c893dcc89e4f07c148",
+  "all_cpu_cuda_orders_match": true,
+  "all10classes1000examples": true,
+  "numpy_cuda_normalization_max_error": 5.960464477539063e-08,
+  "extra_forward_examples": 61536,
+  "extra_forward_invocations": 126,
+  "models": 3,
+  "replays": [
+    {
+      "seed": 1,
+      "temperature": 1.0944470810133395,
+      "full_direct_forward_seconds": 0.030988899990916252,
+      "additional_forward_examples": 20512,
+      "additional_forward_invocations": 42,
+      "model_sha256": "f62fac675b53a208b4578961b4c3c3adadffc6cfac0b5eac1003b3fd5c657e91",
+      "saved_prediction_sha256": "795cc43b345ffe889c5d39ea1173bd6e7de474e68b2cd9106ab9bf345c44771c",
+      "paired_jensen_identity_error": 9.536743217353205e-07,
+      "original_batch_max_error": 0.0,
+      "partner_batch_reconstruction_max_error": 9.5367431640625e-07,
+      "original_all_max_error": 3.814697265625e-06,
+      "full_all_max_error": 0.0,
+      "partner_all_reconstruction_max_error": 4.76837158203125e-06,
+      "reconstructed_partner_changed_classes": 0
+    },
+    {
+      "seed": 2,
+      "temperature": 1.0555683063076335,
+      "full_direct_forward_seconds": 0.02560629998333752,
+      "additional_forward_examples": 20512,
+      "additional_forward_invocations": 42,
+      "model_sha256": "282af5d431124491472011d117f2d66bd4b319cdcfd24a7a2627379af39ba841",
+      "saved_prediction_sha256": "0db69f4e781de4c5dd84ca992aa7fa2f9af647baae2916ed056bf5f3cdb6b09f",
+      "paired_jensen_identity_error": 9.53674327064391e-07,
+      "original_batch_max_error": 0.0,
+      "partner_batch_reconstruction_max_error": 9.5367431640625e-07,
+      "original_all_max_error": 5.245208740234375e-06,
+      "full_all_max_error": 0.0,
+      "partner_all_reconstruction_max_error": 5.245208740234375e-06,
+      "reconstructed_partner_changed_classes": 0
+    },
+    {
+      "seed": 3,
+      "temperature": 1.0101525269304397,
+      "full_direct_forward_seconds": 0.025734599999850616,
+      "additional_forward_examples": 20512,
+      "additional_forward_invocations": 42,
+      "model_sha256": "ec8b9478fd87c2b5b065df3707936b100e1bc4ead819f81c90e6b39b0ee03fff",
+      "saved_prediction_sha256": "c97cdbdc04284eeaee616066bf204df9f07bb718c888ac640d5cf152686ea3c7",
+      "paired_jensen_identity_error": 4.768371653085524e-07,
+      "original_batch_max_error": 0.0,
+      "partner_batch_reconstruction_max_error": 9.5367431640625e-07,
+      "original_all_max_error": 3.814697265625e-06,
+      "full_all_max_error": 0.0,
+      "partner_all_reconstruction_max_error": 3.814697265625e-06,
+      "reconstructed_partner_changed_classes": 0
+    }
+  ],
+  "overall": [
+    {
+      "seed": 1,
+      "view": "original",
+      "loss": 0.26196798559540163,
+      "error": 0.0956,
+      "confidence": 0.9078383439112098,
+      "n": 10000
+    },
+    {
+      "seed": 1,
+      "view": "flipped_only",
+      "loss": 2.64024960856671,
+      "error": 0.2915,
+      "confidence": 0.873239370174541,
+      "n": 10000
+    },
+    {
+      "seed": 1,
+      "view": "full_average",
+      "loss": 0.5689325476298861,
+      "error": 0.2032,
+      "confidence": 0.8685487742478838,
+      "n": 10000
+    },
+    {
+      "seed": 2,
+      "view": "original",
+      "loss": 0.2535299428228077,
+      "error": 0.0929,
+      "confidence": 0.9108946149459991,
+      "n": 10000
+    },
+    {
+      "seed": 2,
+      "view": "flipped_only",
+      "loss": 2.903917080989704,
+      "error": 0.3328,
+      "confidence": 0.8796316710259463,
+      "n": 10000
+    },
+    {
+      "seed": 2,
+      "view": "full_average",
+      "loss": 0.6338968849549362,
+      "error": 0.2297,
+      "confidence": 0.8682729077503666,
+      "n": 10000
+    },
+    {
+      "seed": 3,
+      "view": "original",
+      "loss": 0.2681393854433718,
+      "error": 0.0993,
+      "confidence": 0.9060378452244978,
+      "n": 10000
+    },
+    {
+      "seed": 3,
+      "view": "flipped_only",
+      "loss": 2.6025375453531217,
+      "error": 0.3095,
+      "confidence": 0.859988494672781,
+      "n": 10000
+    },
+    {
+      "seed": 3,
+      "view": "full_average",
+      "loss": 0.5788283030328477,
+      "error": 0.2043,
+      "confidence": 0.8585937425785425,
+      "n": 10000
+    }
+  ],
+  "frozen_source_hashes": {
+    "data.py": "2434b9fa05dbf959fade93d1bbe0dbbf7691c59d2d96bff332becbb794ca55e9",
+    "model.py": "a035171d142946a624c113bee91baf39300713af75d12cf6edea6ec28fe2b1d4",
+    "policy.py": "0bd8866842beaa12925983b15f3b0d7fa5d0f19abcaa2530b5e7286244d3fefc",
+    "study.py": "53540ce045a616412207a30ac6ba49172bb2c17dbe254ee09d1ec4dd6b838afa",
+    "SOURCE_FREEZE.json": "aea2fcaed27fe33a2a7cbe9eddaf8423b33a631c35d98df69a01015509b0980f",
+    "MODEL_COMMIT.json": "24aa45d6d7d450cf0719e404976846ceba767cda0840e685976b492f9261a771",
+    "POLICY_COMMIT.json": "317244b1e73871984b3d939b8db2612bea361e84bb4a6e765601cfcfda1d7ba4",
+    "TEST_COMPLETE.json": "17099c4374e93394c4d926deb6664416c20502180b2a926973d873fcb4ff7292",
+    "temperatures.json": "f5539102962c2e6876b852ebd568385f28fbd81c0a895ba10efe86a220509507"
+  },
+  "source_modified": false,
+  "retuning": false
+}

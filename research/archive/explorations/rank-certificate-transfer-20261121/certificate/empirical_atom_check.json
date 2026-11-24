@@ -1,0 +1,9 @@
+{
+  "timestamp_utc": "2026-11-21T10:31:11.635123+00:00",
+  "flagged_points": 8,
+  "all_resolved_inside_empirical_band": true,
+  "minimum_containment_margin": 0.0,
+  "ordinary_forward_examples": 0,
+  "interval_jet_propagations": 0,
+  "interpretation": "The eight wide known-law location-CDF brackets came from radial discretization near profile extrema or flat pieces. Direct segment-threshold radial-CDF evaluation checks the actual location law at those points. This remains a finite-grid diagnostic, not a uniform confidence-event proof. No policy, bound or model is changed."
+}

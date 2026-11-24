@@ -1,0 +1,280 @@
+{
+  "scope": "First damping derivative only; target power and positive metric moment matching.",
+  "source_sha256": "175959995e840954aba143a8e5ec51c3d534117167b3ccda5d626e7fa0e2de4a",
+  "mixture": "(2/3) normalized SLD + (1/3) normalized RLD",
+  "records": [
+    {
+      "case": "non_lie_triple",
+      "metric": "SLD",
+      "epsilon": 0.12,
+      "contrast_norm": 1.4702952552219213e-05,
+      "quadrature_refinement": 2.9549190823348293e-20,
+      "observed_doubling_order": null
+    },
+    {
+      "case": "non_lie_triple",
+      "metric": "SLD",
+      "epsilon": 0.06,
+      "contrast_norm": 2.0447206739910984e-06,
+      "quadrature_refinement": 8.787966827763366e-21,
+      "observed_doubling_order": 2.8461302193928004
+    },
+    {
+      "case": "non_lie_triple",
+      "metric": "SLD",
+      "epsilon": 0.03,
+      "contrast_norm": 2.7015122187119546e-07,
+      "quadrature_refinement": 1.2753655132804208e-21,
+      "observed_doubling_order": 2.9200646600931393
+    },
+    {
+      "case": "non_lie_triple",
+      "metric": "SLD",
+      "epsilon": 0.015,
+      "contrast_norm": 3.47368154793698e-08,
+      "quadrature_refinement": 2.2499920874260236e-22,
+      "observed_doubling_order": 2.959229801971095
+    },
+    {
+      "case": "non_lie_triple",
+      "metric": "matched_mixture",
+      "epsilon": 0.12,
+      "contrast_norm": 2.140724594891319e-08,
+      "quadrature_refinement": 7.510508438927431e-23,
+      "observed_doubling_order": null
+    },
+    {
+      "case": "non_lie_triple",
+      "metric": "matched_mixture",
+      "epsilon": 0.06,
+      "contrast_norm": 8.045779321614101e-10,
+      "quadrature_refinement": 8.287946250390952e-25,
+      "observed_doubling_order": 4.733723225628962
+    },
+    {
+      "case": "non_lie_triple",
+      "metric": "matched_mixture",
+      "epsilon": 0.03,
+      "contrast_norm": 2.7684232017098248e-11,
+      "quadrature_refinement": 1.63597643032969e-25,
+      "observed_doubling_order": 4.861095762477415
+    },
+    {
+      "case": "non_lie_triple",
+      "metric": "matched_mixture",
+      "epsilon": 0.015,
+      "contrast_norm": 9.087764914183259e-13,
+      "quadrature_refinement": 1.2966144418912704e-26,
+      "observed_doubling_order": 4.928995175543171
+    },
+    {
+      "case": "lie_triple_star",
+      "metric": "SLD",
+      "epsilon": 0.12,
+      "contrast_norm": 4.3871574570590994e-06,
+      "quadrature_refinement": 2.057049663005034e-20,
+      "observed_doubling_order": null
+    },
+    {
+      "case": "lie_triple_star",
+      "metric": "SLD",
+      "epsilon": 0.06,
+      "contrast_norm": 2.716617221537017e-07,
+      "quadrature_refinement": 6.045455471282415e-21,
+      "observed_doubling_order": 4.01340328076926
+    },
+    {
+      "case": "lie_triple_star",
+      "metric": "SLD",
+      "epsilon": 0.03,
+      "contrast_norm": 1.693962351418069e-08,
+      "quadrature_refinement": 1.3367166150238947e-21,
+      "observed_doubling_order": 4.0033375843669585
+    },
+    {
+      "case": "lie_triple_star",
+      "metric": "SLD",
+      "epsilon": 0.015,
+      "contrast_norm": 1.0581149248097006e-09,
+      "quadrature_refinement": 3.2453773980120703e-22,
+      "observed_doubling_order": 4.000833574698101
+    },
+    {
+      "case": "lie_triple_star",
+      "metric": "matched_mixture",
+      "epsilon": 0.12,
+      "contrast_norm": 8.442841519158423e-09,
+      "quadrature_refinement": 8.20463834456153e-23,
+      "observed_doubling_order": null
+    },
+    {
+      "case": "lie_triple_star",
+      "metric": "matched_mixture",
+      "epsilon": 0.06,
+      "contrast_norm": 1.2926706292545684e-10,
+      "quadrature_refinement": 4.398704102084886e-24,
+      "observed_doubling_order": 6.029302003170385
+    },
+    {
+      "case": "lie_triple_star",
+      "metric": "matched_mixture",
+      "epsilon": 0.03,
+      "contrast_norm": 2.009610844792015e-12,
+      "quadrature_refinement": 3.3852893890395088e-25,
+      "observed_doubling_order": 6.007294760167257
+    },
+    {
+      "case": "lie_triple_star",
+      "metric": "matched_mixture",
+      "epsilon": 0.015,
+      "contrast_norm": 3.136054343863845e-14,
+      "quadrature_refinement": 2.010237431018952e-26,
+      "observed_doubling_order": 6.001821784835353
+    }
+  ],
+  "mixed_derivative_checks": [
+    {
+      "case": "non_lie_triple",
+      "epsilon": 0.04,
+      "actual_norm": 2.484326495128282e-10,
+      "predicted_norm": 2.4496318264036057e-10,
+      "absolute_error": 3.4694668724676415e-12,
+      "relative_error": 0.013965422335877354
+    },
+    {
+      "case": "non_lie_triple",
+      "epsilon": 0.02,
+      "actual_norm": 8.319662402882266e-12,
+      "predicted_norm": 8.291560614000708e-12,
+      "absolute_error": 2.8101788881557588e-14,
+      "relative_error": 0.0033777559137281817
+    },
+    {
+      "case": "non_lie_triple",
+      "epsilon": 0.01,
+      "actual_norm": 2.6927960948881757e-13,
+      "predicted_norm": 2.690559747576696e-13,
+      "absolute_error": 2.2363473114794027e-16,
+      "relative_error": 0.0008304926302161292
+    },
+    {
+      "case": "lie_triple_star",
+      "epsilon": 0.04,
+      "actual_norm": 3.510390459024322e-11,
+      "predicted_norm": 3.4997071623526184e-11,
+      "absolute_error": 1.0683296671703908e-13,
+      "relative_error": 0.003043335719033723
+    },
+    {
+      "case": "lie_triple_star",
+      "epsilon": 0.02,
+      "actual_norm": 5.472459245882425e-13,
+      "predicted_norm": 5.468292441175966e-13,
+      "absolute_error": 4.1668047064766477e-16,
+      "relative_error": 0.0007614135655028999
+    },
+    {
+      "case": "lie_triple_star",
+      "epsilon": 0.01,
+      "actual_norm": 8.545833957873614e-15,
+      "predicted_norm": 8.544206939337447e-15,
+      "absolute_error": 1.6270185378897307e-18,
+      "relative_error": 0.00019038733327959108
+    }
+  ],
+  "positive_quadrature_moment_checks": [
+    {
+      "atoms": 1,
+      "nodes_squared": [
+        0.3333333333333333
+      ],
+      "weights": [
+        1.0
+      ],
+      "moment_differences": [
+        0.0,
+        0.0,
+        0.08888888888888892
+      ],
+      "first_nonzero_metric_order": 4,
+      "matched_moment_max_error": 0.0,
+      "first_unmatched_moment": 0.08888888888888892
+    },
+    {
+      "atoms": 2,
+      "nodes_squared": [
+        0.11558710999704792,
+        0.7415557471458092
+      ],
+      "weights": [
+        0.6521451548625464,
+        0.34785484513745357
+      ],
+      "moment_differences": [
+        0.0,
+        1.6653345369377348e-16,
+        1.6653345369377348e-16,
+        1.1102230246251565e-16,
+        0.005804988662131597
+      ],
+      "first_nonzero_metric_order": 8,
+      "matched_moment_max_error": 1.6653345369377348e-16,
+      "first_unmatched_moment": 0.005804988662131597
+    },
+    {
+      "atoms": 3,
+      "nodes_squared": [
+        0.056939115967007355,
+        0.4371978527510939,
+        0.8694993949182622
+      ],
+      "weights": [
+        0.46791393457269104,
+        0.3607615730481387,
+        0.17132449237917027
+      ],
+      "moment_differences": [
+        0.0,
+        5.551115123125783e-17,
+        1.1102230246251565e-16,
+        1.1102230246251565e-16,
+        1.1102230246251565e-16,
+        1.249000902703301e-16,
+        0.0003690393300784106
+      ],
+      "first_nonzero_metric_order": 12,
+      "matched_moment_max_error": 1.249000902703301e-16,
+      "first_unmatched_moment": 0.0003690393300784106
+    },
+    {
+      "atoms": 4,
+      "nodes_squared": [
+        0.03364826806750684,
+        0.27618431387246445,
+        0.6346774762346367,
+        0.9221566084920586
+      ],
+      "weights": [
+        0.36268378337836166,
+        0.3137066458778869,
+        0.22238103445337443,
+        0.10122853629037706
+      ],
+      "moment_differences": [
+        0.0,
+        -6.106226635438361e-16,
+        -6.106226635438361e-16,
+        -5.828670879282072e-16,
+        -5.412337245047638e-16,
+        -4.85722573273506e-16,
+        -4.440892098500626e-16,
+        -4.0245584642661925e-16,
+        2.327415463262289e-05
+      ],
+      "first_nonzero_metric_order": 16,
+      "matched_moment_max_error": 6.106226635438361e-16,
+      "first_unmatched_moment": 2.327415463262289e-05
+    }
+  ],
+  "passed": true
+}

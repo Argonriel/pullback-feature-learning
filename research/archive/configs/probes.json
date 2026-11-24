@@ -1,0 +1,25 @@
+{
+  "stage": "frozen_feature_probes",
+  "source_directory": "reports/formal-v1",
+  "dtype": "float64",
+  "threads": 1,
+  "seed_ids": ["formal1", "formal2", "formal3"],
+  "methods": ["gd", "pullback"],
+  "checkpoints": [
+    {"id": "initial", "step": 0},
+    {"id": "early100", "step": 100},
+    {"id": "early500", "step": 500},
+    {"id": "middle1000", "step": 1000},
+    {"id": "iteration2000", "step": 2000},
+    {"id": "time", "endpoint": "time"}
+  ],
+  "alphas": [0.000001, 0.00001, 0.0001, 0.001, 0.01, 0.1, 1.0, 10.0],
+  "solver": {
+    "max_iterations": 100,
+    "gradient_tolerance": 0.000000001,
+    "armijo": 0.0001,
+    "max_backtracking": 40,
+    "scale_floor": 0.000000000001
+  },
+  "selection": "minimum_validation_loss_tie_larger_alpha"
+}

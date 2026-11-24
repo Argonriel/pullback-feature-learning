@@ -1,0 +1,12 @@
+{
+  "timestamp_utc": "2026-11-21T09:39:19.120650+00:00",
+  "fresh_training_authorized": true,
+  "validation_freeze_sha256": "2bf7a47f44fef37061d8e6d7be1a5c6870b8e99ae19543685d86f0cab0c0ea9f",
+  "selection_freeze_sha256": "6ee67aec07e526932d854aa311ad306b72083d5059da4fdf49138a94aae67cc9",
+  "bounds_freeze_sha256": "106247ab5ee0853d745d2c2c0784f62dd09da97e702f6ab7ca23b1876845672f",
+  "certificate_freeze_sha256": "b3e6164160372c9830f66ba5b5f37fae4c2566407c767050df89f8d36465478a",
+  "attribution_freeze_sha256": "5b605d0b98ed56df0013b3973de5d2f51fd3dba3bcece3d7a6e5241b32549e1e",
+  "cpu_serving_freeze_sha256": "0c6a30383332d36cc070a5f07c0fe9173938977a05b39a3f3fe083a90f43d3b7",
+  "fresh_state_directory_absent_before_approval": true,
+  "scope": "Generate all16 reserved PB models, calibrate frozen methods, evaluate all prespecified outcomes; preserve every failure; no retuning."
+}

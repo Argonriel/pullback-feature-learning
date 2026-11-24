@@ -1,0 +1,133 @@
+{
+  "status": "PASS",
+  "fresh_read": false,
+  "development_seeds": [
+    2099001,
+    2099002,
+    2099003
+  ],
+  "cases": [
+    {
+      "beta": 0.2,
+      "policy": "raw",
+      "calls": [
+        256
+      ],
+      "selected": 0,
+      "direct_error": 0.0
+    },
+    {
+      "beta": 0.2,
+      "policy": "full",
+      "calls": [
+        256,
+        256
+      ],
+      "selected": 256,
+      "direct_error": 0.0
+    },
+    {
+      "beta": 0.2,
+      "policy": "folded",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64,
+      "direct_error": 0.0
+    },
+    {
+      "beta": 0.2,
+      "policy": "symmetric_jensen",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64,
+      "direct_error": 0.0
+    },
+    {
+      "beta": 1.0,
+      "policy": "raw",
+      "calls": [
+        256
+      ],
+      "selected": 0,
+      "direct_error": 0.0
+    },
+    {
+      "beta": 1.0,
+      "policy": "full",
+      "calls": [
+        256,
+        256
+      ],
+      "selected": 256,
+      "direct_error": 0.0
+    },
+    {
+      "beta": 1.0,
+      "policy": "folded",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64,
+      "direct_error": 0.0
+    },
+    {
+      "beta": 1.0,
+      "policy": "symmetric_jensen",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64,
+      "direct_error": 0.0
+    },
+    {
+      "beta": 3.0,
+      "policy": "raw",
+      "calls": [
+        256
+      ],
+      "selected": 0,
+      "direct_error": 0.0
+    },
+    {
+      "beta": 3.0,
+      "policy": "full",
+      "calls": [
+        256,
+        256
+      ],
+      "selected": 256,
+      "direct_error": 0.0
+    },
+    {
+      "beta": 3.0,
+      "policy": "folded",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64,
+      "direct_error": 0.0
+    },
+    {
+      "beta": 3.0,
+      "policy": "symmetric_jensen",
+      "calls": [
+        256,
+        64
+      ],
+      "selected": 64,
+      "direct_error": 0.0
+    }
+  ],
+  "source_hashes": {
+    "study.py": "340466c43a8d153dac7eb467590d10ecb66c2357421be64f27d59405e4ac2653",
+    "adapters.py": "6f1501b81931d6da93557c7b5ddb4ca26b0f07563e1a918e582cae7dd4a61345",
+    "model.py": "fca6b349140849e8486a426d77ce3858123f005a9e84ecf2f112111acb05ac20"
+  }
+}

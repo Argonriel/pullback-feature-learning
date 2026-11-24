@@ -1,0 +1,86 @@
+{
+  "utc": "2026-11-21T22:48:14.981506+00:00",
+  "status": "PASS",
+  "certificate_rows": 128,
+  "elementary_bounds": 512,
+  "max_bound_error": 0.0,
+  "stress_rows": 2560,
+  "max_stress_metric_error": 2.220446049250313e-16,
+  "committed_arrays": 64,
+  "certificate_records": 65536,
+  "actual_certificate_forwards": 10266050,
+  "certificate_replays": [
+    {
+      "pair": 1,
+      "a": 0.0,
+      "batches": 128,
+      "additional_forwards": 20614
+    },
+    {
+      "pair": 1,
+      "a": 0.01,
+      "batches": 128,
+      "additional_forwards": 20478
+    },
+    {
+      "pair": 1,
+      "a": 0.6,
+      "batches": 128,
+      "additional_forwards": 20482
+    },
+    {
+      "pair": 8,
+      "a": 0.0,
+      "batches": 128,
+      "additional_forwards": 19486
+    },
+    {
+      "pair": 8,
+      "a": 0.01,
+      "batches": 128,
+      "additional_forwards": 19426
+    },
+    {
+      "pair": 8,
+      "a": 0.6,
+      "batches": 128,
+      "additional_forwards": 19448
+    }
+  ],
+  "additional_audit_forward_examples": 119934,
+  "primary_counts": [
+    {
+      "a": 0.0,
+      "known_eta": 0.0,
+      "positive_epsilon0": 16,
+      "lines": 16,
+      "minimum_conditional_eta_tolerance": 0.0010994181491349756,
+      "maximum_conditional_eta_tolerance": 0.0018504470401553997
+    },
+    {
+      "a": 0.01,
+      "known_eta": 0.006366197723675814,
+      "positive_epsilon0": 0,
+      "lines": 16,
+      "minimum_conditional_eta_tolerance": 0.001099309341891565,
+      "maximum_conditional_eta_tolerance": 0.0018485837248516574
+    },
+    {
+      "a": 0.1,
+      "known_eta": 0.06366197723675814,
+      "positive_epsilon0": 0,
+      "lines": 16,
+      "minimum_conditional_eta_tolerance": 0.0010969460078688572,
+      "maximum_conditional_eta_tolerance": 0.0018522291624960701
+    },
+    {
+      "a": 0.6,
+      "known_eta": 0.3819718634205488,
+      "positive_epsilon0": 0,
+      "lines": 16,
+      "minimum_conditional_eta_tolerance": 0.0011014958987697015,
+      "maximum_conditional_eta_tolerance": 0.0018465982420660517
+    }
+  ],
+  "mask_discrepancies": 0
+}

@@ -1,0 +1,16 @@
+{
+  "timestamp_utc": "2026-11-21T09:42:31.533396+00:00",
+  "primary_contrasts": [
+    [
+      "rank_balanced",
+      "confidence"
+    ],
+    [
+      "rank_balanced",
+      "rank_even"
+    ]
+  ],
+  "bootstrap_unit": "paired trained model",
+  "n_models": 16,
+  "bootstrap_draws": 20000
+}

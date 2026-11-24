@@ -1,0 +1,25 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const crypto = require('node:crypto');
+const dot = (a,b) => a[0]*b[0]+2*a[1]*b[1]+a[2]*b[2];
+const plus = (a,b,s=1) => a.map((x,i)=>x+s*b[i]);
+const trace = a => a[0]+a[2];
+const eig = a => {const m=(a[0]+a[2])/2,r=Math.hypot((a[0]-a[2])/2,a[1]);return [m+r,m-r];};
+const log = a => {const [u,v]=eig(a);const h=(Math.log(u)-Math.log(v))/(u-v);const z=Math.log(v)-h*v;return [h*a[0]+z,h*a[1],h*a[2]+z];};
+const bre = (Y,X,lambda) => {const D=plus(Y,X,-1);return dot(D,D)/2+lambda/2*(dot(Y,plus(log(Y),log(X),-1))-trace(Y)+trace(X));};
+const run = (lambda,c,dOverride) => {
+  const a=256,b=1,epsilon=0.1,X=[a,0,b],sqrt2=Math.sqrt(2);
+  const q=(1+lambda/2*Math.log(a/b)/(a-b))/(1+lambda/(a+b));
+  const d=dOverride || [-epsilon*c*(1+q)/2,epsilon];
+  const D=[d[0]/sqrt2,d[1]/sqrt2,-d[0]/sqrt2];
+  const Y=plus(X,D,-1),g=[d[0]+c*d[1],c*d[0]+d[1]];
+  const G=[g[0]/sqrt2,g[1]/sqrt2,-g[0]/sqrt2];
+  const velocity=[-2*a/(2*a+lambda)*G[0],-(a+b)/(a+b+lambda)*G[1],-2*b/(2*b+lambda)*G[2]];
+  const derivative=-(d[0]*g[0]+q*d[1]*g[1]);
+  const differences=[0.02,0.01,0.005,0.0025].map(h=>({h,centralDifference:(bre(Y,plus(X,velocity,h),lambda)-bre(Y,plus(X,velocity,-h),lambda))/(2*h)}));
+  return {lambda,c,epsilon,q,d,X,Y,weightEigenvalues:[1-c,1+c],targetEigenvalues:eig(Y),velocity,derivative,differences};
+};
+const main=run(257,.99),controlIsotropic=run(257,0,main.d),controlCommutingResidual=run(257,.99,[main.d[0],0]),controlZeroDamping=run(0,.99,main.d);
+const out={date:'2026-11-21',purpose:'Check exact reverse-Bregman Lyapunov obstruction only; no trajectory integration',sourceSha256:crypto.createHash('sha256').update(fs.readFileSync(__filename)).digest('hex'),node:process.version,main,controlIsotropic,controlCommutingResidual,controlZeroDamping,pass:main.derivative>0&&main.targetEigenvalues[1]>0&&controlIsotropic.derivative<0&&controlCommutingResidual.derivative<0&&controlZeroDamping.derivative<0};
+fs.writeFileSync(path.join(__dirname,'lyapunov_counterexample_results.json'),JSON.stringify(out,null,2)+'\n');
+console.log(JSON.stringify(out,null,2));

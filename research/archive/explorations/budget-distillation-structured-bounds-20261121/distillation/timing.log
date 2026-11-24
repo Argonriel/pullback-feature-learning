@@ -1,0 +1,9 @@
+TIMED 1 cpu
+TIMED 1 cuda_resident
+TIMED 1 cuda_transfer
+TIMED 2 cpu
+TIMED 2 cuda_resident
+TIMED 2 cuda_transfer
+TIMED 3 cpu
+TIMED 3 cuda_resident
+TIMED 3 cuda_transfer

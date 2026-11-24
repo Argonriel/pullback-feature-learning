@@ -1,0 +1,91 @@
+{
+  "scope": "One new 6x6 coupled-center classified case; numerical consistency, not proof.",
+  "damping": 1.7,
+  "target": [
+    0.12,
+    -0.08,
+    0.09,
+    -0.11,
+    0.06,
+    0.1,
+    -0.07,
+    0.14
+  ],
+  "seed": 20261121,
+  "basis_dimension": 8,
+  "normal_inside_J_dimension": 2,
+  "weight_spectra": [
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      0.7000000000000001,
+      0.9000000000000005,
+      1.1,
+      1.3000000000000005,
+      1.4999999999999998,
+      1.7,
+      1.9000000000000006,
+      2.1000000000000005
+    ]
+  ],
+  "prediction_newton_steps": 3,
+  "prediction_invariant_residual": 3.3887102699122705e-16,
+  "ambient_KKT_residual": 3.257587142897895e-16,
+  "coarse_weight_gap": 1.3325254126835503e-11,
+  "fine_weight_gap": 8.439175186449136e-13,
+  "step_refinement_errors": [
+    5.0853927230268365e-12,
+    1.750980403011195e-11
+  ],
+  "records": [
+    {
+      "dt": 0.025,
+      "steps": 4000,
+      "horizon": 100.0,
+      "measurement_residual": 6.32924884891589e-15,
+      "minimum_sampled_eigenvalue": 0.8170698738942807,
+      "max_sampled_invariant_drift": 1.0162846593893107e-11,
+      "weight_index": 0,
+      "endpoint_prediction_error": 5.45252182353513e-12
+    },
+    {
+      "dt": 0.0125,
+      "steps": 8000,
+      "horizon": 100.0,
+      "measurement_residual": 1.2763725187372467e-14,
+      "minimum_sampled_eigenvalue": 0.8170698738966847,
+      "max_sampled_invariant_drift": 6.838796842548468e-13,
+      "weight_index": 0,
+      "endpoint_prediction_error": 3.674404081798002e-13
+    },
+    {
+      "dt": 0.025,
+      "steps": 4000,
+      "horizon": 100.0,
+      "measurement_residual": 1.038478904625284e-14,
+      "minimum_sampled_eigenvalue": 0.8170698738883408,
+      "max_sampled_invariant_drift": 3.4798191862433856e-11,
+      "weight_index": 1,
+      "endpoint_prediction_error": 1.8716547297831247e-11
+    },
+    {
+      "dt": 0.0125,
+      "steps": 8000,
+      "horizon": 100.0,
+      "measurement_residual": 2.102069050649663e-14,
+      "minimum_sampled_eigenvalue": 0.8170698738963021,
+      "max_sampled_invariant_drift": 2.2451505504103247e-12,
+      "weight_index": 1,
+      "endpoint_prediction_error": 1.2074274757184377e-12
+    }
+  ],
+  "passed": true
+}

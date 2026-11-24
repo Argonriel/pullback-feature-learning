@@ -1,0 +1,21 @@
+{
+  "utc": "2026-11-21T23:19:10.697963+00:00",
+  "actual_experimental_unique_fitting_labels": 118784,
+  "accepted_training_label_union": 36864,
+  "validation_label_union": 16384,
+  "calibration_label_union": 65536,
+  "synthetic_training_rejection_proposals": 147456,
+  "actual_training_example_updates": 73461760,
+  "actual_training_nominal_arithmetic_flops": 13389287921024,
+  "actual_lu_solves": 118096,
+  "actual_training_diagnostic_forward_examples": 155648,
+  "actual_validation_forward_examples": 65536,
+  "actual_shared_calibration_forward_examples": 950272,
+  "actual_temperature_derivative_evaluations": 23904,
+  "actual_temperature_objective_evaluations": 576,
+  "actual_temperature_derivative_label_evaluations": 78872576,
+  "actual_temperature_objective_label_evaluations": 1900544,
+  "actual_test_forward_examples": 75497472,
+  "actual_test_invocations": 294912,
+  "notes": "Procedures share trajectories/checkpoints within the experiment. Standalone ledgers count each alternative independently. Calibration raw/full outputs are shared within a procedure but physically recomputed across procedures. Preflight and isolated timing are extra audit work recorded separately. Scalar temperature derivatives are two bound evaluations, iterations bisection evaluations, and one final evaluation; there are two objective evaluations per fit."
+}

@@ -1,0 +1,9 @@
+alpha,contrast,lower,mean_difference,metric,primary,ties,upper,wins
+0.0125,selected_full_final_vs_rawT,-0.016366118978832958,-0.01309821427695708,expected_nll,True,0,-0.010031187541688361,16
+0.05,selected_full_final_vs_rawT,0.0,0.0,expected_error,False,16,0.0,0
+0.0125,selected_interp_final_vs_rawT,-0.008040296818659514,-0.006156999644477315,expected_nll,True,0,-0.004516322575187285,16
+0.05,selected_interp_final_vs_rawT,0.0,0.0,expected_error,False,16,0.0,0
+0.0125,extra_training_vs_legacy_rawT,-0.10274564960923396,-0.09419535870245678,expected_nll,True,0,-0.08466773443965962,16
+0.05,extra_training_vs_legacy_rawT,-0.1070389901876039,-0.0978455832101957,expected_error,False,0,-0.08770753157394115,16
+0.0125,selected_vs_legacy_rawT,0.001643509450056505,0.0050941286305052555,expected_nll,True,0,0.007989153334745468,3
+0.05,selected_vs_legacy_rawT,0.003617977345866634,0.006361193606302679,expected_error,False,0,0.008888157474757415,4

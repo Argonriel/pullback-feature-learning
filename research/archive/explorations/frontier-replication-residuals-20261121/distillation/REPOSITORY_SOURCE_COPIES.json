@@ -1,0 +1,22 @@
+{
+  "model.py": {
+    "sha256": "a035171d142946a624c113bee91baf39300713af75d12cf6edea6ec28fe2b1d4",
+    "repository_path": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\experiments\\distillation_replication\\model.py"
+  },
+  "study.py": {
+    "sha256": "7b777bf4b5a80dfd0c12c10ed82370aea2fa4712eab7da314171b859bca3b4c6",
+    "repository_path": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\experiments\\distillation_replication\\study.py"
+  },
+  "inference.py": {
+    "sha256": "1c0a431621d9b82ba8b0032083bc9c68010046b3bf6dae1af3df8f8d74443e9f",
+    "repository_path": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\experiments\\distillation_replication\\inference.py"
+  },
+  "prepare_zappos.py": {
+    "sha256": "47d79dd7a1cf56a64546299601497bf4344a78e844d0c6d03e3cae4095852a8c",
+    "repository_path": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\experiments\\distillation_replication\\prepare_zappos.py"
+  },
+  "report.py": {
+    "sha256": "d5baae6023dc048a524377145f6a8c2f6f4cf8acb8fab6af8e43268578827826",
+    "repository_path": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\experiments\\distillation_replication\\report.py"
+  }
+}

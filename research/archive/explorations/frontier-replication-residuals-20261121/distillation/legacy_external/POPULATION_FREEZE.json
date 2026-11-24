@@ -1,0 +1,110 @@
+{
+  "utc": "2026-11-21T23:00:01.364375+00:00",
+  "mapping": {
+    "Tshirts": 0,
+    "Trousers": 1,
+    "Dresses": 3,
+    "Sandals": 5,
+    "Shirts": 6,
+    "Handbags": 8
+  },
+  "per_class": 250,
+  "selection_salt": "external-population-2321000",
+  "candidate_counts": {
+    "Tshirts": 7070,
+    "Trousers": 530,
+    "Dresses": 464,
+    "Sandals": 897,
+    "Shirts": 3217,
+    "Handbags": 1759
+  },
+  "selected": 1500,
+  "exclusions": [
+    {
+      "id": "41300",
+      "category": "Tshirts",
+      "reason": "internal_raw_exact_duplicate"
+    },
+    {
+      "id": "13307",
+      "category": "Trousers",
+      "reason": "internal_raw_exact_duplicate"
+    },
+    {
+      "id": "39752",
+      "category": "Trousers",
+      "reason": "internal_raw_exact_duplicate"
+    },
+    {
+      "id": "35432",
+      "category": "Dresses",
+      "reason": "internal_raw_exact_duplicate"
+    },
+    {
+      "id": "43694",
+      "category": "Dresses",
+      "reason": "internal_raw_exact_duplicate"
+    },
+    {
+      "id": "52128",
+      "category": "Dresses",
+      "reason": "internal_raw_exact_duplicate"
+    },
+    {
+      "id": "50720",
+      "category": "Dresses",
+      "reason": "internal_raw_exact_duplicate"
+    },
+    {
+      "id": "50723",
+      "category": "Dresses",
+      "reason": "internal_raw_exact_duplicate"
+    },
+    {
+      "id": "34063",
+      "category": "Dresses",
+      "reason": "internal_raw_exact_duplicate"
+    },
+    {
+      "id": "34114",
+      "category": "Dresses",
+      "reason": "internal_raw_exact_duplicate"
+    },
+    {
+      "id": "34065",
+      "category": "Dresses",
+      "reason": "internal_raw_exact_duplicate"
+    },
+    {
+      "id": "34040",
+      "category": "Shirts",
+      "reason": "internal_raw_exact_duplicate"
+    },
+    {
+      "id": "34036",
+      "category": "Shirts",
+      "reason": "internal_raw_exact_duplicate"
+    },
+    {
+      "id": "34033",
+      "category": "Shirts",
+      "reason": "internal_raw_exact_duplicate"
+    },
+    {
+      "id": "11072",
+      "category": "Shirts",
+      "reason": "internal_raw_exact_duplicate"
+    }
+  ],
+  "fashion_mnist_unique_pixel_hashes": 70000,
+  "exact_overlap_with_fashion_mnist": 0,
+  "selected_internal_exact_raw_duplicates": 0,
+  "selected_internal_exact_preprocessed_duplicates": 0,
+  "near_duplicates_or_same_product_families_not_ruled_out": true,
+  "models_loaded": false,
+  "preprocessing": "Pillow L grayscale; invert; LANCZOS fit inside 24x24 preserving aspect; centered black 28x28 pad; uint8 / 255 at model entry",
+  "source_metadata_sha256": "cf8553507e0623ecc50af37bbaea38175877de76a4482f69fa0f610e3c2bf57c",
+  "population_sha256": "8143a5fd3c30f92e2eae7ad85eb449cd252d9bb8869abd4a301d275196bf67b5",
+  "raw_archive_sha256": "e223d09ba5fb5829892e507989dba11b2549a31fabed994ad5353e4b6ef87b7a",
+  "license": "MIT as declared by dataset owner in Kaggle API metadata; independent ownership clearance not audited"
+}

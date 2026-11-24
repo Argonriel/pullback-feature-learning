@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "checked_lp_anchors": 2032,
+  "max_lp_balance_residual": 1.1102230246251565e-16,
+  "max_first_order_quadrature_formula_error": 0.0,
+  "independent_full_test_masks_and_risks": 30,
+  "max_risk_error": 0.0,
+  "checked_fresh_continuous_moment_points": 896
+}

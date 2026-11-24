@@ -1,0 +1,35 @@
+{
+  "seed_pairs": 8,
+  "train_size": 256,
+  "validation_size": 256,
+  "noise": 0.15,
+  "centers": [
+    0,
+    0
+  ],
+  "radii": [
+    0.5,
+    1.2
+  ],
+  "switch_at": 100,
+  "settings": {
+    "gd": {
+      "learning_rate": 0.125
+    },
+    "pullback": {
+      "learning_rate": 8.0,
+      "damping": 0.1
+    }
+  },
+  "checkpoints": [
+    100,
+    500,
+    2000
+  ],
+  "numpy": "2.5.5",
+  "threads": 1,
+  "source_commit": "6fedad49d68e215bfd226f40fc87bf6ae4f09460",
+  "core_sha256": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5",
+  "driver_sha256": "497a34b7dffa17bd99dbdcab2f359e6a7981d1dcf1c5c7d9e143b5f8606fb075",
+  "plan_sha256": "a4e5a3b47f5770673b76387c1c86aaf91c881960a05c837d8d610cd8d77fd4e3"
+}

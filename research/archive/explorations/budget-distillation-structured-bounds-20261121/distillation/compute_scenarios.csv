@@ -1,0 +1,13 @@
+pair,scenario,students_sharing_teacher,per_student_matrix_flops,per_student_observed_fitting_seconds,matched_control_matrix_flops,interpretation
+1,teacher_amortized,1,13784417280000.0,23.210449699981837,13784407362560.0,K=1 primary full cost; K>1 hypothetical shared targets and teacher
+1,teacher_amortized,10,7403802624000.0,11.662113199979649,13784407362560.0,K=1 primary full cost; K>1 hypothetical shared targets and teacher
+1,teacher_amortized,100,6765741158400.0,10.50727954997943,13784407362560.0,K=1 primary full cost; K>1 hypothetical shared targets and teacher
+1,teacher_sunk_marginal,0,6694845440000.0,10.378964699979406,13784407362560.0,Descriptive only; excludes previously paid teacher+targets
+2,teacher_amortized,1,13784417280000.0,19.552516600029776,13784407362560.0,K=1 primary full cost; K>1 hypothetical shared targets and teacher
+2,teacher_amortized,10,7403802624000.0,11.072278930005268,13784407362560.0,K=1 primary full cost; K>1 hypothetical shared targets and teacher
+2,teacher_amortized,100,6765741158400.0,10.224255163002818,13784407362560.0,K=1 primary full cost; K>1 hypothetical shared targets and teacher
+2,teacher_sunk_marginal,0,6694845440000.0,10.130030300002545,13784407362560.0,Descriptive only; excludes previously paid teacher+targets
+3,teacher_amortized,1,13784417280000.0,19.295988900004886,13784407362560.0,K=1 primary full cost; K>1 hypothetical shared targets and teacher
+3,teacher_amortized,10,7403802624000.0,10.897436220006785,13784407362560.0,K=1 primary full cost; K>1 hypothetical shared targets and teacher
+3,teacher_amortized,100,6765741158400.0,10.057580952006974,13784407362560.0,K=1 primary full cost; K>1 hypothetical shared targets and teacher
+3,teacher_sunk_marginal,0,6694845440000.0,9.964263700006995,13784407362560.0,Descriptive only; excludes previously paid teacher+targets

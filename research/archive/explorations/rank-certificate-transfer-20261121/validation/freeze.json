@@ -1,0 +1,177 @@
+{
+  "timestamp_utc": "2026-11-21T10:14:11.955959+00:00",
+  "config": {
+    "cohorts": {
+      "rings": {
+        "train": 1001000,
+        "init": 1002000,
+        "rank": 1003000,
+        "folded": 1004000,
+        "test": 1005000,
+        "ties": 1006000,
+        "actions": 1007000,
+        "labels": 1008000
+      },
+      "transfer": {
+        "train": 1041000,
+        "init": 1042000,
+        "rank": 1043000,
+        "folded": 1044000,
+        "test": 1045000,
+        "ties": 1046000,
+        "actions": 1047000,
+        "labels": 1048000
+      }
+    },
+    "n_pairs": 16,
+    "test_n": 65536,
+    "batch": 256,
+    "quota": 64,
+    "tau": 1.0,
+    "rank_forwards": 66048,
+    "rank_coordinate_inputs": 131072,
+    "folded_inputs": 33024,
+    "angle_quotients": 64,
+    "angle_nodes": 128,
+    "angle_candidate_indices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64
+    ],
+    "angle_bins": 16,
+    "minimum_independent_quotients": 4,
+    "bootstrap_seed": 1009000,
+    "bootstrap_repeats": 20000,
+    "primary_methods": [
+      "pb"
+    ],
+    "secondary_transfer_methods": [
+      "gd"
+    ],
+    "primary_references": [
+      "confidence",
+      "rank_even"
+    ],
+    "primary_family_size": 4,
+    "ordinary_interval": 0.95,
+    "family_adjusted_interval": 0.9875,
+    "secondary_worlds": [
+      "half",
+      "increasing",
+      "decreasing",
+      "threshold"
+    ],
+    "no_retuning": true
+  },
+  "policies": [
+    "raw",
+    "full",
+    "confidence",
+    "folded",
+    "rank_balanced",
+    "rank_even",
+    "rank_unbalanced",
+    "confidence_radial",
+    "full_radial"
+  ],
+  "training": {
+    "rings": {
+      "pb": {
+        "steps": 500,
+        "rate": 8.0,
+        "damping": 0.1
+      }
+    },
+    "transfer": {
+      "gd": {
+        "steps": 500,
+        "rate": 0.3,
+        "damping": 0.1
+      },
+      "pb": {
+        "steps": 500,
+        "rate": 8.0,
+        "damping": 0.1
+      }
+    }
+  },
+  "secondary_policy_names": [
+    "raw",
+    "full"
+  ],
+  "source_hashes": {
+    "validation/study.py": "d64e48ff3d82552dceeb5f4a59a4afc0c0577968b8235edb2a7f5300fcd8a387",
+    "validation/adapters.py": "a614d61c180a7b3adcc8fb6d3cfa0421fca1a337e1989b2e7aed8a780c261097",
+    "validation/PROTOCOL.md": "f863eaaecfd4405d41f27fd266c0591b3d8283158ad5c738a1d67ac2711be03c",
+    "reference/rank_policy.py": "9f6e3e96a85fa62657ec1430aececc846cffa3ce338786356d514d942d00ae31",
+    "source/pullback_feature_learning/core.py": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5",
+    "legacy/budgeted-rotation-final/generator.py": "885eb5c8d8878b57df1025c1a5a69b6978d4c2803f3f0e552c557170c7e355d2",
+    "transfer/task.py": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77",
+    "transfer/rank_policy.py": "32feb6f0c13b7db4b5cc3b2f348c0af28c1d78676fa9e776b2a9a93c837379a8",
+    "transfer/FREEZE.json": "cec904fc33f2584daf5edb29fb2a94dec1336953e42e5a41b95719829ca359d6",
+    "transfer/TRAINING_CHOICE.json": "b9b2cb02fa128f55b424b3a968b9e5c30b991898dbacea9a2f7efb3a7692c691"
+  },
+  "fresh_state_directory_absent": true,
+  "fresh_outcomes_accessed": false
+}

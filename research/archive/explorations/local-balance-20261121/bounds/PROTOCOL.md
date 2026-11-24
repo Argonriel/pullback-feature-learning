@@ -1,0 +1,15 @@
+# Frozen local-bound confirmation protocol
+
+The original continuous balanced field, its 129 coefficient knots, 512 full-circle fitting points, eight Fourier frequencies, and one-of-four exact-quota deployment are unchanged. This component improves its offline analysis. It does not select a different model, policy, hidden posterior, or deployed mask.
+
+Development used four previously observed models, IDs 1, 2, 8, and 16 from the prior 821xxx cohort. Every combination of radial subdivisions 4 or 8 and folded angular cell counts 256 or 512 was retained. The smallest setting, subdivisions 4 and 256 folded cells, already reduced integrated bounds by thousands of times and was selected for bounded confirmation. The choice and its alternatives are recorded before fresh-model access.
+
+Use all 16 fresh 921xxx PB500 models and the unchanged field-fitting routine. Freeze source and theorem hashes before those states are generated or read by this investigator. No fresh outcome changes resolution, interval padding, coefficient parity handling, or test tolerances. Old and fresh model summaries remain separate. Fresh outputs are `fresh/{seed}_local.npz`.
+
+The primary local-bound target is that the mean known-input-law integrated local upper bound is at most 1% of the corresponding mean global upper bound across the 16 fresh models. Report per-model uniform bounds, integrated bounds, angular/radial/node-envelope components, and numerical actual absolute moments. This target measures analytical tightness; a positive unknown-posterior risk certificate is evaluated independently by the root study and is not assumed to follow automatically.
+
+The main bound uses 262,144 antipodal interval-jet propagations per model, each with five state/derivative components, and 262,656 exact ordinary point forwards. Count them separately. Optional numerical checks use 257 radii with 2,048 full-circle points, plus a 2,049-radius, 1,024-full-circle-point diagnostic curve. Every test point is evaluation-only. Check seeds are 947001–947016 for prior models and 948001–948016 for fresh models. No sample defines the deterministic bound.
+
+Retain interval and moment enclosure failures. The finite-difference audit records six step sizes from 2e-4 down to 6.25e-6, including coarse-step truncation and fine-step roundoff. Its diagnostic requires the finest first-derivative relative error (normalized by 1+absolute derivative) below 2e-6 and at least one second-derivative step below 1e-5. A failed diagnostic is recorded rather than used to change a policy or bound. Direct interval/moment enclosure checks remain distinct from finite differences.
+
+The theorem is in real arithmetic. Float64 interval calculations use padding, not formally directed-rounded arithmetic. Positive Poisson-Gamma mixture truncation has an explicit remainder, while floating-point CDF arithmetic is still numerical. Root's independent confidence sample does not need the radial density, and may use the pointwise bound directly. Keep every development alternative and command/numerical failure in the record.

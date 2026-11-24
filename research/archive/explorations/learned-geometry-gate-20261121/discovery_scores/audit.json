@@ -1,0 +1,62 @@
+{
+  "started_utc": "2026-11-22T01:54:13.628117+00:00",
+  "run": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\learned-geometry-gate-20261121\\discovery",
+  "source_sha256": "a36cc8cb54515f2e7af277eaba669b9347d227a8bf5bb5f8d2a783cd11b1689c",
+  "training_finished_utc": "2026-11-22T01:51:05.639216+00:00",
+  "input_sha256": {
+    "config.json": "fe5e60a1d964e79025dece6b7499b00a79dda8fd69fc75aaa7694eb0c4f4e952",
+    "provenance.json": "68476202809e8eb122878ee4963bdcb2773c6e41e0c6976fdbf753387a9776de",
+    "data.npz": "4eec4a9a44094d978b8f03a9e968931f64d653421e48a29b84134f1741f0e180",
+    "states.npz": "e0e3528413c66a41333bccc0923e5be1e8a1be38e9bf8c2e81b5279f8f113ada",
+    "snapshots.json": "d130c6417fc496c65005ecb8c412d4657fb6334381e7bb02e48e9a51c4a05d08",
+    "actual_seeds.json": "6fc764d572e7791d8b01a41bca19b060ce38bd01568517b159c7943b41a7aa1f"
+  },
+  "data_regeneration": {
+    "moons__d1": "exact",
+    "moons__d2": "exact",
+    "moons__d3": "exact",
+    "moons__d4": "exact",
+    "rings__d1": "exact",
+    "rings__d2": "exact",
+    "rings__d3": "exact",
+    "rings__d4": "exact"
+  },
+  "training_loss_max_error": 0.0,
+  "independent_quadrature": [
+    {
+      "state_key": "s000135",
+      "arm": "nonlinear_gd",
+      "differences": {
+        "risk": 4.421130128662298e-12,
+        "radial_excess": 4.6091602756703764e-12,
+        "angular_excess": 1.874750354957655e-13
+      },
+      "passes": true
+    },
+    {
+      "state_key": "s000143",
+      "arm": "nonlinear_pb",
+      "differences": {
+        "risk": 1.0553863338813585e-11,
+        "radial_excess": 9.441780690622181e-12,
+        "angular_excess": 1.1113627379488733e-12
+      },
+      "passes": true
+    }
+  ],
+  "failures": [],
+  "finished_utc": "2026-11-22T01:54:20.571343+00:00",
+  "status": "passed",
+  "scored_rows": 250,
+  "unique_evaluations": 190,
+  "output_sha256": {
+    "contrasts.csv": "0ed5874cc794ce7341e96ee366ac86d45735b9b568807408af44e67aa5be601f",
+    "contrasts.json": "8ce98e1f73feff2dcbfc39cf004cd7ffeb2515ea81e99e2177be5e4d012e22f9",
+    "evaluation_data.npz": "ce74af5b955d90a4cd889402b09c0fd4cec2805ac5b8ab7aa431169be51be9f6",
+    "gate_decisions.json": "aa36390a9c3492bdb946d5ca0303885b6a3a4fde4ad7c605b69118eb6513dc2b",
+    "group_means.csv": "20d1438398503e8739a28c4bcf26870c8b53295e5399de3924b5fe4256e8754b",
+    "group_means.json": "025439a8c8c078ffe210aad5a211484a2b4e76105338a25f1f7ca90496e5ccfb",
+    "metrics.csv": "a3d7c32e59ae0aaf88d81dd44b8db3aac57e8fee1070515eebdccfb3ac343b4b",
+    "metrics.json": "d7766eb54d8f553ce08cf0e3bb5384cf4d78a21786cc9d9a6088ee20b2a91201"
+  }
+}

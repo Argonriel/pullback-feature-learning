@@ -1,0 +1,142 @@
+{
+  "scope": "Frozen tiny reductions and one matrix integrability falsification; no training-performance claim.",
+  "source_sha256": "7275908b58d91d8140d7cbdf6d01c6ab8a2654d98dc143644b12b3a84e6d8416",
+  "diagonal_checks": [
+    {
+      "depth": 2,
+      "predictor_velocity_max_error": 5.551115123125783e-17,
+      "squared_layer_balance_rate_error": 3.608224830031759e-16
+    },
+    {
+      "depth": 3,
+      "predictor_velocity_max_error": 1.1102230246251565e-16,
+      "squared_layer_balance_rate_error": 1.249000902703301e-16
+    },
+    {
+      "depth": 4,
+      "predictor_velocity_max_error": 8.326672684688674e-17,
+      "squared_layer_balance_rate_error": 4.3021142204224816e-16
+    }
+  ],
+  "prefix_checks": [
+    {
+      "depth": 2,
+      "prefix_velocity": [
+        7.095377918419076e-17,
+        0.6153846153846154
+      ],
+      "coordinate_change_error": 7.095377918419076e-17
+    },
+    {
+      "depth": 3,
+      "prefix_velocity": [
+        -9.119720958999736e-17,
+        7.021363180298145e-17,
+        0.6153846153846153
+      ],
+      "coordinate_change_error": 1.1102230246251565e-16
+    },
+    {
+      "depth": 4,
+      "prefix_velocity": [
+        8.060378670309846e-19,
+        1.4744957225377416e-16,
+        -1.6402136602120527e-16,
+        0.6153846153846155
+      ],
+      "coordinate_change_error": 1.6402136602120527e-16
+    }
+  ],
+  "small_init_projection": [
+    {
+      "layer_init_epsilon": 0.1,
+      "damping": 0.0001,
+      "depth": 3,
+      "anchor_scale_lambda_epsilon_power": 0.001,
+      "bregman_projection": [
+        0.4992733607785901,
+        0.25036331961070496
+      ],
+      "stationarity_error": 1.6653345369377348e-16,
+      "measurement_error": 0.0
+    },
+    {
+      "layer_init_epsilon": 0.01,
+      "damping": 0.0001,
+      "depth": 3,
+      "anchor_scale_lambda_epsilon_power": 0.01,
+      "bregman_projection": [
+        0.4975229807174991,
+        0.25123850964125044
+      ],
+      "stationarity_error": 2.220446049250313e-16,
+      "measurement_error": 0.0
+    },
+    {
+      "layer_init_epsilon": 0.001,
+      "damping": 0.0001,
+      "depth": 3,
+      "anchor_scale_lambda_epsilon_power": 0.1,
+      "bregman_projection": [
+        0.47502503532507956,
+        0.2624874823374602
+      ],
+      "stationarity_error": 0.0,
+      "measurement_error": 0.0
+    },
+    {
+      "layer_init_epsilon": 0.0001,
+      "damping": 0.0001,
+      "depth": 3,
+      "anchor_scale_lambda_epsilon_power": 1.0,
+      "bregman_projection": [
+        0.25004469657013906,
+        0.37497765171493047
+      ],
+      "stationarity_error": 0.0,
+      "measurement_error": 0.0
+    },
+    {
+      "layer_init_epsilon": 1e-05,
+      "damping": 0.0001,
+      "depth": 3,
+      "anchor_scale_lambda_epsilon_power": 9.999999999999998,
+      "bregman_projection": [
+        1.5624261788261803e-14,
+        0.4999999999999922
+      ],
+      "stationarity_error": 0.0,
+      "measurement_error": 0.0
+    }
+  ],
+  "noncommuting_matrix_check": {
+    "matrix": [
+      [
+        0.8,
+        0.0
+      ],
+      [
+        0.0,
+        1.7
+      ]
+    ],
+    "damping": 0.3,
+    "full_parameter_vs_reduced_matrix_velocity_error": 2.220446049250313e-16,
+    "integrability_defects": [
+      {
+        "finite_difference_step": 0.001,
+        "hessian_integrability_defect": 0.02700001989352377
+      },
+      {
+        "finite_difference_step": 0.0001,
+        "hessian_integrability_defect": 0.02700000019885987
+      },
+      {
+        "finite_difference_step": 1e-05,
+        "hessian_integrability_defect": 0.026999999994715744
+      }
+    ],
+    "analytic_integrability_defect": 0.026999999999999996,
+    "interpretation": "Non-Hessian geometry is not a new implicit-bias or generalization theorem."
+  }
+}

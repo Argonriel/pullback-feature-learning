@@ -1,0 +1,195 @@
+{
+  "status": "PASS with interpretation qualifications",
+  "frozen_source_hashes_checked": 17,
+  "model_weight_and_policy_hashes_pass": true,
+  "quality_rows_recomputed": 63,
+  "max_expected_risk_recomputation_error": 1.3877787807814457e-17,
+  "posterior_recomputation_error": 0.0,
+  "raw_call_records_checked": 4032,
+  "equivalence_rows": 126,
+  "equivalence_policy_device_batches": 8064,
+  "equivalence_max_logit_error": 0.0,
+  "fusion_checks": 18,
+  "timing_rows": 2646,
+  "median_groups": 378,
+  "maximum_median_error": 0.0,
+  "maximum_speedup_error": 0.0,
+  "maximum_summary_error": 0.0,
+  "break_even_rows_checked": 378,
+  "gpu_limited_policy_comparisons": 144,
+  "gpu_limited_faster_count": 0,
+  "folded_fused_headlines": [
+    {
+      "width": 64,
+      "condition": "resident",
+      "mean_speedup": 0.17682902903859254,
+      "min_speedup": 0.17097980723365913,
+      "max_speedup": 0.18701897786590055,
+      "faster_models": 0,
+      "calibration_only_break_even_batches": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "width": 64,
+      "condition": "transfer",
+      "mean_speedup": 0.2567231140024588,
+      "min_speedup": 0.22900359636132853,
+      "max_speedup": 0.27307803486369975,
+      "faster_models": 0,
+      "calibration_only_break_even_batches": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "width": 64,
+      "condition": "cpu",
+      "mean_speedup": 0.6303728238038616,
+      "min_speedup": 0.6170020043169905,
+      "max_speedup": 0.6521604747480991,
+      "faster_models": 0,
+      "calibration_only_break_even_batches": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "width": 256,
+      "condition": "resident",
+      "mean_speedup": 0.17757401435425277,
+      "min_speedup": 0.17054263565891473,
+      "max_speedup": 0.18559157984844507,
+      "faster_models": 0,
+      "calibration_only_break_even_batches": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "width": 256,
+      "condition": "transfer",
+      "mean_speedup": 0.25815689255443763,
+      "min_speedup": 0.24676998595310498,
+      "max_speedup": 0.2690437410928226,
+      "faster_models": 0,
+      "calibration_only_break_even_batches": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "width": 256,
+      "condition": "cpu",
+      "mean_speedup": 1.1926770665135875,
+      "min_speedup": 1.1547280255722052,
+      "max_speedup": 1.225134926754048,
+      "faster_models": 3,
+      "calibration_only_break_even_batches": [
+        "31",
+        "12",
+        "10"
+      ]
+    },
+    {
+      "width": 1024,
+      "condition": "resident",
+      "mean_speedup": 0.15138151533024832,
+      "min_speedup": 0.1454452272908208,
+      "max_speedup": 0.15515670594034567,
+      "faster_models": 0,
+      "calibration_only_break_even_batches": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "width": 1024,
+      "condition": "transfer",
+      "mean_speedup": 0.2206853439878368,
+      "min_speedup": 0.2167789919705437,
+      "max_speedup": 0.2279423922748768,
+      "faster_models": 0,
+      "calibration_only_break_even_batches": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "width": 1024,
+      "condition": "cpu",
+      "mean_speedup": 1.5049540574189753,
+      "min_speedup": 1.4822299950983528,
+      "max_speedup": 1.5304269999555673,
+      "faster_models": 3,
+      "calibration_only_break_even_batches": [
+        "2",
+        "2",
+        "2"
+      ]
+    }
+  ],
+  "cuda_quality": [
+    {
+      "width": 64,
+      "raw": 0.033974427482269365,
+      "full_sequential": 0.030791146428082155,
+      "full_fused": 0.030791146428082155,
+      "confidence_pi": 0.030942378856467518,
+      "folded_sequential": 0.030830940459225405,
+      "folded_fused": 0.030830940459225405,
+      "confidence_radial": 0.030434984209021243,
+      "folded_fraction_of_full_mean_gain": 0.9874990519323117
+    },
+    {
+      "width": 256,
+      "raw": 0.0427142767994643,
+      "full_sequential": 0.03643279407129166,
+      "full_fused": 0.036432794031444365,
+      "confidence_pi": 0.03694037748913719,
+      "folded_sequential": 0.036458586916063615,
+      "folded_fused": 0.036458586799853865,
+      "confidence_radial": 0.036219696858762425,
+      "folded_fraction_of_full_mean_gain": 0.9958938407758094
+    },
+    {
+      "width": 1024,
+      "raw": 0.04088217698526346,
+      "full_sequential": 0.0345932454461079,
+      "full_fused": 0.03459324544727709,
+      "confidence_pi": 0.0348601946321801,
+      "folded_sequential": 0.03463286461769057,
+      "folded_fused": 0.034632864590707,
+      "confidence_radial": 0.03409882076964684,
+      "folded_fraction_of_full_mean_gain": 0.9937001789269602
+    }
+  ],
+  "models_per_width": 3,
+  "independent_training_data_draws": 3,
+  "paired_training_and_test_data_across_widths": true,
+  "distinct_from_main": "Two-hidden-layer FP32 MLPs, Adam1000 on1024 examples; not the main80-parameter PB500 models.",
+  "interpretation": [
+    "Fastest equivalent full baseline is the minimum of both full policies in both implementations within each model and timing condition.",
+    "The v2 source transfers no tie tensor for raw or full policies; needed ties are retained for limited policies.",
+    "Quality values are CUDA-scored and attached to CPU timing rows for the same frozen weights; no cross-device risk equivalence is inferred.",
+    "Latency break-even is calibration-only, excluding one-time rank preparation, table/model loading and generation of supplied random tie keys.",
+    "Seven retained timing repeats are not model replications; only three paired training-data seeds per width support descriptive conclusions.",
+    "GPU results do not establish PB scaling or an all-hidden-posterior certificate for the larger networks."
+  ],
+  "raw_sha256": {
+    "optimized\\latency.csv": "82f28d65b832624a8a8c44b85e5f712687fd5b9382fa06b25024b4388e548c9f",
+    "optimized\\cost_quality.csv": "b822b8dc4ef58c50289a597706e184f460bb2e19dedfdd0d62c42efdf15a4323",
+    "optimized\\summary.csv": "3851f54dfb6b2dc1f6b61eefd6ed7ede354068ab384d0d9a78026a35d7393d3e",
+    "per_model.csv": "18f61956253b679a1ee2af7cea516acd4f90ecf86c58c4d8a11ac9867a61fda9",
+    "deployment_audit.csv": "b989045a44333e87755b9cf5b529b28314867cac41efcaa976b396199f4882e5",
+    "optimized\\equivalence.csv": "8bf46f30ca82cb642c9263aea27aec73ad2c497a7262f95d311347b665961b31"
+  }
+}

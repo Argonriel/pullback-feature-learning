@@ -1,0 +1,16 @@
+{
+  "source_root": "source",
+  "manifest": {
+    "source/accounting.py": "571c2c42668de23ee1ffd5fd77a459ae8494e3b275ea59f2b2243a3d8b5d6d44",
+    "source/model.py": "fca6b349140849e8486a426d77ce3858123f005a9e84ecf2f112111acb05ac20",
+    "source/preflight.py": "07a842913d730214377b27321f8a6e58774a203f26474d52b7fdf1e85fc587dd",
+    "source/README.md": "4298f92765a09711cf201ae3998e3095efdc6be4cef82b81e4bde7ceb8f65665",
+    "source/reference/core4d.py": "7f6c227887f5a45606d206a4805e4694a48409f1b345a8a12def21dd7f628f77",
+    "source/reference/DEVELOPMENT_STATE.npz": "5a69e55007a4d6ad30f013070da9400df737f701fa17228d934566674448e883",
+    "source/reference/task.py": "8da7d92d23437155d10be130a712e219211760ee740c2fca2a4b3506437214f4",
+    "source/report.py": "72ddeabd30ab1579658e72ab526101cef08ea444e159656c5a978eb69b0b508c",
+    "source/reproduce.py": "ec9c079676bdd8d54482e8c8bbdc9b2729b862927a67a77b30ba994451fff320",
+    "source/runner.py": "3263d37284bb0821d651681597d8566d33b8e0a542ebf1d22eb5d37e6029df07",
+    "source/timing.py": "6658f273d9164d41ab14ba235da080e05871d6d3374d3693d3ca8e090f0d9995"
+  }
+}

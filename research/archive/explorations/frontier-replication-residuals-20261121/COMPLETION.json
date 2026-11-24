@@ -1,0 +1,39 @@
+{
+  "status": "COMPLETE",
+  "utc": "2026-11-22T00:42:07.777851+00:00",
+  "branches": [
+    "allocation",
+    "distillation",
+    "structured"
+  ],
+  "requested_experiments_complete": true,
+  "independent_audits": [
+    "PREFLIGHT",
+    "HISTORICAL_PRESERVATION",
+    "EXTERNAL_SELECTION",
+    "ALLOCATION_RESULTS",
+    "DISTILLATION_RESULTS",
+    "STRUCTURED_RESULTS",
+    "IMAGE_TIMING_RESULTS",
+    "ALLOCATION_TIMING_RESULTS"
+  ],
+  "source_hash_checks": 3573,
+  "repository_source_copies": 37,
+  "report_pages": 9,
+  "report_sha256": "8ebdbd6f04bfae69c35e91b24afbec36878b6ad01ef834a23ac9ca6440fb0af1",
+  "conclusions": {
+    "allocation": "Baseline selected; independent absolute confirmation only, no improvement test.",
+    "distillation": "Independent-source quality replication failed; separate pooled serving criterion passed.",
+    "structured": "16/16 primary under assumed epsilon0;14/16 with independent label evidence, conditional on stated structure."
+  },
+  "negative_results_preserved": true,
+  "documented_roundoff_recovery": true,
+  "prior_archives_preserved": 3,
+  "limits": [
+    "No independent full retraining or directed-rounding proof.",
+    "Six image seeds and product bootstrap do not cover brand or new training-dataset variation.",
+    "Structured bounds require residual and posterior assumptions.",
+    "Nominal computation is not whole-program or equal elapsed time."
+  ],
+  "archive_note": "Every evaluated original is included. The unused original Zappos image ZIP remains local with its URL/digest retained. Copy integrity is checked separately."
+}

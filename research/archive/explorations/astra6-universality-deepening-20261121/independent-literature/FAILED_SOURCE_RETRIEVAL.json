@@ -1,0 +1,62 @@
+{
+  "purpose": "Primary source byte provenance; relevant passages independently inspected via web tools.",
+  "source_sha256": "f7d564695cfbd9d44f64e979e16f4a7c72e278db40c8f01b1153a5c56ec704d5",
+  "records": [
+    {
+      "file": "sources/lesniewski_ruskai.pdf",
+      "url": "https://arxiv.org/pdf/math-ph/9808016",
+      "retrieved_at_utc": "2026-11-22T03:58:23.412541+00:00",
+      "status": "failed",
+      "error": "URLError(gaierror(11001, 'getaddrinfo failed'))"
+    },
+    {
+      "file": "sources/grasselli_streater.pdf",
+      "url": "https://math.mcmaster.ca/~grasselli/GrasselliStreater01.pdf",
+      "retrieved_at_utc": "2026-11-22T03:58:23.413543+00:00",
+      "status": "failed",
+      "error": "URLError(gaierror(11001, 'getaddrinfo failed'))"
+    },
+    {
+      "file": "sources/fawzi_saunderson_parrilo.pdf",
+      "url": "https://arxiv.org/pdf/1705.00812",
+      "retrieved_at_utc": "2026-11-22T03:58:23.413543+00:00",
+      "status": "failed",
+      "error": "URLError(gaierror(11001, 'getaddrinfo failed'))"
+    },
+    {
+      "file": "sources/bresar_cabrera_fosner_villena.pdf",
+      "url": "https://www.impan.pl/shop/en/publication/transaction/download/product/90340",
+      "retrieved_at_utc": "2026-11-22T03:58:23.413543+00:00",
+      "status": "failed",
+      "error": "URLError(gaierror(11001, 'getaddrinfo failed'))"
+    },
+    {
+      "file": "sources/ohara_ishi_tsuchiya.html",
+      "url": "https://link.springer.com/article/10.1007/s41884-023-00116-x",
+      "retrieved_at_utc": "2026-11-22T03:58:23.460394+00:00",
+      "status": "failed",
+      "error": "URLError(gaierror(11001, 'getaddrinfo failed'))"
+    },
+    {
+      "file": "sources/nagaoka_fujiwara.html",
+      "url": "https://arxiv.org/html/2307.03431v3",
+      "retrieved_at_utc": "2026-11-22T03:58:23.460394+00:00",
+      "status": "failed",
+      "error": "URLError(gaierror(11001, 'getaddrinfo failed'))"
+    },
+    {
+      "file": "sources/ciaglia_dinocera.pdf",
+      "url": "https://arxiv.org/pdf/2206.10394",
+      "retrieved_at_utc": "2026-11-22T03:58:23.460394+00:00",
+      "status": "failed",
+      "error": "URLError(gaierror(11001, 'getaddrinfo failed'))"
+    },
+    {
+      "file": "sources/li_wang_lee_arora.pdf",
+      "url": "https://papers.nips.cc/paper_files/paper/2022/file/dfa1106ea7065899b13f2be9da04efb4-Paper-Conference.pdf",
+      "retrieved_at_utc": "2026-11-22T03:58:23.460394+00:00",
+      "status": "failed",
+      "error": "URLError(gaierror(11001, 'getaddrinfo failed'))"
+    }
+  ]
+}

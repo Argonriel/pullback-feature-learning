@@ -1,0 +1,16 @@
+{
+  "timestamp_utc": "2026-11-21T09:36:17.671169+00:00",
+  "gpu_test_risks_accessed": false,
+  "source_hashes": {
+    "optimized_benchmark.py": "5399a8d42306c48ef710d640d7cd5673232b50572c1a7daae1167e48e645d3c2",
+    "optimized_serving.py": "8f89b42d83c2bcc015eeaf01f266866cf0c6b473d648397ce40100291aae6cbc",
+    "OPTIMIZED_SERVING_ADDENDUM.md": "ab79f2deb84e1413d699a0487ff7b937f43d00b9761506d67afe0de019212bc6",
+    "benchmark.py": "d08f25001f5444bd3af0983942ef2694da34c8261a57ab4df57e179579ab5682",
+    "freeze.json": "681026b2fdbc272721b249f336b8210497adb367a70ab761d91dbf97986618b5",
+    "training_commit.json": "21497de9296f012f7c28aa0377ddca5de7189e8c14e178339849ce7653af5b54",
+    "policy_commit.json": "e6a7ecd4d541522a9d4753f495d080d0555ac4d08589006947ea44493a7e4d1a"
+  },
+  "prior_benchmark_unchanged": true,
+  "maximum_fp32_logit_error": 0.0001,
+  "tie_rule": "Exact integer FP32 magnitude priority plus independent tie rank."
+}

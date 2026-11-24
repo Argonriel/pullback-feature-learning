@@ -1,0 +1,269 @@
+{
+  "release_tag": "research-snapshot-2026-11-24",
+  "assets": [
+    {
+      "name": "astra6-global-convergence-deepening-20261121-data-01.zip",
+      "study": "astra6-global-convergence-deepening-20261121",
+      "files": 1,
+      "bytes": 5052,
+      "sha256": "c1cfb587d974472f025d12a5c99f802cf8cc89ae80984145499e05c3271b13b6",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/astra6-global-convergence-deepening-20261121-data-01.zip"
+    },
+    {
+      "name": "budget-distillation-structured-bounds-20261121-data-01.zip",
+      "study": "budget-distillation-structured-bounds-20261121",
+      "files": 305,
+      "bytes": 536186354,
+      "sha256": "bd9283a3944952c2a5b20a2dc73f8b5ef9856a4ca55d1e89c0d98d5bd391bdce",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/budget-distillation-structured-bounds-20261121-data-01.zip"
+    },
+    {
+      "name": "budget-distillation-structured-bounds-20261121-data-02.zip",
+      "study": "budget-distillation-structured-bounds-20261121",
+      "files": 60,
+      "bytes": 105753345,
+      "sha256": "9645d7c708476bae41d5c095bf87a9316b47705ac8562fe1b55c265ba9ccc126",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/budget-distillation-structured-bounds-20261121-data-02.zip"
+    },
+    {
+      "name": "budgeted-rotation-data-01.zip",
+      "study": "budgeted-rotation",
+      "files": 2,
+      "bytes": 133621,
+      "sha256": "8ed0dde39c1e49bfcee411fae579523989644faddede58fd93aa3644e15f69d4",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/budgeted-rotation-data-01.zip"
+    },
+    {
+      "name": "calibration-quota-20261121-data-01.zip",
+      "study": "calibration-quota-20261121",
+      "files": 325,
+      "bytes": 536925677,
+      "sha256": "bb489d821088207d699244c9dcb17cc3b7fe869b9a6a9527a7a42aa01b87592e",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/calibration-quota-20261121-data-01.zip"
+    },
+    {
+      "name": "calibration-quota-20261121-data-02.zip",
+      "study": "calibration-quota-20261121",
+      "files": 228,
+      "bytes": 17846707,
+      "sha256": "f693b33c52f758d10bfdff285b03f36b8926b353db1bc125d1f63ec8a2cc3f10",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/calibration-quota-20261121-data-02.zip"
+    },
+    {
+      "name": "calibration-symmetry-realdata-20261121-data-01.zip",
+      "study": "calibration-symmetry-realdata-20261121",
+      "files": 427,
+      "bytes": 530281628,
+      "sha256": "2bdc7e63680f9e32819d5bcb19213070751a36ef838f2c7ad65c55d2f337e77f",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/calibration-symmetry-realdata-20261121-data-01.zip"
+    },
+    {
+      "name": "calibration-symmetry-realdata-20261121-data-02.zip",
+      "study": "calibration-symmetry-realdata-20261121",
+      "files": 40,
+      "bytes": 124360266,
+      "sha256": "3dd00be9639207e62fc9d1c94410d132d994b28634f678ee8c3c0f35f3228e2a",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/calibration-symmetry-realdata-20261121-data-02.zip"
+    },
+    {
+      "name": "continuous-confirmation-20261121-data-01.zip",
+      "study": "continuous-confirmation-20261121",
+      "files": 739,
+      "bytes": 380561393,
+      "sha256": "5ce47f2cf616228c2fd47580affaea5b06294c677c8a356542afc44d98e85550",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/continuous-confirmation-20261121-data-01.zip"
+    },
+    {
+      "name": "endpoint-classification-audit-20261121-data-01.zip",
+      "study": "endpoint-classification-audit-20261121",
+      "files": 1,
+      "bytes": 7946,
+      "sha256": "b26f270d8279af52f4b2c31e2b61ea7f3b239acc9e9818d7c27f44918e85e759",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/endpoint-classification-audit-20261121-data-01.zip"
+    },
+    {
+      "name": "frontier-replication-residuals-20261121-data-01.zip",
+      "study": "frontier-replication-residuals-20261121",
+      "files": 323,
+      "bytes": 535701956,
+      "sha256": "4555deb861cfb2dbacfe6a9e58b3017c55e2b1e86cc90bbb7f80867463d411e3",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/frontier-replication-residuals-20261121-data-01.zip"
+    },
+    {
+      "name": "frontier-replication-residuals-20261121-data-02.zip",
+      "study": "frontier-replication-residuals-20261121",
+      "files": 121,
+      "bytes": 473494051,
+      "sha256": "3c2aaf9182d759efb070d92e50a6be2ef5a443578dfaf5bc80bf526a9a878f3d",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/frontier-replication-residuals-20261121-data-02.zip"
+    },
+    {
+      "name": "learned-geometry-gate-20261121-data-01.zip",
+      "study": "learned-geometry-gate-20261121",
+      "files": 12,
+      "bytes": 3481803,
+      "sha256": "773b0078eb8503f77a7fa8f0d9c205c4d7b3f501581db5b002df0efdccdbc94e",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/learned-geometry-gate-20261121-data-01.zip"
+    },
+    {
+      "name": "local-balance-20261121-data-01.zip",
+      "study": "local-balance-20261121",
+      "files": 373,
+      "bytes": 535328833,
+      "sha256": "99d639c039b5e4dd4456475346a7d1db5d429d784c691fcb3cb6a1c2c083d123",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/local-balance-20261121-data-01.zip"
+    },
+    {
+      "name": "local-balance-20261121-data-02.zip",
+      "study": "local-balance-20261121",
+      "files": 281,
+      "bytes": 535961305,
+      "sha256": "447b4a119c78b12c43d77937b27983c582addee9ab82ac80bbe77d205b6d8cb8",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/local-balance-20261121-data-02.zip"
+    },
+    {
+      "name": "local-balance-20261121-data-03.zip",
+      "study": "local-balance-20261121",
+      "files": 108,
+      "bytes": 519023160,
+      "sha256": "cf291bce18c79abb3f389a4b22a909c1edc8a215fcd4045ef67f3a566d4289d3",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/local-balance-20261121-data-03.zip"
+    },
+    {
+      "name": "local-balance-20261121-data-04.zip",
+      "study": "local-balance-20261121",
+      "files": 18,
+      "bytes": 521382769,
+      "sha256": "4ebe996562b56144742cef6e1ffbfa71a161af708db62e2b3be88437255f5434",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/local-balance-20261121-data-04.zip"
+    },
+    {
+      "name": "local-balance-20261121-data-05.zip",
+      "study": "local-balance-20261121",
+      "files": 104,
+      "bytes": 374111037,
+      "sha256": "01524316be759e499f2502c1fdc490d99130183ffe811c8bde71463fb1310c31",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/local-balance-20261121-data-05.zip"
+    },
+    {
+      "name": "pipeline-calibration-augmentation-shift-20261121-data-01.zip",
+      "study": "pipeline-calibration-augmentation-shift-20261121",
+      "files": 290,
+      "bytes": 468536835,
+      "sha256": "8fea6235a59ed9ce34831e7038e74292dc873780858efe2b9a2e942e69c53eed",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/pipeline-calibration-augmentation-shift-20261121-data-01.zip"
+    },
+    {
+      "name": "predictive-symmetry-20261120-data-01.zip",
+      "study": "predictive-symmetry-20261120",
+      "files": 603,
+      "bytes": 436367720,
+      "sha256": "f7cfcda0fffda3fab929b49e2b8fb28d26267b4459154b7c0e6c981bd6be4d4f",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/predictive-symmetry-20261120-data-01.zip"
+    },
+    {
+      "name": "rank-certificate-transfer-20261121-data-01.zip",
+      "study": "rank-certificate-transfer-20261121",
+      "files": 74,
+      "bytes": 494486820,
+      "sha256": "3517548dfe5fc9286abb4175cf66194e3c62d361ab3d743c02c85f306cf85897",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/rank-certificate-transfer-20261121-data-01.zip"
+    },
+    {
+      "name": "rank-certificate-transfer-20261121-data-02.zip",
+      "study": "rank-certificate-transfer-20261121",
+      "files": 22,
+      "bytes": 524665461,
+      "sha256": "dc640ff32c8b86668a328a820704071fe518d1388cf39b04aae008974f5eeb73",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/rank-certificate-transfer-20261121-data-02.zip"
+    },
+    {
+      "name": "rank-certificate-transfer-20261121-data-03.zip",
+      "study": "rank-certificate-transfer-20261121",
+      "files": 22,
+      "bytes": 520026161,
+      "sha256": "37220123d91916c9c5f0edf8d1341a5e4ce7b1392257367e673b7701a9e46af7",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/rank-certificate-transfer-20261121-data-03.zip"
+    },
+    {
+      "name": "rank-certificate-transfer-20261121-data-04.zip",
+      "study": "rank-certificate-transfer-20261121",
+      "files": 47,
+      "bytes": 531900314,
+      "sha256": "f820e3ecb19a6b6aed55bcae05f910679c2154d0c4b7ef848f9df3899dd8274e",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/rank-certificate-transfer-20261121-data-04.zip"
+    },
+    {
+      "name": "rank-certificate-transfer-20261121-data-05.zip",
+      "study": "rank-certificate-transfer-20261121",
+      "files": 73,
+      "bytes": 534261204,
+      "sha256": "789ff79c26420e6a5c11c285169b70abf3db46dd3a746cc20116217a5b84b25b",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/rank-certificate-transfer-20261121-data-05.zip"
+    },
+    {
+      "name": "rank-certificate-transfer-20261121-data-06.zip",
+      "study": "rank-certificate-transfer-20261121",
+      "files": 183,
+      "bytes": 374176009,
+      "sha256": "2af6f0802bd1882b4f8498d69d189047e41ffa12654a4037dfa576aa55a00bf3",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/rank-certificate-transfer-20261121-data-06.zip"
+    },
+    {
+      "name": "rate-clock-data-01.zip",
+      "study": "rate-clock",
+      "files": 1,
+      "bytes": 98224471,
+      "sha256": "233dd7bd079fb5ec6abc10eef60cdecd53b8679306dbbb0e29259a4a09db331a",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/rate-clock-data-01.zip"
+    },
+    {
+      "name": "readout-decoupling-novelty-audit-20261121-data-01.zip",
+      "study": "readout-decoupling-novelty-audit-20261121",
+      "files": 3,
+      "bytes": 43663625,
+      "sha256": "02a24814d943f74ea057ee08ba33e1dca53f2a864c1ca750c237171d83cf916c",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/readout-decoupling-novelty-audit-20261121-data-01.zip"
+    },
+    {
+      "name": "rings-mechanism-data-01.zip",
+      "study": "rings-mechanism",
+      "files": 3,
+      "bytes": 342754,
+      "sha256": "596c1533f73af8fdd515ed6f9611d9335a1befe057e4f30aa211048bd085e854",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/rings-mechanism-data-01.zip"
+    },
+    {
+      "name": "switch-time-data-01.zip",
+      "study": "switch-time",
+      "files": 4,
+      "bytes": 1177662,
+      "sha256": "789471bc06ff8233497f645b797851077220efcdb5ae4fa715a57030da91e169",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/switch-time-data-01.zip"
+    },
+    {
+      "name": "symmetry-frontier-2d-20261121-data-01.zip",
+      "study": "symmetry-frontier-2d-20261121",
+      "files": 430,
+      "bytes": 535716951,
+      "sha256": "946eb6703ff208c3b720e63857a79eb9421ce3dced782353f088e242be79cc5b",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/symmetry-frontier-2d-20261121-data-01.zip"
+    },
+    {
+      "name": "symmetry-frontier-2d-20261121-data-02.zip",
+      "study": "symmetry-frontier-2d-20261121",
+      "files": 119,
+      "bytes": 351106164,
+      "sha256": "fca0c5299f9f28e4dbaf36db5fb9bf3480fae910035e119e76ca0851b7c43cc4",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/symmetry-frontier-2d-20261121-data-02.zip"
+    },
+    {
+      "name": "three-candidate-exploration-20261121-data-01.zip",
+      "study": "three-candidate-exploration-20261121",
+      "files": 2,
+      "bytes": 14270,
+      "sha256": "a99fd9003fbe141a55e75c49e09fa94dc703f278252c6a0fb60251646cdc033a",
+      "url": "https://github.com/Argonriel/pullback-feature-learning/releases/download/research-snapshot-2026-11-24/three-candidate-exploration-20261121-data-01.zip"
+    }
+  ]
+}

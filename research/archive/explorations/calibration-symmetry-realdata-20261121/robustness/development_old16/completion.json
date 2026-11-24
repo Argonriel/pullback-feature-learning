@@ -1,0 +1,11 @@
+{
+  "old_root": "tmp\\symmetry-frontier-2d-20261121",
+  "seconds": 19.52559089998249,
+  "fixed_clip_rule": "min(.5,max(1e-6,quantile95(grid_J)))",
+  "no_selection_on_fresh": true,
+  "sources": {
+    "development.py": "b4f203416c6d5cda112c24758f20348dedcacbeb7a97d263401c022eeacbfc31",
+    "bounds.py": "2429f0c7edb521d68b817e4adc645feb6fdfb612e11eee2bc5fd3b952a4a01da",
+    "common.py": "ce33ad0abfa8b544da60340876d1287a3482018299ef27359e806ea22dafe362"
+  }
+}

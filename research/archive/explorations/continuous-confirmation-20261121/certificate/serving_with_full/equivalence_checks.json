@@ -1,0 +1,1052 @@
+[
+  {
+    "pair": 1,
+    "method": "base_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 1,
+    "method": "base_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 1,
+    "method": "uniform_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 1,
+    "method": "uniform_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 1,
+    "method": "adaptive_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 2,
+    "method": "base_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 2,
+    "method": "base_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      1
+    ],
+    "memory_calls": [
+      256,
+      1
+    ]
+  },
+  {
+    "pair": 2,
+    "method": "uniform_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 2,
+    "method": "uniform_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      2
+    ],
+    "memory_calls": [
+      256,
+      2
+    ]
+  },
+  {
+    "pair": 2,
+    "method": "adaptive_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      4
+    ],
+    "memory_calls": [
+      256,
+      4
+    ]
+  },
+  {
+    "pair": 3,
+    "method": "base_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 3,
+    "method": "base_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 3,
+    "method": "uniform_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 3,
+    "method": "uniform_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 3,
+    "method": "adaptive_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      3
+    ],
+    "memory_calls": [
+      256,
+      3
+    ]
+  },
+  {
+    "pair": 4,
+    "method": "base_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      1
+    ],
+    "memory_calls": [
+      256,
+      1
+    ]
+  },
+  {
+    "pair": 4,
+    "method": "base_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      2
+    ],
+    "memory_calls": [
+      256,
+      2
+    ]
+  },
+  {
+    "pair": 4,
+    "method": "uniform_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      2
+    ],
+    "memory_calls": [
+      256,
+      2
+    ]
+  },
+  {
+    "pair": 4,
+    "method": "uniform_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      2
+    ],
+    "memory_calls": [
+      256,
+      2
+    ]
+  },
+  {
+    "pair": 4,
+    "method": "adaptive_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      4
+    ],
+    "memory_calls": [
+      256,
+      4
+    ]
+  },
+  {
+    "pair": 5,
+    "method": "base_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 5,
+    "method": "base_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 5,
+    "method": "uniform_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 5,
+    "method": "uniform_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      1
+    ],
+    "memory_calls": [
+      256,
+      1
+    ]
+  },
+  {
+    "pair": 5,
+    "method": "adaptive_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      4
+    ],
+    "memory_calls": [
+      256,
+      4
+    ]
+  },
+  {
+    "pair": 6,
+    "method": "base_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 6,
+    "method": "base_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      3
+    ],
+    "memory_calls": [
+      256,
+      3
+    ]
+  },
+  {
+    "pair": 6,
+    "method": "uniform_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      3
+    ],
+    "memory_calls": [
+      256,
+      3
+    ]
+  },
+  {
+    "pair": 6,
+    "method": "uniform_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      4
+    ],
+    "memory_calls": [
+      256,
+      4
+    ]
+  },
+  {
+    "pair": 6,
+    "method": "adaptive_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      5
+    ],
+    "memory_calls": [
+      256,
+      5
+    ]
+  },
+  {
+    "pair": 7,
+    "method": "base_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 7,
+    "method": "base_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 7,
+    "method": "uniform_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 7,
+    "method": "uniform_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      1
+    ],
+    "memory_calls": [
+      256,
+      1
+    ]
+  },
+  {
+    "pair": 7,
+    "method": "adaptive_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      5
+    ],
+    "memory_calls": [
+      256,
+      5
+    ]
+  },
+  {
+    "pair": 8,
+    "method": "base_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      6
+    ],
+    "memory_calls": [
+      256,
+      6
+    ]
+  },
+  {
+    "pair": 8,
+    "method": "base_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      8
+    ],
+    "memory_calls": [
+      256,
+      8
+    ]
+  },
+  {
+    "pair": 8,
+    "method": "uniform_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      8
+    ],
+    "memory_calls": [
+      256,
+      8
+    ]
+  },
+  {
+    "pair": 8,
+    "method": "uniform_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      8
+    ],
+    "memory_calls": [
+      256,
+      8
+    ]
+  },
+  {
+    "pair": 8,
+    "method": "adaptive_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      12
+    ],
+    "memory_calls": [
+      256,
+      12
+    ]
+  },
+  {
+    "pair": 9,
+    "method": "base_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 9,
+    "method": "base_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      3
+    ],
+    "memory_calls": [
+      256,
+      3
+    ]
+  },
+  {
+    "pair": 9,
+    "method": "uniform_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 9,
+    "method": "uniform_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      4
+    ],
+    "memory_calls": [
+      256,
+      4
+    ]
+  },
+  {
+    "pair": 9,
+    "method": "adaptive_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      7
+    ],
+    "memory_calls": [
+      256,
+      7
+    ]
+  },
+  {
+    "pair": 10,
+    "method": "base_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      3
+    ],
+    "memory_calls": [
+      256,
+      3
+    ]
+  },
+  {
+    "pair": 10,
+    "method": "base_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      7
+    ],
+    "memory_calls": [
+      256,
+      7
+    ]
+  },
+  {
+    "pair": 10,
+    "method": "uniform_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      5
+    ],
+    "memory_calls": [
+      256,
+      5
+    ]
+  },
+  {
+    "pair": 10,
+    "method": "uniform_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      10
+    ],
+    "memory_calls": [
+      256,
+      10
+    ]
+  },
+  {
+    "pair": 10,
+    "method": "adaptive_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      19
+    ],
+    "memory_calls": [
+      256,
+      19
+    ]
+  },
+  {
+    "pair": 11,
+    "method": "base_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 11,
+    "method": "base_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 11,
+    "method": "uniform_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 11,
+    "method": "uniform_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      1
+    ],
+    "memory_calls": [
+      256,
+      1
+    ]
+  },
+  {
+    "pair": 11,
+    "method": "adaptive_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      2
+    ],
+    "memory_calls": [
+      256,
+      2
+    ]
+  },
+  {
+    "pair": 12,
+    "method": "base_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 12,
+    "method": "base_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 12,
+    "method": "uniform_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 12,
+    "method": "uniform_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 12,
+    "method": "adaptive_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      1
+    ],
+    "memory_calls": [
+      256,
+      1
+    ]
+  },
+  {
+    "pair": 13,
+    "method": "base_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 13,
+    "method": "base_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      2
+    ],
+    "memory_calls": [
+      256,
+      2
+    ]
+  },
+  {
+    "pair": 13,
+    "method": "uniform_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 13,
+    "method": "uniform_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      4
+    ],
+    "memory_calls": [
+      256,
+      4
+    ]
+  },
+  {
+    "pair": 13,
+    "method": "adaptive_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      11
+    ],
+    "memory_calls": [
+      256,
+      11
+    ]
+  },
+  {
+    "pair": 14,
+    "method": "base_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      3
+    ],
+    "memory_calls": [
+      256,
+      3
+    ]
+  },
+  {
+    "pair": 14,
+    "method": "base_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      6
+    ],
+    "memory_calls": [
+      256,
+      6
+    ]
+  },
+  {
+    "pair": 14,
+    "method": "uniform_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      6
+    ],
+    "memory_calls": [
+      256,
+      6
+    ]
+  },
+  {
+    "pair": 14,
+    "method": "uniform_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      7
+    ],
+    "memory_calls": [
+      256,
+      7
+    ]
+  },
+  {
+    "pair": 14,
+    "method": "adaptive_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      12
+    ],
+    "memory_calls": [
+      256,
+      12
+    ]
+  },
+  {
+    "pair": 15,
+    "method": "base_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 15,
+    "method": "base_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 15,
+    "method": "uniform_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 15,
+    "method": "uniform_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      2
+    ],
+    "memory_calls": [
+      256,
+      2
+    ]
+  },
+  {
+    "pair": 15,
+    "method": "adaptive_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      3
+    ],
+    "memory_calls": [
+      256,
+      3
+    ]
+  },
+  {
+    "pair": 16,
+    "method": "base_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 16,
+    "method": "base_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 16,
+    "method": "uniform_independent",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256
+    ],
+    "memory_calls": [
+      256
+    ]
+  },
+  {
+    "pair": 16,
+    "method": "uniform_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      2
+    ],
+    "memory_calls": [
+      256,
+      2
+    ]
+  },
+  {
+    "pair": 16,
+    "method": "adaptive_joint",
+    "array_equal": true,
+    "mask_equal": true,
+    "archive_calls": [
+      256,
+      5
+    ],
+    "memory_calls": [
+      256,
+      5
+    ]
+  }
+]

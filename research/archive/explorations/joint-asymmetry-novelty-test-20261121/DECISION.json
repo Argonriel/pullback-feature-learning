@@ -1,0 +1,32 @@
+{
+  "review_date": "2026-11-21",
+  "candidate": "Simultaneous input-distribution asymmetry and conditional-label asymmetry",
+  "decision": "RETIRE_AS_MAIN_INNOVATION",
+  "mathematical_status": "Correct under the stated orbitwise uncertainty and selection assumptions",
+  "reasons": [
+    "Approximate invariance of a joint supervised law already includes both defects",
+    "The interaction coefficient and sharp local penalty follow from standard TV common-mass and support-function calculations",
+    "Adding existing concentration or held-out risk-control machinery does not establish a distinct scientific contribution"
+  ],
+  "not_claimed": [
+    "An identical formula or quota theorem was located in a prior publication",
+    "The numerical checks establish historical priority",
+    "Local sharpness establishes global sharpness under shared constraints",
+    "The replacement direction is already novel"
+  ],
+  "verification": {
+    "independent_polytope_cases": 300,
+    "joint_law_identity_cases": 250,
+    "shared_constraint_counterexamples": 1,
+    "support_max_absolute_error": 1.7763568394002505e-15,
+    "identity_max_absolute_error": 4.440892098500626e-16,
+    "new_model_training": false,
+    "prior_test_data_rescoring": false
+  },
+  "replacement": {
+    "priority": "Persistence and breakdown of coupling between unused-feature geometry and predictive learning over finite nonlinear trajectories",
+    "status": "PROVISIONAL_RESEARCH_QUESTION",
+    "novelty_gate": "An architecture- or task-specific trajectory mechanism and a predictive consequence beyond known one-state calculus, invariant-subspace examples, and learning-rate or clock effects"
+  },
+  "historical_artifacts": "PRESERVED"
+}

@@ -1,0 +1,9 @@
+{
+  "forecast_seconds_median": 0.5777503499994054,
+  "recalibration_seconds_median": 0.10840960000496125,
+  "one_branch_prestate_forward_examples": 65536,
+  "one_branch_prestate_JVP_examples": 65536,
+  "post_recalibration_additional_forward_examples": 65536,
+  "all_deployed_view_policies_model_calls_per_input": 2,
+  "cost_caveat": "forecast_seconds times all forecast variants plus their artifact serialization; JVP is counted separately and is not a plain forward evaluation."
+}

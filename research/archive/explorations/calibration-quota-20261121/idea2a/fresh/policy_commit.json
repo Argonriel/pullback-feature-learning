@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-11-21T08:29:28.223348+00:00",
+  "freeze_hash": "8491bec78798c4b06a6991ac817d1c5cc842467e0987002b0c67fe31a328eb13",
+  "model_bank_hash": "a1148a7249723158805d214ed5bec48e71509ebbd49246b6f56f2e80a20b2c11",
+  "artifacts": {
+    "decisions.csv": "d62f89a71f2c77956d3717bc0ca9ea73496545328e7e19423d1d4963526e25db",
+    "prefix_score_curves.npz": "5157371a7b5847bbed567f5c359dfea3cf35e36a61040eb0d51bcb7af99cd52c",
+    "calibration_pools.csv": "693f4a082faa62b0061d4ba07ef9e93261c85457bdb583cf7ab2d53f8eafd323",
+    "calibration_costs.csv": "ab1a04c4f76041e52ec3a5c49abbfa9fd0ff9d1005691f5648eb34d2033a4df9",
+    "orbits\\10_calibration_orbits.npz": "62337df41bb8c164a788eb2338a899f89c3808bfe913b88c8dff8697da8ca124",
+    "orbits\\11_calibration_orbits.npz": "10dc6ba7d4fa1e3e573cc3b7a8fa094b43626d67b2d87823207978fe07b74c15",
+    "orbits\\12_calibration_orbits.npz": "233f4b0bb239611422e8ad08c46919ba2527f303f61425339120519733291ae5",
+    "orbits\\13_calibration_orbits.npz": "da30c12cd085ceb325fba94ca14d91264d276c7af3fbd02edb0b20d91a970ad3",
+    "orbits\\14_calibration_orbits.npz": "b04d4fb8faa1587eaf88ae87231bda2a07ff981d6c866af1018a404b6aa4668f",
+    "orbits\\15_calibration_orbits.npz": "e0b99eee9115e8aaa4e167173a6c375b9049cb772115189c6106c94f50d153aa",
+    "orbits\\16_calibration_orbits.npz": "5879e4928831cde2e799d97f7980242d99616a937a714261f351633c735b28aa",
+    "orbits\\1_calibration_orbits.npz": "b6cee92bf0aae2032df225bf520bee0ac60a6c3bdb4fdadaecbd94b6ffc82287",
+    "orbits\\2_calibration_orbits.npz": "9dbd07c1fcd4883d9706fd39dd26f0930febaacceb57042c4047ab35a8a13cb3",
+    "orbits\\3_calibration_orbits.npz": "ca694778c2d585cba9a7143ebe75823b3304d4e6e0191f284175198eb52c5565",
+    "orbits\\4_calibration_orbits.npz": "c27f838ec3a45ed9a2a1422a3995bfa0069a6605dede7e74721439064da74d5d",
+    "orbits\\5_calibration_orbits.npz": "afc688f8adacdd06315f1d51ef257b73605339c477aca65c308e18757abebb9b",
+    "orbits\\6_calibration_orbits.npz": "8a7373a1bf862b8b955105923df4a48a80d1663bb28af770ad7d477b68f20385",
+    "orbits\\7_calibration_orbits.npz": "be8833f8bace1236c24998df461b5a4b28a7ab0f8fa94d4c6c858db642a2c93e",
+    "orbits\\8_calibration_orbits.npz": "ac632b3f394d0976bfc0630986cf34605a86a601e831800534b15e8a7c19e8d2",
+    "orbits\\9_calibration_orbits.npz": "544ab9534fa2c1a393d51dc23232443a6c6f640064768ba58bbf131d074acce7"
+  },
+  "no_new_population_risk_or_test_labels_accessed": true
+}

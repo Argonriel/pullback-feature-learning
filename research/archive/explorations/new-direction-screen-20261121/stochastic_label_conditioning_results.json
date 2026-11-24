@@ -1,0 +1,90 @@
+{
+  "status": "passed",
+  "role": "Exact conditional-expectation reduction screen",
+  "state": [
+    0.3,
+    -0.2
+  ],
+  "inputs": [
+    [
+      1.0,
+      0.4
+    ],
+    [
+      0.2,
+      2.0
+    ]
+  ],
+  "probabilities": [
+    0.8,
+    0.2
+  ],
+  "conditional_target_means": [
+    0.6,
+    -0.9
+  ],
+  "batch_size": 2,
+  "damping": 0.2,
+  "loss": "half squared error on z[0]",
+  "representation": "z=(theta1*x1+theta1*theta2*x2,theta2*x2)",
+  "cases": {
+    "no_label_noise": {
+      "event_count": 16,
+      "probability_mass": 1.0000000000000002,
+      "mean_update": [
+        0.32277889155414324,
+        -0.020560853444374375
+      ],
+      "covariance": [
+        [
+          0.005881282249973985,
+          -0.002922215442876135
+        ],
+        [
+          -0.002922215442876135,
+          0.0029952196388612785
+        ]
+      ]
+    },
+    "homoskedastic_label_noise": {
+      "event_count": 16,
+      "probability_mass": 1.0000000000000002,
+      "mean_update": [
+        0.3227788915541432,
+        -0.020560853444374368
+      ],
+      "covariance": [
+        [
+          0.11266240907382716,
+          0.001030667128374781
+        ],
+        [
+          0.0010306671283747822,
+          0.004606635891228283
+        ]
+      ]
+    },
+    "heteroskedastic_label_noise": {
+      "event_count": 16,
+      "probability_mass": 1.0000000000000002,
+      "mean_update": [
+        0.3227788915541432,
+        -0.020560853444374375
+      ],
+      "covariance": [
+        [
+          0.18765033802566133,
+          -0.0722371930692976
+        ],
+        [
+          -0.0722371930692976,
+          0.047604015189578484
+        ]
+      ]
+    }
+  },
+  "mean_update_max_absolute_difference": 5.551115123125783e-17,
+  "heteroskedastic_covariance_change_frobenius": 0.21127959325210102,
+  "scope": "Fixed state, fresh zero-mean label noise conditional on current inputs; this does not assert invariance of future parameter distributions.",
+  "source_sha256": "6744edb8eab120f86a5830ef0f47a3c441cdcdfb625693d5e14c81b6c3eab779"
+}

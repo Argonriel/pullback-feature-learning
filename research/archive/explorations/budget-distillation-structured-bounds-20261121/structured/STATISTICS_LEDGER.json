@@ -1,0 +1,20 @@
+{
+  "timestamp_utc": "2026-11-21T23:06:50.641872+00:00",
+  "independent_batch_moment_series": 320,
+  "stored_batch_moment_values": 655360,
+  "moment_look_reductions": 640,
+  "batch_values_processed_across_fixed_looks": 819200,
+  "one_sided_moment_radius_calculations": 1280,
+  "independent_parameter_intervals": 4,
+  "parameter_cosines": 262144,
+  "total_probability_events": 1284,
+  "epsilon_curve_rows": 1024,
+  "separate_certificate_values": 3072,
+  "posterior_stress_rows": 3072,
+  "random_algebra_cases": 12,
+  "random_algebra_records": 49152,
+  "deterministic_quadrature_points": 1048576,
+  "frozen_model_or_policy_refits": 0,
+  "model_forwards_for_statistics_from_saved_logits": 0,
+  "explanation": "Counts are exact operations/retained scalar series, not a FLOP estimate or a runtime benchmark."
+}

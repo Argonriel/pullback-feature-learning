@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-11-22T01:56:42.509801+00:00",
+  "source_file": "C:\\Users\\liwei\\Documents\\Research\\pullback-feature-learning\\explorations\\learned-geometry-gate-20261121\\discovery_refined_scores\\contrasts.json",
+  "source_sha256": "3d806a6668c22c9ced0cb7bdbb4db69a57daaef22108ec321d741242895b4385",
+  "script_sha256": "0d9c8589e6db030b9ee8fb2c491d8933d25ef3d2b7900bb7692f776d433f3f29",
+  "role": "descriptive_paired_primary_contrasts_no_inferential_intervals",
+  "output_sha256": {
+    "plot_data.json": "5f63505aec1cc60d8042be0b07f181bf7ca0f5e0fda7a763265ca69437535b4d",
+    "primary_paired_contrasts.png": "88f91e001045aee3b7bc9b52dbae3a2f556e4f4aab4757c0c8310e3845b6a8a0",
+    "primary_paired_contrasts.svg": "95bd25fa66ed27c0482d8c47ff1d3f40383ce05e443c78146a4a8c4ee6a7be27"
+  }
+}

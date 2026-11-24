@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-21T23:07:30.631289+00:00",
+  "images": 1500,
+  "every_original_jpeg_sha256_matches": true,
+  "every_preprocessed_pixel_sha256_matches": true,
+  "all_pixels_labels_and_ids_identical": true,
+  "full_source_zip_required": false,
+  "evaluated_population_rebuilt_without_predictions": true
+}

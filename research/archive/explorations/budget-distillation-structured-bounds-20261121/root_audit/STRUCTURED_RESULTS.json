@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "utc": "2026-11-21T23:06:55.920974+00:00",
+  "moment_rows": 640,
+  "elementary_moment_events": 1280,
+  "parameter_intervals": 4,
+  "curve_rows": 1024,
+  "stress_rows": 3072,
+  "max_moment_error": 0.0,
+  "max_bound_error": 0.0,
+  "max_truth_metric_error": 2.220446049250313e-16,
+  "exact_input_stream_reconstructions": 32,
+  "model_policy_prefix_batches_per_law": 16,
+  "max_prefix_forward_error": 0.0,
+  "mask_discrepancies": 0,
+  "actual_certificate_forwards": 10267616,
+  "additional_audit_forward_examples": 79958,
+  "primary_epsilon0_counts": [
+    {
+      "a": 0.0,
+      "lines": 16,
+      "known_lower_positive": 16,
+      "estimated_lower_positive": 16,
+      "old_lower_positive": 16
+    },
+    {
+      "a": 0.01,
+      "lines": 16,
+      "known_lower_positive": 16,
+      "estimated_lower_positive": 16,
+      "old_lower_positive": 0
+    },
+    {
+      "a": 0.1,
+      "lines": 16,
+      "known_lower_positive": 16,
+      "estimated_lower_positive": 16,
+      "old_lower_positive": 0
+    },
+    {
+      "a": 0.6,
+      "lines": 16,
+      "known_lower_positive": 0,
+      "estimated_lower_positive": 0,
+      "old_lower_positive": 0
+    }
+  ],
+  "proof_review": "Sharp posterior simplex optimization, conditional orbit identity, independent parameter CI and simultaneous union bound checked by root; finite enumeration in PREFLIGHT.json.",
+  "limitation": "Model replay uses certificate prefixes; stress metrics reconstructed from all retained logits. No natural-image certificate or distribution-family membership test."
+}

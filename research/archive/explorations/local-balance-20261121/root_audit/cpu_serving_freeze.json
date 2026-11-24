@@ -1,0 +1,25 @@
+{
+  "timestamp_utc": "2026-11-21T09:38:15.563107+00:00",
+  "code_sha256": "d7d161bdca3029db7bb47e20e4ec65c66a0f2e13061b537596fc96f865f4ac57",
+  "names": [
+    "raw",
+    "full",
+    "confidence",
+    "radius",
+    "folded",
+    "rank_balanced",
+    "rank_even",
+    "rank_unbalanced",
+    "full_fused",
+    "radius_fused",
+    "folded_fused",
+    "rank_balanced_fused",
+    "rank_even_fused",
+    "rank_unbalanced_fused"
+  ],
+  "warmups": 3,
+  "repeats": 7,
+  "batches": 16,
+  "fresh_models_accessed": false,
+  "reason": "Input-only allocation can precede the first network call; count one fused320 call versus full512, with identical masks and outputs. No policy change."
+}

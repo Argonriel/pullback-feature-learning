@@ -1,0 +1,40 @@
+{
+  "started_utc": "2026-11-22T01:53:33.627373+00:00",
+  "config_source": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\configs\\learned_geometry_gate_refinement_20261121.json",
+  "config_sha256": "a85b1812d2cf220a7aa98ad5301e315edcf4164088b3042f39070556002effc9",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "numpy": "2.5.5",
+  "source_sha256": {
+    "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\experiments\\learned_geometry_gate_20261121\\runner.py": "c4960d7703bd67e16da78cbc9f61b7d5396680acc7e39e8ad6814f63203f5d9e",
+    "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\src\\pullback_feature_learning\\core.py": "524eca66593eff85c60ac17ef42aa7b7e972c05ded981ddd5b3f4e1688b16ff5",
+    "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\pullback-feature-learning\\src\\pullback_feature_learning\\data.py": "40126e817fd391fc75007677864f182fac2b103163cd0a83b7f3a383f6c2c703"
+  },
+  "timing_role": "diagnostic_only_includes_shared_controller_and_jacobians",
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\liwei\\Documents\\ChatGPT\\277\\.venv\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-4e39871015dc1470c682dc512497ee22.dll",
+      "version": "0.3.34.237.2",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    }
+  ],
+  "finished_utc": "2026-11-22T01:54:01.330650+00:00",
+  "run_count": 32,
+  "completed_runs": 32,
+  "state_count": 128,
+  "output_sha256": {
+    "actual_seeds.json": "6fc764d572e7791d8b01a41bca19b060ce38bd01568517b159c7943b41a7aa1f",
+    "config.json": "d417e23167331afd43f947fe4b761f794dd79fb9c7ad762bddd23b4ea379748f",
+    "data.npz": "4eec4a9a44094d978b8f03a9e968931f64d653421e48a29b84134f1741f0e180",
+    "snapshots.csv": "593659cc98c850b91dd55284f31b17a64190f975347d5f76d4158d067f841934",
+    "snapshots.json": "3f87574ae89a3eeb6b7fde649b0ab93adb6c0e0bb2b3124fd938495488c9e2f0",
+    "states.npz": "7ec1e7c129473b13a5dd89ef9e6acbcdf3eafe90cfd34e3ab0083f4c3b84535e",
+    "summaries.csv": "c5888c1fd00a7188b750eb1049076e37341d0d03c666746073a7f38c2ad86011",
+    "trajectory.csv": "0a8efa7522e5ab6640ba0469a7c37bf117b453963a32503b3493dec90e0de977"
+  }
+}

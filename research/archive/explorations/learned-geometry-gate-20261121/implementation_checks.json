@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "checks": [
+    "full_two_coordinate_affine_map",
+    "initial_direction_equality",
+    "unread_coordinate_metric_included",
+    "71_step_fixed_kernel_trajectory",
+    "nonlinear_fixed_metric_gradient",
+    "sum_metric_duplicate_scaling",
+    "all_five_arms_progress_controller_both_tasks"
+  ],
+  "fixed_kernel_max_error": 3.552713678800501e-15,
+  "smoke": [
+    {
+      "task": "moons",
+      "arm": "nonlinear_gd",
+      "step": 21,
+      "elapsed_training_seconds": 0.01302640000358224
+    },
+    {
+      "task": "moons",
+      "arm": "nonlinear_pb",
+      "step": 30,
+      "elapsed_training_seconds": 0.021858999971300364
+    },
+    {
+      "task": "moons",
+      "arm": "tangent_gd",
+      "step": 21,
+      "elapsed_training_seconds": 0.001611199986655265
+    },
+    {
+      "task": "moons",
+      "arm": "tangent_pb",
+      "step": 19,
+      "elapsed_training_seconds": 0.003984300012234598
+    },
+    {
+      "task": "moons",
+      "arm": "nonlinear_fixed_pb",
+      "step": 47,
+      "elapsed_training_seconds": 0.03605530000641011
+    },
+    {
+      "task": "rings",
+      "arm": "nonlinear_gd",
+      "step": 67,
+      "elapsed_training_seconds": 0.035326499986695126
+    },
+    {
+      "task": "rings",
+      "arm": "nonlinear_pb",
+      "step": 54,
+      "elapsed_training_seconds": 0.03942990000359714
+    },
+    {
+      "task": "rings",
+      "arm": "tangent_gd",
+      "step": 285,
+      "elapsed_training_seconds": 0.014274499990278855
+    },
+    {
+      "task": "rings",
+      "arm": "tangent_pb",
+      "step": 151,
+      "elapsed_training_seconds": 0.027721499995095655
+    },
+    {
+      "task": "rings",
+      "arm": "nonlinear_fixed_pb",
+      "step": 70,
+      "elapsed_training_seconds": 0.050509900000179186
+    }
+  ],
+  "smoke_seconds": 0.25808800000231713
+}

@@ -1,0 +1,8 @@
+{
+  "timestamp_utc": "2026-11-21T09:37:05.688172+00:00",
+  "n_audited_batches": 64,
+  "n_test_inputs_per_model": 16384,
+  "all_selected_sets_identical": true,
+  "max_logit_error": 0.0,
+  "audit_sha256": "8bf46f30ca82cb642c9263aea27aec73ad2c497a7262f95d311347b665961b31"
+}

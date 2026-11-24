@@ -1,0 +1,17 @@
+{
+  "timestamp_utc": "2026-11-21T09:36:15.623214+00:00",
+  "checks": [
+    {
+      "device": "cpu",
+      "signed_zero_duplicates_subnormal_extremes_pass": true,
+      "selected": 64
+    },
+    {
+      "device": "cuda",
+      "signed_zero_duplicates_subnormal_extremes_pass": true,
+      "selected": 64
+    }
+  ],
+  "fresh_test_outcomes_accessed": false,
+  "source_sha256": "8f89b42d83c2bcc015eeaf01f266866cf0c6b473d648397ce40100291aae6cbc"
+}

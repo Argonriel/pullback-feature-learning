@@ -1,0 +1,8 @@
+{
+  "n_root": 128,
+  "successful_root": 107,
+  "failed_norm_cap": 21,
+  "n_paired_metric_contrast": 132,
+  "max_fd_loss_disagreement": 1.3214846085607983e-06,
+  "max_fd_outcome_disagreement": 0.0008032128514057558
+}

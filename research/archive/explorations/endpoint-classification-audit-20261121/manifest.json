@@ -1,0 +1,57 @@
+{
+  "created_utc": "2026-11-22T03:17:15.178843+00:00",
+  "files": {
+    "ALGEBRA_REDUCTION.md": {
+      "sha256": "1d2819fb23dae1d86cd653883dfa3133ac7b940c5c6c0dee8fc619bb1133b52f",
+      "bytes": 16369
+    },
+    "AUDIT_REGISTER.md": {
+      "sha256": "d9c8efaeda44e42bb58f1b570b08ef8b089c3443eda713fe16df3a0412daeb75",
+      "bytes": 2210
+    },
+    "DATA_DICTIONARY.md": {
+      "sha256": "582de72f0730feaa1f0a9a57d099ace046e207d00cb2dba71d95784ec734b3c6",
+      "bytes": 3921
+    },
+    "finite_damping_validation/matrices.npz": {
+      "sha256": "2844f68ac855cf75e0e18ff41d1832428ee93f4cdbb8ab83f2960aba53a37580",
+      "bytes": 7668
+    },
+    "finite_damping_validation/results.json": {
+      "sha256": "e34e6d15458d34f9554e9ca3aeb8db8a2592610d6593d5f1905311b27b49f745",
+      "bytes": 2373
+    },
+    "FINITEDAMPING_AUDIT.md": {
+      "sha256": "c3ac8e0ecae1c492044464b8bfc01f9c6d71bfae2368acd7c49b45710df88455",
+      "bytes": 10448
+    },
+    "provenance.json": {
+      "sha256": "cce2cc32760ef9e72f7d3227d8343f351600f3e82e43bd68c6b2c92436139221",
+      "bytes": 1490
+    },
+    "REFEREE_AUDIT.md": {
+      "sha256": "16c3edafe1c49edb56dd3d8fd78092c52e1fe6a5b98369929460a4fdad48860c",
+      "bytes": 8718
+    },
+    "REPORT.md": {
+      "sha256": "e2c90d73d7223d44ba3712dc3c4006e5838cf509dc60ecc985c51518f04ec8a9",
+      "bytes": 11773
+    },
+    "SEARCH_LEDGER.md": {
+      "sha256": "e9a1f17e446a089b03c404cb4ea61bccb5682efdd9c68a26b4243f3ca1b7e77f",
+      "bytes": 8921
+    },
+    "source_snapshot/README.md": {
+      "sha256": "04fb60196bfa1361d0df8302599429a8e05520bfcf843f37e66fbbf0f15152d5",
+      "bytes": 818
+    },
+    "source_snapshot/verify_finite_damping.py": {
+      "sha256": "f46d0411bd8ec1fec86cbefc56b3f82f1f90910d279d36c072715e3e4984112b",
+      "bytes": 7167
+    },
+    "STRICT_NOVELTY_AUDIT.md": {
+      "sha256": "11d4d20ff8bdcc25f62a01b4e1b65e7fd3a21913d741c21bc85f58b17ad16819",
+      "bytes": 21361
+    }
+  }
+}

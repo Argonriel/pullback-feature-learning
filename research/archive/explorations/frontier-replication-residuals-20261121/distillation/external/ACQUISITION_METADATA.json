@@ -1,0 +1,23 @@
+[
+  {
+    "name": "index.html",
+    "url": "https://vision.cs.utexas.edu/projects/finegrained/utzap50k/",
+    "bytes": 17307,
+    "sha256": "7eab409cd113b99987772c95968eb89a575985b5960b41cbefedeaef2c051359",
+    "utc": "2026-11-22T00:07:47.532225+00:00"
+  },
+  {
+    "name": "readme.txt",
+    "url": "https://vision.cs.utexas.edu/projects/finegrained/utzap50k/readme.txt",
+    "bytes": 7702,
+    "sha256": "25a3b819891306692720c9292fa2d34e5f6b13a8aeba6c33d52e6cd5eaba80d7",
+    "utc": "2026-11-22T00:07:47.658301+00:00"
+  },
+  {
+    "name": "ut-zap50k-data.zip",
+    "url": "https://vision.cs.utexas.edu/projects/finegrained/utzap50k/ut-zap50k-data.zip",
+    "bytes": 8558968,
+    "sha256": "3fe11bf5842084b65b9ef9535a4b2fd8be9e6167b8d866a43e11f4c98a03330a",
+    "utc": "2026-11-22T00:07:48.458066+00:00"
+  }
+]

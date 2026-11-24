@@ -1,0 +1,6 @@
+{
+  "utc": "2026-11-21T22:42:12.806755+00:00",
+  "fresh_authorized": true,
+  "source_freeze_sha256": "6be8045fd035318db8eed9fad12d16f3af0d110220476305481a6f5ce735610b",
+  "root_review": "Equal-label allocation, normalized PB step, fixed-pipeline fits, independent streams, primary contrasts and forward costs reviewed; independent development gradient and replication checks passed."
+}

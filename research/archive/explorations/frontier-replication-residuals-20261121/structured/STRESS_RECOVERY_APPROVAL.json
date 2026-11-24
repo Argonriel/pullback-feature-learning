@@ -1,0 +1,7 @@
+{
+  "utc": "2026-11-22T00:32:40.915664+00:00",
+  "recovery_freeze_sha256": "233b26eae367c63bf96e1213b06ee761fb0b41aa65a916eba7c4d25a7e4c0b8b",
+  "execution_authorized": true,
+  "review": "Original stress function diff verified: new output paths and metadata only, plus guarded endpoint clipping <=1e-12. Identical seeds/models/estimands. Original failed attempt preserved and charged131712 forwards.",
+  "timing_window": "Allocation complete-fit benchmark has finished; numerical work released."
+}

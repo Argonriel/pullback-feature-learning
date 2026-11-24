@@ -1,0 +1,1 @@
+{"outcomes_seen": false, "reason": "Parent scientific review requested consistent float64 final quality outputs and hash-bound release. Added inclusive per-arm fitting elapsed time to account for all preparation and serialization overhead.", "superseded_freeze": "SOURCE_FREEZE_PREEXECUTION_V1.json"}

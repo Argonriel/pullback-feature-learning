@@ -1,0 +1,457 @@
+{
+  "models_per_family": 32,
+  "families": 2,
+  "family_confidence": 0.95,
+  "joint_two_family_confidence_not_claimed": true,
+  "checks": [
+    {
+      "mode": "known",
+      "cohort": "rings",
+      "seed": 1,
+      "gain_lower": 0.0026081387477836166,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "rings",
+      "seed": 2,
+      "gain_lower": 0.006498211579597237,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "rings",
+      "seed": 3,
+      "gain_lower": 0.006214615910520145,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "rings",
+      "seed": 4,
+      "gain_lower": 0.009755898222851894,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "rings",
+      "seed": 5,
+      "gain_lower": 0.00880991740586093,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "rings",
+      "seed": 6,
+      "gain_lower": 0.00785577331288916,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "rings",
+      "seed": 7,
+      "gain_lower": 0.007687772148273434,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "rings",
+      "seed": 8,
+      "gain_lower": 0.010724527160304463,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "rings",
+      "seed": 9,
+      "gain_lower": 0.0090509675136624,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "rings",
+      "seed": 10,
+      "gain_lower": 0.004368932758400494,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "rings",
+      "seed": 11,
+      "gain_lower": 0.005249284136191077,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "rings",
+      "seed": 12,
+      "gain_lower": 0.018827754472032256,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "rings",
+      "seed": 13,
+      "gain_lower": 0.0037110396746217883,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "rings",
+      "seed": 14,
+      "gain_lower": 0.009516144980840226,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "rings",
+      "seed": 15,
+      "gain_lower": 0.005357436303466604,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "rings",
+      "seed": 16,
+      "gain_lower": 0.009708058765777563,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "transfer",
+      "seed": 1,
+      "gain_lower": 0.05764778090267203,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "transfer",
+      "seed": 2,
+      "gain_lower": 0.03517099952052117,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "transfer",
+      "seed": 3,
+      "gain_lower": 0.023030829911185373,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "transfer",
+      "seed": 4,
+      "gain_lower": 0.017704865630511154,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "transfer",
+      "seed": 5,
+      "gain_lower": 0.05022228095426925,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "transfer",
+      "seed": 6,
+      "gain_lower": 0.03700399727664902,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "transfer",
+      "seed": 7,
+      "gain_lower": 0.013631982346474359,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "transfer",
+      "seed": 8,
+      "gain_lower": 0.040730354600371534,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "transfer",
+      "seed": 9,
+      "gain_lower": 0.04485709404283846,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "transfer",
+      "seed": 10,
+      "gain_lower": 0.016505679304044975,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "transfer",
+      "seed": 11,
+      "gain_lower": 0.03756653126619859,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "transfer",
+      "seed": 12,
+      "gain_lower": 0.021055169661154238,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "transfer",
+      "seed": 13,
+      "gain_lower": 0.04128029535442279,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "transfer",
+      "seed": 14,
+      "gain_lower": 0.03487283743108935,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "transfer",
+      "seed": 15,
+      "gain_lower": 0.05047634658265122,
+      "all_passed": true
+    },
+    {
+      "mode": "known",
+      "cohort": "transfer",
+      "seed": 16,
+      "gain_lower": 0.026398402089498858,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "rings",
+      "seed": 1,
+      "gain_lower": 0.0021707869400826446,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "rings",
+      "seed": 2,
+      "gain_lower": 0.006293130108853592,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "rings",
+      "seed": 3,
+      "gain_lower": 0.00593596646024221,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "rings",
+      "seed": 4,
+      "gain_lower": 0.009072127782190537,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "rings",
+      "seed": 5,
+      "gain_lower": 0.008587245361991222,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "rings",
+      "seed": 6,
+      "gain_lower": 0.007426735009433485,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "rings",
+      "seed": 7,
+      "gain_lower": 0.007495299299590559,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "rings",
+      "seed": 8,
+      "gain_lower": 0.010301894781641088,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "rings",
+      "seed": 9,
+      "gain_lower": 0.008543009804878687,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "rings",
+      "seed": 10,
+      "gain_lower": 0.00414091225400426,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "rings",
+      "seed": 11,
+      "gain_lower": 0.005018111866154167,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "rings",
+      "seed": 12,
+      "gain_lower": 0.01836478351947589,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "rings",
+      "seed": 13,
+      "gain_lower": 0.003473565352199779,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "rings",
+      "seed": 14,
+      "gain_lower": 0.009332764269845886,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "rings",
+      "seed": 15,
+      "gain_lower": 0.0048251063777961945,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "rings",
+      "seed": 16,
+      "gain_lower": 0.009462862313734747,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "transfer",
+      "seed": 1,
+      "gain_lower": 0.0556287362418986,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "transfer",
+      "seed": 2,
+      "gain_lower": 0.03461558272657025,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "transfer",
+      "seed": 3,
+      "gain_lower": 0.021735959709316077,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "transfer",
+      "seed": 4,
+      "gain_lower": 0.016850548716877467,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "transfer",
+      "seed": 5,
+      "gain_lower": 0.04948852955289312,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "transfer",
+      "seed": 6,
+      "gain_lower": 0.03630073799990334,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "transfer",
+      "seed": 7,
+      "gain_lower": 0.012591893809273814,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "transfer",
+      "seed": 8,
+      "gain_lower": 0.03976610255977753,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "transfer",
+      "seed": 9,
+      "gain_lower": 0.04401402641865669,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "transfer",
+      "seed": 10,
+      "gain_lower": 0.015627844202294898,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "transfer",
+      "seed": 11,
+      "gain_lower": 0.03634361243411593,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "transfer",
+      "seed": 12,
+      "gain_lower": 0.020086149000795646,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "transfer",
+      "seed": 13,
+      "gain_lower": 0.04048447417498312,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "transfer",
+      "seed": 14,
+      "gain_lower": 0.03416903237333611,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "transfer",
+      "seed": 15,
+      "gain_lower": 0.04961376911983637,
+      "all_passed": true
+    },
+    {
+      "mode": "empirical",
+      "cohort": "transfer",
+      "seed": 16,
+      "gain_lower": 0.02552004565497113,
+      "all_passed": true
+    }
+  ],
+  "all_passed": true
+}
